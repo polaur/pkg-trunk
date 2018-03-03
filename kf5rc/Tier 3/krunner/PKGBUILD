@@ -6,7 +6,7 @@
 
 pkgname=krunner
 pkgver=5.44rc
-_tagver=5.44.0.rc1
+_tagver=5.44.0-rc1
 pkgrel=1
 pkgdesc='Framework for providing different actions given a string query'
 arch=('x86_64')
