@@ -1,0 +1,132 @@
+Kolejność budowania KF5. Stan od wydania 5.43. Będzie funkcjonować dopóki nie zostanie zmieniony.
+
+UWAGA: Proponowana przeze mnie kolejność budowania jest odmienna od wskazanej na stronach Linux From Scratch.
+Wg mnie wskazana tam kolejność jest wadliwa! (m.in. sugeruje budowanie paczki attica przed extra-cmake-modules,
+które jest wymagane jako zależność do jej zbudowania (makedepends). 
+
+extra-cmake-modules
+
+Tier 1 - Wszystkie paczki budowane w Tier 1 nie są zależne od żadnej innej paczki KF5 oprócz 
+extra-cmake-modules. W zasadzie mogą być budowane równolegle. Kolejność alfabetyczna. Nie ma znaczenia.
+
+attica
+bluez-qt
+breeze-icons
+kapidox
+karchive
+kcodecs
+kconfig
+kcoreaddons
+kdbusaddons
+kdnssd
+kguiaddons
+kholidays
+ki18n
+kidletime
+kirigami2
+kitemmodels
+kitemviews
+kplotting
+kwayland
+kwidgetsaddons
+kwindowsystem
+modemmanager-qt
+networkmanager-qt
+prison
+solid
+sonnet
+syntax-highlighting
+threadweaver
+
+Tier 2 - Paczki muszą być budowane po Tier 1, choć niektóre z nich nie wymagają zbudowania całego zestawu 
+Tier 1. Po zbudowaniu Tier 1, mogą być budowane równolegle. Kolejność alfabetyczna - nie ma znaczenia, o ile
+Tier 1 został zbudowany w całości.
+Sugeruję budowę całości Tier 1 przed Tier 2. Jeśli jednak ktoś chce korzystać wyłącznie z części KF5, 
+to istnieje możliwość zbudowania paczek z tego Tier przed zbudowaniem wszystkich paczek z Tier 1. 
+Przy każdej paczce podaję wymagane zależności (depends lub makedepends) z Tier 1, które umożliwiają zbudowanie
+paczki. Pomijam extra-cmake-modules. 
+Paczki z Tier 2 można zatem zacząć budować jeszcze w trakcie budowy Tier 1, ważne, by ich zależności były już 
+zbudowane.
+
+kactivities (kcoreaddons, kconfig, kwindowsystem)
+kauth (kcoreaddons)
+kcompletion (kwidgetsaddons, kconfig)
+kcrash (kcoreaddons, kwindowsystem)
+kdoctools (karchive)
+kfilemetadata (ki18n, karchive)
+kimageformats (karchive)
+kjobwidgets (kcoreaddons, kwidgetsaddons)
+knotifications (kwindowsystem, kconfig, kcodecs, kcoreaddons)
+kpackage (karchive, ki18n, kcoreaddons, kdoctools)
+kpty (kcoreaddons, ki18n)
+kunitconversion (ki18n)
+
+Tier 3 - Uwaga - te paczki mogą być zależne od innych paczek w tym samym Tier. Kolejność podania ma znaczenie! 
+Dla budujących całość KF5 nie mają już znaczenia kwestie związane z Tier 2 czy Tier 1. 
+Pogrubieniem podaję zależności wewnątrztierowe. Kolejność została uporządkowana cyframi. 
+Wszystkie paczki na danym "poziomie" mogą być budowane równolegle.
+
+1. Paczki wyłącznie zależne od Tier 1 lub 2.
+kactivities-stats (kactivities)
+kglobalaccel (kdbusaddons, kconfig, kcrash)
+kconfigwidgets (kauth, kcodecs, kconfig, kguiaddons, ki18n, kwindgetsaddons)
+kservice (ki18n, kconfig, kcrash, kdbusaddons)
+
+2. Paczki zależne od paczek z Tier 3, ale niewymagające innych paczek zależnych od Tier 3
+kdesu (**kservice, kpty)
+kemoticons (**kservice, karchive)
+kiconthemes (**kconfigwidgets, kitemviews, karchive)
+kpeople (**kservice, kwidgetsaddons, kitemviews)
+
+3. Paczki wielokrotnie zależne od Tier 3 (czyli zależne od grupy 2).
+kwallet (knotifications, **kiconthemes, **kservice, kdoctools)
+ktextwidgets (**kservice, **kiconthemes, kcompletion, sonnet)
+
+4. Paczki zależne od grupy 3.
+kxmlgui (**kglobalaccel, **ktextwidgets, attica)
+
+5. Paczki zależne od grupy 4
+kbookmarks (**kxmlgui)
+
+6. KIO
+kio (solid, kjobwidgets, kbookmarks, kwallet, kdoctools)
+
+7. Paczki zależne od KIO bezpośrednio
+kdeclarative (**kio, kpackage)
+kdesignerplugin (**kio, kplotting)
+baloo (**kio, kfilemetadata, kidletime)
+kparts (**kio)
+kinit (**kio, kdoctools)
+knewstuff (**kio, ew. kirigami2)
+knotifyconfig (**kio)
+kxmlrpcclient (**kio)
+purpose (ki18n, kconfig, kcoreaddons, **kio)
+
+8. Zależne od zależności KIO
+kcmutils (**kdeclarative)
+kded (**kinit, kdoctools)
+kdewebkit (**kparts)
+ktexteditor (**kparts, syntax-highlighting)
+plasma-framework (**kdeclarative, kactivities, kwayland, kirigami2)
+
+9. Zależne od plasma-framework
+krunner (**plasma-framework, threadweaver, kdoctools)
+
+Tier 4 - Zależne od Tier 3
+frameworkintegration (knewstuff, kpackage)
+qqc2-desktop-style (kconfigwidgets, kiconthemes)
+
+Porting Aids - Zwykło się je umieszczać na końcu i budować po zbudowaniu całości KF5 (bo inaczej po prostu 
+nie mają one większego znaczenia). W całości stanowią Tier 3, czyli mogą być od siebie zależne. 
+Kolejność ma znaczenie. Niektóre z nich mogą być zbudowane już wcześniej, przed ukończeniem budowy Tier 4, 
+a nawet Tier 3.
+
+1. Zależne wyłącznie od KF5 (Tier 1-3)
+kross (kparts, kdoctools)
+kmediaplayer (kparts)
+kdelibs4support (kitemmodels, kunitconversion, kemoticons, kded, kparts, kdoctools, kdesignerplugin)
+kjs (kdoctools)
+
+2. Zależne od Porting Aids (wyłącznie od kjs)
+khtml (kjs, kparts)
+kjsembed (kjs, ki18n)

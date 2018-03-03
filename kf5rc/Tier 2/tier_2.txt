@@ -1,0 +1,13 @@
+kactivities
+kauth
+kcompletion
+kcrash
+kdoctools
+kfilemetadata
+kimageformats
+kjobwidgets
+knotifications
+kpackage
+kpty
+kunitconversion
+tier_2.txt
