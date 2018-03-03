@@ -13,7 +13,7 @@ arch=('x86_64')
 url="https://projects.kde.org/projects/kde/pim/kxmlrpcclient"
 license=('LGPL')
 depends=('kio')
-makedepends=('extra-cmake-modules' 'python' 'doxygen' 'qt5-tools')
+makedepends=('extra-cmake-modules' 'python' 'doxygen' 'qt5-tools' 'git')
 groups=('kf5')
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')

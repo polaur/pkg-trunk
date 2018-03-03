@@ -13,7 +13,7 @@ arch=('x86_64')
 url='https://community.kde.org/Frameworks'
 license=('LGPL')
 depends=('kcoreaddons' 'kwindowsystem')
-makedepends=('extra-cmake-modules' 'mesa' 'doxygen' 'qt5-tools')
+makedepends=('extra-cmake-modules' 'mesa' 'doxygen' 'qt5-tools' 'git')
 optdepends=('drkonqi: KDE crash handler application')
 groups=('kf5')
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")

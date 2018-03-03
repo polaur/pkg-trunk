@@ -13,7 +13,7 @@ arch=('any')
 url='https://community.kde.org/Frameworks'
 license=('LGPL')
 depends=('cmake' 'python2')
-makedepends=('python-sphinx' 'python-requests' 'qt5-tools')
+makedepends=('python-sphinx' 'python-requests' 'qt5-tools' 'git')
 source=("extra-cmake-modules-${_tagver}::git://anongit.kde.org/$pkgname.git#tag=${_tagver}"
         fix-python-bindings-generation.patch ECM-no-init.py.patch)
 sha256sums=('SKIP'

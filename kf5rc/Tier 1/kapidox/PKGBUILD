@@ -14,7 +14,7 @@ url='https://community.kde.org/Frameworks'
 license=('LGPL')
 depends=('python' 'bash')
 #depends=('python-jinja' 'python-yaml')
-makedepends=('extra-cmake-modules' 'qt5-base')
+makedepends=('extra-cmake-modules' 'qt5-base' 'git')
 groups=('kf5')
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')

@@ -13,7 +13,7 @@ url='https://community.kde.org/Frameworks'
 license=(LGPL)
 groups=(kf5)
 depends=(kirigami2 kiconthemes)
-makedepends=(extra-cmake-modules)
+makedepends=(extra-cmake-modules git)
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')
 

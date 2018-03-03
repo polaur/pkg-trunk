@@ -14,7 +14,7 @@ arch=('x86_64')
 url='https://www.kde.org'
 license=('LGPL')
 depends=('qt5-base')
-makedepends=('extra-cmake-modules' 'doxygen' 'qt5-tools')
+makedepends=('extra-cmake-modules' 'doxygen' 'qt5-tools' 'git')
 groups=('kf5')
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')

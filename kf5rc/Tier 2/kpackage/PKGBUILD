@@ -14,7 +14,7 @@ arch=('x86_64')
 url='https://community.kde.org/Frameworks'
 license=('LGPL')
 depends=('karchive' 'ki18n' 'kcoreaddons')
-makedepends=('extra-cmake-modules' 'qt5-tools' 'python' 'kdoctools' 'doxygen')
+makedepends=('extra-cmake-modules' 'qt5-tools' 'python' 'kdoctools' 'doxygen' 'git')
 groups=('kf5')
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')

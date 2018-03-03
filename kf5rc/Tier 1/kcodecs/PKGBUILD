@@ -13,7 +13,7 @@ arch=('x86_64')
 url='https://community.kde.org/Frameworks'
 license=('LGPL')
 depends=('qt5-base' 'python' 'python2')
-makedepends=('extra-cmake-modules' 'qt5-tools' 'clang' 'python-pyqt5' 'python2-pyqt5' 'gperf' 'doxygen')
+makedepends=('extra-cmake-modules' 'qt5-tools' 'clang' 'python-pyqt5' 'python2-pyqt5' 'gperf' 'doxygen' 'git')
 optdepends=('python-pykf5: to use the Python 3 bindings' 'python2-pykf5: to use the Python 2 bindings')
 groups=('kf5')
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")

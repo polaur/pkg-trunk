@@ -12,7 +12,7 @@ arch=(x86_64)
 url='https://community.kde.org/Frameworks'
 license=(GPL2)
 depends=(qt5-declarative bluez)
-makedepends=(extra-cmake-modules mesa doxygen qt5-tools)
+makedepends=(extra-cmake-modules mesa doxygen qt5-tools git)
 groups=(kf5)
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')

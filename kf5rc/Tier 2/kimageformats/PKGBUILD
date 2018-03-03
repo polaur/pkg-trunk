@@ -13,7 +13,7 @@ arch=('x86_64')
 url='https://community.kde.org/Frameworks'
 license=('LGPL')
 depends=('qt5-base' 'openexr')
-makedepends=('extra-cmake-modules' 'karchive' 'mesa')
+makedepends=('extra-cmake-modules' 'karchive' 'mesa' 'git')
 optdepends=('karchive: plugin for Krita and OpenRaster images')
 groups=('kf5')
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")

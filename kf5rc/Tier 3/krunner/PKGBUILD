@@ -14,7 +14,7 @@ url='https://community.kde.org/Frameworks'
 license=('LGPL')
 groups=('kf5')
 depends=('plasma-framework' 'threadweaver')
-makedepends=('extra-cmake-modules' 'kdoctools' 'python' 'doxygen' 'qt5-tools')
+makedepends=('extra-cmake-modules' 'kdoctools' 'python' 'doxygen' 'qt5-tools' 'git')
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')
 

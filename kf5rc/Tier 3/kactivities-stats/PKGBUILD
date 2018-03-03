@@ -14,7 +14,7 @@ pkgdesc="A library for accessing the usage data collected by the activities syst
 url='https://community.kde.org/Frameworks'
 license=('LGPL')
 depends=('kactivities')
-makedepends=('extra-cmake-modules' 'boost' 'doxygen' 'qt5-tools')
+makedepends=('extra-cmake-modules' 'boost' 'doxygen' 'qt5-tools' 'git')
 groups=('kf5')
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')

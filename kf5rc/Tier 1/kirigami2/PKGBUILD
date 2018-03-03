@@ -14,7 +14,7 @@ url='https://community.kde.org/Frameworks'
 license=(LGPL)
 groups=(kf5)
 depends=(qt5-quickcontrols2 qt5-graphicaleffects)
-makedepends=(extra-cmake-modules qt5-tools plasma-framework)
+makedepends=(extra-cmake-modules qt5-tools git)
 source=("$pkgname-$_tagver::git://anongit.kde.org/$_pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')
 

@@ -13,7 +13,7 @@ arch=('x86_64')
 url='https://community.kde.org/Frameworks'
 license=('LGPL')
 depends=('qt5-base')
-makedepends=('extra-cmake-modules' 'qt5-tools' 'hunspell' 'aspell' 'hspell' 'libvoikko' 'doxygen')
+makedepends=('extra-cmake-modules' 'qt5-tools' 'hunspell' 'aspell' 'hspell' 'libvoikko' 'doxygen' 'git')
 optdepends=('hunspell: spell checking via hunspell' 'aspell: spell checking via aspell' 
             'hspell: spell checking for Hebrew' 'libvoikko: Finnish support via Voikko')
 groups=('kf5')

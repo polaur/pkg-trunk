@@ -13,7 +13,7 @@ arch=('x86_64')
 url='https://community.kde.org/Frameworks'
 license=('LGPL')
 depends=('kpackage' 'knewstuff')
-makedepends=('extra-cmake-modules' 'python' 'appstream-qt' 'packagekit-qt5')
+makedepends=('extra-cmake-modules' 'python' 'appstream-qt' 'packagekit-qt5' 'git')
 optdepends=('appstream-qt: dependency resolving via AppStream' 'packagekit-qt5: dependency resolving via AppStream')
 groups=('kf5')
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")

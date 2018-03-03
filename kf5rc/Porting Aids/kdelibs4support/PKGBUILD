@@ -13,7 +13,7 @@ arch=('x86_64')
 url='https://community.kde.org/Frameworks'
 license=('LGPL')
 depends=('kunitconversion' 'kitemmodels' 'kemoticons' 'kded' 'kparts')
-makedepends=('extra-cmake-modules' 'kdoctools' 'qt5-tools' 'networkmanager' 'perl-uri' 'python' 'kdesignerplugin')
+makedepends=('extra-cmake-modules' 'kdoctools' 'qt5-tools' 'networkmanager' 'perl-uri' 'python' 'kdesignerplugin' 'git')
 groups=('kf5-aids')
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')

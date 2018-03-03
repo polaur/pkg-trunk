@@ -12,7 +12,7 @@ arch=(x86_64)
 url='https://community.kde.org/Frameworks'
 license=(LGPL)
 depends=(kaccounts-integration accounts-qml-module hicolor-icon-theme kio kcoreaddons ki18n kconfig)
-makedepends=(extra-cmake-modules intltool python)
+makedepends=(extra-cmake-modules intltool python git)
 optdepends=('kdeconnect: sharing to smartphone via KDE Connect')
 groups=(kf5)
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
