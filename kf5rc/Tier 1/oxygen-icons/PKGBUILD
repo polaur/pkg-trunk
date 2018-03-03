@@ -1,0 +1,48 @@
+# pavbaranov: <pavbaranov at gmail dot com>
+# for RC version
+# made on original work by:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+# Contributor: Pierre Schmitz <pierre@archlinux.de>
+
+pkgbase=oxygen-icons
+pkgname=('oxygen-icons'
+         'oxygen-icons-svg')
+pkgver=5.44rc
+_tagver=v5.44.0-rc1
+epoch=1
+pkgrel=0
+pkgdesc="The Oxygen Icon Theme"
+arch=('any')
+url='https://community.kde.org/Frameworks'
+license=('LGPL')
+makedepends=('extra-cmake-modules' 'qt5-base' 'git')
+source=("$pkgname-$_tagver::git://anongit.kde.org/${pkgname}5.git#tag=${_tagver}")
+sha256sums=('SKIP')
+
+prepare() {
+  mkdir -p build
+}
+
+build() {
+  cd build
+  cmake ../${pkgbase}5-${_tagver} \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr
+  make
+}
+
+package_oxygen-icons() {
+  groups=('kf5')
+
+  cd build
+  make DESTDIR="$pkgdir" install
+}
+
+package_oxygen-icons-svg() {
+  pkgdesc="The Oxygen Icon Theme (Scalable Vector Graphics)"
+
+  cd ${pkgbase}5-${_tagver}
+  find scalable -type f ! -name '*.sh' -exec \
+    install -D -m644 "{}" "${pkgdir}/usr/share/icons/oxygen/{}" \;
+}
