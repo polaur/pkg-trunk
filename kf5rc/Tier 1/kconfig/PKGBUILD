@@ -7,7 +7,7 @@
 pkgname=kconfig
 pkgver=5.44rc
 _tagver=v5.44.0-rc1
-pkgrel=0
+pkgrel=1
 pkgdesc='Configuration system'
 arch=('x86_64')
 url='https://community.kde.org/Frameworks'
