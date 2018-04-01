@@ -8,7 +8,7 @@
 
 pkgname=dolphin
 pkgver=18.03.80
-pkgrel=1.1
+pkgrel=1.2
 pkgdesc="KDE File Manager"
 arch=(x86_64)
 url="https://kde.org/applications/system/dolphin/"
@@ -19,10 +19,12 @@ optdepends=('kde-cli-tools: for editing file type options' 'ffmpegthumbs: video 
             'ruby: installing new service menus from KDE Store' 'kdegraphics-thumbnailers: PDF and PS thumbnails' 'konsole: terminal panel')
 groups=(kde-applications kdebase)
 source=("https://download.kde.org/unstable/applications/$pkgver/src/$pkgname-$pkgver.tar.xz"{,.sig}
-D11481.patch::"https://cgit.kde.org/dolphin.git/patch/?id=40f9cfd519a3244929190146a3215ae12b98270b")
+D11481.patch::"https://cgit.kde.org/dolphin.git/patch/?id=40f9cfd519a3244929190146a3215ae12b98270b"
+kdebug-390771.patch::"https://cgit.kde.org/dolphin.git/patch/?id=e0f7fe87bdc2e32778cd6ce997b59b883cb245b8")
 sha256sums=('3584c5385d6226bce6077f1a01cc9c5d800715a0122bacf81eb8a113ce2da2a2'
             'SKIP'
-            '635121b3d7cfa968444dd59a47275c69f9c1e7d9357b08c26dd91a1cae026053')
+            '635121b3d7cfa968444dd59a47275c69f9c1e7d9357b08c26dd91a1cae026053'
+            '03e3895a65040b64c61a4e59e96f2c033dc5ce7babd064c078e97f518a08d78c')
 validpgpkeys=(CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7  # Albert Astals Cid <aacid@kde.org>
               F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87) # Christoph Feck <cfeck@kde.org>
 
@@ -32,6 +34,8 @@ prepare() {
 	cd $pkgname-$pkgver
 	msg "Add D11481 patch"
 	patch -p1 -i ../D11481.patch
+	msg "Add KDEBUG 390771 patch" # See: https://bugs.kde.org/show_bug.cgi?id=390771
+	patch -p1 -i ../kdebug-390771.patch
 }
 
 build() {
