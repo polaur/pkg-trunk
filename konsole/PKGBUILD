@@ -1,0 +1,48 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# for version with bugfix from github
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=konsole
+pkgver=18.03.80
+pkgrel=1.1
+arch=(x86_64)
+url='https://kde.org/applications/system/konsole/'
+pkgdesc="KDE's terminal emulator"
+license=(GPL LGPL FDL)
+groups=(kde-applications kdebase)
+depends=(knotifyconfig kpty kparts kinit)
+makedepends=(extra-cmake-modules kdoctools python)
+optdepends=('keditbookmarks: to manage bookmarks')
+source=("https://download.kde.org/unstable/applications/$pkgver/src/$pkgname-$pkgver.tar.xz"{,.sig}
+kdebug-391788.patch::"https://cgit.kde.org/konsole.git/patch/?id=88b9cf19"
+)
+sha256sums=('84445cd73fee9ab1c7a827f1a88092563575122d1d3607049bbf5aaab827de48'
+            'SKIP'
+            'a19e6143b12fed76c66e2a096df3c22a8c69bc9085d2ebdb7e33b6c8173fa41c')
+validpgpkeys=(CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7  # Albert Astals Cid <aacid@kde.org>
+              F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87) # Christoph Feck <cfeck@kde.org>
+
+prepare() {
+  mkdir -p build
+
+  cd $pkgname-$pkgver
+  msg "kdebug 391788 patch" # See: https://bugs.kde.org/show_bug.cgi?id=391788 Fixed in 18.04.
+  patch -p1 -i ../kdebug-391788.patch
+}
+
+build() {
+  cd build
+  cmake ../$pkgname-$pkgver \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_INSTALL_LIBDIR=lib \
+    -DBUILD_TESTING=OFF
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}
