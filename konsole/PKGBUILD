@@ -6,7 +6,7 @@
 
 pkgname=konsole
 pkgver=18.03.80
-pkgrel=1.1
+pkgrel=1.2
 arch=(x86_64)
 url='https://kde.org/applications/system/konsole/'
 pkgdesc="KDE's terminal emulator"
@@ -17,10 +17,12 @@ makedepends=(extra-cmake-modules kdoctools python)
 optdepends=('keditbookmarks: to manage bookmarks')
 source=("https://download.kde.org/unstable/applications/$pkgver/src/$pkgname-$pkgver.tar.xz"{,.sig}
 kdebug-391788.patch::"https://cgit.kde.org/konsole.git/patch/?id=88b9cf19"
+kdebug-361547.patch::"https://cgit.kde.org/konsole.git/patch/?id=a565bc97"
 )
 sha256sums=('84445cd73fee9ab1c7a827f1a88092563575122d1d3607049bbf5aaab827de48'
             'SKIP'
-            'a19e6143b12fed76c66e2a096df3c22a8c69bc9085d2ebdb7e33b6c8173fa41c')
+            'a19e6143b12fed76c66e2a096df3c22a8c69bc9085d2ebdb7e33b6c8173fa41c'
+            '0d8d840cea5b5e40c92f3e3181f4b403cfd3d684c8f598fd1908309492e228a7')
 validpgpkeys=(CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7  # Albert Astals Cid <aacid@kde.org>
               F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87) # Christoph Feck <cfeck@kde.org>
 
@@ -30,6 +32,8 @@ prepare() {
   cd $pkgname-$pkgver
   msg "kdebug 391788 patch" # See: https://bugs.kde.org/show_bug.cgi?id=391788 Fixed in 18.04.
   patch -p1 -i ../kdebug-391788.patch
+  msg "kdebug 361547 patch" # See: https://bugs.kde.org/show_bug.cgi?id=361547 
+  patch -p1 -i ../kdebug-361547.patch
 }
 
 build() {
