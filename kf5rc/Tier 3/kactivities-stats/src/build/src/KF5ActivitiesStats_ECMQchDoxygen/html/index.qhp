@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+  <namespace>org.kde.KActivitiesStats.5_45_0</namespace>
+  <virtualFolder>kactivitiesstats</virtualFolder>
+  <filterSection>
+    <filterAttribute>doxygen</filterAttribute>
+    <toc>
+      <section title="KActivitiesStats 5.45.0" ref="index.html">
+        <section title="Classes" ref="annotated.html">
+          <section title="Class List" ref="annotated.html">
+            <section title="KActivities">
+              <section title="Stats">
+                <section title="Terms">
+                  <section title="Activity" ref="structKActivities_1_1Stats_1_1Terms_1_1Activity.html">
+                    <section title="Activity" ref="structKActivities_1_1Stats_1_1Terms_1_1Activity.html#a24e42dbf622633b8b629de42cee93302" />
+                    <section title="Activity" ref="structKActivities_1_1Stats_1_1Terms_1_1Activity.html#a826ab6033dd1ee2b1912ea4d1370ae26" />
+                    <section title="any" ref="structKActivities_1_1Stats_1_1Terms_1_1Activity.html#adb4149c9d42ecf52786a89f3e72279e4" />
+                    <section title="current" ref="structKActivities_1_1Stats_1_1Terms_1_1Activity.html#a87517ac578abaa912377a4b831b96d1c" />
+                    <section title="global" ref="structKActivities_1_1Stats_1_1Terms_1_1Activity.html#a81b6dbc2043ea938a7f23efa578f4a14" />
+                    <section title="values" ref="structKActivities_1_1Stats_1_1Terms_1_1Activity.html#a82e2340e8d6b2e3ed0ee74578eab8aa7" />
+                  </section>
+                  <section title="Agent" ref="structKActivities_1_1Stats_1_1Terms_1_1Agent.html">
+                    <section title="Agent" ref="structKActivities_1_1Stats_1_1Terms_1_1Agent.html#a5deb059c1a41f0046bdab9090bd89855" />
+                    <section title="Agent" ref="structKActivities_1_1Stats_1_1Terms_1_1Agent.html#adc1be6be1001e3ec5eb0a429bafab7f1" />
+                    <section title="any" ref="structKActivities_1_1Stats_1_1Terms_1_1Agent.html#ad73cd09d0ad7d6873d0bc80634dd5d8b" />
+                    <section title="current" ref="structKActivities_1_1Stats_1_1Terms_1_1Agent.html#abe3ab4552227bb80eae894f191bd1ce5" />
+                    <section title="global" ref="structKActivities_1_1Stats_1_1Terms_1_1Agent.html#ad1f09462a516385c1aaf5a24f214d11a" />
+                    <section title="values" ref="structKActivities_1_1Stats_1_1Terms_1_1Agent.html#a98ebc7e0961febf9c590cb2eb5cffb10" />
+                  </section>
+                  <section title="Limit" ref="structKActivities_1_1Stats_1_1Terms_1_1Limit.html">
+                    <section title="Limit" ref="structKActivities_1_1Stats_1_1Terms_1_1Limit.html#ad66429c4653f3b365bae6338fd365c59" />
+                    <section title="all" ref="structKActivities_1_1Stats_1_1Terms_1_1Limit.html#a460779078aaadfc8bb139e2c83e2df3a" />
+                    <section title="value" ref="structKActivities_1_1Stats_1_1Terms_1_1Limit.html#a8513b5a6ef6e378e558ef80bbd175d13" />
+                  </section>
+                  <section title="Offset" ref="structKActivities_1_1Stats_1_1Terms_1_1Offset.html">
+                    <section title="Offset" ref="structKActivities_1_1Stats_1_1Terms_1_1Offset.html#aff8feb8978d83ac63ec920cb3f5616a5" />
+                    <section title="value" ref="structKActivities_1_1Stats_1_1Terms_1_1Offset.html#a6efcec6d17245fd7decd399ab0a37958" />
+                  </section>
+                  <section title="Type" ref="structKActivities_1_1Stats_1_1Terms_1_1Type.html">
+                    <section title="Type" ref="structKActivities_1_1Stats_1_1Terms_1_1Type.html#a7684c8439130a42c28a9ad742f00326c" />
+                    <section title="Type" ref="structKActivities_1_1Stats_1_1Terms_1_1Type.html#a362a6f0413e20bd7b21b23fc6d616327" />
+                    <section title="any" ref="structKActivities_1_1Stats_1_1Terms_1_1Type.html#ac77128204e59dd310a21fa166426c1b8" />
+                    <section title="values" ref="structKActivities_1_1Stats_1_1Terms_1_1Type.html#a7d1cb79e0bdac343ccf31bbede8fe124" />
+                  </section>
+                  <section title="Url" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html">
+                    <section title="Url" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html#abbad2f060add7ca0b24011ee8e23beb0" />
+                    <section title="Url" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html#a26e28dafaf5889f05a90a967338303f1" />
+                    <section title="contains" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html#af902e95f1ba92b42af7a077b7cda3403" />
+                    <section title="file" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html#a93347663516bf70d24465438ef352a33" />
+                    <section title="localFile" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html#ad7ad64dcdd3fc511a8c587b532de73ec" />
+                    <section title="startsWith" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html#acdefb3a4d75356b6abda1f64e6e98646" />
+                    <section title="values" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html#a7f506af1784a0edf7896396e8aa97392" />
+                  </section>
+                </section>
+                <section title="Query" ref="classKActivities_1_1Stats_1_1Query.html">
+                  <section title="Query" ref="classKActivities_1_1Stats_1_1Query.html#a1da83d602186c012a15cddf89d992f75" />
+                  <section title="Query" ref="classKActivities_1_1Stats_1_1Query.html#add005437822a1149bf640e019be886d5" />
+                  <section title="Query" ref="classKActivities_1_1Stats_1_1Query.html#a736884975591875261bbeb551fcb5856" />
+                  <section title="~Query" ref="classKActivities_1_1Stats_1_1Query.html#ab2a7f77f98e5670dbfb0e2cc296f45fc" />
+                  <section title="activities" ref="classKActivities_1_1Stats_1_1Query.html#aba5486ed5d1092d943f48582ffcc7b65" />
+                  <section title="addActivities" ref="classKActivities_1_1Stats_1_1Query.html#a9b6a09440a9ca6f4d28798f822b96bbc" />
+                  <section title="addAgents" ref="classKActivities_1_1Stats_1_1Query.html#aa9a62ea0fba61719aac4f5eaaf174cd4" />
+                  <section title="addTypes" ref="classKActivities_1_1Stats_1_1Query.html#a75bf7de00039ac19eb4041d8d864c71b" />
+                  <section title="addUrlFilters" ref="classKActivities_1_1Stats_1_1Query.html#a7fcacb3a24e167621993177cd126ed36" />
+                  <section title="agents" ref="classKActivities_1_1Stats_1_1Query.html#a1b2955bce03ceb4805e330ca909e62b6" />
+                  <section title="clearActivities" ref="classKActivities_1_1Stats_1_1Query.html#a92cac70ac9aa630016db72e481de9acb" />
+                  <section title="clearAgents" ref="classKActivities_1_1Stats_1_1Query.html#a81806914359be979ec0998e9b750f8db" />
+                  <section title="clearTypes" ref="classKActivities_1_1Stats_1_1Query.html#a30225c9f3bcb53f3bf47bca15daf861f" />
+                  <section title="clearUrlFilters" ref="classKActivities_1_1Stats_1_1Query.html#ac5a6b8bd752c132cdfc461cc3b785159" />
+                  <section title="limit" ref="classKActivities_1_1Stats_1_1Query.html#a029e1dad630b60f519bb3ecae5c144d1" />
+                  <section title="offset" ref="classKActivities_1_1Stats_1_1Query.html#aa0fafa8d7c237159ceb148d2ee5e787f" />
+                  <section title="operator!=" ref="classKActivities_1_1Stats_1_1Query.html#a26fba091ad2bebe4e68c53348bd0ca31" />
+                  <section title="operator=" ref="classKActivities_1_1Stats_1_1Query.html#a73c95359898692fc88844bae8ab77152" />
+                  <section title="operator==" ref="classKActivities_1_1Stats_1_1Query.html#a2626508c36997293ac0bcc8795b200cd" />
+                  <section title="ordering" ref="classKActivities_1_1Stats_1_1Query.html#a08fb10c2dd029593447358d44da38845" />
+                  <section title="removeActivities" ref="classKActivities_1_1Stats_1_1Query.html#a0aaa332e3d6ef4736fef97793929f9e8" />
+                  <section title="removeAgents" ref="classKActivities_1_1Stats_1_1Query.html#a4fab7f3b9e4b7061a2ed864a31e33d91" />
+                  <section title="removeTypes" ref="classKActivities_1_1Stats_1_1Query.html#aa9df02de73e5d0116b0f5e60e9a7e1ee" />
+                  <section title="removeUrlFilters" ref="classKActivities_1_1Stats_1_1Query.html#ab7f3a0a10eed33f2b8ebbea6f61eb84f" />
+                  <section title="selection" ref="classKActivities_1_1Stats_1_1Query.html#a1b8a1cca52539d8aef9e26c80669a31b" />
+                  <section title="setLimit" ref="classKActivities_1_1Stats_1_1Query.html#ad2a8b9ecc8574d876068aea4c0caeb89" />
+                  <section title="setOffset" ref="classKActivities_1_1Stats_1_1Query.html#a0f644aaabe72301ebb41d4b279b40b54" />
+                  <section title="setOrdering" ref="classKActivities_1_1Stats_1_1Query.html#aca90661283c5ea1ef773f96cbfa10264" />
+                  <section title="setSelection" ref="classKActivities_1_1Stats_1_1Query.html#a18cd7647e4530e6040c1ad7bd241f464" />
+                  <section title="types" ref="classKActivities_1_1Stats_1_1Query.html#aa5fd18141e2ad7d1f0ae144d005d2359" />
+                  <section title="urlFilters" ref="classKActivities_1_1Stats_1_1Query.html#a39e580a063ed7b134ceff38fa030e34a" />
+                  <section title="operator|" ref="classKActivities_1_1Stats_1_1Query.html#a6b3b23aed38212e2da65a44de193a484" />
+                  <section title="operator|" ref="classKActivities_1_1Stats_1_1Query.html#aa406d14a0c98c6177dbc8e9f7ef4a7b6" />
+                </section>
+                <section title="ResultModel" ref="classKActivities_1_1Stats_1_1ResultModel.html">
+                  <section title="Roles" ref="classKActivities_1_1Stats_1_1ResultModel.html#adabb6cfcd59e2bfd99d7ac676fcf08d6">
+                    <section title="ResourceRole" ref="classKActivities_1_1Stats_1_1ResultModel.html#adabb6cfcd59e2bfd99d7ac676fcf08d6a7fd6623305ec85c06943617348e5b85f" />
+                    <section title="TitleRole" ref="classKActivities_1_1Stats_1_1ResultModel.html#adabb6cfcd59e2bfd99d7ac676fcf08d6a6d7939668590f1651968fcdc3288ebb5" />
+                    <section title="ScoreRole" ref="classKActivities_1_1Stats_1_1ResultModel.html#adabb6cfcd59e2bfd99d7ac676fcf08d6a6a75f7343836b69db27dd38a7a5f4dd1" />
+                    <section title="FirstUpdateRole" ref="classKActivities_1_1Stats_1_1ResultModel.html#adabb6cfcd59e2bfd99d7ac676fcf08d6a2a2b80f1d408b96fe963cfd01ad10ca1" />
+                    <section title="LastUpdateRole" ref="classKActivities_1_1Stats_1_1ResultModel.html#adabb6cfcd59e2bfd99d7ac676fcf08d6a1c63bb868f55c098c1b2adcd04e47b56" />
+                    <section title="LinkStatusRole" ref="classKActivities_1_1Stats_1_1ResultModel.html#adabb6cfcd59e2bfd99d7ac676fcf08d6af380e2246db6b29fdd321deffd76b44b" />
+                    <section title="LinkedActivitiesRole" ref="classKActivities_1_1Stats_1_1ResultModel.html#adabb6cfcd59e2bfd99d7ac676fcf08d6a42defdbbfd095b73ecc3228de6068f28" />
+                  </section>
+                  <section title="ResultModel" ref="classKActivities_1_1Stats_1_1ResultModel.html#aa1d48e3ea11e0b750ad9b7371ed9b47c" />
+                  <section title="ResultModel" ref="classKActivities_1_1Stats_1_1ResultModel.html#a808bb69513b1c3073793f4bef65ccf0c" />
+                  <section title="~ResultModel" ref="classKActivities_1_1Stats_1_1ResultModel.html#ace971d82bb43ac0433f73d2bbeaecd7e" />
+                  <section title="canFetchMore" ref="classKActivities_1_1Stats_1_1ResultModel.html#aff59b2ba4d3dbaae18129ed6f595dc17" />
+                  <section title="data" ref="classKActivities_1_1Stats_1_1ResultModel.html#ada98964f0c1e2b4169db5b784679216b" />
+                  <section title="fetchMore" ref="classKActivities_1_1Stats_1_1ResultModel.html#aeb31dc6bb97151abc2fdfe30dda45a5c" />
+                  <section title="forgetAllResources" ref="classKActivities_1_1Stats_1_1ResultModel.html#a631a75f42afa4efcd295f3347c115398" />
+                  <section title="forgetResource" ref="classKActivities_1_1Stats_1_1ResultModel.html#a29cc6485ab39322abc5a6d3beaf5b672" />
+                  <section title="forgetResource" ref="classKActivities_1_1Stats_1_1ResultModel.html#ac924c2974e72ba121ad92a4dcf7af8c5" />
+                  <section title="headerData" ref="classKActivities_1_1Stats_1_1ResultModel.html#a9d8f41e860ae163d1bf213efec8c2275" />
+                  <section title="linkToActivity" ref="classKActivities_1_1Stats_1_1ResultModel.html#a012e33304364bfd8c9ec2abbcc7f10ef" />
+                  <section title="roleNames" ref="classKActivities_1_1Stats_1_1ResultModel.html#a4dfc27e388e46e88db670f73c33d62e3" />
+                  <section title="rowCount" ref="classKActivities_1_1Stats_1_1ResultModel.html#ab446670663d513f6764f00acaccb827b" />
+                  <section title="setResultPosition" ref="classKActivities_1_1Stats_1_1ResultModel.html#a36aa563e7e5e2fd5d9e5b560865a1010" />
+                  <section title="sortItems" ref="classKActivities_1_1Stats_1_1ResultModel.html#a17123435e7968d3ce457e39431f14b60" />
+                  <section title="unlinkFromActivity" ref="classKActivities_1_1Stats_1_1ResultModel.html#a9bed3c92b114375cbd1d5c2d7d82b311" />
+                  <section title="ResultModelPrivate" ref="classKActivities_1_1Stats_1_1ResultModel.html#a3e4f096afaa57f7172656697056eeade" />
+                </section>
+                <section title="ResultSet" ref="classKActivities_1_1Stats_1_1ResultSet.html">
+                  <section title="Result" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html">
+                    <section title="LinkStatus" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a6e33213ce2f814b5c4065e6047c353f5">
+                      <section title="NotLinked" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a6e33213ce2f814b5c4065e6047c353f5a9ae93e4c9b873d8800b8514c6f41d0d6" />
+                      <section title="Unknown" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a6e33213ce2f814b5c4065e6047c353f5aab087028e7b7d05125cef9f8b3803791" />
+                      <section title="Linked" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a6e33213ce2f814b5c4065e6047c353f5a3c17b4c0640f0ab6c1141a9b5ebaeb2f" />
+                    </section>
+                    <section title="Result" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a5e0353931ba0d60a222da910f0e95539" />
+                    <section title="~Result" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#aa97d1b0a6089c8bacd2560ff402a6dad" />
+                    <section title="Result" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#addb33057faaefb17f17090c0cfeb5fc6" />
+                    <section title="Result" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a1c1e6c55f300a65d3df1157acde5f28c" />
+                    <section title="firstUpdate" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a963661bd54d59ffb3f44dcf5971e2f4e" />
+                    <section title="lastUpdate" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a121c4aa235b6a038e5fc379e2c9e21ef" />
+                    <section title="linkedActivities" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#ad4897f2ddb698d93d265b96d8dcc7361" />
+                    <section title="linkStatus" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#aa829fa58d513823c8ea1b79493e732bb" />
+                    <section title="mimetype" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a30eeb6b9d105ba6b2dc43883b085a103" />
+                    <section title="operator=" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#ac4f4f2a9a8089b89960325eb62ce6677" />
+                    <section title="resource" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#aefcde5ac938bf5665a5be60ab37beb49" />
+                    <section title="score" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a1358a42f9fa4053af88e663474351353" />
+                    <section title="setFirstUpdate" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#ae9f8a26af60494f7118ce30c5a239523" />
+                    <section title="setLastUpdate" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#ad20187a40bd334a45489b4db0d82853a" />
+                    <section title="setLinkedActivities" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a1e18ca978774cc646d51402d55e7726a" />
+                    <section title="setLinkStatus" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#afd7df145c2c125ee8832a7955a2888cc" />
+                    <section title="setMimetype" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a825613a21cc501dcbd7cb92bcaeeaf8c" />
+                    <section title="setResource" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a2175247b921f52538e5b9a51c50634e8" />
+                    <section title="setScore" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a0c2f95e735aa54c342120ccc76b36f1d" />
+                    <section title="setTitle" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a8bebe3d92c67464cf0ab20e1233faf8a" />
+                    <section title="title" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a6434fed0e61a3f2dda85e0d15d66561c" />
+                  </section>
+                  <section title="value_type" ref="classKActivities_1_1Stats_1_1ResultSet.html#a3df1c038f1e1794eb17ed81a1486317b" />
+                  <section title="ResultSet" ref="classKActivities_1_1Stats_1_1ResultSet.html#ad704c8769381346dabb25133332514a5" />
+                  <section title="ResultSet" ref="classKActivities_1_1Stats_1_1ResultSet.html#ab3aa8e62abfe9505b862b7c42308cf59" />
+                  <section title="ResultSet" ref="classKActivities_1_1Stats_1_1ResultSet.html#a012f4d5499a7aaf30087af20ffb5112c" />
+                  <section title="~ResultSet" ref="classKActivities_1_1Stats_1_1ResultSet.html#ab45d1ded5232db88b34c40248b460388" />
+                  <section title="at" ref="classKActivities_1_1Stats_1_1ResultSet.html#a40cd583df7bec49b8787625f59b8c2d6" />
+                  <section title="begin" ref="classKActivities_1_1Stats_1_1ResultSet.html#a8d5477649fdefe241420d6991bb0f58b" />
+                  <section title="cbegin" ref="classKActivities_1_1Stats_1_1ResultSet.html#a6d6cbebb16b9f26e71ec67fa3b1f37b2" />
+                  <section title="cend" ref="classKActivities_1_1Stats_1_1ResultSet.html#a29940c85006aa15338cbd4238b961a02" />
+                  <section title="constBegin" ref="classKActivities_1_1Stats_1_1ResultSet.html#a7bb12c5303b7beffe200898b3066f02a" />
+                  <section title="constEnd" ref="classKActivities_1_1Stats_1_1ResultSet.html#af1dafc4dd9694408285c89983b6d3363" />
+                  <section title="end" ref="classKActivities_1_1Stats_1_1ResultSet.html#a75c9baae1eb749a4ede34b337c90a280" />
+                  <section title="operator=" ref="classKActivities_1_1Stats_1_1ResultSet.html#a0eaf4880dd2587599a139930cd4db426" />
+                  <section title="ResultSet_IteratorPrivate" ref="classKActivities_1_1Stats_1_1ResultSet.html#a4c62b0291772a21e2ac426d4fec1bdb7" />
+                </section>
+                <section title="ResultWatcher" ref="classKActivities_1_1Stats_1_1ResultWatcher.html">
+                  <section title="ResultWatcher" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#a2bab0ecebaacdbd43c2563f1ee7928d9" />
+                  <section title="~ResultWatcher" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#a29359dde31fe9acdeee23b416c00150c" />
+                  <section title="linkToActivity" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#a0291ff3714c59994d4e00190468c4d5f" />
+                  <section title="resourceMimetypeChanged" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#a1185d3c8e98f016d09c0ad9fd21ed6e1" />
+                  <section title="resourceTitleChanged" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#aec2fcf26a6be83c514d0a980af705c3f" />
+                  <section title="resultLinked" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#a6ae6fd4c6a9a5c1e8de93fb91a4b7e46" />
+                  <section title="resultRemoved" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#aed63718b3f5072924e2d3060ab082997" />
+                  <section title="resultScoreUpdated" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#ac50814e7f394ca9473280eddc41190aa" />
+                  <section title="resultsInvalidated" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#a41918b2a056fd8fa44c1d4a5e986723d" />
+                  <section title="resultUnlinked" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#a9113c29c467098530afde78c81c4c5c7" />
+                  <section title="unlinkFromActivity" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#a72039dbc8fd9f837f90ed8b6b6a566ee" />
+                </section>
+              </section>
+            </section>
+          </section>
+          <section title="Class Members" ref="functions.html">
+            <section title="All" ref="functions.html" />
+            <section title="Functions" ref="functions_func.html" />
+            <section title="Typedefs" ref="functions_type.html" />
+          </section>
+        </section>
+        <section title="Files" ref="files.html">
+          <section title="File List" ref="files.html">
+            <section title="cleaning.h" ref="cleaning_8h_source.html" />
+            <section title="query.h" ref="query_8h_source.html" />
+            <section title="resultmodel.h" ref="resultmodel_8h_source.html" />
+            <section title="resultset.h" ref="resultset_8h_source.html" />
+            <section title="resultwatcher.h" ref="resultwatcher_8h_source.html" />
+            <section title="terms.h" ref="terms_8h_source.html" />
+          </section>
+        </section>
+      </section>
+    </toc>
+    <keywords>
+      <keyword name="KActivities::Stats::Query" id="KActivities::Stats::Query" ref="classKActivities_1_1Stats_1_1Query.html" />
+      <keyword name="Query" id="KActivities::Stats::Query::Query" ref="classKActivities_1_1Stats_1_1Query.html#a1da83d602186c012a15cddf89d992f75" />
+      <keyword name="Query" id="KActivities::Stats::Query::Query" ref="classKActivities_1_1Stats_1_1Query.html#add005437822a1149bf640e019be886d5" />
+      <keyword name="Query" id="KActivities::Stats::Query::Query" ref="classKActivities_1_1Stats_1_1Query.html#a736884975591875261bbeb551fcb5856" />
+      <keyword name="activities" id="KActivities::Stats::Query::activities" ref="classKActivities_1_1Stats_1_1Query.html#aba5486ed5d1092d943f48582ffcc7b65" />
+      <keyword name="addActivities" id="KActivities::Stats::Query::addActivities" ref="classKActivities_1_1Stats_1_1Query.html#a9b6a09440a9ca6f4d28798f822b96bbc" />
+      <keyword name="addAgents" id="KActivities::Stats::Query::addAgents" ref="classKActivities_1_1Stats_1_1Query.html#aa9a62ea0fba61719aac4f5eaaf174cd4" />
+      <keyword name="addTypes" id="KActivities::Stats::Query::addTypes" ref="classKActivities_1_1Stats_1_1Query.html#a75bf7de00039ac19eb4041d8d864c71b" />
+      <keyword name="addUrlFilters" id="KActivities::Stats::Query::addUrlFilters" ref="classKActivities_1_1Stats_1_1Query.html#a7fcacb3a24e167621993177cd126ed36" />
+      <keyword name="agents" id="KActivities::Stats::Query::agents" ref="classKActivities_1_1Stats_1_1Query.html#a1b2955bce03ceb4805e330ca909e62b6" />
+      <keyword name="clearActivities" id="KActivities::Stats::Query::clearActivities" ref="classKActivities_1_1Stats_1_1Query.html#a92cac70ac9aa630016db72e481de9acb" />
+      <keyword name="clearAgents" id="KActivities::Stats::Query::clearAgents" ref="classKActivities_1_1Stats_1_1Query.html#a81806914359be979ec0998e9b750f8db" />
+      <keyword name="clearTypes" id="KActivities::Stats::Query::clearTypes" ref="classKActivities_1_1Stats_1_1Query.html#a30225c9f3bcb53f3bf47bca15daf861f" />
+      <keyword name="clearUrlFilters" id="KActivities::Stats::Query::clearUrlFilters" ref="classKActivities_1_1Stats_1_1Query.html#ac5a6b8bd752c132cdfc461cc3b785159" />
+      <keyword name="limit" id="KActivities::Stats::Query::limit" ref="classKActivities_1_1Stats_1_1Query.html#a029e1dad630b60f519bb3ecae5c144d1" />
+      <keyword name="offset" id="KActivities::Stats::Query::offset" ref="classKActivities_1_1Stats_1_1Query.html#aa0fafa8d7c237159ceb148d2ee5e787f" />
+      <keyword name="operator!=" id="KActivities::Stats::Query::operator!=" ref="classKActivities_1_1Stats_1_1Query.html#a26fba091ad2bebe4e68c53348bd0ca31" />
+      <keyword name="operator=" id="KActivities::Stats::Query::operator=" ref="classKActivities_1_1Stats_1_1Query.html#a73c95359898692fc88844bae8ab77152" />
+      <keyword name="operator==" id="KActivities::Stats::Query::operator==" ref="classKActivities_1_1Stats_1_1Query.html#a2626508c36997293ac0bcc8795b200cd" />
+      <keyword name="ordering" id="KActivities::Stats::Query::ordering" ref="classKActivities_1_1Stats_1_1Query.html#a08fb10c2dd029593447358d44da38845" />
+      <keyword name="removeActivities" id="KActivities::Stats::Query::removeActivities" ref="classKActivities_1_1Stats_1_1Query.html#a0aaa332e3d6ef4736fef97793929f9e8" />
+      <keyword name="removeAgents" id="KActivities::Stats::Query::removeAgents" ref="classKActivities_1_1Stats_1_1Query.html#a4fab7f3b9e4b7061a2ed864a31e33d91" />
+      <keyword name="removeTypes" id="KActivities::Stats::Query::removeTypes" ref="classKActivities_1_1Stats_1_1Query.html#aa9df02de73e5d0116b0f5e60e9a7e1ee" />
+      <keyword name="removeUrlFilters" id="KActivities::Stats::Query::removeUrlFilters" ref="classKActivities_1_1Stats_1_1Query.html#ab7f3a0a10eed33f2b8ebbea6f61eb84f" />
+      <keyword name="selection" id="KActivities::Stats::Query::selection" ref="classKActivities_1_1Stats_1_1Query.html#a1b8a1cca52539d8aef9e26c80669a31b" />
+      <keyword name="setLimit" id="KActivities::Stats::Query::setLimit" ref="classKActivities_1_1Stats_1_1Query.html#ad2a8b9ecc8574d876068aea4c0caeb89" />
+      <keyword name="setOffset" id="KActivities::Stats::Query::setOffset" ref="classKActivities_1_1Stats_1_1Query.html#a0f644aaabe72301ebb41d4b279b40b54" />
+      <keyword name="setOrdering" id="KActivities::Stats::Query::setOrdering" ref="classKActivities_1_1Stats_1_1Query.html#aca90661283c5ea1ef773f96cbfa10264" />
+      <keyword name="setSelection" id="KActivities::Stats::Query::setSelection" ref="classKActivities_1_1Stats_1_1Query.html#a18cd7647e4530e6040c1ad7bd241f464" />
+      <keyword name="types" id="KActivities::Stats::Query::types" ref="classKActivities_1_1Stats_1_1Query.html#aa5fd18141e2ad7d1f0ae144d005d2359" />
+      <keyword name="urlFilters" id="KActivities::Stats::Query::urlFilters" ref="classKActivities_1_1Stats_1_1Query.html#a39e580a063ed7b134ceff38fa030e34a" />
+      <keyword name="operator|" id="KActivities::Stats::Query::operator|" ref="classKActivities_1_1Stats_1_1Query.html#a6b3b23aed38212e2da65a44de193a484" />
+      <keyword name="operator|" id="KActivities::Stats::Query::operator|" ref="classKActivities_1_1Stats_1_1Query.html#aa406d14a0c98c6177dbc8e9f7ef4a7b6" />
+      <keyword name="KActivities::Stats::ResultModel" id="KActivities::Stats::ResultModel" ref="classKActivities_1_1Stats_1_1ResultModel.html" />
+      <keyword name="forgetAllResources" id="KActivities::Stats::ResultModel::forgetAllResources" ref="classKActivities_1_1Stats_1_1ResultModel.html#a631a75f42afa4efcd295f3347c115398" />
+      <keyword name="forgetResource" id="KActivities::Stats::ResultModel::forgetResource" ref="classKActivities_1_1Stats_1_1ResultModel.html#a29cc6485ab39322abc5a6d3beaf5b672" />
+      <keyword name="forgetResource" id="KActivities::Stats::ResultModel::forgetResource" ref="classKActivities_1_1Stats_1_1ResultModel.html#ac924c2974e72ba121ad92a4dcf7af8c5" />
+      <keyword name="setResultPosition" id="KActivities::Stats::ResultModel::setResultPosition" ref="classKActivities_1_1Stats_1_1ResultModel.html#a36aa563e7e5e2fd5d9e5b560865a1010" />
+      <keyword name="sortItems" id="KActivities::Stats::ResultModel::sortItems" ref="classKActivities_1_1Stats_1_1ResultModel.html#a17123435e7968d3ce457e39431f14b60" />
+      <keyword name="ResultModel" id="KActivities::Stats::ResultModel::ResultModel" ref="classKActivities_1_1Stats_1_1ResultModel.html#aa1d48e3ea11e0b750ad9b7371ed9b47c" />
+      <keyword name="ResultModel" id="KActivities::Stats::ResultModel::ResultModel" ref="classKActivities_1_1Stats_1_1ResultModel.html#a808bb69513b1c3073793f4bef65ccf0c" />
+      <keyword name="canFetchMore" id="KActivities::Stats::ResultModel::canFetchMore" ref="classKActivities_1_1Stats_1_1ResultModel.html#aff59b2ba4d3dbaae18129ed6f595dc17" />
+      <keyword name="data" id="KActivities::Stats::ResultModel::data" ref="classKActivities_1_1Stats_1_1ResultModel.html#ada98964f0c1e2b4169db5b784679216b" />
+      <keyword name="fetchMore" id="KActivities::Stats::ResultModel::fetchMore" ref="classKActivities_1_1Stats_1_1ResultModel.html#aeb31dc6bb97151abc2fdfe30dda45a5c" />
+      <keyword name="headerData" id="KActivities::Stats::ResultModel::headerData" ref="classKActivities_1_1Stats_1_1ResultModel.html#a9d8f41e860ae163d1bf213efec8c2275" />
+      <keyword name="linkToActivity" id="KActivities::Stats::ResultModel::linkToActivity" ref="classKActivities_1_1Stats_1_1ResultModel.html#a012e33304364bfd8c9ec2abbcc7f10ef" />
+      <keyword name="roleNames" id="KActivities::Stats::ResultModel::roleNames" ref="classKActivities_1_1Stats_1_1ResultModel.html#a4dfc27e388e46e88db670f73c33d62e3" />
+      <keyword name="rowCount" id="KActivities::Stats::ResultModel::rowCount" ref="classKActivities_1_1Stats_1_1ResultModel.html#ab446670663d513f6764f00acaccb827b" />
+      <keyword name="unlinkFromActivity" id="KActivities::Stats::ResultModel::unlinkFromActivity" ref="classKActivities_1_1Stats_1_1ResultModel.html#a9bed3c92b114375cbd1d5c2d7d82b311" />
+      <keyword name="KActivities::Stats::ResultSet" id="KActivities::Stats::ResultSet" ref="classKActivities_1_1Stats_1_1ResultSet.html" />
+      <keyword name="value_type" id="KActivities::Stats::ResultSet::value_type" ref="classKActivities_1_1Stats_1_1ResultSet.html#a3df1c038f1e1794eb17ed81a1486317b" />
+      <keyword name="ResultSet" id="KActivities::Stats::ResultSet::ResultSet" ref="classKActivities_1_1Stats_1_1ResultSet.html#ad704c8769381346dabb25133332514a5" />
+      <keyword name="ResultSet" id="KActivities::Stats::ResultSet::ResultSet" ref="classKActivities_1_1Stats_1_1ResultSet.html#ab3aa8e62abfe9505b862b7c42308cf59" />
+      <keyword name="ResultSet" id="KActivities::Stats::ResultSet::ResultSet" ref="classKActivities_1_1Stats_1_1ResultSet.html#a012f4d5499a7aaf30087af20ffb5112c" />
+      <keyword name="at" id="KActivities::Stats::ResultSet::at" ref="classKActivities_1_1Stats_1_1ResultSet.html#a40cd583df7bec49b8787625f59b8c2d6" />
+      <keyword name="begin" id="KActivities::Stats::ResultSet::begin" ref="classKActivities_1_1Stats_1_1ResultSet.html#a8d5477649fdefe241420d6991bb0f58b" />
+      <keyword name="cbegin" id="KActivities::Stats::ResultSet::cbegin" ref="classKActivities_1_1Stats_1_1ResultSet.html#a6d6cbebb16b9f26e71ec67fa3b1f37b2" />
+      <keyword name="cend" id="KActivities::Stats::ResultSet::cend" ref="classKActivities_1_1Stats_1_1ResultSet.html#a29940c85006aa15338cbd4238b961a02" />
+      <keyword name="constBegin" id="KActivities::Stats::ResultSet::constBegin" ref="classKActivities_1_1Stats_1_1ResultSet.html#a7bb12c5303b7beffe200898b3066f02a" />
+      <keyword name="constEnd" id="KActivities::Stats::ResultSet::constEnd" ref="classKActivities_1_1Stats_1_1ResultSet.html#af1dafc4dd9694408285c89983b6d3363" />
+      <keyword name="end" id="KActivities::Stats::ResultSet::end" ref="classKActivities_1_1Stats_1_1ResultSet.html#a75c9baae1eb749a4ede34b337c90a280" />
+      <keyword name="operator=" id="KActivities::Stats::ResultSet::operator=" ref="classKActivities_1_1Stats_1_1ResultSet.html#a0eaf4880dd2587599a139930cd4db426" />
+      <keyword name="KActivities::Stats::ResultSet::Result" id="KActivities::Stats::ResultSet::Result" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html" />
+      <keyword name="Result" id="KActivities::Stats::ResultSet::Result::Result" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#addb33057faaefb17f17090c0cfeb5fc6" />
+      <keyword name="Result" id="KActivities::Stats::ResultSet::Result::Result" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a1c1e6c55f300a65d3df1157acde5f28c" />
+      <keyword name="firstUpdate" id="KActivities::Stats::ResultSet::Result::firstUpdate" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a963661bd54d59ffb3f44dcf5971e2f4e" />
+      <keyword name="lastUpdate" id="KActivities::Stats::ResultSet::Result::lastUpdate" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a121c4aa235b6a038e5fc379e2c9e21ef" />
+      <keyword name="linkedActivities" id="KActivities::Stats::ResultSet::Result::linkedActivities" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#ad4897f2ddb698d93d265b96d8dcc7361" />
+      <keyword name="linkStatus" id="KActivities::Stats::ResultSet::Result::linkStatus" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#aa829fa58d513823c8ea1b79493e732bb" />
+      <keyword name="mimetype" id="KActivities::Stats::ResultSet::Result::mimetype" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a30eeb6b9d105ba6b2dc43883b085a103" />
+      <keyword name="operator=" id="KActivities::Stats::ResultSet::Result::operator=" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#ac4f4f2a9a8089b89960325eb62ce6677" />
+      <keyword name="resource" id="KActivities::Stats::ResultSet::Result::resource" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#aefcde5ac938bf5665a5be60ab37beb49" />
+      <keyword name="score" id="KActivities::Stats::ResultSet::Result::score" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a1358a42f9fa4053af88e663474351353" />
+      <keyword name="setFirstUpdate" id="KActivities::Stats::ResultSet::Result::setFirstUpdate" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#ae9f8a26af60494f7118ce30c5a239523" />
+      <keyword name="setLastUpdate" id="KActivities::Stats::ResultSet::Result::setLastUpdate" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#ad20187a40bd334a45489b4db0d82853a" />
+      <keyword name="setLinkedActivities" id="KActivities::Stats::ResultSet::Result::setLinkedActivities" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a1e18ca978774cc646d51402d55e7726a" />
+      <keyword name="setLinkStatus" id="KActivities::Stats::ResultSet::Result::setLinkStatus" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#afd7df145c2c125ee8832a7955a2888cc" />
+      <keyword name="setMimetype" id="KActivities::Stats::ResultSet::Result::setMimetype" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a825613a21cc501dcbd7cb92bcaeeaf8c" />
+      <keyword name="setResource" id="KActivities::Stats::ResultSet::Result::setResource" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a2175247b921f52538e5b9a51c50634e8" />
+      <keyword name="setScore" id="KActivities::Stats::ResultSet::Result::setScore" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a0c2f95e735aa54c342120ccc76b36f1d" />
+      <keyword name="setTitle" id="KActivities::Stats::ResultSet::Result::setTitle" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a8bebe3d92c67464cf0ab20e1233faf8a" />
+      <keyword name="title" id="KActivities::Stats::ResultSet::Result::title" ref="classKActivities_1_1Stats_1_1ResultSet_1_1Result.html#a6434fed0e61a3f2dda85e0d15d66561c" />
+      <keyword name="KActivities::Stats::ResultWatcher" id="KActivities::Stats::ResultWatcher" ref="classKActivities_1_1Stats_1_1ResultWatcher.html" />
+      <keyword name="resourceMimetypeChanged" id="KActivities::Stats::ResultWatcher::resourceMimetypeChanged" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#a1185d3c8e98f016d09c0ad9fd21ed6e1" />
+      <keyword name="resourceTitleChanged" id="KActivities::Stats::ResultWatcher::resourceTitleChanged" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#aec2fcf26a6be83c514d0a980af705c3f" />
+      <keyword name="resultLinked" id="KActivities::Stats::ResultWatcher::resultLinked" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#a6ae6fd4c6a9a5c1e8de93fb91a4b7e46" />
+      <keyword name="resultRemoved" id="KActivities::Stats::ResultWatcher::resultRemoved" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#aed63718b3f5072924e2d3060ab082997" />
+      <keyword name="resultScoreUpdated" id="KActivities::Stats::ResultWatcher::resultScoreUpdated" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#ac50814e7f394ca9473280eddc41190aa" />
+      <keyword name="resultsInvalidated" id="KActivities::Stats::ResultWatcher::resultsInvalidated" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#a41918b2a056fd8fa44c1d4a5e986723d" />
+      <keyword name="resultUnlinked" id="KActivities::Stats::ResultWatcher::resultUnlinked" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#a9113c29c467098530afde78c81c4c5c7" />
+      <keyword name="ResultWatcher" id="KActivities::Stats::ResultWatcher::ResultWatcher" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#a2bab0ecebaacdbd43c2563f1ee7928d9" />
+      <keyword name="linkToActivity" id="KActivities::Stats::ResultWatcher::linkToActivity" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#a0291ff3714c59994d4e00190468c4d5f" />
+      <keyword name="unlinkFromActivity" id="KActivities::Stats::ResultWatcher::unlinkFromActivity" ref="classKActivities_1_1Stats_1_1ResultWatcher.html#a72039dbc8fd9f837f90ed8b6b6a566ee" />
+      <keyword name="KActivities::Stats::Terms::Activity" id="KActivities::Stats::Terms::Activity" ref="structKActivities_1_1Stats_1_1Terms_1_1Activity.html" />
+      <keyword name="Activity" id="KActivities::Stats::Terms::Activity::Activity" ref="structKActivities_1_1Stats_1_1Terms_1_1Activity.html#a24e42dbf622633b8b629de42cee93302" />
+      <keyword name="Activity" id="KActivities::Stats::Terms::Activity::Activity" ref="structKActivities_1_1Stats_1_1Terms_1_1Activity.html#a826ab6033dd1ee2b1912ea4d1370ae26" />
+      <keyword name="any" id="KActivities::Stats::Terms::Activity::any" ref="structKActivities_1_1Stats_1_1Terms_1_1Activity.html#adb4149c9d42ecf52786a89f3e72279e4" />
+      <keyword name="current" id="KActivities::Stats::Terms::Activity::current" ref="structKActivities_1_1Stats_1_1Terms_1_1Activity.html#a87517ac578abaa912377a4b831b96d1c" />
+      <keyword name="global" id="KActivities::Stats::Terms::Activity::global" ref="structKActivities_1_1Stats_1_1Terms_1_1Activity.html#a81b6dbc2043ea938a7f23efa578f4a14" />
+      <keyword name="values" id="KActivities::Stats::Terms::Activity::values" ref="structKActivities_1_1Stats_1_1Terms_1_1Activity.html#a82e2340e8d6b2e3ed0ee74578eab8aa7" />
+      <keyword name="KActivities::Stats::Terms::Agent" id="KActivities::Stats::Terms::Agent" ref="structKActivities_1_1Stats_1_1Terms_1_1Agent.html" />
+      <keyword name="Agent" id="KActivities::Stats::Terms::Agent::Agent" ref="structKActivities_1_1Stats_1_1Terms_1_1Agent.html#a5deb059c1a41f0046bdab9090bd89855" />
+      <keyword name="Agent" id="KActivities::Stats::Terms::Agent::Agent" ref="structKActivities_1_1Stats_1_1Terms_1_1Agent.html#adc1be6be1001e3ec5eb0a429bafab7f1" />
+      <keyword name="any" id="KActivities::Stats::Terms::Agent::any" ref="structKActivities_1_1Stats_1_1Terms_1_1Agent.html#ad73cd09d0ad7d6873d0bc80634dd5d8b" />
+      <keyword name="current" id="KActivities::Stats::Terms::Agent::current" ref="structKActivities_1_1Stats_1_1Terms_1_1Agent.html#abe3ab4552227bb80eae894f191bd1ce5" />
+      <keyword name="global" id="KActivities::Stats::Terms::Agent::global" ref="structKActivities_1_1Stats_1_1Terms_1_1Agent.html#ad1f09462a516385c1aaf5a24f214d11a" />
+      <keyword name="values" id="KActivities::Stats::Terms::Agent::values" ref="structKActivities_1_1Stats_1_1Terms_1_1Agent.html#a98ebc7e0961febf9c590cb2eb5cffb10" />
+      <keyword name="KActivities::Stats::Terms::Limit" id="KActivities::Stats::Terms::Limit" ref="structKActivities_1_1Stats_1_1Terms_1_1Limit.html" />
+      <keyword name="Limit" id="KActivities::Stats::Terms::Limit::Limit" ref="structKActivities_1_1Stats_1_1Terms_1_1Limit.html#ad66429c4653f3b365bae6338fd365c59" />
+      <keyword name="all" id="KActivities::Stats::Terms::Limit::all" ref="structKActivities_1_1Stats_1_1Terms_1_1Limit.html#a460779078aaadfc8bb139e2c83e2df3a" />
+      <keyword name="value" id="KActivities::Stats::Terms::Limit::value" ref="structKActivities_1_1Stats_1_1Terms_1_1Limit.html#a8513b5a6ef6e378e558ef80bbd175d13" />
+      <keyword name="KActivities::Stats::Terms::Offset" id="KActivities::Stats::Terms::Offset" ref="structKActivities_1_1Stats_1_1Terms_1_1Offset.html" />
+      <keyword name="Offset" id="KActivities::Stats::Terms::Offset::Offset" ref="structKActivities_1_1Stats_1_1Terms_1_1Offset.html#aff8feb8978d83ac63ec920cb3f5616a5" />
+      <keyword name="value" id="KActivities::Stats::Terms::Offset::value" ref="structKActivities_1_1Stats_1_1Terms_1_1Offset.html#a6efcec6d17245fd7decd399ab0a37958" />
+      <keyword name="KActivities::Stats::Terms::Type" id="KActivities::Stats::Terms::Type" ref="structKActivities_1_1Stats_1_1Terms_1_1Type.html" />
+      <keyword name="Type" id="KActivities::Stats::Terms::Type::Type" ref="structKActivities_1_1Stats_1_1Terms_1_1Type.html#a7684c8439130a42c28a9ad742f00326c" />
+      <keyword name="Type" id="KActivities::Stats::Terms::Type::Type" ref="structKActivities_1_1Stats_1_1Terms_1_1Type.html#a362a6f0413e20bd7b21b23fc6d616327" />
+      <keyword name="any" id="KActivities::Stats::Terms::Type::any" ref="structKActivities_1_1Stats_1_1Terms_1_1Type.html#ac77128204e59dd310a21fa166426c1b8" />
+      <keyword name="values" id="KActivities::Stats::Terms::Type::values" ref="structKActivities_1_1Stats_1_1Terms_1_1Type.html#a7d1cb79e0bdac343ccf31bbede8fe124" />
+      <keyword name="KActivities::Stats::Terms::Url" id="KActivities::Stats::Terms::Url" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html" />
+      <keyword name="Url" id="KActivities::Stats::Terms::Url::Url" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html#abbad2f060add7ca0b24011ee8e23beb0" />
+      <keyword name="Url" id="KActivities::Stats::Terms::Url::Url" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html#a26e28dafaf5889f05a90a967338303f1" />
+      <keyword name="contains" id="KActivities::Stats::Terms::Url::contains" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html#af902e95f1ba92b42af7a077b7cda3403" />
+      <keyword name="file" id="KActivities::Stats::Terms::Url::file" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html#a93347663516bf70d24465438ef352a33" />
+      <keyword name="localFile" id="KActivities::Stats::Terms::Url::localFile" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html#ad7ad64dcdd3fc511a8c587b532de73ec" />
+      <keyword name="startsWith" id="KActivities::Stats::Terms::Url::startsWith" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html#acdefb3a4d75356b6abda1f64e6e98646" />
+      <keyword name="values" id="KActivities::Stats::Terms::Url::values" ref="structKActivities_1_1Stats_1_1Terms_1_1Url.html#a7f506af1784a0edf7896396e8aa97392" />
+    </keywords>
+    <files>
+      <file>tabs.css</file>
+      <file>tab_a.png</file>
+      <file>tab_b.png</file>
+      <file>tab_h.png</file>
+      <file>tab_s.png</file>
+      <file>nav_h.png</file>
+      <file>nav_f.png</file>
+      <file>bc_s.png</file>
+      <file>doxygen.png</file>
+      <file>closed.png</file>
+      <file>open.png</file>
+      <file>bdwn.png</file>
+      <file>sync_on.png</file>
+      <file>sync_off.png</file>
+      <file>doxygen.css</file>
+      <file>jquery.js</file>
+      <file>dynsections.js</file>
+      <file>cleaning_8h_source.html</file>
+      <file>query_8h_source.html</file>
+      <file>resultmodel_8h_source.html</file>
+      <file>resultset_8h_source.html</file>
+      <file>resultwatcher_8h_source.html</file>
+      <file>terms_8h_source.html</file>
+      <file>classKActivities_1_1Stats_1_1Query.html</file>
+      <file>classKActivities_1_1Stats_1_1Query-members.html</file>
+      <file>classKActivities_1_1Stats_1_1ResultModel.html</file>
+      <file>classKActivities_1_1Stats_1_1ResultModel-members.html</file>
+      <file>classKActivities_1_1Stats_1_1ResultSet.html</file>
+      <file>classKActivities_1_1Stats_1_1ResultSet-members.html</file>
+      <file>classKActivities_1_1Stats_1_1ResultSet_1_1Result.html</file>
+      <file>classKActivities_1_1Stats_1_1ResultSet_1_1Result-members.html</file>
+      <file>classKActivities_1_1Stats_1_1ResultWatcher.html</file>
+      <file>classKActivities_1_1Stats_1_1ResultWatcher-members.html</file>
+      <file>structKActivities_1_1Stats_1_1Terms_1_1Activity.html</file>
+      <file>structKActivities_1_1Stats_1_1Terms_1_1Activity-members.html</file>
+      <file>structKActivities_1_1Stats_1_1Terms_1_1Agent.html</file>
+      <file>structKActivities_1_1Stats_1_1Terms_1_1Agent-members.html</file>
+      <file>structKActivities_1_1Stats_1_1Terms_1_1Limit.html</file>
+      <file>structKActivities_1_1Stats_1_1Terms_1_1Limit-members.html</file>
+      <file>structKActivities_1_1Stats_1_1Terms_1_1Offset.html</file>
+      <file>structKActivities_1_1Stats_1_1Terms_1_1Offset-members.html</file>
+      <file>structKActivities_1_1Stats_1_1Terms_1_1Type.html</file>
+      <file>structKActivities_1_1Stats_1_1Terms_1_1Type-members.html</file>
+      <file>structKActivities_1_1Stats_1_1Terms_1_1Url.html</file>
+      <file>structKActivities_1_1Stats_1_1Terms_1_1Url-members.html</file>
+      <file>dir_8867dd801d16d4f70452e22b8bccf820.html</file>
+      <file>dir_12b3605ebd05a7120ec122ff0166cf33.html</file>
+      <file>index.html</file>
+      <file>annotated.html</file>
+      <file>classes.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_type.html</file>
+      <file>files.html</file>
+    </files>
+  </filterSection>
+</QtHelpProject>

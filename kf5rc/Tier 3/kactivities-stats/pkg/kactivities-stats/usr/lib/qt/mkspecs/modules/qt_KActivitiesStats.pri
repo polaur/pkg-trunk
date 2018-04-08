@@ -1,0 +1,10 @@
+QT.KActivitiesStats.VERSION = 5.45.0
+QT.KActivitiesStats.MAJOR_VERSION = 5
+QT.KActivitiesStats.MINOR_VERSION = 45
+QT.KActivitiesStats.PATCH_VERSION = 0
+QT.KActivitiesStats.name = KF5ActivitiesStats
+QT.KActivitiesStats.defines = 
+QT.KActivitiesStats.includes = /usr/include/KF5/KActivitiesStats
+QT.KActivitiesStats.private_includes =
+QT.KActivitiesStats.libs = /usr/lib
+QT.KActivitiesStats.depends = KActivities
