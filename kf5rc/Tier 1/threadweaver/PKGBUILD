@@ -5,8 +5,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=threadweaver
-pkgver=5.45rc
-_tagver=v5.45.0-rc1
+pkgver=5.46rc
+_tagver=v5.46.0-rc1
 pkgrel=1
 pkgdesc='High-level multithreading framework'
 arch=('x86_64')

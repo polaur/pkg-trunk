@@ -6,8 +6,8 @@
 # Contributor: Antonio Rojas
 
 pkgname=breeze-icons
-pkgver=5.45rc
-_tagver=v5.45.0-rc1
+pkgver=5.46rc.0
+_tagver=v5.46.0-rc1
 pkgrel=1
 pkgdesc='Breeze icon themes'
 arch=('any')

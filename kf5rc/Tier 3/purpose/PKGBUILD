@@ -4,14 +4,15 @@
 # Maintainer:Antonio Rojas <arojas@archlinux.org>
 
 pkgname=purpose
-pkgver=5.45rc
-_tagver=v5.45.0-rc1
+pkgver=5.46rc
+_tagver=v5.46.0-rc1
 pkgrel=1
 pkgdesc="Framework for providing abstractions to get the developer's purposes fulfilled"
 arch=(x86_64)
 url='https://community.kde.org/Frameworks'
 license=(LGPL)
-depends=(kaccounts-integration accounts-qml-module hicolor-icon-theme kio kcoreaddons ki18n kconfig)
+depends=(kaccounts-integration accounts-qml-module hicolor-icon-theme kio kcoreaddons ki18n kconfig 
+nodejs)
 makedepends=(extra-cmake-modules intltool python git)
 optdepends=('kdeconnect: sharing to smartphone via KDE Connect')
 groups=(kf5)

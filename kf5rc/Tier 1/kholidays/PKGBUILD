@@ -4,8 +4,8 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=kholidays
-pkgver=5.45rc
-_tagver=v5.45.0-rc1
+pkgver=5.46rc
+_tagver=v5.46.0-rc1
 pkgrel=1
 epoch=1
 pkgdesc="Library that provides a C++ API that determines holiday and other special events for a 

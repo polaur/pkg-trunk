@@ -5,14 +5,14 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kcoreaddons
-pkgver=5.45rc
-_tagver=v5.45.0-rc1
+pkgver=5.46rc
+_tagver=v5.46.0-rc1
 pkgrel=1
 pkgdesc='Addons to QtCore'
 arch=('x86_64')
 url='https://community.kde.org/Frameworks'
 license=('LGPL')
-depends=('qt5-base' 'shared-mime-info' 'python' 'python2')
+depends=('qt5-base' 'shared-mime-info' 'python' 'python2' 'gamin')
 makedepends=('extra-cmake-modules' 'qt5-tools' 'clang' 'python-pyqt5' 'python2-pyqt5' 'doxygen' 'git')
 optdepends=('python-pykf5: to use the Python 3 bindings' 'python2-pykf5: to use the Python 2 bindings')
 groups=('kf5')

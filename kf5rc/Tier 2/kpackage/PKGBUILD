@@ -6,8 +6,8 @@
 # Contributor: Pier Luigi Fiorini <pierluigi.fiorini@gmail.com>
 
 pkgname=kpackage
-pkgver=5.45rc
-_tagver=v5.45.0-rc1
+pkgver=5.46rc
+_tagver=v5.46.0-rc1
 pkgrel=1
 pkgdesc='Framework that lets applications manage user installable packages of non-binary assets'
 arch=('x86_64')

@@ -109,10 +109,7 @@ kdewebkit (**kparts)
 ktexteditor (**kparts, syntax-highlighting)
 plasma-framework (**kdeclarative, kactivities, kwayland, kirigami2)
 
-9. Zależne od kdewebkit
-kdesignerplugin (**kio, kpackage, **kdewebkit)
-
-10. Zależne od plasma-framework
+9. Zależne od plasma-framework
 krunner (**plasma-framework, threadweaver, kdoctools)
 
 Tier 4 - Zależne od Tier 3

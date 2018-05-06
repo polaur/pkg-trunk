@@ -5,8 +5,8 @@
 # Mainrainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=modemmanager-qt
-pkgver=5.45rc
-_tagver=v5.45.0-rc1
+pkgver=5.46rc
+_tagver=v5.46.0-rc1
 pkgrel=1
 pkgdesc='Qt wrapper for ModemManager DBus API'
 arch=(x86_64)
