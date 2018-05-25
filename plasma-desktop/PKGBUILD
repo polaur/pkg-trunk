@@ -1,0 +1,88 @@
+# $Id$
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgbase=plasma-desktop
+pkgname=(plasma-desktop knetattach)
+pkgver=5.12.90.1
+pkgrel=1.2
+pkgdesc='KDE Plasma Desktop'
+arch=(x86_64)
+url='https://www.kde.org/workspaces/plasmadesktop/'
+license=(LGPL)
+source=("https://download.kde.org/unstable/plasma/${pkgver%.*}/$pkgname-$pkgver.tar.xz"{,.sig}
+kdebug-394180.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=b2694cfc64de7e6a11fd5ba91f9bacb01b6ad9de"
+kdebug-390817.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=8d113b09598c0cd0f92d6395c7c7dec8c65fa735"
+D13050.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=2ba367d576aaafd2e5ca12da49512d143fdb6485"
+kdebug-393912.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=d234b8fde4c3c131545686a117e284b31c6a95a9"
+kdebug-394455.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=150f8877ee42f0d7f69c90549b4d8cca578de4ea"
+)
+depends=(polkit-kde-agent libcanberra libxkbfile kmenuedit appstream-qt systemsettings ksysguard kpeople baloo qt5-graphicaleffects)
+makedepends=(extra-cmake-modules kdoctools boost xf86-input-evdev xf86-input-synaptics xf86-input-libinput xorg-server-devel
+             libibus scim kdesignerplugin)
+groups=(plasma)
+sha256sums=('d7bf37b745ef47efa2bd19338d45a12d385fdf35d1c4d17f23524147559ddae5'
+            'SKIP'
+            '2f97df61cb82484dbb727d1f2ea49bf5a9158bf2110debf3eff75962ac9754b9'
+            'e5be1adbc32e09fef1edf48fe9a0726ec21b5465f4de485df7b2675e719e35d1'
+            '304e4795bea1f328b33d631742ffb434f28a7a9174c07bf6b578eb69875e1858'
+            'e35ea3f06702cabc22cf7602f54af58d1b65256137111b68a6b25b90112f896a'
+            'a9aeab35590876d044bc5daaec0012fe3f4df9d7c06d64850134750d2e2feeef')
+validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell
+              '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
+              'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson
+              '1FA881591C26B276D7A5518EEAAF29B42A678C20') # Marco Martin <notmart@gmail.com>
+
+prepare() {
+  mkdir -p build
+  
+  cd $pkgname-$pkgver
+  msg "Add allow typing in font DPI spinbox aka D13050"
+  patch -p1 -i ../D13050.patch
+  
+  msg "Add KDEBUG 394180 patch" # Fixed in 5.13.0
+  patch -p1 -i ../kdebug-394180.patch
+  
+  msg "Add KDEBUG 393912 patch"
+  patch -p1 -i ../kdebug-393912.patch
+  
+  msg "Add KDEBUG 394455 patch" # Fixed in 5.13.0
+  patch -p1 -i ../kdebug-394455.patch
+
+  msg "Add KDEBUG 390817 patch" # Fixed in 5.14.0
+  patch -p1 -i ../kdebug-390817.patch
+}
+
+build() {
+  cd build
+  cmake ../$pkgname-$pkgver \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_INSTALL_LIBDIR=lib \
+    -DCMAKE_INSTALL_LIBEXECDIR=lib \
+    -DBUILD_TESTING=OFF
+  make
+}
+
+package_plasma-desktop() {
+  depends+=(knetattach)
+  optdepends=('plasma-nm: Network manager applet'
+              'powerdevil: power management'
+              'ibus: kimpanel IBUS support'
+              'scim: kimpanel SCIM support'
+              'discover: manage applications installation from the launcher')
+
+  cd build
+  make DESTDIR="$pkgdir" install
+
+# Split knetattach
+  rm "$pkgdir"/usr/{bin/knetattach,share/applications/org.kde.knetattach.desktop}
+}
+
+package_knetattach() {
+  pkgdesc='Wizard which makes it easier to integrate network resources with the Plasma Desktop'
+  depends=(kdelibs4support)
+
+  cd build/knetattach
+  make DESTDIR="$pkgdir" install
+}
