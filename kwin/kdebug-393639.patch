@@ -1,0 +1,191 @@
+From e3250460cc62800d706d02eda78e866efb12da55 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Martin=20Fl=C3=B6ser?= <mgraesslin@kde.org>
+Date: Tue, 1 May 2018 15:33:33 +0200
+Subject: Do not unset cursor image when cursor enters a surface
+
+Summary:
+From Wayland documentation:
+"When a seat's focus enters a surface, the pointer image is undefined and
+a client should respond to this event by setting an appropriate pointer
+image with the set_cursor request."
+
+KWin's interpretation so far for the undefined pointer image was to
+remove the pointer image when entering a surface waiting for the client
+to set a cursor image. This can result in a short flicker as there might
+be a frame without a cursor image.
+
+This patch changes the behavior by keeping the previous image till the
+application set a new one. This brings some advantages:
+ * if the application is not responding a cursor is still shown
+ * if the same cursor is used as in the previous window we don't have a
+flicker
+
+CCBUG: 393639
+
+Test Plan: I cannot see the flicker, so only tested with the adjusted tests
+
+Reviewers: #kwin, #plasma
+
+Subscribers: kwin
+
+Tags: #kwin
+
+Differential Revision: https://phabricator.kde.org/D12631
+---
+ autotests/integration/pointer_input.cpp       | 12 +++++++-----
+ autotests/integration/scene_qpainter_test.cpp | 13 ++++++-------
+ pointer_input.cpp                             | 11 +++++++++--
+ 3 files changed, 22 insertions(+), 14 deletions(-)
+
+diff --git a/autotests/integration/pointer_input.cpp b/autotests/integration/pointer_input.cpp
+index d308dae..f4ebb1b 100644
+--- a/autotests/integration/pointer_input.cpp
++++ b/autotests/integration/pointer_input.cpp
+@@ -829,7 +829,8 @@ void PointerInputTest::testCursorImage()
+     Cursor::setPos(800, 800);
+     auto p = input()->pointer();
+     // at the moment it should be the fallback cursor
+-    QVERIFY(!p->cursorImage().isNull());
++    const QImage fallbackCursor = p->cursorImage();
++    QVERIFY(!fallbackCursor.isNull());
+ 
+     // create a window
+     QSignalSpy clientAddedSpy(waylandServer(), &WaylandServer::shellClientAdded);
+@@ -843,10 +844,10 @@ void PointerInputTest::testCursorImage()
+     AbstractClient *window = workspace()->activeClient();
+     QVERIFY(window);
+ 
+-    // move cursor to center of window, this should first set a null pointer
++    // move cursor to center of window, this should first set a null pointer, so we still show old cursor
+     Cursor::setPos(window->geometry().center());
+     QCOMPARE(p->window().data(), window);
+-    QVERIFY(p->cursorImage().isNull());
++    QCOMPARE(p->cursorImage(), fallbackCursor);
+     QVERIFY(enteredSpy.wait());
+ 
+     // create a cursor on the pointer
+@@ -889,6 +890,7 @@ void PointerInputTest::testCursorImage()
+     Cursor::setPos(window->geometry().bottomLeft() + QPoint(20, 20));
+     QVERIFY(p->window().isNull());
+     QVERIFY(!p->cursorImage().isNull());
++    QCOMPARE(p->cursorImage(), fallbackCursor);
+ }
+ 
+ class HelperEffect : public Effect
+@@ -934,8 +936,8 @@ void PointerInputTest::testEffectOverrideCursorImage()
+     QVERIFY(!window->geometry().contains(QPoint(800, 800)));
+     Cursor::setPos(window->geometry().center());
+     QVERIFY(enteredSpy.wait());
+-    // cursor image should be null
+-    QVERIFY(p->cursorImage().isNull());
++    // cursor image should still be fallback
++    QCOMPARE(p->cursorImage(), fallback);
+ 
+     // now create an effect and set an override cursor
+     QScopedPointer<HelperEffect> effect(new HelperEffect);
+diff --git a/autotests/integration/scene_qpainter_test.cpp b/autotests/integration/scene_qpainter_test.cpp
+index 590a4c2..2b696a8 100644
+--- a/autotests/integration/scene_qpainter_test.cpp
++++ b/autotests/integration/scene_qpainter_test.cpp
+@@ -182,12 +182,11 @@ void SceneQPainterTest::testWindow()
+     if (frameRenderedSpy.isEmpty()) {
+         QVERIFY(frameRenderedSpy.wait());
+     }
+-    // we didn't set a cursor image on the surface yet, so it should be just black + window
++    // we didn't set a cursor image on the surface yet, so it should be just black + window and previous cursor
+     QImage referenceImage(QSize(1280, 1024), QImage::Format_RGB32);
+     referenceImage.fill(Qt::black);
+     QPainter painter(&referenceImage);
+     painter.fillRect(0, 0, 200, 300, Qt::blue);
+-    QCOMPARE(referenceImage, *scene->qpainterRenderBuffer());
+ 
+     // now let's set a cursor image
+     QScopedPointer<Surface> cs(Test::createSurface());
+@@ -215,6 +214,8 @@ void SceneQPainterTest::testWindowScaled()
+     QScopedPointer<Surface> s(Test::createSurface());
+     QScopedPointer<ShellSurface> ss(Test::createShellSurface(s.data()));
+     QScopedPointer<Pointer> p(Test::waylandSeat()->createPointer());
++    QSignalSpy pointerEnteredSpy(p.data(), &Pointer::entered);
++    QVERIFY(pointerEnteredSpy.isValid());
+ 
+     auto scene = KWin::Compositor::self()->scene();
+     QVERIFY(scene);
+@@ -225,7 +226,6 @@ void SceneQPainterTest::testWindowScaled()
+     QScopedPointer<Surface> cs(Test::createSurface());
+     QVERIFY(!cs.isNull());
+     Test::render(cs.data(), QSize(10, 10), Qt::red);
+-    p->setCursor(cs.data(), QPoint(5, 5));
+ 
+     // now let's map the window
+     s->setScale(2);
+@@ -239,12 +239,11 @@ void SceneQPainterTest::testWindowScaled()
+ 
+     //add buffer
+     Test::render(s.data(), img);
+-    Test::waitForWaylandWindowShown();
++    QVERIFY(pointerEnteredSpy.wait());
++    p->setCursor(cs.data(), QPoint(5, 5));
+ 
+     // which should trigger a frame
+-    if (frameRenderedSpy.isEmpty()) {
+-        QVERIFY(frameRenderedSpy.wait());
+-    }
++    QVERIFY(frameRenderedSpy.wait());
+     QImage referenceImage(QSize(1280, 1024), QImage::Format_RGB32);
+     referenceImage.fill(Qt::black);
+     QPainter painter(&referenceImage);
+diff --git a/pointer_input.cpp b/pointer_input.cpp
+index b075601..84d998a 100644
+--- a/pointer_input.cpp
++++ b/pointer_input.cpp
+@@ -455,6 +455,8 @@ bool PointerInputRedirection::areButtonsPressed() const
+     return false;
+ }
+ 
++static bool s_cursorUpdateBlocking = false;
++
+ void PointerInputRedirection::update()
+ {
+     if (!m_inited) {
+@@ -517,7 +519,9 @@ void PointerInputRedirection::update()
+         m_window = QPointer<Toplevel>(t);
+         // TODO: add convenient API to update global pos together with updating focused surface
+         warpXcbOnSurfaceLeft(t->surface());
++        s_cursorUpdateBlocking = true;
+         seat->setFocusedPointerSurface(nullptr);
++        s_cursorUpdateBlocking = false;
+         seat->setPointerPos(m_pos.toPoint());
+         seat->setFocusedPointerSurface(t->surface(), t->inputTransformation());
+         m_windowGeometryConnection = connect(t, &Toplevel::geometryChanged, this,
+@@ -964,6 +968,9 @@ void CursorImage::markAsRendered()
+ 
+ void CursorImage::update()
+ {
++    if (s_cursorUpdateBlocking) {
++        return;
++    }
+     using namespace KWayland::Server;
+     disconnect(m_serverCursor.connection);
+     auto p = waylandServer()->seat()->focusedPointer();
+@@ -971,8 +978,8 @@ void CursorImage::update()
+         m_serverCursor.connection = connect(p, &PointerInterface::cursorChanged, this, &CursorImage::updateServerCursor);
+     } else {
+         m_serverCursor.connection = QMetaObject::Connection();
++        reevaluteSource();
+     }
+-    updateServerCursor();
+ }
+ 
+ void CursorImage::updateDecoration()
+@@ -1238,7 +1245,7 @@ void CursorImage::reevaluteSource()
+         setSource(CursorSource::Decoration);
+         return;
+     }
+-    if (!m_pointer->window().isNull()) {
++    if (!m_pointer->window().isNull() && waylandServer()->seat()->focusedPointer()) {
+         setSource(CursorSource::PointerSurface);
+         return;
+     }
+-- 
+cgit v0.11.2
+
