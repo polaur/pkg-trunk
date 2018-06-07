@@ -6,8 +6,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kio
-pkgver=5.47rc
-_tagver=v5.47.0-rc1
+pkgver=5.47rc2
+_tagver=v5.47.0-rc2
 pkgrel=1
 pkgdesc='Resource and network access abstraction'
 arch=(x86_64)
