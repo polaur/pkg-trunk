@@ -1,0 +1,40 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# for RC version
+# made on the original work by:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=frameworkintegration
+pkgver=5.48rc
+_tagver=v5.48.0-rc1
+pkgrel=1
+pkgdesc='Framework providing components to allow applications to integrate with a KDE Workspace'
+arch=('x86_64')
+url='https://community.kde.org/Frameworks'
+license=('LGPL')
+depends=('kpackage' 'knewstuff')
+makedepends=('extra-cmake-modules' 'python' 'appstream-qt' 'packagekit-qt5' 'git')
+optdepends=('appstream-qt: dependency resolving via AppStream' 'packagekit-qt5: dependency resolving via AppStream')
+groups=('kf5')
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
+sha256sums=('SKIP')
+
+prepare() {
+  mkdir -p build
+}
+
+build() {
+  cd build
+  cmake ../${pkgname}-${_tagver} \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DKDE_INSTALL_LIBDIR=lib \
+    -DKDE_INSTALL_LIBEXECDIR=lib \
+    -DBUILD_TESTING=OFF
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="${pkgdir}" install
+}

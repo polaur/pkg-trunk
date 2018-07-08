@@ -1,0 +1,40 @@
+# pavbaranov: <pavbaranov at gmail dot com>
+# for RC version
+# made on original work by:
+# Maintainer:Antonio Rojas <arojas@archlinux.org>
+
+pkgname=purpose
+pkgver=5.48rc
+_tagver=v5.48.0-rc1
+pkgrel=1
+pkgdesc="Framework for providing abstractions to get the developer's purposes fulfilled"
+arch=(x86_64)
+url='https://community.kde.org/Frameworks'
+license=(LGPL)
+depends=(kaccounts-integration accounts-qml-module hicolor-icon-theme kio kcoreaddons ki18n kconfig 
+nodejs)
+makedepends=(extra-cmake-modules intltool python git)
+optdepends=('kdeconnect: sharing to smartphone via KDE Connect')
+groups=(kf5)
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
+sha256sums=('SKIP')
+
+prepare() {
+  mkdir -p build
+}
+
+build() {
+  cd build
+  cmake ../$pkgname-$_tagver \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_INSTALL_LIBDIR=lib \
+    -DCMAKE_INSTALL_LIBEXECDIR=lib \
+    -DBUILD_TESTING=OFF
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}

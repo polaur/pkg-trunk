@@ -1,0 +1,39 @@
+# pavbaranov: <pavbaranov at gmail dot com>
+# for RC version
+# made on original work by:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=krunner
+pkgver=5.48rc
+_tagver=v5.48.0-rc1
+pkgrel=1
+pkgdesc='Framework for providing different actions given a string query'
+arch=('x86_64')
+url='https://community.kde.org/Frameworks'
+license=('LGPL')
+groups=('kf5')
+depends=('plasma-framework' 'threadweaver')
+makedepends=('extra-cmake-modules' 'kdoctools' 'python' 'doxygen' 'qt5-tools' 'git')
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
+sha256sums=('SKIP')
+
+prepare() {
+  mkdir build
+}
+
+build() {
+  cd build
+  cmake ../${pkgname}-${_tagver} \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DKDE_INSTALL_LIBDIR=lib \
+    -DBUILD_TESTING=OFF \
+    -DBUILD_QCH=ON
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="${pkgdir}" install
+}
