@@ -1,0 +1,645 @@
+# translation of kcminfo.po to Belarusian
+#
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2006.
+# Darafei Praliaskouski <symbol@akeeri.tk>, 2006.
+# Darafei Praliaskouski <komzpa@licei2.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcminfo\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-09 03:35+0100\n"
+"PO-Revision-Date: 2007-10-28 14:22+0200\n"
+"Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
+"Language-Team: Belarusian <i18n@mova.org>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ігар Грачышка"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ihar.hrachyshka@gmail.com"
+
+#: ../base/info_aix.cpp:68 ../base/info_wayland.cpp:88
+#, kde-format
+msgid "Name"
+msgstr "Назва"
+
+#: ../base/info_aix.cpp:69
+#, kde-format
+msgid "Status"
+msgstr "Статус"
+
+#: ../base/info_aix.cpp:70
+#, kde-format
+msgid "Location"
+msgstr "Месцазнаходжанне"
+
+#: ../base/info_aix.cpp:71
+#, kde-format
+msgid "Description"
+msgstr "Апісанне"
+
+#: ../base/info_fbsd.cpp:89
+#, fuzzy, kde-format
+#| msgid "Information"
+msgctxt "@title:column Column name for PCI information"
+msgid "Information"
+msgstr "Звесткі"
+
+#: ../base/info_fbsd.cpp:94
+#, kde-format
+msgid ""
+"Could not find any programs with which to query your system's PCI information"
+msgstr ""
+
+#: ../base/info_fbsd.cpp:105
+#, kde-format
+msgid "PCI subsystem could not be queried: %1 could not be executed"
+msgstr ""
+
+#: ../base/info_fbsd.cpp:124
+#, kde-format
+msgid "The PCI subsystem could not be queried, this may need root privileges."
+msgstr ""
+
+#: ../base/info_hpux.cpp:128
+#, kde-format
+msgid "PA-RISC Processor"
+msgstr "Працэсар PA-RISC"
+
+#: ../base/info_hpux.cpp:130
+#, kde-format
+msgid "PA-RISC Revision"
+msgstr "Рэвізія PA-RISC"
+
+#: ../base/info_linux.cpp:103 main.cpp:51
+#, kde-format
+msgid "DMA-Channel"
+msgstr "Канал DMA"
+
+#: ../base/info_linux.cpp:103 ../base/info_linux.cpp:154
+#, kde-format
+msgid "Used By"
+msgstr "Выкарыстоўвае"
+
+#: ../base/info_linux.cpp:154
+#, kde-format
+msgid "I/O-Range"
+msgstr "Дыяпазон I/O"
+
+#: ../base/info_netbsd.cpp:120 ../base/info_openbsd.cpp:131
+#, kde-format
+msgid "IRQ"
+msgstr "IRQ"
+
+#: ../base/info_netbsd.cpp:120 ../base/info_openbsd.cpp:131
+#, kde-format
+msgid "Device"
+msgstr "Прылада"
+
+#: ../base/info_netbsd.cpp:138 ../base/info_openbsd.cpp:144
+#, kde-format
+msgid "No PCI devices found."
+msgstr "Прылады PCI не знойдзены."
+
+#: ../base/info_netbsd.cpp:147 ../base/info_openbsd.cpp:153
+#, kde-format
+msgid "No I/O port devices found."
+msgstr "Порты I/O не знойдзены."
+
+#: ../base/info_wayland.cpp:57 ../base/os_base.h:228
+#, kde-format
+msgid "Information"
+msgstr "Звесткі"
+
+#: ../base/info_wayland.cpp:57 ../base/os_base.h:228
+#, kde-format
+msgid "Value"
+msgstr "Значэнне"
+
+#: ../base/info_wayland.cpp:60
+#, fuzzy, kde-format
+#| msgid "Could not get Information."
+msgid "Compositor Information"
+msgstr "Немагчыма атрымаць інфармацыю."
+
+#: ../base/info_wayland.cpp:64 ../base/os_base.h:239
+#, kde-format
+msgid "Name of the Display"
+msgstr "Назва экрана"
+
+#: ../base/info_wayland.cpp:66
+#, kde-format
+msgid "Interfaces"
+msgstr ""
+
+#: ../base/info_wayland.cpp:66
+#, kde-format
+msgid "Interface Version"
+msgstr ""
+
+#: ../base/info_wayland.cpp:83
+#, kde-format
+msgid "Seat"
+msgstr ""
+
+#: ../base/info_wayland.cpp:94
+#, kde-format
+msgid "Pointer"
+msgstr ""
+
+#: ../base/info_wayland.cpp:101
+#, kde-format
+msgid "Keyboard"
+msgstr ""
+
+#: ../base/info_wayland.cpp:103
+#, fuzzy, kde-format
+#| msgid "enabled"
+msgid "Repeat enabled"
+msgstr "уключана"
+
+#: ../base/info_wayland.cpp:104
+#, kde-format
+msgid "Repeat rate (characters per second)"
+msgstr ""
+
+#: ../base/info_wayland.cpp:105
+#, kde-format
+msgid "Repeat delay (msec)"
+msgstr ""
+
+#: ../base/info_wayland.cpp:109 ../base/os_base.h:175
+#, kde-format
+msgid "Yes"
+msgstr "Так"
+
+#: ../base/info_wayland.cpp:109 ../base/os_base.h:176
+#, kde-format
+msgid "No"
+msgstr "Не"
+
+#: ../base/info_wayland.cpp:120
+#, kde-format
+msgid "Touch"
+msgstr ""
+
+#: ../base/info_wayland.cpp:126
+#, fuzzy, kde-format
+#| msgid "Output Channels"
+msgid "Outputs"
+msgstr "Каналы вываду"
+
+#: ../base/info_wayland.cpp:140
+#, fuzzy, kde-format
+#| msgid "Manufacturer: %1"
+msgid "Manufacturer"
+msgstr "Вытворца: %1"
+
+#: ../base/info_wayland.cpp:141
+#, kde-format
+msgid "Model"
+msgstr "Мадэль"
+
+#: ../base/info_wayland.cpp:142
+#, fuzzy, kde-format
+#| msgid "Physical Memory"
+msgid "Physical Size"
+msgstr "Фізічная памяць"
+
+#: ../base/info_wayland.cpp:143
+#, kde-format
+msgid "Global Position"
+msgstr ""
+
+#: ../base/info_wayland.cpp:148
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: ../base/info_wayland.cpp:151
+#, kde-format
+msgid "Horizontal RGB"
+msgstr ""
+
+#: ../base/info_wayland.cpp:154
+#, kde-format
+msgid "Horizontal BGR"
+msgstr ""
+
+#: ../base/info_wayland.cpp:157
+#, kde-format
+msgid "Vertical RGB"
+msgstr ""
+
+#: ../base/info_wayland.cpp:160
+#, kde-format
+msgid "Vertical BGR"
+msgstr ""
+
+#: ../base/info_wayland.cpp:164
+#, fuzzy, kde-format
+#| msgid "unknown"
+msgid "Unknown"
+msgstr "невядомы"
+
+#: ../base/info_wayland.cpp:167
+#, kde-format
+msgid "Subpixel"
+msgstr ""
+
+#: ../base/info_wayland.cpp:181
+#, kde-format
+msgid "Flipped"
+msgstr ""
+
+#: ../base/info_wayland.cpp:184
+#, kde-format
+msgid "Flipped 90"
+msgstr ""
+
+#: ../base/info_wayland.cpp:187
+#, kde-format
+msgid "Flipped 180"
+msgstr ""
+
+#: ../base/info_wayland.cpp:190
+#, kde-format
+msgid "Flipped 270"
+msgstr ""
+
+#: ../base/info_wayland.cpp:194
+#, kde-format
+msgid "Normal"
+msgstr ""
+
+#: ../base/info_wayland.cpp:197
+#, kde-format
+msgid "Transform"
+msgstr ""
+
+#: ../base/info_wayland.cpp:198
+#, kde-format
+msgctxt "The scale factor of the output"
+msgid "Scale"
+msgstr ""
+
+#: ../base/info_wayland.cpp:201
+#, fuzzy, kde-format
+#| msgid "Model"
+msgid "Modes"
+msgstr "Мадэль"
+
+#: ../base/info_wayland.cpp:206
+#, fuzzy, kde-format
+#| msgid "Free Size"
+msgid "Size"
+msgstr "Вольная прастора"
+
+#: ../base/info_wayland.cpp:208
+#, kde-format
+msgid "Refresh Rate"
+msgstr ""
+
+#: ../base/info_wayland.cpp:210
+#, kde-format
+msgid "Preferred"
+msgstr ""
+
+#: ../base/info_wayland.cpp:211 ../base/info_wayland.cpp:213
+#, fuzzy, kde-format
+#| msgid "Bytes"
+msgid "yes"
+msgstr "Байты"
+
+#: ../base/info_wayland.cpp:211 ../base/info_wayland.cpp:213
+#, kde-format
+msgid "no"
+msgstr ""
+
+#: ../base/info_wayland.cpp:212
+#, kde-format
+msgid "Current"
+msgstr ""
+
+#: ../base/os_base.h:60
+#, kde-format
+msgid "LSBFirst"
+msgstr "LSBFirst"
+
+#: ../base/os_base.h:62
+#, kde-format
+msgid "MSBFirst"
+msgstr "MSBFirst"
+
+#: ../base/os_base.h:64
+#, kde-format
+msgid "Unknown Order %1"
+msgstr "Невядомы парадак %1"
+
+#: ../base/os_base.h:69
+#, fuzzy, kde-format
+msgid "1 Bit"
+msgid_plural "%1 Bits"
+msgstr[0] "1 біт"
+msgstr[1] "%1 біты"
+msgstr[2] "%1 бітаў"
+
+#: ../base/os_base.h:73
+#, fuzzy, kde-format
+#| msgid "1 Byte"
+msgid "1 Byte"
+msgid_plural "%1 Bytes"
+msgstr[0] "1 байт"
+msgstr[1] "1 байт"
+msgstr[2] "1 байт"
+
+#: ../base/os_base.h:114
+#, kde-format
+msgid "Screen # %1"
+msgstr "Экран %1"
+
+#: ../base/os_base.h:116
+#, kde-format
+msgid "(Default Screen)"
+msgstr "(Прадвызначаны экран)"
+
+#: ../base/os_base.h:125
+#, kde-format
+msgid "Dimensions"
+msgstr "Вымярэнні"
+
+#: ../base/os_base.h:125
+#, fuzzy, kde-format
+#| msgid "%1 x %2 Pixel (%3 x %4 mm)"
+msgid "%1 x %2 Pixels (%3 x %4 mm)"
+msgstr "%1 x %2 пікселяў (%3 x %4 мм)"
+
+#: ../base/os_base.h:129
+#, kde-format
+msgid "Resolution"
+msgstr "Распазнаванне"
+
+#: ../base/os_base.h:129
+#, kde-format
+msgid "%1 x %2 dpi"
+msgstr "%1 x %2 dpi"
+
+#: ../base/os_base.h:146
+#, kde-format
+msgid "Depths (%1)"
+msgstr "Глыбіня (%1)"
+
+#: ../base/os_base.h:152
+#, kde-format
+msgid "Root Window ID"
+msgstr "ID галоўнага акна"
+
+#: ../base/os_base.h:156
+#, kde-format
+msgid "Depth of Root Window"
+msgstr "Глыбіня галоўнага акна"
+
+#: ../base/os_base.h:156
+#, fuzzy, kde-format
+#| msgid "%1 plane"
+msgid "%1 plane"
+msgid_plural "%1 planes"
+msgstr[0] "%1 паверхня"
+msgstr[1] "%1 паверхня"
+msgstr[2] "%1 паверхня"
+
+#: ../base/os_base.h:160
+#, kde-format
+msgid "Number of Colormaps"
+msgstr "Колькасць карт колераў"
+
+#: ../base/os_base.h:160
+#, kde-format
+msgid "minimum %1, maximum %2"
+msgstr "найменш %1, найбольш %2"
+
+#: ../base/os_base.h:164
+#, kde-format
+msgid "Default Colormap"
+msgstr "Прадвызначаная карта колераў"
+
+#: ../base/os_base.h:168
+#, kde-format
+msgid "Default Number of Colormap Cells"
+msgstr "Прадвызначаная колькасць ячэяк карт колераў"
+
+#: ../base/os_base.h:172
+#, kde-format
+msgid "Preallocated Pixels"
+msgstr ""
+
+#: ../base/os_base.h:172
+#, kde-format
+msgid "Black %1, White %2"
+msgstr "Чорны %1, Белы %2"
+
+#: ../base/os_base.h:179
+#, kde-format
+msgid "Options"
+msgstr "Настаўленні"
+
+#: ../base/os_base.h:179
+#, kde-format
+msgid "When mapped"
+msgstr ""
+
+#: ../base/os_base.h:179
+#, kde-format
+msgid "backing-store: %1, save-unders: %2"
+msgstr ""
+
+#: ../base/os_base.h:185
+#, kde-format
+msgid "Largest Cursor"
+msgstr "Самы вялікі курсор"
+
+#: ../base/os_base.h:187
+#, kde-format
+msgid "unlimited"
+msgstr "неабмежавана"
+
+#: ../base/os_base.h:193
+#, kde-format
+msgid "Current Input Event Mask"
+msgstr ""
+
+#: ../base/os_base.h:199
+#, kde-format
+msgid "Event = %1"
+msgstr "Падзея = %1"
+
+#: ../base/os_base.h:233
+#, kde-format
+msgid "Server Information"
+msgstr "Інфармацыя пра сервер"
+
+#: ../base/os_base.h:243
+#, kde-format
+msgid "Vendor String"
+msgstr "Назва вытворцы"
+
+#: ../base/os_base.h:247
+#, kde-format
+msgid "Vendor Release Number"
+msgstr "Серыйны нумар прадукцыі"
+
+#: ../base/os_base.h:251
+#, kde-format
+msgid "Version Number"
+msgstr "Версія"
+
+#: ../base/os_base.h:255
+#, kde-format
+msgid "Available Screens"
+msgstr "Наяўныя экраны"
+
+#: ../base/os_base.h:265
+#, kde-format
+msgid "Supported Extensions"
+msgstr "Падтрыманыя пашырэнні"
+
+#: ../base/os_base.h:280
+#, kde-format
+msgid "Supported Pixmap Formats"
+msgstr "Падтрыманыя фарматы Pixmap"
+
+#: ../base/os_base.h:287
+#, kde-format
+msgid "Pixmap Format #%1"
+msgstr "Фармат Pixmap %1"
+
+#: ../base/os_base.h:287
+#, kde-format
+msgid "%1 BPP, Depth: %2, Scanline padding: %3"
+msgstr "%1 біт на піксель, глыбіня: %2, зрух ліній сканавання: %3"
+
+#: ../base/os_base.h:299
+#, kde-format
+msgid "Maximum Request Size"
+msgstr "Найбольшы памер запыту"
+
+#: ../base/os_base.h:303
+#, kde-format
+msgid "Motion Buffer Size"
+msgstr "Памер буферу руху"
+
+#: ../base/os_base.h:307
+#, kde-format
+msgid "Bitmap"
+msgstr "Bitmap"
+
+#: ../base/os_base.h:311
+#, kde-format
+msgid "Unit"
+msgstr "Адзінка вымярэння"
+
+#: ../base/os_base.h:315
+#, kde-format
+msgid "Order"
+msgstr "Парадак"
+
+#: ../base/os_base.h:319
+#, kde-format
+msgid "Padding"
+msgstr "Дапаўненне"
+
+#: ../base/os_base.h:323
+#, kde-format
+msgid "Image Byte Order"
+msgstr "Парадак байтаў малюнку"
+
+#: ../base/os_current.h:57 ../base/os_current.h:66 ../base/os_current.h:86
+#: ../base/os_current.h:95 ../base/os_current.h:104 ../base/os_current.h:114
+#: ../base/os_current.h:123 ../base/os_current.h:132
+#, fuzzy, kde-format
+#| msgid "Maybe this system is not completely supported yet :-("
+msgid "This system may not be completely supported yet."
+msgstr "Напэўна гэтая сістэма яшчэ не падтрымліваецца поўнасцю :-("
+
+#: info.cpp:36
+#, fuzzy, kde-format
+#| msgid "KDE Panel System Information Control Module"
+msgid "System Information Control Module"
+msgstr "Модуль інфармацыі пра сістэму для панелі KDE"
+
+#: info.cpp:38
+#, fuzzy, kde-format
+#| msgid "(c) 1998 - 2002 Helge Deller"
+msgid ""
+"(c) 2008 Nicolas Ternisien\n"
+"(c) 1998 - 2002 Helge Deller"
+msgstr "(c) 1998 - 2002 Helge Deller"
+
+#: info.cpp:41
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr ""
+
+#: info.cpp:42
+#, kde-format
+msgid "Helge Deller"
+msgstr "Хельге Дэллер"
+
+#: info.cpp:62
+#, kde-format
+msgid "This list displays system information on the selected category."
+msgstr "Гэты спіс паказвае інфармацыю па выбранай катэгорыі."
+
+#: info.cpp:78
+#, fuzzy, kde-format
+#| msgid "No information available about %1."
+msgctxt "%1 is one of the modules of the kinfocenter, cpu info, os info, etc"
+msgid "No information available about %1."
+msgstr "Няма звестак пра %1."
+
+#: info.cpp:109
+#, fuzzy, kde-format
+#| msgid ""
+#| "<h1>System Information</h1> All the information modules return "
+#| "information about a certain aspect of your computer hardware or your "
+#| "operating system. Not all modules are available on all hardware "
+#| "architectures and/or operating systems."
+msgid ""
+"All the information modules return information about a certain aspect of "
+"your computer hardware or your operating system."
+msgstr ""
+"<h1>Сістэмная інфармацыя</h1> Усе інфармацыйныя модулі даюць інфармацыю пра "
+"нейкі аспект вашай аперацыйнай сістэмы ці прыладах вашага камп'ютара. Не ўсе "
+"модулі даступныя на ўсіх архітэктурах і/ці аперацыйных сістэмах."
+
+#: main.cpp:45
+#, kde-format
+msgid "Interrupt"
+msgstr "Перапыненні"
+
+#: main.cpp:48
+#, kde-format
+msgid "I/O-Port"
+msgstr "Порт I/O"
+
+#: main.cpp:54
+#, kde-format
+msgid "X-Server"
+msgstr "Сервер X"
+
+#: main.cpp:57
+#, kde-format
+msgid "Wayland"
+msgstr ""

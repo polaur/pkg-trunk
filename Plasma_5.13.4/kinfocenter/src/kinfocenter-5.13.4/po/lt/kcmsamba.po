@@ -1,0 +1,428 @@
+# translation of kcmsamba.po to Lithuanian
+#
+# Donatas Glodenis <dgvirtual@akl.lt>, 2004, 2005.
+# Tomas Straupis <tomasstraupis@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmsamba\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-03-31 02:49+0200\n"
+"PO-Revision-Date: 2011-01-01 12:31+0200\n"
+"Last-Translator: Tomas Straupis <tomasstraupis@gmail.com>\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Lokalize 1.1\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ričardas Čepas"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "rch@richard.eu.org"
+
+#: kcmsambaimports.cpp:39 ksmbstatus.cpp:49
+#, kde-format
+msgid "Type"
+msgstr "Tipas"
+
+#: kcmsambaimports.cpp:39
+#, kde-format
+msgid "Resource"
+msgstr "Resursas"
+
+#: kcmsambaimports.cpp:39
+#, kde-format
+msgid "Mounted Under"
+msgstr "Sumontuotas ties"
+
+#: kcmsambaimports.cpp:41
+#, kde-format
+msgid ""
+"This list shows the Samba and NFS shared resources mounted on your system "
+"from other hosts. The \"Type\" column tells you whether the mounted resource "
+"is a Samba or an NFS type of resource. The \"Resource\" column shows the "
+"descriptive name of the shared resource. Finally, the third column, which is "
+"labeled \"Mounted under\" shows the location on your system where the shared "
+"resource is mounted."
+msgstr ""
+"Šis sąrašas rodo Samba ir NFS bendro naudojimo resursus, sumontuotus Jūsų "
+"sistemoje iš kitų mazgų.  „Tipo“ stulpelis pasako, ar sumontuotas resursas "
+"yra Samba, ar NFS tipo resursas.  „Resurso“ stulpelis rodo išsamų bendro "
+"naudojimo resurso pavadinimą.  Galiausiai trečias stulpelis, pažymėtas "
+"„Sumontuotas po“, rodo vietą Jūsų sistemoje, kur yra sumontuotas bendro "
+"naudojimo resuras."
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Samba log file: "
+msgstr "Samba žurnalo failas: "
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Show opened connections"
+msgstr "Rodyti atidarytus prisijungimus"
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Show closed connections"
+msgstr "Rodyti uždarytus prisijungimus"
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "Show opened files"
+msgstr "Rodyti atvertus failus"
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "Show closed files"
+msgstr "Rodyti užvertus failus"
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "&Update"
+msgstr "&Atnaujinti"
+
+#: kcmsambalog.cpp:58
+#, kde-format
+msgid ""
+"This page presents the contents of your samba log file in a friendly layout. "
+"Check that the correct log file for your computer is listed here. If you "
+"need to, correct the name or location of the log file, and then click the "
+"\"Update\" button."
+msgstr ""
+"Šis puslapis parodo samba žurnalo failo turinį naudotojui patogiu būdu. "
+"Patikrinkite, ar žemiau nurodytas kompiuterio žurnalo failas yra teisingas. "
+"Jei reikia, pataisykite žurnalo failo vardą ar vietą, ir paspauskite mygtuką "
+"„Atnaujinti“."
+
+#: kcmsambalog.cpp:63
+#, kde-format
+msgid ""
+"Check this option if you want to view the details for connections opened to "
+"your computer."
+msgstr ""
+"Pažymėkite šią parinktį, jei Jūs norite detaliau pažiūrėti prisijungimus, "
+"padarytus prie Jūsų kompiuterio."
+
+#: kcmsambalog.cpp:66
+#, kde-format
+msgid ""
+"Check this option if you want to view the events when connections to your "
+"computer were closed."
+msgstr ""
+"Pažymėkite šią parinktį, jei Jūs norite žiūrėti įvykius, kai prisijungima "
+"prie Jūsų kompiuterio buvo baigti."
+
+#: kcmsambalog.cpp:69
+#, kde-format
+msgid ""
+"Check this option if you want to see the files which were opened on your "
+"computer by remote users. Note that file open/close events are not logged "
+"unless the samba log level is set to at least 2 (you cannot set the log "
+"level using this module)."
+msgstr ""
+"Pažymėkite šią parinktį, jei norite matyti nutolusių naudotojų kompiuteryje "
+"atvertus failus. Atkreipkite dėmesį, kad failų atvėrimas ir(ar) užvėrimas "
+"yra registruojamas žurnale tik tuomet, jei samba žurnalo lygis yra 2 ar "
+"didesnis (šis modulis negali pakeisti žurnalo lygio)."
+
+#: kcmsambalog.cpp:75
+#, kde-format
+msgid ""
+"Check this option if you want to see the events when files opened by remote "
+"users were closed. Note that file open/close events are not logged unless "
+"the samba log level is set to at least 2 (you cannot set the log level using "
+"this module)."
+msgstr ""
+"Pažymėkite šią parinktį, jei norite matyti kai yra uždaromi failai, atverti "
+"nutolusių naudotojų. Atkreipkite dėmesį, kad failų atvėrimas ir(ar) "
+"užvėrimas yra registruojamas žurnale tik tuomet, jei samba žurnalo lygis yra "
+"2 ar didesnis (šis modulis negali pakeisti žurnalo lygio)."
+
+#: kcmsambalog.cpp:81
+#, kde-format
+msgid ""
+"Click here to refresh the information on this page. The log file (shown "
+"above) will be read to obtain the events logged by samba."
+msgstr ""
+"Spragtelėkite čia norėdami atnaujinti informaciją šiame puslapyje. Prieš "
+"pateikiant samba žurnalo įvykius, žurnalo failas (rodomas aukščiau) bus "
+"perskaitytas iš naujo."
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:90
+#, kde-format
+msgid "Date & Time"
+msgstr "Data ir laikas"
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:90 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Event"
+msgstr "Įvykis"
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:91 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Service/File"
+msgstr "Tarnyba/failas"
+
+#: kcmsambalog.cpp:90 kcmsambalog.cpp:91 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Host/User"
+msgstr "Mazgas/naudotojas"
+
+#: kcmsambalog.cpp:94
+#, kde-format
+msgid ""
+"<p>This list shows details of the events logged by samba. Note that events "
+"at the file level are not logged unless you have configured the log level "
+"for samba to 2 or greater.</p><p> As with many other lists in KDE, you can "
+"click on a column heading to sort on that column. Click again to change the "
+"sorting direction from ascending to descending or vice versa.</p><p> If the "
+"list is empty, try clicking the \"Update\" button. The samba log file will "
+"be read and the list refreshed.</p>"
+msgstr ""
+"<p>Šiame sąraše rodomos samba įvykių, užregistruotų žurnale, detalės. "
+"Atkreipkite dėmesį, kad failų lygio įvykiai yra registruojami žurnale tik "
+"tuomet, jei samba žurnalo lygis yra 2 ar didesnis.</p><p>Kaip ir daugelyje "
+"kitų KDE sąrašų, norėdami rikiuoti įrašus pagal to stulpelio reikšmes, "
+"galite spragtelėti ant stulpelio antraštės. Norėdami pakeisti rūšiavimo "
+"tvarką iš didėjančios į mažėjančią ar atvirkščiai, spragtelėkite vėl. </"
+"p><p> Jei sąrašas tuščias, spragtelėkite „Atnaujinti“ mygtuką. Samba žurnalo "
+"failas bus perskaitytas ir sąrašas atnaujintas.</p>"
+
+#: kcmsambalog.cpp:205 kcmsambastatistics.cpp:149 kcmsambastatistics.cpp:214
+#, kde-format
+msgid "CONNECTION OPENED"
+msgstr "PRISIJUNGIMAS ATVERTAS"
+
+#: kcmsambalog.cpp:209
+#, kde-format
+msgid "CONNECTION CLOSED"
+msgstr "PRISIJUNGIMAS UŽVERTAS"
+
+#: kcmsambalog.cpp:214
+#, kde-format
+msgid "            FILE OPENED"
+msgstr "            FAILAS ATVERTAS"
+
+#: kcmsambalog.cpp:220
+#, kde-format
+msgid "            FILE CLOSED"
+msgstr "            FAILAS UŽVERTAS"
+
+#: kcmsambalog.cpp:228
+#, kde-format
+msgid "Could not open file %1"
+msgstr "Nepavyko atverti failo %1"
+
+#: kcmsambastatistics.cpp:43
+#, kde-format
+msgid "Connections: 0"
+msgstr "Prisijungimai: 0"
+
+#: kcmsambastatistics.cpp:45
+#, kde-format
+msgid "File accesses: 0"
+msgstr "Failo prieiga: 0"
+
+#: kcmsambastatistics.cpp:48
+#, kde-format
+msgid "Event: "
+msgstr "Įvykis: "
+
+#: kcmsambastatistics.cpp:52
+#, kde-format
+msgid "Service/File:"
+msgstr "Tarnyba/failas:"
+
+#: kcmsambastatistics.cpp:56
+#, kde-format
+msgid "Host/User:"
+msgstr "Mazgas/naudotojas:"
+
+#: kcmsambastatistics.cpp:59
+#, kde-format
+msgid "&Search"
+msgstr "&Ieškoti"
+
+#: kcmsambastatistics.cpp:60
+#, kde-format
+msgid "Clear Results"
+msgstr "Ištrinti rezultatus"
+
+#: kcmsambastatistics.cpp:61
+#, kde-format
+msgid "Show expanded service info"
+msgstr "Rodyti išplėstą tarnybos informaciją"
+
+#: kcmsambastatistics.cpp:62
+#, kde-format
+msgid "Show expanded host info"
+msgstr "Rodyti išplėstą mazgo informaciją"
+
+#: kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Nr"
+msgstr "Nr"
+
+#: kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Hits"
+msgstr "Kreipimaisi"
+
+#: kcmsambastatistics.cpp:72 kcmsambastatistics.cpp:137
+#, kde-format
+msgid "Connection"
+msgstr "Prisijungimas"
+
+#: kcmsambastatistics.cpp:73
+#, kde-format
+msgid "File Access"
+msgstr "Failo prieiga"
+
+#: kcmsambastatistics.cpp:127
+#, kde-format
+msgid "Connections: %1"
+msgstr "Prisijungimai: %1"
+
+#: kcmsambastatistics.cpp:128
+#, kde-format
+msgid "File accesses: %1"
+msgstr "Failo prieiga: %1 x"
+
+#: kcmsambastatistics.cpp:162 kcmsambastatistics.cpp:217
+#, kde-format
+msgid "FILE OPENED"
+msgstr "FAILAS ATVERTAS"
+
+#: ksmbstatus.cpp:49
+#, kde-format
+msgid "Service"
+msgstr "Tarnyba"
+
+#: ksmbstatus.cpp:49
+#, kde-format
+msgid "Accessed From"
+msgstr "Pasiekta iš"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "UID"
+msgstr "UID"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "GID"
+msgstr "GID"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "PID"
+msgstr "PID"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "Open Files"
+msgstr "Atidaryti failai"
+
+#: ksmbstatus.cpp:169
+#, fuzzy, kde-format
+#| msgid "Error: Unable to run smbstatus"
+msgid "Error run smbstatus: %1"
+msgstr "Klaida: nepavyksta paleisti smbstatus"
+
+#: ksmbstatus.cpp:172
+#, kde-format
+msgid "Error: Unable to open configuration file \"smb.conf\""
+msgstr "Klaida: nepavyko atverti konfigūracijos failo „smb.conf“"
+
+#: main.cpp:58
+#, kde-format
+msgid "&Exports"
+msgstr "&Eksportas"
+
+#: main.cpp:59
+#, kde-format
+msgid "&Imports"
+msgstr "I&mportas"
+
+#: main.cpp:60
+#, kde-format
+msgid "&Log"
+msgstr "&Žurnalas"
+
+#: main.cpp:61
+#, kde-format
+msgid "&Statistics"
+msgstr "S&tatistika"
+
+#: main.cpp:65
+#, kde-format
+msgid ""
+"<p>The Samba and NFS Status Monitor is a front end to the programs "
+"<em>smbstatus</em> and <em>showmount</em>. Smbstatus reports on current "
+"Samba connections, and is part of the suite of Samba tools, which implements "
+"the SMB (Session Message Block) protocol, also called the NetBIOS or "
+"LanManager protocol. This protocol can be used to provide printer sharing or "
+"drive sharing services on a network including machines running the various "
+"flavors of Microsoft Windows.</p>"
+msgstr ""
+"<p>Samba ir NFS būsenos stebėtojas yra naudotojo sąsaja <em>smbstatus</em> "
+"ir <em>showmount</em> programoms. Smbstatus rodo esamus Samba prisijungimus, "
+"ir yra Samba įrankių rinkinio dalis, kuri įgyvendina SMB (Session Message "
+"Block) protokolą, dar vadinamu NetBIOS arba LanManager protokolu. Šis "
+"protokolas gali būti naudojamas suteikti spausdintuvų ar diskų bendro "
+"naudojimo paslaugas tinkle, kuriame yra kompiuterių, naudojančių įvairius "
+"Microsoft Windows variantus.</p>"
+
+#: main.cpp:73
+#, kde-format
+msgid "kcmsamba"
+msgstr "kcmsamba"
+
+#: main.cpp:74
+#, kde-format
+msgid "System Information Control Module"
+msgstr "Sistemos informacijos valdymo modulis"
+
+#: main.cpp:76
+#, kde-format
+msgid "(c) 2002 KDE Information Control Module Samba Team"
+msgstr "© 2002 KDE informacijos valdymo modulio Samba komanda"
+
+#: main.cpp:77
+#, kde-format
+msgid "Michael Glauche"
+msgstr "Michael Glauche"
+
+#: main.cpp:78
+#, kde-format
+msgid "Matthias Hoelzer"
+msgstr "Matthias Hoelzer"
+
+#: main.cpp:79
+#, kde-format
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:80
+#, kde-format
+msgid "Harald Koschinski"
+msgstr "Harald Koschinski"
+
+#: main.cpp:81
+#, kde-format
+msgid "Wilco Greven"
+msgstr "Wilco Greven"
+
+#: main.cpp:82
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"

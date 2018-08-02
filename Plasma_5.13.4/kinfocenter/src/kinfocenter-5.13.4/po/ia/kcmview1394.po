@@ -1,0 +1,140 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# g.sora <g.sora@tiscali.it>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-03-31 02:49+0200\n"
+"PO-Revision-Date: 2010-08-24 13:44+0200\n"
+"Last-Translator: g.sora <g.sora@tiscali.it>\n"
+"Language-Team: Interlingua <kde-i18n-it@kde.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: view1394.cpp:61
+#, kde-format
+msgid ""
+"<qt>Here you can see some information about your IEEE 1394 configuration. "
+"The meaning of the columns:<ul><li><b>Name</b>: port or node name, the "
+"number can change with each bus reset</li><li><b>GUID</b>: the 64 bit GUID "
+"of the node</li><li><b>Local</b>: checked if the node is an IEEE 1394 port "
+"of your computer</li><li><b>IRM</b>: checked if the node is isochronous "
+"resource manager capable</li><li><b>CRM</b>: checked if the node is cycle "
+"master capable</li><li><b>ISO</b>: checked if the node supports isochronous "
+"transfers</li><li><b>BM</b>: checked if the node is bus manager capable</"
+"li><li><b>PM</b>: checked if the node is power management capable</"
+"li><li><b>Acc</b>: the cycle clock accuracy of the node, valid from 0 to "
+"100</li><li><b>Speed</b>: the speed of the node</li><li><b>Vendor</b>: the "
+"vendor of the device</li></ul></qt>"
+msgstr ""
+"<qt>Hic tu pote vider alcun information re tu configuration de IEEE 1394 . "
+"Le significato del columnas:<ul><li><b>Nomine</b>: nomine de porto o nodo, "
+"le numero pote cambiar a cata re-initio de bus</li><li><b>GUID</b>: the 64 "
+"bit GUID del nodo</li><li><b>Local</b>: marcate si le nodo es un porto IEEE "
+"1394  de tu computator</li><li><b>IRM</b>: marcate si le nodo ha capacitate "
+"de gerente  isochrono de ressource</li><li><b>CRM</b>: marcate si le nodo ha "
+"capacitate de Cyclo maestro</li><li><b>ISO</b>: marcate si le nodo supporta "
+"transferentias isochrone </li><li><b>BM</b>: marcate si le nodo ha "
+"capacitate de gerer bus</li><li><b>PM</b>: marcate si le nodo ha capacitate "
+"de gerer energia de alimentation</li><li><b>Acc</b>: le accuratessa de cyclo "
+"de clock del nodo, valide ab 0 a 100</li><li><b>Velocitate</b>: le speed "
+"velocitate del nodo</li><li><b>Venditor</b>: le venditor del dispositivo</"
+"li></ul></qt>"
+
+#: view1394.cpp:194
+#, kde-format
+msgid "Port %1:\"%2\""
+msgstr "Porto %1:\"%2\""
+
+#: view1394.cpp:208
+#, kde-format
+msgid "Node %1"
+msgstr "Nodo %1"
+
+#: view1394.cpp:211
+#, kde-format
+msgid "Not ready"
+msgstr "Non Preste"
+
+#: view1394.cpp:306
+#, kde-format
+msgid "Unknown"
+msgstr "Incognite"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:20
+#, kde-format
+msgid "Name"
+msgstr "Nomine"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:31
+#, kde-format
+msgid "GUID"
+msgstr "GUID"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:42
+#, kde-format
+msgid "Local"
+msgstr "Local"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:53
+#, kde-format
+msgid "IRM"
+msgstr "IRM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:64
+#, kde-format
+msgid "CRM"
+msgstr "CRM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:75
+#, kde-format
+msgid "ISO"
+msgstr "ISO"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:86
+#, kde-format
+msgid "BM"
+msgstr "BM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:97
+#, kde-format
+msgid "PM"
+msgstr "PM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:108
+#, kde-format
+msgid "Acc"
+msgstr "Acc"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:119
+#, kde-format
+msgid "Speed"
+msgstr "Velocitate"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:130
+#, kde-format
+msgid "Vendor"
+msgstr "Venditor"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_busResetPb)
+#: view1394widget.ui:165
+#, kde-format
+msgid "Generate 1394 Bus Reset"
+msgstr "Generate 1394 Bus Reinitio"

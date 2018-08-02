@@ -1,0 +1,2012 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Lukáš Tinkl <ltinkl@redhat.com>, 2010, 2012.
+# Vít Pelčák <vit@pelcak.org>, 2011, 2012, 2013, 2014, 2016.
+# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_pci\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:20+0100\n"
+"PO-Revision-Date: 2016-03-14 14:25+0100\n"
+"Last-Translator: Vít Pelčák <vit@pelcak.org>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Vlastimil Ott"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "vlastimil@e-ott.info"
+
+#: kcm_pci.cpp:42
+#, kde-format
+msgid "kcm_pci"
+msgstr "kcm_pci"
+
+#: kcm_pci.cpp:43
+#, kde-format
+msgid "PCI Devices"
+msgstr "Zařízení PCI"
+
+#: kcm_pci.cpp:45
+#, kde-format
+msgid "(c) 2008 Nicolas Ternisien(c) 1998 - 2002 Helge Deller"
+msgstr "(c) 2008 Nicolas Ternisien(c) 1998 - 2002 Helge Deller"
+
+#: kcm_pci.cpp:48
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
+
+#: kcm_pci.cpp:49
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: kcm_pci.cpp:62
+#, kde-format
+msgid "This list displays PCI information."
+msgstr "Tento seznam zobrazuje informace o PCI."
+
+#: kcm_pci.cpp:82
+#, kde-format
+msgid ""
+"This display shows information about your computer's PCI slots and the "
+"related connected devices."
+msgstr ""
+"Tento seznam zobrazuje informace o sběrnici PCI a připojených zařízeních."
+
+#: kpci.cpp:64
+#, kde-format
+msgid "Device Class"
+msgstr "Třída zařízení"
+
+#: kpci.cpp:65
+#, kde-format
+msgid "Device Subclass"
+msgstr "Podtřída zařízení"
+
+#: kpci.cpp:66
+#, kde-format
+msgid "Device Programming Interface"
+msgstr "Programátorské rozhraní pro zařízení"
+
+#: kpci.cpp:68
+#, kde-format
+msgid "Master IDE Device"
+msgstr "Hlavní IDE zařízení"
+
+#: kpci.cpp:69
+#, kde-format
+msgid "Secondary programmable indicator"
+msgstr "Sekundární programovatelný indikátor"
+
+#: kpci.cpp:70
+#, kde-format
+msgid "Secondary operating mode"
+msgstr "Sekundární operační režim"
+
+#: kpci.cpp:71
+#, kde-format
+msgid "Primary programmable indicator"
+msgstr "Primární programovatelný indikátor"
+
+#: kpci.cpp:72
+#, kde-format
+msgid "Primary operating mode"
+msgstr "Primární operační režim"
+
+#: kpci.cpp:100 kpci.cpp:124
+#, kde-format
+msgid "Vendor"
+msgstr "Prodejce"
+
+#: kpci.cpp:107 kpci.cpp:126
+#, kde-format
+msgid "Device"
+msgstr "Zařízení"
+
+#: kpci.cpp:116 kpci.cpp:135 kpci.cpp:138 kpci.cpp:142
+#, kde-format
+msgid "Subsystem"
+msgstr "Subsystém"
+
+#: kpci.cpp:135
+#, kde-format
+msgid " - device:"
+msgstr " - zařízení:"
+
+#: kpci.cpp:153 kpci.cpp:174
+#, kde-format
+msgid "Interrupt"
+msgstr "Přerušení"
+
+#: kpci.cpp:154
+#, kde-format
+msgid "IRQ"
+msgstr "IRQ"
+
+#: kpci.cpp:155
+#, kde-format
+msgid "Pin"
+msgstr "Pin"
+
+#: kpci.cpp:163
+#, kde-format
+msgid "Control"
+msgstr "Ovládání"
+
+#: kpci.cpp:164
+#, kde-format
+msgid "Response in I/O space"
+msgstr "Odezva v I/O prostoru"
+
+#: kpci.cpp:165
+#, kde-format
+msgid "Response in memory space"
+msgstr "Odezva v paměťovém prostoru"
+
+#: kpci.cpp:166
+#, kde-format
+msgid "Bus mastering"
+msgstr "Řízení sběrnice"
+
+#: kpci.cpp:167
+#, kde-format
+msgid "Response to special cycles"
+msgstr "Odezva na speciální cykly"
+
+#: kpci.cpp:168
+#, kde-format
+msgid "Memory write and invalidate"
+msgstr "Zápis do paměti a mazání"
+
+#: kpci.cpp:169
+#, kde-format
+msgid "Palette snooping"
+msgstr "Snooping palety"
+
+#: kpci.cpp:170
+#, kde-format
+msgid "Parity checking"
+msgstr "Ověření parity"
+
+#: kpci.cpp:171
+#, kde-format
+msgid "Address/data stepping"
+msgstr "Krokování adresy/dat"
+
+#: kpci.cpp:172
+#, kde-format
+msgid "System error"
+msgstr "Systémová chyba"
+
+#: kpci.cpp:173
+#, kde-format
+msgid "Back-to-back writes"
+msgstr "Zápisy back-to-back"
+
+#: kpci.cpp:181 kpci.cpp:434 kpci.cpp:536 kpci.cpp:562
+#, kde-format
+msgid "Status"
+msgstr "Stav"
+
+#: kpci.cpp:182 kpci.cpp:347 kpci.cpp:362
+#, kde-format
+msgid "Interrupt status"
+msgstr "Stav přerušení"
+
+#: kpci.cpp:183 kpci.cpp:348 kpci.cpp:363
+#, kde-format
+msgid "Capability list"
+msgstr "Seznam možností"
+
+#: kpci.cpp:184 kpci.cpp:349 kpci.cpp:364
+#, kde-format
+msgid "66 MHz PCI 2.1 bus"
+msgstr "Sběrnice PCI 2.1 66 MHz "
+
+#: kpci.cpp:185 kpci.cpp:350 kpci.cpp:365
+#, kde-format
+msgid "User-definable features"
+msgstr "Uživatelsky nastavitelné vlastnosti"
+
+#: kpci.cpp:186 kpci.cpp:351 kpci.cpp:366
+#, kde-format
+msgid "Accept fast back-to-back"
+msgstr "Přijmout rychlé back-to-back"
+
+#: kpci.cpp:187 kpci.cpp:352 kpci.cpp:367
+#, kde-format
+msgid "Data parity error"
+msgstr "Chyba parity dat"
+
+#: kpci.cpp:188 kpci.cpp:353 kpci.cpp:368
+#, kde-format
+msgid "Device selection timing"
+msgstr "Časování výběru zařízení"
+
+#: kpci.cpp:189 kpci.cpp:354 kpci.cpp:369
+#, kde-format
+msgid "Signaled target abort"
+msgstr "Signalizováno cílové selhání"
+
+#: kpci.cpp:190 kpci.cpp:355 kpci.cpp:370
+#, kde-format
+msgid "Received target abort"
+msgstr "Obdrženo cílové selhání"
+
+#: kpci.cpp:191 kpci.cpp:356 kpci.cpp:371
+#, kde-format
+msgid "Received master abort"
+msgstr "Obdrženo hlavní selhání"
+
+#: kpci.cpp:192 kpci.cpp:357 kpci.cpp:372
+#, kde-format
+msgid "Signaled system error"
+msgstr "Signalizována systémová chyba"
+
+#: kpci.cpp:193 kpci.cpp:358 kpci.cpp:373
+#, kde-format
+msgid "Parity error"
+msgstr "Chyba parity"
+
+#: kpci.cpp:200
+#, kde-format
+msgid "Latency"
+msgstr "Latence"
+
+#: kpci.cpp:203 kpci.cpp:206
+#, kde-format
+msgid "MIN_GNT"
+msgstr "MIN_GNT"
+
+#: kpci.cpp:203 kpci.cpp:209
+#, kde-format
+msgid "No major requirements (0x00)"
+msgstr "Bez významných požadavků (0x00)"
+
+#: kpci.cpp:209 kpci.cpp:212
+#, kde-format
+msgid "MAX_LAT"
+msgstr "MAX_LAT"
+
+#: kpci.cpp:221
+#, kde-format
+msgid "Header"
+msgstr "Hlavička"
+
+#: kpci.cpp:222 kpci.cpp:287 kpci.cpp:464
+#, kde-format
+msgid "Type"
+msgstr "Typ"
+
+#: kpci.cpp:223
+#, kde-format
+msgid "Multifunctional"
+msgstr "Polyfunkční"
+
+#: kpci.cpp:230
+#, kde-format
+msgid "Build-in self test"
+msgstr "Zabudovaná sebekontrola"
+
+#: kpci.cpp:231
+#, kde-format
+msgid "BIST Capable"
+msgstr "Schopný BIST"
+
+#: kpci.cpp:233
+#, kde-format
+msgid "BIST Start"
+msgstr "BIST Start"
+
+#: kpci.cpp:234
+#, kde-format
+msgid "Completion code"
+msgstr "Kód kompletace"
+
+#: kpci.cpp:241 kpci.cpp:244 kpci.cpp:247 kpci.cpp:253 kpci.cpp:256
+#: kpci.cpp:259 kpci.cpp:264 kpci.cpp:295 kpci.cpp:311 kpci.cpp:437
+#, kde-format
+msgid "Size"
+msgstr "Velikost"
+
+#: kpci.cpp:276
+#, kde-format
+msgid "Address mappings"
+msgstr "Mapování adres"
+
+#: kpci.cpp:284
+#, kde-format
+msgid "Mapping %1"
+msgstr "Mapování %1"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "Space"
+msgstr "Prostor"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "I/O"
+msgstr "I/O"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "Memory"
+msgstr "Paměť"
+
+#: kpci.cpp:288 kpci.cpp:457
+#, kde-format
+msgid "Prefetchable"
+msgstr "Přednačítaná"
+
+#: kpci.cpp:294 kpci.cpp:298 kpci.cpp:303 kpci.cpp:310 kpci.cpp:314
+#: kpci.cpp:436 kpci.cpp:440 kpci.cpp:633 kpci.cpp:641
+#, kde-format
+msgid "Address"
+msgstr "Adresa"
+
+#: kpci.cpp:294 kpci.cpp:310 kpci.cpp:436
+#, kde-format
+msgctxt "unassigned address"
+msgid "Unassigned"
+msgstr "Nepřiřazeno"
+
+#: kpci.cpp:295 kpci.cpp:311 kpci.cpp:437
+#, kde-format
+msgctxt "unassigned size"
+msgid "Unassigned"
+msgstr "Nepřiřazeno"
+
+#: kpci.cpp:326 kpci.cpp:333
+#, kde-format
+msgid "Bus"
+msgstr "Sběrnice"
+
+#: kpci.cpp:327 kpci.cpp:334
+#, kde-format
+msgid "Primary bus number"
+msgstr "Číslo primární sběrnice"
+
+#: kpci.cpp:328
+#, kde-format
+msgid "Secondary bus number"
+msgstr "Číslo sekundární sběrnice"
+
+#: kpci.cpp:329 kpci.cpp:336
+#, kde-format
+msgid "Subordinate bus number"
+msgstr "Číslo podřízené sběrnice"
+
+#: kpci.cpp:330
+#, kde-format
+msgid "Secondary latency timer"
+msgstr "Sekundární časovač latence"
+
+#: kpci.cpp:335
+#, kde-format
+msgid "CardBus number"
+msgstr "Číslo CardBus"
+
+#: kpci.cpp:337
+#, kde-format
+msgid "CardBus latency timer"
+msgstr "Časovač latence CardBus"
+
+#: kpci.cpp:346 kpci.cpp:361
+#, kde-format
+msgid "Secondary status"
+msgstr "Sekundární stav"
+
+#: kpci.cpp:382
+#, kde-format
+msgid "I/O behind bridge"
+msgstr "I/O za můstkem"
+
+#: kpci.cpp:383 kpci.cpp:464
+#, kde-format
+msgid "32-bit"
+msgstr "32-bit"
+
+#: kpci.cpp:385 kpci.cpp:389 kpci.cpp:393 kpci.cpp:398 kpci.cpp:402
+#: kpci.cpp:458 kpci.cpp:466 kpci.cpp:470
+#, kde-format
+msgid "Base"
+msgstr "Základna"
+
+#: kpci.cpp:386 kpci.cpp:390 kpci.cpp:394 kpci.cpp:399 kpci.cpp:403
+#: kpci.cpp:459 kpci.cpp:467 kpci.cpp:471
+#, kde-format
+msgid "Limit"
+msgstr "Limit"
+
+#: kpci.cpp:392
+#, kde-format
+msgid "Memory behind bridge"
+msgstr "Paměť za můstkem"
+
+#: kpci.cpp:395
+#, kde-format
+msgid "Prefetchable memory behind bridge"
+msgstr "Přednačítaná paměť za můstkem"
+
+#: kpci.cpp:396
+#, kde-format
+msgid "64-bit"
+msgstr "64-bit"
+
+#: kpci.cpp:413
+#, kde-format
+msgid "Bridge control"
+msgstr "Ovládání můstku"
+
+#: kpci.cpp:414 kpci.cpp:484
+#, kde-format
+msgid "Secondary parity checking"
+msgstr "Sekundární ověřování parity"
+
+#: kpci.cpp:415 kpci.cpp:485
+#, kde-format
+msgid "Secondary system error"
+msgstr "Sekundární systémová chyba"
+
+#: kpci.cpp:416 kpci.cpp:486
+#, kde-format
+msgid "ISA ports forwarding"
+msgstr "Přesměrování ISA portů"
+
+#: kpci.cpp:417 kpci.cpp:487
+#, kde-format
+msgid "VGA forwarding"
+msgstr "Přesměrování VGA"
+
+#: kpci.cpp:418 kpci.cpp:488
+#, kde-format
+msgid "Master abort"
+msgstr "Hlavní selhání"
+
+#: kpci.cpp:419
+#, kde-format
+msgid "Secondary bus reset"
+msgstr "Reset sekundární sběrnice"
+
+#: kpci.cpp:420
+#, kde-format
+msgid "Secondary back-to-back writes"
+msgstr "Sekundární zápisy back-to-back"
+
+#: kpci.cpp:421
+#, kde-format
+msgid "Primary discard timer counts"
+msgstr "Primární počty odkládacího časovače"
+
+#: kpci.cpp:421 kpci.cpp:422
+#, kde-format
+msgid "2e10 PCI clocks"
+msgstr "Takty 2e10 PCI"
+
+#: kpci.cpp:421 kpci.cpp:422
+#, kde-format
+msgid "2e15 PCI clocks"
+msgstr "Takty 2e15 PCI"
+
+#: kpci.cpp:422
+#, kde-format
+msgid "Secondary discard timer counts"
+msgstr "Sekundární počty odkládacího časovače"
+
+#: kpci.cpp:423
+#, kde-format
+msgid "Discard timer error"
+msgstr "Chyba odkládacího časovače"
+
+#: kpci.cpp:424
+#, kde-format
+msgid "Discard timer system error"
+msgstr "Systémová chyba odkládacího časovače"
+
+#: kpci.cpp:433
+#, kde-format
+msgid "Expansion ROM"
+msgstr "Rozšíření ROM"
+
+#: kpci.cpp:453
+#, kde-format
+msgid "Memory windows"
+msgstr "Paměťová okna"
+
+#: kpci.cpp:456 kpci.cpp:463
+#, kde-format
+msgid "Window %1"
+msgstr "Okno %1"
+
+#: kpci.cpp:461
+#, kde-format
+msgid "I/O windows"
+msgstr "I/O okna"
+
+#: kpci.cpp:464
+#, kde-format
+msgid "16-bit"
+msgstr "16bit"
+
+#: kpci.cpp:474
+#, kde-format
+msgid "16-bit legacy interface ports"
+msgstr "16bitové porty historických rozhraní"
+
+#: kpci.cpp:483
+#, kde-format
+msgid "CardBus control"
+msgstr "Ovládání CardBus"
+
+#: kpci.cpp:489
+#, kde-format
+msgid "Interrupts for 16-bit cards"
+msgstr "Přerušení pro 16bitové karty"
+
+#: kpci.cpp:490
+#, kde-format
+msgid "Window 0 prefetchable memory"
+msgstr "Okno 0 přednačítaná paměť"
+
+#: kpci.cpp:491
+#, kde-format
+msgid "Window 1 prefetchable memory"
+msgstr "Okno 1 přednačítaná paměť"
+
+#: kpci.cpp:492
+#, kde-format
+msgid "Post writes"
+msgstr "Pozdější zápisy"
+
+#: kpci.cpp:500
+#, kde-format
+msgid "Raw PCI config space"
+msgstr "Neupravený konfigurační prostor PCI"
+
+#: kpci.cpp:522 kpci.cpp:684 kpci.cpp:715
+#, kde-format
+msgid "Capabilities"
+msgstr "Schopnosti"
+
+#: kpci.cpp:523
+#, kde-format
+msgid "Version"
+msgstr "Verze"
+
+#: kpci.cpp:524
+#, kde-format
+msgid "Clock required for PME generation"
+msgstr "Hodiny nutné pro vytvoření události správy napájení"
+
+#: kpci.cpp:525
+#, kde-format
+msgid "Device-specific initialization required"
+msgstr "Vyžadována inicializace specifická pro zařízení"
+
+#: kpci.cpp:526
+#, kde-format
+msgid "Maximum auxiliary current required in D3 cold"
+msgstr "Maximum přídavného proudu vyžadované v D3 cold"
+
+#: kpci.cpp:527
+#, kde-format
+msgid "D1 support"
+msgstr "Podpora D1"
+
+#: kpci.cpp:528
+#, kde-format
+msgid "D2 support"
+msgstr "Podpora D2"
+
+#: kpci.cpp:529
+#, kde-format
+msgid "Power management events"
+msgstr "Události správy napájení"
+
+#: kpci.cpp:530 kpci_private.h:763
+#, kde-format
+msgid "D0"
+msgstr "D0"
+
+#: kpci.cpp:531 kpci_private.h:764
+#, kde-format
+msgid "D1"
+msgstr "D1"
+
+#: kpci.cpp:532 kpci_private.h:765
+#, kde-format
+msgid "D2"
+msgstr "D2"
+
+#: kpci.cpp:533 kpci_private.h:766
+#, kde-format
+msgid "D3 hot"
+msgstr "D3 hot"
+
+#: kpci.cpp:534
+#, kde-format
+msgid "D3 cold"
+msgstr "D3 cold"
+
+#: kpci.cpp:537
+#, kde-format
+msgid "Power state"
+msgstr "Stav napájení"
+
+#: kpci.cpp:538 kpci_private.h:680
+#, kde-format
+msgid "Power management"
+msgstr "Správa napájení"
+
+#: kpci.cpp:539
+#, kde-format
+msgid "Data select"
+msgstr "Výběr dat"
+
+#: kpci.cpp:540
+#, kde-format
+msgid "Data scale"
+msgstr "Škálování dat"
+
+#: kpci.cpp:541
+#, kde-format
+msgid "Power management status"
+msgstr "Stav správy napájení"
+
+#: kpci.cpp:544
+#, kde-format
+msgid "Bridge status"
+msgstr "Stav můstku"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "Secondary bus state in D3 hot"
+msgstr "Stav sekundární sběrnice v D3 hot"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "B2"
+msgstr "B2"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "B3"
+msgstr "B3"
+
+#: kpci.cpp:546
+#, kde-format
+msgid "Secondary bus power & clock control"
+msgstr "Ovládání napájení a hodin sekundární sběrnice"
+
+#: kpci.cpp:549 kpci.cpp:611 kpci.cpp:634 kpci.cpp:642 kpci.cpp:658
+#: kpci.cpp:670
+#, kde-format
+msgid "Data"
+msgstr "Data"
+
+#. i18n("Revision"),value.sprintf("%i.%i",infoAgp.revMaior,infoAgp.revMinor));
+#: kpci.cpp:561 kpci.cpp:763
+#, kde-format
+msgid "Revision"
+msgstr "Revize"
+
+#: kpci.cpp:563 kpci.cpp:584
+#, kde-format
+msgid "Rate"
+msgstr "Poměr"
+
+#: kpci.cpp:564
+#, kde-format
+msgid "AGP 3.0 mode"
+msgstr "Režim AGP 3.0"
+
+#: kpci.cpp:565 kpci.cpp:585
+#, kde-format
+msgid "Fast Writes"
+msgstr "Rychlé zápisy"
+
+#: kpci.cpp:566 kpci.cpp:587
+#, kde-format
+msgid "Address over 4 GiB"
+msgstr "Adresa za hranicí 4 GB"
+
+#: kpci.cpp:568
+#, kde-format
+msgid "Translation of host processor access"
+msgstr "Překlad přístupu hostujícího procesoru"
+
+#: kpci.cpp:569 kpci.cpp:588
+#, kde-format
+msgid "64-bit GART"
+msgstr "64-bit GART"
+
+#: kpci.cpp:570
+#, kde-format
+msgid "Cache Coherency"
+msgstr "Koherence mezipaměti"
+
+#: kpci.cpp:572 kpci.cpp:591
+#, kde-format
+msgid "Side-band addressing"
+msgstr "Adresování postranního pásma"
+
+#: kpci.cpp:574 kpci.cpp:593
+#, kde-format
+msgid "Calibrating cycle"
+msgstr "Kalibrační cyklus"
+
+#: kpci.cpp:578 kpci.cpp:597
+#, kde-format
+msgid "Optimum asynchronous request size"
+msgstr "Optimální velikost asynchronního požadavku"
+
+#: kpci.cpp:579
+#, kde-format
+msgid "Isochronous transactions"
+msgstr "Přenos stejnoměrného časování"
+
+#: kpci.cpp:581 kpci.cpp:599
+#, kde-format
+msgid "Maximum number of AGP command"
+msgstr "Maximální počet AGP příkazů"
+
+#: kpci.cpp:583
+#, kde-format
+msgid "Configuration"
+msgstr "Nastavení"
+
+#: kpci.cpp:590 kpci_private.h:681
+#, kde-format
+msgid "AGP"
+msgstr "AGP"
+
+#: kpci.cpp:609
+#, kde-format
+msgid "Data address"
+msgstr "Adresa dat"
+
+#: kpci.cpp:610
+#, kde-format
+msgid "Transfer completed"
+msgstr "Přenos dokončen"
+
+#: kpci.cpp:623
+#, kde-format
+msgid "Message control"
+msgstr "Ovládání zpráv"
+
+#: kpci.cpp:624 kpci_private.h:684
+#, kde-format
+msgid "Message signaled interrupts"
+msgstr "Zpráva signalizovala přerušení"
+
+#: kpci.cpp:625
+#, kde-format
+msgid "Multiple message capable"
+msgstr "Schopno vícenásobných zpráv"
+
+#: kpci.cpp:626
+#, kde-format
+msgid "Multiple message enable"
+msgstr "Povolit vícenásobné zprávy"
+
+#: kpci.cpp:627
+#, kde-format
+msgid "64-bit address"
+msgstr "64-bitová adresa"
+
+#: kpci.cpp:628
+#, kde-format
+msgid "Per vector masking"
+msgstr "Maskování per vektor"
+
+#: kpci.cpp:636 kpci.cpp:644
+#, kde-format
+msgid "Mask"
+msgstr "Maska"
+
+#: kpci.cpp:637 kpci.cpp:645
+#, kde-format
+msgid "Pending"
+msgstr "Nevyřešeno"
+
+#: kpci.cpp:655
+#, kde-format
+msgid "Length"
+msgstr "Délka"
+
+#: kpci.cpp:658
+#, kde-format
+msgctxt "no data"
+msgid "None"
+msgstr "Nic"
+
+#: kpci.cpp:688
+#, kde-format
+msgid "Next"
+msgstr "Následující"
+
+#: kpci.cpp:688 kpci.cpp:715
+#, kde-format
+msgid "0x00 (None)"
+msgstr "0x00 (Nula)"
+
+#: kpci.cpp:711
+#, kde-format
+msgid "Root only"
+msgstr "Pouze root"
+
+#: kpci.cpp:724
+#, kde-format
+msgid "Information"
+msgstr "Informace"
+
+#: kpci.cpp:724
+#, kde-format
+msgid "Value"
+msgstr "Hodnota"
+
+#: kpci.cpp:772
+#, kde-format
+msgid "Cache line size"
+msgstr "Velikost řádky v mezipaměti"
+
+#: kpci_private.h:27
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Enabled"
+msgstr "Povoleno"
+
+#: kpci_private.h:28
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Disabled"
+msgstr "Zakázáno"
+
+#: kpci_private.h:29
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Yes"
+msgstr "Ano"
+
+#: kpci_private.h:30
+#, kde-format
+msgctxt "state of PCI item"
+msgid "No"
+msgstr "Ne"
+
+#: kpci_private.h:31
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Unknown"
+msgstr "Neznámý"
+
+#: kpci_private.h:439
+#, kde-format
+msgid "Unclassified device"
+msgstr "Neznámé zařízení"
+
+#: kpci_private.h:440 kpci_private.h:474
+#, kde-format
+msgid "Mass storage controller"
+msgstr "Řadič velkokapacitních úložných zařízení"
+
+#: kpci_private.h:441 kpci_private.h:484
+#, kde-format
+msgid "Network controller"
+msgstr "Síťový ovladač"
+
+#: kpci_private.h:442 kpci_private.h:490
+#, kde-format
+msgid "Display controller"
+msgstr "Ovladač zobrazení"
+
+#: kpci_private.h:443 kpci_private.h:496
+#, kde-format
+msgid "Multimedia controller"
+msgstr "Ovládání multimédií"
+
+#: kpci_private.h:444 kpci_private.h:501
+#, kde-format
+msgid "Memory controller"
+msgstr "Paměťový řadič"
+
+#: kpci_private.h:445 kpci_private.h:515 kpci_private.h:718
+#, kde-format
+msgid "Bridge"
+msgstr "Můstek"
+
+#: kpci_private.h:446 kpci_private.h:524
+#, kde-format
+msgid "Communication controller"
+msgstr "Komunikační řadič"
+
+#: kpci_private.h:447
+#, kde-format
+msgid "Generic system peripheral"
+msgstr "Obecná systémová periferie"
+
+#: kpci_private.h:448 kpci_private.h:540
+#, kde-format
+msgid "Input device controller"
+msgstr "Řadič vstupního zařízení"
+
+#: kpci_private.h:449 kpci_private.h:544
+#, kde-format
+msgid "Docking station"
+msgstr "Dokovací stanice"
+
+#: kpci_private.h:450
+#, kde-format
+msgid "Processor"
+msgstr "Procesor"
+
+#: kpci_private.h:451
+#, kde-format
+msgid "Serial bus controller"
+msgstr "Řadič sériové sběrnice"
+
+#: kpci_private.h:452 kpci_private.h:575
+#, kde-format
+msgid "Wireless controller"
+msgstr "Bezdrátový řadič"
+
+#: kpci_private.h:453
+#, kde-format
+msgid "Intelligent controller"
+msgstr "Inteligentní řadič"
+
+#: kpci_private.h:454
+#, kde-format
+msgid "Satellite communications controller"
+msgstr "Satelitní komunikační řadič"
+
+#: kpci_private.h:455 kpci_private.h:589
+#, kde-format
+msgid "Encryption controller"
+msgstr "Šifrovací řadič"
+
+#: kpci_private.h:456 kpci_private.h:596
+#, kde-format
+msgid "Signal processing controller"
+msgstr "Řadič zpracování signálu"
+
+#: kpci_private.h:457
+#, kde-format
+msgid "Unknown device class"
+msgstr "Neznámá třída zařízení"
+
+#: kpci_private.h:463
+#, kde-format
+msgid "Non-VGA unclassified device"
+msgstr "Nezařazené ne-VGA zařízení"
+
+#: kpci_private.h:464
+#, kde-format
+msgid "VGA unclassified device"
+msgstr "Nezařazené VGA zařízení"
+
+#: kpci_private.h:465
+#, kde-format
+msgid "Unknown unclassified device"
+msgstr "Neznámé nezařazené zařízení"
+
+#: kpci_private.h:467
+#, kde-format
+msgid "SCSI storage controller"
+msgstr "Řadič SCSI"
+
+#: kpci_private.h:468
+#, kde-format
+msgid "IDE controller"
+msgstr "IDE řadič"
+
+#: kpci_private.h:469
+#, kde-format
+msgid "Floppy disk controller"
+msgstr "Ovladač disketové mechaniky"
+
+#: kpci_private.h:470
+#, kde-format
+msgid "IPI bus controller"
+msgstr "Řadič sběrnice IPI"
+
+#: kpci_private.h:471
+#, kde-format
+msgid "RAID bus controller"
+msgstr "Řadič sběrnice RAID"
+
+#: kpci_private.h:472
+#, kde-format
+msgid "ATA controller"
+msgstr "ATA řadič"
+
+#: kpci_private.h:473
+#, kde-format
+msgid "Serial ATA direct port access"
+msgstr "Přímý přístup na port Serial ATA"
+
+#: kpci_private.h:475
+#, kde-format
+msgid "Unknown storage controller"
+msgstr "Řadič neznámého úložiště"
+
+#: kpci_private.h:477
+#, kde-format
+msgid "Ethernet controller"
+msgstr "Ovladač Ethernetu"
+
+#: kpci_private.h:478
+#, kde-format
+msgid "Token ring network controller"
+msgstr "Řadič sítě typu Token Ring"
+
+#: kpci_private.h:479
+#, kde-format
+msgid "FDDI network controller"
+msgstr "Síťový řadič FDDI"
+
+#: kpci_private.h:480
+#, kde-format
+msgid "ATM network controller"
+msgstr "Síťový řadič ATM"
+
+#: kpci_private.h:481
+#, kde-format
+msgid "ISDN controller"
+msgstr "Zařízení ISDN"
+
+#: kpci_private.h:482
+#, kde-format
+msgid "WorldFip controller"
+msgstr "Ovládání WorldFip"
+
+#: kpci_private.h:483
+#, kde-format
+msgid "PICMG 2.14 multi computing"
+msgstr "PICMG 2.14 multi computing"
+
+#: kpci_private.h:485
+#, kde-format
+msgid "Unknown network controller"
+msgstr "Neznámý síťový řadič"
+
+#: kpci_private.h:487
+#, kde-format
+msgid "VGA compatible controller"
+msgstr "Zařízení VGA kompatibilní"
+
+#: kpci_private.h:488
+#, kde-format
+msgid "XGA compatible controller"
+msgstr "Zařízení XGA kompatibilní"
+
+#: kpci_private.h:489
+#, kde-format
+msgid "3D controller"
+msgstr "3D zařízení"
+
+#: kpci_private.h:491
+#, kde-format
+msgid "Unknown display controller"
+msgstr "Neznámý zobrazovací řadič"
+
+#: kpci_private.h:493
+#, kde-format
+msgid "Multimedia video controller"
+msgstr "Multimediální video řadič"
+
+#: kpci_private.h:494
+#, kde-format
+msgid "Multimedia audio controller"
+msgstr "Multimediální audio řadič"
+
+#: kpci_private.h:495
+#, kde-format
+msgid "Computer telephony device"
+msgstr "Telefonní počítačové zařízení"
+
+#: kpci_private.h:497
+#, kde-format
+msgid "Unknown multimedia controller"
+msgstr "Neznámý multimediální řadič"
+
+#: kpci_private.h:499
+#, kde-format
+msgid "RAM memory"
+msgstr "Paměť RAM"
+
+#: kpci_private.h:500
+#, kde-format
+msgid "FLASH memory"
+msgstr "Paměť FLASH"
+
+#: kpci_private.h:502
+#, kde-format
+msgid "Unknown memory controller"
+msgstr "Neznámý paměťový řadič"
+
+#: kpci_private.h:504
+#, kde-format
+msgid "Host bridge"
+msgstr "Hostitelský můstek"
+
+#: kpci_private.h:505
+#, kde-format
+msgid "ISA bridge"
+msgstr "Můstek ISA"
+
+#: kpci_private.h:506
+#, kde-format
+msgid "EISA bridge"
+msgstr "Můstek EISA"
+
+#: kpci_private.h:507
+#, kde-format
+msgid "MicroChannel bridge"
+msgstr "Můstek MicroChannel"
+
+#: kpci_private.h:508
+#, kde-format
+msgid "PCI bridge"
+msgstr "Můstek PCI"
+
+#: kpci_private.h:509
+#, kde-format
+msgid "PCMCIA bridge"
+msgstr "Můstek PCMCIA"
+
+#: kpci_private.h:510
+#, kde-format
+msgid "NuBus bridge"
+msgstr "Můstek NuBus"
+
+#: kpci_private.h:511
+#, kde-format
+msgid "CardBus bridge"
+msgstr "Můstek CardBus"
+
+#: kpci_private.h:512
+#, kde-format
+msgid "RACEway bridge"
+msgstr "RACEway můstek"
+
+#: kpci_private.h:513
+#, kde-format
+msgid "Semi-transparent PCI-to-PCI bridge"
+msgstr "Polopropustný PCI-to-PCI můstek"
+
+#: kpci_private.h:514
+#, kde-format
+msgid "InfiniBand to PCI host bridge"
+msgstr "InfiniBand PCI hostitelský můstek"
+
+#: kpci_private.h:516
+#, kde-format
+msgid "Unknown bridge"
+msgstr "Neznámý můstek"
+
+#: kpci_private.h:518
+#, kde-format
+msgid "Serial controller"
+msgstr "Sériový řadič"
+
+#: kpci_private.h:519
+#, kde-format
+msgid "Parallel controller"
+msgstr "Paralelní řadič"
+
+#: kpci_private.h:520
+#, kde-format
+msgid "Multiport serial controller"
+msgstr "Víceportový sériový řadič"
+
+#: kpci_private.h:521
+#, kde-format
+msgid "Modem"
+msgstr "Modem"
+
+#: kpci_private.h:522
+#, kde-format
+msgid "GPIB (IEEE 488.1/2) controller"
+msgstr "Zařízení GPIB (IEEE 488.1/2)"
+
+#: kpci_private.h:523
+#, kde-format
+msgid "Smart card"
+msgstr "Smart card"
+
+#: kpci_private.h:525
+#, kde-format
+msgid "Unknown communication controller"
+msgstr "Neznámý komunikační řadič"
+
+#: kpci_private.h:527
+#, kde-format
+msgid "PIC"
+msgstr "PIC"
+
+#: kpci_private.h:528
+#, kde-format
+msgid "DMA controller"
+msgstr "Řadič DMA"
+
+#: kpci_private.h:529
+#, kde-format
+msgid "Timer"
+msgstr "Časovač"
+
+#: kpci_private.h:530
+#, kde-format
+msgid "RTC"
+msgstr "RTC"
+
+#: kpci_private.h:531
+#, kde-format
+msgid "PCI Hot-plug controller"
+msgstr "PCI hot-plug řadič"
+
+#: kpci_private.h:532
+#, kde-format
+msgid "System peripheral"
+msgstr "Systémové periferie"
+
+#: kpci_private.h:533
+#, kde-format
+msgid "Unknown system peripheral"
+msgstr "Neznámá systémová periférie"
+
+#: kpci_private.h:535
+#, kde-format
+msgid "Keyboard controller"
+msgstr "Ovladač klávesnice"
+
+#: kpci_private.h:536
+#, kde-format
+msgid "Digitizer Pen"
+msgstr "Digitální pero"
+
+#: kpci_private.h:537
+#, kde-format
+msgid "Mouse controller"
+msgstr "Ovladač myši"
+
+#: kpci_private.h:538
+#, kde-format
+msgid "Scanner controller"
+msgstr "Ovládání skeneru"
+
+#: kpci_private.h:539
+#, kde-format
+msgid "Gameport controller"
+msgstr "Řadič game portu"
+
+#: kpci_private.h:541
+#, kde-format
+msgid "Unknown input device controller"
+msgstr "Neznámý řadič vstupního zařízení"
+
+#: kpci_private.h:543
+#, kde-format
+msgid "Generic docking station"
+msgstr "Obecná dokovací stanice"
+
+#: kpci_private.h:545
+#, kde-format
+msgid "Unknown docking station"
+msgstr "Neznámá dokovací stanice"
+
+#: kpci_private.h:547
+#, kde-format
+msgid "386"
+msgstr "386"
+
+#: kpci_private.h:548
+#, kde-format
+msgid "486"
+msgstr "486"
+
+#: kpci_private.h:549
+#, kde-format
+msgid "Pentium"
+msgstr "Pentium"
+
+#: kpci_private.h:550
+#, kde-format
+msgid "Alpha"
+msgstr "Alpha"
+
+#: kpci_private.h:551
+#, kde-format
+msgid "Power PC"
+msgstr "Power PC"
+
+#: kpci_private.h:552
+#, kde-format
+msgid "MIPS"
+msgstr "MIPS"
+
+#: kpci_private.h:553
+#, kde-format
+msgid "Co-processor"
+msgstr "Koprocesor"
+
+#: kpci_private.h:554
+#, kde-format
+msgid "Unknown processor"
+msgstr "Neznámý procesor"
+
+#: kpci_private.h:556
+#, kde-format
+msgid "FireWire (IEEE 1394)"
+msgstr "FireWire (IEEE 1394)"
+
+#: kpci_private.h:557
+#, kde-format
+msgid "ACCESS bus"
+msgstr "Sběrnice ACCESS"
+
+#: kpci_private.h:558
+#, kde-format
+msgid "SSA"
+msgstr "SSA"
+
+#: kpci_private.h:559
+#, kde-format
+msgid "USB controller"
+msgstr "Řadič USB"
+
+#: kpci_private.h:560
+#, kde-format
+msgid "Fibre channel"
+msgstr "Fibre channel"
+
+#: kpci_private.h:561
+#, kde-format
+msgid "SMBus"
+msgstr "SMBus"
+
+#: kpci_private.h:562
+#, kde-format
+msgid "InfiniBand"
+msgstr "InfiniBand"
+
+#: kpci_private.h:563
+#, kde-format
+msgid "IPMI interface"
+msgstr "Rozhraní IPMI"
+
+#: kpci_private.h:564
+#, kde-format
+msgid "SERCOS interface"
+msgstr "SERCOS rozhraní"
+
+#: kpci_private.h:565
+#, kde-format
+msgid "CANbus"
+msgstr "CANbus"
+
+#: kpci_private.h:566
+#, kde-format
+msgid "Unknown serial bus controller"
+msgstr "Neznámý řadič sériové sběrnice"
+
+#: kpci_private.h:568
+#, kde-format
+msgid "IRDA controller"
+msgstr "Zařízení IRDA"
+
+#: kpci_private.h:569
+#, kde-format
+msgid "Consumer IR controller"
+msgstr "Řadič přijímače IRDA"
+
+#: kpci_private.h:570
+#, kde-format
+msgid "RF controller"
+msgstr "Řadič RF"
+
+#: kpci_private.h:571
+#, kde-format
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: kpci_private.h:572
+#, kde-format
+msgid "Broadband"
+msgstr "Broadband"
+
+#: kpci_private.h:573
+#, kde-format
+msgid "Ethernet (802.11a - 5 GHz)"
+msgstr "Ethernet (802.11a - 5 GHz)"
+
+#: kpci_private.h:574
+#, kde-format
+msgid "Ethernet (802.11b - 2.4 GHz)"
+msgstr "Ethernet (802.11b - 2.4 GHz)"
+
+#: kpci_private.h:576
+#, kde-format
+msgid "Unknown wireless controller"
+msgstr "Neznámý bezdrátový řadič"
+
+#: kpci_private.h:578
+#, kde-format
+msgid "I2O"
+msgstr "I2O"
+
+#: kpci_private.h:579
+#, kde-format
+msgid "Unknown intelligent controller"
+msgstr "Neznámý inteligentní řadič"
+
+#: kpci_private.h:581
+#, kde-format
+msgid "Satellite TV controller"
+msgstr "Zařízení satelitní TV"
+
+#: kpci_private.h:582
+#, kde-format
+msgid "Satellite audio communication controller"
+msgstr "Satelitní audio řadič"
+
+#: kpci_private.h:583
+#, kde-format
+msgid "Satellite voice communication controller"
+msgstr "Satelitní hlasový řadič"
+
+#: kpci_private.h:584
+#, kde-format
+msgid "Satellite data communication controller"
+msgstr "Satelitní datový řadič"
+
+#: kpci_private.h:585
+#, kde-format
+msgid "Unknown satellite communications controller"
+msgstr "Neznámé satelitní komunikační zařízení"
+
+#: kpci_private.h:587
+#, kde-format
+msgid "Network and computing encryption device"
+msgstr "Síťové a šifrovací zařízení"
+
+#: kpci_private.h:588
+#, kde-format
+msgid "Entertainment encryption device"
+msgstr "Šifrovací zařízení"
+
+#: kpci_private.h:590
+#, kde-format
+msgid "Unknown encryption controller"
+msgstr "Neznámý šifrovací řadič"
+
+#: kpci_private.h:592
+#, kde-format
+msgid "DPIO module"
+msgstr "Modul DPIO"
+
+#: kpci_private.h:593
+#, kde-format
+msgid "Performance counters"
+msgstr "Měřiče výkonu"
+
+#: kpci_private.h:594
+#, kde-format
+msgid "Communication synchronizer"
+msgstr "Synchronizátor komunikace"
+
+#: kpci_private.h:595
+#, kde-format
+msgid "Management card"
+msgstr "Řídící karta"
+
+#: kpci_private.h:597
+#, kde-format
+msgid "Unknown signal processing controller"
+msgstr "Neznámý řadič signálového zpracování"
+
+#: kpci_private.h:599
+#, kde-format
+msgid "Unknown subdevice class"
+msgstr "Neznámá třída podřízeného zařízení"
+
+#: kpci_private.h:606
+#, kde-format
+msgid "single DMA"
+msgstr "single DMA"
+
+#: kpci_private.h:607
+#, kde-format
+msgid "chained DMA"
+msgstr "zřetězené DMA"
+
+#: kpci_private.h:609
+#, kde-format
+msgid "VGA compatible"
+msgstr "VGA kompatibilní"
+
+#: kpci_private.h:610
+#, kde-format
+msgid "8514 compatible"
+msgstr "8514 kompatibilní"
+
+#: kpci_private.h:612
+#, kde-format
+msgid "Normal decode"
+msgstr "Normální dekódování"
+
+#: kpci_private.h:613
+#, kde-format
+msgid "Subtractive decode"
+msgstr "Subtraktivní dekódování"
+
+#: kpci_private.h:615
+#, kde-format
+msgid "Transparent mode"
+msgstr "Transparentní režim"
+
+#: kpci_private.h:616
+#, kde-format
+msgid "Endpoint mode"
+msgstr "Režim koncového bodu"
+
+#: kpci_private.h:618
+#, kde-format
+msgid "Primary bus towards host CPU"
+msgstr "Primární sběrnice k hostitelskému CPU"
+
+#: kpci_private.h:619
+#, kde-format
+msgid "Secondary bus towards host CPU"
+msgstr "Sekundární sběrnice k hostitelskému CPU"
+
+#: kpci_private.h:621
+#, kde-format
+msgid "8250"
+msgstr "8250"
+
+#: kpci_private.h:622
+#, kde-format
+msgid "16450"
+msgstr "16450"
+
+#: kpci_private.h:623
+#, kde-format
+msgid "16550"
+msgstr "16550"
+
+#: kpci_private.h:624
+#, kde-format
+msgid "16650"
+msgstr "16650"
+
+#: kpci_private.h:625
+#, kde-format
+msgid "16750"
+msgstr "16750"
+
+#: kpci_private.h:626
+#, kde-format
+msgid "16850"
+msgstr "16850"
+
+#: kpci_private.h:627
+#, kde-format
+msgid "16950"
+msgstr "16950"
+
+#: kpci_private.h:629
+#, kde-format
+msgid "SPP"
+msgstr "SPP"
+
+#: kpci_private.h:630
+#, kde-format
+msgid "BiDir"
+msgstr "BiDir"
+
+#: kpci_private.h:631
+#, kde-format
+msgid "ECP"
+msgstr "ECP"
+
+#: kpci_private.h:632
+#, kde-format
+msgid "IEEE1284"
+msgstr "IEEE1284"
+
+#: kpci_private.h:633
+#, kde-format
+msgid "IEEE1284 Target"
+msgstr "Cíl IEEE1284"
+
+#: kpci_private.h:635 kpci_private.h:655 kpci_private.h:658 kpci_private.h:661
+#, kde-format
+msgid "Generic"
+msgstr "Obecné"
+
+#: kpci_private.h:636
+#, kde-format
+msgid "Hayes/16450"
+msgstr "Hayes/16450"
+
+#: kpci_private.h:637
+#, kde-format
+msgid "Hayes/16550"
+msgstr "Hayes/16550"
+
+#: kpci_private.h:638
+#, kde-format
+msgid "Hayes/16650"
+msgstr "Hayes/16650"
+
+#: kpci_private.h:639
+#, kde-format
+msgid "Hayes/16750"
+msgstr "Hayes/16750"
+
+#: kpci_private.h:641
+#, kde-format
+msgid "8259"
+msgstr "8259"
+
+#: kpci_private.h:642
+#, kde-format
+msgid "ISA PIC"
+msgstr "ISA PIC"
+
+#: kpci_private.h:643
+#, kde-format
+msgid "EISA PIC"
+msgstr "EISA PIC"
+
+#: kpci_private.h:644
+#, kde-format
+msgid "IO-APIC"
+msgstr "IO-APIC"
+
+#: kpci_private.h:645
+#, kde-format
+msgid "IO(X)-APIC"
+msgstr "IO(X)-APIC"
+
+#: kpci_private.h:647
+#, kde-format
+msgid "8237"
+msgstr "8237"
+
+#: kpci_private.h:648
+#, kde-format
+msgid "ISA DMA"
+msgstr "ISA DMA"
+
+#: kpci_private.h:649
+#, kde-format
+msgid "EISA DMA"
+msgstr "EISA DMA"
+
+#: kpci_private.h:651
+#, kde-format
+msgid "8254"
+msgstr "8254"
+
+#: kpci_private.h:652
+#, kde-format
+msgid "ISA timer"
+msgstr "Časovač ISA"
+
+#: kpci_private.h:653
+#, kde-format
+msgid "EISA timers"
+msgstr "Časovače EISA"
+
+#: kpci_private.h:656
+#, kde-format
+msgid "ISA RTC"
+msgstr "ISA RTC"
+
+#: kpci_private.h:659
+#, kde-format
+msgid "Extended"
+msgstr "Rozšířené"
+
+#: kpci_private.h:662 kpci_private.h:665
+#, kde-format
+msgid "OHCI"
+msgstr "OHCI"
+
+#: kpci_private.h:664
+#, kde-format
+msgid "UHCI"
+msgstr "UHCI"
+
+#: kpci_private.h:666
+#, kde-format
+msgid "EHCI"
+msgstr "EHCI"
+
+#: kpci_private.h:667
+#, kde-format
+msgid "Unspecified"
+msgstr "Neurčeno"
+
+#: kpci_private.h:668
+#, kde-format
+msgid "USB Device"
+msgstr "Zařízení USB"
+
+#: kpci_private.h:670
+#, kde-format
+msgid "SMIC"
+msgstr "SMIC"
+
+#: kpci_private.h:671
+#, kde-format
+msgid "Keyboard controller style"
+msgstr "Styl řadiče klávesnice"
+
+#: kpci_private.h:672
+#, kde-format
+msgid "Block transfer"
+msgstr "Blokový přenos"
+
+#: kpci_private.h:682
+#, kde-format
+msgid "Vital product data"
+msgstr "Důležitá data produktu"
+
+#: kpci_private.h:683
+#, kde-format
+msgid "Slot identification"
+msgstr "Identifikace slotu"
+
+#: kpci_private.h:685
+#, kde-format
+msgid "CompactPCI hot swap"
+msgstr "CompactPCI hot swap"
+
+#: kpci_private.h:686
+#, kde-format
+msgid "PCI-X"
+msgstr "PCI-X"
+
+#: kpci_private.h:687
+#, kde-format
+msgid "HyperTransport"
+msgstr "HyperTransport"
+
+#: kpci_private.h:688
+#, kde-format
+msgid "Vendor specific"
+msgstr "Specifické pro výrobce"
+
+#: kpci_private.h:689
+#, kde-format
+msgid "Debug port"
+msgstr "Ladicí port"
+
+#: kpci_private.h:690
+#, kde-format
+msgid "CompactPCI central resource control"
+msgstr "CompactPCI centrální řízení zdrojů"
+
+#: kpci_private.h:691
+#, kde-format
+msgid "PCI hot-plug"
+msgstr "PCI hot-plug"
+
+#: kpci_private.h:692
+#, kde-format
+msgid "AGP x8"
+msgstr "AGP x8"
+
+#: kpci_private.h:693
+#, kde-format
+msgid "Secure device"
+msgstr "Bezpečné zařízení"
+
+#: kpci_private.h:694
+#, kde-format
+msgid "PCI express"
+msgstr "PCI express"
+
+#: kpci_private.h:695
+#, kde-format
+msgid "MSI-X"
+msgstr "MSI-X"
+
+#: kpci_private.h:701
+#, kde-format
+msgid "Fast"
+msgstr "Rychlé"
+
+#: kpci_private.h:702
+#, kde-format
+msgid "Medium"
+msgstr "Střední"
+
+#: kpci_private.h:703
+#, kde-format
+msgid "Slow"
+msgstr "Pomalé"
+
+#: kpci_private.h:709
+#, kde-format
+msgid "32 bit"
+msgstr "32 bit"
+
+#: kpci_private.h:710
+#, kde-format
+msgid "Below 1M"
+msgstr "Pod 1 M"
+
+#: kpci_private.h:711
+#, kde-format
+msgid "64 bit"
+msgstr "64 bit"
+
+#: kpci_private.h:717
+#, kde-format
+msgid "Standard"
+msgstr "Standardní"
+
+#: kpci_private.h:719
+#, kde-format
+msgid "CardBus"
+msgstr "CardBus"
+
+#: kpci_private.h:725
+#, kde-format
+msgid "1X"
+msgstr "1X"
+
+#: kpci_private.h:726
+#, kde-format
+msgid "2X"
+msgstr "2X"
+
+#: kpci_private.h:727
+#, kde-format
+msgid "1X & 2X"
+msgstr "1X & 2X"
+
+#: kpci_private.h:728 kpci_private.h:732
+#, kde-format
+msgid "4X"
+msgstr "4X"
+
+#: kpci_private.h:729
+#, kde-format
+msgid "1X & 4X"
+msgstr "1X & 4X"
+
+#: kpci_private.h:730
+#, kde-format
+msgid "2X & 4X"
+msgstr "2X & 4X"
+
+#: kpci_private.h:731
+#, kde-format
+msgid "1X & 2X & 4X"
+msgstr "1X & 2X & 4X"
+
+#: kpci_private.h:733
+#, kde-format
+msgid "8X"
+msgstr "8X"
+
+#: kpci_private.h:734
+#, kde-format
+msgid "4X & 8X"
+msgstr "4X & 8X"
+
+#: kpci_private.h:740
+#, kde-format
+msgid "4 ms"
+msgstr "4 ms"
+
+#: kpci_private.h:741
+#, kde-format
+msgid "16 ms"
+msgstr "16 ms"
+
+#: kpci_private.h:742
+#, kde-format
+msgid "64 ms"
+msgstr "64 ms"
+
+#: kpci_private.h:743
+#, kde-format
+msgid "256 ms"
+msgstr "256 ms"
+
+#: kpci_private.h:744
+#, kde-format
+msgid "Not needed"
+msgstr "Není potřeba"
+
+#: kpci_private.h:750
+#, kde-format
+msgid "0 (self powered)"
+msgstr "0 (samonapájené)"
+
+#: kpci_private.h:751
+#, kde-format
+msgid "55 mA"
+msgstr "55 mA"
+
+#: kpci_private.h:752
+#, kde-format
+msgid "100 mA"
+msgstr "100 mA"
+
+#: kpci_private.h:753
+#, kde-format
+msgid "160 mA"
+msgstr "160 mA"
+
+#: kpci_private.h:754
+#, kde-format
+msgid "220 mA"
+msgstr "220 mA"
+
+#: kpci_private.h:755
+#, kde-format
+msgid "270 mA"
+msgstr "270 mA"
+
+#: kpci_private.h:756
+#, kde-format
+msgid "320 mA"
+msgstr "320 mA"
+
+#: kpci_private.h:757
+#, kde-format
+msgid "375 mA"
+msgstr "375 mA"
+
+#: kpci_private.h:772
+#, kde-format
+msgid "1 vector"
+msgstr "1 vektor"
+
+#: kpci_private.h:773
+#, kde-format
+msgid "2 vectors"
+msgstr "2 vektory"
+
+#: kpci_private.h:774
+#, kde-format
+msgid "4 vectors"
+msgstr "4 vektory"
+
+#: kpci_private.h:775
+#, kde-format
+msgid "8 vectors"
+msgstr "8 vektorů"
+
+#: kpci_private.h:776
+#, kde-format
+msgid "16 vectors"
+msgstr "16 vektorů"
+
+#: kpci_private.h:777
+#, kde-format
+msgid "32 vectors"
+msgstr "32 vektorů"

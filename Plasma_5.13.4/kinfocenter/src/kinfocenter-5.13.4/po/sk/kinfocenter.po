@@ -1,0 +1,154 @@
+# translation of kinfocenter.po to Slovak
+# Juraj Bednár <bednar@isternet.sk>, 1998-2000.
+# Maroš Franko <franko@omnicom.sk>, 2000.
+# Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2000-2002.
+# Stanislav Visnovsky <visnovsky@kde.org>, 2003, 2004, 2005.
+# Richard Fric <Richard.Fric@kdemail.net>, 2006, 2009, 2010.
+# Michal Sulek <misurel@gmail.com>, 2009, 2010.
+# Roman Paholik <wizzardsk@gmail.com>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kinfocenter\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-08 03:33+0100\n"
+"PO-Revision-Date: 2017-10-27 21:00+0100\n"
+"Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
+"Language-Team: Slovak <kde-sk@linux.sk>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Juraj Bednár,Maroš Franko,Stanislav Višňovský,Richard Frič,Michal Šulek"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"juraj@bednar.sk,franko@omnicom.sk,visnovsky@kde.org,Richard.Fric@kdemail.net,"
+"misurel@gmail.com"
+
+#: infocenter.cpp:52
+#, kde-format
+msgctxt "Main window title"
+msgid "KInfocenter"
+msgstr "KInfocenter"
+
+#: infocenter.cpp:127
+#, kde-format
+msgctxt "Information about current module located in about menu"
+msgid "About Current Information Module"
+msgstr "O aktuálnom informačnom module"
+
+#: infocenter.cpp:132
+#, kde-format
+msgctxt "Module help button label"
+msgid "Module Help"
+msgstr "Pomocník k modulu"
+
+#: infocenter.cpp:135
+#, kde-format
+msgctxt "Help button label"
+msgid "Help"
+msgstr "Pomocník"
+
+#: infocenter.cpp:175
+#, kde-format
+msgctxt "Search Bar Click Message"
+msgid "Search"
+msgstr "Hľadať"
+
+#: infocenter.cpp:180
+#, kde-format
+msgctxt "Kaction search label"
+msgid "Search Modules"
+msgstr "Hľadať moduly"
+
+#: infokcmmodel.cpp:34
+#, kde-format
+msgid "Information Modules"
+msgstr "Informačné moduly"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kinfocenterui.rc:10
+#, kde-format
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr "Hlavný panel nástrojov"
+
+#: main.cpp:42
+#, kde-format
+msgid "Info Center"
+msgstr "Informačné centrum"
+
+#: main.cpp:45
+#, fuzzy, kde-format
+#| msgid "Copyright 2009-2017 KDE"
+msgid "Copyright 2009-2018 KDE"
+msgstr "Copyright 2009-2017 KDE"
+
+#: main.cpp:47
+#, kde-format
+msgid "David Hubner"
+msgstr "David Hubner"
+
+#: main.cpp:47
+#, kde-format
+msgid "Current Maintainer"
+msgstr "Aktuálny správca"
+
+#: main.cpp:48
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: main.cpp:48
+#, kde-format
+msgid "Previous Maintainer"
+msgstr "Predchádzajúci správca"
+
+#: main.cpp:49
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: main.cpp:50
+#, kde-format
+msgid "Matthias Elter"
+msgstr "Matthias Elter"
+
+#: main.cpp:51
+#, kde-format
+msgid "Matthias Ettrich"
+msgstr "Matthias Ettrich"
+
+#: main.cpp:52
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: main.cpp:53
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
+
+#: sidepanel.cpp:106
+#, kde-format
+msgid "Clear Search"
+msgstr "Vyčistiť hľadanie"
+
+#: sidepanel.cpp:109
+#, kde-format
+msgid "Expand All Categories"
+msgstr "Rozbaliť všetky kategórie"
+
+#: sidepanel.cpp:112
+#, kde-format
+msgid "Collapse All Categories"
+msgstr "Zbaliť všetky kategórie"

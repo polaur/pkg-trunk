@@ -1,0 +1,140 @@
+# translation of kcmview1394.po to Thai
+#
+# Sahachart Anukulkitch <drrider@gmail.com>, 2005, 2007.
+# Thanomsub Noppaburana <donga.nb@gmail.com>, 2008, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmview1394\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-03-31 02:49+0200\n"
+"PO-Revision-Date: 2010-03-27 23:16+0700\n"
+"Last-Translator: Thanomsub Noppaburana <donga.nb@gmail.com>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: view1394.cpp:61
+#, kde-format
+msgid ""
+"<qt>Here you can see some information about your IEEE 1394 configuration. "
+"The meaning of the columns:<ul><li><b>Name</b>: port or node name, the "
+"number can change with each bus reset</li><li><b>GUID</b>: the 64 bit GUID "
+"of the node</li><li><b>Local</b>: checked if the node is an IEEE 1394 port "
+"of your computer</li><li><b>IRM</b>: checked if the node is isochronous "
+"resource manager capable</li><li><b>CRM</b>: checked if the node is cycle "
+"master capable</li><li><b>ISO</b>: checked if the node supports isochronous "
+"transfers</li><li><b>BM</b>: checked if the node is bus manager capable</"
+"li><li><b>PM</b>: checked if the node is power management capable</"
+"li><li><b>Acc</b>: the cycle clock accuracy of the node, valid from 0 to "
+"100</li><li><b>Speed</b>: the speed of the node</li><li><b>Vendor</b>: the "
+"vendor of the device</li></ul></qt>"
+msgstr ""
+"<qt>คุณจะเห็นข้อมูลบางอย่างเกี่ยวกับค่าปรับแต่งของ IEEE 1394 จากทางด้านขวามือ "
+"โดยความหมายของแต่ละคอลัมน์เป็นดังนี้:<ul><li><b>ชื่อ</b>: คือชื่อของพอร์ตหรือจุดเชื่อมต่อ "
+"ซึ่งจำนวนจะเปลี่ยนไปเมื่อมีการตั้งค่าบัสใหม่</li><li><b>GUID</b>: คือ GUID แบบ 64 "
+"บิตของจุดเชื่อมต่อ</li><li><b>เครื่องตัวเอง</b>: คือการตรวจว่า จุดเชื่อมต่อนั้นคือพอร์ต IEEE "
+"1394 บนเครื่องคอมพิวเตอร์ของคุณหรือเปล่า</li><li><b>IRM</b>: คือการตรวจสอบว่า "
+"จุดเชื่อมต่อนั้นมีความสามารถที่จะจัดการแหล่งกระจายข้อมูลแบบเวลาเป็นเรื่องสำคัญหรือไม่</"
+"li><li><b>CRM</b>: "
+"ตรวจสอบว่าจุดเชื่อมต่อนั้นมีความสามารถในการควบคุมรอบการส่งข้อมูลหรือไม่</li><li><b>ISO</"
+"b>: ตรวจสอบว่าจุดเชื่อมต่อนั้นรองรับการส่งข้อมูลแบบเวลาเป็นเรื่องสำคัญหรือไม่ </li><li><b>BM</"
+"b>: ตรวจสอบว่า จุดเชื่อมต่อนั้นสามารถเป็นตัวจัดการทางเดินข้อมูลได้หรือไม่</li><li><b>PM</b>: "
+"ตรวจสอบว่า จุดเชื่อมต่อนั้นมีความสามารถในการจัดการการใช้พลังงานหรือไม่</li><li><b>Acc</"
+"b>: ความเที่ยงตรงของรอบสัญญาณนาฬิกาของจุดเชื่อมต่อ ซึ่งค่าที่ยอมรับคือ 0 - 100</"
+"li><li><b>ความเร็ว</b>: ความเร็วของจุดเชื่อมต่อ</li></ul></qt>"
+
+#: view1394.cpp:194
+#, kde-format
+msgid "Port %1:\"%2\""
+msgstr "พอร์ต %1:\"%2\""
+
+#: view1394.cpp:208
+#, kde-format
+msgid "Node %1"
+msgstr "จุดเชื่อมต่อ %1"
+
+#: view1394.cpp:211
+#, kde-format
+msgid "Not ready"
+msgstr "ยังไม่พร้อม"
+
+#: view1394.cpp:306
+#, kde-format
+msgid "Unknown"
+msgstr "ไม่รู้จัก"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:20
+#, kde-format
+msgid "Name"
+msgstr "ชื่อ"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:31
+#, kde-format
+msgid "GUID"
+msgstr "GUID"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:42
+#, kde-format
+msgid "Local"
+msgstr "เครื่องตัวเอง"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:53
+#, kde-format
+msgid "IRM"
+msgstr "IRM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:64
+#, kde-format
+msgid "CRM"
+msgstr "CRM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:75
+#, kde-format
+msgid "ISO"
+msgstr "ISO"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:86
+#, kde-format
+msgid "BM"
+msgstr "BM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:97
+#, kde-format
+msgid "PM"
+msgstr "PM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:108
+#, kde-format
+msgid "Acc"
+msgstr "Acc"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:119
+#, kde-format
+msgid "Speed"
+msgstr "ความเร็ว"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:130
+#, kde-format
+msgid "Vendor"
+msgstr "ผู้จำหน่าย"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_busResetPb)
+#: view1394widget.ui:165
+#, kde-format
+msgid "Generate 1394 Bus Reset"
+msgstr "สร้างการรีเซ็ตบัส 1394"

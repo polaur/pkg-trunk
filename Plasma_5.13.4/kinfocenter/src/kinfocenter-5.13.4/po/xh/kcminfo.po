@@ -1,0 +1,636 @@
+# translation of kcminfo.po to Xhosa
+# K Desktop Environment - kdebase
+# Copyright (C) 2001 translate.org.za
+# Antoinette Dekeni <antoinette@transalate.org.za>, 2001.
+# Lwandle Mgidlana <lwandle@translate.org.za>, 2002
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcminfo\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-09 03:35+0100\n"
+"PO-Revision-Date: 2002-10-23 12:23SAST\n"
+"Last-Translator: Lwandle Mgidlana <lwandle@translate.org.za>\n"
+"Language-Team: Xhosa <xhosa@translate.org.za>\n"
+"Language: xh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0beta2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Lwandle Mgidlana"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lwandle@translate.org.za"
+
+#: ../base/info_aix.cpp:68 ../base/info_wayland.cpp:88
+#, kde-format
+msgid "Name"
+msgstr "Igama"
+
+#: ../base/info_aix.cpp:69
+#, kde-format
+msgid "Status"
+msgstr "Isimo"
+
+#: ../base/info_aix.cpp:70
+#, kde-format
+msgid "Location"
+msgstr "Indawo ekuyo"
+
+#: ../base/info_aix.cpp:71
+#, kde-format
+msgid "Description"
+msgstr "Inkcazelo"
+
+#: ../base/info_fbsd.cpp:89
+#, fuzzy, kde-format
+msgctxt "@title:column Column name for PCI information"
+msgid "Information"
+msgstr "Ulwazi Lomncedisi"
+
+#: ../base/info_fbsd.cpp:94
+#, kde-format
+msgid ""
+"Could not find any programs with which to query your system's PCI information"
+msgstr ""
+
+#: ../base/info_fbsd.cpp:105
+#, kde-format
+msgid "PCI subsystem could not be queried: %1 could not be executed"
+msgstr ""
+
+#: ../base/info_fbsd.cpp:124
+#, kde-format
+msgid "The PCI subsystem could not be queried, this may need root privileges."
+msgstr ""
+
+#: ../base/info_hpux.cpp:128
+#, kde-format
+msgid "PA-RISC Processor"
+msgstr "PA-RISC Umqhubekekisi"
+
+#: ../base/info_hpux.cpp:130
+#, kde-format
+msgid "PA-RISC Revision"
+msgstr "PA-RISC Uphinda-phindo"
+
+#: ../base/info_linux.cpp:103 main.cpp:51
+#, kde-format
+msgid "DMA-Channel"
+msgstr "DMA-Umjelo"
+
+#: ../base/info_linux.cpp:103 ../base/info_linux.cpp:154
+#, kde-format
+msgid "Used By"
+msgstr "Isetyenzisiwe Ngu"
+
+#: ../base/info_linux.cpp:154
+#, kde-format
+msgid "I/O-Range"
+msgstr "I/O-Ulungiso"
+
+#: ../base/info_netbsd.cpp:120 ../base/info_openbsd.cpp:131
+#, kde-format
+msgid "IRQ"
+msgstr "IRQ"
+
+#: ../base/info_netbsd.cpp:120 ../base/info_openbsd.cpp:131
+#, kde-format
+msgid "Device"
+msgstr "Icebo"
+
+#: ../base/info_netbsd.cpp:138 ../base/info_openbsd.cpp:144
+#, kde-format
+msgid "No PCI devices found."
+msgstr "Akukho macebo e PCI afumanekayo."
+
+#: ../base/info_netbsd.cpp:147 ../base/info_openbsd.cpp:153
+#, kde-format
+msgid "No I/O port devices found."
+msgstr "Akukho macebo ezibuko I/O afumanekayo."
+
+#: ../base/info_wayland.cpp:57 ../base/os_base.h:228
+#, fuzzy, kde-format
+msgid "Information"
+msgstr "Ulwazi Lomncedisi"
+
+#: ../base/info_wayland.cpp:57 ../base/os_base.h:228
+#, kde-format
+msgid "Value"
+msgstr "Ixabiso"
+
+#: ../base/info_wayland.cpp:60
+#, fuzzy, kde-format
+msgid "Compositor Information"
+msgstr "Ayinakulufumana ulwazi!"
+
+#: ../base/info_wayland.cpp:64 ../base/os_base.h:239
+#, kde-format
+msgid "Name of the Display"
+msgstr "Igama Lesiboniso"
+
+#: ../base/info_wayland.cpp:66
+#, kde-format
+msgid "Interfaces"
+msgstr ""
+
+#: ../base/info_wayland.cpp:66
+#, kde-format
+msgid "Interface Version"
+msgstr ""
+
+#: ../base/info_wayland.cpp:83
+#, kde-format
+msgid "Seat"
+msgstr ""
+
+#: ../base/info_wayland.cpp:94
+#, kde-format
+msgid "Pointer"
+msgstr ""
+
+#: ../base/info_wayland.cpp:101
+#, kde-format
+msgid "Keyboard"
+msgstr ""
+
+#: ../base/info_wayland.cpp:103
+#, fuzzy, kde-format
+#| msgid "enabled"
+msgid "Repeat enabled"
+msgstr "yenziwe"
+
+#: ../base/info_wayland.cpp:104
+#, kde-format
+msgid "Repeat rate (characters per second)"
+msgstr ""
+
+#: ../base/info_wayland.cpp:105
+#, kde-format
+msgid "Repeat delay (msec)"
+msgstr ""
+
+#: ../base/info_wayland.cpp:109 ../base/os_base.h:175
+#, kde-format
+msgid "Yes"
+msgstr ""
+
+#: ../base/info_wayland.cpp:109 ../base/os_base.h:176
+#, kde-format
+msgid "No"
+msgstr ""
+
+#: ../base/info_wayland.cpp:120
+#, kde-format
+msgid "Touch"
+msgstr ""
+
+#: ../base/info_wayland.cpp:126
+#, fuzzy, kde-format
+#| msgid "Output Channels"
+msgid "Outputs"
+msgstr "Imijelo Yemveliso"
+
+#: ../base/info_wayland.cpp:140
+#, kde-format
+msgid "Manufacturer"
+msgstr ""
+
+#: ../base/info_wayland.cpp:141
+#, kde-format
+msgid "Model"
+msgstr "Umfanekiso wayo"
+
+#: ../base/info_wayland.cpp:142
+#, fuzzy, kde-format
+#| msgid "Physical Memory"
+msgid "Physical Size"
+msgstr "Inkumbulo Ebonakalayo"
+
+#: ../base/info_wayland.cpp:143
+#, kde-format
+msgid "Global Position"
+msgstr ""
+
+#: ../base/info_wayland.cpp:148
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: ../base/info_wayland.cpp:151
+#, kde-format
+msgid "Horizontal RGB"
+msgstr ""
+
+#: ../base/info_wayland.cpp:154
+#, kde-format
+msgid "Horizontal BGR"
+msgstr ""
+
+#: ../base/info_wayland.cpp:157
+#, kde-format
+msgid "Vertical RGB"
+msgstr ""
+
+#: ../base/info_wayland.cpp:160
+#, kde-format
+msgid "Vertical BGR"
+msgstr ""
+
+#: ../base/info_wayland.cpp:164
+#, fuzzy, kde-format
+msgid "Unknown"
+msgstr "(ayaziwa)"
+
+#: ../base/info_wayland.cpp:167
+#, kde-format
+msgid "Subpixel"
+msgstr ""
+
+#: ../base/info_wayland.cpp:181
+#, kde-format
+msgid "Flipped"
+msgstr ""
+
+#: ../base/info_wayland.cpp:184
+#, kde-format
+msgid "Flipped 90"
+msgstr ""
+
+#: ../base/info_wayland.cpp:187
+#, kde-format
+msgid "Flipped 180"
+msgstr ""
+
+#: ../base/info_wayland.cpp:190
+#, kde-format
+msgid "Flipped 270"
+msgstr ""
+
+#: ../base/info_wayland.cpp:194
+#, kde-format
+msgid "Normal"
+msgstr ""
+
+#: ../base/info_wayland.cpp:197
+#, kde-format
+msgid "Transform"
+msgstr ""
+
+#: ../base/info_wayland.cpp:198
+#, kde-format
+msgctxt "The scale factor of the output"
+msgid "Scale"
+msgstr ""
+
+#: ../base/info_wayland.cpp:201
+#, fuzzy, kde-format
+#| msgid "Model"
+msgid "Modes"
+msgstr "Umfanekiso wayo"
+
+#: ../base/info_wayland.cpp:206
+#, fuzzy, kde-format
+#| msgid "Free Size"
+msgid "Size"
+msgstr "Ubungakanani Obukhululekileyo"
+
+#: ../base/info_wayland.cpp:208
+#, kde-format
+msgid "Refresh Rate"
+msgstr ""
+
+#: ../base/info_wayland.cpp:210
+#, kde-format
+msgid "Preferred"
+msgstr ""
+
+#: ../base/info_wayland.cpp:211 ../base/info_wayland.cpp:213
+#, fuzzy, kde-format
+#| msgid "Bytes"
+msgid "yes"
+msgstr "Bytes"
+
+#: ../base/info_wayland.cpp:211 ../base/info_wayland.cpp:213
+#, kde-format
+msgid "no"
+msgstr ""
+
+#: ../base/info_wayland.cpp:212
+#, kde-format
+msgid "Current"
+msgstr ""
+
+#: ../base/os_base.h:60
+#, kde-format
+msgid "LSBFirst"
+msgstr "LSBFirst"
+
+#: ../base/os_base.h:62
+#, kde-format
+msgid "MSBFirst"
+msgstr "MSBFirst"
+
+#: ../base/os_base.h:64
+#, kde-format
+msgid "Unknown Order %1"
+msgstr "Ulungiso Olungaziwayo %1"
+
+#: ../base/os_base.h:69
+#, kde-format
+msgid "1 Bit"
+msgid_plural "%1 Bits"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../base/os_base.h:73
+#, fuzzy, kde-format
+msgid "1 Byte"
+msgid_plural "%1 Bytes"
+msgstr[0] "%1 Byte"
+msgstr[1] "%1 Byte"
+
+#: ../base/os_base.h:114
+#, kde-format
+msgid "Screen # %1"
+msgstr "Ikhusi # %1"
+
+#: ../base/os_base.h:116
+#, kde-format
+msgid "(Default Screen)"
+msgstr "(Ikhusi Lendalo)"
+
+#: ../base/os_base.h:125
+#, kde-format
+msgid "Dimensions"
+msgstr "Imilinganiselo"
+
+#: ../base/os_base.h:125
+#, fuzzy, kde-format
+#| msgid "%1 x %2 Pixel (%3 x %4 mm)"
+msgid "%1 x %2 Pixels (%3 x %4 mm)"
+msgstr "%1 x %2 Pixel (%3 x %4 mm)"
+
+#: ../base/os_base.h:129
+#, kde-format
+msgid "Resolution"
+msgstr "Isisombululo kwakhona"
+
+#: ../base/os_base.h:129
+#, kde-format
+msgid "%1 x %2 dpi"
+msgstr "%1 x %2 dpi"
+
+#: ../base/os_base.h:146
+#, kde-format
+msgid "Depths (%1)"
+msgstr "Ubunzulu (%1)"
+
+#: ../base/os_base.h:152
+#, kde-format
+msgid "Root Window ID"
+msgstr "Ingcambu ye Window ID"
+
+#: ../base/os_base.h:156
+#, kde-format
+msgid "Depth of Root Window"
+msgstr "Ubunzulu Bengcambu ye Window"
+
+#: ../base/os_base.h:156
+#, fuzzy, kde-format
+#| msgid "%1 plane"
+msgid "%1 plane"
+msgid_plural "%1 planes"
+msgstr[0] "%1 isixhobo sokwenza mpuluswa"
+msgstr[1] "%1 isixhobo sokwenza mpuluswa"
+
+#: ../base/os_base.h:160
+#, kde-format
+msgid "Number of Colormaps"
+msgstr "Inani Lee maphu zombala"
+
+#: ../base/os_base.h:160
+#, kde-format
+msgid "minimum %1, maximum %2"
+msgstr "encinane %1, enkulu %2"
+
+#: ../base/os_base.h:164
+#, kde-format
+msgid "Default Colormap"
+msgstr "Umbala we maphu Yokwendalo"
+
+#: ../base/os_base.h:168
+#, kde-format
+msgid "Default Number of Colormap Cells"
+msgstr "Inani Lokwendalo Yombala we mapu Weeseli"
+
+#: ../base/os_base.h:172
+#, kde-format
+msgid "Preallocated Pixels"
+msgstr "Pixels ezibekwe bucala kuqala"
+
+#: ../base/os_base.h:172
+#, kde-format
+msgid "Black %1, White %2"
+msgstr "Mnyama %1, Mhlophe %2"
+
+#: ../base/os_base.h:179
+#, fuzzy, kde-format
+msgid "Options"
+msgstr "Iinketho Zonyuso"
+
+#: ../base/os_base.h:179
+#, kde-format
+msgid "When mapped"
+msgstr "Xa zisemaphini"
+
+#: ../base/os_base.h:179
+#, kde-format
+msgid "backing-store: %1, save-unders: %2"
+msgstr "esemva-indawo yokugcina: %1, gcina-ezingaphantsi: %2"
+
+#: ../base/os_base.h:185
+#, kde-format
+msgid "Largest Cursor"
+msgstr "Isalathisi Esikhulu kakhulu"
+
+#: ../base/os_base.h:187
+#, kde-format
+msgid "unlimited"
+msgstr "engenasiphelo"
+
+#: ../base/os_base.h:193
+#, kde-format
+msgid "Current Input Event Mask"
+msgstr "Isigqumathelo Sesiganeko Segalelo Sangoku"
+
+#: ../base/os_base.h:199
+#, kde-format
+msgid "Event = %1"
+msgstr "Isiganeko = %1"
+
+#: ../base/os_base.h:233
+#, kde-format
+msgid "Server Information"
+msgstr "Ulwazi Lomncedisi"
+
+#: ../base/os_base.h:243
+#, kde-format
+msgid "Vendor String"
+msgstr "Umthengisi Womtya"
+
+#: ../base/os_base.h:247
+#, kde-format
+msgid "Vendor Release Number"
+msgstr "Inani Lokukhulula Lomthengisi"
+
+#: ../base/os_base.h:251
+#, kde-format
+msgid "Version Number"
+msgstr "Inani Loguqulelo lomsebenzi"
+
+#: ../base/os_base.h:255
+#, kde-format
+msgid "Available Screens"
+msgstr "Amakhusi Akhoyo"
+
+#: ../base/os_base.h:265
+#, kde-format
+msgid "Supported Extensions"
+msgstr "Izandiso Ezixhaswayo"
+
+#: ../base/os_base.h:280
+#, kde-format
+msgid "Supported Pixmap Formats"
+msgstr "Iifomati ze Pixmap Ezixhaswayo"
+
+#: ../base/os_base.h:287
+#, kde-format
+msgid "Pixmap Format #%1"
+msgstr "Ifomati ye Pixmap #%1"
+
+#: ../base/os_base.h:287
+#, fuzzy, kde-format
+msgid "%1 BPP, Depth: %2, Scanline padding: %3"
+msgstr "%1 BPP, Ubunzulu: %2 Bit, ilayini yovavanyo_pad: %3"
+
+#: ../base/os_base.h:299
+#, kde-format
+msgid "Maximum Request Size"
+msgstr "Ubungakanani Obukhulu Obufunwayo"
+
+#: ../base/os_base.h:303
+#, kde-format
+msgid "Motion Buffer Size"
+msgstr "Ubungakanani Obushukumayo Bomgcini kwethubana"
+
+#: ../base/os_base.h:307
+#, kde-format
+msgid "Bitmap"
+msgstr "Bitmap"
+
+#: ../base/os_base.h:311
+#, kde-format
+msgid "Unit"
+msgstr "Umnqongo"
+
+#: ../base/os_base.h:315
+#, kde-format
+msgid "Order"
+msgstr "Lungelelanisa"
+
+#: ../base/os_base.h:319
+#, kde-format
+msgid "Padding"
+msgstr "Inyusela ukumila"
+
+#: ../base/os_base.h:323
+#, kde-format
+msgid "Image Byte Order"
+msgstr "Ulungiso Lomfanekiso we Byte"
+
+#: ../base/os_current.h:57 ../base/os_current.h:66 ../base/os_current.h:86
+#: ../base/os_current.h:95 ../base/os_current.h:104 ../base/os_current.h:114
+#: ../base/os_current.h:123 ../base/os_current.h:132
+#, kde-format
+msgid "This system may not be completely supported yet."
+msgstr ""
+
+#: info.cpp:36
+#, fuzzy, kde-format
+#| msgid "KDE Panel System Information Control Module"
+msgid "System Information Control Module"
+msgstr "KDE Panel System Information Control Module"
+
+#: info.cpp:38
+#, fuzzy, kde-format
+#| msgid "(c) 1998 - 2002 Helge Deller"
+msgid ""
+"(c) 2008 Nicolas Ternisien\n"
+"(c) 1998 - 2002 Helge Deller"
+msgstr "(c) 1998 - 2002 Helge Deller"
+
+#: info.cpp:41
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr ""
+
+#: info.cpp:42
+#, fuzzy, kde-format
+#| msgid "(c) 1998 - 2002 Helge Deller"
+msgid "Helge Deller"
+msgstr "(c) 1998 - 2002 Helge Deller"
+
+#: info.cpp:62
+#, kde-format
+msgid "This list displays system information on the selected category."
+msgstr "Olu luhlu lubonisa indlela yolwazi lohlobo olukhethiweyo."
+
+#: info.cpp:78
+#, fuzzy, kde-format
+msgctxt "%1 is one of the modules of the kinfocenter, cpu info, os info, etc"
+msgid "No information available about %1."
+msgstr "Akukho lwazi lukhoyo malunga ne %1!"
+
+#: info.cpp:109
+#, fuzzy, kde-format
+#| msgid ""
+#| "<h1>System Information</h1> All the information modules return "
+#| "information about a certain aspect of your computer hardware or your "
+#| "operating system. Not all modules are available on all hardware "
+#| "architectures and/or operating systems."
+msgid ""
+"All the information modules return information about a certain aspect of "
+"your computer hardware or your operating system."
+msgstr ""
+"<h1>Ulwazi lwendlela</h1>Yonke iminqongo yolwazi ibuyisela ulwazi malunga "
+"nomba othile kwimpahla yentsimbi ye computer yakho okanye indlela yakho. "
+"yokusebenza. Asiyiyo yonke iminqongo ekhoyo kubunzulu lwazi bolwakhiwo "
+"lwempahla zentsimbi kunye/okanye iindlela zokusebenza."
+
+#: main.cpp:45
+#, kde-format
+msgid "Interrupt"
+msgstr "Phazamisa"
+
+#: main.cpp:48
+#, kde-format
+msgid "I/O-Port"
+msgstr "I/O-Ufako"
+
+#: main.cpp:54
+#, kde-format
+msgid "X-Server"
+msgstr "X-Umncedisi"
+
+#: main.cpp:57
+#, kde-format
+msgid "Wayland"
+msgstr ""

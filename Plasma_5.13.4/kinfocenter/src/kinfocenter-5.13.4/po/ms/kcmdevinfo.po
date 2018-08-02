@@ -1,0 +1,528 @@
+# kcmdevinfo Bahasa Melayu (Malay) (ms)
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>, 2010.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmdevinfo\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-04-05 03:41+0200\n"
+"PO-Revision-Date: 2011-05-11 16:42+0800\n"
+"Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com>\n"
+"Language-Team: Malay <kedidiemas@yahoogroups.com>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sharuzzaman Ahmat Raslan"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sharuzzaman@gmail.com"
+
+#: devicelisting.cpp:47
+#, kde-format
+msgctxt "Device Listing Whats This"
+msgid "Shows all the devices that are currently listed."
+msgstr ""
+
+#: devicelisting.cpp:50
+#, kde-format
+msgid "Devices"
+msgstr "Peranti"
+
+#: devicelisting.cpp:62
+#, kde-format
+msgid "Collapse All"
+msgstr "Runtuhkan Semua"
+
+#: devicelisting.cpp:65
+#, kde-format
+msgid "Expand All"
+msgstr "Kembangkan Semua"
+
+#: devicelisting.cpp:68
+#, kde-format
+msgid "Show All Devices"
+msgstr ""
+
+#: devicelisting.cpp:71
+#, kde-format
+msgid "Show Relevant Devices"
+msgstr ""
+
+#: devicelisting.cpp:100
+#, fuzzy, kde-format
+#| msgid "Unknown"
+msgctxt "unknown device type"
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+#: devicelisting.cpp:141 devinfo.cpp:87
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "no device UDI"
+msgid "None"
+msgstr "Tiada"
+
+#: devinfo.cpp:33
+#, kde-format
+msgid "kcmdevinfo"
+msgstr ""
+
+#: devinfo.cpp:33
+#, fuzzy, kde-format
+#| msgid "Devices"
+msgid "Device Viewer"
+msgstr "Peranti"
+
+#: devinfo.cpp:35
+#, kde-format
+msgid "(c) 2010 David Hubner"
+msgstr "(c) 2010 David Hubner"
+
+#: devinfo.cpp:65
+#, kde-format
+msgid "UDI: "
+msgstr ""
+
+#: devinfo.cpp:74
+#, kde-format
+msgctxt "Udi Whats This"
+msgid "Shows the current device's UDI (Unique Device Identifier)"
+msgstr ""
+
+#: infopanel.cpp:25
+#, kde-format
+msgid "Device Information"
+msgstr "Maklumat Peranti"
+
+#: infopanel.cpp:35
+#, kde-format
+msgctxt "Info Panel Whats This"
+msgid "Shows information about the currently selected device."
+msgstr ""
+
+#: infopanel.cpp:62
+#, kde-format
+msgid ""
+"\n"
+"Solid Based Device Viewer Module"
+msgstr ""
+
+#: infopanel.cpp:125
+#, kde-format
+msgid "Product: "
+msgstr ""
+
+#: infopanel.cpp:125
+#, kde-format
+msgid "Vendor: "
+msgstr ""
+
+#: infopanel.cpp:146
+#, kde-format
+msgid "Yes"
+msgstr "Ya"
+
+#: infopanel.cpp:148
+#, kde-format
+msgid "No"
+msgstr "Tidak"
+
+#: infopanel.h:57
+#, fuzzy, kde-format
+#| msgid "Unknown"
+msgctxt "name of something is not known"
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+#: soldevice.cpp:72
+#, fuzzy, kde-format
+#| msgid "Unknown"
+msgctxt "unknown device"
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+#: soldevice.cpp:99
+#, kde-format
+msgctxt "Default device tooltip"
+msgid "A Device"
+msgstr ""
+
+#: soldevicetypes.cpp:44
+#, kde-format
+msgid "Processors"
+msgstr ""
+
+#: soldevicetypes.cpp:60
+#, kde-format
+msgid "Processor %1"
+msgstr ""
+
+#: soldevicetypes.cpp:77
+#, kde-format
+msgid "Intel MMX"
+msgstr ""
+
+#: soldevicetypes.cpp:80
+#, kde-format
+msgid "Intel SSE"
+msgstr ""
+
+#: soldevicetypes.cpp:83
+#, kde-format
+msgid "Intel SSE2"
+msgstr ""
+
+#: soldevicetypes.cpp:86
+#, kde-format
+msgid "Intel SSE3"
+msgstr ""
+
+#: soldevicetypes.cpp:89
+#, kde-format
+msgid "Intel SSE4"
+msgstr ""
+
+#: soldevicetypes.cpp:92
+#, kde-format
+msgid "AMD 3DNow"
+msgstr ""
+
+#: soldevicetypes.cpp:95
+#, kde-format
+msgid "ATI IVEC"
+msgstr ""
+
+#: soldevicetypes.cpp:98
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "no instruction set extensions"
+msgid "None"
+msgstr "Tiada"
+
+#: soldevicetypes.cpp:101
+#, kde-format
+msgid "Processor Number: "
+msgstr ""
+
+#: soldevicetypes.cpp:103
+#, kde-format
+msgid "Max Speed: "
+msgstr ""
+
+#: soldevicetypes.cpp:105
+#, kde-format
+msgid "Supported Instruction Sets: "
+msgstr ""
+
+#: soldevicetypes.cpp:133
+#, kde-format
+msgid "Storage Drives"
+msgstr ""
+
+#: soldevicetypes.cpp:152
+#, kde-format
+msgid "Hard Disk Drive"
+msgstr ""
+
+#: soldevicetypes.cpp:155
+#, kde-format
+msgid "Compact Flash Reader"
+msgstr ""
+
+#: soldevicetypes.cpp:158
+#, kde-format
+msgid "Smart Media Reader"
+msgstr ""
+
+#: soldevicetypes.cpp:161
+#, kde-format
+msgid "SD/MMC Reader"
+msgstr ""
+
+#: soldevicetypes.cpp:164
+#, fuzzy, kde-format
+msgid "Optical Drive"
+msgstr "Jenis peranti pemacu optikal"
+
+#: soldevicetypes.cpp:167
+#, kde-format
+msgid "Memory Stick Reader"
+msgstr ""
+
+#: soldevicetypes.cpp:170
+#, kde-format
+msgid "xD Reader"
+msgstr ""
+
+#: soldevicetypes.cpp:173
+#, kde-format
+msgid "Unknown Drive"
+msgstr ""
+
+#: soldevicetypes.cpp:193
+#, kde-format
+msgid "IDE"
+msgstr "IDE"
+
+#: soldevicetypes.cpp:196
+#, kde-format
+msgid "USB"
+msgstr "USB"
+
+#: soldevicetypes.cpp:199
+#, kde-format
+msgid "IEEE1394"
+msgstr ""
+
+#: soldevicetypes.cpp:202
+#, kde-format
+msgid "SCSI"
+msgstr "SCSI"
+
+#: soldevicetypes.cpp:205
+#, kde-format
+msgid "SATA"
+msgstr ""
+
+#: soldevicetypes.cpp:208
+#, fuzzy, kde-format
+#| msgid "Platform"
+msgctxt "platform storage bus"
+msgid "Platform"
+msgstr "Platform"
+
+#: soldevicetypes.cpp:211
+#, fuzzy, kde-format
+#| msgid "Unknown"
+msgctxt "unknown storage bus"
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+#: soldevicetypes.cpp:214
+#, kde-format
+msgid "Bus: "
+msgstr ""
+
+#: soldevicetypes.cpp:216
+#, kde-format
+msgid "Hotpluggable?"
+msgstr ""
+
+#: soldevicetypes.cpp:218
+#, kde-format
+msgid "Removable?"
+msgstr ""
+
+#: soldevicetypes.cpp:262
+#, kde-format
+msgid "Unused"
+msgstr "Tidak diguna"
+
+#: soldevicetypes.cpp:265
+#, fuzzy, kde-format
+msgid "File System"
+msgstr "Sistem Fail"
+
+#: soldevicetypes.cpp:268
+#, kde-format
+msgid "Partition Table"
+msgstr ""
+
+#: soldevicetypes.cpp:271
+#, fuzzy, kde-format
+msgid "Raid"
+msgstr "Raid"
+
+#: soldevicetypes.cpp:274
+#, fuzzy, kde-format
+msgid "Encrypted"
+msgstr "Disulitkan"
+
+#: soldevicetypes.cpp:277
+#, fuzzy, kde-format
+#| msgid "Unknown"
+msgctxt "unknown volume usage"
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+#: soldevicetypes.cpp:280
+#, kde-format
+msgid "File System Type: "
+msgstr ""
+
+#: soldevicetypes.cpp:282
+#, kde-format
+msgid "Label: "
+msgstr ""
+
+#: soldevicetypes.cpp:283
+#, kde-format
+msgid "Not Set"
+msgstr ""
+
+#: soldevicetypes.cpp:284
+#, kde-format
+msgid "Volume Usage: "
+msgstr ""
+
+#: soldevicetypes.cpp:286
+#, kde-format
+msgid "UUID: "
+msgstr ""
+
+#: soldevicetypes.cpp:291
+#, kde-format
+msgid "Mounted At: "
+msgstr ""
+
+#: soldevicetypes.cpp:292
+#, kde-format
+msgid "Not Mounted"
+msgstr ""
+
+#: soldevicetypes.cpp:298
+#, kde-format
+msgid "Volume Space:"
+msgstr ""
+
+#: soldevicetypes.cpp:306
+#, kde-format
+msgctxt "Available space out of total partition size (percent used)"
+msgid "%1 free of %2 (%3% used)"
+msgstr ""
+
+#: soldevicetypes.cpp:312
+#, kde-format
+msgid "No data available"
+msgstr ""
+
+#: soldevicetypes.cpp:339
+#, kde-format
+msgid "Multimedia Players"
+msgstr ""
+
+#: soldevicetypes.cpp:358 soldevicetypes.cpp:400
+#, kde-format
+msgid "Supported Drivers: "
+msgstr ""
+
+#: soldevicetypes.cpp:360 soldevicetypes.cpp:402
+#, kde-format
+msgid "Supported Protocols: "
+msgstr ""
+
+#: soldevicetypes.cpp:381
+#, kde-format
+msgid "Cameras"
+msgstr ""
+
+#: soldevicetypes.cpp:423
+#, kde-format
+msgid "Batteries"
+msgstr ""
+
+#: soldevicetypes.cpp:445
+#, kde-format
+msgid "PDA"
+msgstr ""
+
+#: soldevicetypes.cpp:448
+#, kde-format
+msgid "UPS"
+msgstr ""
+
+#: soldevicetypes.cpp:451
+#, fuzzy, kde-format
+msgid "Primary"
+msgstr "Utama"
+
+#: soldevicetypes.cpp:454
+#, fuzzy, kde-format
+msgid "Mouse"
+msgstr "Tetikus"
+
+#: soldevicetypes.cpp:457
+#, fuzzy, kde-format
+msgid "Keyboard"
+msgstr "Papan Kekunci"
+
+#: soldevicetypes.cpp:460
+#, kde-format
+msgid "Keyboard + Mouse"
+msgstr ""
+
+#: soldevicetypes.cpp:463
+#, fuzzy, kde-format
+msgid "Camera"
+msgstr "Kamera"
+
+#: soldevicetypes.cpp:466
+#, kde-format
+msgid "Phone"
+msgstr ""
+
+#: soldevicetypes.cpp:469
+#, kde-format
+msgctxt "Screen"
+msgid "Monitor"
+msgstr ""
+
+#: soldevicetypes.cpp:472
+#, kde-format
+msgctxt "Wireless game pad or joystick battery"
+msgid "Gaming Input"
+msgstr ""
+
+#: soldevicetypes.cpp:475
+#, fuzzy, kde-format
+#| msgid "Unknown"
+msgctxt "unknown battery type"
+msgid "Unknown"
+msgstr "Tidak diketahui"
+
+#: soldevicetypes.cpp:481
+#, fuzzy, kde-format
+msgid "Charging"
+msgstr "Mengecas"
+
+#: soldevicetypes.cpp:484
+#, kde-format
+msgid "Discharging"
+msgstr ""
+
+#: soldevicetypes.cpp:487
+#, kde-format
+msgid "Fully Charged"
+msgstr ""
+
+#: soldevicetypes.cpp:490
+#, kde-format
+msgid "No Charge"
+msgstr ""
+
+#: soldevicetypes.cpp:493
+#, kde-format
+msgid "Battery Type: "
+msgstr ""
+
+#: soldevicetypes.cpp:495
+#, kde-format
+msgid "Charge Status: "
+msgstr ""
+
+#: soldevicetypes.cpp:497
+#, kde-format
+msgid "Charge Percent: "
+msgstr ""

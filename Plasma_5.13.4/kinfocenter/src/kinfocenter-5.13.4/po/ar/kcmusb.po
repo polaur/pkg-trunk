@@ -1,0 +1,420 @@
+# translation of kcmusb.po to Arabic
+# translation of kcmusb.po to
+# Copyright (C) 2001,2002, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Mohammed Gamal <f2c2001@yahoo.com>, 2001.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# محمد سعد  Mohamed SAAD <metehyi@free.fr>, 2006.
+# AbdulAziz AlSharif <a.a-a.s@hotmail.com>, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmusb\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:20+0100\n"
+"PO-Revision-Date: 2008-12-20 20:57+0400\n"
+"Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mohamed SAAD محمد سعد,زايد السعيدي"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "metehyi@free.fr,zayed.alsaidi@gmail.com"
+
+#: classes.i18n:1
+#, kde-format
+msgid "AT-commands"
+msgstr "أوامر AT"
+
+#: classes.i18n:2
+#, kde-format
+msgid "ATM Networking"
+msgstr "شبكية ATM"
+
+#: classes.i18n:3
+#, kde-format
+msgid "Abstract (modem)"
+msgstr "بسيط (مودم)"
+
+#: classes.i18n:4
+#, kde-format
+msgid "Audio"
+msgstr "صوت"
+
+#: classes.i18n:5
+#, kde-format
+msgid "Bidirectional"
+msgstr "ثنائي الإتجاه"
+
+#: classes.i18n:6
+#, kde-format
+msgid "Boot Interface Subclass"
+msgstr "صنف واجهة إقلاع فرعي"
+
+#: classes.i18n:7
+#, kde-format
+msgid "Bulk (Zip)"
+msgstr "جسم (ZIP)"
+
+#: classes.i18n:8
+#, kde-format
+msgid "CAPI 2.0"
+msgstr "CAPI 2.0"
+
+#: classes.i18n:9
+#, kde-format
+msgid "CAPI Control"
+msgstr "متحكم CAPI"
+
+#: classes.i18n:10
+#, kde-format
+msgid "CDC PUF"
+msgstr "CDC PUF"
+
+#: classes.i18n:11
+#, kde-format
+msgid "Communications"
+msgstr "الاتصالات"
+
+#: classes.i18n:12
+#, kde-format
+msgid "Control Device"
+msgstr "جهاز التحكم"
+
+#: classes.i18n:13
+#, kde-format
+msgid "Control/Bulk"
+msgstr "التحكم/الجسم"
+
+#: classes.i18n:14
+#, kde-format
+msgid "Control/Bulk/Interrupt"
+msgstr "التحكم/الجسم/الإنقطاع"
+
+#: classes.i18n:15
+#, kde-format
+msgid "Data"
+msgstr "البيانات"
+
+#: classes.i18n:16
+#, kde-format
+msgid "Direct Line"
+msgstr "خط مباشر"
+
+#: classes.i18n:17
+#, kde-format
+msgid "Ethernet Networking"
+msgstr "شبكة ايثرنت"
+
+#: classes.i18n:18
+#, kde-format
+msgid "Floppy"
+msgstr "قرص مرن"
+
+#: classes.i18n:19
+#, kde-format
+msgid "HDLC"
+msgstr "HDLC"
+
+#: classes.i18n:20
+#, kde-format
+msgid "Host Based Driver"
+msgstr "مشغل مبني على المضيف"
+
+#: classes.i18n:21
+#, kde-format
+msgid "Hub"
+msgstr "الموزع"
+
+#: classes.i18n:22
+#, kde-format
+msgid "Human Interface Devices"
+msgstr "أجهزة الواجهة البشرية"
+
+#: classes.i18n:23
+#, kde-format
+msgid "I.430 ISDN BRI"
+msgstr "I.430 ISDN BRI"
+
+#: classes.i18n:24
+#, kde-format
+msgid "Interface"
+msgstr "الواجهة"
+
+#: classes.i18n:25
+#, kde-format
+msgid "Keyboard"
+msgstr "لوحة المفاتيح"
+
+#: classes.i18n:26
+#, kde-format
+msgid "Mass Storage"
+msgstr "التخزين الكبير الحجم"
+
+#: classes.i18n:27
+#, kde-format
+msgid "Mouse"
+msgstr "الفأرة"
+
+#: classes.i18n:28
+#, kde-format
+msgid "Multi-Channel"
+msgstr "متعدد القنوات"
+
+#: classes.i18n:29
+#, kde-format
+msgid "No Subclass"
+msgstr "لا صنف فرعي"
+
+#: classes.i18n:30
+#, kde-format
+msgid "Non Streaming"
+msgstr "غير إنسيابي"
+
+#: classes.i18n:31
+#, kde-format
+msgid "None"
+msgstr "لا شيء"
+
+#: classes.i18n:32
+#, kde-format
+msgid "Printer"
+msgstr "الطابعة"
+
+#: classes.i18n:33
+#, kde-format
+msgid "Q.921"
+msgstr "Q.291"
+
+#: classes.i18n:34
+#, kde-format
+msgid "Q.921M"
+msgstr "Q.921M"
+
+#: classes.i18n:35
+#, kde-format
+msgid "Q.921TM"
+msgstr "Q.921TM"
+
+#: classes.i18n:36
+#, kde-format
+msgid "Q.932 EuroISDN"
+msgstr "Q.932 EuroISDN"
+
+#: classes.i18n:37
+#, kde-format
+msgid "SCSI"
+msgstr "SCSI"
+
+#: classes.i18n:38
+#, kde-format
+msgid "Streaming"
+msgstr "الانسياب"
+
+#: classes.i18n:39
+#, kde-format
+msgid "Telephone"
+msgstr "الهاتف"
+
+#: classes.i18n:40
+#, kde-format
+msgid "Transparent"
+msgstr "شفاف"
+
+#: classes.i18n:41
+#, kde-format
+msgid "Unidirectional"
+msgstr "أحادي الإتجاه"
+
+#: classes.i18n:42
+#, kde-format
+msgid "V.120 V.24 rate ISDN"
+msgstr "V.120 V.24 rate ISDN"
+
+#: classes.i18n:43
+#, kde-format
+msgid "V.42bis"
+msgstr "V.42bis"
+
+#: classes.i18n:44
+#, kde-format
+msgid "Vendor Specific"
+msgstr "محدد من المصنّع"
+
+#: classes.i18n:45
+#, kde-format
+msgid "Vendor Specific Class"
+msgstr "صنف محدد من المصنّع"
+
+#: classes.i18n:46
+#, kde-format
+msgid "Vendor Specific Protocol"
+msgstr "بروتوكول محدد من المصنّع"
+
+#: classes.i18n:47
+#, kde-format
+msgid "Vendor Specific Subclass"
+msgstr "صنف فرعي محدد من المصنّع"
+
+#: classes.i18n:48
+#, kde-format
+msgid "Vendor specific"
+msgstr "محدد من المصنّع"
+
+#: kcmusb.cpp:35
+#, kde-format
+msgid "This module allows you to see the devices attached to your USB bus(es)."
+msgstr ""
+" هذه الوحدة تسمح لك برؤية الأجهزة الموصولة على ناقل/نواقل USB الخاصة بك."
+
+#: kcmusb.cpp:49
+#, kde-format
+msgid "Device"
+msgstr "الجهاز"
+
+#: kcmusb.cpp:69
+#, kde-format
+msgid "kcmusb"
+msgstr "kcmusb"
+
+#: kcmusb.cpp:69
+#, fuzzy, kde-format
+#| msgid "Device"
+msgid "USB Devices"
+msgstr "الجهاز"
+
+#: kcmusb.cpp:71
+#, kde-format
+msgid "(c) 2001 Matthias Hoelzer-Kluepfel"
+msgstr "(c) 2001 Matthias Hoelzer-Kluepfel"
+
+#: kcmusb.cpp:73
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: kcmusb.cpp:74
+#, kde-format
+msgid "Leo Savernik"
+msgstr "Leo Savernik"
+
+#: kcmusb.cpp:74
+#, kde-format
+msgid "Live Monitoring of USB Bus"
+msgstr "مراقبة مباشرة لناقل USB"
+
+#: usbdevices.cpp:148
+#, kde-format
+msgid "Unknown"
+msgstr "مجهول"
+
+#: usbdevices.cpp:157
+#, kde-format
+msgid "<b>Manufacturer:</b> "
+msgstr "<b>المصنّع:</b>"
+
+#: usbdevices.cpp:159
+#, kde-format
+msgid "<b>Serial #:</b> "
+msgstr "<b>الرقم التسلسلي:</b>"
+
+#: usbdevices.cpp:167
+#, kde-format
+msgid "<tr><td><i>Class</i></td>%1</tr>"
+msgstr "<tr><td><i>الصنف</i></td>%1</tr>"
+
+#: usbdevices.cpp:172
+#, kde-format
+msgid "<tr><td><i>Subclass</i></td>%1</tr>"
+msgstr "<tr><td><i>الصنف الفرعي</i></td>%1</tr>"
+
+#: usbdevices.cpp:177
+#, kde-format
+msgid "<tr><td><i>Protocol</i></td>%1</tr>"
+msgstr "<tr><td><i>البروتوكول</i></td>%1</tr>"
+
+#: usbdevices.cpp:179
+#, kde-format
+msgid "<tr><td><i>USB Version</i></td><td>%1.%2</td></tr>"
+msgstr "<tr><td><i>إصدار USB</i></td><td>%1.%2</td></tr>"
+
+#: usbdevices.cpp:189
+#, kde-format
+msgid "<tr><td><i>Vendor ID</i></td><td>0x%1</td></tr>"
+msgstr "<tr><td><i>رقم تعريف المصنّع</i></td><td>0x%1</td></tr>"
+
+#: usbdevices.cpp:194
+#, kde-format
+msgid "<tr><td><i>Product ID</i></td><td>0x%1</td></tr>"
+msgstr "<tr><td><i>رقم تعريف المنتج</i></td><td>0x%1</td></tr>"
+
+#: usbdevices.cpp:195
+#, kde-format
+msgid "<tr><td><i>Revision</i></td><td>%1.%2</td></tr>"
+msgstr "<tr><td><i>المراجعة</i></td><td>%1.%2</td></tr>"
+
+#: usbdevices.cpp:200
+#, kde-format
+msgid "<tr><td><i>Speed</i></td><td>%1 Mbit/s</td></tr>"
+msgstr "<tr><td><i>السرعة</i></td><td>%1 Mbit/s</td></tr>"
+
+#: usbdevices.cpp:201
+#, kde-format
+msgid "<tr><td><i>Channels</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>القنوات</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:204
+#, kde-format
+msgid "<tr><td><i>Power Consumption</i></td><td>%1 mA</td></tr>"
+msgstr "<tr><td><i>إستهلاك الطاقة</i></td><td>%1 mA</td></tr>"
+
+#: usbdevices.cpp:206
+#, kde-format
+msgid "<tr><td><i>Power Consumption</i></td><td>self powered</td></tr>"
+msgstr "<tr><td><i>إستهلاك الطاقة</i></td><td>مكتفي بذاته</td></tr>"
+
+#: usbdevices.cpp:207
+#, kde-format
+msgid "<tr><td><i>Attached Devicenodes</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>عقد الجهاز الموصولة</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:215
+#, kde-format
+msgid "<tr><td><i>Max. Packet Size</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>الحجم الأقصى لحزم البيانات</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:220
+#, kde-format
+msgid "<tr><td><i>Bandwidth</i></td><td>%1 of %2 (%3%)</td></tr>"
+msgstr "<tr><td><i>عرض النطاق</i></td><td>%1 من %2 (%3%)</td></tr>"
+
+#: usbdevices.cpp:221
+#, kde-format
+msgid "<tr><td><i>Intr. requests</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>طلبات الإنقطاع</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:222
+#, kde-format
+msgid "<tr><td><i>Isochr. requests</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>طلبات Isochr.</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:428
+#, kde-format
+msgid ""
+"Could not open one or more USB controller. Make sure, you have read access "
+"to all USB controllers that should be listed here."
+msgstr ""
+"لم استطع فتح أكثر من متحكم USB . تأكد، أن لديك صلاحية الوصول لكلّ متحكمات USB "
+"التي يجب أن تدرج هنا."

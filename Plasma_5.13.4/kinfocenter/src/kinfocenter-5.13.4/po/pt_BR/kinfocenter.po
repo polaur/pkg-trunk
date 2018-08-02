@@ -1,0 +1,154 @@
+# Translation of kinfocenter.po to Brazilian Portuguese
+# Copyright (C) 2002-2016 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Lisiane Sztoltz <lisiane@conectiva.com.br>, 2002, 2003.
+# Henrique Pinto <stampede@coltec.ufmg.br>, 2003.
+# Lisiane Sztoltz Teixeira <lisiane@conectiva.com.br>, 2004.
+# Lisiane Sztoltz Teixeira <lisiane@kdemail.net>, 2004, 2005.
+# Marcus Gama <marcus.gama@gmail.com>, 2004.
+# Diniz Bortolotto <diniz.bortolotto@gmail.com>, 2007, 2008.
+# André Marcelo Alvarenga <andrealvarenga@gmx.net>, 2009, 2010, 2016.
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2017, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: kinfocenter\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-08 03:33+0100\n"
+"PO-Revision-Date: 2018-02-21 10:15-0300\n"
+"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Rodrigo Stulzer, Lisiane Sztoltz Teixeira"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "rodrigo@conectiva.com.br, lisiane@kdemail.net"
+
+#: infocenter.cpp:52
+#, kde-format
+msgctxt "Main window title"
+msgid "KInfocenter"
+msgstr "KInfocenter"
+
+#: infocenter.cpp:127
+#, kde-format
+msgctxt "Information about current module located in about menu"
+msgid "About Current Information Module"
+msgstr "Sobre o módulo de informação atual"
+
+#: infocenter.cpp:132
+#, kde-format
+msgctxt "Module help button label"
+msgid "Module Help"
+msgstr "Ajuda do módulo"
+
+#: infocenter.cpp:135
+#, kde-format
+msgctxt "Help button label"
+msgid "Help"
+msgstr "Ajuda"
+
+#: infocenter.cpp:175
+#, kde-format
+msgctxt "Search Bar Click Message"
+msgid "Search"
+msgstr "Pesquisar"
+
+#: infocenter.cpp:180
+#, kde-format
+msgctxt "Kaction search label"
+msgid "Search Modules"
+msgstr "Pesquisar módulos"
+
+#: infokcmmodel.cpp:34
+#, kde-format
+msgid "Information Modules"
+msgstr "Módulos de informação"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kinfocenterui.rc:10
+#, kde-format
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr "Barra de ferramentas principal"
+
+#: main.cpp:42
+#, kde-format
+msgid "Info Center"
+msgstr "Centro de Informações"
+
+#: main.cpp:45
+#, kde-format
+msgid "Copyright 2009-2018 KDE"
+msgstr "Copyright 2009-2018 KDE"
+
+#: main.cpp:47
+#, kde-format
+msgid "David Hubner"
+msgstr "David Hubner"
+
+#: main.cpp:47
+#, kde-format
+msgid "Current Maintainer"
+msgstr "Mantenedor atual"
+
+#: main.cpp:48
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: main.cpp:48
+#, kde-format
+msgid "Previous Maintainer"
+msgstr "Mantenedor anterior"
+
+#: main.cpp:49
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: main.cpp:50
+#, kde-format
+msgid "Matthias Elter"
+msgstr "Matthias Elter"
+
+#: main.cpp:51
+#, kde-format
+msgid "Matthias Ettrich"
+msgstr "Matthias Ettrich"
+
+#: main.cpp:52
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: main.cpp:53
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
+
+#: sidepanel.cpp:106
+#, kde-format
+msgid "Clear Search"
+msgstr "Limpar a pesquisa"
+
+#: sidepanel.cpp:109
+#, kde-format
+msgid "Expand All Categories"
+msgstr "Expandir todas as categorias"
+
+#: sidepanel.cpp:112
+#, kde-format
+msgid "Collapse All Categories"
+msgstr "Recolher todas as categorias"

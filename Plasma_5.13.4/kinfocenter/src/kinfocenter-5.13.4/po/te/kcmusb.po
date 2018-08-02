@@ -1,0 +1,413 @@
+# translation of kcmusb.po to Telugu
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmusb\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:20+0100\n"
+"PO-Revision-Date: 2009-01-16 22:16+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "కృష్ణబాబు కె , విజయ్ కిరణ్ కముజు"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "k.meetme@gmail.com,infyquest@gmail.com"
+
+#: classes.i18n:1
+#, kde-format
+msgid "AT-commands"
+msgstr "AT-ఆదేశములు"
+
+#: classes.i18n:2
+#, kde-format
+msgid "ATM Networking"
+msgstr "ATM నెట్వర్కింగ్"
+
+#: classes.i18n:3
+#, kde-format
+msgid "Abstract (modem)"
+msgstr "ఆబ్‌స్ట్రాక్ట్ (మోడెమ్)"
+
+#: classes.i18n:4
+#, kde-format
+msgid "Audio"
+msgstr "ఆడియో"
+
+#: classes.i18n:5
+#, kde-format
+msgid "Bidirectional"
+msgstr "బైడైరెక్షనల్"
+
+#: classes.i18n:6
+#, kde-format
+msgid "Boot Interface Subclass"
+msgstr "బూట్ ఇంటర్‌ఫేస్ సబ్‌క్లాస్"
+
+#: classes.i18n:7
+#, kde-format
+msgid "Bulk (Zip)"
+msgstr "బల్క్ (Zip)"
+
+#: classes.i18n:8
+#, kde-format
+msgid "CAPI 2.0"
+msgstr "CAPI 2.0"
+
+#: classes.i18n:9
+#, kde-format
+msgid "CAPI Control"
+msgstr "CAPI నియంత్రణ"
+
+#: classes.i18n:10
+#, kde-format
+msgid "CDC PUF"
+msgstr "CDC PUF"
+
+#: classes.i18n:11
+#, kde-format
+msgid "Communications"
+msgstr "సంప్రదింపులు"
+
+#: classes.i18n:12
+#, kde-format
+msgid "Control Device"
+msgstr "నియంత్రణ పరికరము"
+
+#: classes.i18n:13
+#, kde-format
+msgid "Control/Bulk"
+msgstr "నియంత్రణ/బల్క్"
+
+#: classes.i18n:14
+#, kde-format
+msgid "Control/Bulk/Interrupt"
+msgstr "నియంత్రణ/బల్క్/ఆటంకము"
+
+#: classes.i18n:15
+#, kde-format
+msgid "Data"
+msgstr "డాటా"
+
+#: classes.i18n:16
+#, kde-format
+msgid "Direct Line"
+msgstr "డైరెక్టు లైన్"
+
+#: classes.i18n:17
+#, kde-format
+msgid "Ethernet Networking"
+msgstr "ఈథర్నెట్ నెట్వర్కింగ్"
+
+#: classes.i18n:18
+#, kde-format
+msgid "Floppy"
+msgstr "ఫ్లాఫి"
+
+#: classes.i18n:19
+#, kde-format
+msgid "HDLC"
+msgstr "HDLC"
+
+#: classes.i18n:20
+#, kde-format
+msgid "Host Based Driver"
+msgstr "హోస్ట్ ఆధారిత డ్రైవర్"
+
+#: classes.i18n:21
+#, kde-format
+msgid "Hub"
+msgstr "హబ్"
+
+#: classes.i18n:22
+#, kde-format
+msgid "Human Interface Devices"
+msgstr "హ్యూమన్ ఇంటర్‌ఫేస్ పరికరములు"
+
+#: classes.i18n:23
+#, kde-format
+msgid "I.430 ISDN BRI"
+msgstr "I.430 ISDN BRI"
+
+#: classes.i18n:24
+#, kde-format
+msgid "Interface"
+msgstr "ఇంటర్‌ఫేస్"
+
+#: classes.i18n:25
+#, kde-format
+msgid "Keyboard"
+msgstr "కీబోర్డ్"
+
+#: classes.i18n:26
+#, kde-format
+msgid "Mass Storage"
+msgstr "మాస్ నిల్వ"
+
+#: classes.i18n:27
+#, kde-format
+msgid "Mouse"
+msgstr "మౌస్"
+
+#: classes.i18n:28
+#, kde-format
+msgid "Multi-Channel"
+msgstr "బహుళ-చానల్"
+
+#: classes.i18n:29
+#, kde-format
+msgid "No Subclass"
+msgstr "సబ్‌క్లాస్ లేదు"
+
+#: classes.i18n:30
+#, kde-format
+msgid "Non Streaming"
+msgstr "స్ట్రీమింగ్ కాని"
+
+#: classes.i18n:31
+#, kde-format
+msgid "None"
+msgstr "ఏదీకాదు"
+
+#: classes.i18n:32
+#, kde-format
+msgid "Printer"
+msgstr "ముద్రణి"
+
+#: classes.i18n:33
+#, kde-format
+msgid "Q.921"
+msgstr "Q.921"
+
+#: classes.i18n:34
+#, kde-format
+msgid "Q.921M"
+msgstr "Q.921M"
+
+#: classes.i18n:35
+#, kde-format
+msgid "Q.921TM"
+msgstr "Q.921TM"
+
+#: classes.i18n:36
+#, kde-format
+msgid "Q.932 EuroISDN"
+msgstr "Q.932 EuroISDN"
+
+#: classes.i18n:37
+#, kde-format
+msgid "SCSI"
+msgstr "SCSI"
+
+#: classes.i18n:38
+#, kde-format
+msgid "Streaming"
+msgstr "స్ట్రీమింగ్"
+
+#: classes.i18n:39
+#, kde-format
+msgid "Telephone"
+msgstr "టెలిఫోన్"
+
+#: classes.i18n:40
+#, kde-format
+msgid "Transparent"
+msgstr "పారదృశ్యమైన"
+
+#: classes.i18n:41
+#, kde-format
+msgid "Unidirectional"
+msgstr "యునిడైరెక్షనల్"
+
+#: classes.i18n:42
+#, kde-format
+msgid "V.120 V.24 rate ISDN"
+msgstr "V.120 V.24 rate ISDN"
+
+#: classes.i18n:43
+#, kde-format
+msgid "V.42bis"
+msgstr "V.42bis"
+
+#: classes.i18n:44
+#, kde-format
+msgid "Vendor Specific"
+msgstr "అమ్మకందారి ప్రత్యేకమైన"
+
+#: classes.i18n:45
+#, kde-format
+msgid "Vendor Specific Class"
+msgstr "అమ్మకందారి ప్రత్యేకమైన క్లాస్"
+
+#: classes.i18n:46
+#, kde-format
+msgid "Vendor Specific Protocol"
+msgstr "అమ్మకందారి ప్రత్యేకమైన ప్రొటోకాల్"
+
+#: classes.i18n:47
+#, kde-format
+msgid "Vendor Specific Subclass"
+msgstr "అమ్మకందారి ప్రత్యేకమైన సబ్‌క్లాస్"
+
+#: classes.i18n:48
+#, kde-format
+msgid "Vendor specific"
+msgstr "అమ్మకందారి ప్రత్యేకమైన"
+
+#: kcmusb.cpp:35
+#, kde-format
+msgid "This module allows you to see the devices attached to your USB bus(es)."
+msgstr "ఈ మాడ్యూల్ మీ USB బస్(ల)కు అనుభందించబడివున్న పరికరములను మీరు చూడుటకు అనుమతిస్తుంది."
+
+#: kcmusb.cpp:49
+#, kde-format
+msgid "Device"
+msgstr "పరికరం"
+
+#: kcmusb.cpp:69
+#, kde-format
+msgid "kcmusb"
+msgstr "kcmusb"
+
+#: kcmusb.cpp:69
+#, fuzzy, kde-format
+#| msgid "Device"
+msgid "USB Devices"
+msgstr "పరికరం"
+
+#: kcmusb.cpp:71
+#, kde-format
+msgid "(c) 2001 Matthias Hoelzer-Kluepfel"
+msgstr "(c) 2001 మాథియాస్ హోల్జెర్-క్లుఫెల్"
+
+#: kcmusb.cpp:73
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "మథయాస్ హొయెల్జర్-క్లూప్ఫెల్"
+
+#: kcmusb.cpp:74
+#, kde-format
+msgid "Leo Savernik"
+msgstr "లియో సావెర్నిక్"
+
+#: kcmusb.cpp:74
+#, kde-format
+msgid "Live Monitoring of USB Bus"
+msgstr "USB బస్ యొక్క లైవ్ మానిటరింగ్"
+
+#: usbdevices.cpp:148
+#, kde-format
+msgid "Unknown"
+msgstr "తెలియని"
+
+#: usbdevices.cpp:157
+#, kde-format
+msgid "<b>Manufacturer:</b> "
+msgstr "<b>తయారీదారి:</b> "
+
+#: usbdevices.cpp:159
+#, kde-format
+msgid "<b>Serial #:</b> "
+msgstr "<b>వరుససంఖ్య #:</b> "
+
+#: usbdevices.cpp:167
+#, kde-format
+msgid "<tr><td><i>Class</i></td>%1</tr>"
+msgstr "<tr><td><i>క్లాస్</i></td>%1</tr>"
+
+#: usbdevices.cpp:172
+#, kde-format
+msgid "<tr><td><i>Subclass</i></td>%1</tr>"
+msgstr "<tr><td><i>సబ్‌క్లాస్</i></td>%1</tr>"
+
+#: usbdevices.cpp:177
+#, kde-format
+msgid "<tr><td><i>Protocol</i></td>%1</tr>"
+msgstr "<tr><td><i>ప్రొటోకాల్</i></td>%1</tr>"
+
+#: usbdevices.cpp:179
+#, kde-format
+msgid "<tr><td><i>USB Version</i></td><td>%1.%2</td></tr>"
+msgstr "<tr><td><i>USB వర్షన్</i></td><td>%1.%2</td></tr>"
+
+#: usbdevices.cpp:189
+#, kde-format
+msgid "<tr><td><i>Vendor ID</i></td><td>0x%1</td></tr>"
+msgstr "<tr><td><i>అమ్మకందారి ID</i></td><td>0x%1</td></tr>"
+
+#: usbdevices.cpp:194
+#, kde-format
+msgid "<tr><td><i>Product ID</i></td><td>0x%1</td></tr>"
+msgstr "<tr><td><i>వుత్పత్తి ID</i></td><td>0x%1</td></tr>"
+
+#: usbdevices.cpp:195
+#, kde-format
+msgid "<tr><td><i>Revision</i></td><td>%1.%2</td></tr>"
+msgstr "<tr><td><i>రివిజన్</i></td><td>%1.%2</td></tr>"
+
+#: usbdevices.cpp:200
+#, kde-format
+msgid "<tr><td><i>Speed</i></td><td>%1 Mbit/s</td></tr>"
+msgstr "<tr><td><i>వేగము</i></td><td>%1 Mbit/s</td></tr>"
+
+#: usbdevices.cpp:201
+#, kde-format
+msgid "<tr><td><i>Channels</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>చానల్స్</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:204
+#, kde-format
+msgid "<tr><td><i>Power Consumption</i></td><td>%1 mA</td></tr>"
+msgstr "<tr><td><i>పవర్ ఖర్చు</i></td><td>%1 mA</td></tr>"
+
+#: usbdevices.cpp:206
+#, kde-format
+msgid "<tr><td><i>Power Consumption</i></td><td>self powered</td></tr>"
+msgstr "<tr><td><i>పవర్ ఖర్చు</i></td><td>స్వంతగా పవర్‌కలిగిన</td></tr>"
+
+#: usbdevices.cpp:207
+#, kde-format
+msgid "<tr><td><i>Attached Devicenodes</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>అనుభందించిన పరికరపునోడ్స్</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:215
+#, kde-format
+msgid "<tr><td><i>Max. Packet Size</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>గిరిష్ట ప్యాకెట్ పరిమాణము</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:220
+#, kde-format
+msgid "<tr><td><i>Bandwidth</i></td><td>%1 of %2 (%3%)</td></tr>"
+msgstr "<tr><td><i>బాండ్‌విడ్తు</i></td><td>%1 of %2 (%3%)</td></tr>"
+
+#: usbdevices.cpp:221
+#, kde-format
+msgid "<tr><td><i>Intr. requests</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>Intr. అభ్యర్ధనలు</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:222
+#, kde-format
+msgid "<tr><td><i>Isochr. requests</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>Isochr. అభ్యర్ధనలు</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:428
+#, kde-format
+msgid ""
+"Could not open one or more USB controller. Make sure, you have read access "
+"to all USB controllers that should be listed here."
+msgstr ""

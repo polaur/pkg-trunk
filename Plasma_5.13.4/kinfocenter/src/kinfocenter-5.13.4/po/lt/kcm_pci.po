@@ -1,0 +1,2020 @@
+# translation of kcm_pci.po to Lithuanian
+# This file is distributed under the same license as the kcm_pci package.
+# Matas Brazdeikis <matasbbb@gmail.com>, 2008.
+# Antanas Uršulis <antanas.ursulis@gmail.com>, 2008.
+# Tomas Straupis <tomasstraupis@gmail.com>, 2011.
+# Remigijus Jarmalavičius <remigijus@jarmalavicius.lt>, 2011.
+# Liudas Ališauskas <liudas.alisauskas@gmail.com>, 2012.
+# Liudas Alisauskas <liudas@akmc.lt>, 2013.
+# Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_pci\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:20+0100\n"
+"PO-Revision-Date: 2015-12-30 19:11+0200\n"
+"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"Language-Team: lt <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Andrius Štikonas, Matas Brazdeikis, Antanas Uršulis,Liudas Ališauskas"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"andrius@stikonas.eu, Matasbbb@gmail.com, antanas.ursulis@gmail.com,"
+"liudas@akmc.lt"
+
+#: kcm_pci.cpp:42
+#, kde-format
+msgid "kcm_pci"
+msgstr "kcm_pci"
+
+#: kcm_pci.cpp:43
+#, fuzzy, kde-format
+#| msgid "Device"
+msgid "PCI Devices"
+msgstr "Įrenginys"
+
+#: kcm_pci.cpp:45
+#, kde-format
+msgid "(c) 2008 Nicolas Ternisien(c) 1998 - 2002 Helge Deller"
+msgstr "(c) 2008 Nicolas Ternisien(c) 1998 - 2002 Helge Deller"
+
+#: kcm_pci.cpp:48
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
+
+#: kcm_pci.cpp:49
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: kcm_pci.cpp:62
+#, kde-format
+msgid "This list displays PCI information."
+msgstr "Šis sąrašas rodo PCI informaciją."
+
+#: kcm_pci.cpp:82
+#, kde-format
+msgid ""
+"This display shows information about your computer's PCI slots and the "
+"related connected devices."
+msgstr ""
+"Šis ekranas rodo informaciją apie kompiuterio PCI lizdus ir įjungtus "
+"įrenginius."
+
+#: kpci.cpp:64
+#, kde-format
+msgid "Device Class"
+msgstr "Įrenginio klasė"
+
+#: kpci.cpp:65
+#, kde-format
+msgid "Device Subclass"
+msgstr "Įrenginio sub klasė"
+
+#: kpci.cpp:66
+#, kde-format
+msgid "Device Programming Interface"
+msgstr "Įrenginio programavimo sąsaja"
+
+#: kpci.cpp:68
+#, kde-format
+msgid "Master IDE Device"
+msgstr "Pagrindinis IDE įrenginys"
+
+#: kpci.cpp:69
+#, kde-format
+msgid "Secondary programmable indicator"
+msgstr "Šalutinis programuojamas indikatorius"
+
+#: kpci.cpp:70
+#, kde-format
+msgid "Secondary operating mode"
+msgstr "Šalutinis veikimo režimas"
+
+#: kpci.cpp:71
+#, kde-format
+msgid "Primary programmable indicator"
+msgstr "Pirminis programuojamas indikatorius"
+
+#: kpci.cpp:72
+#, kde-format
+msgid "Primary operating mode"
+msgstr "Pirminis veikimo režimas"
+
+#: kpci.cpp:100 kpci.cpp:124
+#, kde-format
+msgid "Vendor"
+msgstr "Tiekėjas"
+
+#: kpci.cpp:107 kpci.cpp:126
+#, kde-format
+msgid "Device"
+msgstr "Įrenginys"
+
+#: kpci.cpp:116 kpci.cpp:135 kpci.cpp:138 kpci.cpp:142
+#, kde-format
+msgid "Subsystem"
+msgstr "Posistemė"
+
+#: kpci.cpp:135
+#, kde-format
+msgid " - device:"
+msgstr " - įrenginys:"
+
+#: kpci.cpp:153 kpci.cpp:174
+#, kde-format
+msgid "Interrupt"
+msgstr "Pertrauktis"
+
+#: kpci.cpp:154
+#, kde-format
+msgid "IRQ"
+msgstr "IRQ"
+
+#: kpci.cpp:155
+#, kde-format
+msgid "Pin"
+msgstr "Kontaktas"
+
+#: kpci.cpp:163
+#, kde-format
+msgid "Control"
+msgstr "Valdymas"
+
+#: kpci.cpp:164
+#, kde-format
+msgid "Response in I/O space"
+msgstr "Atsakymas I/O erdvėje"
+
+#: kpci.cpp:165
+#, kde-format
+msgid "Response in memory space"
+msgstr "Atsakymas atminties erdvėje"
+
+#: kpci.cpp:166
+#, kde-format
+msgid "Bus mastering"
+msgstr "Magistralių valdymas"
+
+#: kpci.cpp:167
+#, kde-format
+msgid "Response to special cycles"
+msgstr "Atsakyti į specifinius ciklus"
+
+#: kpci.cpp:168
+#, kde-format
+msgid "Memory write and invalidate"
+msgstr "Atminties rašymas ir pripažinimas negaliojančia"
+
+#: kpci.cpp:169
+#, kde-format
+msgid "Palette snooping"
+msgstr "Paletės šniukštinėjimas"
+
+#: kpci.cpp:170
+#, kde-format
+msgid "Parity checking"
+msgstr "Lyginumo tikrinimas"
+
+#: kpci.cpp:171
+#, kde-format
+msgid "Address/data stepping"
+msgstr "Adreso/duomenų žingsniai"
+
+#: kpci.cpp:172
+#, kde-format
+msgid "System error"
+msgstr "Sistemos klaida"
+
+#: kpci.cpp:173
+#, kde-format
+msgid "Back-to-back writes"
+msgstr "Atgal į galą rašymas"
+
+#: kpci.cpp:181 kpci.cpp:434 kpci.cpp:536 kpci.cpp:562
+#, kde-format
+msgid "Status"
+msgstr "Būsena"
+
+#: kpci.cpp:182 kpci.cpp:347 kpci.cpp:362
+#, kde-format
+msgid "Interrupt status"
+msgstr "Pertraukties būsena"
+
+#: kpci.cpp:183 kpci.cpp:348 kpci.cpp:363
+#, kde-format
+msgid "Capability list"
+msgstr "Galimybių sąrašas"
+
+#: kpci.cpp:184 kpci.cpp:349 kpci.cpp:364
+#, kde-format
+msgid "66 MHz PCI 2.1 bus"
+msgstr "66 MHz PCI 2.1 magistralė"
+
+#: kpci.cpp:185 kpci.cpp:350 kpci.cpp:365
+#, kde-format
+msgid "User-definable features"
+msgstr "Naudotojo nustatytos galimybės"
+
+#: kpci.cpp:186 kpci.cpp:351 kpci.cpp:366
+#, kde-format
+msgid "Accept fast back-to-back"
+msgstr "Leisti greitą atgal į galą"
+
+#: kpci.cpp:187 kpci.cpp:352 kpci.cpp:367
+#, kde-format
+msgid "Data parity error"
+msgstr "Duomenų lygumo klaida"
+
+#: kpci.cpp:188 kpci.cpp:353 kpci.cpp:368
+#, kde-format
+msgid "Device selection timing"
+msgstr "Įrenginio parinkimo laikas"
+
+#: kpci.cpp:189 kpci.cpp:354 kpci.cpp:369
+#, kde-format
+msgid "Signaled target abort"
+msgstr "Signalizuotas taikinio nutraukimas"
+
+#: kpci.cpp:190 kpci.cpp:355 kpci.cpp:370
+#, kde-format
+msgid "Received target abort"
+msgstr "Gautas taikinio nutraukimas"
+
+#: kpci.cpp:191 kpci.cpp:356 kpci.cpp:371
+#, kde-format
+msgid "Received master abort"
+msgstr "Gautas pagrindinis nutraukimas"
+
+#: kpci.cpp:192 kpci.cpp:357 kpci.cpp:372
+#, kde-format
+msgid "Signaled system error"
+msgstr "Signalizuota sistemos klaida"
+
+#: kpci.cpp:193 kpci.cpp:358 kpci.cpp:373
+#, kde-format
+msgid "Parity error"
+msgstr "Lyginumo klaida"
+
+#: kpci.cpp:200
+#, kde-format
+msgid "Latency"
+msgstr "Užlaikymas"
+
+#: kpci.cpp:203 kpci.cpp:206
+#, kde-format
+msgid "MIN_GNT"
+msgstr "MIN_GNT"
+
+#: kpci.cpp:203 kpci.cpp:209
+#, kde-format
+msgid "No major requirements (0x00)"
+msgstr "Nėra pagrindinių reikalavimų (0x00)"
+
+#: kpci.cpp:209 kpci.cpp:212
+#, kde-format
+msgid "MAX_LAT"
+msgstr "MAX_LAT"
+
+#: kpci.cpp:221
+#, kde-format
+msgid "Header"
+msgstr "Antraštė"
+
+#: kpci.cpp:222 kpci.cpp:287 kpci.cpp:464
+#, kde-format
+msgid "Type"
+msgstr "Tipas"
+
+#: kpci.cpp:223
+#, kde-format
+msgid "Multifunctional"
+msgstr "Multifunkcinis"
+
+#: kpci.cpp:230
+#, kde-format
+msgid "Build-in self test"
+msgstr "Sukurta su savu pasitikrinimu"
+
+#: kpci.cpp:231
+#, kde-format
+msgid "BIST Capable"
+msgstr "BIST galimybės"
+
+#: kpci.cpp:233
+#, kde-format
+msgid "BIST Start"
+msgstr "BIST pradėti"
+
+#: kpci.cpp:234
+#, kde-format
+msgid "Completion code"
+msgstr "Pabaigos kodas"
+
+#: kpci.cpp:241 kpci.cpp:244 kpci.cpp:247 kpci.cpp:253 kpci.cpp:256
+#: kpci.cpp:259 kpci.cpp:264 kpci.cpp:295 kpci.cpp:311 kpci.cpp:437
+#, kde-format
+msgid "Size"
+msgstr "Dydis"
+
+#: kpci.cpp:276
+#, kde-format
+msgid "Address mappings"
+msgstr "Adresų susiejimai"
+
+#: kpci.cpp:284
+#, kde-format
+msgid "Mapping %1"
+msgstr "Susiejimas %1"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "Space"
+msgstr "Vieta"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "I/O"
+msgstr "I/O"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "Memory"
+msgstr "Atmintis"
+
+#: kpci.cpp:288 kpci.cpp:457
+#, kde-format
+msgid "Prefetchable"
+msgstr ""
+
+#: kpci.cpp:294 kpci.cpp:298 kpci.cpp:303 kpci.cpp:310 kpci.cpp:314
+#: kpci.cpp:436 kpci.cpp:440 kpci.cpp:633 kpci.cpp:641
+#, kde-format
+msgid "Address"
+msgstr "Adresas"
+
+#: kpci.cpp:294 kpci.cpp:310 kpci.cpp:436
+#, kde-format
+msgctxt "unassigned address"
+msgid "Unassigned"
+msgstr "Nepriskirta"
+
+#: kpci.cpp:295 kpci.cpp:311 kpci.cpp:437
+#, kde-format
+msgctxt "unassigned size"
+msgid "Unassigned"
+msgstr "Nepriskirta"
+
+#: kpci.cpp:326 kpci.cpp:333
+#, kde-format
+msgid "Bus"
+msgstr "Magistralė"
+
+#: kpci.cpp:327 kpci.cpp:334
+#, kde-format
+msgid "Primary bus number"
+msgstr "Pirminės magistralės numeris"
+
+#: kpci.cpp:328
+#, kde-format
+msgid "Secondary bus number"
+msgstr "Šalutinės magistralės numeris"
+
+#: kpci.cpp:329 kpci.cpp:336
+#, kde-format
+msgid "Subordinate bus number"
+msgstr "Pavaldžios magistralės numeris"
+
+#: kpci.cpp:330
+#, kde-format
+msgid "Secondary latency timer"
+msgstr "Šalutinis užlaikymo laikrodis"
+
+#: kpci.cpp:335
+#, kde-format
+msgid "CardBus number"
+msgstr "CardBus numeris"
+
+#: kpci.cpp:337
+#, kde-format
+msgid "CardBus latency timer"
+msgstr "CardBus užlaikymo laikrodis"
+
+#: kpci.cpp:346 kpci.cpp:361
+#, kde-format
+msgid "Secondary status"
+msgstr "Šalutinė būsena"
+
+#: kpci.cpp:382
+#, kde-format
+msgid "I/O behind bridge"
+msgstr "I/O už tiltelio"
+
+#: kpci.cpp:383 kpci.cpp:464
+#, kde-format
+msgid "32-bit"
+msgstr "32 bitų"
+
+#: kpci.cpp:385 kpci.cpp:389 kpci.cpp:393 kpci.cpp:398 kpci.cpp:402
+#: kpci.cpp:458 kpci.cpp:466 kpci.cpp:470
+#, kde-format
+msgid "Base"
+msgstr "Pagrindas"
+
+#: kpci.cpp:386 kpci.cpp:390 kpci.cpp:394 kpci.cpp:399 kpci.cpp:403
+#: kpci.cpp:459 kpci.cpp:467 kpci.cpp:471
+#, kde-format
+msgid "Limit"
+msgstr "Limitas"
+
+#: kpci.cpp:392
+#, kde-format
+msgid "Memory behind bridge"
+msgstr "Atmintis už tiltelio"
+
+#: kpci.cpp:395
+#, kde-format
+msgid "Prefetchable memory behind bridge"
+msgstr ""
+
+#: kpci.cpp:396
+#, kde-format
+msgid "64-bit"
+msgstr "64 bitų"
+
+#: kpci.cpp:413
+#, kde-format
+msgid "Bridge control"
+msgstr "Tiltelio valdiklis"
+
+#: kpci.cpp:414 kpci.cpp:484
+#, kde-format
+msgid "Secondary parity checking"
+msgstr "Šalutinis lyginumo tikrinimas"
+
+#: kpci.cpp:415 kpci.cpp:485
+#, kde-format
+msgid "Secondary system error"
+msgstr "Šalutinės sistemos klaida"
+
+#: kpci.cpp:416 kpci.cpp:486
+#, kde-format
+msgid "ISA ports forwarding"
+msgstr "ISA jungčių persiuntimas"
+
+#: kpci.cpp:417 kpci.cpp:487
+#, kde-format
+msgid "VGA forwarding"
+msgstr "VGA persiuntimas"
+
+#: kpci.cpp:418 kpci.cpp:488
+#, kde-format
+msgid "Master abort"
+msgstr "Pagrindinis nutraukimas"
+
+#: kpci.cpp:419
+#, kde-format
+msgid "Secondary bus reset"
+msgstr "Šalutinės magistralės atstatymas"
+
+#: kpci.cpp:420
+#, kde-format
+msgid "Secondary back-to-back writes"
+msgstr "Šalutinis atgal į galą rašymas"
+
+#: kpci.cpp:421
+#, kde-format
+msgid "Primary discard timer counts"
+msgstr "Pirminis šalinimo laikmačio skaitiklis"
+
+#: kpci.cpp:421 kpci.cpp:422
+#, kde-format
+msgid "2e10 PCI clocks"
+msgstr "2e10 PCI taktų generatorius"
+
+#: kpci.cpp:421 kpci.cpp:422
+#, kde-format
+msgid "2e15 PCI clocks"
+msgstr "2e15 PCI taktų generatorius"
+
+#: kpci.cpp:422
+#, kde-format
+msgid "Secondary discard timer counts"
+msgstr "Šalutinis šalinimo laikmačio skaitiklis"
+
+#: kpci.cpp:423
+#, kde-format
+msgid "Discard timer error"
+msgstr "Šalinti laikmačio klaidas"
+
+#: kpci.cpp:424
+#, kde-format
+msgid "Discard timer system error"
+msgstr "Pašalinti laikmačio sistemos klaidą"
+
+#: kpci.cpp:433
+#, kde-format
+msgid "Expansion ROM"
+msgstr "Išplėtimo ROM"
+
+#: kpci.cpp:453
+#, kde-format
+msgid "Memory windows"
+msgstr "Atminties langai"
+
+#: kpci.cpp:456 kpci.cpp:463
+#, kde-format
+msgid "Window %1"
+msgstr "Langas %1"
+
+#: kpci.cpp:461
+#, kde-format
+msgid "I/O windows"
+msgstr "I/O langai"
+
+#: kpci.cpp:464
+#, kde-format
+msgid "16-bit"
+msgstr "16 bitų"
+
+#: kpci.cpp:474
+#, kde-format
+msgid "16-bit legacy interface ports"
+msgstr "16 bitų palaikymo sąsajos jungtys"
+
+#: kpci.cpp:483
+#, kde-format
+msgid "CardBus control"
+msgstr "CardBus valdymas"
+
+#: kpci.cpp:489
+#, kde-format
+msgid "Interrupts for 16-bit cards"
+msgstr "Pertraukimai 16 bitų kortelėms"
+
+#: kpci.cpp:490
+#, kde-format
+msgid "Window 0 prefetchable memory"
+msgstr "Lango 0 galima iš anksto įkelti atmintis"
+
+#: kpci.cpp:491
+#, kde-format
+msgid "Window 1 prefetchable memory"
+msgstr "Lango 1 galima iš anksto įkelti atmintis"
+
+#: kpci.cpp:492
+#, kde-format
+msgid "Post writes"
+msgstr "Įrašas rašymai"
+
+#: kpci.cpp:500
+#, kde-format
+msgid "Raw PCI config space"
+msgstr "Neapdorota PCI nustatymų vieta"
+
+#: kpci.cpp:522 kpci.cpp:684 kpci.cpp:715
+#, kde-format
+msgid "Capabilities"
+msgstr "Galimybės"
+
+#: kpci.cpp:523
+#, kde-format
+msgid "Version"
+msgstr "Versija"
+
+#: kpci.cpp:524
+#, kde-format
+msgid "Clock required for PME generation"
+msgstr "Taktų generatorius reikalingas PME generavimui"
+
+#: kpci.cpp:525
+#, kde-format
+msgid "Device-specific initialization required"
+msgstr "Reikalingas specifinis įrenginio paleidimas"
+
+#: kpci.cpp:526
+#, kde-format
+msgid "Maximum auxiliary current required in D3 cold"
+msgstr "Maksimalus dabartinis pagalbinis reikalingas D3 šaldyme"
+
+#: kpci.cpp:527
+#, kde-format
+msgid "D1 support"
+msgstr "D1 palaikymas"
+
+#: kpci.cpp:528
+#, kde-format
+msgid "D2 support"
+msgstr "D2 palaikymas"
+
+#: kpci.cpp:529
+#, kde-format
+msgid "Power management events"
+msgstr "Maitinimo valdymo įvykiai"
+
+#: kpci.cpp:530 kpci_private.h:763
+#, kde-format
+msgid "D0"
+msgstr "D0"
+
+#: kpci.cpp:531 kpci_private.h:764
+#, kde-format
+msgid "D1"
+msgstr "D1"
+
+#: kpci.cpp:532 kpci_private.h:765
+#, kde-format
+msgid "D2"
+msgstr "D2"
+
+#: kpci.cpp:533 kpci_private.h:766
+#, kde-format
+msgid "D3 hot"
+msgstr "D3 karštas"
+
+#: kpci.cpp:534
+#, kde-format
+msgid "D3 cold"
+msgstr "D3 šaltas"
+
+#: kpci.cpp:537
+#, kde-format
+msgid "Power state"
+msgstr "Maitinimo būsena"
+
+#: kpci.cpp:538 kpci_private.h:680
+#, kde-format
+msgid "Power management"
+msgstr "Maitinimo valdymas"
+
+#: kpci.cpp:539
+#, kde-format
+msgid "Data select"
+msgstr "Duomenų pažymėjimas"
+
+#: kpci.cpp:540
+#, kde-format
+msgid "Data scale"
+msgstr "Duomenų skalė"
+
+#: kpci.cpp:541
+#, kde-format
+msgid "Power management status"
+msgstr "Maitinimo valdymo būsena"
+
+#: kpci.cpp:544
+#, kde-format
+msgid "Bridge status"
+msgstr "Tiltelio būsena"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "Secondary bus state in D3 hot"
+msgstr "Šalutinės magistralės būsena D3 karštame"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "B2"
+msgstr "B2"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "B3"
+msgstr "B3"
+
+#: kpci.cpp:546
+#, kde-format
+msgid "Secondary bus power & clock control"
+msgstr "Antrinės magistralės energijos ir laikrodžio valdiklis"
+
+#: kpci.cpp:549 kpci.cpp:611 kpci.cpp:634 kpci.cpp:642 kpci.cpp:658
+#: kpci.cpp:670
+#, kde-format
+msgid "Data"
+msgstr "Duomenys"
+
+#. i18n("Revision"),value.sprintf("%i.%i",infoAgp.revMaior,infoAgp.revMinor));
+#: kpci.cpp:561 kpci.cpp:763
+#, kde-format
+msgid "Revision"
+msgstr "Peržiūra"
+
+#: kpci.cpp:563 kpci.cpp:584
+#, kde-format
+msgid "Rate"
+msgstr "Sparta"
+
+#: kpci.cpp:564
+#, kde-format
+msgid "AGP 3.0 mode"
+msgstr "AGP 3.0 režimas"
+
+#: kpci.cpp:565 kpci.cpp:585
+#, kde-format
+msgid "Fast Writes"
+msgstr "Greitas rašymas"
+
+#: kpci.cpp:566 kpci.cpp:587
+#, kde-format
+msgid "Address over 4 GiB"
+msgstr "Adresas virš 4 GiB"
+
+#: kpci.cpp:568
+#, kde-format
+msgid "Translation of host processor access"
+msgstr "Vertimas iš mazgo procesoriaus prieigos"
+
+#: kpci.cpp:569 kpci.cpp:588
+#, kde-format
+msgid "64-bit GART"
+msgstr "64 bitų GART"
+
+#: kpci.cpp:570
+#, kde-format
+msgid "Cache Coherency"
+msgstr "Podėlio koherencija"
+
+#: kpci.cpp:572 kpci.cpp:591
+#, kde-format
+msgid "Side-band addressing"
+msgstr "Šalutinės juostos adresavimas"
+
+#: kpci.cpp:574 kpci.cpp:593
+#, kde-format
+msgid "Calibrating cycle"
+msgstr "Kalibravimo ciklas"
+
+#: kpci.cpp:578 kpci.cpp:597
+#, kde-format
+msgid "Optimum asynchronous request size"
+msgstr "Optimalus asinchroninės užklausos dydis"
+
+#: kpci.cpp:579
+#, kde-format
+msgid "Isochronous transactions"
+msgstr "Isochroninės tranzakcijos"
+
+#: kpci.cpp:581 kpci.cpp:599
+#, kde-format
+msgid "Maximum number of AGP command"
+msgstr "Maksimalus skaičius AGP komandų"
+
+#: kpci.cpp:583
+#, kde-format
+msgid "Configuration"
+msgstr "Konfigūracija"
+
+#: kpci.cpp:590 kpci_private.h:681
+#, kde-format
+msgid "AGP"
+msgstr "AGP"
+
+#: kpci.cpp:609
+#, kde-format
+msgid "Data address"
+msgstr "Duomenų adresas"
+
+#: kpci.cpp:610
+#, kde-format
+msgid "Transfer completed"
+msgstr "Perkėlimas baigtas"
+
+#: kpci.cpp:623
+#, kde-format
+msgid "Message control"
+msgstr "Pranešimų valdiklis"
+
+#: kpci.cpp:624 kpci_private.h:684
+#, kde-format
+msgid "Message signaled interrupts"
+msgstr "Pranešimas pranešė apie pertraukimus"
+
+#: kpci.cpp:625
+#, kde-format
+msgid "Multiple message capable"
+msgstr "Keleto žinučių galimybė"
+
+#: kpci.cpp:626
+#, kde-format
+msgid "Multiple message enable"
+msgstr "Keleto žinučių galimybė įjungta"
+
+#: kpci.cpp:627
+#, kde-format
+msgid "64-bit address"
+msgstr "64 bitų adresas"
+
+#: kpci.cpp:628
+#, kde-format
+msgid "Per vector masking"
+msgstr "Maskavimas per vektorių"
+
+#: kpci.cpp:636 kpci.cpp:644
+#, kde-format
+msgid "Mask"
+msgstr "Kaukė"
+
+#: kpci.cpp:637 kpci.cpp:645
+#, kde-format
+msgid "Pending"
+msgstr "Laukiama"
+
+#: kpci.cpp:655
+#, kde-format
+msgid "Length"
+msgstr "Ilgis"
+
+#: kpci.cpp:658
+#, kde-format
+msgctxt "no data"
+msgid "None"
+msgstr "Nieko"
+
+#: kpci.cpp:688
+#, kde-format
+msgid "Next"
+msgstr "Kitas"
+
+#: kpci.cpp:688 kpci.cpp:715
+#, kde-format
+msgid "0x00 (None)"
+msgstr "0x00 (Nieko)"
+
+#: kpci.cpp:711
+#, kde-format
+msgid "Root only"
+msgstr "Tiktai šakninis"
+
+#: kpci.cpp:724
+#, kde-format
+msgid "Information"
+msgstr "Informacija"
+
+#: kpci.cpp:724
+#, kde-format
+msgid "Value"
+msgstr "Reikšmė"
+
+#: kpci.cpp:772
+#, kde-format
+msgid "Cache line size"
+msgstr "Krepšio eilutės dydis"
+
+#: kpci_private.h:27
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Enabled"
+msgstr "Įgalinta"
+
+#: kpci_private.h:28
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Disabled"
+msgstr "Uždrausta"
+
+#: kpci_private.h:29
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Yes"
+msgstr "Taip"
+
+#: kpci_private.h:30
+#, kde-format
+msgctxt "state of PCI item"
+msgid "No"
+msgstr "Ne"
+
+#: kpci_private.h:31
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Unknown"
+msgstr "Nežinoma"
+
+#: kpci_private.h:439
+#, kde-format
+msgid "Unclassified device"
+msgstr "Nesuklasifikuotas įrenginys"
+
+#: kpci_private.h:440 kpci_private.h:474
+#, kde-format
+msgid "Mass storage controller"
+msgstr "Masinių laikmenų valdiklis"
+
+#: kpci_private.h:441 kpci_private.h:484
+#, kde-format
+msgid "Network controller"
+msgstr "Tinklo valdiklis"
+
+#: kpci_private.h:442 kpci_private.h:490
+#, kde-format
+msgid "Display controller"
+msgstr "Ekrano valdiklis"
+
+#: kpci_private.h:443 kpci_private.h:496
+#, kde-format
+msgid "Multimedia controller"
+msgstr "Įvairialypės terpės valdiklis"
+
+#: kpci_private.h:444 kpci_private.h:501
+#, kde-format
+msgid "Memory controller"
+msgstr "Atminties valdiklis"
+
+#: kpci_private.h:445 kpci_private.h:515 kpci_private.h:718
+#, kde-format
+msgid "Bridge"
+msgstr "Magistralė"
+
+#: kpci_private.h:446 kpci_private.h:524
+#, kde-format
+msgid "Communication controller"
+msgstr "Bendravimo valdiklis"
+
+#: kpci_private.h:447
+#, kde-format
+msgid "Generic system peripheral"
+msgstr ""
+
+#: kpci_private.h:448 kpci_private.h:540
+#, kde-format
+msgid "Input device controller"
+msgstr "Įvesties įrenginio valdiklis"
+
+#: kpci_private.h:449 kpci_private.h:544
+#, kde-format
+msgid "Docking station"
+msgstr "Prijungimo stotis"
+
+#: kpci_private.h:450
+#, kde-format
+msgid "Processor"
+msgstr "Procesorius"
+
+#: kpci_private.h:451
+#, kde-format
+msgid "Serial bus controller"
+msgstr "Nuoseklios magistralės valdiklis"
+
+#: kpci_private.h:452 kpci_private.h:575
+#, kde-format
+msgid "Wireless controller"
+msgstr "Bevielio valdiklis"
+
+#: kpci_private.h:453
+#, kde-format
+msgid "Intelligent controller"
+msgstr "Intelligent valdiklis"
+
+#: kpci_private.h:454
+#, kde-format
+msgid "Satellite communications controller"
+msgstr "Palydovinio ryšio valdiklis"
+
+#: kpci_private.h:455 kpci_private.h:589
+#, kde-format
+msgid "Encryption controller"
+msgstr "Šifravimo valdiklis"
+
+#: kpci_private.h:456 kpci_private.h:596
+#, kde-format
+msgid "Signal processing controller"
+msgstr "Signalų apdorojimo valdiklis"
+
+#: kpci_private.h:457
+#, kde-format
+msgid "Unknown device class"
+msgstr "Nežinoma įrenginių klasė"
+
+#: kpci_private.h:463
+#, kde-format
+msgid "Non-VGA unclassified device"
+msgstr "Neklasifikuotas ne-VGA įrenginys"
+
+#: kpci_private.h:464
+#, kde-format
+msgid "VGA unclassified device"
+msgstr "Neklasifikuotas VGA įrenginys"
+
+#: kpci_private.h:465
+#, kde-format
+msgid "Unknown unclassified device"
+msgstr "Nežinomas neklasifikuotas įrenginys"
+
+#: kpci_private.h:467
+#, kde-format
+msgid "SCSI storage controller"
+msgstr "SCSI laikmenų valdiklis"
+
+#: kpci_private.h:468
+#, kde-format
+msgid "IDE controller"
+msgstr "IDE valdiklis"
+
+#: kpci_private.h:469
+#, kde-format
+msgid "Floppy disk controller"
+msgstr "Diskelių įrenginio valdiklis"
+
+#: kpci_private.h:470
+#, kde-format
+msgid "IPI bus controller"
+msgstr "IPI magistralės valdiklis"
+
+#: kpci_private.h:471
+#, kde-format
+msgid "RAID bus controller"
+msgstr "RAID magistralės valdiklis"
+
+#: kpci_private.h:472
+#, kde-format
+msgid "ATA controller"
+msgstr "ATA valdiklis"
+
+#: kpci_private.h:473
+#, kde-format
+msgid "Serial ATA direct port access"
+msgstr ""
+
+#: kpci_private.h:475
+#, kde-format
+msgid "Unknown storage controller"
+msgstr "Nežinomas laikmenų valdiklis"
+
+#: kpci_private.h:477
+#, kde-format
+msgid "Ethernet controller"
+msgstr "Ethernet valdiklis"
+
+#: kpci_private.h:478
+#, kde-format
+msgid "Token ring network controller"
+msgstr "Token ring tinklo valdiklis"
+
+#: kpci_private.h:479
+#, kde-format
+msgid "FDDI network controller"
+msgstr "FDDI tinklo valdiklis"
+
+#: kpci_private.h:480
+#, kde-format
+msgid "ATM network controller"
+msgstr "ATM tinklo valdiklis"
+
+#: kpci_private.h:481
+#, kde-format
+msgid "ISDN controller"
+msgstr "ISDN valdiklis"
+
+#: kpci_private.h:482
+#, kde-format
+msgid "WorldFip controller"
+msgstr "WorldFip valdiklis"
+
+#: kpci_private.h:483
+#, kde-format
+msgid "PICMG 2.14 multi computing"
+msgstr ""
+
+#: kpci_private.h:485
+#, kde-format
+msgid "Unknown network controller"
+msgstr "Nežinomas tinklo valdiklis"
+
+#: kpci_private.h:487
+#, kde-format
+msgid "VGA compatible controller"
+msgstr "Su VGA suderinamas valdiklis"
+
+#: kpci_private.h:488
+#, kde-format
+msgid "XGA compatible controller"
+msgstr "Su XGA suderinamas valdiklis"
+
+#: kpci_private.h:489
+#, kde-format
+msgid "3D controller"
+msgstr "3D valdiklis"
+
+#: kpci_private.h:491
+#, kde-format
+msgid "Unknown display controller"
+msgstr "Nežinomas ekrano valdiklis"
+
+#: kpci_private.h:493
+#, kde-format
+msgid "Multimedia video controller"
+msgstr "Įvairialypės terpės vaizdo valdiklis"
+
+#: kpci_private.h:494
+#, kde-format
+msgid "Multimedia audio controller"
+msgstr "Įvairialypės terpės garso valdiklis"
+
+#: kpci_private.h:495
+#, kde-format
+msgid "Computer telephony device"
+msgstr "Kompiuterių telefonijos įrenginys"
+
+#: kpci_private.h:497
+#, kde-format
+msgid "Unknown multimedia controller"
+msgstr "Nežinomas įvairialypės terpės valdiklis"
+
+#: kpci_private.h:499
+#, kde-format
+msgid "RAM memory"
+msgstr "RAM atmintis"
+
+#: kpci_private.h:500
+#, kde-format
+msgid "FLASH memory"
+msgstr "FLASH atmintis"
+
+#: kpci_private.h:502
+#, kde-format
+msgid "Unknown memory controller"
+msgstr "Nežinomas atminties valdiklis"
+
+#: kpci_private.h:504
+#, kde-format
+msgid "Host bridge"
+msgstr "Pagrindinio kompiuterio tiltas"
+
+#: kpci_private.h:505
+#, kde-format
+msgid "ISA bridge"
+msgstr "ISA magistralė"
+
+#: kpci_private.h:506
+#, kde-format
+msgid "EISA bridge"
+msgstr "EISA magistralė"
+
+#: kpci_private.h:507
+#, kde-format
+msgid "MicroChannel bridge"
+msgstr "MicroChannel magistralė"
+
+#: kpci_private.h:508
+#, kde-format
+msgid "PCI bridge"
+msgstr "PCI magistralė"
+
+#: kpci_private.h:509
+#, kde-format
+msgid "PCMCIA bridge"
+msgstr "PCMCIA magistralė"
+
+#: kpci_private.h:510
+#, kde-format
+msgid "NuBus bridge"
+msgstr "NuBus magistralė"
+
+#: kpci_private.h:511
+#, kde-format
+msgid "CardBus bridge"
+msgstr "CardBus magistralė"
+
+#: kpci_private.h:512
+#, kde-format
+msgid "RACEway bridge"
+msgstr "RACEway magistralė"
+
+#: kpci_private.h:513
+#, kde-format
+msgid "Semi-transparent PCI-to-PCI bridge"
+msgstr ""
+
+#: kpci_private.h:514
+#, kde-format
+msgid "InfiniBand to PCI host bridge"
+msgstr ""
+
+#: kpci_private.h:516
+#, kde-format
+msgid "Unknown bridge"
+msgstr "Nežinoma magistralė"
+
+#: kpci_private.h:518
+#, kde-format
+msgid "Serial controller"
+msgstr "Nuoseklusis valdiklis"
+
+#: kpci_private.h:519
+#, kde-format
+msgid "Parallel controller"
+msgstr "Lygiagretusis valdiklis"
+
+#: kpci_private.h:520
+#, kde-format
+msgid "Multiport serial controller"
+msgstr ""
+
+#: kpci_private.h:521
+#, kde-format
+msgid "Modem"
+msgstr "Modemas"
+
+#: kpci_private.h:522
+#, kde-format
+msgid "GPIB (IEEE 488.1/2) controller"
+msgstr "GPIB (IEEE 488.1/2) valdiklis"
+
+#: kpci_private.h:523
+#, kde-format
+msgid "Smart card"
+msgstr "Lustinė kortelė"
+
+#: kpci_private.h:525
+#, kde-format
+msgid "Unknown communication controller"
+msgstr "Nežinomas ryšių valdiklis"
+
+#: kpci_private.h:527
+#, kde-format
+msgid "PIC"
+msgstr "PIC"
+
+#: kpci_private.h:528
+#, kde-format
+msgid "DMA controller"
+msgstr "DMA valdiklis"
+
+#: kpci_private.h:529
+#, kde-format
+msgid "Timer"
+msgstr "Laikmatis"
+
+#: kpci_private.h:530
+#, kde-format
+msgid "RTC"
+msgstr "RTC"
+
+#: kpci_private.h:531
+#, kde-format
+msgid "PCI Hot-plug controller"
+msgstr ""
+
+#: kpci_private.h:532
+#, kde-format
+msgid "System peripheral"
+msgstr "Sistemos išoriniai įrenginiai"
+
+#: kpci_private.h:533
+#, kde-format
+msgid "Unknown system peripheral"
+msgstr ""
+
+#: kpci_private.h:535
+#, kde-format
+msgid "Keyboard controller"
+msgstr "Klaviatūros valdiklis"
+
+#: kpci_private.h:536
+#, kde-format
+msgid "Digitizer Pen"
+msgstr "Skaitmeninis rašiklis"
+
+#: kpci_private.h:537
+#, kde-format
+msgid "Mouse controller"
+msgstr "Pelės valdiklis"
+
+#: kpci_private.h:538
+#, kde-format
+msgid "Scanner controller"
+msgstr "Skenerio valdiklis"
+
+#: kpci_private.h:539
+#, kde-format
+msgid "Gameport controller"
+msgstr "Žaidimų prievado valdiklis"
+
+#: kpci_private.h:541
+#, kde-format
+msgid "Unknown input device controller"
+msgstr "Nežinomas įvesties įrenginio valdiklis"
+
+#: kpci_private.h:543
+#, kde-format
+msgid "Generic docking station"
+msgstr "Standartinis prijungimo įrenginys"
+
+#: kpci_private.h:545
+#, kde-format
+msgid "Unknown docking station"
+msgstr "Nežinomas prijungimo įrenginys"
+
+#: kpci_private.h:547
+#, kde-format
+msgid "386"
+msgstr "386"
+
+#: kpci_private.h:548
+#, kde-format
+msgid "486"
+msgstr "486"
+
+#: kpci_private.h:549
+#, kde-format
+msgid "Pentium"
+msgstr "Pentium"
+
+#: kpci_private.h:550
+#, kde-format
+msgid "Alpha"
+msgstr "Alpha"
+
+#: kpci_private.h:551
+#, kde-format
+msgid "Power PC"
+msgstr "Power PC"
+
+#: kpci_private.h:552
+#, kde-format
+msgid "MIPS"
+msgstr "MIPS"
+
+#: kpci_private.h:553
+#, kde-format
+msgid "Co-processor"
+msgstr "Koprocesorius"
+
+#: kpci_private.h:554
+#, kde-format
+msgid "Unknown processor"
+msgstr "Nežinomas procesorius"
+
+#: kpci_private.h:556
+#, kde-format
+msgid "FireWire (IEEE 1394)"
+msgstr "FireWire (IEEE 1394)"
+
+#: kpci_private.h:557
+#, kde-format
+msgid "ACCESS bus"
+msgstr "ACCESS magistralė"
+
+#: kpci_private.h:558
+#, kde-format
+msgid "SSA"
+msgstr "SSA"
+
+#: kpci_private.h:559
+#, kde-format
+msgid "USB controller"
+msgstr "USB valdiklis"
+
+#: kpci_private.h:560
+#, kde-format
+msgid "Fibre channel"
+msgstr "Šviesolaidinis kanalas"
+
+#: kpci_private.h:561
+#, kde-format
+msgid "SMBus"
+msgstr "SMBus"
+
+#: kpci_private.h:562
+#, kde-format
+msgid "InfiniBand"
+msgstr "InfiniBand"
+
+#: kpci_private.h:563
+#, kde-format
+msgid "IPMI interface"
+msgstr "IPMI sąsaja"
+
+#: kpci_private.h:564
+#, kde-format
+msgid "SERCOS interface"
+msgstr "SERCOS sąsaja"
+
+#: kpci_private.h:565
+#, kde-format
+msgid "CANbus"
+msgstr "CANbus"
+
+#: kpci_private.h:566
+#, kde-format
+msgid "Unknown serial bus controller"
+msgstr ""
+
+#: kpci_private.h:568
+#, kde-format
+msgid "IRDA controller"
+msgstr "IRDA valdiklis"
+
+#: kpci_private.h:569
+#, kde-format
+msgid "Consumer IR controller"
+msgstr ""
+
+#: kpci_private.h:570
+#, kde-format
+msgid "RF controller"
+msgstr "RF valdiklis"
+
+#: kpci_private.h:571
+#, kde-format
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: kpci_private.h:572
+#, kde-format
+msgid "Broadband"
+msgstr "Plačiajuostis"
+
+#: kpci_private.h:573
+#, kde-format
+msgid "Ethernet (802.11a - 5 GHz)"
+msgstr "Ethernet (802.11a - 5 GHz)"
+
+#: kpci_private.h:574
+#, kde-format
+msgid "Ethernet (802.11b - 2.4 GHz)"
+msgstr "Ethernet (802.11b - 2.4 GHz)"
+
+#: kpci_private.h:576
+#, kde-format
+msgid "Unknown wireless controller"
+msgstr "Nežinomas bevielis valdiklis"
+
+#: kpci_private.h:578
+#, kde-format
+msgid "I2O"
+msgstr "I2O"
+
+#: kpci_private.h:579
+#, kde-format
+msgid "Unknown intelligent controller"
+msgstr ""
+
+#: kpci_private.h:581
+#, kde-format
+msgid "Satellite TV controller"
+msgstr "Palydovinės TV valdiklis"
+
+#: kpci_private.h:582
+#, kde-format
+msgid "Satellite audio communication controller"
+msgstr "Palydovinio garso ryšio valdiklis"
+
+#: kpci_private.h:583
+#, kde-format
+msgid "Satellite voice communication controller"
+msgstr "Palydovinis balso ryšio valdiklis"
+
+#: kpci_private.h:584
+#, kde-format
+msgid "Satellite data communication controller"
+msgstr "Palydovinis duomenų ryšio valdiklis"
+
+#: kpci_private.h:585
+#, kde-format
+msgid "Unknown satellite communications controller"
+msgstr "Nežinomas palydovinio ryšio valdiklis"
+
+#: kpci_private.h:587
+#, kde-format
+msgid "Network and computing encryption device"
+msgstr "Tinklo ir skaičiavimų šifravimo įrenginys"
+
+#: kpci_private.h:588
+#, kde-format
+msgid "Entertainment encryption device"
+msgstr "Pramogų šifravimo įrenginys"
+
+#: kpci_private.h:590
+#, kde-format
+msgid "Unknown encryption controller"
+msgstr "Nežinomas šifravimo valdiklis"
+
+#: kpci_private.h:592
+#, kde-format
+msgid "DPIO module"
+msgstr "DPIO modulis"
+
+#: kpci_private.h:593
+#, kde-format
+msgid "Performance counters"
+msgstr ""
+
+#: kpci_private.h:594
+#, kde-format
+msgid "Communication synchronizer"
+msgstr "Ryšių sinchronizatorius"
+
+#: kpci_private.h:595
+#, kde-format
+msgid "Management card"
+msgstr "Valdymo korta"
+
+#: kpci_private.h:597
+#, kde-format
+msgid "Unknown signal processing controller"
+msgstr "Nežinomų signalų apdorojimo valdiklis"
+
+#: kpci_private.h:599
+#, kde-format
+msgid "Unknown subdevice class"
+msgstr ""
+
+#: kpci_private.h:606
+#, kde-format
+msgid "single DMA"
+msgstr "Vienas DMA"
+
+#: kpci_private.h:607
+#, kde-format
+msgid "chained DMA"
+msgstr "Grandininis DMA"
+
+#: kpci_private.h:609
+#, kde-format
+msgid "VGA compatible"
+msgstr "Suderinamas su VGA"
+
+#: kpci_private.h:610
+#, kde-format
+msgid "8514 compatible"
+msgstr "Suderinamas su 8514"
+
+#: kpci_private.h:612
+#, kde-format
+msgid "Normal decode"
+msgstr ""
+
+#: kpci_private.h:613
+#, kde-format
+msgid "Subtractive decode"
+msgstr ""
+
+#: kpci_private.h:615
+#, kde-format
+msgid "Transparent mode"
+msgstr "Skaidrus režimas"
+
+#: kpci_private.h:616
+#, kde-format
+msgid "Endpoint mode"
+msgstr ""
+
+#: kpci_private.h:618
+#, kde-format
+msgid "Primary bus towards host CPU"
+msgstr ""
+
+#: kpci_private.h:619
+#, kde-format
+msgid "Secondary bus towards host CPU"
+msgstr "Antrinė magistralė link mazgo CPU"
+
+#: kpci_private.h:621
+#, kde-format
+msgid "8250"
+msgstr "8250"
+
+#: kpci_private.h:622
+#, kde-format
+msgid "16450"
+msgstr "16450"
+
+#: kpci_private.h:623
+#, kde-format
+msgid "16550"
+msgstr "16550"
+
+#: kpci_private.h:624
+#, kde-format
+msgid "16650"
+msgstr "16650"
+
+#: kpci_private.h:625
+#, kde-format
+msgid "16750"
+msgstr "16750"
+
+#: kpci_private.h:626
+#, kde-format
+msgid "16850"
+msgstr "16850"
+
+#: kpci_private.h:627
+#, kde-format
+msgid "16950"
+msgstr "16950"
+
+#: kpci_private.h:629
+#, kde-format
+msgid "SPP"
+msgstr "SPP"
+
+#: kpci_private.h:630
+#, kde-format
+msgid "BiDir"
+msgstr "BiDir"
+
+#: kpci_private.h:631
+#, kde-format
+msgid "ECP"
+msgstr "ECP"
+
+#: kpci_private.h:632
+#, kde-format
+msgid "IEEE1284"
+msgstr "IEEE1284"
+
+#: kpci_private.h:633
+#, kde-format
+msgid "IEEE1284 Target"
+msgstr "IEEE1284 tikslas"
+
+#: kpci_private.h:635 kpci_private.h:655 kpci_private.h:658 kpci_private.h:661
+#, kde-format
+msgid "Generic"
+msgstr "Paprastas"
+
+#: kpci_private.h:636
+#, kde-format
+msgid "Hayes/16450"
+msgstr "Hayes/16450"
+
+#: kpci_private.h:637
+#, kde-format
+msgid "Hayes/16550"
+msgstr "Hayes/16550"
+
+#: kpci_private.h:638
+#, kde-format
+msgid "Hayes/16650"
+msgstr "Hayes/16650"
+
+#: kpci_private.h:639
+#, kde-format
+msgid "Hayes/16750"
+msgstr "Hayes/16750"
+
+#: kpci_private.h:641
+#, kde-format
+msgid "8259"
+msgstr "8259"
+
+#: kpci_private.h:642
+#, kde-format
+msgid "ISA PIC"
+msgstr "ISA PIC"
+
+#: kpci_private.h:643
+#, kde-format
+msgid "EISA PIC"
+msgstr "EISA PIC"
+
+#: kpci_private.h:644
+#, kde-format
+msgid "IO-APIC"
+msgstr "IO-APIC"
+
+#: kpci_private.h:645
+#, kde-format
+msgid "IO(X)-APIC"
+msgstr "IO(X)-APIC"
+
+#: kpci_private.h:647
+#, kde-format
+msgid "8237"
+msgstr "8237"
+
+#: kpci_private.h:648
+#, kde-format
+msgid "ISA DMA"
+msgstr "ISA DMA"
+
+#: kpci_private.h:649
+#, kde-format
+msgid "EISA DMA"
+msgstr "EISA DMA"
+
+#: kpci_private.h:651
+#, kde-format
+msgid "8254"
+msgstr "8254"
+
+#: kpci_private.h:652
+#, kde-format
+msgid "ISA timer"
+msgstr "ISA laikmatis"
+
+#: kpci_private.h:653
+#, kde-format
+msgid "EISA timers"
+msgstr "EISA laikmačiai"
+
+#: kpci_private.h:656
+#, kde-format
+msgid "ISA RTC"
+msgstr "ISA RTC"
+
+#: kpci_private.h:659
+#, kde-format
+msgid "Extended"
+msgstr "Išplėstas"
+
+#: kpci_private.h:662 kpci_private.h:665
+#, kde-format
+msgid "OHCI"
+msgstr "OHCI"
+
+#: kpci_private.h:664
+#, kde-format
+msgid "UHCI"
+msgstr "UHCI"
+
+#: kpci_private.h:666
+#, kde-format
+msgid "EHCI"
+msgstr "EHCI"
+
+#: kpci_private.h:667
+#, kde-format
+msgid "Unspecified"
+msgstr "Nenurodytas"
+
+#: kpci_private.h:668
+#, kde-format
+msgid "USB Device"
+msgstr "USB įrenginys"
+
+#: kpci_private.h:670
+#, kde-format
+msgid "SMIC"
+msgstr "SMIC"
+
+#: kpci_private.h:671
+#, kde-format
+msgid "Keyboard controller style"
+msgstr "Klaviatūros valdiklio stilius"
+
+#: kpci_private.h:672
+#, kde-format
+msgid "Block transfer"
+msgstr "Perkėlimas blokais"
+
+#: kpci_private.h:682
+#, kde-format
+msgid "Vital product data"
+msgstr "Svarbiausi produkto duomenys"
+
+#: kpci_private.h:683
+#, kde-format
+msgid "Slot identification"
+msgstr "Jungties identifikacija"
+
+#: kpci_private.h:685
+#, kde-format
+msgid "CompactPCI hot swap"
+msgstr ""
+
+#: kpci_private.h:686
+#, kde-format
+msgid "PCI-X"
+msgstr "PCI-X"
+
+#: kpci_private.h:687
+#, kde-format
+msgid "HyperTransport"
+msgstr ""
+
+#: kpci_private.h:688
+#, kde-format
+msgid "Vendor specific"
+msgstr "Specifinis tiekėjui"
+
+#: kpci_private.h:689
+#, kde-format
+msgid "Debug port"
+msgstr "Derinimo prievadas"
+
+#: kpci_private.h:690
+#, kde-format
+msgid "CompactPCI central resource control"
+msgstr ""
+
+#: kpci_private.h:691
+#, kde-format
+msgid "PCI hot-plug"
+msgstr ""
+
+#: kpci_private.h:692
+#, kde-format
+msgid "AGP x8"
+msgstr "AGP x8"
+
+#: kpci_private.h:693
+#, kde-format
+msgid "Secure device"
+msgstr "Saugus įrenginys"
+
+#: kpci_private.h:694
+#, kde-format
+msgid "PCI express"
+msgstr "PCI express"
+
+#: kpci_private.h:695
+#, kde-format
+msgid "MSI-X"
+msgstr "MSI-X"
+
+#: kpci_private.h:701
+#, kde-format
+msgid "Fast"
+msgstr "Greita"
+
+#: kpci_private.h:702
+#, kde-format
+msgid "Medium"
+msgstr "Vidutinė"
+
+#: kpci_private.h:703
+#, kde-format
+msgid "Slow"
+msgstr "Lėta"
+
+#: kpci_private.h:709
+#, kde-format
+msgid "32 bit"
+msgstr "32 bitų"
+
+#: kpci_private.h:710
+#, kde-format
+msgid "Below 1M"
+msgstr "Mažiau 1M"
+
+#: kpci_private.h:711
+#, kde-format
+msgid "64 bit"
+msgstr "64 bitų"
+
+#: kpci_private.h:717
+#, kde-format
+msgid "Standard"
+msgstr "Standartinė"
+
+#: kpci_private.h:719
+#, kde-format
+msgid "CardBus"
+msgstr "CardBus"
+
+#: kpci_private.h:725
+#, kde-format
+msgid "1X"
+msgstr "1X"
+
+#: kpci_private.h:726
+#, kde-format
+msgid "2X"
+msgstr "2X"
+
+#: kpci_private.h:727
+#, kde-format
+msgid "1X & 2X"
+msgstr "1X ir 2X"
+
+#: kpci_private.h:728 kpci_private.h:732
+#, kde-format
+msgid "4X"
+msgstr "4X"
+
+#: kpci_private.h:729
+#, kde-format
+msgid "1X & 4X"
+msgstr "1X ir 4X"
+
+#: kpci_private.h:730
+#, kde-format
+msgid "2X & 4X"
+msgstr "2X ir 4X"
+
+#: kpci_private.h:731
+#, kde-format
+msgid "1X & 2X & 4X"
+msgstr "1X ir 2X ir 4X"
+
+#: kpci_private.h:733
+#, kde-format
+msgid "8X"
+msgstr "8X"
+
+#: kpci_private.h:734
+#, kde-format
+msgid "4X & 8X"
+msgstr "4X ir 8X"
+
+#: kpci_private.h:740
+#, kde-format
+msgid "4 ms"
+msgstr "4 ms"
+
+#: kpci_private.h:741
+#, kde-format
+msgid "16 ms"
+msgstr "16 ms"
+
+#: kpci_private.h:742
+#, kde-format
+msgid "64 ms"
+msgstr "64 ms"
+
+#: kpci_private.h:743
+#, kde-format
+msgid "256 ms"
+msgstr "256 ms"
+
+#: kpci_private.h:744
+#, kde-format
+msgid "Not needed"
+msgstr "Nereikalingas"
+
+#: kpci_private.h:750
+#, kde-format
+msgid "0 (self powered)"
+msgstr "0 (savas maitinimas)"
+
+#: kpci_private.h:751
+#, kde-format
+msgid "55 mA"
+msgstr "55 mA"
+
+#: kpci_private.h:752
+#, kde-format
+msgid "100 mA"
+msgstr "100 mA"
+
+#: kpci_private.h:753
+#, kde-format
+msgid "160 mA"
+msgstr "160 mA"
+
+#: kpci_private.h:754
+#, kde-format
+msgid "220 mA"
+msgstr "220 mA"
+
+#: kpci_private.h:755
+#, kde-format
+msgid "270 mA"
+msgstr "270 mA"
+
+#: kpci_private.h:756
+#, kde-format
+msgid "320 mA"
+msgstr "320 mA"
+
+#: kpci_private.h:757
+#, kde-format
+msgid "375 mA"
+msgstr "375 mA"
+
+#: kpci_private.h:772
+#, kde-format
+msgid "1 vector"
+msgstr "1 vektorius"
+
+#: kpci_private.h:773
+#, kde-format
+msgid "2 vectors"
+msgstr "2 vektoriai"
+
+#: kpci_private.h:774
+#, kde-format
+msgid "4 vectors"
+msgstr "4 vektoriai"
+
+#: kpci_private.h:775
+#, kde-format
+msgid "8 vectors"
+msgstr "8 vektoriai"
+
+#: kpci_private.h:776
+#, kde-format
+msgid "16 vectors"
+msgstr "16 vektorių"
+
+#: kpci_private.h:777
+#, kde-format
+msgid "32 vectors"
+msgstr "32 vektoriai"

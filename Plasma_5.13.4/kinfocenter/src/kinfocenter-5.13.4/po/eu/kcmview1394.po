@@ -1,0 +1,143 @@
+# Translation of kcmview1394.po to Euskara/Basque (eu).
+# Copyright (C) 2003-2014, Free Software Foundation, Inc.
+# This file is distributed under the same license as the kde-workspace package.
+#
+# Marcos  <marcos@euskalgnu.org>, 2003, 2005.
+# marcos <marcos@euskalgnu.org>, 2006, 2007.
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2009, 2011, 2014.
+# Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmview1394\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-03-31 02:49+0200\n"
+"PO-Revision-Date: 2014-02-11 01:08+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+"Language-Team: Basque <kde-i18n-doc@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: view1394.cpp:61
+#, kde-format
+msgid ""
+"<qt>Here you can see some information about your IEEE 1394 configuration. "
+"The meaning of the columns:<ul><li><b>Name</b>: port or node name, the "
+"number can change with each bus reset</li><li><b>GUID</b>: the 64 bit GUID "
+"of the node</li><li><b>Local</b>: checked if the node is an IEEE 1394 port "
+"of your computer</li><li><b>IRM</b>: checked if the node is isochronous "
+"resource manager capable</li><li><b>CRM</b>: checked if the node is cycle "
+"master capable</li><li><b>ISO</b>: checked if the node supports isochronous "
+"transfers</li><li><b>BM</b>: checked if the node is bus manager capable</"
+"li><li><b>PM</b>: checked if the node is power management capable</"
+"li><li><b>Acc</b>: the cycle clock accuracy of the node, valid from 0 to "
+"100</li><li><b>Speed</b>: the speed of the node</li><li><b>Vendor</b>: the "
+"vendor of the device</li></ul></qt>"
+msgstr ""
+"<qt>Hemen zure IEEE 1394 konfigurazioari buruzko informazioa ikus dezakezu. "
+"Zutabeen esanahia:<ul><li><b>Izena</b>: ataka edo nodoaren izena, zenbakia "
+"bus berrezartze bakoitzarekin alda daiteke </li><li><b>GUID</b>: nodoaren 64 "
+"biteko GUIDa </li><li><b>Bertakoa</b>: markatuta nodoa zure konputagailuaren "
+"IEEE 1394 ataka bada</li><li><b>IRM</b>: markatuta nodoa baliabide "
+"isokronoak kudeatzeko gai bada </li><li><b>CRM</b>: markatuta nodoa ziklo "
+"maisu izateko gai bada </li><li><b>ISO</b>: markatuta nodoak transferentzia "
+"isokronoak onartzen baditu</li><li><b>BM</b>: markatuta nodoa busak "
+"kudeatzeko gai bada </li><li><b>PM</b>: markatuta nodoa energia kudeatzeko "
+"gai bada </li><li><b>Acc</b>: nodoaren ziklo ordulari zehaztasuna, "
+"baliogarria 0tik 100era</li><li><b>Abiadura</b>: nodoaren abiadura</"
+"li><li><b>Saltzailea</b>: gailuaren saltzailea</li></ul></qt>"
+
+#: view1394.cpp:194
+#, kde-format
+msgid "Port %1:\"%2\""
+msgstr "%1 ataka:\"%2\""
+
+#: view1394.cpp:208
+#, kde-format
+msgid "Node %1"
+msgstr "%1 nodoa"
+
+#: view1394.cpp:211
+#, kde-format
+msgid "Not ready"
+msgstr "Ez dago prest"
+
+#: view1394.cpp:306
+#, kde-format
+msgid "Unknown"
+msgstr "Ezezaguna"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:20
+#, kde-format
+msgid "Name"
+msgstr "Izena"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:31
+#, kde-format
+msgid "GUID"
+msgstr "GUIDa"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:42
+#, kde-format
+msgid "Local"
+msgstr "Lokala"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:53
+#, kde-format
+msgid "IRM"
+msgstr "IRMa"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:64
+#, kde-format
+msgid "CRM"
+msgstr "CRMa"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:75
+#, kde-format
+msgid "ISO"
+msgstr "ISOa"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:86
+#, kde-format
+msgid "BM"
+msgstr "BMa"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:97
+#, kde-format
+msgid "PM"
+msgstr "PMa"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:108
+#, kde-format
+msgid "Acc"
+msgstr "Acc"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:119
+#, kde-format
+msgid "Speed"
+msgstr "Abiadura"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:130
+#, kde-format
+msgid "Vendor"
+msgstr "Hornitzailea"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_busResetPb)
+#: view1394widget.ui:165
+#, kde-format
+msgid "Generate 1394 Bus Reset"
+msgstr "Sortu 1394 busaren berrezartze bat"

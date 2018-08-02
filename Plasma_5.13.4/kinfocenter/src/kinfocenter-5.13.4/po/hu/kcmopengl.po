@@ -1,0 +1,411 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Tamas Szanto <tszanto@interware.hu>, 2008.
+# Kristóf Kiszel <ulysses@kubuntu.org>, 2011.
+# Balázs Úr <urbalazs@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE 4.1\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-05-07 03:40+0200\n"
+"PO-Revision-Date: 2014-03-19 21:48+0100\n"
+"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Szántó Tamás"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "tszanto@interware.hu"
+
+#: opengl.cpp:92
+#, kde-format
+msgid "kcmopengl"
+msgstr "kcmopengl"
+
+#: opengl.cpp:93
+#, kde-format
+msgid "KCM OpenGL Information"
+msgstr "KCM OpenGL-jellemzők"
+
+#: opengl.cpp:95
+#, kde-format
+msgid ""
+"(c) 2008 Ivo Anjo\n"
+"(c) 2004 Ilya Korniyko\n"
+"(c) 1999-2002 Brian Paul"
+msgstr ""
+"© Ivo Anjo, 2008.\n"
+"© Ilya Korniyko, 2004.\n"
+"© Brian Paul, 1999-2002."
+
+#: opengl.cpp:97
+#, kde-format
+msgid "Ivo Anjo"
+msgstr "Ivo Anjo"
+
+#: opengl.cpp:98
+#, kde-format
+msgid "Ilya Korniyko"
+msgstr "Ilya Korniyko"
+
+#: opengl.cpp:99
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: opengl.cpp:99
+#, kde-format
+msgid "Original Maintainer"
+msgstr "Eredeti karbantartó"
+
+#: opengl.cpp:100
+#, kde-format
+msgid "Brian Paul"
+msgstr "Brian Paul"
+
+#: opengl.cpp:100
+#, kde-format
+msgid "Author of glxinfo Mesa demos (http://www.mesa3d.org)"
+msgstr "A glxinfo Mesa demók szerzője (http://www.mesa3d.org)"
+
+#: opengl.cpp:397
+#, kde-format
+msgid "Max. number of light sources"
+msgstr "A fényforrások max. száma"
+
+#: opengl.cpp:398
+#, kde-format
+msgid "Max. number of clipping planes"
+msgstr "A levágó síkok max. száma"
+
+#: opengl.cpp:399
+#, kde-format
+msgid "Max. pixel map table size"
+msgstr "A képponttáblázat max. mérete"
+
+#: opengl.cpp:400
+#, kde-format
+msgid "Max. display list nesting level"
+msgstr "A megjelenítési lista max. rekurziós mélysége"
+
+#: opengl.cpp:401
+#, kde-format
+msgid "Max. evaluator order"
+msgstr "Max. kiértékelősorrend"
+
+#: opengl.cpp:402
+#, kde-format
+msgid "Max. recommended vertex count"
+msgstr "Max. ajánlott csúcspontszám"
+
+#: opengl.cpp:403
+#, kde-format
+msgid "Max. recommended index count"
+msgstr "Max. ajánlott indexszám"
+
+#: opengl.cpp:405
+#, kde-format
+msgid "Occlusion query counter bits"
+msgstr "Az elnyelési lekérdezés számlálójának bitszáma"
+
+#: opengl.cpp:408
+#, kde-format
+msgid "Max. vertex blend matrices"
+msgstr "A csúcspontkeverési mátrixok max. száma"
+
+#: opengl.cpp:411
+#, kde-format
+msgid "Max. vertex blend matrix palette size"
+msgstr "A csúcspontkeverési mátrixok max. palettamérete"
+
+#: opengl.cpp:417
+#, kde-format
+msgid "Max. texture size"
+msgstr "Max. textúraméret"
+
+#: opengl.cpp:418
+#, kde-format
+msgid "No. of texture units"
+msgstr "A textúrafeldolgozók száma"
+
+#: opengl.cpp:419
+#, kde-format
+msgid "Max. 3D texture size"
+msgstr "Max. 3D-s textúraméret"
+
+#: opengl.cpp:420
+#, kde-format
+msgid "Max. cube map texture size"
+msgstr "A köbös térképtextúrák max. mérete"
+
+#: opengl.cpp:422
+#, kde-format
+msgid "Max. rectangular texture size"
+msgstr "Max. téglalapos textúraméret"
+
+#: opengl.cpp:424
+#, kde-format
+msgid "Max. texture LOD bias"
+msgstr "Max. textúra LOD-eltolás"
+
+#: opengl.cpp:425
+#, kde-format
+msgid "Max. anisotropy filtering level"
+msgstr "Max. anizotropikus szűrési szint"
+
+#: opengl.cpp:426
+#, kde-format
+msgid "No. of compressed texture formats"
+msgstr "A tömörített textúraformátumok száma"
+
+#: opengl.cpp:524
+#, kde-format
+msgid "Max. viewport dimensions"
+msgstr "Max. nézetméretek"
+
+#: opengl.cpp:525
+#, kde-format
+msgid "Subpixel bits"
+msgstr "Egy alképpont bitjeinek száma"
+
+#: opengl.cpp:526
+#, kde-format
+msgid "Aux. buffers"
+msgstr "A kiegészítő pufferek száma"
+
+#: opengl.cpp:532
+#, kde-format
+msgid "Frame buffer properties"
+msgstr "A képpuffer jellemzői"
+
+#: opengl.cpp:533
+#, kde-format
+msgid "Texturing"
+msgstr "Textúrázás"
+
+#: opengl.cpp:534
+#, kde-format
+msgid "Various limits"
+msgstr "Különféle korlátok"
+
+#: opengl.cpp:535
+#, kde-format
+msgid "Points and lines"
+msgstr "Pontok és vonalak"
+
+#: opengl.cpp:536
+#, kde-format
+msgid "Stack depth limits"
+msgstr "Veremmélységek"
+
+#: opengl.cpp:610 opengl.cpp:617
+#, kde-format
+msgid "3D Accelerator"
+msgstr "3D-s gyorsítás"
+
+#: opengl.cpp:612 opengl.cpp:629
+#, kde-format
+msgid "Vendor"
+msgstr "Gyártó"
+
+#: opengl.cpp:613
+#, kde-format
+msgid "Device"
+msgstr "Eszköz"
+
+#: opengl.cpp:614
+#, kde-format
+msgid "Subvendor"
+msgstr "Algyártó"
+
+#: opengl.cpp:615
+#, kde-format
+msgid "Revision"
+msgstr "Verzió"
+
+#: opengl.cpp:617 opengl.cpp:638
+#, kde-format
+msgid "unknown"
+msgstr "ismeretlen"
+
+#: opengl.cpp:622 opengl.cpp:624
+#, kde-format
+msgid "Driver"
+msgstr "Meghajtó"
+
+#: opengl.cpp:630
+#, kde-format
+msgid "Renderer"
+msgstr "Renderelő"
+
+#: opengl.cpp:632
+#, kde-format
+msgid "OpenGL ES version"
+msgstr "OpenGL ES verzió"
+
+#: opengl.cpp:634
+#, kde-format
+msgid "OpenGL version"
+msgstr "OpenGL verzió"
+
+#: opengl.cpp:639
+#, kde-format
+msgid "Kernel module"
+msgstr "Rendszermag modul"
+
+#: opengl.cpp:643
+#, kde-format
+msgid "OpenGL ES extensions"
+msgstr "OpenGL ES kiterjesztések"
+
+#: opengl.cpp:645
+#, kde-format
+msgid "OpenGL extensions"
+msgstr "OpenGL kiterjesztések"
+
+#: opengl.cpp:651
+#, kde-format
+msgid "Implementation specific"
+msgstr "Implementációfüggő"
+
+#: opengl.cpp:664
+#, kde-format
+msgid "GLX"
+msgstr "GLX"
+
+#: opengl.cpp:665
+#, kde-format
+msgid "server GLX vendor"
+msgstr "kiszolgáló GLX gyártója"
+
+#: opengl.cpp:666
+#, kde-format
+msgid "server GLX version"
+msgstr "kiszolgáló GLX verziószám"
+
+#: opengl.cpp:667
+#, kde-format
+msgid "server GLX extensions"
+msgstr "kiszolgáló GLX kiterjesztései"
+
+#: opengl.cpp:670
+#, kde-format
+msgid "client GLX vendor"
+msgstr "kliens GLX gyártója"
+
+#: opengl.cpp:671
+#, kde-format
+msgid "client GLX version"
+msgstr "kliens GLX verziószám"
+
+#: opengl.cpp:672
+#, kde-format
+msgid "client GLX extensions"
+msgstr "kliens GLX kiterjesztései"
+
+#: opengl.cpp:674
+#, kde-format
+msgid "GLX extensions"
+msgstr "GLX-es kiterjesztések"
+
+#: opengl.cpp:677
+#, kde-format
+msgid "GLU"
+msgstr "GLU"
+
+#: opengl.cpp:678
+#, kde-format
+msgid "GLU version"
+msgstr "GLU verziószám"
+
+#: opengl.cpp:679
+#, kde-format
+msgid "GLU extensions"
+msgstr "GLU-s kiterjesztések"
+
+#: opengl.cpp:690
+#, kde-format
+msgid "EGL"
+msgstr "EGL"
+
+#: opengl.cpp:691
+#, kde-format
+msgid "EGL Vendor"
+msgstr "EGL-gyártó"
+
+#: opengl.cpp:692
+#, kde-format
+msgid "EGL Version"
+msgstr "EGL verziószám"
+
+#: opengl.cpp:693
+#, kde-format
+msgid "EGL Extensions"
+msgstr "EGL kiterjesztések"
+
+#: opengl.cpp:770
+#, kde-format
+msgid "Direct Rendering (GLX)"
+msgstr "Közvetlen renderelés (GLX)"
+
+#: opengl.cpp:770
+#, kde-format
+msgid "Indirect Rendering (GLX)"
+msgstr "Közvetett renderelés (GLX)"
+
+#: opengl.cpp:887
+#, kde-format
+msgid "Direct Rendering (EGL)"
+msgstr "Közvetlen renderelés (EGL)"
+
+#: opengl.cpp:950
+#, kde-format
+msgid "Information"
+msgstr "Információ"
+
+#: opengl.cpp:951
+#, kde-format
+msgid "Value"
+msgstr "Érték"
+
+#: opengl.cpp:968 opengl.cpp:1006
+#, kde-format
+msgid "Name of the Display"
+msgstr "A képernyő neve"
+
+#: opengl.cpp:999
+#, kde-format
+msgid "Could not initialize OpenGL/GLX"
+msgstr "Nem sikerült az OpenGL/GLX előkészítése"
+
+#: opengl.cpp:1011
+#, kde-format
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: opengl.cpp:1014
+#, kde-format
+msgid "Core Profile"
+msgstr "Mag profil"
+
+#: opengl.cpp:1017
+#, kde-format
+msgid "Compatibility Profile"
+msgstr "Kompatibilitási profil"
+
+#: opengl.cpp:1027
+#, kde-format
+msgid "Could not initialize OpenGL (ES)/EGL "
+msgstr "Nem sikerült az OpenGL ES/EGL előkészítése"

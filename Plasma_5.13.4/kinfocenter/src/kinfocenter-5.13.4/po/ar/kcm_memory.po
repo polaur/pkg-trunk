@@ -1,0 +1,225 @@
+# translation of kcm_memory.po to Arabic
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_memory\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-09-16 03:33+0200\n"
+"PO-Revision-Date: 2008-12-17 11:58+0400\n"
+"Last-Translator: zayed <zayed.alsaidi@gmail.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"
+
+#: chartWidget.cpp:56 chartWidget.cpp:57 memory.cpp:270
+#, kde-format
+msgid "Not available."
+msgstr "غير متاح"
+
+#: chartWidget.cpp:106
+#, kde-format
+msgid "%1 free"
+msgstr "%1 حر"
+
+#: memory.cpp:64
+#, kde-format
+msgid "kcm_memory"
+msgstr "وحدة التحكم بالذاكرة"
+
+#: memory.cpp:65
+#, kde-format
+msgid "KDE Panel Memory Information Control Module"
+msgstr "وحدة التحكم بمعلومات الذاكرة لكدي"
+
+#: memory.cpp:67
+#, kde-format
+msgid "(c) 1998 - 2002 Helge Deller"
+msgstr "(c) 1998 - 2002 Helge Deller"
+
+#: memory.cpp:69
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: memory.cpp:101
+#, kde-format
+msgid ""
+"This display shows you the current memory usage of your system. The values "
+"are updated on a regular basis and give you an overview of the physical and "
+"virtual memory being used."
+msgstr ""
+"يعرض لك الاستخدام الحالي للذاكرة في نظامك ، و تحدث هذه القيم بشكل منتظم  ، "
+"وتعطيك نظرة عامة عن الذاكرة المستهلك سواءا كانت حقيقية أم تخيلية."
+
+#: memory.cpp:107
+#, kde-format
+msgid "Memory"
+msgstr "الذاكرة"
+
+#: memory.cpp:125
+#, kde-format
+msgid "Total physical memory:"
+msgstr "مجموع الذاكرة الحقيقية:"
+
+#: memory.cpp:128
+#, kde-format
+msgid "Free physical memory:"
+msgstr "الذاكرة الحقيقية الحرة:"
+
+#: memory.cpp:133
+#, kde-format
+msgid "Shared memory:"
+msgstr "الذاكرة المشتركة:"
+
+#: memory.cpp:136
+#, kde-format
+msgid "Disk buffers:"
+msgstr "الذاكرة التي في القرص:"
+
+#: memory.cpp:140
+#, kde-format
+msgid "Active memory:"
+msgstr "الذاكرة النشطة:"
+
+#: memory.cpp:143
+#, kde-format
+msgid "Inactive memory:"
+msgstr "الذاكرة الخاملة:"
+
+#: memory.cpp:148
+#, kde-format
+msgid "Disk cache:"
+msgstr "الذاكرة المخبأ في القرص:"
+
+#: memory.cpp:152
+#, kde-format
+msgid "Total swap memory:"
+msgstr "مجموع ذاكرة التبادل:"
+
+#: memory.cpp:155
+#, kde-format
+msgid "Free swap memory:"
+msgstr "ذاكرة التبادل الحرة:"
+
+#: memory.cpp:196
+#, kde-format
+msgid "Charts"
+msgstr "المخططات"
+
+#: memory.cpp:206
+#, kde-format
+msgid "Total Memory"
+msgstr "مجموع الذاكرة"
+
+#: memory.cpp:207
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>total sum of physical and virtual "
+"memory</b> in your system."
+msgstr ""
+"يعطيك هذا الرسم نظرة عامة عن  <b>المجموع الكلي للذاكرة الحقيقية والتخيلية</"
+"b> في نظامك."
+
+#: memory.cpp:216
+#, kde-format
+msgid "Physical Memory"
+msgstr "الذاكرة الحقيقية"
+
+#: memory.cpp:217
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>usage of physical memory</b> in "
+"your system.<p>Most operating systems (including Linux) will use as much of "
+"the available physical memory as possible as disk cache, to speed up the "
+"system performance.</p><p>This means that if you have a small amount of "
+"<b>Free Physical Memory</b> and a large amount of <b>Disk Cache Memory</b>, "
+"your system is well configured.</p>"
+msgstr ""
+"هذا الرسم يعطيك نظرة عامة عن  <b>عن استهلاك الذاكرة الحقيقية</b> في نظامك."
+"<p>أغلب الأنظمة بما فيها جنولينكس تستعمل أكبر قدر ممكن من الذاكرة الحقيقية "
+"كذاكرة مخبئية لتسريع الأداء.</p><p>هذا يعني إذا كنت تملك  <b>كمية صغيرة من "
+"الذاكرة الحقيقية</b>  و كمية كبيرة من  <b>الذاكرة المخبئية في القرص الصلب</"
+"b>فإن جهازك مضبوط بشكل جيد.</p>"
+
+#: memory.cpp:232
+#, kde-format
+msgid "Swap Space"
+msgstr "مساحة التبادل"
+
+#: memory.cpp:233
+#, kde-format
+msgid ""
+"<p>The swap space is the <b>virtual memory</b> available to the system.</p> "
+"<p>It will be used on demand and is provided through one or more swap "
+"partitions and/or swap files.</p>"
+msgstr ""
+"<p>مساحة التبادل هى <b>ذاكرة تخيلية</b>متاحة للنظام.</p> <p>ستستخدم عند "
+"الطلب ومجهزة عن طريق واحد او اكثر من حواجز و/او ملفات التبادل.</p>"
+
+#: memory.cpp:264
+#, kde-format
+msgid "1 byte ="
+msgid_plural "%1 bytes ="
+msgstr[0] "صفر بايت ="
+msgstr[1] "واحد بايت ="
+msgstr[2] "بايتان ="
+msgstr[3] "%1 بايتات ="
+msgstr[4] "%1 بايت ="
+msgstr[5] "%1 بايت ="
+
+#: physicalMemoryChart.cpp:50
+#, kde-format
+msgid "Free Physical Memory"
+msgstr "الذاكرة الطبيعية الحرة"
+
+#: physicalMemoryChart.cpp:52
+#, kde-format
+msgid "Disk Cache"
+msgstr "القرص المخبأ"
+
+#: physicalMemoryChart.cpp:54
+#, kde-format
+msgid "Disk Buffers"
+msgstr "القرص الواقى"
+
+#: physicalMemoryChart.cpp:56
+#, kde-format
+msgid "Application Data"
+msgstr "بيانات التطبيقات"
+
+#: swapMemoryChart.cpp:47
+#, kde-format
+msgid "Free Swap"
+msgstr "التبادل الحر"
+
+#: swapMemoryChart.cpp:49 totalMemoryChart.cpp:43
+#, kde-format
+msgid "Used Swap"
+msgstr "التبادل المستخدم"
+
+#: totalMemoryChart.cpp:41
+#, kde-format
+msgid "Total Free Memory"
+msgstr "مجموع الذاكرة الحرة"
+
+#: totalMemoryChart.cpp:45
+#, kde-format
+msgid "Used Physical Memory"
+msgstr "الذاكرة الحقيقية المستخدمة"

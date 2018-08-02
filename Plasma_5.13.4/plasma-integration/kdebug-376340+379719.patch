@@ -1,0 +1,65 @@
+From 73eeda3a7dfb3b155a6198ff733e5ab2f1a89f0e Mon Sep 17 00:00:00 2001
+From: Kai Uwe Broulik <kde@privat.broulik.de>
+Date: Thu, 28 Jun 2018 11:56:05 +0200
+Subject: [QDBusMenuBar] Guard m_window with a QPointer
+
+It can be deleted without us knowing for MDI windows as happens in QtCurve config.
+Also always update m_window if it changes, even when null.
+
+BUG: 376340
+BUG: 379719
+FIXED-IN: 5.12.7
+
+Differential Revision: https://phabricator.kde.org/D13774
+---
+ src/platformtheme/qdbusmenubar.cpp | 17 +++++++++++------
+ src/platformtheme/qdbusmenubar_p.h |  2 +-
+ 2 files changed, 12 insertions(+), 7 deletions(-)
+
+diff --git a/src/platformtheme/qdbusmenubar.cpp b/src/platformtheme/qdbusmenubar.cpp
+index 6b70021..b0cb7fb 100644
+--- a/src/platformtheme/qdbusmenubar.cpp
++++ b/src/platformtheme/qdbusmenubar.cpp
+@@ -122,15 +122,20 @@ void QDBusMenuBar::syncMenu(QPlatformMenu *menu)
+ 
+ void QDBusMenuBar::handleReparent(QWindow *newParentWindow)
+ {
+-    if (newParentWindow && newParentWindow != m_window) {
+-        QWindow *oldWindow = m_window;
++    if (newParentWindow == m_window) {
++        return;
++    }
+ 
+-        unregisterMenuBar();
+-        m_window = newParentWindow;
+-        registerMenuBar();
++    QWindow *oldWindow = m_window;
+ 
+-        emit windowChanged(newParentWindow, oldWindow);
++    unregisterMenuBar();
++    m_window = newParentWindow;
++
++    if (newParentWindow) {
++        registerMenuBar();
+     }
++
++    emit windowChanged(newParentWindow, oldWindow);
+ }
+ 
+ QPlatformMenu *QDBusMenuBar::menuForTag(quintptr tag) const
+diff --git a/src/platformtheme/qdbusmenubar_p.h b/src/platformtheme/qdbusmenubar_p.h
+index 6a5a379..bfec005 100644
+--- a/src/platformtheme/qdbusmenubar_p.h
++++ b/src/platformtheme/qdbusmenubar_p.h
+@@ -87,7 +87,7 @@ private:
+     QDBusPlatformMenu *m_menu;
+     QDBusMenuAdaptor *m_menuAdaptor;
+     QHash<quintptr, QDBusPlatformMenuItem *> m_menuItems;
+-    QWindow *m_window = nullptr;
++    QPointer<QWindow> m_window;
+     QString m_objectPath;
+ 
+     QDBusPlatformMenuItem *menuItemForMenu(QPlatformMenu *menu);
+-- 
+cgit v0.11.2
+

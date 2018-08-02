@@ -1,0 +1,145 @@
+# translation of kcmview1394.po to greek
+# translation of kcmview1394.po to
+# Copyright (C) 2003, 2005, 2007 Free Software Foundation, Inc.
+#
+# Stergios Dramis <sdramis@egnatia.ee.auth.gr>, 2003.
+# Spiros Georgaras <sngeorgaras@otenet.gr>, 2005.
+# Toussis Manolis <manolis@koppermind.homelinux.org>, 2007, 2008.
+# Dimitrios Glentadakis <dglent@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmview1394\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-03-31 02:49+0200\n"
+"PO-Revision-Date: 2011-03-20 11:38+0100\n"
+"Last-Translator: Dimitrios Glentadakis <dglent@gmail.com>\n"
+"Language-Team: Greek <kde-i18n-el@kde.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: view1394.cpp:61
+#, kde-format
+msgid ""
+"<qt>Here you can see some information about your IEEE 1394 configuration. "
+"The meaning of the columns:<ul><li><b>Name</b>: port or node name, the "
+"number can change with each bus reset</li><li><b>GUID</b>: the 64 bit GUID "
+"of the node</li><li><b>Local</b>: checked if the node is an IEEE 1394 port "
+"of your computer</li><li><b>IRM</b>: checked if the node is isochronous "
+"resource manager capable</li><li><b>CRM</b>: checked if the node is cycle "
+"master capable</li><li><b>ISO</b>: checked if the node supports isochronous "
+"transfers</li><li><b>BM</b>: checked if the node is bus manager capable</"
+"li><li><b>PM</b>: checked if the node is power management capable</"
+"li><li><b>Acc</b>: the cycle clock accuracy of the node, valid from 0 to "
+"100</li><li><b>Speed</b>: the speed of the node</li><li><b>Vendor</b>: the "
+"vendor of the device</li></ul></qt>"
+msgstr ""
+"<qt>Εδώ μπορείτε να δείτε πληροφορίες σχετικά με τις ρυθμίσεις IEEE 1394. Η "
+"σημασία των στηλών:<ul><li><b>Όνομα</b>: θύρα ή όνομα κόμβου, ο αριθμός "
+"μπορεί να αλλάξει μετά από κάθε επαναφορά του διαύλου</li><li><b>GUID</b>: "
+"το 64 bit GUID του κόμβου</li><li><b>Τοπικό</b>: ενεργοποιημένο αν ο κόμβος "
+"είναι μία θύρα IEEE 1394 του υπολογιστή σας</li><li><b>IRM</b>: "
+"ενεργοποιημένο αν ο κόμβος είναι διαχειριστής ισόχρονων πόρων</"
+"li><li><b>CRM</b>: ενεργοποιημένο αν ο κόμβος υποστηρίζει την διαχείριση των "
+"κύκλων</li><li><b>ISO</b>: ενεργοποιημένο αν ο κόμβος υποστηρίζει ισόχρονες "
+"μεταφορές</li><li><b>BM</b>: ενεργοποιημένο αν ο κόμβος είναι ικανός να "
+"διαχειριστεί τον δίαυλο</li><li><b>PM</b>: ενεργοποιημένο αν ο κόμβος μπορεί "
+"να εκτελέσει εντολές διαχείρισης ενέργειας</li><li><b>Acc</b>: η ακρίβεια "
+"του κύκλου του ρολογιού του κόμβου, έγκυρο από 0 ως 100</li><li><b>Ταχύτητα</"
+"b>: Η ταχύτητα του κόμβου</li><li><b>Κατασκευαστής</b>: ο κατασκευαστής της "
+"συσκευής</li></ul></qt>"
+
+#: view1394.cpp:194
+#, kde-format
+msgid "Port %1:\"%2\""
+msgstr "Θύρα %1:\"%2\""
+
+#: view1394.cpp:208
+#, kde-format
+msgid "Node %1"
+msgstr "Κόμβος %1"
+
+#: view1394.cpp:211
+#, kde-format
+msgid "Not ready"
+msgstr "Δεν είναι έτοιμο"
+
+#: view1394.cpp:306
+#, kde-format
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:20
+#, kde-format
+msgid "Name"
+msgstr "Όνομα"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:31
+#, kde-format
+msgid "GUID"
+msgstr "GUID"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:42
+#, kde-format
+msgid "Local"
+msgstr "Τοπικό"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:53
+#, kde-format
+msgid "IRM"
+msgstr "IRM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:64
+#, kde-format
+msgid "CRM"
+msgstr "CRM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:75
+#, kde-format
+msgid "ISO"
+msgstr "ISO"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:86
+#, kde-format
+msgid "BM"
+msgstr "BM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:97
+#, kde-format
+msgid "PM"
+msgstr "PM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:108
+#, kde-format
+msgid "Acc"
+msgstr "Acc"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:119
+#, kde-format
+msgid "Speed"
+msgstr "Ταχύτητα"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:130
+#, kde-format
+msgid "Vendor"
+msgstr "Κατασκευαστής"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_busResetPb)
+#: view1394widget.ui:165
+#, kde-format
+msgid "Generate 1394 Bus Reset"
+msgstr "Δημιούργησε reset διαύλου 1394"

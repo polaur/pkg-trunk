@@ -1,0 +1,226 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sergiu Bivol <sergiu@ase.md>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_memory\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-09-16 03:33+0200\n"
+"PO-Revision-Date: 2009-04-05 10:39+0300\n"
+"Last-Translator: Sergiu Bivol <sergiu@ase.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@lists.kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sergiu Bivol"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sergiu@ase.md"
+
+#: chartWidget.cpp:56 chartWidget.cpp:57 memory.cpp:270
+#, kde-format
+msgid "Not available."
+msgstr "Indisponibil."
+
+#: chartWidget.cpp:106
+#, kde-format
+msgid "%1 free"
+msgstr "%1 liber"
+
+#: memory.cpp:64
+#, kde-format
+msgid "kcm_memory"
+msgstr "kcm_memory"
+
+#: memory.cpp:65
+#, kde-format
+msgid "KDE Panel Memory Information Control Module"
+msgstr "Modul de control al panoului KDE pentru informații despre memorie"
+
+#: memory.cpp:67
+#, kde-format
+msgid "(c) 1998 - 2002 Helge Deller"
+msgstr "(c) 1998 - 2002 Helge Deller"
+
+#: memory.cpp:69
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: memory.cpp:101
+#, kde-format
+msgid ""
+"This display shows you the current memory usage of your system. The values "
+"are updated on a regular basis and give you an overview of the physical and "
+"virtual memory being used."
+msgstr ""
+"Acest afișaj vă arată utilizarea actuală a memoriei sistemului. Valorile "
+"sunt actualizate regulat și vă prezintă un sumar al memoriei fizice și "
+"virtuale utilizate."
+
+#: memory.cpp:107
+#, kde-format
+msgid "Memory"
+msgstr "Memorie"
+
+#: memory.cpp:125
+#, kde-format
+msgid "Total physical memory:"
+msgstr "Memorie fizică totală:"
+
+#: memory.cpp:128
+#, kde-format
+msgid "Free physical memory:"
+msgstr "Memorie fizică liberă:"
+
+#: memory.cpp:133
+#, kde-format
+msgid "Shared memory:"
+msgstr "Memorie partajată:"
+
+#: memory.cpp:136
+#, kde-format
+msgid "Disk buffers:"
+msgstr "Tampoane de disc:"
+
+#: memory.cpp:140
+#, kde-format
+msgid "Active memory:"
+msgstr "Memorie activă:"
+
+#: memory.cpp:143
+#, kde-format
+msgid "Inactive memory:"
+msgstr "Memorie inactivă:"
+
+#: memory.cpp:148
+#, kde-format
+msgid "Disk cache:"
+msgstr "Cache de disc:"
+
+#: memory.cpp:152
+#, kde-format
+msgid "Total swap memory:"
+msgstr "Memorie swap totală:"
+
+#: memory.cpp:155
+#, kde-format
+msgid "Free swap memory:"
+msgstr "Memorie swap liberă:"
+
+#: memory.cpp:196
+#, kde-format
+msgid "Charts"
+msgstr "Diagrame"
+
+#: memory.cpp:206
+#, kde-format
+msgid "Total Memory"
+msgstr "Memorie totală"
+
+#: memory.cpp:207
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>total sum of physical and virtual "
+"memory</b> in your system."
+msgstr ""
+"Acest grafic vă arată un sumar al <b>cantității totale de memorie fizică și "
+"virtuală</b> în sistem."
+
+#: memory.cpp:216
+#, kde-format
+msgid "Physical Memory"
+msgstr "Memorie fizică"
+
+#: memory.cpp:217
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>usage of physical memory</b> in "
+"your system.<p>Most operating systems (including Linux) will use as much of "
+"the available physical memory as possible as disk cache, to speed up the "
+"system performance.</p><p>This means that if you have a small amount of "
+"<b>Free Physical Memory</b> and a large amount of <b>Disk Cache Memory</b>, "
+"your system is well configured.</p>"
+msgstr ""
+"Acest grafic vă oferă un sumar al <b>utilizării memoriei fizice</b> în "
+"sistem.<p>Majoritatea sistemelor de operare (inclusiv Linux) vor utiliza cât "
+"mai multă memorie fizică disponibilă ca depozit (cache) de disc, pentru a "
+"accelera performanța sistemului.</p><p>Aceasta înseanmă că dacă aveți o "
+"cantitate mică de <b>memorie fizică liberă</b> și o cantitate mare de "
+"<b>memorie cu depozite de disc</b>, sistemul dumneavoastră este configurat "
+"bine.</p>"
+
+#: memory.cpp:232
+#, kde-format
+msgid "Swap Space"
+msgstr "Spațiu de swap"
+
+#: memory.cpp:233
+#, kde-format
+msgid ""
+"<p>The swap space is the <b>virtual memory</b> available to the system.</p> "
+"<p>It will be used on demand and is provided through one or more swap "
+"partitions and/or swap files.</p>"
+msgstr ""
+"<p>Spațiul swap este <b>memoria virtuală</b> disponibilă sistemului.</p> "
+"<p>Acesta va fi utilizat la cerere și este disponibil prin intermediul uneia "
+"sau mai multor partiții și/sau fișiere swap.</p>"
+
+#: memory.cpp:264
+#, kde-format
+msgid "1 byte ="
+msgid_plural "%1 bytes ="
+msgstr[0] "1 octet ="
+msgstr[1] "%1 octeți ="
+msgstr[2] "%1 de octeți ="
+
+#: physicalMemoryChart.cpp:50
+#, kde-format
+msgid "Free Physical Memory"
+msgstr "Memorie fizică liberă"
+
+#: physicalMemoryChart.cpp:52
+#, kde-format
+msgid "Disk Cache"
+msgstr "Cache de disc"
+
+#: physicalMemoryChart.cpp:54
+#, kde-format
+msgid "Disk Buffers"
+msgstr "Tampoane de disc"
+
+#: physicalMemoryChart.cpp:56
+#, kde-format
+msgid "Application Data"
+msgstr "Date aplicație"
+
+#: swapMemoryChart.cpp:47
+#, kde-format
+msgid "Free Swap"
+msgstr "Swap liber"
+
+#: swapMemoryChart.cpp:49 totalMemoryChart.cpp:43
+#, kde-format
+msgid "Used Swap"
+msgstr "Swap utilizat"
+
+#: totalMemoryChart.cpp:41
+#, kde-format
+msgid "Total Free Memory"
+msgstr "Memorie liberă totală"
+
+#: totalMemoryChart.cpp:45
+#, kde-format
+msgid "Used Physical Memory"
+msgstr "Memorie fizică utilizată"

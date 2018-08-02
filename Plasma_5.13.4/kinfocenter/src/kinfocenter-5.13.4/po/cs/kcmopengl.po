@@ -1,0 +1,411 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Vít Pelčák <vit@pelcak.org>, 2011, 2014, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmopengl-1\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-05-07 03:40+0200\n"
+"PO-Revision-Date: 2015-05-20 10:22+0100\n"
+"Last-Translator: Vít Pelčák <vit@pelcak.org>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 2.0\n"
+"X-Language: cs_CZ\n"
+"X-Source-Language: en_US\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Vít Pelčák, Vlastimil Ott"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "vit@pelcak.org, vlastimil@e-ott.info"
+
+#: opengl.cpp:92
+#, kde-format
+msgid "kcmopengl"
+msgstr "kcmopengl"
+
+#: opengl.cpp:93
+#, kde-format
+msgid "KCM OpenGL Information"
+msgstr "Informace o modulu OpenGL"
+
+#: opengl.cpp:95
+#, kde-format
+msgid ""
+"(c) 2008 Ivo Anjo\n"
+"(c) 2004 Ilya Korniyko\n"
+"(c) 1999-2002 Brian Paul"
+msgstr ""
+"(c) 2008 Ivo Anjo\n"
+" (c) 2004 Ilya Korniyko\n"
+" (c) 1999-2002 Brian Paul"
+
+#: opengl.cpp:97
+#, kde-format
+msgid "Ivo Anjo"
+msgstr "Ivo Anjo"
+
+#: opengl.cpp:98
+#, kde-format
+msgid "Ilya Korniyko"
+msgstr "Ilya Korniyko"
+
+#: opengl.cpp:99
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: opengl.cpp:99
+#, kde-format
+msgid "Original Maintainer"
+msgstr "Původní správce"
+
+#: opengl.cpp:100
+#, kde-format
+msgid "Brian Paul"
+msgstr "Brian Paul"
+
+#: opengl.cpp:100
+#, kde-format
+msgid "Author of glxinfo Mesa demos (http://www.mesa3d.org)"
+msgstr "Autor Mesa glxinfo (http://www.mesa3d.org)"
+
+#: opengl.cpp:397
+#, kde-format
+msgid "Max. number of light sources"
+msgstr "Max. počet zdrojů světla"
+
+#: opengl.cpp:398
+#, kde-format
+msgid "Max. number of clipping planes"
+msgstr "Max. počet ořezávání rovin"
+
+#: opengl.cpp:399
+#, kde-format
+msgid "Max. pixel map table size"
+msgstr "Max. velikost tabulky pixmapy"
+
+#: opengl.cpp:400
+#, kde-format
+msgid "Max. display list nesting level"
+msgstr "Max. úroveň vnoření seznamu displejů"
+
+#: opengl.cpp:401
+#, kde-format
+msgid "Max. evaluator order"
+msgstr "Max. pořadí vyhodnocování"
+
+#: opengl.cpp:402
+#, kde-format
+msgid "Max. recommended vertex count"
+msgstr "Max. doporučovaný počet vertexů"
+
+#: opengl.cpp:403
+#, kde-format
+msgid "Max. recommended index count"
+msgstr "Max. doporučovaný počet indexů"
+
+#: opengl.cpp:405
+#, kde-format
+msgid "Occlusion query counter bits"
+msgstr ""
+
+#: opengl.cpp:408
+#, kde-format
+msgid "Max. vertex blend matrices"
+msgstr "Max. matice mísení vertexů"
+
+#: opengl.cpp:411
+#, kde-format
+msgid "Max. vertex blend matrix palette size"
+msgstr "Max. velikost palety matice mísení vertexů"
+
+#: opengl.cpp:417
+#, kde-format
+msgid "Max. texture size"
+msgstr "Max. velikost textury"
+
+#: opengl.cpp:418
+#, kde-format
+msgid "No. of texture units"
+msgstr "Počet texturových jednotek"
+
+#: opengl.cpp:419
+#, kde-format
+msgid "Max. 3D texture size"
+msgstr "Max. velikost 3D textury"
+
+#: opengl.cpp:420
+#, kde-format
+msgid "Max. cube map texture size"
+msgstr "Max. velikost textury mapy pro kostku"
+
+#: opengl.cpp:422
+#, kde-format
+msgid "Max. rectangular texture size"
+msgstr "Max. obdélníková velikost textury"
+
+#: opengl.cpp:424
+#, kde-format
+msgid "Max. texture LOD bias"
+msgstr "Max. LOD bias textur"
+
+#: opengl.cpp:425
+#, kde-format
+msgid "Max. anisotropy filtering level"
+msgstr "Max. úroveň anisotropního filtru"
+
+#: opengl.cpp:426
+#, kde-format
+msgid "No. of compressed texture formats"
+msgstr "Počet komprimovaných texturových formátů"
+
+#: opengl.cpp:524
+#, kde-format
+msgid "Max. viewport dimensions"
+msgstr "Max. rozměry pohledu"
+
+#: opengl.cpp:525
+#, kde-format
+msgid "Subpixel bits"
+msgstr "Bity subpixelů"
+
+#: opengl.cpp:526
+#, kde-format
+msgid "Aux. buffers"
+msgstr "Pomocné buffery"
+
+#: opengl.cpp:532
+#, kde-format
+msgid "Frame buffer properties"
+msgstr "Vlastnosti frame bufferu"
+
+#: opengl.cpp:533
+#, kde-format
+msgid "Texturing"
+msgstr "Texturování"
+
+#: opengl.cpp:534
+#, kde-format
+msgid "Various limits"
+msgstr "Různá omezení"
+
+#: opengl.cpp:535
+#, kde-format
+msgid "Points and lines"
+msgstr "Body a čáry"
+
+#: opengl.cpp:536
+#, kde-format
+msgid "Stack depth limits"
+msgstr "Omezení pro hloubku zásobníku"
+
+#: opengl.cpp:610 opengl.cpp:617
+#, kde-format
+msgid "3D Accelerator"
+msgstr "3D akcelerátor"
+
+#: opengl.cpp:612 opengl.cpp:629
+#, kde-format
+msgid "Vendor"
+msgstr "Dodavatel"
+
+#: opengl.cpp:613
+#, kde-format
+msgid "Device"
+msgstr "Zařízení"
+
+#: opengl.cpp:614
+#, kde-format
+msgid "Subvendor"
+msgstr "Subdodavatel"
+
+#: opengl.cpp:615
+#, kde-format
+msgid "Revision"
+msgstr "Revize "
+
+#: opengl.cpp:617 opengl.cpp:638
+#, kde-format
+msgid "unknown"
+msgstr "neznámý"
+
+#: opengl.cpp:622 opengl.cpp:624
+#, kde-format
+msgid "Driver"
+msgstr "Ovladač"
+
+#: opengl.cpp:630
+#, kde-format
+msgid "Renderer"
+msgstr "Renderer"
+
+#: opengl.cpp:632
+#, kde-format
+msgid "OpenGL ES version"
+msgstr "Verze OpenGL ES"
+
+#: opengl.cpp:634
+#, kde-format
+msgid "OpenGL version"
+msgstr "Verze OpenGL"
+
+#: opengl.cpp:639
+#, kde-format
+msgid "Kernel module"
+msgstr "Jaderný modul"
+
+#: opengl.cpp:643
+#, kde-format
+msgid "OpenGL ES extensions"
+msgstr "Rozšíření OpenGL ES"
+
+#: opengl.cpp:645
+#, kde-format
+msgid "OpenGL extensions"
+msgstr "Rozšíření OpenGL"
+
+#: opengl.cpp:651
+#, kde-format
+msgid "Implementation specific"
+msgstr "Závislé na implementaci"
+
+#: opengl.cpp:664
+#, kde-format
+msgid "GLX"
+msgstr "GLX"
+
+#: opengl.cpp:665
+#, kde-format
+msgid "server GLX vendor"
+msgstr "Poskytovatel serveru GLX"
+
+#: opengl.cpp:666
+#, kde-format
+msgid "server GLX version"
+msgstr "Verze GLX serveru"
+
+#: opengl.cpp:667
+#, kde-format
+msgid "server GLX extensions"
+msgstr "Rozšíření GLX serveru"
+
+#: opengl.cpp:670
+#, kde-format
+msgid "client GLX vendor"
+msgstr "Poskytovatel klientského GLX"
+
+#: opengl.cpp:671
+#, kde-format
+msgid "client GLX version"
+msgstr "Verze klientského GLX"
+
+#: opengl.cpp:672
+#, kde-format
+msgid "client GLX extensions"
+msgstr "Rozšíření klientské GLX"
+
+#: opengl.cpp:674
+#, kde-format
+msgid "GLX extensions"
+msgstr "Rozšíření GLX"
+
+#: opengl.cpp:677
+#, kde-format
+msgid "GLU"
+msgstr "GLU"
+
+#: opengl.cpp:678
+#, kde-format
+msgid "GLU version"
+msgstr "Verze GLU"
+
+#: opengl.cpp:679
+#, kde-format
+msgid "GLU extensions"
+msgstr "Rozšíření GLU"
+
+#: opengl.cpp:690
+#, kde-format
+msgid "EGL"
+msgstr "EGL"
+
+#: opengl.cpp:691
+#, kde-format
+msgid "EGL Vendor"
+msgstr "Dodavatel EGL"
+
+#: opengl.cpp:692
+#, kde-format
+msgid "EGL Version"
+msgstr "Verze EGL"
+
+#: opengl.cpp:693
+#, kde-format
+msgid "EGL Extensions"
+msgstr "Rozšíření EGL"
+
+#: opengl.cpp:770
+#, kde-format
+msgid "Direct Rendering (GLX)"
+msgstr "Přímé vykreslování (GLX)"
+
+#: opengl.cpp:770
+#, kde-format
+msgid "Indirect Rendering (GLX)"
+msgstr "Nepřímé vykreslování (GLX)"
+
+#: opengl.cpp:887
+#, kde-format
+msgid "Direct Rendering (EGL)"
+msgstr "Přímé vykreslování (EGL)"
+
+#: opengl.cpp:950
+#, kde-format
+msgid "Information"
+msgstr "Informace"
+
+#: opengl.cpp:951
+#, kde-format
+msgid "Value"
+msgstr "Hodnota"
+
+#: opengl.cpp:968 opengl.cpp:1006
+#, kde-format
+msgid "Name of the Display"
+msgstr "Název displeje"
+
+#: opengl.cpp:999
+#, kde-format
+msgid "Could not initialize OpenGL/GLX"
+msgstr "Nelze inicializovat OpenGL/GLX"
+
+#: opengl.cpp:1011
+#, kde-format
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: opengl.cpp:1014
+#, kde-format
+msgid "Core Profile"
+msgstr "Hlavní profil"
+
+#: opengl.cpp:1017
+#, kde-format
+msgid "Compatibility Profile"
+msgstr "Profil kompatibility"
+
+#: opengl.cpp:1027
+#, kde-format
+msgid "Could not initialize OpenGL (ES)/EGL "
+msgstr "Nelze inicializovat OpenGL (ES)/EGL "

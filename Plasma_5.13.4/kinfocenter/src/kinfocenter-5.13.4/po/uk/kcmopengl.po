@@ -1,0 +1,413 @@
+# Translation of kcmopengl.po to Ukrainian
+# Copyright (C) 2008-2015 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Ivan Petrouchtchak <fr.ivan@ukrainian-orthodox.org>, 2008.
+# Yuri Chornoivan <yurchor@ukr.net>, 2009, 2010, 2011, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmopengl\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-05-07 03:40+0200\n"
+"PO-Revision-Date: 2015-09-19 16:03+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "о. Іван Петрущак"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "fr.ivan@ukrainian-orthodox.org"
+
+#: opengl.cpp:92
+#, kde-format
+msgid "kcmopengl"
+msgstr "kcmopengl"
+
+#: opengl.cpp:93
+#, kde-format
+msgid "KCM OpenGL Information"
+msgstr "Інформаційний модуль керування щодо OpenGL"
+
+#: opengl.cpp:95
+#, kde-format
+msgid ""
+"(c) 2008 Ivo Anjo\n"
+"(c) 2004 Ilya Korniyko\n"
+"(c) 1999-2002 Brian Paul"
+msgstr ""
+"© Ivo Anjo, 2008\n"
+"© Ilya Korniyko, 2004\n"
+"© Brian Paul, 1999–2002"
+
+#: opengl.cpp:97
+#, kde-format
+msgid "Ivo Anjo"
+msgstr "Ivo Anjo"
+
+#: opengl.cpp:98
+#, kde-format
+msgid "Ilya Korniyko"
+msgstr "Ілля Корнійко"
+
+#: opengl.cpp:99
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: opengl.cpp:99
+#, kde-format
+msgid "Original Maintainer"
+msgstr "Перший супровідник"
+
+#: opengl.cpp:100
+#, kde-format
+msgid "Brian Paul"
+msgstr "Brian Paul"
+
+#: opengl.cpp:100
+#, kde-format
+msgid "Author of glxinfo Mesa demos (http://www.mesa3d.org)"
+msgstr "Автор демонстрацій glxinfo Mesa (http://www.mesa3d.org)"
+
+#: opengl.cpp:397
+#, kde-format
+msgid "Max. number of light sources"
+msgstr "Макс. кількість джерел світла"
+
+#: opengl.cpp:398
+#, kde-format
+msgid "Max. number of clipping planes"
+msgstr "Макс. кількість обрізаних проекцій"
+
+#: opengl.cpp:399
+#, kde-format
+msgid "Max. pixel map table size"
+msgstr "Макс. розмір таблиці з мапою пікселів"
+
+#: opengl.cpp:400
+#, kde-format
+msgid "Max. display list nesting level"
+msgstr "Макс. рівень вкладеності списку показу"
+
+#: opengl.cpp:401
+#, kde-format
+msgid "Max. evaluator order"
+msgstr "Макс. порядок оцінювача"
+
+#: opengl.cpp:402
+#, kde-format
+msgid "Max. recommended vertex count"
+msgstr "Макс. рекомендована кількість вершин"
+
+#: opengl.cpp:403
+#, kde-format
+msgid "Max. recommended index count"
+msgstr "Макс. рекомендована кількість індексів"
+
+#: opengl.cpp:405
+#, kde-format
+msgid "Occlusion query counter bits"
+msgstr "Біти лічильника запиту закупорки"
+
+#: opengl.cpp:408
+#, kde-format
+msgid "Max. vertex blend matrices"
+msgstr "Макс. кількість матриць змішування вершин"
+
+#: opengl.cpp:411
+#, kde-format
+msgid "Max. vertex blend matrix palette size"
+msgstr "Макс. розмір палітри матриці змішування вершин"
+
+#: opengl.cpp:417
+#, kde-format
+msgid "Max. texture size"
+msgstr "Макс. розмір текстури"
+
+#: opengl.cpp:418
+#, kde-format
+msgid "No. of texture units"
+msgstr "Кількість одиниць текстури"
+
+#: opengl.cpp:419
+#, kde-format
+msgid "Max. 3D texture size"
+msgstr "Макс. розмір тривимірної текстури"
+
+#: opengl.cpp:420
+#, kde-format
+msgid "Max. cube map texture size"
+msgstr "Макс. розмір кубічної текстури"
+
+#: opengl.cpp:422
+#, kde-format
+msgid "Max. rectangular texture size"
+msgstr "Макс. розмір прямокутної текстури"
+
+#: opengl.cpp:424
+#, kde-format
+msgid "Max. texture LOD bias"
+msgstr "Макс. зміщення текстури LOD"
+
+#: opengl.cpp:425
+#, kde-format
+msgid "Max. anisotropy filtering level"
+msgstr "Макс. рівень фільтрації анізотропії"
+
+#: opengl.cpp:426
+#, kde-format
+msgid "No. of compressed texture formats"
+msgstr "Кількість форматів стиснутих текстур"
+
+#: opengl.cpp:524
+#, kde-format
+msgid "Max. viewport dimensions"
+msgstr "Макс. розміри демонстраційного вікна"
+
+#: opengl.cpp:525
+#, kde-format
+msgid "Subpixel bits"
+msgstr "Субпіксельних бітів"
+
+#: opengl.cpp:526
+#, kde-format
+msgid "Aux. buffers"
+msgstr "Допоміжних буферів"
+
+#: opengl.cpp:532
+#, kde-format
+msgid "Frame buffer properties"
+msgstr "Властивості буфера кадрів"
+
+#: opengl.cpp:533
+#, kde-format
+msgid "Texturing"
+msgstr "Текстури"
+
+#: opengl.cpp:534
+#, kde-format
+msgid "Various limits"
+msgstr "Різні обмеження"
+
+#: opengl.cpp:535
+#, kde-format
+msgid "Points and lines"
+msgstr "Точки та лінії"
+
+#: opengl.cpp:536
+#, kde-format
+msgid "Stack depth limits"
+msgstr "Обмеження глибини стеку"
+
+#: opengl.cpp:610 opengl.cpp:617
+#, kde-format
+msgid "3D Accelerator"
+msgstr "3D акселератор"
+
+#: opengl.cpp:612 opengl.cpp:629
+#, kde-format
+msgid "Vendor"
+msgstr "Постачальник"
+
+#: opengl.cpp:613
+#, kde-format
+msgid "Device"
+msgstr "Пристрій"
+
+#: opengl.cpp:614
+#, kde-format
+msgid "Subvendor"
+msgstr "Підпостачальник"
+
+#: opengl.cpp:615
+#, kde-format
+msgid "Revision"
+msgstr "Версія"
+
+#: opengl.cpp:617 opengl.cpp:638
+#, kde-format
+msgid "unknown"
+msgstr "невідомо"
+
+#: opengl.cpp:622 opengl.cpp:624
+#, kde-format
+msgid "Driver"
+msgstr "Драйвер"
+
+#: opengl.cpp:630
+#, kde-format
+msgid "Renderer"
+msgstr "Відтворювач"
+
+#: opengl.cpp:632
+#, kde-format
+msgid "OpenGL ES version"
+msgstr "Версія OpenGL ES"
+
+#: opengl.cpp:634
+#, kde-format
+msgid "OpenGL version"
+msgstr "Версія OpenGL"
+
+#: opengl.cpp:639
+#, kde-format
+msgid "Kernel module"
+msgstr "Модуль ядра"
+
+#: opengl.cpp:643
+#, kde-format
+msgid "OpenGL ES extensions"
+msgstr "Розширення OpenGL ES"
+
+#: opengl.cpp:645
+#, kde-format
+msgid "OpenGL extensions"
+msgstr "Розширення OpenGL"
+
+#: opengl.cpp:651
+#, kde-format
+msgid "Implementation specific"
+msgstr "Специфічні до впровадження"
+
+#: opengl.cpp:664
+#, kde-format
+msgid "GLX"
+msgstr "GLX"
+
+#: opengl.cpp:665
+#, kde-format
+msgid "server GLX vendor"
+msgstr "виробник GLX сервера"
+
+#: opengl.cpp:666
+#, kde-format
+msgid "server GLX version"
+msgstr "версія GLX сервера"
+
+#: opengl.cpp:667
+#, kde-format
+msgid "server GLX extensions"
+msgstr "розширення GLX сервера"
+
+#: opengl.cpp:670
+#, kde-format
+msgid "client GLX vendor"
+msgstr "виробник GLX клієнта"
+
+#: opengl.cpp:671
+#, kde-format
+msgid "client GLX version"
+msgstr "версія GLX клієнта"
+
+#: opengl.cpp:672
+#, kde-format
+msgid "client GLX extensions"
+msgstr "розширення GLX клієнта"
+
+#: opengl.cpp:674
+#, kde-format
+msgid "GLX extensions"
+msgstr "Розширення GLX"
+
+#: opengl.cpp:677
+#, kde-format
+msgid "GLU"
+msgstr "GLU"
+
+#: opengl.cpp:678
+#, kde-format
+msgid "GLU version"
+msgstr "Версія GLU"
+
+#: opengl.cpp:679
+#, kde-format
+msgid "GLU extensions"
+msgstr "Розширення GLU"
+
+#: opengl.cpp:690
+#, kde-format
+msgid "EGL"
+msgstr "EGL"
+
+#: opengl.cpp:691
+#, kde-format
+msgid "EGL Vendor"
+msgstr "Постачальник EGL"
+
+#: opengl.cpp:692
+#, kde-format
+msgid "EGL Version"
+msgstr "Версія EGL"
+
+#: opengl.cpp:693
+#, kde-format
+msgid "EGL Extensions"
+msgstr "Розширення EGL"
+
+#: opengl.cpp:770
+#, kde-format
+msgid "Direct Rendering (GLX)"
+msgstr "Апаратне відтворення (GLX)"
+
+#: opengl.cpp:770
+#, kde-format
+msgid "Indirect Rendering (GLX)"
+msgstr "Програмне відтворення (GLX)"
+
+#: opengl.cpp:887
+#, kde-format
+msgid "Direct Rendering (EGL)"
+msgstr "Апаратне відтворення (EGL)"
+
+#: opengl.cpp:950
+#, kde-format
+msgid "Information"
+msgstr "Інформація"
+
+#: opengl.cpp:951
+#, kde-format
+msgid "Value"
+msgstr "Значення"
+
+#: opengl.cpp:968 opengl.cpp:1006
+#, kde-format
+msgid "Name of the Display"
+msgstr "Назва дисплею"
+
+#: opengl.cpp:999
+#, kde-format
+msgid "Could not initialize OpenGL/GLX"
+msgstr "Не вдалося ініціалізувати підсистему OpenGL/GLX"
+
+#: opengl.cpp:1011
+#, kde-format
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: opengl.cpp:1014
+#, kde-format
+msgid "Core Profile"
+msgstr "Профіль ядра"
+
+#: opengl.cpp:1017
+#, kde-format
+msgid "Compatibility Profile"
+msgstr "Профіль сумісності"
+
+#: opengl.cpp:1027
+#, kde-format
+msgid "Could not initialize OpenGL (ES)/EGL "
+msgstr "Не вдалося ініціалізувати підсистему OpenGL (ES)/EGL "

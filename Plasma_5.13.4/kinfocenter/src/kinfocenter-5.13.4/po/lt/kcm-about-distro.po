@@ -1,0 +1,131 @@
+# Lithuanian translations for l package.
+# Copyright (C) 2014 This_file_is_part_of_KDE
+# This file is distributed under the same license as the l package.
+#
+# Automatically generated, 2014.
+# Liudas Ališauskas <liudas@akmc.lt>, 2015.
+# Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: l 10n\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-23 03:11+0200\n"
+"PO-Revision-Date: 2017-06-25 01:08+0200\n"
+"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Liudas Ališauskas, Mindaugas Baranauskas"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "liudas@akmc.lt, opensuse.lietuviu.kalba@gmail.com"
+
+#: Module.cpp:76
+#, kde-format
+msgctxt "@title"
+msgid "About Distribution"
+msgstr "Apie platinamąjį paketą"
+
+#: Module.cpp:80
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright 2012-2014 Harald Sitter"
+msgstr "Autorinės teisės 2012-2014 Harald Sitter"
+
+#: Module.cpp:82
+#, kde-format
+msgctxt "@info:credit"
+msgid "Harald Sitter"
+msgstr "Harald Sitter"
+
+#: Module.cpp:83
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Autorius"
+
+#: Module.cpp:197
+#, kde-format
+msgctxt "@label %1 is the CPU bit width (e.g. 32 or 64)"
+msgid "%1-bit"
+msgstr "%1-bitų"
+
+#: Module.cpp:200
+#, kde-format
+msgid "Processor:"
+msgid_plural "Processors:"
+msgstr[0] "Procesorius:"
+msgstr[1] "Procesoriai:"
+msgstr[2] "Procesorių:"
+msgstr[3] "Procesorius:"
+
+#: Module.cpp:233
+#, kde-format
+msgctxt "@label %1 is the formatted amount of system memory (e.g. 7,7 GiB)"
+msgid "%1 of RAM"
+msgstr "%1 iš RAM"
+
+#: Module.cpp:234
+#, kde-format
+msgctxt "Unknown amount of RAM"
+msgid "Unknown"
+msgstr "Nežinomas"
+
+#. i18n: ectx: property (text), widget (QLabel, plasma)
+#: Module.ui:77
+#, kde-format
+msgid "KDE Plasma Version:"
+msgstr "KDE Plasma versija:"
+
+#. i18n: ectx: property (text), widget (QLabel, memory)
+#: Module.ui:146
+#, kde-format
+msgid "Memory:"
+msgstr "Atmintis:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: Module.ui:185
+#, kde-format
+msgid "Software"
+msgstr "Programinė įranga"
+
+#. i18n: ectx: property (text), widget (QLabel, qt)
+#: Module.ui:238
+#, kde-format
+msgid "Qt Version:"
+msgstr "Qt versija:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: Module.ui:261
+#, kde-format
+msgid "Hardware"
+msgstr "Aparatinė įranga"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: Module.ui:271
+#, kde-format
+msgid "OS Type:"
+msgstr "OS tipas:"
+
+#. i18n: ectx: property (text), widget (QLabel, kernel)
+#: Module.ui:297
+#, kde-format
+msgid "Kernel Version:"
+msgstr "Branduolio versija:"
+
+#. i18n: ectx: property (text), widget (QLabel, frameworksLabelKey)
+#: Module.ui:330
+#, kde-format
+msgid "KDE Frameworks Version:"
+msgstr "KDE sistemų versija:"

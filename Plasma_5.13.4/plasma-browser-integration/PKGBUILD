@@ -1,0 +1,43 @@
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+
+pkgname=plasma-browser-integration
+pkgver=5.13.4
+pkgrel=1.1
+pkgdesc='Components necessary to integrate browsers into the Plasma Desktop'
+arch=(x86_64)
+url='https://www.kde.org/plasma-desktop'
+license=(GPL)
+depends=(krunner)
+makedepends=(extra-cmake-modules)
+groups=(plasma)
+source=("https://download.kde.org/stable/plasma/$pkgver/$pkgname-$pkgver.tar.xz"{,.sig}
+kdebug-395521.patch::"https://cgit.kde.org/plasma-browser-integration.git/patch/?id=09c729554ea1b5bea52f01b0d9a86f76f24e500d")
+sha256sums=('4b8238b66ee3e62246b26bef2afb1f0883701f563f189a8b5bfabbb9f8b078a7'
+            'SKIP'
+            '77fb002e7d81746981db16293acdd685316e971df5a60e45fa03709150875eea')
+validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell
+              '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
+              'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson
+              '1FA881591C26B276D7A5518EEAAF29B42A678C20') # Marco Martin <notmart@gmail.com>
+
+prepare() {
+  mkdir -p build
+
+  cd $pkgname-$pkgver
+  msg "Add KDEBUG 395521 patch"
+  patch -p1 -i ../kdebug-395521.patch
+}
+
+build() { 
+  cd build
+  cmake ../$pkgname-$pkgver \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_INSTALL_LIBDIR=lib \
+    -DINSTALL_CHROME_MANIFEST=ON
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}

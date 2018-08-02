@@ -1,0 +1,233 @@
+# Translation of kcm_memory.po into Bosnian.
+# Chusslove Illich <caslav.ilic@gmx.net>, 2008, 2009.
+# Dalibor Djuric <dalibor.djuric@mozilla-srbija.org>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_memory\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-09-16 03:33+0200\n"
+"PO-Revision-Date: 2013-10-18 20:12+0000\n"
+"Last-Translator: Samir Ribić <Unknown>\n"
+"Language-Team: Bosnian <bs@li.org>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Launchpad (build 17341)\n"
+"X-Launchpad-Export-Date: 2015-02-15 05:58+0000\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+"X-Environment: kde\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Samir Ribić"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Samir.ribic@etf.unsa.ba"
+
+#: chartWidget.cpp:56 chartWidget.cpp:57 memory.cpp:270
+#, kde-format
+msgid "Not available."
+msgstr "Nedostupno."
+
+#: chartWidget.cpp:106
+#, kde-format
+msgid "%1 free"
+msgstr "%1 slobodno"
+
+#: memory.cpp:64
+#, kde-format
+msgid "kcm_memory"
+msgstr "kcm_memory"
+
+#: memory.cpp:65
+#, kde-format
+msgid "KDE Panel Memory Information Control Module"
+msgstr "KDE‑ov kontrolni modul za pregled memorije"
+
+#: memory.cpp:67
+#, kde-format
+msgid "(c) 1998 - 2002 Helge Deller"
+msgstr "(c) 1998 - 2002 Helge Deller"
+
+#: memory.cpp:69
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: memory.cpp:101
+#, kde-format
+msgid ""
+"This display shows you the current memory usage of your system. The values "
+"are updated on a regular basis and give you an overview of the physical and "
+"virtual memory being used."
+msgstr ""
+"Trenutna iskorišćenost memorije na sistemu. Vrijednosti se periodično "
+"ažuriraju, dajući pregled fizičke i virtuelne memorije u upotrebi."
+
+# >> @title:group
+#: memory.cpp:107
+#, kde-format
+msgid "Memory"
+msgstr "Memorija"
+
+#: memory.cpp:125
+#, kde-format
+msgid "Total physical memory:"
+msgstr "Ukupna fizička:"
+
+#: memory.cpp:128
+#, kde-format
+msgid "Free physical memory:"
+msgstr "Slobodna fizička:"
+
+#: memory.cpp:133
+#, kde-format
+msgid "Shared memory:"
+msgstr "Dijeljena:"
+
+#: memory.cpp:136
+#, kde-format
+msgid "Disk buffers:"
+msgstr "Baferi diska:"
+
+#: memory.cpp:140
+#, kde-format
+msgid "Active memory:"
+msgstr "Aktivna:"
+
+#: memory.cpp:143
+#, kde-format
+msgid "Inactive memory:"
+msgstr "Neaktivna:"
+
+#: memory.cpp:148
+#, kde-format
+msgid "Disk cache:"
+msgstr "Keš diska:"
+
+#: memory.cpp:152
+#, kde-format
+msgid "Total swap memory:"
+msgstr "Ukupna razmjenska:"
+
+#: memory.cpp:155
+#, kde-format
+msgid "Free swap memory:"
+msgstr "Slobodna razmjenska:"
+
+# >> @title:group
+#: memory.cpp:196
+#, kde-format
+msgid "Charts"
+msgstr "Grafikoni"
+
+#: memory.cpp:206
+#, kde-format
+msgid "Total Memory"
+msgstr "Ukupna memorija"
+
+#: memory.cpp:207
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>total sum of physical and virtual "
+"memory</b> in your system."
+msgstr ""
+"<html>Grafikon koji daje pregled <emphasis>ukupnog zbira fizičke i virtuelne "
+"memorije</emphasis> na sistemu.</html>."
+
+#: memory.cpp:216
+#, kde-format
+msgid "Physical Memory"
+msgstr "Fizička memorija"
+
+#: memory.cpp:217
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>usage of physical memory</b> in "
+"your system.<p>Most operating systems (including Linux) will use as much of "
+"the available physical memory as possible as disk cache, to speed up the "
+"system performance.</p><p>This means that if you have a small amount of "
+"<b>Free Physical Memory</b> and a large amount of <b>Disk Cache Memory</b>, "
+"your system is well configured.</p>"
+msgstr ""
+"<html><p>Grafikon koji daje pregled <emphasis>upotrebe fizičke memorije</"
+"emphasis> na sistemu.</p><p>Većina operativnih sistema (uključujući Linux) "
+"koristi koliko god je raspoloživo fizičke memorije kao keš diska, radi "
+"povećanja performansi sistema.</p><p>Ovo znači da kada je <emphasis>slobodne "
+"fizičke memorije</emphasis> malo, a <emphasis>memorije za keš diska</"
+"emphasis> puno, sistem je pravilno podešen.</p></html>"
+
+#: memory.cpp:232
+#, kde-format
+msgid "Swap Space"
+msgstr "Razmjena"
+
+#: memory.cpp:233
+#, kde-format
+msgid ""
+"<p>The swap space is the <b>virtual memory</b> available to the system.</p> "
+"<p>It will be used on demand and is provided through one or more swap "
+"partitions and/or swap files.</p>"
+msgstr ""
+"<html><p>Razmjena je <emphasis>virtuelna memorija</emphasis> dostupna "
+"sistemu.</p><p>Koristi se po potrebi, a pružaju je jedna ili više "
+"razmjenskih particija i/ili fajlova na disku.</p></html>"
+
+#: memory.cpp:264
+#, kde-format
+msgid "1 byte ="
+msgid_plural "%1 bytes ="
+msgstr[0] "%1 bajt ="
+msgstr[1] "%1 bajta ="
+msgstr[2] "%1 bajtova ="
+
+# >> @item:intable
+#: physicalMemoryChart.cpp:50
+#, kde-format
+msgid "Free Physical Memory"
+msgstr "Slobodna fizička"
+
+# >> @item:intable
+#: physicalMemoryChart.cpp:52
+#, kde-format
+msgid "Disk Cache"
+msgstr "Keš diska"
+
+# >> @item:intable
+#: physicalMemoryChart.cpp:54
+#, kde-format
+msgid "Disk Buffers"
+msgstr "Baferi diska"
+
+# >> @item:intable
+#: physicalMemoryChart.cpp:56
+#, kde-format
+msgid "Application Data"
+msgstr "Programski podaci"
+
+#: swapMemoryChart.cpp:47
+#, kde-format
+msgid "Free Swap"
+msgstr "Slobodna swap"
+
+#: swapMemoryChart.cpp:49 totalMemoryChart.cpp:43
+#, kde-format
+msgid "Used Swap"
+msgstr "Zauzeta swap"
+
+#: totalMemoryChart.cpp:41
+#, kde-format
+msgid "Total Free Memory"
+msgstr "Ukupna slobodna"
+
+#: totalMemoryChart.cpp:45
+#, kde-format
+msgid "Used Physical Memory"
+msgstr "Zauzeta fizička"

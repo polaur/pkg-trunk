@@ -1,0 +1,440 @@
+# translation of kcmsamba.po to Tajik
+# Copyright (C) 2004, 2005 Free Software Foundation, Inc.
+# 2004, infoDev, a World Bank organization
+# 2004, Khujand Computer Technologies, Inc.
+# 2004, Youth Opportunities, NGO
+# Victor Ibragimov <youth_opportunities@tajikngo.org>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmsamba\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-03-31 02:49+0200\n"
+"PO-Revision-Date: 2009-01-16 13:47+0500\n"
+"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+"Language-Team: Tajik\n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"НПО \"Имкониятҳои ҷавонон\" ва Khujand Computer Technologies, Inc. USA, "
+"Роҷер Ковакс, Виктор Ибрагимов, Марина Колючева"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"youth_opportunities@tajikngo.org,,rkovacs@khujand.org,,MarinaKL@tajikngo.org"
+
+#: kcmsambaimports.cpp:39 ksmbstatus.cpp:49
+#, kde-format
+msgid "Type"
+msgstr "Намуд"
+
+#: kcmsambaimports.cpp:39
+#, kde-format
+msgid "Resource"
+msgstr "Манбаъ"
+
+#: kcmsambaimports.cpp:39
+#, kde-format
+msgid "Mounted Under"
+msgstr "Савори зер"
+
+#: kcmsambaimports.cpp:41
+#, kde-format
+msgid ""
+"This list shows the Samba and NFS shared resources mounted on your system "
+"from other hosts. The \"Type\" column tells you whether the mounted resource "
+"is a Samba or an NFS type of resource. The \"Resource\" column shows the "
+"descriptive name of the shared resource. Finally, the third column, which is "
+"labeled \"Mounted under\" shows the location on your system where the shared "
+"resource is mounted."
+msgstr ""
+"Ин рӯйхат манбаъи ҷудо шавандаи Samba-ро и NFS-ро намоиш медиҳад, ки дар "
+"системаи шумо монтажонида шудааст ва ҳақиқатан дар дигар узелҳо ҷойгир "
+"шудаанд. Сутуни \"Намуд\" намуди манбаъро нишон медиҳад (Samba ёки NFS). "
+"Сутуни \"Манбаъ\" номи манбаъҳоро нишон медиҳад. Дар охир саввум сутун "
+"\"Монтажонида шуд монанди\" нишон медиҳад, ки дар кадом ҷой системаи файлии "
+"шумо, манбаъи дода шударомонтажонидааст."
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Samba log file: "
+msgstr "Файли сабти Samba:"
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Show opened connections"
+msgstr "Пайвастаҳои кушодаро нишон диҳед"
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Show closed connections"
+msgstr "Итсолҳои бастаро нишон диҳед"
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "Show opened files"
+msgstr "Файлҳои кушодаро нишон диҳед"
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "Show closed files"
+msgstr "Файлҳои пӯшидаро нишон диҳед"
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "&Update"
+msgstr "&Навсозӣ"
+
+#: kcmsambalog.cpp:58
+#, kde-format
+msgid ""
+"This page presents the contents of your samba log file in a friendly layout. "
+"Check that the correct log file for your computer is listed here. If you "
+"need to, correct the name or location of the log file, and then click the "
+"\"Update\" button."
+msgstr ""
+"Ин саҳифа ба шумо таркиби журнали Samba-ро ба намуди дастрас намоиш медиҳад. "
+"Ба тафтиши танзимоти роҳи журнали Samba-и худ шавед. Агар лозим бошад, ном "
+"ёки ҷойгир шавии журнали файлро таъир кунед ва ба рӯи кнопкаи \"Бозсозӣ\" "
+"пахш кунед."
+
+#: kcmsambalog.cpp:63
+#, kde-format
+msgid ""
+"Check this option if you want to view the details for connections opened to "
+"your computer."
+msgstr ""
+"Ин интихоботро фаъол созед агар шумо хоҳед иттилооти муфассал дар бораи "
+"робитаҳои кушод дар компютери худ бубинед."
+
+#: kcmsambalog.cpp:66
+#, kde-format
+msgid ""
+"Check this option if you want to view the events when connections to your "
+"computer were closed."
+msgstr ""
+"Ин интихоботро фаъол созед агар шумо хоҳед бинед ки кай робита бо компютери "
+"шумо пӯшида шуд."
+
+#: kcmsambalog.cpp:69
+#, kde-format
+msgid ""
+"Check this option if you want to see the files which were opened on your "
+"computer by remote users. Note that file open/close events are not logged "
+"unless the samba log level is set to at least 2 (you cannot set the log "
+"level using this module)."
+msgstr ""
+"Ин параметрро соз кунед, агар шумо хоҳед бинед ки кадом файлҳо дар компютери "
+"шумо бо истифодакунандаи нобуд шуда боз аст. Таваҷҷӯъ кунед ки воқеаҳои "
+"кушодан/пӯшидан дар журнал ҷойгир намешаванд агар дараҷаи протоколонӣ дар "
+"Samba аз 2 кам бошад (афсӯс ки шумо наметавонед ин дараҷаро бо ёрии ин модул "
+"дигаргун созед)."
+
+#: kcmsambalog.cpp:75
+#, kde-format
+msgid ""
+"Check this option if you want to see the events when files opened by remote "
+"users were closed. Note that file open/close events are not logged unless "
+"the samba log level is set to at least 2 (you cannot set the log level using "
+"this module)."
+msgstr ""
+"Ин параметрро соз кунед, агар шумо хоҳед воқеаҳои пӯшида шавии файлҳоинобуд "
+"шудаи истифодакунандаро бинед. Таваҷҷӯъ кунед ки воқеаҳои кушодан/пӯшидандар "
+"журнал ҷойгир намешаванд агар дараҷаи протоколонӣ дар Samba аз 2 кам бошад "
+"(афсӯс ки шумо наметавонед ин дараҷаро бо ёрии ин модул дигаргун созед)."
+
+#: kcmsambalog.cpp:81
+#, kde-format
+msgid ""
+"Click here to refresh the information on this page. The log file (shown "
+"above) will be read to obtain the events logged by samba."
+msgstr ""
+"Барои бозсозии ахборот рӯи саҳифа дар инҷо пахш кунед.Файли журнал (қаблан "
+"нишон дода) барои бозсозии ахборот хонда хоҳад шуд."
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:90
+#, kde-format
+msgid "Date & Time"
+msgstr "Таърих ва вақт"
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:90 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Event"
+msgstr "Рӯйдод"
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:91 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Service/File"
+msgstr "Хизмат/Файл"
+
+#: kcmsambalog.cpp:90 kcmsambalog.cpp:91 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Host/User"
+msgstr "Мизбон/Истифодакунанда"
+
+#: kcmsambalog.cpp:94
+#, kde-format
+msgid ""
+"<p>This list shows details of the events logged by samba. Note that events "
+"at the file level are not logged unless you have configured the log level "
+"for samba to 2 or greater.</p><p> As with many other lists in KDE, you can "
+"click on a column heading to sort on that column. Click again to change the "
+"sorting direction from ascending to descending or vice versa.</p><p> If the "
+"list is empty, try clicking the \"Update\" button. The samba log file will "
+"be read and the list refreshed.</p>"
+msgstr ""
+"<p>Ин рӯйхат воқеаи корбари журнали Samba-ро нишон медиҳад. Таваҷҷӯъ кунед, "
+"ки воқеаҳо дар журнал вуруд намешаванд агар дараҷаи протоколонӣ дар Samba аз "
+"2 кам бошад.</p><p> Монанди дигар рӯйхатҳои KDE, шумо метавонед рӯи муш дар "
+"сарлавҳаи сутун барои ҷо ба ҷо кардани онҳо пахш кунед. Боз як бори дигар "
+"барои тартиби ҷо ба ҷо карданро таъғир додан, рӯи кнопкаи муш пахш кунед.</"
+"p><p> Агар рӯйхат холӣ бошад, кӯшиш кунед рӯи кнопкаи \"Бозсозӣ\" пахш "
+"кунед. Файли журнали samba хонда хоҳад шуд ва рӯйхат ҳам бозсозӣ хоҳад шуд.</"
+"p>"
+
+#: kcmsambalog.cpp:205 kcmsambastatistics.cpp:149 kcmsambastatistics.cpp:214
+#, kde-format
+msgid "CONNECTION OPENED"
+msgstr "ПАЙВАСТШАВӢ КУШОДА ШУД"
+
+#: kcmsambalog.cpp:209
+#, kde-format
+msgid "CONNECTION CLOSED"
+msgstr "ИТСОЛ БАСТА ШУД"
+
+#: kcmsambalog.cpp:214
+#, kde-format
+msgid "            FILE OPENED"
+msgstr "            ФАЙЛ КУШОДА ШУД"
+
+#: kcmsambalog.cpp:220
+#, kde-format
+msgid "            FILE CLOSED"
+msgstr "            ФАЙЛ ПӮШИДА ШУД"
+
+#: kcmsambalog.cpp:228
+#, kde-format
+msgid "Could not open file %1"
+msgstr "Наметавон файли %1"
+
+#: kcmsambastatistics.cpp:43
+#, kde-format
+msgid "Connections: 0"
+msgstr "Робитаҳо: 0"
+
+#: kcmsambastatistics.cpp:45
+#, kde-format
+msgid "File accesses: 0"
+msgstr "Дастрасӣ ба файли: 0"
+
+#: kcmsambastatistics.cpp:48
+#, kde-format
+msgid "Event: "
+msgstr "Воқеа: "
+
+#: kcmsambastatistics.cpp:52
+#, kde-format
+msgid "Service/File:"
+msgstr "Хизмат/Файл:"
+
+#: kcmsambastatistics.cpp:56
+#, kde-format
+msgid "Host/User:"
+msgstr "Узел/Истифодакунанда:"
+
+#: kcmsambastatistics.cpp:59
+#, kde-format
+msgid "&Search"
+msgstr "&Ҷустуҷӯ"
+
+#: kcmsambastatistics.cpp:60
+#, kde-format
+msgid "Clear Results"
+msgstr "Натиҷаҳоро тоза кунед"
+
+#: kcmsambastatistics.cpp:61
+#, kde-format
+msgid "Show expanded service info"
+msgstr "Нишон додани иттилооти кушод дар бораи хизматгоҳ"
+
+#: kcmsambastatistics.cpp:62
+#, kde-format
+msgid "Show expanded host info"
+msgstr "Намоиши иттилооти кушод дар бораи узел"
+
+#: kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Nr"
+msgstr "Nr"
+
+#: kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Hits"
+msgstr "Кӯшишиятҳо"
+
+#: kcmsambastatistics.cpp:72 kcmsambastatistics.cpp:137
+#, kde-format
+msgid "Connection"
+msgstr "Алоқа"
+
+#: kcmsambastatistics.cpp:73
+#, kde-format
+msgid "File Access"
+msgstr "Дастрасӣ ба файл"
+
+#: kcmsambastatistics.cpp:127
+#, kde-format
+msgid "Connections: %1"
+msgstr "Алоқаҳо: %1"
+
+#: kcmsambastatistics.cpp:128
+#, kde-format
+msgid "File accesses: %1"
+msgstr "Дастрасӣ ба файли: %1"
+
+#: kcmsambastatistics.cpp:162 kcmsambastatistics.cpp:217
+#, kde-format
+msgid "FILE OPENED"
+msgstr "ФАЙЛ БОЗ АСТ"
+
+#: ksmbstatus.cpp:49
+#, kde-format
+msgid "Service"
+msgstr "Хизмат"
+
+#: ksmbstatus.cpp:49
+#, kde-format
+msgid "Accessed From"
+msgstr "Дастрас мебошад аз"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "UID"
+msgstr "UID"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "GID"
+msgstr "GID"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "PID"
+msgstr "PID"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "Open Files"
+msgstr "Кушодани файлҳо"
+
+#: ksmbstatus.cpp:169
+#, fuzzy, kde-format
+#| msgid "Error: Unable to run smbstatus"
+msgid "Error run smbstatus: %1"
+msgstr "Хато: Наметавонад smbstatus-ро иҷро кард"
+
+#: ksmbstatus.cpp:172
+#, kde-format
+msgid "Error: Unable to open configuration file \"smb.conf\""
+msgstr "Хато: Нметавон танзимоти файли \"smb.conf\"-ро кушод"
+
+#: main.cpp:58
+#, kde-format
+msgid "&Exports"
+msgstr "&Содиротҳо"
+
+#: main.cpp:59
+#, kde-format
+msgid "&Imports"
+msgstr "&Воридотҳо"
+
+#: main.cpp:60
+#, kde-format
+msgid "&Log"
+msgstr "&Сабти рӯйдод"
+
+#: main.cpp:61
+#, kde-format
+msgid "&Statistics"
+msgstr "&Омор"
+
+#: main.cpp:65
+#, kde-format
+msgid ""
+"<p>The Samba and NFS Status Monitor is a front end to the programs "
+"<em>smbstatus</em> and <em>showmount</em>. Smbstatus reports on current "
+"Samba connections, and is part of the suite of Samba tools, which implements "
+"the SMB (Session Message Block) protocol, also called the NetBIOS or "
+"LanManager protocol. This protocol can be used to provide printer sharing or "
+"drive sharing services on a network including machines running the various "
+"flavors of Microsoft Windows.</p>"
+msgstr ""
+"<p>Samba ва NFS Status Monitor ҷилди графикӣ барои барномаҳои <em>smbstatus</"
+"em> ва <em>showmount</em> мебошанд. Smbstatus статуси робитаи равони ба "
+"Samba-сервер бударо чоп мекунад ва қисми пакети Samba мебошад, ки протоколи "
+"SMB-ро (Session Message Block) иҷро мекунад, ҳамчунин номбар шудаи NetBIOS "
+"ёки LanManager мебошад. Ин протокол барои ҷудо кардани чопгар ва манбаъҳои "
+"дискии дар шабақае, ки дорои мошинмебошад, истифода мешавад ва бо ривоятҳои "
+"гуногуни Microsoft Windows кор мекунад.</p><p>Showmount ин қисми пакети NFS "
+"мебошад, ки маънои  Network File System (системаи файлии шабақа) мебошад ва  "
+"тарзи расмӣ дар UNIX мебошад, ки барои ҷудо кардани каталогҳо дар шабақа, "
+"истифода мешавад. Дар ин ҳолат ба қисмҳои асосии хулосаи фармони "
+"<em>showmount-и localhost</em> тақсим мешавад. Дар якхел системаҳо showmount "
+"дар каталоги/usr/sbin ҷойгир шудааст. Тафтиш гузаронед, ки шумо дорои "
+"showmount мебошед дар PATH-и худ.</p>"
+
+#: main.cpp:73
+#, kde-format
+msgid "kcmsamba"
+msgstr "kcmsamba"
+
+#: main.cpp:74
+#, fuzzy, kde-format
+#| msgid "KDE Panel System Information Control Module"
+msgid "System Information Control Module"
+msgstr "Бахши контроли иттилооти системаи сафҳаи конроли KDE"
+
+#: main.cpp:76
+#, kde-format
+msgid "(c) 2002 KDE Information Control Module Samba Team"
+msgstr "(c) 2002 KDE Information Control Module Samba Team"
+
+#: main.cpp:77
+#, kde-format
+msgid "Michael Glauche"
+msgstr "Michael Glauche"
+
+#: main.cpp:78
+#, kde-format
+msgid "Matthias Hoelzer"
+msgstr "Matthias Hoelzer"
+
+#: main.cpp:79
+#, kde-format
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:80
+#, kde-format
+msgid "Harald Koschinski"
+msgstr "Harald Koschinski"
+
+#: main.cpp:81
+#, kde-format
+msgid "Wilco Greven"
+msgstr "Wilco Greven"
+
+#: main.cpp:82
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"

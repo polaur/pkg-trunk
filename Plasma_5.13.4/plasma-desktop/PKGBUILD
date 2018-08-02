@@ -1,0 +1,122 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# for version with patches from upcoming releases
+# made upon the original works by:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgbase=plasma-desktop
+pkgname=(plasma-desktop knetattach)
+pkgver=5.13.4
+pkgrel=1.3
+pkgdesc='KDE Plasma Desktop'
+arch=(x86_64)
+url='https://www.kde.org/workspaces/plasmadesktop/'
+license=(LGPL)
+source=("https://download.kde.org/stable/plasma/$pkgver/$pkgname-$pkgver.tar.xz"{,.sig}
+kdebug-393912.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=d234b8fde4c3c131545686a117e284b31c6a95a9"
+kdebug-388205.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=62f92fd822efb059a07dd77c93158ecba73d1ced"
+workspace_KCM_code_improvement.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=de742972bf317182a0cdff6bfa4f6d22abcf9a6a"
+kdebug-362986.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=52cd092af19934424e0f1a6d5b3e469c149de2ef"
+D13185.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=9c5d8bfd66a44b8de0ae9b79a758959aa3c3a86d"
+kdebug-395155.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=b8c8ba51ffc78d9a3e90867b849f376d6a1e89b5"
+kdebug-395262.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=42a74c9a79baafb222513f3ffad35b736b708454"
+kdebug-395594.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=664865f12bc756f4ac75e2915dfebb88aa3abf54"
+kdebug-396666.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=1cb71a2cca8a46512f5ac0cb03da268dde8d9c7d"
+kdebug-384862.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=3485b7d30efa2fadf695391bd7947aac0cded819"
+kdebug-379524.patch::"https://cgit.kde.org/plasma-desktop.git/patch/?id=60c895758f20bd2cb17ab12e57cf34cc37197098"
+)
+depends=(polkit-kde-agent libcanberra libxkbfile kmenuedit appstream-qt systemsettings ksysguard kpeople baloo qt5-graphicaleffects)
+makedepends=(extra-cmake-modules kdoctools boost xf86-input-evdev xf86-input-synaptics xf86-input-libinput xorg-server-devel
+             libibus scim kdesignerplugin)
+groups=(plasma)
+sha256sums=('bd394a063481a153edc71ff72972b5f480c3913ce17ec3e49b494db986aebef2'
+            'SKIP'
+            'e35ea3f06702cabc22cf7602f54af58d1b65256137111b68a6b25b90112f896a'
+            'c35e211a45974c0aba6dc96574b76c7f0883304687c4b4e45e52bd7d9c6d462e'
+            '57de03eae81e6fc447fd059e9a163051bbbee2f1a6f8b228e5b60a0ea7b5d893'
+            '051cb3ce5689a7c8bba537437d206a880379ccd29ef2a0f78f3f6e391a86939c'
+            'e095a0d9d162096af38f9b904461d526e7e1f071ea462e166cde426c95e70782'
+            '1d99040af0486b20b70f59daceed3e81153e054a702cd974fc0f8bc7368ae448'
+            'e61cc3642971b07cc0b6b6f03e4a7ae7e45cd872b28569e82458ae3c42d6d94c'
+            'f2ca77ce44d1d57f9d6a92b71d8184a4d3b5608142ea8ee5ca64d51066b27f49'
+            '760f700e69198c8e75ffa20f0e4b8c51b1fa7a5bf83db3aa07400cd4cf4e626f'
+            '36a6f54fef8d29b91f880cd8e5390a01ae5f8ec03d6c65132509863feb3352fc'
+            'e3b76626998dd5b124a58a279af59d9d359c088e7b215adafdbe5920fcc5deab')
+validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell
+              '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
+              'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson
+              '1FA881591C26B276D7A5518EEAAF29B42A678C20') # Marco Martin <notmart@gmail.com>
+
+prepare() {
+  mkdir -p build
+  
+  cd $pkgname-$pkgver
+  
+  msg "Add KDEBUG 393912 patch"
+  patch -p1 -i ../kdebug-393912.patch
+    
+  msg "Add KDEBUG 388205 patch" # Fixed in 5.14.0
+  patch -p1 -i ../kdebug-388205.patch
+  
+  msg "Workspace KCM code improvement"
+  patch -p1 -i ../workspace_KCM_code_improvement.patch
+  
+  msg "Add KDEBUG 362986 patch"
+  patch -p1 -i ../kdebug-362986.patch
+  
+  msg "Make the string 'No touchpad found' translatable"
+  patch -p1 -i ../D13185.patch
+  
+  msg "Add KDEBUG 395262 patch"
+  patch -p1 -i ../kdebug-395262.patch
+
+  msg "Add KDEBUG 395594 patch"
+  patch -p1 -i ../kdebug-395594.patch
+
+  msg "Add KDEBUG 396666 patch"
+  patch -p1 -i ../kdebug-396666.patch
+
+  msg "Add KDEBUG 384862 patch"
+  patch -p1 -i ../kdebug-384862.patch
+
+  msg "Add KDEBUG 379524, 379324, 349673, 361960, 392267 patch"
+  patch -p1 -i ../kdebug-379524.patch
+  }
+
+build() {
+  cd build
+  cmake ../$pkgname-$pkgver \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_INSTALL_LIBDIR=lib \
+    -DCMAKE_INSTALL_LIBEXECDIR=lib \
+    -DKDE_INSTALL_SYSCONFDIR=/etc \
+    -DKDE_INSTALL_QMLDIR=/usr/lib/qt/qml \
+    -DKDE_INSTALL_PLUGINDIR=/usr/lib/qt/plugins \
+    -DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+    -DBUILD_TESTING=OFF
+  make
+}
+
+package_plasma-desktop() {
+  depends+=(knetattach)
+  optdepends=('plasma-nm: Network manager applet'
+              'powerdevil: power management'
+              'ibus: kimpanel IBUS support'
+              'scim: kimpanel SCIM support'
+              'discover: manage applications installation from the launcher')
+
+  cd build
+  make DESTDIR="$pkgdir" install
+
+# Split knetattach
+  rm "$pkgdir"/usr/{bin/knetattach,share/applications/org.kde.knetattach.desktop}
+}
+
+package_knetattach() {
+  pkgdesc='Wizard which makes it easier to integrate network resources with the Plasma Desktop'
+  depends=(kdelibs4support)
+
+  cd build/knetattach
+  make DESTDIR="$pkgdir" install
+}

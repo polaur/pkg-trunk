@@ -1,0 +1,415 @@
+# translation of kcmusb.po to
+# Copyright (C) 2008 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcmusb package.
+# ANI PETER|അനി പീറ്റര്‍ <apeter@redhat.com>, 2008
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmusb\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:20+0100\n"
+"PO-Revision-Date: 2008-07-11 15:37+0530\n"
+"Last-Translator: ANI PETER|അനി പീറ്റര്‍ <apeter@redhat.com>\n"
+"Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc-"
+"discuss@googlegroups.com>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "അനി പീറ്റര്‍"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "apeter@redhat.com"
+
+#: classes.i18n:1
+#, kde-format
+msgid "AT-commands"
+msgstr "AT-ആജ്ഞകള്‍"
+
+#: classes.i18n:2
+#, kde-format
+msgid "ATM Networking"
+msgstr "ATM നെറ്റ്‌വര്‍ക്കിങ്"
+
+#: classes.i18n:3
+#, kde-format
+msgid "Abstract (modem)"
+msgstr "അബ്സ്ട്രാക്ട് (മോഡം)"
+
+#: classes.i18n:4
+#, kde-format
+msgid "Audio"
+msgstr "ഓഡിയോ"
+
+#: classes.i18n:5
+#, kde-format
+msgid "Bidirectional"
+msgstr "ഇരുവശത്തേത്തുമുള്ള"
+
+#: classes.i18n:6
+#, kde-format
+msgid "Boot Interface Subclass"
+msgstr "വിനിമയതലം സബ്ക്ലാസ്സ് ബൂട്ട് ചെയ്യുക"
+
+#: classes.i18n:7
+#, kde-format
+msgid "Bulk (Zip)"
+msgstr "Bulk (Zip)"
+
+#: classes.i18n:8
+#, kde-format
+msgid "CAPI 2.0"
+msgstr "CAPI 2.0"
+
+#: classes.i18n:9
+#, kde-format
+msgid "CAPI Control"
+msgstr "CAPI കണ്ട്രോള്‍"
+
+#: classes.i18n:10
+#, kde-format
+msgid "CDC PUF"
+msgstr "CDC PUF"
+
+#: classes.i18n:11
+#, kde-format
+msgid "Communications"
+msgstr "ആശയവിനിമയങ്ങള്‍"
+
+#: classes.i18n:12
+#, kde-format
+msgid "Control Device"
+msgstr "നിയന്ത്രണ ഉപകരണം"
+
+#: classes.i18n:13
+#, kde-format
+msgid "Control/Bulk"
+msgstr "Control/Bulk"
+
+#: classes.i18n:14
+#, kde-format
+msgid "Control/Bulk/Interrupt"
+msgstr "Control/Bulk/Interrupt"
+
+#: classes.i18n:15
+#, kde-format
+msgid "Data"
+msgstr "ഡേറ്റാ"
+
+#: classes.i18n:16
+#, kde-format
+msgid "Direct Line"
+msgstr "നേരിട്ടുള്ള ലൈന്‍"
+
+#: classes.i18n:17
+#, kde-format
+msgid "Ethernet Networking"
+msgstr "ഇഥര്‍നെറ്റ് നെറ്റ്‌വര്‍ക്കിങ്"
+
+#: classes.i18n:18
+#, kde-format
+msgid "Floppy"
+msgstr "ഫ്ലോപ്പി"
+
+#: classes.i18n:19
+#, kde-format
+msgid "HDLC"
+msgstr "HDLC"
+
+#: classes.i18n:20
+#, kde-format
+msgid "Host Based Driver"
+msgstr "ഹോസ്റ്റ് അടിസ്ഥാനത്തിലുള്ള ഡ്രൈവര്‍"
+
+#: classes.i18n:21
+#, kde-format
+msgid "Hub"
+msgstr "ഹബ്"
+
+#: classes.i18n:22
+#, kde-format
+msgid "Human Interface Devices"
+msgstr "മനുഷ്യനുമായുള്ള വിനിമയതലമായ ഉപകരണങ്ങള്‍"
+
+#: classes.i18n:23
+#, kde-format
+msgid "I.430 ISDN BRI"
+msgstr "I.430 ISDN BRI"
+
+#: classes.i18n:24
+#, kde-format
+msgid "Interface"
+msgstr "വിനിമയതലം"
+
+#: classes.i18n:25
+#, kde-format
+msgid "Keyboard"
+msgstr "കീബോര്‍ഡ്"
+
+#: classes.i18n:26
+#, kde-format
+msgid "Mass Storage"
+msgstr "വലിയ സംഭരണം"
+
+#: classes.i18n:27
+#, kde-format
+msgid "Mouse"
+msgstr "മൌസ്"
+
+#: classes.i18n:28
+#, kde-format
+msgid "Multi-Channel"
+msgstr "മള്‍ട്ടി-ചാനല്‍"
+
+#: classes.i18n:29
+#, kde-format
+msgid "No Subclass"
+msgstr "സബ്ക്ലാസ്സില്ല"
+
+#: classes.i18n:30
+#, kde-format
+msgid "Non Streaming"
+msgstr "നോണ്‍ സ്ട്രീമിങ്"
+
+#: classes.i18n:31
+#, kde-format
+msgid "None"
+msgstr "ഒന്നുമല്ല"
+
+#: classes.i18n:32
+#, kde-format
+msgid "Printer"
+msgstr "അച്ചടിയന്ത്രം"
+
+#: classes.i18n:33
+#, kde-format
+msgid "Q.921"
+msgstr "Q.921"
+
+#: classes.i18n:34
+#, kde-format
+msgid "Q.921M"
+msgstr "Q.921M"
+
+#: classes.i18n:35
+#, kde-format
+msgid "Q.921TM"
+msgstr "Q.921TM"
+
+#: classes.i18n:36
+#, kde-format
+msgid "Q.932 EuroISDN"
+msgstr "Q.932 EuroISDN"
+
+#: classes.i18n:37
+#, kde-format
+msgid "SCSI"
+msgstr "SCSI"
+
+#: classes.i18n:38
+#, kde-format
+msgid "Streaming"
+msgstr "സ്ട്രീമിങ്"
+
+#: classes.i18n:39
+#, kde-format
+msgid "Telephone"
+msgstr "ടെലിഫോണ്‍"
+
+#: classes.i18n:40
+#, kde-format
+msgid "Transparent"
+msgstr "സുതാര്യമായ"
+
+#: classes.i18n:41
+#, kde-format
+msgid "Unidirectional"
+msgstr "ഒരു വശത്തേക്കുള്ള"
+
+#: classes.i18n:42
+#, kde-format
+msgid "V.120 V.24 rate ISDN"
+msgstr "V.120 V.24 rate ISDN"
+
+#: classes.i18n:43
+#, kde-format
+msgid "V.42bis"
+msgstr "V.42bis"
+
+#: classes.i18n:44
+#, kde-format
+msgid "Vendor Specific"
+msgstr "വില്‍പ്പനക്കാരന്‍ അനുസരിച്ചുള്ള"
+
+#: classes.i18n:45
+#, kde-format
+msgid "Vendor Specific Class"
+msgstr "വില്‍പ്പനക്കാരന്‍ അനുസരിച്ചുള്ള ക്ലാസ്സ്"
+
+#: classes.i18n:46
+#, kde-format
+msgid "Vendor Specific Protocol"
+msgstr "വില്‍പ്പനക്കാരന്‍ അനുസരിച്ചുള്ള സമ്പ്രദായം"
+
+#: classes.i18n:47
+#, kde-format
+msgid "Vendor Specific Subclass"
+msgstr "വില്‍പ്പനക്കാരന്‍ അനുസരിച്ചുള്ള സബ്ക്ലാസ്സ്"
+
+#: classes.i18n:48
+#, kde-format
+msgid "Vendor specific"
+msgstr "വില്‍പ്പനക്കാരന്‍ അനുസരിച്ചുള്ള"
+
+#: kcmusb.cpp:35
+#, kde-format
+msgid "This module allows you to see the devices attached to your USB bus(es)."
+msgstr "നിങ്ങളുടെ യുഎസ്ബി ബസുകളിലേക്കു് ഘടപ്പിച്ചിട്ടുള്ള ഉപകരണങ്ങള്‍ കാണുവാന്‍ ഈ ഘടകം അനുവദിക്കുന്നു."
+
+#: kcmusb.cpp:49
+#, kde-format
+msgid "Device"
+msgstr "ഉപകരണം"
+
+#: kcmusb.cpp:69
+#, kde-format
+msgid "kcmusb"
+msgstr "kcmusb"
+
+#: kcmusb.cpp:69
+#, fuzzy, kde-format
+#| msgid "Device"
+msgid "USB Devices"
+msgstr "ഉപകരണം"
+
+#: kcmusb.cpp:71
+#, kde-format
+msgid "(c) 2001 Matthias Hoelzer-Kluepfel"
+msgstr "(c) 2001 മത്തിയാസ് ഹൌല്‍സര്‍-ക്ല്യൂഫല്‍"
+
+#: kcmusb.cpp:73
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "മത്തിയാസ് ഹൌല്‍സര്‍-ക്ല്യൂഫല്‍"
+
+#: kcmusb.cpp:74
+#, kde-format
+msgid "Leo Savernik"
+msgstr "ലിയോ സാവേണിക്"
+
+#: kcmusb.cpp:74
+#, kde-format
+msgid "Live Monitoring of USB Bus"
+msgstr "യുഎസ്ബി ബസുകളെ നിരന്തരം നിരീക്ഷിക്കുക"
+
+#: usbdevices.cpp:148
+#, kde-format
+msgid "Unknown"
+msgstr "അപരിചിതം"
+
+#: usbdevices.cpp:157
+#, kde-format
+msgid "<b>Manufacturer:</b> "
+msgstr "<b>നിര്‍മ്മാതാവു്:</b> "
+
+#: usbdevices.cpp:159
+#, kde-format
+msgid "<b>Serial #:</b> "
+msgstr "<b>സീരിയല്‍ #:</b> "
+
+#: usbdevices.cpp:167
+#, kde-format
+msgid "<tr><td><i>Class</i></td>%1</tr>"
+msgstr "<tr><td><i>ക്ലാസ്സ്</i></td>%1</tr>"
+
+#: usbdevices.cpp:172
+#, kde-format
+msgid "<tr><td><i>Subclass</i></td>%1</tr>"
+msgstr "<tr><td><i>സബ്ക്ലാസ്സ്</i></td>%1</tr>"
+
+#: usbdevices.cpp:177
+#, kde-format
+msgid "<tr><td><i>Protocol</i></td>%1</tr>"
+msgstr "<tr><td><i>സമ്പ്രദായം</i></td>%1</tr>"
+
+#: usbdevices.cpp:179
+#, kde-format
+msgid "<tr><td><i>USB Version</i></td><td>%1.%2</td></tr>"
+msgstr "<tr><td><i>യുഎസ്ബി പതിപ്പു്</i></td><td>%1.%2</td></tr>"
+
+#: usbdevices.cpp:189
+#, kde-format
+msgid "<tr><td><i>Vendor ID</i></td><td>0x%1</td></tr>"
+msgstr "<tr><td><i>വില്‍പ്പനക്കാരനുള്ള ID</i></td><td>0x%1</td></tr>"
+
+#: usbdevices.cpp:194
+#, kde-format
+msgid "<tr><td><i>Product ID</i></td><td>0x%1</td></tr>"
+msgstr "<tr><td><i>പ്രൊഡക്ട് ID</i></td><td>0x%1</td></tr>"
+
+#: usbdevices.cpp:195
+#, kde-format
+msgid "<tr><td><i>Revision</i></td><td>%1.%2</td></tr>"
+msgstr "<tr><td><i>റിവിഷന്‍</i></td><td>%1.%2</td></tr>"
+
+#: usbdevices.cpp:200
+#, kde-format
+msgid "<tr><td><i>Speed</i></td><td>%1 Mbit/s</td></tr>"
+msgstr "<tr><td><i>വേഗത</i></td><td>%1 Mbit/s</td></tr>"
+
+#: usbdevices.cpp:201
+#, kde-format
+msgid "<tr><td><i>Channels</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>ചാനലുകള്‍</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:204
+#, kde-format
+msgid "<tr><td><i>Power Consumption</i></td><td>%1 mA</td></tr>"
+msgstr "<tr><td><i>പവര്‍ ഉപഭോഗം</i></td><td>%1 mA</td></tr>"
+
+#: usbdevices.cpp:206
+#, kde-format
+msgid "<tr><td><i>Power Consumption</i></td><td>self powered</td></tr>"
+msgstr "<tr><td><i>പവര്‍ ഉപഭോഗം</i></td><td>self powered</td></tr>"
+
+#: usbdevices.cpp:207
+#, kde-format
+msgid "<tr><td><i>Attached Devicenodes</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>കൂടെചേര്‍ത്തിട്ടുള്ള ഉപകരണംനോഡുകള്‍</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:215
+#, kde-format
+msgid "<tr><td><i>Max. Packet Size</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>ഏറ്റവും വലിയ പാക്കേറ്റ് വലിപ്പം</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:220
+#, kde-format
+msgid "<tr><td><i>Bandwidth</i></td><td>%1 of %2 (%3%)</td></tr>"
+msgstr "<tr><td><i>ബാന്‍ഡ്‌വിഡ്ത്</i></td><td>%1 of %2 (%3%)</td></tr>"
+
+#: usbdevices.cpp:221
+#, kde-format
+msgid "<tr><td><i>Intr. requests</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>Intr. ആവശ്യങ്ങള്‍</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:222
+#, kde-format
+msgid "<tr><td><i>Isochr. requests</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>Isochr. ആവശ്യങ്ങള്‍</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:428
+#, kde-format
+msgid ""
+"Could not open one or more USB controller. Make sure, you have read access "
+"to all USB controllers that should be listed here."
+msgstr ""
+"ഒന്നോ അതിലധികമോ യുഎസ്ബി കണ്ട്രോളര്‍ ലഭ്യമാക്കുവാന്‍ സാധ്യമായില്ല. ഇവിടെ കാണപ്പെടുന്ന എല്ലാ "
+"യുഎസ്ബി കണ്ട്രോളുകളിലേക്കും നിങ്ങള്‍ക്കു് പ്രവേശിക്കുവാന്‍ സാധിക്കും എന്നുറപ്പാക്കുക."

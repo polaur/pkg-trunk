@@ -1,0 +1,220 @@
+# translation of kcm_memory.po to Khmer
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_memory\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-09-16 03:33+0200\n"
+"PO-Revision-Date: 2010-06-08 13:57+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer <support@khmeros.info>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ខឹម សុខែម, អេង វណ្ណៈ, អោក ពិសិដ្ឋ"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "khoemsokhem@khmeros.info,​​evannak@khmeros.info,piseth_dv@khmeros.info"
+
+#: chartWidget.cpp:56 chartWidget.cpp:57 memory.cpp:270
+#, kde-format
+msgid "Not available."
+msgstr "មិនមាន ។"
+
+#: chartWidget.cpp:106
+#, kde-format
+msgid "%1 free"
+msgstr "ទំនេរ %1"
+
+#: memory.cpp:64
+#, kde-format
+msgid "kcm_memory"
+msgstr "kcm_memory"
+
+#: memory.cpp:65
+#, kde-format
+msgid "KDE Panel Memory Information Control Module"
+msgstr "ម៉ូឌុល​វត្ថុ​បញ្ជា​ព័ត៌មាន​សតិ​មន្ទះ​របស់ KDE"
+
+#: memory.cpp:67
+#, kde-format
+msgid "(c) 1998 - 2002 Helge Deller"
+msgstr "រក្សាសិទ្ធិ​ឆ្នាំ ១៩៩៨ - ២០០២ ដោយ Helge Deller"
+
+#: memory.cpp:69
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: memory.cpp:101
+#, kde-format
+msgid ""
+"This display shows you the current memory usage of your system. The values "
+"are updated on a regular basis and give you an overview of the physical and "
+"virtual memory being used."
+msgstr ""
+"ការ​បង្ហាញ​នេះ បង្ហាញ​អ្នក​នូវ​ការ​ប្រើប្រាស់​សតិ​បច្ចុប្បន្ន​នៃ​ប្រព័ន្ធ​របស់​អ្នក ។ តម្លៃ​ត្រូវ​បាន​ធ្វើ​​"
+"បច្ចុប្បន្នភាព​​នៅ​លើមូលដ្ឋាន​ជា​ទូទៅ​ និង​ផ្ដល់​ឲ្យ​អ្នក​នូវ​សតិ​និម្មិត និង​ហ្វីស៊ីខល​ដែល​កំពុង​ត្រូវ​បានប្រើ ។"
+
+#: memory.cpp:107
+#, kde-format
+msgid "Memory"
+msgstr "សតិ"
+
+#: memory.cpp:125
+#, kde-format
+msgid "Total physical memory:"
+msgstr "សតិ​ហ្វីស៊ីខល​សរុប ៖"
+
+#: memory.cpp:128
+#, kde-format
+msgid "Free physical memory:"
+msgstr "សតិ​ហ្វីស៊ិខល​ទំនេរ ៖"
+
+#: memory.cpp:133
+#, kde-format
+msgid "Shared memory:"
+msgstr "សតិ​រួម ៖"
+
+#: memory.cpp:136
+#, kde-format
+msgid "Disk buffers:"
+msgstr "សតិ​បណ្ដោះអាសន្ន​របស់​ថាស ៖"
+
+#: memory.cpp:140
+#, kde-format
+msgid "Active memory:"
+msgstr "សតិ​សកម្ម ៖"
+
+#: memory.cpp:143
+#, kde-format
+msgid "Inactive memory:"
+msgstr "សតិ​មិន​សកម្ម ៖"
+
+#: memory.cpp:148
+#, kde-format
+msgid "Disk cache:"
+msgstr "ឃ្លាំង​សម្ងាត់​ថាស ៖"
+
+#: memory.cpp:152
+#, kde-format
+msgid "Total swap memory:"
+msgstr "សតិ​ស្វប​សរុប ៖"
+
+#: memory.cpp:155
+#, kde-format
+msgid "Free swap memory:"
+msgstr "សតិ​ស្វប​ទំនេរ ៖"
+
+#: memory.cpp:196
+#, kde-format
+msgid "Charts"
+msgstr "គំនូស​តាង"
+
+#: memory.cpp:206
+#, kde-format
+msgid "Total Memory"
+msgstr "សតិ​សរុប"
+
+#: memory.cpp:207
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>total sum of physical and virtual "
+"memory</b> in your system."
+msgstr ""
+"ក្រាហ្វិក​នេះ​ផ្ដល់​ឲ្យ​អ្នក​នូវ​ទិដ្ឋភាព​ទូទៅ​របស់ <b>សតិ​និម្មិត និង​ហ្វីស៊ីខល​សរុប</b> នៅ​ក្នុង​ប្រព័ន្ធ​របស់​អ្នក ។"
+
+#: memory.cpp:216
+#, kde-format
+msgid "Physical Memory"
+msgstr "សតិ​ហ្វីស៊ីខល"
+
+#: memory.cpp:217
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>usage of physical memory</b> in "
+"your system.<p>Most operating systems (including Linux) will use as much of "
+"the available physical memory as possible as disk cache, to speed up the "
+"system performance.</p><p>This means that if you have a small amount of "
+"<b>Free Physical Memory</b> and a large amount of <b>Disk Cache Memory</b>, "
+"your system is well configured.</p>"
+msgstr ""
+"ក្រាហ្វ​នេះ​ផ្ដល់​ឲ្យ​អ្នកនូវ​ទិដ្ឋភាព​ទូទៅ​នៃ <b>កា​រប្រើ​សតិ​ហ្វីស៊ីខល</b> នៅ​ក្នុង​ប្រព័ន្ធ​របស់​អ្នក ។<p>ប្រព័ន្ធ​"
+"ប្រតិបត្តិការ​ភាគ​ច្រើន​ (រួម​ទាំង​លីនុច)នឹង​ប្រើ​សតិហ្វីស៊ីខល​ដែល​មាន​ជា​ច្រើន​តាម​ឃ្លាំង​សម្ងាត់​ថាស ដើម្បី​បង្កើន​"
+"ល្បឿន​កា​រអនុវត្ត​ប្រព័ន្ធ ។</p><p>នេះ​មាន​ន័យ​ថា ប្រសិនបើ​អ្នក​មាន​<b>សតិ​ហ្វីស៊ីខល​ទំនេរ</b> តិច ហើយ​"
+"មាន<b>សតិ​ឃ្លាំង​សម្ងាត់​ថាស</b> ធំ ប្រព័ន្ធ​របស់​អ្នក​ត្រូវ​បាន​កំណត់​រចនាសម្ព័ន្ធ​យ៉ាង​ល្អ ។</p>"
+
+#: memory.cpp:232
+#, kde-format
+msgid "Swap Space"
+msgstr "ទំហំ​ស្វប"
+
+#: memory.cpp:233
+#, kde-format
+msgid ""
+"<p>The swap space is the <b>virtual memory</b> available to the system.</p> "
+"<p>It will be used on demand and is provided through one or more swap "
+"partitions and/or swap files.</p>"
+msgstr ""
+"<p>ទំហំ​ស្វប​មាន <b>សតិនិម្មិត</b> ក្នុង​ប្រព័ន្ធ ។</p> <p>វា​នឹង​ត្រូវ​បាន​ប្រើ​នៅពេល​ត្រូវការ និង​ត្រូវ​"
+"បានផ្ដល់​​តាមរយៈ​ភាគ​ថាស​ស្វប​មួយ​ ឬ​ច្រើន និង/ឬ​ឯកសារ​ស្វប ។</p>"
+
+#: memory.cpp:264
+#, kde-format
+msgid "1 byte ="
+msgid_plural "%1 bytes ="
+msgstr[0] "%1 បៃ ="
+
+#: physicalMemoryChart.cpp:50
+#, kde-format
+msgid "Free Physical Memory"
+msgstr "សតិ​ហ្វីស៊ីខល​ទំនេរ"
+
+#: physicalMemoryChart.cpp:52
+#, kde-format
+msgid "Disk Cache"
+msgstr "ឃ្លាំង​សម្ងាត់​ថាស"
+
+#: physicalMemoryChart.cpp:54
+#, kde-format
+msgid "Disk Buffers"
+msgstr "ឃ្លាំង​សម្ងាត់​ថាស"
+
+#: physicalMemoryChart.cpp:56
+#, kde-format
+msgid "Application Data"
+msgstr "ទិន្នន័យ​កម្មវិធី"
+
+#: swapMemoryChart.cpp:47
+#, kde-format
+msgid "Free Swap"
+msgstr "ស្វប​ទំនេរ"
+
+#: swapMemoryChart.cpp:49 totalMemoryChart.cpp:43
+#, kde-format
+msgid "Used Swap"
+msgstr "ស្វប​បាន​ប្រើ"
+
+#: totalMemoryChart.cpp:41
+#, kde-format
+msgid "Total Free Memory"
+msgstr "សតិ​ទំនេរ​សរុប"
+
+#: totalMemoryChart.cpp:45
+#, kde-format
+msgid "Used Physical Memory"
+msgstr "សតិ​ហ្វីស៊ីខល​បានប្រើ"

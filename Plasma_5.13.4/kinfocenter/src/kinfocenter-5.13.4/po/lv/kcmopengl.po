@@ -1,0 +1,421 @@
+# translation of kcmopengl.po to Latvian
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Viesturs Zarins <viesturs.zarins@mii.lu.lv>, 2008.
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmopengl\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-05-07 03:40+0200\n"
+"PO-Revision-Date: 2011-07-08 13:21+0300\n"
+"Last-Translator: Rūdofls Mazurs <rudolfs.mazurs@gmail.com>\n"
+"Language-Team: Latvian <locale@laka.lv>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Viesturs Zariņš"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "viesturs.zarins@mi.lu.lv"
+
+#: opengl.cpp:92
+#, kde-format
+msgid "kcmopengl"
+msgstr "kcmopengl"
+
+#: opengl.cpp:93
+#, kde-format
+msgid "KCM OpenGL Information"
+msgstr "KCM OpenGL informācija"
+
+#: opengl.cpp:95
+#, kde-format
+msgid ""
+"(c) 2008 Ivo Anjo\n"
+"(c) 2004 Ilya Korniyko\n"
+"(c) 1999-2002 Brian Paul"
+msgstr ""
+"(c) 2008 Ivo Anjo\n"
+"(c) 2004 Ilya Korniyko\n"
+"(c) 1999-2002 Brian Paul"
+
+#: opengl.cpp:97
+#, kde-format
+msgid "Ivo Anjo"
+msgstr "Ivo Anjo"
+
+#: opengl.cpp:98
+#, kde-format
+msgid "Ilya Korniyko"
+msgstr "Ilya Korniyko"
+
+#: opengl.cpp:99
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: opengl.cpp:99
+#, kde-format
+msgid "Original Maintainer"
+msgstr "Sākotnējais uzturētājs"
+
+#: opengl.cpp:100
+#, kde-format
+msgid "Brian Paul"
+msgstr "Brian Paul"
+
+#: opengl.cpp:100
+#, kde-format
+msgid "Author of glxinfo Mesa demos (http://www.mesa3d.org)"
+msgstr "glxinfo Mesa demonstrāciju autors (http://www.mesa3d.org)"
+
+#: opengl.cpp:397
+#, kde-format
+msgid "Max. number of light sources"
+msgstr "Maks. gaismas avotu skaits"
+
+#: opengl.cpp:398
+#, kde-format
+msgid "Max. number of clipping planes"
+msgstr "Maks. norobežojošo plakņu skaits"
+
+#: opengl.cpp:399
+#, kde-format
+msgid "Max. pixel map table size"
+msgstr "Maks. pikseļkartes tabulas izmērs"
+
+#: opengl.cpp:400
+#, kde-format
+msgid "Max. display list nesting level"
+msgstr "Maks. displeja saraksta ligzdošanas līmenis"
+
+#: opengl.cpp:401
+#, kde-format
+msgid "Max. evaluator order"
+msgstr "Maks. vērtētāja pakāpe"
+
+#: opengl.cpp:402
+#, kde-format
+msgid "Max. recommended vertex count"
+msgstr "Maks. ieteicamais virsotņu skaits"
+
+#: opengl.cpp:403
+#, kde-format
+msgid "Max. recommended index count"
+msgstr "Maks. ieteicamais indeksu skaits"
+
+#: opengl.cpp:405
+#, kde-format
+msgid "Occlusion query counter bits"
+msgstr "Nosprostošanas vaicājuma skaitītāja biti"
+
+#: opengl.cpp:408
+#, kde-format
+msgid "Max. vertex blend matrices"
+msgstr "Maks. virsotņu sapludināšanas matricas"
+
+#: opengl.cpp:411
+#, kde-format
+msgid "Max. vertex blend matrix palette size"
+msgstr "Maks. virsotņu sapludināšanas matricas paletes izmērs"
+
+#: opengl.cpp:417
+#, kde-format
+msgid "Max. texture size"
+msgstr "Maks. tekstūras izmērs"
+
+#: opengl.cpp:418
+#, kde-format
+msgid "No. of texture units"
+msgstr "Tekstūras vienību skaits"
+
+#: opengl.cpp:419
+#, kde-format
+msgid "Max. 3D texture size"
+msgstr "Maks. 3D tekstūras izmērs"
+
+#: opengl.cpp:420
+#, kde-format
+msgid "Max. cube map texture size"
+msgstr "Maks. kubkartes tekstūras izmērs"
+
+#: opengl.cpp:422
+#, kde-format
+msgid "Max. rectangular texture size"
+msgstr "Maks. taisnstūra tekstūras izmērs"
+
+#: opengl.cpp:424
+#, kde-format
+msgid "Max. texture LOD bias"
+msgstr "Maks. detalizācijas līmeņa slīpums"
+
+#: opengl.cpp:425
+#, kde-format
+msgid "Max. anisotropy filtering level"
+msgstr "Maks. anizotropās filtrēšanas līmenis"
+
+#: opengl.cpp:426
+#, kde-format
+msgid "No. of compressed texture formats"
+msgstr "Saspiesto tekstūras formātu skaits"
+
+#: opengl.cpp:524
+#, kde-format
+msgid "Max. viewport dimensions"
+msgstr "Maks. skata loga dimensijas"
+
+#: opengl.cpp:525
+#, kde-format
+msgid "Subpixel bits"
+msgstr "Subpikseļu biti"
+
+#: opengl.cpp:526
+#, kde-format
+msgid "Aux. buffers"
+msgstr "Palīgbuferi"
+
+#: opengl.cpp:532
+#, kde-format
+msgid "Frame buffer properties"
+msgstr "Kadru bufera īpašības"
+
+#: opengl.cpp:533
+#, kde-format
+msgid "Texturing"
+msgstr "Teksturēšana"
+
+#: opengl.cpp:534
+#, kde-format
+msgid "Various limits"
+msgstr "Dažādi ierobežojumi"
+
+#: opengl.cpp:535
+#, kde-format
+msgid "Points and lines"
+msgstr "Punkti un līnijas"
+
+#: opengl.cpp:536
+#, kde-format
+msgid "Stack depth limits"
+msgstr "Steka dziļuma ierobežojumi"
+
+#: opengl.cpp:610 opengl.cpp:617
+#, kde-format
+msgid "3D Accelerator"
+msgstr "3D paātrinātājs"
+
+#: opengl.cpp:612 opengl.cpp:629
+#, kde-format
+msgid "Vendor"
+msgstr "Ražotājs"
+
+#: opengl.cpp:613
+#, kde-format
+msgid "Device"
+msgstr "Ierīce"
+
+#: opengl.cpp:614
+#, kde-format
+msgid "Subvendor"
+msgstr "Apakšizplatītājs"
+
+#: opengl.cpp:615
+#, kde-format
+msgid "Revision"
+msgstr "Revīzija"
+
+#: opengl.cpp:617 opengl.cpp:638
+#, kde-format
+msgid "unknown"
+msgstr "nezināms"
+
+#: opengl.cpp:622 opengl.cpp:624
+#, kde-format
+msgid "Driver"
+msgstr "Draivers"
+
+#: opengl.cpp:630
+#, kde-format
+msgid "Renderer"
+msgstr "Renderētājs"
+
+#: opengl.cpp:632
+#, fuzzy, kde-format
+#| msgid "OpenGL/ES version"
+msgid "OpenGL ES version"
+msgstr "OpenGL/ES versija"
+
+#: opengl.cpp:634
+#, fuzzy, kde-format
+#| msgid "OpenGL/ES version"
+msgid "OpenGL version"
+msgstr "OpenGL/ES versija"
+
+#: opengl.cpp:639
+#, kde-format
+msgid "Kernel module"
+msgstr "Kodola modulis"
+
+#: opengl.cpp:643
+#, fuzzy, kde-format
+#| msgid "OpenGL/ES extensions"
+msgid "OpenGL ES extensions"
+msgstr "OpenGL/ES paplašinājumi"
+
+#: opengl.cpp:645
+#, fuzzy, kde-format
+#| msgid "OpenGL/ES extensions"
+msgid "OpenGL extensions"
+msgstr "OpenGL/ES paplašinājumi"
+
+#: opengl.cpp:651
+#, kde-format
+msgid "Implementation specific"
+msgstr "Realizācijas specifika"
+
+#: opengl.cpp:664
+#, kde-format
+msgid "GLX"
+msgstr "GLX"
+
+#: opengl.cpp:665
+#, kde-format
+msgid "server GLX vendor"
+msgstr "servera GLX izplatītājs"
+
+#: opengl.cpp:666
+#, kde-format
+msgid "server GLX version"
+msgstr "servera GLX versija"
+
+#: opengl.cpp:667
+#, kde-format
+msgid "server GLX extensions"
+msgstr "servera GLX paplašinājumi"
+
+#: opengl.cpp:670
+#, kde-format
+msgid "client GLX vendor"
+msgstr "klienta GLX izplatītājs"
+
+#: opengl.cpp:671
+#, kde-format
+msgid "client GLX version"
+msgstr "klienta GLX versija"
+
+#: opengl.cpp:672
+#, kde-format
+msgid "client GLX extensions"
+msgstr "klienta GLX paplašinājumi"
+
+#: opengl.cpp:674
+#, kde-format
+msgid "GLX extensions"
+msgstr "GLX paplašinājumi"
+
+#: opengl.cpp:677
+#, kde-format
+msgid "GLU"
+msgstr "GLU"
+
+#: opengl.cpp:678
+#, kde-format
+msgid "GLU version"
+msgstr "GLU versija"
+
+#: opengl.cpp:679
+#, kde-format
+msgid "GLU extensions"
+msgstr "GLU paplašinājumi"
+
+#: opengl.cpp:690
+#, kde-format
+msgid "EGL"
+msgstr "EGL"
+
+#: opengl.cpp:691
+#, kde-format
+msgid "EGL Vendor"
+msgstr "EGL ražotājs"
+
+#: opengl.cpp:692
+#, kde-format
+msgid "EGL Version"
+msgstr "EGL versija"
+
+#: opengl.cpp:693
+#, kde-format
+msgid "EGL Extensions"
+msgstr "EGL paplašinājumi"
+
+#: opengl.cpp:770
+#, fuzzy, kde-format
+#| msgid "Direct Rendering"
+msgid "Direct Rendering (GLX)"
+msgstr "Tiešā renderēšana"
+
+#: opengl.cpp:770
+#, fuzzy, kde-format
+#| msgid "Indirect Rendering"
+msgid "Indirect Rendering (GLX)"
+msgstr "Netiešā renderēšana"
+
+#: opengl.cpp:887
+#, fuzzy, kde-format
+#| msgid "Direct Rendering"
+msgid "Direct Rendering (EGL)"
+msgstr "Tiešā renderēšana"
+
+#: opengl.cpp:950
+#, kde-format
+msgid "Information"
+msgstr "Informācija"
+
+#: opengl.cpp:951
+#, kde-format
+msgid "Value"
+msgstr "Vērtība"
+
+#: opengl.cpp:968 opengl.cpp:1006
+#, kde-format
+msgid "Name of the Display"
+msgstr "Displeja nosaukums"
+
+#: opengl.cpp:999
+#, fuzzy, kde-format
+#| msgid "Could not initialize OpenGL"
+msgid "Could not initialize OpenGL/GLX"
+msgstr "Neizdevās inicializēt OpenGL"
+
+#: opengl.cpp:1011
+#, kde-format
+msgid "OpenGL"
+msgstr ""
+
+#: opengl.cpp:1014
+#, kde-format
+msgid "Core Profile"
+msgstr ""
+
+#: opengl.cpp:1017
+#, kde-format
+msgid "Compatibility Profile"
+msgstr ""
+
+#: opengl.cpp:1027
+#, fuzzy, kde-format
+#| msgid "Could not initialize OpenGL ES2.0"
+msgid "Could not initialize OpenGL (ES)/EGL "
+msgstr "Neizdevās inicializēt OpenGL ES2.0"

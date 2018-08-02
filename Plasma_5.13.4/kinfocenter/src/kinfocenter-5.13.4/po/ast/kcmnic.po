@@ -1,0 +1,157 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# enolp <enolp@softastur.org>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-23 03:11+0200\n"
+"PO-Revision-Date: 2016-12-21 16:34+0100\n"
+"Last-Translator: enolp <enolp@softastur.org>\n"
+"Language-Team: Asturian <alministradores@softastur.org>\n"
+"Language: ast\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Softastur"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "alministradores@softastur.org"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Name"
+msgstr ""
+
+#: nic.cpp:94
+#, kde-format
+msgid "IP Address"
+msgstr ""
+
+#: nic.cpp:94
+#, kde-format
+msgid "Network Mask"
+msgstr ""
+
+#: nic.cpp:94
+#, kde-format
+msgid "Type"
+msgstr ""
+
+#: nic.cpp:94
+#, kde-format
+msgid "State"
+msgstr ""
+
+#: nic.cpp:94
+#, kde-format
+msgid "HWAddr"
+msgstr ""
+
+#: nic.cpp:98
+#, kde-format
+msgid "&Update"
+msgstr ""
+
+#: nic.cpp:106
+#, kde-format
+msgid "kcminfo"
+msgstr ""
+
+#: nic.cpp:107
+#, kde-format
+msgid "System Information Control Module"
+msgstr ""
+
+#: nic.cpp:109
+#, kde-format
+msgid "(c) 2001 - 2002 Alexander Neundorf"
+msgstr ""
+
+#: nic.cpp:111
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr ""
+
+#: nic.cpp:147
+#, kde-format
+msgctxt "State of network card is connected"
+msgid "Up"
+msgstr ""
+
+#: nic.cpp:148
+#, kde-format
+msgctxt "State of network card is disconnected"
+msgid "Down"
+msgstr ""
+
+#: nic.cpp:191
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Broadcast"
+msgstr ""
+
+#: nic.cpp:193
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Point to Point"
+msgstr ""
+
+#: nic.cpp:196
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Multicast"
+msgstr ""
+
+#: nic.cpp:199
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Loopback"
+msgstr ""
+
+#: nic.cpp:201
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Unknown"
+msgstr ""
+
+#: nic.cpp:211
+#, kde-format
+msgctxt "Unknown network mask"
+msgid "Unknown"
+msgstr ""
+
+#: nic.cpp:230
+#, kde-format
+msgctxt "Unknown HWaddr"
+msgid "Unknown"
+msgstr ""
+
+#: nic.cpp:287
+#, kde-format
+msgid "Point to Point"
+msgstr ""
+
+#: nic.cpp:294
+#, kde-format
+msgid "Broadcast"
+msgstr ""
+
+#: nic.cpp:301
+#, kde-format
+msgid "Multicast"
+msgstr ""
+
+#: nic.cpp:308
+#, kde-format
+msgid "Loopback"
+msgstr ""

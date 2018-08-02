@@ -1,0 +1,412 @@
+# translation of kcmopengl.po to Italian
+# Andrea Rizzi <rizzi@kde.org>, 2003, 2005, 2007.
+# Andrea RIZZI <arizzi@pi.infn.it>, 2004.
+# Giovanni Venturi <jumpyj@tiscali.it>, 2005.
+# Pino Toscano <toscano.pino@tiscali.it>, 2006.
+# Federico Zenith <federico.zenith@member.fsf.org>, 2009, 2011, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmopengl\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-05-07 03:40+0200\n"
+"PO-Revision-Date: 2014-10-09 20:32+0200\n"
+"Last-Translator: Federico Zenith <zenith.federico@gmail.com>\n"
+"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Federico Zenith,Andrea Rizzi"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "federico.zenith@member.fsf.org,"
+
+#: opengl.cpp:92
+#, kde-format
+msgid "kcmopengl"
+msgstr "kcmopengl"
+
+#: opengl.cpp:93
+#, kde-format
+msgid "KCM OpenGL Information"
+msgstr "Informazioni OpenGL di KCM"
+
+#: opengl.cpp:95
+#, kde-format
+msgid ""
+"(c) 2008 Ivo Anjo\n"
+"(c) 2004 Ilya Korniyko\n"
+"(c) 1999-2002 Brian Paul"
+msgstr ""
+"© 2008 Ivo Anjo\n"
+"© 2004 Ilya Korniyko\n"
+"© 1999-2002 Brian Paul"
+
+#: opengl.cpp:97
+#, kde-format
+msgid "Ivo Anjo"
+msgstr "Ivo Anjo"
+
+#: opengl.cpp:98
+#, kde-format
+msgid "Ilya Korniyko"
+msgstr "Ilya Korniyko"
+
+#: opengl.cpp:99
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: opengl.cpp:99
+#, kde-format
+msgid "Original Maintainer"
+msgstr "Responsabile originale"
+
+#: opengl.cpp:100
+#, kde-format
+msgid "Brian Paul"
+msgstr "Brian Paul"
+
+#: opengl.cpp:100
+#, kde-format
+msgid "Author of glxinfo Mesa demos (http://www.mesa3d.org)"
+msgstr "Autore delle dimostrazioni glxinfo Mesa (http://www.mesa3d.org)"
+
+#: opengl.cpp:397
+#, kde-format
+msgid "Max. number of light sources"
+msgstr "Numero massimo di sorgenti di luce"
+
+#: opengl.cpp:398
+#, kde-format
+msgid "Max. number of clipping planes"
+msgstr "Numero massimo di piani di ritaglio"
+
+#: opengl.cpp:399
+#, kde-format
+msgid "Max. pixel map table size"
+msgstr "Dimensione massima della tabella di mappatura dei pixel"
+
+#: opengl.cpp:400
+#, kde-format
+msgid "Max. display list nesting level"
+msgstr "Livello massimo di annidamento della lista degli schermi"
+
+#: opengl.cpp:401
+#, kde-format
+msgid "Max. evaluator order"
+msgstr "Ordine massimo di valutazione"
+
+#: opengl.cpp:402
+#, kde-format
+msgid "Max. recommended vertex count"
+msgstr "Numero massimo di vertici consigliato"
+
+#: opengl.cpp:403
+#, kde-format
+msgid "Max. recommended index count"
+msgstr "Numero massimo di indici consigliato"
+
+#: opengl.cpp:405
+#, kde-format
+msgid "Occlusion query counter bits"
+msgstr "Bit del contatore di interrogazioni di occlusione"
+
+#: opengl.cpp:408
+#, kde-format
+msgid "Max. vertex blend matrices"
+msgstr "Matrici massime di miscelazione dei vertici"
+
+#: opengl.cpp:411
+#, kde-format
+msgid "Max. vertex blend matrix palette size"
+msgstr ""
+"Dimensione massima della tavolozza delle matrici di miscelazione dei vertici"
+
+#: opengl.cpp:417
+#, kde-format
+msgid "Max. texture size"
+msgstr "Dimensione massima delle trame"
+
+#: opengl.cpp:418
+#, kde-format
+msgid "No. of texture units"
+msgstr "Numero di unità di trama"
+
+#: opengl.cpp:419
+#, kde-format
+msgid "Max. 3D texture size"
+msgstr "Dimensione massima delle trame 3D"
+
+#: opengl.cpp:420
+#, kde-format
+msgid "Max. cube map texture size"
+msgstr "Dimensione massima della trame di mappe cubiche"
+
+#: opengl.cpp:422
+#, kde-format
+msgid "Max. rectangular texture size"
+msgstr "Dimensione massima delle trame rettangolari"
+
+#: opengl.cpp:424
+#, kde-format
+msgid "Max. texture LOD bias"
+msgstr "Distorsione LOD massima delle trame"
+
+#: opengl.cpp:425
+#, kde-format
+msgid "Max. anisotropy filtering level"
+msgstr "Livello massimo di filtraggio dell'anisotropia"
+
+#: opengl.cpp:426
+#, kde-format
+msgid "No. of compressed texture formats"
+msgstr "Numero di formati di trame compresse"
+
+#: opengl.cpp:524
+#, kde-format
+msgid "Max. viewport dimensions"
+msgstr "Dimensione massima della vista"
+
+#: opengl.cpp:525
+#, kde-format
+msgid "Subpixel bits"
+msgstr "Bit sottopixel"
+
+#: opengl.cpp:526
+#, kde-format
+msgid "Aux. buffers"
+msgstr "Buffer ausiliari"
+
+#: opengl.cpp:532
+#, kde-format
+msgid "Frame buffer properties"
+msgstr "Proprietà del framebuffer"
+
+#: opengl.cpp:533
+#, kde-format
+msgid "Texturing"
+msgstr "Trame"
+
+#: opengl.cpp:534
+#, kde-format
+msgid "Various limits"
+msgstr "Limiti vari"
+
+#: opengl.cpp:535
+#, kde-format
+msgid "Points and lines"
+msgstr "Punti e linee"
+
+#: opengl.cpp:536
+#, kde-format
+msgid "Stack depth limits"
+msgstr "Limiti della profondità di pila"
+
+#: opengl.cpp:610 opengl.cpp:617
+#, kde-format
+msgid "3D Accelerator"
+msgstr "Acceleratore 3D"
+
+#: opengl.cpp:612 opengl.cpp:629
+#, kde-format
+msgid "Vendor"
+msgstr "Fornitore"
+
+#: opengl.cpp:613
+#, kde-format
+msgid "Device"
+msgstr "Dispositivo"
+
+#: opengl.cpp:614
+#, kde-format
+msgid "Subvendor"
+msgstr "Subfornitore"
+
+#: opengl.cpp:615
+#, kde-format
+msgid "Revision"
+msgstr "Revisione"
+
+#: opengl.cpp:617 opengl.cpp:638
+#, kde-format
+msgid "unknown"
+msgstr "sconosciuto"
+
+#: opengl.cpp:622 opengl.cpp:624
+#, kde-format
+msgid "Driver"
+msgstr "Driver"
+
+#: opengl.cpp:630
+#, kde-format
+msgid "Renderer"
+msgstr "Renderer"
+
+#: opengl.cpp:632
+#, kde-format
+msgid "OpenGL ES version"
+msgstr "Versione di OpenGL ES"
+
+#: opengl.cpp:634
+#, kde-format
+msgid "OpenGL version"
+msgstr "Versione di OpenGL"
+
+#: opengl.cpp:639
+#, kde-format
+msgid "Kernel module"
+msgstr "Modulo del kernel"
+
+#: opengl.cpp:643
+#, kde-format
+msgid "OpenGL ES extensions"
+msgstr "Estensioni OpenGL ES"
+
+#: opengl.cpp:645
+#, kde-format
+msgid "OpenGL extensions"
+msgstr "Estensioni OpenGL"
+
+#: opengl.cpp:651
+#, kde-format
+msgid "Implementation specific"
+msgstr "Specifico dell'implementazione"
+
+#: opengl.cpp:664
+#, kde-format
+msgid "GLX"
+msgstr "GLX"
+
+#: opengl.cpp:665
+#, kde-format
+msgid "server GLX vendor"
+msgstr "fornitore del server GLX"
+
+#: opengl.cpp:666
+#, kde-format
+msgid "server GLX version"
+msgstr "versione del server GLX"
+
+#: opengl.cpp:667
+#, kde-format
+msgid "server GLX extensions"
+msgstr "estensioni del server GLX"
+
+#: opengl.cpp:670
+#, kde-format
+msgid "client GLX vendor"
+msgstr "fornitore del client GLX"
+
+#: opengl.cpp:671
+#, kde-format
+msgid "client GLX version"
+msgstr "versione del client GLX"
+
+#: opengl.cpp:672
+#, kde-format
+msgid "client GLX extensions"
+msgstr "estensioni del client GLX"
+
+#: opengl.cpp:674
+#, kde-format
+msgid "GLX extensions"
+msgstr "Estensioni GLX"
+
+#: opengl.cpp:677
+#, kde-format
+msgid "GLU"
+msgstr "GLU"
+
+#: opengl.cpp:678
+#, kde-format
+msgid "GLU version"
+msgstr "Versione GLU"
+
+#: opengl.cpp:679
+#, kde-format
+msgid "GLU extensions"
+msgstr "Estensioni GLU"
+
+#: opengl.cpp:690
+#, kde-format
+msgid "EGL"
+msgstr "EGL"
+
+#: opengl.cpp:691
+#, kde-format
+msgid "EGL Vendor"
+msgstr "Fornitore EGL"
+
+#: opengl.cpp:692
+#, kde-format
+msgid "EGL Version"
+msgstr "Versione EGL"
+
+#: opengl.cpp:693
+#, kde-format
+msgid "EGL Extensions"
+msgstr "Estensioni EGL"
+
+#: opengl.cpp:770
+#, kde-format
+msgid "Direct Rendering (GLX)"
+msgstr "Resa diretta (GLX)"
+
+#: opengl.cpp:770
+#, kde-format
+msgid "Indirect Rendering (GLX)"
+msgstr "Resa indiretta (GLX)"
+
+#: opengl.cpp:887
+#, kde-format
+msgid "Direct Rendering (EGL)"
+msgstr "Resa diretta (EGL)"
+
+#: opengl.cpp:950
+#, kde-format
+msgid "Information"
+msgstr "Informazioni"
+
+#: opengl.cpp:951
+#, kde-format
+msgid "Value"
+msgstr "Valore"
+
+#: opengl.cpp:968 opengl.cpp:1006
+#, kde-format
+msgid "Name of the Display"
+msgstr "Nome dello schermo"
+
+#: opengl.cpp:999
+#, kde-format
+msgid "Could not initialize OpenGL/GLX"
+msgstr "Impossibile inizializzare OpenGL/GLX"
+
+#: opengl.cpp:1011
+#, kde-format
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: opengl.cpp:1014
+#, kde-format
+msgid "Core Profile"
+msgstr "Profilo fondamentale"
+
+#: opengl.cpp:1017
+#, kde-format
+msgid "Compatibility Profile"
+msgstr "Profilo di compatibilità"
+
+#: opengl.cpp:1027
+#, kde-format
+msgid "Could not initialize OpenGL (ES)/EGL "
+msgstr "Impossibile inizializzare OpenGL (ES)/EGL"

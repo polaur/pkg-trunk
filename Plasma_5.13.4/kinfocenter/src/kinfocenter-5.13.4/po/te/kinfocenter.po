@@ -1,0 +1,151 @@
+# translation of kinfocenter.po to Telugu
+#
+# విజయ్ కిరణ్ కముజు <infyquest@gmail.com>>, 2007.
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kinfocenter\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-08 03:33+0100\n"
+"PO-Revision-Date: 2009-01-16 22:16+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "విజయ్ కిరణ్ కముజు"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "infyquest@gmail.com"
+
+#: infocenter.cpp:52
+#, fuzzy, kde-format
+#| msgid "KDE Info Center"
+msgctxt "Main window title"
+msgid "KInfocenter"
+msgstr "కెడిఈ సహాయ కేంద్రం"
+
+#: infocenter.cpp:127
+#, fuzzy, kde-format
+#| msgid "About Current Module"
+msgctxt "Information about current module located in about menu"
+msgid "About Current Information Module"
+msgstr "ప్రస్తుత మాడ్యూల్ గురించి"
+
+#: infocenter.cpp:132
+#, kde-format
+msgctxt "Module help button label"
+msgid "Module Help"
+msgstr ""
+
+#: infocenter.cpp:135
+#, kde-format
+msgctxt "Help button label"
+msgid "Help"
+msgstr ""
+
+#: infocenter.cpp:175
+#, kde-format
+msgctxt "Search Bar Click Message"
+msgid "Search"
+msgstr ""
+
+#: infocenter.cpp:180
+#, kde-format
+msgctxt "Kaction search label"
+msgid "Search Modules"
+msgstr ""
+
+#: infokcmmodel.cpp:34
+#, fuzzy, kde-format
+#| msgid "Information"
+msgid "Information Modules"
+msgstr "సమాచారం"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kinfocenterui.rc:10
+#, kde-format
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr ""
+
+#: main.cpp:42
+#, fuzzy, kde-format
+#| msgid "KDE Info Center"
+msgid "Info Center"
+msgstr "కెడిఈ సహాయ కేంద్రం"
+
+#: main.cpp:45
+#, kde-format
+msgid "Copyright 2009-2018 KDE"
+msgstr ""
+
+#: main.cpp:47
+#, kde-format
+msgid "David Hubner"
+msgstr ""
+
+#: main.cpp:47
+#, kde-format
+msgid "Current Maintainer"
+msgstr "ప్రస్తుత సంరక్షకుడు"
+
+#: main.cpp:48
+#, kde-format
+msgid "Helge Deller"
+msgstr "హెల్గె డెల్లర్"
+
+#: main.cpp:48
+#, kde-format
+msgid "Previous Maintainer"
+msgstr "ముందటి సంరక్షకుడు"
+
+#: main.cpp:49
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "మథయాస్ హొయెల్జర్-క్లూప్ఫెల్"
+
+#: main.cpp:50
+#, kde-format
+msgid "Matthias Elter"
+msgstr "మథయాస్ ఎల్టర్"
+
+#: main.cpp:51
+#, kde-format
+msgid "Matthias Ettrich"
+msgstr "మథయాస్ ఎట్ట్రిచ్"
+
+#: main.cpp:52
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "వాల్డొ బాస్టియన్"
+
+#: main.cpp:53
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr "నికొలాస్ టెర్నిసియన్"
+
+#: sidepanel.cpp:106
+#, kde-format
+msgid "Clear Search"
+msgstr ""
+
+#: sidepanel.cpp:109
+#, kde-format
+msgid "Expand All Categories"
+msgstr ""
+
+#: sidepanel.cpp:112
+#, kde-format
+msgid "Collapse All Categories"
+msgstr ""

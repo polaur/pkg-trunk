@@ -1,0 +1,161 @@
+# Translation of kcmnic into Japanese.
+# This file is distributed under the same license as the kdebase package.
+# Taiki Komoda <kom@kde.gr.jp>, 2004.
+# Fumiaki Okushi <fumiaki@okushi.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmnic\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-23 03:11+0200\n"
+"PO-Revision-Date: 2007-06-24 23:00+0900\n"
+"Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
+"Language-Team: Japanese <kde-jp@kde.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Noboru Sinohara"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shinobo@leo.bekkoame.ne.jp"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Name"
+msgstr "名前"
+
+#: nic.cpp:94
+#, kde-format
+msgid "IP Address"
+msgstr "IP アドレス"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Network Mask"
+msgstr "ネットワークマスク"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Type"
+msgstr "タイプ"
+
+#: nic.cpp:94
+#, kde-format
+msgid "State"
+msgstr "状態"
+
+#: nic.cpp:94
+#, kde-format
+msgid "HWAddr"
+msgstr "HWAddr"
+
+#: nic.cpp:98
+#, kde-format
+msgid "&Update"
+msgstr "更新(&U)"
+
+#: nic.cpp:106
+#, kde-format
+msgid "kcminfo"
+msgstr "kcminfo"
+
+#: nic.cpp:107
+#, fuzzy, kde-format
+#| msgid "KDE Panel System Information Control Module"
+msgid "System Information Control Module"
+msgstr "KDE システム情報モジュール"
+
+#: nic.cpp:109
+#, kde-format
+msgid "(c) 2001 - 2002 Alexander Neundorf"
+msgstr "(c) 2001 - 2002 Alexander Neundorf"
+
+#: nic.cpp:111
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"
+
+#: nic.cpp:147
+#, kde-format
+msgctxt "State of network card is connected"
+msgid "Up"
+msgstr "接続中"
+
+#: nic.cpp:148
+#, kde-format
+msgctxt "State of network card is disconnected"
+msgid "Down"
+msgstr "切断中"
+
+#: nic.cpp:191
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Broadcast"
+msgstr "ブロードキャスト"
+
+#: nic.cpp:193
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Point to Point"
+msgstr "ポイント to ポイント"
+
+#: nic.cpp:196
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Multicast"
+msgstr "マルチキャスト"
+
+#: nic.cpp:199
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Loopback"
+msgstr "ループバック"
+
+#: nic.cpp:201
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Unknown"
+msgstr "不明"
+
+#: nic.cpp:211
+#, kde-format
+msgctxt "Unknown network mask"
+msgid "Unknown"
+msgstr "不明"
+
+#: nic.cpp:230
+#, kde-format
+msgctxt "Unknown HWaddr"
+msgid "Unknown"
+msgstr "不明"
+
+#: nic.cpp:287
+#, kde-format
+msgid "Point to Point"
+msgstr "ポイント to ポイント"
+
+#: nic.cpp:294
+#, kde-format
+msgid "Broadcast"
+msgstr "ブロードキャスト"
+
+#: nic.cpp:301
+#, kde-format
+msgid "Multicast"
+msgstr "マルチキャスト"
+
+#: nic.cpp:308
+#, kde-format
+msgid "Loopback"
+msgstr "ループバック"

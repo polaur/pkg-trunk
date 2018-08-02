@@ -1,0 +1,301 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Safa Alfulaij <safa1996alfulaij@gmail.com>, ٢٠١٥.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-27 03:34+0200\n"
+"PO-Revision-Date: ٢٠١٥-٠٨-١٨ ١٤:١٨+0300\n"
+"Last-Translator: Safa Alfulaij <safa1996alfulaij@gmail.com>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "صفا الفليج"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "safa1996alfulaij@gmail.com"
+
+#: kcm.cpp:60
+#, kde-format
+msgid "Energy Consumption Statistics"
+msgstr "إحصائيّات استهلاك الطّاقة"
+
+#: kcm.cpp:62
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr "Kai Uwe Broulik"
+
+#: package/contents/ui/main.qml:53
+#, kde-format
+msgid "Battery"
+msgstr "البطّاريّة"
+
+#: package/contents/ui/main.qml:55
+#, kde-format
+msgid "Rechargeable"
+msgstr "يمكن إعادة شحنها"
+
+#: package/contents/ui/main.qml:56
+#, kde-format
+msgid "Charge state"
+msgstr "حالة الشّحن"
+
+#: package/contents/ui/main.qml:60
+#, kde-format
+msgid "Energy"
+msgstr "الطّاقة"
+
+#: package/contents/ui/main.qml:62
+#, fuzzy, kde-format
+#| msgid "Energy Consumption"
+msgctxt "current power draw from the battery in W"
+msgid "Consumption"
+msgstr "استهلاك الطّاقة"
+
+#: package/contents/ui/main.qml:62
+#, fuzzy, kde-format
+#| msgctxt "Shorthand for Watts"
+#| msgid "W"
+msgctxt "Watt"
+msgid "W"
+msgstr "واط"
+
+#: package/contents/ui/main.qml:63
+#, kde-format
+msgid "Voltage"
+msgstr "الفولتيّة"
+
+#: package/contents/ui/main.qml:63
+#, kde-format
+msgctxt "Volt"
+msgid "V"
+msgstr "فولت"
+
+#: package/contents/ui/main.qml:64
+#, kde-format
+msgid "Capacity"
+msgstr "السّعة"
+
+#: package/contents/ui/main.qml:64
+#, kde-format
+msgid "%"
+msgstr "%"
+
+#: package/contents/ui/main.qml:65
+#, kde-format
+msgid "Current"
+msgstr "التّيّار"
+
+#: package/contents/ui/main.qml:65 package/contents/ui/main.qml:66
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgctxt "Watt-hours"
+msgid "Wh"
+msgstr "واط ساعيّ"
+
+#: package/contents/ui/main.qml:66
+#, kde-format
+msgid "Last full"
+msgstr ""
+
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgid "Full design"
+msgstr ""
+
+#: package/contents/ui/main.qml:71
+#, kde-format
+msgid "System"
+msgstr "النّظام"
+
+#: package/contents/ui/main.qml:73
+#, kde-format
+msgid "Has power supply"
+msgstr "موصول بمصدر للطّاقة"
+
+#: package/contents/ui/main.qml:77
+#, kde-format
+msgid "Environment"
+msgstr "البيئة"
+
+#: package/contents/ui/main.qml:79
+#, kde-format
+msgid "Temperature"
+msgstr "درجة الحرارة"
+
+#: package/contents/ui/main.qml:79
+#, kde-format
+msgctxt "Degree Celsius"
+msgid "°C"
+msgstr "°م"
+
+#: package/contents/ui/main.qml:83
+#, kde-format
+msgid "Manufacturer"
+msgstr "المصنّع"
+
+#: package/contents/ui/main.qml:85
+#, kde-format
+msgid "Vendor"
+msgstr "البائع"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Model"
+msgstr "الطّراز"
+
+#: package/contents/ui/main.qml:87
+#, kde-format
+msgid "Serial Number"
+msgstr "الرّقم التّسلسليّ"
+
+#: package/contents/ui/main.qml:94
+#, kde-format
+msgid "Not charging"
+msgstr "لا تشحن"
+
+#: package/contents/ui/main.qml:95
+#, kde-format
+msgid "Charging"
+msgstr "تشحن"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Discharging"
+msgstr "تفرّغ الشّحن"
+
+#: package/contents/ui/main.qml:97
+#, kde-format
+msgid "Fully charged"
+msgstr "مشحونة بالكامل"
+
+#: package/contents/ui/main.qml:210
+#, kde-format
+msgid "Charge Percentage"
+msgstr "نسبة الشّحن"
+
+#: package/contents/ui/main.qml:220
+#, kde-format
+msgid "Energy Consumption"
+msgstr "استهلاك الطّاقة"
+
+#: package/contents/ui/main.qml:235
+#, kde-format
+msgid "Last hour"
+msgstr "آخر ساعة"
+
+#: package/contents/ui/main.qml:236
+#, kde-format
+msgid "Last 2 hours"
+msgstr "آخر ساعتين"
+
+#: package/contents/ui/main.qml:237
+#, kde-format
+msgid "Last 12 hours"
+msgstr "آخر 12 ساعة"
+
+#: package/contents/ui/main.qml:238
+#, kde-format
+msgid "Last 24 hours"
+msgstr "آخر 24 ساعة"
+
+#: package/contents/ui/main.qml:239
+#, kde-format
+msgid "Last 48 hours"
+msgstr "آخر 48 ساعة"
+
+#: package/contents/ui/main.qml:240
+#, kde-format
+msgid "Last 7 days"
+msgstr "آخر 7 أيّام"
+
+#: package/contents/ui/main.qml:242
+#, kde-format
+msgid "Timespan"
+msgstr "الفترة الزّمنيّة"
+
+#: package/contents/ui/main.qml:243
+#, kde-format
+msgid "Timespan of data to display"
+msgstr "فترة البيانات الزّمنيّة لعرضها"
+
+#: package/contents/ui/main.qml:248
+#, kde-format
+msgid "Refresh"
+msgstr "أنعش"
+
+#: package/contents/ui/main.qml:271
+#, kde-format
+msgctxt "Shorthand for Watts"
+msgid "W"
+msgstr "واط"
+
+#: package/contents/ui/main.qml:271
+#, kde-format
+msgctxt "literal percent sign"
+msgid "%"
+msgstr "%"
+
+#: package/contents/ui/main.qml:294
+#, kde-format
+msgid "This type of history is currently not available for this device."
+msgstr "نوع التّأريخ هذا ليس متوفّرًا حاليًّا لهذا الجهاز."
+
+#: package/contents/ui/main.qml:312
+#, kde-format
+msgid "Application Energy Consumption"
+msgstr "استهلاك التّطبيقات للطّاقة"
+
+#: package/contents/ui/main.qml:337
+#, kde-format
+msgid "Path: %1"
+msgstr "المسار: %1"
+
+#: package/contents/ui/main.qml:340
+#, kde-format
+msgid "PID: %1"
+msgstr "معرّف العمليّة: %1"
+
+#: package/contents/ui/main.qml:343
+#, kde-format
+msgid "Wakeups per second: %1 (%2%)"
+msgstr "مرّات الاستيقاظ كلّ ثانية: %1 (%2%)"
+
+#: package/contents/ui/main.qml:345
+#, kde-format
+msgid "Details: %1"
+msgstr "التّفاصيل: %1"
+
+#: package/contents/ui/main.qml:445
+#, kde-format
+msgid "%1:"
+msgstr "%1:"
+
+#: package/contents/ui/main.qml:463
+#, kde-format
+msgid "Yes"
+msgstr "نعم"
+
+#: package/contents/ui/main.qml:465
+#, kde-format
+msgid "No"
+msgstr "لا"
+
+#: package/contents/ui/main.qml:483
+#, kde-format
+msgctxt "%1 is value, %2 is unit"
+msgid "%1 %2"
+msgstr "%1 %2"

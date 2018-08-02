@@ -1,0 +1,422 @@
+# Translation of kcmopengl to Croatian
+#
+# Zarko Pintar <zarko.pintar@gmail.com>, 2009.
+# Marko Dimjašević <marko@dimjasevic.net>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmopengl\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-05-07 03:40+0200\n"
+"PO-Revision-Date: 2011-07-12 17:42+0200\n"
+"Last-Translator: Marko Dimjašević <marko@dimjasevic.net>\n"
+"Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Žarko Pintar"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zarko.pintar@gmail.com"
+
+#: opengl.cpp:92
+#, kde-format
+msgid "kcmopengl"
+msgstr "kcmopengl"
+
+#: opengl.cpp:93
+#, kde-format
+msgid "KCM OpenGL Information"
+msgstr "KCM OpenGL Informacije"
+
+#: opengl.cpp:95
+#, kde-format
+msgid ""
+"(c) 2008 Ivo Anjo\n"
+"(c) 2004 Ilya Korniyko\n"
+"(c) 1999-2002 Brian Paul"
+msgstr ""
+"(c) 2008 Ivo Anjo\n"
+"(c) 2004 Ilya Korniyko\n"
+"(c) 1999-2002 Brian Paul"
+
+#: opengl.cpp:97
+#, kde-format
+msgid "Ivo Anjo"
+msgstr "Ivo Anjo"
+
+#: opengl.cpp:98
+#, kde-format
+msgid "Ilya Korniyko"
+msgstr "Ilya Korniyko"
+
+#: opengl.cpp:99
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: opengl.cpp:99
+#, kde-format
+msgid "Original Maintainer"
+msgstr "Originalni održavatelj"
+
+#: opengl.cpp:100
+#, kde-format
+msgid "Brian Paul"
+msgstr "Brian Paul"
+
+#: opengl.cpp:100
+#, kde-format
+msgid "Author of glxinfo Mesa demos (http://www.mesa3d.org)"
+msgstr "Autor glxinfo Mesa demo programa (http://www.mesa3d.org)"
+
+#: opengl.cpp:397
+#, kde-format
+msgid "Max. number of light sources"
+msgstr "Maks. broj izvora svjetlosti"
+
+#: opengl.cpp:398
+#, kde-format
+msgid "Max. number of clipping planes"
+msgstr "Maks. broj clipping planova"
+
+#: opengl.cpp:399
+#, kde-format
+msgid "Max. pixel map table size"
+msgstr "Maks. veličina pixel map table"
+
+#: opengl.cpp:400
+#, kde-format
+msgid "Max. display list nesting level"
+msgstr "Maks. prikaz liste nesting levela"
+
+#: opengl.cpp:401
+#, kde-format
+msgid "Max. evaluator order"
+msgstr "Maks. evaluator order"
+
+#: opengl.cpp:402
+#, kde-format
+msgid "Max. recommended vertex count"
+msgstr "Maks. preporučeni broj vertex-a"
+
+#: opengl.cpp:403
+#, kde-format
+msgid "Max. recommended index count"
+msgstr "Maks. preporučeni broj index-a"
+
+#: opengl.cpp:405
+#, kde-format
+msgid "Occlusion query counter bits"
+msgstr "Occlusion query counter bitovi"
+
+#: opengl.cpp:408
+#, kde-format
+msgid "Max. vertex blend matrices"
+msgstr "Maks. vertex blend matrica"
+
+#: opengl.cpp:411
+#, kde-format
+msgid "Max. vertex blend matrix palette size"
+msgstr "Maks. veličina vertex blend matrix palette  "
+
+#: opengl.cpp:417
+#, kde-format
+msgid "Max. texture size"
+msgstr "Maks. veličina texture"
+
+#: opengl.cpp:418
+#, kde-format
+msgid "No. of texture units"
+msgstr "Broj texture units-a"
+
+#: opengl.cpp:419
+#, kde-format
+msgid "Max. 3D texture size"
+msgstr "Maks. veličina 3D texture"
+
+#: opengl.cpp:420
+#, kde-format
+msgid "Max. cube map texture size"
+msgstr "Maks. veličina cube map texture"
+
+#: opengl.cpp:422
+#, kde-format
+msgid "Max. rectangular texture size"
+msgstr "Maks. veličina rectangular texture"
+
+#: opengl.cpp:424
+#, kde-format
+msgid "Max. texture LOD bias"
+msgstr "Maks. texture LOD bias"
+
+#: opengl.cpp:425
+#, kde-format
+msgid "Max. anisotropy filtering level"
+msgstr "Max. anisotropy filtering level"
+
+#: opengl.cpp:426
+#, kde-format
+msgid "No. of compressed texture formats"
+msgstr "Broj compressed texture formata"
+
+#: opengl.cpp:524
+#, kde-format
+msgid "Max. viewport dimensions"
+msgstr "Maks. viewport dimensiona"
+
+#: opengl.cpp:525
+#, kde-format
+msgid "Subpixel bits"
+msgstr "Subpixel bitovi"
+
+#: opengl.cpp:526
+#, kde-format
+msgid "Aux. buffers"
+msgstr "Aux. bufferi"
+
+#: opengl.cpp:532
+#, kde-format
+msgid "Frame buffer properties"
+msgstr "Osobine Frame buffera"
+
+#: opengl.cpp:533
+#, kde-format
+msgid "Texturing"
+msgstr "Texturing"
+
+#: opengl.cpp:534
+#, kde-format
+msgid "Various limits"
+msgstr "Razna ograničenja"
+
+#: opengl.cpp:535
+#, kde-format
+msgid "Points and lines"
+msgstr "Točke i linije"
+
+#: opengl.cpp:536
+#, kde-format
+msgid "Stack depth limits"
+msgstr "Ograničenja Stack depth-a"
+
+#: opengl.cpp:610 opengl.cpp:617
+#, kde-format
+msgid "3D Accelerator"
+msgstr "3D ubrzivač"
+
+#: opengl.cpp:612 opengl.cpp:629
+#, kde-format
+msgid "Vendor"
+msgstr "Proizvođač"
+
+#: opengl.cpp:613
+#, kde-format
+msgid "Device"
+msgstr "Uređaj"
+
+#: opengl.cpp:614
+#, kde-format
+msgid "Subvendor"
+msgstr "Dobavljač"
+
+#: opengl.cpp:615
+#, kde-format
+msgid "Revision"
+msgstr "Revizija"
+
+#: opengl.cpp:617 opengl.cpp:638
+#, kde-format
+msgid "unknown"
+msgstr "nepoznato"
+
+#: opengl.cpp:622 opengl.cpp:624
+#, kde-format
+msgid "Driver"
+msgstr "Upravljački program"
+
+#: opengl.cpp:630
+#, kde-format
+msgid "Renderer"
+msgstr "Renderer"
+
+#: opengl.cpp:632
+#, fuzzy, kde-format
+#| msgid "OpenGL/ES version"
+msgid "OpenGL ES version"
+msgstr "Inačica OpenGL/ES-a"
+
+#: opengl.cpp:634
+#, fuzzy, kde-format
+#| msgid "OpenGL/ES version"
+msgid "OpenGL version"
+msgstr "Inačica OpenGL/ES-a"
+
+#: opengl.cpp:639
+#, kde-format
+msgid "Kernel module"
+msgstr "Modul jezgre"
+
+#: opengl.cpp:643
+#, fuzzy, kde-format
+#| msgid "OpenGL/ES extensions"
+msgid "OpenGL ES extensions"
+msgstr "OpenGL/ES-proširenja"
+
+#: opengl.cpp:645
+#, fuzzy, kde-format
+#| msgid "OpenGL/ES extensions"
+msgid "OpenGL extensions"
+msgstr "OpenGL/ES-proširenja"
+
+#: opengl.cpp:651
+#, kde-format
+msgid "Implementation specific"
+msgstr "Implementacijske specifičnosti"
+
+#: opengl.cpp:664
+#, kde-format
+msgid "GLX"
+msgstr "GLX"
+
+#: opengl.cpp:665
+#, kde-format
+msgid "server GLX vendor"
+msgstr "proizvođač GLX poslužitelja"
+
+#: opengl.cpp:666
+#, kde-format
+msgid "server GLX version"
+msgstr "Verzija GLX poslužitelja"
+
+#: opengl.cpp:667
+#, kde-format
+msgid "server GLX extensions"
+msgstr "Poslužiteljska GLX-proširenja"
+
+#: opengl.cpp:670
+#, kde-format
+msgid "client GLX vendor"
+msgstr "Proizvođač GLX klijenta"
+
+#: opengl.cpp:671
+#, kde-format
+msgid "client GLX version"
+msgstr "GLX verzija klijenta"
+
+#: opengl.cpp:672
+#, kde-format
+msgid "client GLX extensions"
+msgstr "Klijentska GLX-proširenja"
+
+#: opengl.cpp:674
+#, kde-format
+msgid "GLX extensions"
+msgstr "GLX-proširenja"
+
+#: opengl.cpp:677
+#, kde-format
+msgid "GLU"
+msgstr "GLU"
+
+#: opengl.cpp:678
+#, kde-format
+msgid "GLU version"
+msgstr "GLU verzija"
+
+#: opengl.cpp:679
+#, kde-format
+msgid "GLU extensions"
+msgstr "GLU-proširenja"
+
+#: opengl.cpp:690
+#, kde-format
+msgid "EGL"
+msgstr "EGL"
+
+#: opengl.cpp:691
+#, kde-format
+msgid "EGL Vendor"
+msgstr "Razvijatelj EGL-a"
+
+#: opengl.cpp:692
+#, kde-format
+msgid "EGL Version"
+msgstr "Inačica EGL-a"
+
+#: opengl.cpp:693
+#, kde-format
+msgid "EGL Extensions"
+msgstr "EGL-proširenja"
+
+#: opengl.cpp:770
+#, fuzzy, kde-format
+#| msgid "Direct Rendering"
+msgid "Direct Rendering (GLX)"
+msgstr "Direct Rendering"
+
+#: opengl.cpp:770
+#, fuzzy, kde-format
+#| msgid "Indirect Rendering"
+msgid "Indirect Rendering (GLX)"
+msgstr "Indirect Rendering"
+
+#: opengl.cpp:887
+#, fuzzy, kde-format
+#| msgid "Direct Rendering"
+msgid "Direct Rendering (EGL)"
+msgstr "Direct Rendering"
+
+#: opengl.cpp:950
+#, kde-format
+msgid "Information"
+msgstr "Informacije"
+
+#: opengl.cpp:951
+#, kde-format
+msgid "Value"
+msgstr "Vrijednost"
+
+#: opengl.cpp:968 opengl.cpp:1006
+#, kde-format
+msgid "Name of the Display"
+msgstr "Naziv ekrana"
+
+#: opengl.cpp:999
+#, fuzzy, kde-format
+#| msgid "Could not initialize OpenGL"
+msgid "Could not initialize OpenGL/GLX"
+msgstr "Ne mogu inicijalizirati OpenGL"
+
+#: opengl.cpp:1011
+#, kde-format
+msgid "OpenGL"
+msgstr ""
+
+#: opengl.cpp:1014
+#, kde-format
+msgid "Core Profile"
+msgstr ""
+
+#: opengl.cpp:1017
+#, kde-format
+msgid "Compatibility Profile"
+msgstr ""
+
+#: opengl.cpp:1027
+#, fuzzy, kde-format
+#| msgid "Could not initialize OpenGL ES2.0"
+msgid "Could not initialize OpenGL (ES)/EGL "
+msgstr "Ne mogu inicijalizirati OpenGL ES2.0"

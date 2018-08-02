@@ -1,0 +1,297 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Shinjo Park <kde@peremen.name>, 2015, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-27 03:34+0200\n"
+"PO-Revision-Date: 2016-10-20 20:21+0100\n"
+"Last-Translator: Shinjo Park <kde@peremen.name>\n"
+"Language-Team: Korean <kde@peremen.name>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Shinjo Park"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde@peremen.name"
+
+#: kcm.cpp:60
+#, kde-format
+msgid "Energy Consumption Statistics"
+msgstr "에너지 소모 통계"
+
+#: kcm.cpp:62
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr "Kai Uwe Broulik"
+
+#: package/contents/ui/main.qml:53
+#, kde-format
+msgid "Battery"
+msgstr "배터리"
+
+#: package/contents/ui/main.qml:55
+#, kde-format
+msgid "Rechargeable"
+msgstr "충전 가능"
+
+#: package/contents/ui/main.qml:56
+#, kde-format
+msgid "Charge state"
+msgstr "충전 상태"
+
+#: package/contents/ui/main.qml:60
+#, kde-format
+msgid "Energy"
+msgstr "에너지"
+
+#: package/contents/ui/main.qml:62
+#, kde-format
+msgctxt "current power draw from the battery in W"
+msgid "Consumption"
+msgstr "에너지 소모"
+
+#: package/contents/ui/main.qml:62
+#, kde-format
+msgctxt "Watt"
+msgid "W"
+msgstr "W"
+
+#: package/contents/ui/main.qml:63
+#, kde-format
+msgid "Voltage"
+msgstr "전압"
+
+#: package/contents/ui/main.qml:63
+#, kde-format
+msgctxt "Volt"
+msgid "V"
+msgstr "V"
+
+#: package/contents/ui/main.qml:64
+#, kde-format
+msgid "Capacity"
+msgstr "용량"
+
+#: package/contents/ui/main.qml:64
+#, kde-format
+msgid "%"
+msgstr "%"
+
+#: package/contents/ui/main.qml:65
+#, kde-format
+msgid "Current"
+msgstr "전류"
+
+#: package/contents/ui/main.qml:65 package/contents/ui/main.qml:66
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgctxt "Watt-hours"
+msgid "Wh"
+msgstr "Wh"
+
+#: package/contents/ui/main.qml:66
+#, kde-format
+msgid "Last full"
+msgstr "마지막 충전"
+
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgid "Full design"
+msgstr "설계 용량"
+
+#: package/contents/ui/main.qml:71
+#, kde-format
+msgid "System"
+msgstr "시스템"
+
+#: package/contents/ui/main.qml:73
+#, kde-format
+msgid "Has power supply"
+msgstr "전원 공급 장치가 있음"
+
+#: package/contents/ui/main.qml:77
+#, kde-format
+msgid "Environment"
+msgstr "환경"
+
+#: package/contents/ui/main.qml:79
+#, kde-format
+msgid "Temperature"
+msgstr "온도"
+
+#: package/contents/ui/main.qml:79
+#, kde-format
+msgctxt "Degree Celsius"
+msgid "°C"
+msgstr "°C"
+
+#: package/contents/ui/main.qml:83
+#, kde-format
+msgid "Manufacturer"
+msgstr "제조사"
+
+#: package/contents/ui/main.qml:85
+#, kde-format
+msgid "Vendor"
+msgstr "제조사"
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Model"
+msgstr "모델"
+
+#: package/contents/ui/main.qml:87
+#, kde-format
+msgid "Serial Number"
+msgstr "일련 번호"
+
+#: package/contents/ui/main.qml:94
+#, kde-format
+msgid "Not charging"
+msgstr "충전하지 않음"
+
+#: package/contents/ui/main.qml:95
+#, kde-format
+msgid "Charging"
+msgstr "충전 중"
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Discharging"
+msgstr "방전 중"
+
+#: package/contents/ui/main.qml:97
+#, kde-format
+msgid "Fully charged"
+msgstr "충전 완료"
+
+#: package/contents/ui/main.qml:210
+#, kde-format
+msgid "Charge Percentage"
+msgstr "충전 비율"
+
+#: package/contents/ui/main.qml:220
+#, kde-format
+msgid "Energy Consumption"
+msgstr "에너지 소모"
+
+#: package/contents/ui/main.qml:235
+#, kde-format
+msgid "Last hour"
+msgstr "마지막 1시간"
+
+#: package/contents/ui/main.qml:236
+#, kde-format
+msgid "Last 2 hours"
+msgstr "마지막 2시간"
+
+#: package/contents/ui/main.qml:237
+#, kde-format
+msgid "Last 12 hours"
+msgstr "마지막 12시간"
+
+#: package/contents/ui/main.qml:238
+#, kde-format
+msgid "Last 24 hours"
+msgstr "마지막 24시간"
+
+#: package/contents/ui/main.qml:239
+#, kde-format
+msgid "Last 48 hours"
+msgstr "마지막 48시간"
+
+#: package/contents/ui/main.qml:240
+#, kde-format
+msgid "Last 7 days"
+msgstr "마지막 7일"
+
+#: package/contents/ui/main.qml:242
+#, kde-format
+msgid "Timespan"
+msgstr "시간 범위"
+
+#: package/contents/ui/main.qml:243
+#, kde-format
+msgid "Timespan of data to display"
+msgstr "표시할 데이터 시간 범위"
+
+#: package/contents/ui/main.qml:248
+#, kde-format
+msgid "Refresh"
+msgstr "새로 고침"
+
+#: package/contents/ui/main.qml:271
+#, kde-format
+msgctxt "Shorthand for Watts"
+msgid "W"
+msgstr "W"
+
+#: package/contents/ui/main.qml:271
+#, kde-format
+msgctxt "literal percent sign"
+msgid "%"
+msgstr "%"
+
+#: package/contents/ui/main.qml:294
+#, kde-format
+msgid "This type of history is currently not available for this device."
+msgstr "이 장치에서 다음 기록을 사용할 수 없습니다."
+
+#: package/contents/ui/main.qml:312
+#, kde-format
+msgid "Application Energy Consumption"
+msgstr "프로그램 에너지 소모"
+
+#: package/contents/ui/main.qml:337
+#, kde-format
+msgid "Path: %1"
+msgstr "경로: %1"
+
+#: package/contents/ui/main.qml:340
+#, kde-format
+msgid "PID: %1"
+msgstr "PID: %1"
+
+#: package/contents/ui/main.qml:343
+#, kde-format
+msgid "Wakeups per second: %1 (%2%)"
+msgstr "초당 깨어난 횟수: %1(%2%)"
+
+#: package/contents/ui/main.qml:345
+#, kde-format
+msgid "Details: %1"
+msgstr "자세히: %1"
+
+#: package/contents/ui/main.qml:445
+#, kde-format
+msgid "%1:"
+msgstr "%1:"
+
+#: package/contents/ui/main.qml:463
+#, kde-format
+msgid "Yes"
+msgstr "예"
+
+#: package/contents/ui/main.qml:465
+#, kde-format
+msgid "No"
+msgstr "아니요"
+
+#: package/contents/ui/main.qml:483
+#, kde-format
+msgctxt "%1 is value, %2 is unit"
+msgid "%1 %2"
+msgstr "%1%2"

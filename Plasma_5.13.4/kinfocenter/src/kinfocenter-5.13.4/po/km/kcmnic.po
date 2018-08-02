@@ -1,0 +1,158 @@
+# translation of kcmnic.po to Khmer
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmnic\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-23 03:11+0200\n"
+"PO-Revision-Date: 2010-11-26 08:35+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer <support@khmeros.info>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ខឹម សុខែម,​អេង វណ្ណៈ, អោក ពិសិដ្ឋ​"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "khoemsokhem@khmeros.info,​​evannak@khmeros.info,piseth_dv@khmeros.info"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Name"
+msgstr "ឈ្មោះ"
+
+#: nic.cpp:94
+#, kde-format
+msgid "IP Address"
+msgstr "អាសយដ្ឋាន IP"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Network Mask"
+msgstr "របាំង​បណ្ដាញ"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Type"
+msgstr "ប្រភេទ"
+
+#: nic.cpp:94
+#, kde-format
+msgid "State"
+msgstr "ស្ថានភាព"
+
+#: nic.cpp:94
+#, kde-format
+msgid "HWAddr"
+msgstr "HWAddr"
+
+#: nic.cpp:98
+#, kde-format
+msgid "&Update"
+msgstr "ធ្វើបច្ចុប្បន្នភាព"
+
+#: nic.cpp:106
+#, kde-format
+msgid "kcminfo"
+msgstr "kcminfo"
+
+#: nic.cpp:107
+#, kde-format
+msgid "System Information Control Module"
+msgstr "ម៉ូឌុល​ត្រួតពិនិត្យ​ព័ត៌មាន​ប្រព័ន្ធ"
+
+#: nic.cpp:109
+#, kde-format
+msgid "(c) 2001 - 2002 Alexander Neundorf"
+msgstr "រក្សាសិទ្ធិ​ឆ្នាំ ២០០១ - ២០០២ ដោយ Alexander Neundorf"
+
+#: nic.cpp:111
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"
+
+#: nic.cpp:147
+#, kde-format
+msgctxt "State of network card is connected"
+msgid "Up"
+msgstr "ឡើង​លើ"
+
+#: nic.cpp:148
+#, kde-format
+msgctxt "State of network card is disconnected"
+msgid "Down"
+msgstr "ចុះក្រោម"
+
+#: nic.cpp:191
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Broadcast"
+msgstr "ប្រកាស"
+
+#: nic.cpp:193
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Point to Point"
+msgstr "ចំណុចទៅ​ចំណុច"
+
+#: nic.cpp:196
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Multicast"
+msgstr "ម៉ាល់ទីខាស"
+
+#: nic.cpp:199
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Loopback"
+msgstr "Loopback"
+
+#: nic.cpp:201
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Unknown"
+msgstr "មិនស្គាល់"
+
+#: nic.cpp:211
+#, kde-format
+msgctxt "Unknown network mask"
+msgid "Unknown"
+msgstr "មិនស្គាល់"
+
+#: nic.cpp:230
+#, kde-format
+msgctxt "Unknown HWaddr"
+msgid "Unknown"
+msgstr "មិន​ស្គាល់"
+
+#: nic.cpp:287
+#, kde-format
+msgid "Point to Point"
+msgstr "ចំណុច​ទៅ​ចំណុច"
+
+#: nic.cpp:294
+#, kde-format
+msgid "Broadcast"
+msgstr "ប្រកាស"
+
+#: nic.cpp:301
+#, kde-format
+msgid "Multicast"
+msgstr "ម៉ាល់ទីខាស"
+
+#: nic.cpp:308
+#, kde-format
+msgid "Loopback"
+msgstr "Loopback"

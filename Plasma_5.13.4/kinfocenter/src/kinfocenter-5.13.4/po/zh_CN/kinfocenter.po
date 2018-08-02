@@ -1,0 +1,153 @@
+# translation of kcontrol.po to zh_CN
+# Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
+# Funda Wang <fundawang@en2china.com>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Lie Ex <lilith.ex@gmail.com>, 2007-2009.
+# Weng Xuetian <wengxt@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-08 03:33+0100\n"
+"PO-Revision-Date: 2018-07-24 08:45\n"
+"Last-Translator: guoyunhebrave <guoyunhebrave@gmail.com>\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-stable/messages/kde-workspace/kinfocenter.pot\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Funda Wang"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "fundawang@gmail.com"
+
+#: infocenter.cpp:52
+#, kde-format
+msgctxt "Main window title"
+msgid "KInfocenter"
+msgstr "KDE 信息中心"
+
+#: infocenter.cpp:127
+#, kde-format
+msgctxt "Information about current module located in about menu"
+msgid "About Current Information Module"
+msgstr "关于当前的信息模块"
+
+#: infocenter.cpp:132
+#, kde-format
+msgctxt "Module help button label"
+msgid "Module Help"
+msgstr "模块帮助"
+
+#: infocenter.cpp:135
+#, kde-format
+msgctxt "Help button label"
+msgid "Help"
+msgstr "帮助"
+
+#: infocenter.cpp:175
+#, kde-format
+msgctxt "Search Bar Click Message"
+msgid "Search"
+msgstr "搜索"
+
+#: infocenter.cpp:180
+#, kde-format
+msgctxt "Kaction search label"
+msgid "Search Modules"
+msgstr "搜索模块"
+
+#: infokcmmodel.cpp:34
+#, kde-format
+msgid "Information Modules"
+msgstr "信息模块"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kinfocenterui.rc:10
+#, kde-format
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: main.cpp:42
+#, kde-format
+msgid "Info Center"
+msgstr "信息中心"
+
+#: main.cpp:45
+#, kde-format
+msgid "Copyright 2009-2018 KDE"
+msgstr "版权 2009-2018 KDE"
+
+#: main.cpp:47
+#, kde-format
+msgid "David Hubner"
+msgstr "David Hubner"
+
+#: main.cpp:47
+#, kde-format
+msgid "Current Maintainer"
+msgstr "当前维护者"
+
+#: main.cpp:48
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: main.cpp:48
+#, kde-format
+msgid "Previous Maintainer"
+msgstr "前任维护者"
+
+#: main.cpp:49
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: main.cpp:50
+#, kde-format
+msgid "Matthias Elter"
+msgstr "Matthias Elter"
+
+#: main.cpp:51
+#, kde-format
+msgid "Matthias Ettrich"
+msgstr "Matthias Ettrich"
+
+#: main.cpp:52
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: main.cpp:53
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
+
+#: sidepanel.cpp:106
+#, kde-format
+msgid "Clear Search"
+msgstr "清除搜索"
+
+#: sidepanel.cpp:109
+#, kde-format
+msgid "Expand All Categories"
+msgstr "展开所有分类"
+
+#: sidepanel.cpp:112
+#, kde-format
+msgid "Collapse All Categories"
+msgstr "折叠所有分类"

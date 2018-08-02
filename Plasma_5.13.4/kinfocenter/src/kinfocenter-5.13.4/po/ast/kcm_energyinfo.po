@@ -1,0 +1,297 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# enolp <enolp@softastur.org>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-03-27 03:34+0200\n"
+"PO-Revision-Date: 2016-12-21 16:27+0100\n"
+"Last-Translator: enolp <enolp@softastur.org>\n"
+"Language-Team: Asturian <alministradores@softastur.org>\n"
+"Language: ast\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Softastur"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "alministradores@softastur.org"
+
+#: kcm.cpp:60
+#, kde-format
+msgid "Energy Consumption Statistics"
+msgstr ""
+
+#: kcm.cpp:62
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr ""
+
+#: package/contents/ui/main.qml:53
+#, kde-format
+msgid "Battery"
+msgstr ""
+
+#: package/contents/ui/main.qml:55
+#, kde-format
+msgid "Rechargeable"
+msgstr ""
+
+#: package/contents/ui/main.qml:56
+#, kde-format
+msgid "Charge state"
+msgstr ""
+
+#: package/contents/ui/main.qml:60
+#, kde-format
+msgid "Energy"
+msgstr ""
+
+#: package/contents/ui/main.qml:62
+#, kde-format
+msgctxt "current power draw from the battery in W"
+msgid "Consumption"
+msgstr ""
+
+#: package/contents/ui/main.qml:62
+#, kde-format
+msgctxt "Watt"
+msgid "W"
+msgstr ""
+
+#: package/contents/ui/main.qml:63
+#, kde-format
+msgid "Voltage"
+msgstr ""
+
+#: package/contents/ui/main.qml:63
+#, kde-format
+msgctxt "Volt"
+msgid "V"
+msgstr ""
+
+#: package/contents/ui/main.qml:64
+#, kde-format
+msgid "Capacity"
+msgstr ""
+
+#: package/contents/ui/main.qml:64
+#, kde-format
+msgid "%"
+msgstr ""
+
+#: package/contents/ui/main.qml:65
+#, kde-format
+msgid "Current"
+msgstr ""
+
+#: package/contents/ui/main.qml:65 package/contents/ui/main.qml:66
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgctxt "Watt-hours"
+msgid "Wh"
+msgstr ""
+
+#: package/contents/ui/main.qml:66
+#, kde-format
+msgid "Last full"
+msgstr ""
+
+#: package/contents/ui/main.qml:67
+#, kde-format
+msgid "Full design"
+msgstr ""
+
+#: package/contents/ui/main.qml:71
+#, kde-format
+msgid "System"
+msgstr ""
+
+#: package/contents/ui/main.qml:73
+#, kde-format
+msgid "Has power supply"
+msgstr ""
+
+#: package/contents/ui/main.qml:77
+#, kde-format
+msgid "Environment"
+msgstr ""
+
+#: package/contents/ui/main.qml:79
+#, kde-format
+msgid "Temperature"
+msgstr ""
+
+#: package/contents/ui/main.qml:79
+#, kde-format
+msgctxt "Degree Celsius"
+msgid "°C"
+msgstr ""
+
+#: package/contents/ui/main.qml:83
+#, kde-format
+msgid "Manufacturer"
+msgstr ""
+
+#: package/contents/ui/main.qml:85
+#, kde-format
+msgid "Vendor"
+msgstr ""
+
+#: package/contents/ui/main.qml:86
+#, kde-format
+msgid "Model"
+msgstr ""
+
+#: package/contents/ui/main.qml:87
+#, kde-format
+msgid "Serial Number"
+msgstr ""
+
+#: package/contents/ui/main.qml:94
+#, kde-format
+msgid "Not charging"
+msgstr ""
+
+#: package/contents/ui/main.qml:95
+#, kde-format
+msgid "Charging"
+msgstr ""
+
+#: package/contents/ui/main.qml:96
+#, kde-format
+msgid "Discharging"
+msgstr ""
+
+#: package/contents/ui/main.qml:97
+#, kde-format
+msgid "Fully charged"
+msgstr ""
+
+#: package/contents/ui/main.qml:210
+#, kde-format
+msgid "Charge Percentage"
+msgstr ""
+
+#: package/contents/ui/main.qml:220
+#, kde-format
+msgid "Energy Consumption"
+msgstr ""
+
+#: package/contents/ui/main.qml:235
+#, kde-format
+msgid "Last hour"
+msgstr ""
+
+#: package/contents/ui/main.qml:236
+#, kde-format
+msgid "Last 2 hours"
+msgstr ""
+
+#: package/contents/ui/main.qml:237
+#, kde-format
+msgid "Last 12 hours"
+msgstr ""
+
+#: package/contents/ui/main.qml:238
+#, kde-format
+msgid "Last 24 hours"
+msgstr ""
+
+#: package/contents/ui/main.qml:239
+#, kde-format
+msgid "Last 48 hours"
+msgstr ""
+
+#: package/contents/ui/main.qml:240
+#, kde-format
+msgid "Last 7 days"
+msgstr ""
+
+#: package/contents/ui/main.qml:242
+#, kde-format
+msgid "Timespan"
+msgstr ""
+
+#: package/contents/ui/main.qml:243
+#, kde-format
+msgid "Timespan of data to display"
+msgstr ""
+
+#: package/contents/ui/main.qml:248
+#, kde-format
+msgid "Refresh"
+msgstr ""
+
+#: package/contents/ui/main.qml:271
+#, kde-format
+msgctxt "Shorthand for Watts"
+msgid "W"
+msgstr ""
+
+#: package/contents/ui/main.qml:271
+#, kde-format
+msgctxt "literal percent sign"
+msgid "%"
+msgstr ""
+
+#: package/contents/ui/main.qml:294
+#, kde-format
+msgid "This type of history is currently not available for this device."
+msgstr ""
+
+#: package/contents/ui/main.qml:312
+#, kde-format
+msgid "Application Energy Consumption"
+msgstr ""
+
+#: package/contents/ui/main.qml:337
+#, kde-format
+msgid "Path: %1"
+msgstr ""
+
+#: package/contents/ui/main.qml:340
+#, kde-format
+msgid "PID: %1"
+msgstr ""
+
+#: package/contents/ui/main.qml:343
+#, kde-format
+msgid "Wakeups per second: %1 (%2%)"
+msgstr ""
+
+#: package/contents/ui/main.qml:345
+#, kde-format
+msgid "Details: %1"
+msgstr ""
+
+#: package/contents/ui/main.qml:445
+#, kde-format
+msgid "%1:"
+msgstr ""
+
+#: package/contents/ui/main.qml:463
+#, kde-format
+msgid "Yes"
+msgstr ""
+
+#: package/contents/ui/main.qml:465
+#, kde-format
+msgid "No"
+msgstr ""
+
+#: package/contents/ui/main.qml:483
+#, kde-format
+msgctxt "%1 is value, %2 is unit"
+msgid "%1 %2"
+msgstr ""

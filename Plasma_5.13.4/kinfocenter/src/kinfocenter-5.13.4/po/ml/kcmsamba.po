@@ -1,0 +1,396 @@
+# translation of kcmsamba.po to
+# Copyright (C) 2008 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdebase package.
+# ANI PETER|അനി പീറ്റര്‍ <apeter@redhat.com>, 2008
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmsamba\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-03-31 02:49+0200\n"
+"PO-Revision-Date: 2008-07-12 00:34+0530\n"
+"Last-Translator: ANI PETER|അനി പീറ്റര്‍ <apeter@redhat.com\n"
+"Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc-"
+"discuss@googlegroups.com>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ഹിരണ്‍ വേണുഗോപാലന്‍,അനി പീറ്റര്‍"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "hiran.v@gmail.com,apeter@redhat.com"
+
+#: kcmsambaimports.cpp:39 ksmbstatus.cpp:49
+#, kde-format
+msgid "Type"
+msgstr "തരം"
+
+#: kcmsambaimports.cpp:39
+#, kde-format
+msgid "Resource"
+msgstr "വിഭവം"
+
+#: kcmsambaimports.cpp:39
+#, kde-format
+msgid "Mounted Under"
+msgstr "എവിടെ മൌണ്ടു് ചെയ്തിരിക്കുന്നു"
+
+#: kcmsambaimports.cpp:41
+#, kde-format
+msgid ""
+"This list shows the Samba and NFS shared resources mounted on your system "
+"from other hosts. The \"Type\" column tells you whether the mounted resource "
+"is a Samba or an NFS type of resource. The \"Resource\" column shows the "
+"descriptive name of the shared resource. Finally, the third column, which is "
+"labeled \"Mounted under\" shows the location on your system where the shared "
+"resource is mounted."
+msgstr ""
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Samba log file: "
+msgstr "സാംബാ ലോഗ് ഫയല്‍: "
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Show opened connections"
+msgstr "തുറന്ന കണക്ഷനുകള്‍ തുറക്കുക"
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Show closed connections"
+msgstr "അടച്ച കണക്ഷനുകള്‍ തുറക്കുക"
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "Show opened files"
+msgstr "തുറന്ന ഫയലുകള്‍ തുറക്കുക"
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "Show closed files"
+msgstr "അടച്ച ഫയലുകള്‍ തുറക്കുക"
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "&Update"
+msgstr "&പരിഷ്കരിക്കുക"
+
+#: kcmsambalog.cpp:58
+#, kde-format
+msgid ""
+"This page presents the contents of your samba log file in a friendly layout. "
+"Check that the correct log file for your computer is listed here. If you "
+"need to, correct the name or location of the log file, and then click the "
+"\"Update\" button."
+msgstr ""
+
+#: kcmsambalog.cpp:63
+#, kde-format
+msgid ""
+"Check this option if you want to view the details for connections opened to "
+"your computer."
+msgstr ""
+"നിങ്ങളുടെ കമ്പ്യൂട്ടറിനു ലഭ്യമാക്കിയിരിക്കുന്ന കണക്ഷനുകളുടെ വിശദവിവരങ്ങള്‍ കാണുന്നതിനായി ഇതു് "
+"തെരഞ്ഞെടുക്കുക."
+
+#: kcmsambalog.cpp:66
+#, kde-format
+msgid ""
+"Check this option if you want to view the events when connections to your "
+"computer were closed."
+msgstr ""
+"നിങ്ങളുടെ കമ്പ്യൂട്ടറിനു ലഭ്യമാക്കിയ കണക്ഷനുകളുടെ വിശദവിവരങ്ങള്‍ കാണുന്നതിനായി ഇതു് തെരഞ്ഞെടുക്കുക."
+
+#: kcmsambalog.cpp:69
+#, kde-format
+msgid ""
+"Check this option if you want to see the files which were opened on your "
+"computer by remote users. Note that file open/close events are not logged "
+"unless the samba log level is set to at least 2 (you cannot set the log "
+"level using this module)."
+msgstr ""
+
+#: kcmsambalog.cpp:75
+#, kde-format
+msgid ""
+"Check this option if you want to see the events when files opened by remote "
+"users were closed. Note that file open/close events are not logged unless "
+"the samba log level is set to at least 2 (you cannot set the log level using "
+"this module)."
+msgstr ""
+
+#: kcmsambalog.cpp:81
+#, kde-format
+msgid ""
+"Click here to refresh the information on this page. The log file (shown "
+"above) will be read to obtain the events logged by samba."
+msgstr ""
+"ഈ താളിലുള്ള വിവരങ്ങള്‍ പരിഷ്കരിക്കുന്നതിനായി ഇവിടെ ക്ലിക്ക് ചെയ്യുക. സാംബാ "
+"രേഖപ്പെടുത്തിയിട്ടുള്ള സംഭവങ്ങള്‍ ലഭ്യമാക്കുന്നതിനായി മുകളില്‍ കാണിച്ചിരിക്കുന്ന ലോഗ് "
+"ഫയലുപയോഗിക്കുന്നു."
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:90
+#, kde-format
+msgid "Date & Time"
+msgstr "തീയതിയും സമയവും"
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:90 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Event"
+msgstr "ഇവന്റ്"
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:91 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Service/File"
+msgstr "സേവനം/ഫയല്‍"
+
+#: kcmsambalog.cpp:90 kcmsambalog.cpp:91 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Host/User"
+msgstr "ഹോസ്റ്റ്/ഉപയോക്താവു്"
+
+#: kcmsambalog.cpp:94
+#, kde-format
+msgid ""
+"<p>This list shows details of the events logged by samba. Note that events "
+"at the file level are not logged unless you have configured the log level "
+"for samba to 2 or greater.</p><p> As with many other lists in KDE, you can "
+"click on a column heading to sort on that column. Click again to change the "
+"sorting direction from ascending to descending or vice versa.</p><p> If the "
+"list is empty, try clicking the \"Update\" button. The samba log file will "
+"be read and the list refreshed.</p>"
+msgstr ""
+
+#: kcmsambalog.cpp:205 kcmsambastatistics.cpp:149 kcmsambastatistics.cpp:214
+#, kde-format
+msgid "CONNECTION OPENED"
+msgstr "CONNECTION OPENED"
+
+#: kcmsambalog.cpp:209
+#, kde-format
+msgid "CONNECTION CLOSED"
+msgstr "CONNECTION CLOSED"
+
+#: kcmsambalog.cpp:214
+#, kde-format
+msgid "            FILE OPENED"
+msgstr "            FILE OPENED"
+
+#: kcmsambalog.cpp:220
+#, kde-format
+msgid "            FILE CLOSED"
+msgstr "            FILE CLOSED"
+
+#: kcmsambalog.cpp:228
+#, kde-format
+msgid "Could not open file %1"
+msgstr "ഫയല്‍ %1 തുറക്കുവാന്‍ സാധ്യമായില്ല"
+
+#: kcmsambastatistics.cpp:43
+#, kde-format
+msgid "Connections: 0"
+msgstr "കണക്ഷനുകള്‍: 0"
+
+#: kcmsambastatistics.cpp:45
+#, kde-format
+msgid "File accesses: 0"
+msgstr "ഫയല്‍ എത്ര തവണ ഉപയോഗിച്ചു: 0"
+
+#: kcmsambastatistics.cpp:48
+#, kde-format
+msgid "Event: "
+msgstr "സംഭവം:"
+
+#: kcmsambastatistics.cpp:52
+#, kde-format
+msgid "Service/File:"
+msgstr "സേവനം/ഫയല്‍:"
+
+#: kcmsambastatistics.cpp:56
+#, kde-format
+msgid "Host/User:"
+msgstr "ഹോസ്റ്റ്/ഉപയോക്താവു്:"
+
+#: kcmsambastatistics.cpp:59
+#, kde-format
+msgid "&Search"
+msgstr "&തെരയുക"
+
+#: kcmsambastatistics.cpp:60
+#, kde-format
+msgid "Clear Results"
+msgstr "ഫലങ്ങള്‍‍ വെടിപ്പാക്കുക"
+
+#: kcmsambastatistics.cpp:61
+#, kde-format
+msgid "Show expanded service info"
+msgstr "വികസിപ്പിച്ച സേവന വിവരം കാണിക്കുക"
+
+#: kcmsambastatistics.cpp:62
+#, kde-format
+msgid "Show expanded host info"
+msgstr "വികസിപ്പിച്ച ഹോസ്റ്റ് വിവരം കാണിക്കുക"
+
+#: kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Nr"
+msgstr "നംബര്‍"
+
+#: kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Hits"
+msgstr "ഹിറ്റ്സ്"
+
+#: kcmsambastatistics.cpp:72 kcmsambastatistics.cpp:137
+#, kde-format
+msgid "Connection"
+msgstr "കണക്ഷന്‍"
+
+#: kcmsambastatistics.cpp:73
+#, kde-format
+msgid "File Access"
+msgstr "ഫയലിലേക്കുള്ള പ്രവേശനം"
+
+#: kcmsambastatistics.cpp:127
+#, kde-format
+msgid "Connections: %1"
+msgstr "കണക്ഷനുകള്‍: %1"
+
+#: kcmsambastatistics.cpp:128
+#, kde-format
+msgid "File accesses: %1"
+msgstr "ഫയല്‍ എത്ര തവണ ഉപയോഗിച്ചു: %1"
+
+#: kcmsambastatistics.cpp:162 kcmsambastatistics.cpp:217
+#, kde-format
+msgid "FILE OPENED"
+msgstr "FILE OPENED"
+
+#: ksmbstatus.cpp:49
+#, kde-format
+msgid "Service"
+msgstr "സേവനം"
+
+#: ksmbstatus.cpp:49
+#, kde-format
+msgid "Accessed From"
+msgstr "എവിടെ നിന്നു് ലഭ്യമാക്കുന്നു"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "UID"
+msgstr "UID"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "GID"
+msgstr "GID"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "PID"
+msgstr "PID"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "Open Files"
+msgstr "ഫയലുകള്‍ തുറക്കുക"
+
+#: ksmbstatus.cpp:169
+#, fuzzy, kde-format
+#| msgid "Error: Unable to run smbstatus"
+msgid "Error run smbstatus: %1"
+msgstr "പിശകു്: smbstatus പ്രവര്‍ത്തിക്കുവാന്‍ സാധ്യമായില്ല"
+
+#: ksmbstatus.cpp:172
+#, kde-format
+msgid "Error: Unable to open configuration file \"smb.conf\""
+msgstr "പിശകു്: \"smb.conf\"എന്ന ക്രമീകരണ ഫയല്‍ തുറക്കുവാനായില്ല"
+
+#: main.cpp:58
+#, kde-format
+msgid "&Exports"
+msgstr "&പുറത്തേക്കെടുത്തവ"
+
+#: main.cpp:59
+#, kde-format
+msgid "&Imports"
+msgstr "&അകത്തേക്കാക്കിയവ"
+
+#: main.cpp:60
+#, kde-format
+msgid "&Log"
+msgstr "&ലോഗ്"
+
+#: main.cpp:61
+#, kde-format
+msgid "&Statistics"
+msgstr "&സ്ഥിതിവിവരക്കണക്കുകള്‍"
+
+#: main.cpp:65
+#, kde-format
+msgid ""
+"<p>The Samba and NFS Status Monitor is a front end to the programs "
+"<em>smbstatus</em> and <em>showmount</em>. Smbstatus reports on current "
+"Samba connections, and is part of the suite of Samba tools, which implements "
+"the SMB (Session Message Block) protocol, also called the NetBIOS or "
+"LanManager protocol. This protocol can be used to provide printer sharing or "
+"drive sharing services on a network including machines running the various "
+"flavors of Microsoft Windows.</p>"
+msgstr ""
+
+#: main.cpp:73
+#, kde-format
+msgid "kcmsamba"
+msgstr "kcmsamba"
+
+#: main.cpp:74
+#, fuzzy, kde-format
+#| msgid "KDE Panel System Information Control Module"
+msgid "System Information Control Module"
+msgstr "കെഡിഇ പാനല്‍ സിസ്റ്റത്തിന്റെ വിവര നിയന്ത്രണഘടകം"
+
+#: main.cpp:76
+#, kde-format
+msgid "(c) 2002 KDE Information Control Module Samba Team"
+msgstr "(c) 2002 കെഡിഇ വിവര നിയന്ത്രണഘടകത്തിനുള്ള സാംബാ സംഘം"
+
+#: main.cpp:77
+#, kde-format
+msgid "Michael Glauche"
+msgstr "മൈക്കിള്‍ ഗ്ലൌച്ച്"
+
+#: main.cpp:78
+#, kde-format
+msgid "Matthias Hoelzer"
+msgstr "മത്തിയാസ് ഹൌള്‍സര്‍"
+
+#: main.cpp:79
+#, kde-format
+msgid "David Faure"
+msgstr "ഡേവിഡ് ഫൌര്‍"
+
+#: main.cpp:80
+#, kde-format
+msgid "Harald Koschinski"
+msgstr "ഹറാള്‍ഡ് കോഷിന്‍സ്കി"
+
+#: main.cpp:81
+#, kde-format
+msgid "Wilco Greven"
+msgstr "വില്‍കോ ഗ്രീവന്‍"
+
+#: main.cpp:82
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr "അലക്സാണ്ടര്‍ ന്യൂണ്‍ഡ്രോഫ്"

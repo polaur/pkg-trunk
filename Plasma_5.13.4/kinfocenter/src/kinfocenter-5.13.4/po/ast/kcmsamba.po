@@ -1,0 +1,386 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# enolp <enolp@softastur.org>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-03-31 02:49+0200\n"
+"PO-Revision-Date: 2016-12-21 16:34+0100\n"
+"Last-Translator: enolp <enolp@softastur.org>\n"
+"Language-Team: Asturian <alministradores@softastur.org>\n"
+"Language: ast\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Softastur"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "alministradores@softastur.org"
+
+#: kcmsambaimports.cpp:39 ksmbstatus.cpp:49
+#, kde-format
+msgid "Type"
+msgstr ""
+
+#: kcmsambaimports.cpp:39
+#, kde-format
+msgid "Resource"
+msgstr ""
+
+#: kcmsambaimports.cpp:39
+#, kde-format
+msgid "Mounted Under"
+msgstr ""
+
+#: kcmsambaimports.cpp:41
+#, kde-format
+msgid ""
+"This list shows the Samba and NFS shared resources mounted on your system "
+"from other hosts. The \"Type\" column tells you whether the mounted resource "
+"is a Samba or an NFS type of resource. The \"Resource\" column shows the "
+"descriptive name of the shared resource. Finally, the third column, which is "
+"labeled \"Mounted under\" shows the location on your system where the shared "
+"resource is mounted."
+msgstr ""
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Samba log file: "
+msgstr ""
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Show opened connections"
+msgstr ""
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Show closed connections"
+msgstr ""
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "Show opened files"
+msgstr ""
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "Show closed files"
+msgstr ""
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "&Update"
+msgstr ""
+
+#: kcmsambalog.cpp:58
+#, kde-format
+msgid ""
+"This page presents the contents of your samba log file in a friendly layout. "
+"Check that the correct log file for your computer is listed here. If you "
+"need to, correct the name or location of the log file, and then click the "
+"\"Update\" button."
+msgstr ""
+
+#: kcmsambalog.cpp:63
+#, kde-format
+msgid ""
+"Check this option if you want to view the details for connections opened to "
+"your computer."
+msgstr ""
+
+#: kcmsambalog.cpp:66
+#, kde-format
+msgid ""
+"Check this option if you want to view the events when connections to your "
+"computer were closed."
+msgstr ""
+
+#: kcmsambalog.cpp:69
+#, kde-format
+msgid ""
+"Check this option if you want to see the files which were opened on your "
+"computer by remote users. Note that file open/close events are not logged "
+"unless the samba log level is set to at least 2 (you cannot set the log "
+"level using this module)."
+msgstr ""
+
+#: kcmsambalog.cpp:75
+#, kde-format
+msgid ""
+"Check this option if you want to see the events when files opened by remote "
+"users were closed. Note that file open/close events are not logged unless "
+"the samba log level is set to at least 2 (you cannot set the log level using "
+"this module)."
+msgstr ""
+
+#: kcmsambalog.cpp:81
+#, kde-format
+msgid ""
+"Click here to refresh the information on this page. The log file (shown "
+"above) will be read to obtain the events logged by samba."
+msgstr ""
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:90
+#, kde-format
+msgid "Date & Time"
+msgstr ""
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:90 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Event"
+msgstr ""
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:91 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Service/File"
+msgstr ""
+
+#: kcmsambalog.cpp:90 kcmsambalog.cpp:91 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Host/User"
+msgstr ""
+
+#: kcmsambalog.cpp:94
+#, kde-format
+msgid ""
+"<p>This list shows details of the events logged by samba. Note that events "
+"at the file level are not logged unless you have configured the log level "
+"for samba to 2 or greater.</p><p> As with many other lists in KDE, you can "
+"click on a column heading to sort on that column. Click again to change the "
+"sorting direction from ascending to descending or vice versa.</p><p> If the "
+"list is empty, try clicking the \"Update\" button. The samba log file will "
+"be read and the list refreshed.</p>"
+msgstr ""
+
+#: kcmsambalog.cpp:205 kcmsambastatistics.cpp:149 kcmsambastatistics.cpp:214
+#, kde-format
+msgid "CONNECTION OPENED"
+msgstr ""
+
+#: kcmsambalog.cpp:209
+#, kde-format
+msgid "CONNECTION CLOSED"
+msgstr ""
+
+#: kcmsambalog.cpp:214
+#, kde-format
+msgid "            FILE OPENED"
+msgstr ""
+
+#: kcmsambalog.cpp:220
+#, kde-format
+msgid "            FILE CLOSED"
+msgstr ""
+
+#: kcmsambalog.cpp:228
+#, kde-format
+msgid "Could not open file %1"
+msgstr ""
+
+#: kcmsambastatistics.cpp:43
+#, kde-format
+msgid "Connections: 0"
+msgstr ""
+
+#: kcmsambastatistics.cpp:45
+#, kde-format
+msgid "File accesses: 0"
+msgstr ""
+
+#: kcmsambastatistics.cpp:48
+#, kde-format
+msgid "Event: "
+msgstr ""
+
+#: kcmsambastatistics.cpp:52
+#, kde-format
+msgid "Service/File:"
+msgstr ""
+
+#: kcmsambastatistics.cpp:56
+#, kde-format
+msgid "Host/User:"
+msgstr ""
+
+#: kcmsambastatistics.cpp:59
+#, kde-format
+msgid "&Search"
+msgstr ""
+
+#: kcmsambastatistics.cpp:60
+#, kde-format
+msgid "Clear Results"
+msgstr ""
+
+#: kcmsambastatistics.cpp:61
+#, kde-format
+msgid "Show expanded service info"
+msgstr ""
+
+#: kcmsambastatistics.cpp:62
+#, kde-format
+msgid "Show expanded host info"
+msgstr ""
+
+#: kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Nr"
+msgstr ""
+
+#: kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Hits"
+msgstr ""
+
+#: kcmsambastatistics.cpp:72 kcmsambastatistics.cpp:137
+#, kde-format
+msgid "Connection"
+msgstr ""
+
+#: kcmsambastatistics.cpp:73
+#, kde-format
+msgid "File Access"
+msgstr ""
+
+#: kcmsambastatistics.cpp:127
+#, kde-format
+msgid "Connections: %1"
+msgstr ""
+
+#: kcmsambastatistics.cpp:128
+#, kde-format
+msgid "File accesses: %1"
+msgstr ""
+
+#: kcmsambastatistics.cpp:162 kcmsambastatistics.cpp:217
+#, kde-format
+msgid "FILE OPENED"
+msgstr ""
+
+#: ksmbstatus.cpp:49
+#, kde-format
+msgid "Service"
+msgstr ""
+
+#: ksmbstatus.cpp:49
+#, kde-format
+msgid "Accessed From"
+msgstr ""
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "UID"
+msgstr ""
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "GID"
+msgstr ""
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "PID"
+msgstr ""
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "Open Files"
+msgstr ""
+
+#: ksmbstatus.cpp:169
+#, kde-format
+msgid "Error run smbstatus: %1"
+msgstr ""
+
+#: ksmbstatus.cpp:172
+#, kde-format
+msgid "Error: Unable to open configuration file \"smb.conf\""
+msgstr ""
+
+#: main.cpp:58
+#, kde-format
+msgid "&Exports"
+msgstr ""
+
+#: main.cpp:59
+#, kde-format
+msgid "&Imports"
+msgstr ""
+
+#: main.cpp:60
+#, kde-format
+msgid "&Log"
+msgstr ""
+
+#: main.cpp:61
+#, kde-format
+msgid "&Statistics"
+msgstr ""
+
+#: main.cpp:65
+#, kde-format
+msgid ""
+"<p>The Samba and NFS Status Monitor is a front end to the programs "
+"<em>smbstatus</em> and <em>showmount</em>. Smbstatus reports on current "
+"Samba connections, and is part of the suite of Samba tools, which implements "
+"the SMB (Session Message Block) protocol, also called the NetBIOS or "
+"LanManager protocol. This protocol can be used to provide printer sharing or "
+"drive sharing services on a network including machines running the various "
+"flavors of Microsoft Windows.</p>"
+msgstr ""
+
+#: main.cpp:73
+#, kde-format
+msgid "kcmsamba"
+msgstr ""
+
+#: main.cpp:74
+#, kde-format
+msgid "System Information Control Module"
+msgstr ""
+
+#: main.cpp:76
+#, kde-format
+msgid "(c) 2002 KDE Information Control Module Samba Team"
+msgstr ""
+
+#: main.cpp:77
+#, kde-format
+msgid "Michael Glauche"
+msgstr ""
+
+#: main.cpp:78
+#, kde-format
+msgid "Matthias Hoelzer"
+msgstr ""
+
+#: main.cpp:79
+#, kde-format
+msgid "David Faure"
+msgstr ""
+
+#: main.cpp:80
+#, kde-format
+msgid "Harald Koschinski"
+msgstr ""
+
+#: main.cpp:81
+#, kde-format
+msgid "Wilco Greven"
+msgstr ""
+
+#: main.cpp:82
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr ""

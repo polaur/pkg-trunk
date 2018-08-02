@@ -1,0 +1,148 @@
+# Indonesian translations for kinfocenter package.
+# Copyright (C) 2010 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kinfocenter package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2010.
+# Wantoyo <wantoyek@gmail.com>, 2017, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kinfocenter\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-08 03:33+0100\n"
+"PO-Revision-Date: 2018-06-13 12:39+0700\n"
+"Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
+"Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Andhika Padmawan"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "andhika.padmawan@gmail.com"
+
+#: infocenter.cpp:52
+#, kde-format
+msgctxt "Main window title"
+msgid "KInfocenter"
+msgstr "KInfocenter"
+
+#: infocenter.cpp:127
+#, kde-format
+msgctxt "Information about current module located in about menu"
+msgid "About Current Information Module"
+msgstr "Tentang Modul Informasi Saat Ini"
+
+#: infocenter.cpp:132
+#, kde-format
+msgctxt "Module help button label"
+msgid "Module Help"
+msgstr "Bantuan Modul"
+
+#: infocenter.cpp:135
+#, kde-format
+msgctxt "Help button label"
+msgid "Help"
+msgstr "Bantuan"
+
+#: infocenter.cpp:175
+#, kde-format
+msgctxt "Search Bar Click Message"
+msgid "Search"
+msgstr "Cari"
+
+#: infocenter.cpp:180
+#, kde-format
+msgctxt "Kaction search label"
+msgid "Search Modules"
+msgstr "Cari Modul"
+
+#: infokcmmodel.cpp:34
+#, kde-format
+msgid "Information Modules"
+msgstr "Modul Informasi"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kinfocenterui.rc:10
+#, kde-format
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr "Bilah Alat Utama"
+
+#: main.cpp:42
+#, kde-format
+msgid "Info Center"
+msgstr "Pusat Info"
+
+#: main.cpp:45
+#, kde-format
+msgid "Copyright 2009-2018 KDE"
+msgstr "Hak Cipta 2009-2018 KDE"
+
+#: main.cpp:47
+#, kde-format
+msgid "David Hubner"
+msgstr "David Hubner"
+
+#: main.cpp:47
+#, kde-format
+msgid "Current Maintainer"
+msgstr "Pemelihara Saat Ini"
+
+#: main.cpp:48
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: main.cpp:48
+#, kde-format
+msgid "Previous Maintainer"
+msgstr "Pemelihara Sebelumnya"
+
+#: main.cpp:49
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: main.cpp:50
+#, kde-format
+msgid "Matthias Elter"
+msgstr "Matthias Elter"
+
+#: main.cpp:51
+#, kde-format
+msgid "Matthias Ettrich"
+msgstr "Matthias Ettrich"
+
+#: main.cpp:52
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: main.cpp:53
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
+
+#: sidepanel.cpp:106
+#, kde-format
+msgid "Clear Search"
+msgstr "Hapus Pencarian"
+
+#: sidepanel.cpp:109
+#, kde-format
+msgid "Expand All Categories"
+msgstr "Bentangkan Semua Kategori"
+
+#: sidepanel.cpp:112
+#, kde-format
+msgid "Collapse All Categories"
+msgstr "Lipatkan Semua Kategori"

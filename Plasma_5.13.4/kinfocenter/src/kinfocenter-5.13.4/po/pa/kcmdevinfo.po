@@ -1,0 +1,521 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# A S Alam <aalam@users.sf.net>, 2010, 2012, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-04-05 03:41+0200\n"
+"PO-Revision-Date: 2014-03-29 18:54-0500\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "aalam@users.sf.net"
+
+#: devicelisting.cpp:47
+#, kde-format
+msgctxt "Device Listing Whats This"
+msgid "Shows all the devices that are currently listed."
+msgstr "ਸਭ ਜੰਤਰ ਵੇਖੋ, ਜੋ ਕਿ ਇਸ ਸਮੇਂ ਲਿਸਟ ਹਨ।"
+
+#: devicelisting.cpp:50
+#, kde-format
+msgid "Devices"
+msgstr "ਜੰਤਰ"
+
+#: devicelisting.cpp:62
+#, kde-format
+msgid "Collapse All"
+msgstr "ਸਭ ਸਮੇਟੋ"
+
+#: devicelisting.cpp:65
+#, kde-format
+msgid "Expand All"
+msgstr "ਸਭ ਫੈਲਾਓ"
+
+#: devicelisting.cpp:68
+#, kde-format
+msgid "Show All Devices"
+msgstr "ਸਭ ਜੰਤਰ ਵੇਖੋ"
+
+#: devicelisting.cpp:71
+#, kde-format
+msgid "Show Relevant Devices"
+msgstr "ਢੁੱਕਵੇਂ ਜੰਤਰ ਵੇਖੋ"
+
+#: devicelisting.cpp:100
+#, kde-format
+msgctxt "unknown device type"
+msgid "Unknown"
+msgstr "ਅਣਜਾਣ"
+
+#: devicelisting.cpp:141 devinfo.cpp:87
+#, kde-format
+msgctxt "no device UDI"
+msgid "None"
+msgstr "ਕੋਈ ਨਹੀਂ"
+
+#: devinfo.cpp:33
+#, kde-format
+msgid "kcmdevinfo"
+msgstr "kcmdevinfo"
+
+#: devinfo.cpp:33
+#, fuzzy, kde-format
+#| msgid "KDE Solid Based Device Viewer"
+msgid "Device Viewer"
+msgstr "KDE ਸਾਲਡ ਅਧਾਰਿਤ ਜੰਤਰ ਦਰਸ਼ਕ"
+
+#: devinfo.cpp:35
+#, kde-format
+msgid "(c) 2010 David Hubner"
+msgstr "(c) 2010 David Hubner"
+
+#: devinfo.cpp:65
+#, kde-format
+msgid "UDI: "
+msgstr "UDI: "
+
+#: devinfo.cpp:74
+#, kde-format
+msgctxt "Udi Whats This"
+msgid "Shows the current device's UDI (Unique Device Identifier)"
+msgstr "ਮੌਜੂਦਾ ਜੰਤਰ ਦਾ UDI (ਯੂਨੀਕ ਡਿਵਾਇਸ ਅਡੈਂਟਟੀਫਾਇਰ) ਵੇਖੋ"
+
+#: infopanel.cpp:25
+#, kde-format
+msgid "Device Information"
+msgstr "ਜੰਤਰ ਜਾਣਕਾਰੀ"
+
+#: infopanel.cpp:35
+#, kde-format
+msgctxt "Info Panel Whats This"
+msgid "Shows information about the currently selected device."
+msgstr "ਇਸ ਸਮੇਂ ਚੁਣੇ ਜੰਤਰ ਬਾਰੇ ਜਾਣਕਾਰੀ ਵੇਖੋ।"
+
+#: infopanel.cpp:62
+#, kde-format
+msgid ""
+"\n"
+"Solid Based Device Viewer Module"
+msgstr ""
+"\n"
+"ਸਾਲਡ ਅਧਾਰਿਤ ਜੰਤਰ ਦਰਸ਼ਕ ਮੋਡੀਊਲ"
+
+#: infopanel.cpp:125
+#, kde-format
+msgid "Product: "
+msgstr "ਪਰੋਡੱਕਟ: "
+
+#: infopanel.cpp:125
+#, kde-format
+msgid "Vendor: "
+msgstr "ਵੇਂਡਰ: "
+
+#: infopanel.cpp:146
+#, kde-format
+msgid "Yes"
+msgstr "ਹਾਂ"
+
+#: infopanel.cpp:148
+#, kde-format
+msgid "No"
+msgstr "ਨਹੀਂ"
+
+#: infopanel.h:57
+#, kde-format
+msgctxt "name of something is not known"
+msgid "Unknown"
+msgstr "ਅਣਜਾਣ"
+
+#: soldevice.cpp:72
+#, kde-format
+msgctxt "unknown device"
+msgid "Unknown"
+msgstr "ਅਣਜਾਣ"
+
+#: soldevice.cpp:99
+#, kde-format
+msgctxt "Default device tooltip"
+msgid "A Device"
+msgstr "ਜੰਤਰ"
+
+#: soldevicetypes.cpp:44
+#, kde-format
+msgid "Processors"
+msgstr "ਪਰੋਸੈਸਰ"
+
+#: soldevicetypes.cpp:60
+#, kde-format
+msgid "Processor %1"
+msgstr "ਪਰੋਸੈਸਰ %1"
+
+#: soldevicetypes.cpp:77
+#, kde-format
+msgid "Intel MMX"
+msgstr "Intel MMX"
+
+#: soldevicetypes.cpp:80
+#, kde-format
+msgid "Intel SSE"
+msgstr "Intel SSE"
+
+#: soldevicetypes.cpp:83
+#, kde-format
+msgid "Intel SSE2"
+msgstr "Intel SSE2"
+
+#: soldevicetypes.cpp:86
+#, kde-format
+msgid "Intel SSE3"
+msgstr "Intel SSE3"
+
+#: soldevicetypes.cpp:89
+#, kde-format
+msgid "Intel SSE4"
+msgstr "Intel SSE4"
+
+#: soldevicetypes.cpp:92
+#, kde-format
+msgid "AMD 3DNow"
+msgstr "AMD 3DNow"
+
+#: soldevicetypes.cpp:95
+#, kde-format
+msgid "ATI IVEC"
+msgstr "ATI IVEC"
+
+#: soldevicetypes.cpp:98
+#, kde-format
+msgctxt "no instruction set extensions"
+msgid "None"
+msgstr "ਕੋਈ ਨਹੀਂ"
+
+#: soldevicetypes.cpp:101
+#, kde-format
+msgid "Processor Number: "
+msgstr "ਪਰੋਸੈਸਰ ਨੰਬਰ: "
+
+#: soldevicetypes.cpp:103
+#, kde-format
+msgid "Max Speed: "
+msgstr "ਵੱਧ-ਵੱਧ ਸਪੀਡ: "
+
+#: soldevicetypes.cpp:105
+#, kde-format
+msgid "Supported Instruction Sets: "
+msgstr "ਸਹਾਇਕ ਹਦਾਇਤਾਂ ਸੈੱਟ: "
+
+#: soldevicetypes.cpp:133
+#, kde-format
+msgid "Storage Drives"
+msgstr "ਸਟੋਰੇਜ਼ ਜੰਤਰ"
+
+#: soldevicetypes.cpp:152
+#, kde-format
+msgid "Hard Disk Drive"
+msgstr "ਹਾਰਡ ਡਿਸਕ ਡਰਾਇਵ"
+
+#: soldevicetypes.cpp:155
+#, kde-format
+msgid "Compact Flash Reader"
+msgstr "ਕੰਪੈਕਟ ਫਲੈਸ਼ ਰੀਡਰ"
+
+#: soldevicetypes.cpp:158
+#, kde-format
+msgid "Smart Media Reader"
+msgstr "ਸਮਾਰਟ ਮੀਡਿਆ ਰੀਡਰ"
+
+#: soldevicetypes.cpp:161
+#, kde-format
+msgid "SD/MMC Reader"
+msgstr "SD/MMC ਰੀਡਰ"
+
+#: soldevicetypes.cpp:164
+#, kde-format
+msgid "Optical Drive"
+msgstr "ਓਪਟੀਕਲ ਡਰਾਇਵ"
+
+#: soldevicetypes.cpp:167
+#, kde-format
+msgid "Memory Stick Reader"
+msgstr "ਮੈਮੋਰੀ ਸਟਿੱਕ ਰੀਡਰ"
+
+#: soldevicetypes.cpp:170
+#, kde-format
+msgid "xD Reader"
+msgstr "xD ਰੀਡਰ"
+
+#: soldevicetypes.cpp:173
+#, kde-format
+msgid "Unknown Drive"
+msgstr "ਅਣਜਾਣ ਡਰਾਇਵ"
+
+#: soldevicetypes.cpp:193
+#, kde-format
+msgid "IDE"
+msgstr "IDE"
+
+#: soldevicetypes.cpp:196
+#, kde-format
+msgid "USB"
+msgstr "USB"
+
+#: soldevicetypes.cpp:199
+#, kde-format
+msgid "IEEE1394"
+msgstr "IEEE1394"
+
+#: soldevicetypes.cpp:202
+#, kde-format
+msgid "SCSI"
+msgstr "SCSI"
+
+#: soldevicetypes.cpp:205
+#, kde-format
+msgid "SATA"
+msgstr "SATA"
+
+#: soldevicetypes.cpp:208
+#, kde-format
+msgctxt "platform storage bus"
+msgid "Platform"
+msgstr "ਪਲੇਟਫਾਰਮ"
+
+#: soldevicetypes.cpp:211
+#, kde-format
+msgctxt "unknown storage bus"
+msgid "Unknown"
+msgstr "ਅਣਜਾਣ"
+
+#: soldevicetypes.cpp:214
+#, kde-format
+msgid "Bus: "
+msgstr "ਬਸ: "
+
+#: soldevicetypes.cpp:216
+#, kde-format
+msgid "Hotpluggable?"
+msgstr "ਹਾਟਪਲੱਗਯੋਗ?"
+
+#: soldevicetypes.cpp:218
+#, kde-format
+msgid "Removable?"
+msgstr "ਹਟਾਉਣਯੋਗ?"
+
+#: soldevicetypes.cpp:262
+#, kde-format
+msgid "Unused"
+msgstr "ਅਣ-ਵਰਤੇ"
+
+#: soldevicetypes.cpp:265
+#, kde-format
+msgid "File System"
+msgstr "ਫਾਈਲ ਸਿਸਟਮ"
+
+#: soldevicetypes.cpp:268
+#, kde-format
+msgid "Partition Table"
+msgstr "ਪਾਰਟੀਸ਼ਨ ਟੇਬਲ"
+
+#: soldevicetypes.cpp:271
+#, kde-format
+msgid "Raid"
+msgstr "ਰੇਡ"
+
+#: soldevicetypes.cpp:274
+#, kde-format
+msgid "Encrypted"
+msgstr "ਇੰਕ੍ਰਿਪਟ ਕੀਤੇ"
+
+#: soldevicetypes.cpp:277
+#, kde-format
+msgctxt "unknown volume usage"
+msgid "Unknown"
+msgstr "ਅਣਜਾਣ"
+
+#: soldevicetypes.cpp:280
+#, kde-format
+msgid "File System Type: "
+msgstr "ਫਾਈਲ ਸਿਸਟਮ ਕਿਸਮ: "
+
+#: soldevicetypes.cpp:282
+#, kde-format
+msgid "Label: "
+msgstr "ਲੇਬਲ: "
+
+#: soldevicetypes.cpp:283
+#, kde-format
+msgid "Not Set"
+msgstr "ਸੈੱਟ ਨਹੀਂ"
+
+#: soldevicetypes.cpp:284
+#, kde-format
+msgid "Volume Usage: "
+msgstr "ਵਾਲੀਅਮ ਵਰਤੋਂ: "
+
+#: soldevicetypes.cpp:286
+#, kde-format
+msgid "UUID: "
+msgstr "UUID: "
+
+#: soldevicetypes.cpp:291
+#, kde-format
+msgid "Mounted At: "
+msgstr "ਮਾਊਂਟ ਕੀਤਾ: "
+
+#: soldevicetypes.cpp:292
+#, kde-format
+msgid "Not Mounted"
+msgstr "ਮਾਊਂਟ ਨਹੀਂ"
+
+#: soldevicetypes.cpp:298
+#, kde-format
+msgid "Volume Space:"
+msgstr "ਵਾਲੀਅਮ ਥਾਂ:"
+
+#: soldevicetypes.cpp:306
+#, kde-format
+msgctxt "Available space out of total partition size (percent used)"
+msgid "%1 free of %2 (%3% used)"
+msgstr "%2 ਵਿੱਚੋਂ %1 ਖਾਲੀ (%3% ਵਰਤੀ)"
+
+#: soldevicetypes.cpp:312
+#, kde-format
+msgid "No data available"
+msgstr "ਕੋਈ ਡਾਟਾ ਉਪਲੱਬਧ ਨਹੀਂ"
+
+#: soldevicetypes.cpp:339
+#, kde-format
+msgid "Multimedia Players"
+msgstr "ਮਲਟੀਮੀਡਿਆ ਪਲੇਅਰ"
+
+#: soldevicetypes.cpp:358 soldevicetypes.cpp:400
+#, kde-format
+msgid "Supported Drivers: "
+msgstr "ਸਹਾਇਕ ਜੰਤਰ: "
+
+#: soldevicetypes.cpp:360 soldevicetypes.cpp:402
+#, kde-format
+msgid "Supported Protocols: "
+msgstr "ਸਹਾਇਕ ਪਰੋਟੋਕਾਲ: "
+
+#: soldevicetypes.cpp:381
+#, kde-format
+msgid "Cameras"
+msgstr "ਕੈਮਰੇ"
+
+#: soldevicetypes.cpp:423
+#, kde-format
+msgid "Batteries"
+msgstr "ਬੈਟਰੀਆਂ"
+
+#: soldevicetypes.cpp:445
+#, kde-format
+msgid "PDA"
+msgstr "PDA"
+
+#: soldevicetypes.cpp:448
+#, kde-format
+msgid "UPS"
+msgstr "UPS"
+
+#: soldevicetypes.cpp:451
+#, kde-format
+msgid "Primary"
+msgstr "ਪ੍ਰਾਇਮਰੀ"
+
+#: soldevicetypes.cpp:454
+#, kde-format
+msgid "Mouse"
+msgstr "ਮਾਊਸ"
+
+#: soldevicetypes.cpp:457
+#, kde-format
+msgid "Keyboard"
+msgstr "ਕੀਬੋਰਡ"
+
+#: soldevicetypes.cpp:460
+#, kde-format
+msgid "Keyboard + Mouse"
+msgstr "ਕੀ-ਬੋਰਡ + ਮਾਊਂਸ"
+
+#: soldevicetypes.cpp:463
+#, kde-format
+msgid "Camera"
+msgstr "ਕੈਮਰਾ"
+
+#: soldevicetypes.cpp:466
+#, kde-format
+msgid "Phone"
+msgstr ""
+
+#: soldevicetypes.cpp:469
+#, kde-format
+msgctxt "Screen"
+msgid "Monitor"
+msgstr ""
+
+#: soldevicetypes.cpp:472
+#, kde-format
+msgctxt "Wireless game pad or joystick battery"
+msgid "Gaming Input"
+msgstr ""
+
+#: soldevicetypes.cpp:475
+#, kde-format
+msgctxt "unknown battery type"
+msgid "Unknown"
+msgstr "ਅਣਜਾਣ"
+
+#: soldevicetypes.cpp:481
+#, kde-format
+msgid "Charging"
+msgstr "ਚਾਰਜ ਹੋ ਰਿਹਾ ਹੈ"
+
+#: soldevicetypes.cpp:484
+#, kde-format
+msgid "Discharging"
+msgstr "ਡਿਸ-ਚਾਰਜ ਹੋ ਰਿਹਾ ਹੈ"
+
+#: soldevicetypes.cpp:487
+#, fuzzy, kde-format
+#| msgid "No Charge"
+msgid "Fully Charged"
+msgstr "ਚਾਰਜ ਨਹੀਂ"
+
+#: soldevicetypes.cpp:490
+#, kde-format
+msgid "No Charge"
+msgstr "ਚਾਰਜ ਨਹੀਂ"
+
+#: soldevicetypes.cpp:493
+#, kde-format
+msgid "Battery Type: "
+msgstr "ਬੈਟਰੀ ਕਿਸਮ: "
+
+#: soldevicetypes.cpp:495
+#, kde-format
+msgid "Charge Status: "
+msgstr "ਚਾਰਜ ਹਾਲਤ: "
+
+#: soldevicetypes.cpp:497
+#, fuzzy, kde-format
+#| msgid "Charge Status: "
+msgid "Charge Percent: "
+msgstr "ਚਾਰਜ ਹਾਲਤ: "

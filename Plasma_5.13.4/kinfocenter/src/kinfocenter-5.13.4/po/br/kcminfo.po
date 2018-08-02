@@ -1,0 +1,629 @@
+# KTranslator Generated File
+# KDE breton translation
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Jañ-Mai Drapier <jdrapier@club-internet.fr>, 1999
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcminfo 1.1\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-09 03:35+0100\n"
+"PO-Revision-Date: 2004-10-01 15:17+0200\n"
+"Last-Translator: Jañ-Mai Drapier <jdrapier@club-internet.fr>\n"
+"Language-Team: Brezhoneg <Suav.Icb@wanadoo.fr>\n"
+"Language: br\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Thierry Vignaud, Jañ-Mai Drapier"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "tvignaud@mandriva.com, jdrapier@club-internet.fr"
+
+#: ../base/info_aix.cpp:68 ../base/info_wayland.cpp:88
+#, kde-format
+msgid "Name"
+msgstr "Anv"
+
+#: ../base/info_aix.cpp:69
+#, kde-format
+msgid "Status"
+msgstr "Stad"
+
+#: ../base/info_aix.cpp:70
+#, kde-format
+msgid "Location"
+msgstr "Lec'hiadur"
+
+#: ../base/info_aix.cpp:71
+#, kde-format
+msgid "Description"
+msgstr "Deskrivadur"
+
+#: ../base/info_fbsd.cpp:89
+#, fuzzy, kde-format
+#| msgid "Information"
+msgctxt "@title:column Column name for PCI information"
+msgid "Information"
+msgstr "Titouroù"
+
+#: ../base/info_fbsd.cpp:94
+#, kde-format
+msgid ""
+"Could not find any programs with which to query your system's PCI information"
+msgstr ""
+
+#: ../base/info_fbsd.cpp:105
+#, kde-format
+msgid "PCI subsystem could not be queried: %1 could not be executed"
+msgstr ""
+
+#: ../base/info_fbsd.cpp:124
+#, kde-format
+msgid "The PCI subsystem could not be queried, this may need root privileges."
+msgstr ""
+
+#: ../base/info_hpux.cpp:128
+#, kde-format
+msgid "PA-RISC Processor"
+msgstr "Kewerier PA-RISC"
+
+#: ../base/info_hpux.cpp:130
+#, kde-format
+msgid "PA-RISC Revision"
+msgstr "Stumm PA-RISC"
+
+#: ../base/info_linux.cpp:103 main.cpp:51
+#, kde-format
+msgid "DMA-Channel"
+msgstr "Kanol-DMA"
+
+#: ../base/info_linux.cpp:103 ../base/info_linux.cpp:154
+#, kde-format
+msgid "Used By"
+msgstr "Implijet gant"
+
+#: ../base/info_linux.cpp:154
+#, kde-format
+msgid "I/O-Range"
+msgstr "Skeul-E/D"
+
+#: ../base/info_netbsd.cpp:120 ../base/info_openbsd.cpp:131
+#, kde-format
+msgid "IRQ"
+msgstr "IRQ"
+
+#: ../base/info_netbsd.cpp:120 ../base/info_openbsd.cpp:131
+#, kde-format
+msgid "Device"
+msgstr "Trobarzhell"
+
+#: ../base/info_netbsd.cpp:138 ../base/info_openbsd.cpp:144
+#, kde-format
+msgid "No PCI devices found."
+msgstr "N'eo ket kavet un drobarzhell PCI."
+
+#: ../base/info_netbsd.cpp:147 ../base/info_openbsd.cpp:153
+#, fuzzy, kde-format
+#| msgid "No PCI devices found."
+msgid "No I/O port devices found."
+msgstr "N'eo ket kavet un drobarzhell PCI."
+
+#: ../base/info_wayland.cpp:57 ../base/os_base.h:228
+#, kde-format
+msgid "Information"
+msgstr "Titouroù"
+
+#: ../base/info_wayland.cpp:57 ../base/os_base.h:228
+#, kde-format
+msgid "Value"
+msgstr "Gwerzh"
+
+#: ../base/info_wayland.cpp:60
+#, fuzzy, kde-format
+#| msgid "Could not get Information."
+msgid "Compositor Information"
+msgstr "N'eo ket bet tapet an titouroù."
+
+#: ../base/info_wayland.cpp:64 ../base/os_base.h:239
+#, kde-format
+msgid "Name of the Display"
+msgstr "Anv an diskwel"
+
+#: ../base/info_wayland.cpp:66
+#, kde-format
+msgid "Interfaces"
+msgstr ""
+
+#: ../base/info_wayland.cpp:66
+#, kde-format
+msgid "Interface Version"
+msgstr ""
+
+#: ../base/info_wayland.cpp:83
+#, kde-format
+msgid "Seat"
+msgstr ""
+
+#: ../base/info_wayland.cpp:94
+#, kde-format
+msgid "Pointer"
+msgstr ""
+
+#: ../base/info_wayland.cpp:101
+#, kde-format
+msgid "Keyboard"
+msgstr ""
+
+#: ../base/info_wayland.cpp:103
+#, fuzzy, kde-format
+#| msgid "enabled"
+msgid "Repeat enabled"
+msgstr "bev"
+
+#: ../base/info_wayland.cpp:104
+#, kde-format
+msgid "Repeat rate (characters per second)"
+msgstr ""
+
+#: ../base/info_wayland.cpp:105
+#, kde-format
+msgid "Repeat delay (msec)"
+msgstr ""
+
+#: ../base/info_wayland.cpp:109 ../base/os_base.h:175
+#, kde-format
+msgid "Yes"
+msgstr "Ya"
+
+#: ../base/info_wayland.cpp:109 ../base/os_base.h:176
+#, kde-format
+msgid "No"
+msgstr "N'eo ket"
+
+#: ../base/info_wayland.cpp:120
+#, kde-format
+msgid "Touch"
+msgstr ""
+
+#: ../base/info_wayland.cpp:126
+#, fuzzy, kde-format
+#| msgid "Output Channels"
+msgid "Outputs"
+msgstr "Kanolioù ezkas"
+
+#: ../base/info_wayland.cpp:140
+#, fuzzy, kde-format
+#| msgid "Manufacturer: %1"
+msgid "Manufacturer"
+msgstr "Farder : %1"
+
+#: ../base/info_wayland.cpp:141
+#, kde-format
+msgid "Model"
+msgstr "Gobari"
+
+#: ../base/info_wayland.cpp:142
+#, fuzzy, kde-format
+#| msgid "Physical Memory"
+msgid "Physical Size"
+msgstr "Memor fizikel"
+
+#: ../base/info_wayland.cpp:143
+#, kde-format
+msgid "Global Position"
+msgstr ""
+
+#: ../base/info_wayland.cpp:148
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: ../base/info_wayland.cpp:151
+#, kde-format
+msgid "Horizontal RGB"
+msgstr ""
+
+#: ../base/info_wayland.cpp:154
+#, kde-format
+msgid "Horizontal BGR"
+msgstr ""
+
+#: ../base/info_wayland.cpp:157
+#, kde-format
+msgid "Vertical RGB"
+msgstr ""
+
+#: ../base/info_wayland.cpp:160
+#, kde-format
+msgid "Vertical BGR"
+msgstr ""
+
+#: ../base/info_wayland.cpp:164
+#, fuzzy, kde-format
+#| msgid "unknown"
+msgid "Unknown"
+msgstr "dianav"
+
+#: ../base/info_wayland.cpp:167
+#, kde-format
+msgid "Subpixel"
+msgstr ""
+
+#: ../base/info_wayland.cpp:181
+#, kde-format
+msgid "Flipped"
+msgstr ""
+
+#: ../base/info_wayland.cpp:184
+#, kde-format
+msgid "Flipped 90"
+msgstr ""
+
+#: ../base/info_wayland.cpp:187
+#, kde-format
+msgid "Flipped 180"
+msgstr ""
+
+#: ../base/info_wayland.cpp:190
+#, kde-format
+msgid "Flipped 270"
+msgstr ""
+
+#: ../base/info_wayland.cpp:194
+#, kde-format
+msgid "Normal"
+msgstr ""
+
+#: ../base/info_wayland.cpp:197
+#, kde-format
+msgid "Transform"
+msgstr ""
+
+#: ../base/info_wayland.cpp:198
+#, kde-format
+msgctxt "The scale factor of the output"
+msgid "Scale"
+msgstr ""
+
+#: ../base/info_wayland.cpp:201
+#, fuzzy, kde-format
+#| msgid "Model"
+msgid "Modes"
+msgstr "Gobari"
+
+#: ../base/info_wayland.cpp:206
+#, fuzzy, kde-format
+#| msgid "Free Size"
+msgid "Size"
+msgstr "Ment dieub"
+
+#: ../base/info_wayland.cpp:208
+#, kde-format
+msgid "Refresh Rate"
+msgstr ""
+
+#: ../base/info_wayland.cpp:210
+#, kde-format
+msgid "Preferred"
+msgstr ""
+
+#: ../base/info_wayland.cpp:211 ../base/info_wayland.cpp:213
+#, fuzzy, kde-format
+#| msgid "Bytes"
+msgid "yes"
+msgstr "Oktedoù"
+
+#: ../base/info_wayland.cpp:211 ../base/info_wayland.cpp:213
+#, kde-format
+msgid "no"
+msgstr ""
+
+#: ../base/info_wayland.cpp:212
+#, kde-format
+msgid "Current"
+msgstr ""
+
+#: ../base/os_base.h:60
+#, kde-format
+msgid "LSBFirst"
+msgstr ""
+
+#: ../base/os_base.h:62
+#, kde-format
+msgid "MSBFirst"
+msgstr ""
+
+#: ../base/os_base.h:64
+#, kde-format
+msgid "Unknown Order %1"
+msgstr ""
+
+#: ../base/os_base.h:69
+#, kde-format
+msgid "1 Bit"
+msgid_plural "%1 Bits"
+msgstr[0] "%1 bit"
+
+#: ../base/os_base.h:73
+#, fuzzy, kde-format
+#| msgid "1 Byte"
+msgid "1 Byte"
+msgid_plural "%1 Bytes"
+msgstr[0] "Un Okted"
+
+#: ../base/os_base.h:114
+#, kde-format
+msgid "Screen # %1"
+msgstr "skramm # %1"
+
+#: ../base/os_base.h:116
+#, kde-format
+msgid "(Default Screen)"
+msgstr "(Ar skramm dre ziouer)"
+
+#: ../base/os_base.h:125
+#, kde-format
+msgid "Dimensions"
+msgstr "Mentoù"
+
+#: ../base/os_base.h:125
+#, fuzzy, kde-format
+#| msgid "%1 x %2 Pixel (%3 x %4 mm)"
+msgid "%1 x %2 Pixels (%3 x %4 mm)"
+msgstr "%1 x %2 piksel (%3 x %4 mm)"
+
+#: ../base/os_base.h:129
+#, kde-format
+msgid "Resolution"
+msgstr "Spister"
+
+#: ../base/os_base.h:129
+#, kde-format
+msgid "%1 x %2 dpi"
+msgstr "%1 x %2 dpi"
+
+#: ../base/os_base.h:146
+#, kde-format
+msgid "Depths (%1)"
+msgstr "Donderioù (%1)"
+
+#: ../base/os_base.h:152
+#, kde-format
+msgid "Root Window ID"
+msgstr ""
+
+#: ../base/os_base.h:156
+#, kde-format
+msgid "Depth of Root Window"
+msgstr ""
+
+#: ../base/os_base.h:156
+#, fuzzy, kde-format
+#| msgid "%1 plane"
+msgid "%1 plane"
+msgid_plural "%1 planes"
+msgstr[0] "%1 karr-nij"
+
+#: ../base/os_base.h:160
+#, kde-format
+msgid "Number of Colormaps"
+msgstr "Niver a taolenn-livioù"
+
+#: ../base/os_base.h:160
+#, kde-format
+msgid "minimum %1, maximum %2"
+msgstr ""
+
+#: ../base/os_base.h:164
+#, kde-format
+msgid "Default Colormap"
+msgstr "Taolenn-livioù dre ziouer"
+
+#: ../base/os_base.h:168
+#, kde-format
+msgid "Default Number of Colormap Cells"
+msgstr "Niver a daolenn-livioù dre ziouer"
+
+#: ../base/os_base.h:172
+#, kde-format
+msgid "Preallocated Pixels"
+msgstr ""
+
+#: ../base/os_base.h:172
+#, kde-format
+msgid "Black %1, White %2"
+msgstr "Du %1, gwenn %2"
+
+#: ../base/os_base.h:179
+#, kde-format
+msgid "Options"
+msgstr "Dibarzhoù"
+
+#: ../base/os_base.h:179
+#, kde-format
+msgid "When mapped"
+msgstr ""
+
+#: ../base/os_base.h:179
+#, kde-format
+msgid "backing-store: %1, save-unders: %2"
+msgstr ""
+
+#: ../base/os_base.h:185
+#, kde-format
+msgid "Largest Cursor"
+msgstr "Reti brasañ"
+
+#: ../base/os_base.h:187
+#, kde-format
+msgid "unlimited"
+msgstr "hep muzul"
+
+#: ../base/os_base.h:193
+#, kde-format
+msgid "Current Input Event Mask"
+msgstr ""
+
+#: ../base/os_base.h:199
+#, kde-format
+msgid "Event = %1"
+msgstr "Degouezh = %1"
+
+#: ../base/os_base.h:233
+#, kde-format
+msgid "Server Information"
+msgstr "Titouroù diwar ar servijer"
+
+#: ../base/os_base.h:243
+#, kde-format
+msgid "Vendor String"
+msgstr "Hedad ar saver"
+
+#: ../base/os_base.h:247
+#, kde-format
+msgid "Vendor Release Number"
+msgstr "Niverenn rummad ar saver"
+
+#: ../base/os_base.h:251
+#, kde-format
+msgid "Version Number"
+msgstr "Niverenn rummad ar saver"
+
+#: ../base/os_base.h:255
+#, kde-format
+msgid "Available Screens"
+msgstr "Skrammoù da gaout"
+
+#: ../base/os_base.h:265
+#, fuzzy, kde-format
+#| msgid "OpenGL extensions"
+msgid "Supported Extensions"
+msgstr "Astennoù OpenGL"
+
+#: ../base/os_base.h:280
+#, kde-format
+msgid "Supported Pixmap Formats"
+msgstr ""
+
+#: ../base/os_base.h:287
+#, kde-format
+msgid "Pixmap Format #%1"
+msgstr ""
+
+#: ../base/os_base.h:287
+#, kde-format
+msgid "%1 BPP, Depth: %2, Scanline padding: %3"
+msgstr ""
+
+#: ../base/os_base.h:299
+#, kde-format
+msgid "Maximum Request Size"
+msgstr ""
+
+#: ../base/os_base.h:303
+#, kde-format
+msgid "Motion Buffer Size"
+msgstr ""
+
+#: ../base/os_base.h:307
+#, kde-format
+msgid "Bitmap"
+msgstr ""
+
+#: ../base/os_base.h:311
+#, kde-format
+msgid "Unit"
+msgstr "Unander"
+
+#: ../base/os_base.h:315
+#, kde-format
+msgid "Order"
+msgstr "Urzhiañ"
+
+#: ../base/os_base.h:319
+#, kde-format
+msgid "Padding"
+msgstr ""
+
+#: ../base/os_base.h:323
+#, kde-format
+msgid "Image Byte Order"
+msgstr ""
+
+#: ../base/os_current.h:57 ../base/os_current.h:66 ../base/os_current.h:86
+#: ../base/os_current.h:95 ../base/os_current.h:104 ../base/os_current.h:114
+#: ../base/os_current.h:123 ../base/os_current.h:132
+#, kde-format
+msgid "This system may not be completely supported yet."
+msgstr ""
+
+#: info.cpp:36
+#, kde-format
+msgid "System Information Control Module"
+msgstr ""
+
+#: info.cpp:38
+#, fuzzy, kde-format
+#| msgid "(c) 1998 - 2002 Helge Deller"
+msgid ""
+"(c) 2008 Nicolas Ternisien\n"
+"(c) 1998 - 2002 Helge Deller"
+msgstr "(c) 1998 - 2002 Helge Deller"
+
+#: info.cpp:41
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr ""
+
+#: info.cpp:42
+#, fuzzy, kde-format
+#| msgid "(c) 1998 - 2002 Helge Deller"
+msgid "Helge Deller"
+msgstr "(c) 1998 - 2002 Helge Deller"
+
+#: info.cpp:62
+#, kde-format
+msgid "This list displays system information on the selected category."
+msgstr ""
+
+#: info.cpp:78
+#, fuzzy, kde-format
+#| msgid "No information available about %1."
+msgctxt "%1 is one of the modules of the kinfocenter, cpu info, os info, etc"
+msgid "No information available about %1."
+msgstr "N'eus titour ebet da gaout diwar-benn %1."
+
+#: info.cpp:109
+#, kde-format
+msgid ""
+"All the information modules return information about a certain aspect of "
+"your computer hardware or your operating system."
+msgstr ""
+
+#: main.cpp:45
+#, kde-format
+msgid "Interrupt"
+msgstr "Astaliñ"
+
+#: main.cpp:48
+#, kde-format
+msgid "I/O-Port"
+msgstr "Porzhioù E/D"
+
+#: main.cpp:54
+#, kde-format
+msgid "X-Server"
+msgstr "Servijer-X"
+
+#: main.cpp:57
+#, kde-format
+msgid "Wayland"
+msgstr ""

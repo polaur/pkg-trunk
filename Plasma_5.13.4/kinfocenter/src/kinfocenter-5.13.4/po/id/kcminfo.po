@@ -1,0 +1,619 @@
+# Indonesian translation for kcminfo package.
+# Copyright (C) 2008 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcminfo package.
+# A. Akbar Hidayat <keripix@gmail.com>, 2010.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2015.
+# Wantoyo <wantoyek@gmail.com>, 2017, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-09 03:35+0100\n"
+"PO-Revision-Date: 2018-07-23 06:27+0700\n"
+"Last-Translator: wantoyo <wantoyek@gmail.com>\n"
+"Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 2.0\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "A. Akbar Hidayat,Andhika Padmawan"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "keripix@gmail.com,andhika.padmawan@gmail.com"
+
+#: ../base/info_aix.cpp:68 ../base/info_wayland.cpp:88
+#, kde-format
+msgid "Name"
+msgstr "Nama"
+
+#: ../base/info_aix.cpp:69
+#, kde-format
+msgid "Status"
+msgstr "Status"
+
+#: ../base/info_aix.cpp:70
+#, kde-format
+msgid "Location"
+msgstr "Lokasi"
+
+#: ../base/info_aix.cpp:71
+#, kde-format
+msgid "Description"
+msgstr "Deskripsi"
+
+#: ../base/info_fbsd.cpp:89
+#, kde-format
+msgctxt "@title:column Column name for PCI information"
+msgid "Information"
+msgstr "Informasi"
+
+#: ../base/info_fbsd.cpp:94
+#, kde-format
+msgid ""
+"Could not find any programs with which to query your system's PCI information"
+msgstr ""
+"Tak dapat menemukan program apapun untuk mengetahui informasi PCI sistem anda"
+
+#: ../base/info_fbsd.cpp:105
+#, kde-format
+msgid "PCI subsystem could not be queried: %1 could not be executed"
+msgstr "Subsistem PCI tidak dapat diketahui: %1 tidak dapat dieksekusi"
+
+#: ../base/info_fbsd.cpp:124
+#, kde-format
+msgid "The PCI subsystem could not be queried, this may need root privileges."
+msgstr "Subsistem PCI tidak dapat diketahui, ini mungkin perlu hak akses root."
+
+#: ../base/info_hpux.cpp:128
+#, kde-format
+msgid "PA-RISC Processor"
+msgstr "Prosesor PA-RISC"
+
+#: ../base/info_hpux.cpp:130
+#, kde-format
+msgid "PA-RISC Revision"
+msgstr "Revisi PA-RISC"
+
+#: ../base/info_linux.cpp:103 main.cpp:51
+#, kde-format
+msgid "DMA-Channel"
+msgstr "Chanel DMA"
+
+#: ../base/info_linux.cpp:103 ../base/info_linux.cpp:154
+#, kde-format
+msgid "Used By"
+msgstr "Digunakan Oleh"
+
+#: ../base/info_linux.cpp:154
+#, kde-format
+msgid "I/O-Range"
+msgstr "Jangkauan-I/O"
+
+#: ../base/info_netbsd.cpp:120 ../base/info_openbsd.cpp:131
+#, kde-format
+msgid "IRQ"
+msgstr "IRQ"
+
+#: ../base/info_netbsd.cpp:120 ../base/info_openbsd.cpp:131
+#, kde-format
+msgid "Device"
+msgstr "Perangkat"
+
+#: ../base/info_netbsd.cpp:138 ../base/info_openbsd.cpp:144
+#, kde-format
+msgid "No PCI devices found."
+msgstr "Tak ada perangkat PCI yang ditemukan."
+
+#: ../base/info_netbsd.cpp:147 ../base/info_openbsd.cpp:153
+#, kde-format
+msgid "No I/O port devices found."
+msgstr "Tak ada perangkat pangkalan I/O yang ditemukan."
+
+#: ../base/info_wayland.cpp:57 ../base/os_base.h:228
+#, kde-format
+msgid "Information"
+msgstr "Informasi"
+
+#: ../base/info_wayland.cpp:57 ../base/os_base.h:228
+#, kde-format
+msgid "Value"
+msgstr "Nilai"
+
+#: ../base/info_wayland.cpp:60
+#, kde-format
+msgid "Compositor Information"
+msgstr "Informasi Kompositor"
+
+#: ../base/info_wayland.cpp:64 ../base/os_base.h:239
+#, kde-format
+msgid "Name of the Display"
+msgstr "Nama Tampilan"
+
+#: ../base/info_wayland.cpp:66
+#, kde-format
+msgid "Interfaces"
+msgstr "Antarmuka"
+
+#: ../base/info_wayland.cpp:66
+#, kde-format
+msgid "Interface Version"
+msgstr "Versi Antarmuka"
+
+#: ../base/info_wayland.cpp:83
+#, kde-format
+msgid "Seat"
+msgstr "Kursi"
+
+#: ../base/info_wayland.cpp:94
+#, kde-format
+msgid "Pointer"
+msgstr "Penunjuk"
+
+#: ../base/info_wayland.cpp:101
+#, kde-format
+msgid "Keyboard"
+msgstr "Keyboard"
+
+#: ../base/info_wayland.cpp:103
+#, kde-format
+msgid "Repeat enabled"
+msgstr "Pengulangan diaktifkan"
+
+#: ../base/info_wayland.cpp:104
+#, kde-format
+msgid "Repeat rate (characters per second)"
+msgstr "Laju pengulangan (karakter tiap detik)"
+
+#: ../base/info_wayland.cpp:105
+#, kde-format
+msgid "Repeat delay (msec)"
+msgstr "Tundaan pengulangan (mdet)"
+
+#: ../base/info_wayland.cpp:109 ../base/os_base.h:175
+#, kde-format
+msgid "Yes"
+msgstr "Ya"
+
+#: ../base/info_wayland.cpp:109 ../base/os_base.h:176
+#, kde-format
+msgid "No"
+msgstr "Tidak"
+
+#: ../base/info_wayland.cpp:120
+#, kde-format
+msgid "Touch"
+msgstr "Sentuh"
+
+#: ../base/info_wayland.cpp:126
+#, kde-format
+msgid "Outputs"
+msgstr "Output"
+
+#: ../base/info_wayland.cpp:140
+#, kde-format
+msgid "Manufacturer"
+msgstr "Manufaktur"
+
+#: ../base/info_wayland.cpp:141
+#, kde-format
+msgid "Model"
+msgstr "Model"
+
+#: ../base/info_wayland.cpp:142
+#, kde-format
+msgid "Physical Size"
+msgstr "Ukuran Fisik"
+
+#: ../base/info_wayland.cpp:143
+#, kde-format
+msgid "Global Position"
+msgstr "Posisi Global"
+
+#: ../base/info_wayland.cpp:148
+#, kde-format
+msgid "None"
+msgstr "Tak Ada"
+
+#: ../base/info_wayland.cpp:151
+#, kde-format
+msgid "Horizontal RGB"
+msgstr "RGB mendatar"
+
+#: ../base/info_wayland.cpp:154
+#, kde-format
+msgid "Horizontal BGR"
+msgstr "BGR mendatar"
+
+#: ../base/info_wayland.cpp:157
+#, kde-format
+msgid "Vertical RGB"
+msgstr "RGB tegak"
+
+#: ../base/info_wayland.cpp:160
+#, kde-format
+msgid "Vertical BGR"
+msgstr "BGR tegak"
+
+#: ../base/info_wayland.cpp:164
+#, kde-format
+msgid "Unknown"
+msgstr "Tak diketahui"
+
+#: ../base/info_wayland.cpp:167
+#, kde-format
+msgid "Subpixel"
+msgstr "Subpixel"
+
+#: ../base/info_wayland.cpp:181
+#, kde-format
+msgid "Flipped"
+msgstr "Dijungkir"
+
+#: ../base/info_wayland.cpp:184
+#, kde-format
+msgid "Flipped 90"
+msgstr "Dijungkir 90"
+
+#: ../base/info_wayland.cpp:187
+#, kde-format
+msgid "Flipped 180"
+msgstr "Dijungkir 180"
+
+#: ../base/info_wayland.cpp:190
+#, kde-format
+msgid "Flipped 270"
+msgstr "Dijungkir 270"
+
+#: ../base/info_wayland.cpp:194
+#, kde-format
+msgid "Normal"
+msgstr "Normal"
+
+#: ../base/info_wayland.cpp:197
+#, kde-format
+msgid "Transform"
+msgstr "Transformasi"
+
+#: ../base/info_wayland.cpp:198
+#, kde-format
+msgctxt "The scale factor of the output"
+msgid "Scale"
+msgstr "Skala"
+
+#: ../base/info_wayland.cpp:201
+#, kde-format
+msgid "Modes"
+msgstr "Mode"
+
+#: ../base/info_wayland.cpp:206
+#, kde-format
+msgid "Size"
+msgstr "Ukuran"
+
+#: ../base/info_wayland.cpp:208
+#, kde-format
+msgid "Refresh Rate"
+msgstr "Tingkat Segarkan"
+
+#: ../base/info_wayland.cpp:210
+#, kde-format
+msgid "Preferred"
+msgstr "Kesukaan"
+
+#: ../base/info_wayland.cpp:211 ../base/info_wayland.cpp:213
+#, kde-format
+msgid "yes"
+msgstr "ya"
+
+#: ../base/info_wayland.cpp:211 ../base/info_wayland.cpp:213
+#, kde-format
+msgid "no"
+msgstr "tidak"
+
+#: ../base/info_wayland.cpp:212
+#, kde-format
+msgid "Current"
+msgstr "Saat Ini"
+
+#: ../base/os_base.h:60
+#, kde-format
+msgid "LSBFirst"
+msgstr "LSBFirst"
+
+#: ../base/os_base.h:62
+#, kde-format
+msgid "MSBFirst"
+msgstr "MSBFirst"
+
+#: ../base/os_base.h:64
+#, kde-format
+msgid "Unknown Order %1"
+msgstr "Urutan Tak Diketahui %1"
+
+#: ../base/os_base.h:69
+#, kde-format
+msgid "1 Bit"
+msgid_plural "%1 Bits"
+msgstr[0] "%1 Bit"
+
+#: ../base/os_base.h:73
+#, kde-format
+msgid "1 Byte"
+msgid_plural "%1 Bytes"
+msgstr[0] "%1 Bita"
+
+#: ../base/os_base.h:114
+#, kde-format
+msgid "Screen # %1"
+msgstr "Layar # %1"
+
+#: ../base/os_base.h:116
+#, kde-format
+msgid "(Default Screen)"
+msgstr "(Layar Baku)"
+
+#: ../base/os_base.h:125
+#, kde-format
+msgid "Dimensions"
+msgstr "Dimensi"
+
+#: ../base/os_base.h:125
+#, kde-format
+msgid "%1 x %2 Pixels (%3 x %4 mm)"
+msgstr "%1 x %2 Pixel (%3 x %4 mm)"
+
+#: ../base/os_base.h:129
+#, kde-format
+msgid "Resolution"
+msgstr "Resolusi"
+
+#: ../base/os_base.h:129
+#, kde-format
+msgid "%1 x %2 dpi"
+msgstr "%1 x %2 dpi"
+
+#: ../base/os_base.h:146
+#, kde-format
+msgid "Depths (%1)"
+msgstr "Kedalaman (%1)"
+
+#: ../base/os_base.h:152
+#, kde-format
+msgid "Root Window ID"
+msgstr "ID Jendela Root"
+
+#: ../base/os_base.h:156
+#, kde-format
+msgid "Depth of Root Window"
+msgstr "Kedalaman Jendela Root"
+
+#: ../base/os_base.h:156
+#, kde-format
+msgid "%1 plane"
+msgid_plural "%1 planes"
+msgstr[0] "%1 pesawat"
+
+#: ../base/os_base.h:160
+#, kde-format
+msgid "Number of Colormaps"
+msgstr "Jumlah Peta Warna"
+
+#: ../base/os_base.h:160
+#, kde-format
+msgid "minimum %1, maximum %2"
+msgstr "minimum %1, maksimum %2"
+
+#: ../base/os_base.h:164
+#, kde-format
+msgid "Default Colormap"
+msgstr "Peta Warna Baku"
+
+#: ../base/os_base.h:168
+#, kde-format
+msgid "Default Number of Colormap Cells"
+msgstr "Jumlah Baku Sel Peta Warna"
+
+#: ../base/os_base.h:172
+#, kde-format
+msgid "Preallocated Pixels"
+msgstr "Pixel Praalokasi"
+
+#: ../base/os_base.h:172
+#, kde-format
+msgid "Black %1, White %2"
+msgstr "Hitam %1, Putih %2"
+
+#: ../base/os_base.h:179
+#, kde-format
+msgid "Options"
+msgstr "Opsi"
+
+#: ../base/os_base.h:179
+#, kde-format
+msgid "When mapped"
+msgstr "Jika dipetakan"
+
+#: ../base/os_base.h:179
+#, kde-format
+msgid "backing-store: %1, save-unders: %2"
+msgstr "simpan-belakang: %1, simpan-bawah: %2"
+
+#: ../base/os_base.h:185
+#, kde-format
+msgid "Largest Cursor"
+msgstr "Kursor Terbesar"
+
+#: ../base/os_base.h:187
+#, kde-format
+msgid "unlimited"
+msgstr "tak terbatas"
+
+#: ../base/os_base.h:193
+#, kde-format
+msgid "Current Input Event Mask"
+msgstr "Topeng Peristiwa Input Saat Ini"
+
+#: ../base/os_base.h:199
+#, kde-format
+msgid "Event = %1"
+msgstr "Peristiwa = %1"
+
+#: ../base/os_base.h:233
+#, kde-format
+msgid "Server Information"
+msgstr "Informasi Server"
+
+#: ../base/os_base.h:243
+#, kde-format
+msgid "Vendor String"
+msgstr "Benang Vendor"
+
+#: ../base/os_base.h:247
+#, kde-format
+msgid "Vendor Release Number"
+msgstr "Nomor Rilis Vendor"
+
+#: ../base/os_base.h:251
+#, kde-format
+msgid "Version Number"
+msgstr "Nomor Versi"
+
+#: ../base/os_base.h:255
+#, kde-format
+msgid "Available Screens"
+msgstr "Layar Tersedia"
+
+#: ../base/os_base.h:265
+#, kde-format
+msgid "Supported Extensions"
+msgstr "Ekstensi Didukung"
+
+#: ../base/os_base.h:280
+#, kde-format
+msgid "Supported Pixmap Formats"
+msgstr "Format Pixmap Didukung"
+
+#: ../base/os_base.h:287
+#, kde-format
+msgid "Pixmap Format #%1"
+msgstr "Format Pixmap #%1"
+
+#: ../base/os_base.h:287
+#, kde-format
+msgid "%1 BPP, Depth: %2, Scanline padding: %3"
+msgstr "%1 BPP, Kedalaman: %2, Isian baris pemindai: %3"
+
+#: ../base/os_base.h:299
+#, kde-format
+msgid "Maximum Request Size"
+msgstr "Ukuran Permintaan Maksimum"
+
+#: ../base/os_base.h:303
+#, kde-format
+msgid "Motion Buffer Size"
+msgstr "Ukuran Penyangga Gerak"
+
+#: ../base/os_base.h:307
+#, kde-format
+msgid "Bitmap"
+msgstr "Bitmap"
+
+#: ../base/os_base.h:311
+#, kde-format
+msgid "Unit"
+msgstr "Unit"
+
+#: ../base/os_base.h:315
+#, kde-format
+msgid "Order"
+msgstr "Urutan"
+
+#: ../base/os_base.h:319
+#, kde-format
+msgid "Padding"
+msgstr "Isian"
+
+#: ../base/os_base.h:323
+#, kde-format
+msgid "Image Byte Order"
+msgstr "Urutan Bita Gambar"
+
+#: ../base/os_current.h:57 ../base/os_current.h:66 ../base/os_current.h:86
+#: ../base/os_current.h:95 ../base/os_current.h:104 ../base/os_current.h:114
+#: ../base/os_current.h:123 ../base/os_current.h:132
+#, kde-format
+msgid "This system may not be completely supported yet."
+msgstr "Sistem ini mungkin belum sepenuhnya didukung."
+
+#: info.cpp:36
+#, kde-format
+msgid "System Information Control Module"
+msgstr "Modul Kendali Informasi Sistem"
+
+#: info.cpp:38
+#, kde-format
+msgid ""
+"(c) 2008 Nicolas Ternisien\n"
+"(c) 1998 - 2002 Helge Deller"
+msgstr ""
+"(c) 2008 Nicolas Ternisien\n"
+"(c) 1998 - 2002 Helge Deller"
+
+#: info.cpp:41
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
+
+#: info.cpp:42
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: info.cpp:62
+#, kde-format
+msgid "This list displays system information on the selected category."
+msgstr "Daftar ini menampilkan sistem informasi untuk katagori yang dipilih."
+
+#: info.cpp:78
+#, kde-format
+msgctxt "%1 is one of the modules of the kinfocenter, cpu info, os info, etc"
+msgid "No information available about %1."
+msgstr "Tidak ada informias untuk %1."
+
+#: info.cpp:109
+#, kde-format
+msgid ""
+"All the information modules return information about a certain aspect of "
+"your computer hardware or your operating system."
+msgstr ""
+"Seluruh modul informasi memberikan informasi terkait perangkat keras "
+"komputer atau sistem operasi anda."
+
+#: main.cpp:45
+#, kde-format
+msgid "Interrupt"
+msgstr "Interupsi"
+
+#: main.cpp:48
+#, kde-format
+msgid "I/O-Port"
+msgstr "Port I/O"
+
+#: main.cpp:54
+#, kde-format
+msgid "X-Server"
+msgstr "X-Server"
+
+#: main.cpp:57
+#, kde-format
+msgid "Wayland"
+msgstr "Wayland"

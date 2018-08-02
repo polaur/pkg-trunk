@@ -1,0 +1,159 @@
+# translation of kcontrol.po to Belarusian
+# Belarusian (classic spelling) translation of kcontrol.pot
+# Copyright (C) 2002-2004 KDE Team.
+#
+# Eugene Zelenko <greendeath@mail.ru>, 2002-2004.
+# Yevgeny Gromov <yevgeny@tut.by>, 2003.
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2006.
+# Darafei Praliaskouski <komzpa@licei2.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcontrol\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-08 03:33+0100\n"
+"PO-Revision-Date: 2007-10-28 14:25+0200\n"
+"Last-Translator: Darafei Praliaskouski <komzpa@licei2.com>\n"
+"Language-Team: Belarusian <i18n@mova.org>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Eugene Zelenko,Yevgeny Gromov, Ігар Грачышка"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "greendeath@mail.ru,yevgeny@tut.by, ihar.hrachyshka@gmail.com"
+
+#: infocenter.cpp:52
+#, fuzzy, kde-format
+#| msgid "KDE Info Center"
+msgctxt "Main window title"
+msgid "KInfocenter"
+msgstr "Інфармацыйны цэнтр KDE"
+
+#: infocenter.cpp:127
+#, fuzzy, kde-format
+#| msgid "About Current Module"
+msgctxt "Information about current module located in about menu"
+msgid "About Current Information Module"
+msgstr "Пра гэты модуль"
+
+#: infocenter.cpp:132
+#, fuzzy, kde-format
+#| msgid "&Mode"
+msgctxt "Module help button label"
+msgid "Module Help"
+msgstr "&Рэжым"
+
+#: infocenter.cpp:135
+#, fuzzy, kde-format
+#| msgid "Hel&p"
+msgctxt "Help button label"
+msgid "Help"
+msgstr "Дапамога"
+
+#: infocenter.cpp:175
+#, fuzzy, kde-format
+#| msgid "Sear&ch"
+msgctxt "Search Bar Click Message"
+msgid "Search"
+msgstr "По&шук:"
+
+#: infocenter.cpp:180
+#, kde-format
+msgctxt "Kaction search label"
+msgid "Search Modules"
+msgstr ""
+
+#: infokcmmodel.cpp:34
+#, kde-format
+msgid "Information Modules"
+msgstr ""
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kinfocenterui.rc:10
+#, kde-format
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr ""
+
+#: main.cpp:42
+#, fuzzy, kde-format
+#| msgid "KDE Info Center"
+msgid "Info Center"
+msgstr "Інфармацыйны цэнтр KDE"
+
+#: main.cpp:45
+#, kde-format
+msgid "Copyright 2009-2018 KDE"
+msgstr ""
+
+#: main.cpp:47
+#, kde-format
+msgid "David Hubner"
+msgstr ""
+
+#: main.cpp:47
+#, kde-format
+msgid "Current Maintainer"
+msgstr "Цяперашні адказны"
+
+#: main.cpp:48
+#, kde-format
+msgid "Helge Deller"
+msgstr "Хельге Дэллер"
+
+#: main.cpp:48
+#, fuzzy, kde-format
+#| msgid "Current Maintainer"
+msgid "Previous Maintainer"
+msgstr "Цяперашні адказны"
+
+#: main.cpp:49
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Матыяс Хёльцэр-Клюпфэл"
+
+#: main.cpp:50
+#, kde-format
+msgid "Matthias Elter"
+msgstr "Матыас Эльтэр"
+
+#: main.cpp:51
+#, kde-format
+msgid "Matthias Ettrich"
+msgstr "Матыяс Эттрых"
+
+#: main.cpp:52
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "Вальдо Басціян"
+
+#: main.cpp:53
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr ""
+
+#: sidepanel.cpp:106
+#, fuzzy, kde-format
+#| msgid "Clear search"
+msgid "Clear Search"
+msgstr "Ачысціць пошук"
+
+#: sidepanel.cpp:109
+#, kde-format
+msgid "Expand All Categories"
+msgstr ""
+
+#: sidepanel.cpp:112
+#, kde-format
+msgid "Collapse All Categories"
+msgstr ""

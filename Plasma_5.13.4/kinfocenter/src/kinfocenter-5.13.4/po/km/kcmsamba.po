@@ -1,0 +1,421 @@
+# translation of kcmsamba.po to Khmer
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2005, 2007, 2008, 2010.
+# Auk Piseth <piseth_dv@khmeros.info>, 2007, 2008.
+# Sokun <sokun_poch@khmeros.info>, 2007.
+# Eng Vannak <evannak@khmeros.info>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmsamba\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-03-31 02:49+0200\n"
+"PO-Revision-Date: 2010-11-26 08:35+0700\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer <support@khmeros.info>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ខឹម សុខែម, អេង វណ្ណៈ, អោក ពិសិដ្ឋ​​"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "khoemsokhem@khmeros.info,​​evannak@khmeros.info,piseth_dv@khmeros.info"
+
+#: kcmsambaimports.cpp:39 ksmbstatus.cpp:49
+#, kde-format
+msgid "Type"
+msgstr "ប្រភេទ"
+
+#: kcmsambaimports.cpp:39
+#, kde-format
+msgid "Resource"
+msgstr "ធនធាន"
+
+#: kcmsambaimports.cpp:39
+#, kde-format
+msgid "Mounted Under"
+msgstr "បាន​ម៉ោន​ក្រោម"
+
+#: kcmsambaimports.cpp:41
+#, kde-format
+msgid ""
+"This list shows the Samba and NFS shared resources mounted on your system "
+"from other hosts. The \"Type\" column tells you whether the mounted resource "
+"is a Samba or an NFS type of resource. The \"Resource\" column shows the "
+"descriptive name of the shared resource. Finally, the third column, which is "
+"labeled \"Mounted under\" shows the location on your system where the shared "
+"resource is mounted."
+msgstr ""
+"បញ្ជី​នេះ​បង្ហាញ​ធនធាន​ដែល​បាន​ចែក​រំលែក​របស់ Samba និង NFS ដែល​បាន​ម៉ោន​នៅ​លើ​ប្រព័ន្ធ​របស់​អ្នក​ពី​ម៉ាស៊ីន​"
+"ផ្សេង​ទៀត ។ ជួរ​ឈរ \"ប្រភេទ\" បង្ហាញ​ថា​តើ​ធនធាន​ដែល​បាន​ម៉ោន ជា​ប្រភេទ​ធនធាន​របស់ Samba ឬ "
+"NFS ។ ជួរ​ឈរ \"ធនធាន\" បង្ហាញ​ឈ្មោះ​ពិពណ៌នា​នៃ​ធនធាន​ដែល​បាន​ចែក​រំលែក ។ ចុង​ក្រោយ ជួរ​ឈរ​ទី​បី​ដែល​ត្រូវ​"
+"បាន​ដាក់​ស្លាក \"បាន​ម៉ោន​ក្រោម\" វា​បង្ហាញ​ទីតាំង​នៅ​លើ​ប្រព័ន្ធ​របស់​អ្នក​អំពី​កន្លែង​ដែល​ធនធាន​បាន​ចែក​រំលែក​"
+"ត្រូវ​បាន​ម៉ោន ។"
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Samba log file: "
+msgstr "ឯកសារ​កំណត់​ហេតុ​របស់ Samba ៖"
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Show opened connections"
+msgstr "បង្ហាញ​ការ​តភ្ជាប់​ដែល​បាន​បើក"
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Show closed connections"
+msgstr "បង្ហាញ​ការ​ត​ភ្ជាប់​ដែល​បាន​បិទ"
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "Show opened files"
+msgstr "បង្ហាញ​ឯកសារ​ដែល​បាន​បើក"
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "Show closed files"
+msgstr "បង្ហាញ​ឯកសារ​ដែល​បាន​បិទ"
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "&Update"
+msgstr "ធ្វើបច្ចុប្បន្នភាព​"
+
+#: kcmsambalog.cpp:58
+#, kde-format
+msgid ""
+"This page presents the contents of your samba log file in a friendly layout. "
+"Check that the correct log file for your computer is listed here. If you "
+"need to, correct the name or location of the log file, and then click the "
+"\"Update\" button."
+msgstr ""
+"ទំព័រ​នេះ​បង្ហាញ​មាតិកា​នៃ​ឯកសារ​កំណត់ហេតុ samba របស់​អ្នក ក្នុង​ប្លង់​មួយ​ដែល​ងាយ​ស្រួល​ប្រើ ។ ពិនិត្យ​ថា ​"
+"ឯកសារ​កំណត់​ហេតុ​ត្រឹម​ត្រូវ​សម្រាប់​កុំព្យូទ័រ​របស់​អ្នក​ត្រូវ​បាន​រាយ​នៅ​ទីនេះ ។ បើ​អ្នក​ត្រូវ​ការ​កែ​ឈ្មោះ ឬ​ទីតាំង​របស់​"
+"ឯកសារ​កំណត់​ហេតុ និង​បន្ទាប់​ដោយ​ចុច​ប៊ូតុង \"ធ្វើបច្ចុប្បន្នភាព\" ។"
+
+#: kcmsambalog.cpp:63
+#, kde-format
+msgid ""
+"Check this option if you want to view the details for connections opened to "
+"your computer."
+msgstr "ធីក​ជម្រើស​នេះ ​បើ​អ្នក​ចង់​មើល​លម្អិត​អំពី​ការ​ត​ភ្ជាប់​ដែល​បាន​បើក​ទៅ​កុំព្យូទ័រ​របស់​អ្នក ។"
+
+#: kcmsambalog.cpp:66
+#, kde-format
+msgid ""
+"Check this option if you want to view the events when connections to your "
+"computer were closed."
+msgstr "ធីក​ជម្រើស​នេះ ​បើ​អ្នក​ចង់​មើល​ព្រឹត្តិការណ៍ ពេល​ការ​តភ្ជាប់​ទៅ​កុំព្យូទ័រ​របស់​អ្នក​ត្រូវ​បាន​បិទ ។"
+
+#: kcmsambalog.cpp:69
+#, kde-format
+msgid ""
+"Check this option if you want to see the files which were opened on your "
+"computer by remote users. Note that file open/close events are not logged "
+"unless the samba log level is set to at least 2 (you cannot set the log "
+"level using this module)."
+msgstr ""
+"ធីក​ជម្រើស​នេះ បើ​អ្នក​ចង់​មើល​ឯកសារ​ដែល​ត្រូវ​បាន​បើក​នៅ​លើ​កុំព្យូទ័រ​របស់​អ្នក​ដោយ​អ្នក​ប្រើ​ពី​ចម្ងាយ ។ ចំណាំ​ថា "
+"ព្រឹត្តិការណ៍​បើក/បិទ​ឯកសារ មិន​ត្រូវ​បាន​ធ្វើ​កំណត់​ហេតុ​ទេ លុះត្រា​តែ​កម្រិត​កំណត់​ហេតុ​របស់ Samba ត្រូ​វ​បាន​កំណត់​"
+"យ៉ាង​ហោច​ណាស់​ទៅ ២ (អ្នក​មិន​អាច​កំណត់​កម្រិត​កំណត់​ហេតុ ដោយ​ប្រើ​ម៉ូឌុល​នេះ​បាន​ទេ) ។"
+
+#: kcmsambalog.cpp:75
+#, kde-format
+msgid ""
+"Check this option if you want to see the events when files opened by remote "
+"users were closed. Note that file open/close events are not logged unless "
+"the samba log level is set to at least 2 (you cannot set the log level using "
+"this module)."
+msgstr ""
+"ធីក​ជម្រើស​នេះ បើ​អ្នក​ចង់​មើល​ព្រឹត្តិការណ៍ ពេល​ឯកសារ​ដែល​បាន​បើក​ដោយ​អ្នក​ប្រើ​ពី​ចម្ងាយ​ត្រូវ​បាន​បិទ ។ ចំណាំ​"
+"ថា ព្រឹត្តិការណ៍​បើក​/បិទឯកសារ មិន​ត្រូវ​បាន​ធ្វើ​កំណត់​ហេតុ​ទេ លុះត្រា​តែ​កម្រិត​កំណត់​ហេតុ​របស់ samba ត្រូវ​បាន​"
+"កំណត់​យ៉ាង​ហោច​ណាស់ ២ (អ្នក​មិន​អាច​កំណត់​កម្រិត​កំណត់ ​ហេតុ ដោយ​ប្រើ​ម៉ូឌុល​នេះ​បាន​ទេ) ។"
+
+#: kcmsambalog.cpp:81
+#, kde-format
+msgid ""
+"Click here to refresh the information on this page. The log file (shown "
+"above) will be read to obtain the events logged by samba."
+msgstr ""
+"ចុច​ទីនេះ ដើម្បី​ធ្វើ​ឲ្យ​ព័ត៌មាន​នៅ​លើ​ទំព័រ​នេះ​ស្រស់​ ។ ឯកសារ​កំណត់​ហេតុ (បាន​បង្ហាញ​នៅ​ខាង​លើ) នឹង​ត្រូវ​បាន​"
+"អាន ដើម្បី​ទទួល​យក​ព្រឹត្តិការណ៍​ដែល​បាន​ធ្វើ​កំណត់​ហេតុ​ដោយ​សាំបា ។"
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:90
+#, kde-format
+msgid "Date & Time"
+msgstr "កាល​បរិច្ឆេទ និង​ពេល​វេលា"
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:90 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Event"
+msgstr "ព្រឹត្តិការណ៍"
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:91 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Service/File"
+msgstr "សេវា/ឯកសារ"
+
+#: kcmsambalog.cpp:90 kcmsambalog.cpp:91 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Host/User"
+msgstr "ម៉ាស៊ីន/អ្នក​ប្រើ"
+
+#: kcmsambalog.cpp:94
+#, kde-format
+msgid ""
+"<p>This list shows details of the events logged by samba. Note that events "
+"at the file level are not logged unless you have configured the log level "
+"for samba to 2 or greater.</p><p> As with many other lists in KDE, you can "
+"click on a column heading to sort on that column. Click again to change the "
+"sorting direction from ascending to descending or vice versa.</p><p> If the "
+"list is empty, try clicking the \"Update\" button. The samba log file will "
+"be read and the list refreshed.</p>"
+msgstr ""
+"<p>បញ្ជី​នេះ​បង្ហាញសេចក្តី​លម្អិត​នៃ​ព្រឹត្តិការណ៍​ដែល​បាន​ធ្វើ​កំណត់ហេតុដោយ samba ។ ចំណាំថា​ព្រឹត្តិការណ៍​នៅ​"
+"កម្រិត​ឯកសារ​មិន​ត្រូវ​បាន​ធ្វើ​កំណត់​ហេតុ​ទេ លុះត្រា​តែ​អ្នក​បាន​កំណត់​រចនា សម្ព័ន្ធ​កម្រិត​កំណត់​ហេតុ​សម្រាប់​សាំបា "
+"(Samba) ទៅ ២ ឬ​ធំ​ជាង​នេះ ។</p><p> ជាមួយ​នឹង​បញ្ជី​ផ្សេងៗ​ទៀត​ក្នុង KDE អ្នក​អាច​ចុច​លើ​ក្បាល​ជួរ​ឈរ​មួយ "
+"ដើម្បី​តម្រៀប​នៅ​លើ​ជួរ​ឈរ​នោះ ។ ចុច​ម្ដង​ទៀត​ដើម្បី​ផ្លាស់​ប្ដូរ​ទិស​ដៅ​តម្រៀប​ពី​ឡើង​ទៅ​ចុះ ឬ​ផ្ទុយ​មក​វិញ ។</"
+"p><p> ​បើ​បញ្ជី​នេះ​ទទេ ព្យាយាម​ចុច​ប៊ូតុង \"ធ្វើ​បច្ចុប្បន្នភាព\" ។ ឯកសារ​កំណត់​ហេតុ​របស់​សាំបា (Samba) "
+"នឹង​ត្រូវ​បាន​អាន ហើយ​បញ្ជី​ត្រូវ​បានធ្វើ​ឲ្យ​ស្រស់ ។</p>"
+
+#: kcmsambalog.cpp:205 kcmsambastatistics.cpp:149 kcmsambastatistics.cpp:214
+#, kde-format
+msgid "CONNECTION OPENED"
+msgstr "បាន​បើក​ការ​ត​ភ្ជាប់"
+
+#: kcmsambalog.cpp:209
+#, kde-format
+msgid "CONNECTION CLOSED"
+msgstr "បាន​បិទ​ការ​ត​ភ្ជាប់"
+
+#: kcmsambalog.cpp:214
+#, kde-format
+msgid "            FILE OPENED"
+msgstr "            បាន​បើក​ឯកសារ"
+
+#: kcmsambalog.cpp:220
+#, kde-format
+msgid "            FILE CLOSED"
+msgstr "            បាន​បិទ​ឯកសារ"
+
+#: kcmsambalog.cpp:228
+#, kde-format
+msgid "Could not open file %1"
+msgstr "មិន​អាច​បើក​ឯកសារ %1"
+
+#: kcmsambastatistics.cpp:43
+#, kde-format
+msgid "Connections: 0"
+msgstr "ការ​ត​ភ្ជាប់ ៖ ០"
+
+#: kcmsambastatistics.cpp:45
+#, kde-format
+msgid "File accesses: 0"
+msgstr "ការ​ចូល​ដំណើរ​ការ​ឯកសារ ៖ ០"
+
+#: kcmsambastatistics.cpp:48
+#, kde-format
+msgid "Event: "
+msgstr "ព្រឹត្តិការណ៍ ៖"
+
+#: kcmsambastatistics.cpp:52
+#, kde-format
+msgid "Service/File:"
+msgstr "សេវា/​ឯកសារ ៖"
+
+#: kcmsambastatistics.cpp:56
+#, kde-format
+msgid "Host/User:"
+msgstr "ម៉ាស៊ីន/អ្នក​ប្រើ ៖"
+
+#: kcmsambastatistics.cpp:59
+#, kde-format
+msgid "&Search"
+msgstr "ស្វែង​រក"
+
+#: kcmsambastatistics.cpp:60
+#, kde-format
+msgid "Clear Results"
+msgstr "ជម្រះ​លទ្ធផល"
+
+#: kcmsambastatistics.cpp:61
+#, kde-format
+msgid "Show expanded service info"
+msgstr "បង្ហាញ​ព័ត៌មាន​សេវា​ដែល​បាន​ពង្រីក"
+
+#: kcmsambastatistics.cpp:62
+#, kde-format
+msgid "Show expanded host info"
+msgstr "បង្ហាញ​ព័ត៌មាន​ម៉ាស៊ីន​ដែល​បាន​ពង្រីក"
+
+#: kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Nr"
+msgstr "Nr"
+
+#: kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Hits"
+msgstr "Hits"
+
+#: kcmsambastatistics.cpp:72 kcmsambastatistics.cpp:137
+#, kde-format
+msgid "Connection"
+msgstr "ការ​ត​ភ្ជាប់"
+
+#: kcmsambastatistics.cpp:73
+#, kde-format
+msgid "File Access"
+msgstr "ការ​ចូល​ដំណើរ​ការ​ឯកសារ"
+
+#: kcmsambastatistics.cpp:127
+#, kde-format
+msgid "Connections: %1"
+msgstr "ការ​ត​ភ្ជាប់ ៖ %1"
+
+#: kcmsambastatistics.cpp:128
+#, kde-format
+msgid "File accesses: %1"
+msgstr "ការ​ចូល​ដំណើរ​ការ​ឯកសារ ៖ %1"
+
+#: kcmsambastatistics.cpp:162 kcmsambastatistics.cpp:217
+#, kde-format
+msgid "FILE OPENED"
+msgstr "ឯកសារ​បាន​បើក"
+
+#: ksmbstatus.cpp:49
+#, kde-format
+msgid "Service"
+msgstr "សេវា"
+
+#: ksmbstatus.cpp:49
+#, kde-format
+msgid "Accessed From"
+msgstr "បាន​ចូល​ដំណើរ​ការ​ពី"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "UID"
+msgstr "UID"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "GID"
+msgstr "GID"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "PID"
+msgstr "PID"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "Open Files"
+msgstr "បើក​ឯកសារ"
+
+#: ksmbstatus.cpp:169
+#, fuzzy, kde-format
+#| msgid "Error: Unable to run smbstatus"
+msgid "Error run smbstatus: %1"
+msgstr "កំហុស ៖ មិន​អាច​រត់ smbstatus បាន​ទេ​"
+
+#: ksmbstatus.cpp:172
+#, kde-format
+msgid "Error: Unable to open configuration file \"smb.conf\""
+msgstr "កំហុស ៖ មិន​អាច​បើក​ឯកសារ​កំណត់​រចនាសម្ព័ន្ធ \"smb.conf\""
+
+#: main.cpp:58
+#, kde-format
+msgid "&Exports"
+msgstr "នាំ​ចេញ"
+
+#: main.cpp:59
+#, kde-format
+msgid "&Imports"
+msgstr "នាំ​ចូល"
+
+#: main.cpp:60
+#, kde-format
+msgid "&Log"
+msgstr "កំណត់​ហេតុ"
+
+#: main.cpp:61
+#, kde-format
+msgid "&Statistics"
+msgstr "ស្ថិតិ"
+
+#: main.cpp:65
+#, kde-format
+msgid ""
+"<p>The Samba and NFS Status Monitor is a front end to the programs "
+"<em>smbstatus</em> and <em>showmount</em>. Smbstatus reports on current "
+"Samba connections, and is part of the suite of Samba tools, which implements "
+"the SMB (Session Message Block) protocol, also called the NetBIOS or "
+"LanManager protocol. This protocol can be used to provide printer sharing or "
+"drive sharing services on a network including machines running the various "
+"flavors of Microsoft Windows.</p>"
+msgstr ""
+"<p>ការ​គ្រប់គ្រង​​​ស្ថានភាព​របស់​សាំបា (Samba) និង NFS គឺ​ជា​កម្មវិធី​ផ្នែក​ខាង​មុខ​របស់ "
+"<em>smbstatus</em> និង <em>showmount</em> ។ Smbstatus រាយ​ការណ៍​អំពី​ការ​តភ្ជាប់​របស់ "
+"Samba បច្ចុប្បន្ន ហើយ​វា​ក៏​ជា​ផ្នែកមួយនៃឧបករណ៍​ជា​ច្រើន​របស់ Samba  ដែល​អនុវត្តពិធីការ SMB "
+"(Session Message Block)  ឬ​ត្រូវ​បាន​ហៅ​ម្យ៉ាង​ទៀតថា NetBIOS ឬ​ពិធីការ LanManager ។ ពិធីការ​"
+"នេះ​អាច​ត្រូវ​បាន​ប្រើ​ដើម្បី​ផ្ដល់​សេវា​ចែក​រំលែក​ម៉ាស៊ីន​បោះពុម្ព ឬ​ចែក ​រំលែក​ដ្រាយ​នៅ​លើ​បណ្ដាញ រួម​មាន​ម៉ាស៊ីន​"
+"ដែល​រត់​លក្ខណៈ​ផ្សេងៗ​របស់​ម៉ៃក្រូសូហ្វ​វីនដូ (Microsoft Windows) ។</p><p> Showmount គឺ​ជា​ផ្នែក​នៃ​"
+"កញ្ចប់​កម្មវិធី របស់ NFS ។ NFS គឺ​ជា​អក្សរ​កាត់​របស់ Network File System និង​ជា​មធ្យោបាយ​ដើម​របស់​"
+"យូនីក​ក្នុង​ការ​ចែក​រំលែក​ថត​លើ​បណ្ដាញ ។ ក្នុង​ករណី​នេះ​លទ្ធផល​របស់ <em>showmount -a localhost</"
+"em> ត្រូវ​បានញែក​ជា​ផ្នែក​តូចៗ ។ នៅ​លើ​ប្រព័ន្ធ​មួយ​ចំនួន showmount គឺ​នៅ​ក្នុង​ផ្លូវ​ /usr/sbin សូម​ពិនិត្យ​"
+"ថា​តើ​អ្នក​មាន showmount ក្នុង PATH របស់​អ្នក ។</p>"
+
+#: main.cpp:73
+#, kde-format
+msgid "kcmsamba"
+msgstr "kcmsamba"
+
+#: main.cpp:74
+#, kde-format
+msgid "System Information Control Module"
+msgstr "ម៉ូឌុល​ត្រួត​ពិនិត្យ​ព័ត៌មាន​ប្រព័ន្ធ"
+
+#: main.cpp:76
+#, kde-format
+msgid "(c) 2002 KDE Information Control Module Samba Team"
+msgstr "រក្សា​សិទ្ធិ​ឆ្នាំ ២០០២ ដោយ​ក្រុម​​សាំបា​ម៉ូឌុល​ត្រួត​ពិនិត្យ​ព័ត៌មាន​របស់ KDE"
+
+#: main.cpp:77
+#, kde-format
+msgid "Michael Glauche"
+msgstr "Michael Glauche"
+
+#: main.cpp:78
+#, kde-format
+msgid "Matthias Hoelzer"
+msgstr "Matthias Hoelzer"
+
+#: main.cpp:79
+#, kde-format
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:80
+#, kde-format
+msgid "Harald Koschinski"
+msgstr "Harald Koschinski"
+
+#: main.cpp:81
+#, kde-format
+msgid "Wilco Greven"
+msgstr "Wilco Greven"
+
+#: main.cpp:82
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"

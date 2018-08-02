@@ -1,0 +1,2013 @@
+# translation of kcm_pci.po to Frysk
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Rinse de Vries <rinsedevries@kde.nl>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_pci\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:20+0100\n"
+"PO-Revision-Date: 2010-07-19 12:01+0100\n"
+"Last-Translator: Berend Ytsma <berendy@gmail.com>\n"
+"Language-Team: Frysk <kde-i18n-fry@kde.org>\n"
+"Language: fy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Berend Ytsma"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Berendy@gmail.com"
+
+#: kcm_pci.cpp:42
+#, kde-format
+msgid "kcm_pci"
+msgstr "kcm_pci"
+
+#: kcm_pci.cpp:43
+#, fuzzy, kde-format
+#| msgid "Device"
+msgid "PCI Devices"
+msgstr "Apparaat"
+
+#: kcm_pci.cpp:45
+#, kde-format
+msgid "(c) 2008 Nicolas Ternisien(c) 1998 - 2002 Helge Deller"
+msgstr "(c) 2008 Nicolas Ternisien(c) 1998 - 2002 Helge Deller"
+
+#: kcm_pci.cpp:48
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
+
+#: kcm_pci.cpp:49
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: kcm_pci.cpp:62
+#, fuzzy, kde-format
+msgid "This list displays PCI information."
+msgstr "Dizze list lit de partysjes op jo systeem sjen."
+
+#: kcm_pci.cpp:82
+#, kde-format
+msgid ""
+"This display shows information about your computer's PCI slots and the "
+"related connected devices."
+msgstr ""
+
+#: kpci.cpp:64
+#, kde-format
+msgid "Device Class"
+msgstr "Apparaatklasse"
+
+#: kpci.cpp:65
+#, kde-format
+msgid "Device Subclass"
+msgstr "Apparaat subklase"
+
+#: kpci.cpp:66
+#, kde-format
+msgid "Device Programming Interface"
+msgstr "Aparaat programear ynterface"
+
+#: kpci.cpp:68
+#, kde-format
+msgid "Master IDE Device"
+msgstr "Haad IDE stasjon"
+
+#: kpci.cpp:69
+#, kde-format
+msgid "Secondary programmable indicator"
+msgstr "Sekundêre programeabere skakelaar"
+
+#: kpci.cpp:70
+#, kde-format
+msgid "Secondary operating mode"
+msgstr "Sekundêre bewurkingsmodus"
+
+#: kpci.cpp:71
+#, kde-format
+msgid "Primary programmable indicator"
+msgstr "Primêre programearbere skakelaar"
+
+#: kpci.cpp:72
+#, kde-format
+msgid "Primary operating mode"
+msgstr "Primêre bewurkingsmodus"
+
+#: kpci.cpp:100 kpci.cpp:124
+#, kde-format
+msgid "Vendor"
+msgstr "Fabrikant"
+
+#: kpci.cpp:107 kpci.cpp:126
+#, kde-format
+msgid "Device"
+msgstr "Apparaat"
+
+#: kpci.cpp:116 kpci.cpp:135 kpci.cpp:138 kpci.cpp:142
+#, kde-format
+msgid "Subsystem"
+msgstr "Subsysteem"
+
+#: kpci.cpp:135
+#, kde-format
+msgid " - device:"
+msgstr "- apparaat:"
+
+#: kpci.cpp:153 kpci.cpp:174
+#, kde-format
+msgid "Interrupt"
+msgstr "Interrupt"
+
+#: kpci.cpp:154
+#, kde-format
+msgid "IRQ"
+msgstr "IRQ"
+
+#: kpci.cpp:155
+#, kde-format
+msgid "Pin"
+msgstr "Pin"
+
+#: kpci.cpp:163
+#, kde-format
+msgid "Control"
+msgstr "Kontrôle"
+
+#: kpci.cpp:164
+#, kde-format
+msgid "Response in I/O space"
+msgstr "Reaksje yn I/O-gebiet"
+
+#: kpci.cpp:165
+#, kde-format
+msgid "Response in memory space"
+msgstr "Reaksje yn ûnthâldromte"
+
+#: kpci.cpp:166
+#, kde-format
+msgid "Bus mastering"
+msgstr "Busbestjoering"
+
+#: kpci.cpp:167
+#, fuzzy, kde-format
+msgid "Response to special cycles"
+msgstr "Symlink nei spesjaal"
+
+#: kpci.cpp:168
+#, fuzzy, kde-format
+msgid "Memory write and invalidate"
+msgstr "Unthâld en wiskelûndhâld skiednis"
+
+#: kpci.cpp:169
+#, kde-format
+msgid "Palette snooping"
+msgstr ""
+
+#: kpci.cpp:170
+#, fuzzy, kde-format
+msgid "Parity checking"
+msgstr "Stavering hifkje"
+
+#: kpci.cpp:171
+#, fuzzy, kde-format
+msgid "Address/data stepping"
+msgstr "Data-display-debugger"
+
+#: kpci.cpp:172
+#, kde-format
+msgid "System error"
+msgstr "Systeemflater"
+
+#: kpci.cpp:173
+#, fuzzy, kde-format
+msgid "Back-to-back writes"
+msgstr "Werom nei't album"
+
+#: kpci.cpp:181 kpci.cpp:434 kpci.cpp:536 kpci.cpp:562
+#, kde-format
+msgid "Status"
+msgstr "Tastân"
+
+#: kpci.cpp:182 kpci.cpp:347 kpci.cpp:362
+#, fuzzy, kde-format
+msgid "Interrupt status"
+msgstr "Samba-tastân"
+
+#: kpci.cpp:183 kpci.cpp:348 kpci.cpp:363
+#, fuzzy, kde-format
+msgid "Capability list"
+msgstr "Finsterlist"
+
+#: kpci.cpp:184 kpci.cpp:349 kpci.cpp:364
+#, kde-format
+msgid "66 MHz PCI 2.1 bus"
+msgstr "66 MHz PCI 2.1 bus"
+
+#: kpci.cpp:185 kpci.cpp:350 kpci.cpp:365
+#, fuzzy, kde-format
+msgid "User-definable features"
+msgstr "Wachtwurd en brûkersbehear"
+
+#: kpci.cpp:186 kpci.cpp:351 kpci.cpp:366
+#, fuzzy, kde-format
+msgid "Accept fast back-to-back"
+msgstr "Werom nei de foarige side"
+
+#: kpci.cpp:187 kpci.cpp:352 kpci.cpp:367
+#, fuzzy, kde-format
+msgid "Data parity error"
+msgstr "Ynterne PowerDevil flater"
+
+#: kpci.cpp:188 kpci.cpp:353 kpci.cpp:368
+#, fuzzy, kde-format
+msgid "Device selection timing"
+msgstr "Seleksjewiksel sjen litte"
+
+#: kpci.cpp:189 kpci.cpp:354 kpci.cpp:369
+#, fuzzy, kde-format
+msgid "Signaled target abort"
+msgstr "Aktive sesjes ôfbrekke:"
+
+#: kpci.cpp:190 kpci.cpp:355 kpci.cpp:370
+#, fuzzy, kde-format
+msgid "Received target abort"
+msgstr "Aktive sesjes ôfbrekke:"
+
+#: kpci.cpp:191 kpci.cpp:356 kpci.cpp:371
+#, fuzzy, kde-format
+msgid "Received master abort"
+msgstr "Aktive sesjes ôfbrekke:"
+
+#: kpci.cpp:192 kpci.cpp:357 kpci.cpp:372
+#, fuzzy, kde-format
+msgid "Signaled system error"
+msgstr "Ynterne PowerDevil flater"
+
+#: kpci.cpp:193 kpci.cpp:358 kpci.cpp:373
+#, fuzzy, kde-format
+msgid "Parity error"
+msgstr "Fatale flater"
+
+#: kpci.cpp:200
+#, kde-format
+msgid "Latency"
+msgstr ""
+
+#: kpci.cpp:203 kpci.cpp:206
+#, kde-format
+msgid "MIN_GNT"
+msgstr "MIN_GNT"
+
+#: kpci.cpp:203 kpci.cpp:209
+#, fuzzy, kde-format
+msgid "No major requirements (0x00)"
+msgstr "Der is gjin tsjint mei de juste easken fûn."
+
+#: kpci.cpp:209 kpci.cpp:212
+#, kde-format
+msgid "MAX_LAT"
+msgstr "MAX_LAT"
+
+#: kpci.cpp:221
+#, fuzzy, kde-format
+msgid "Header"
+msgstr "Kopteksteigenskippen"
+
+#: kpci.cpp:222 kpci.cpp:287 kpci.cpp:464
+#, kde-format
+msgid "Type"
+msgstr "Type"
+
+#: kpci.cpp:223
+#, kde-format
+msgid "Multifunctional"
+msgstr ""
+
+#: kpci.cpp:230
+#, kde-format
+msgid "Build-in self test"
+msgstr "Ynboude selftest"
+
+#: kpci.cpp:231
+#, kde-format
+msgid "BIST Capable"
+msgstr "BIST geskikt"
+
+#: kpci.cpp:233
+#, kde-format
+msgid "BIST Start"
+msgstr "BIST Start"
+
+#: kpci.cpp:234
+#, fuzzy, kde-format
+msgid "Completion code"
+msgstr "Koade-oanfolling oanroppe"
+
+#: kpci.cpp:241 kpci.cpp:244 kpci.cpp:247 kpci.cpp:253 kpci.cpp:256
+#: kpci.cpp:259 kpci.cpp:264 kpci.cpp:295 kpci.cpp:311 kpci.cpp:437
+#, kde-format
+msgid "Size"
+msgstr "Grutte"
+
+#: kpci.cpp:276
+#, fuzzy, kde-format
+msgid "Address mappings"
+msgstr "Hw adres"
+
+#: kpci.cpp:284
+#, fuzzy, kde-format
+msgid "Mapping %1"
+msgstr "Mapping"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "Space"
+msgstr "Romte"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "I/O"
+msgstr "I/O"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "Memory"
+msgstr "Unthâld"
+
+#: kpci.cpp:288 kpci.cpp:457
+#, kde-format
+msgid "Prefetchable"
+msgstr ""
+
+#: kpci.cpp:294 kpci.cpp:298 kpci.cpp:303 kpci.cpp:310 kpci.cpp:314
+#: kpci.cpp:436 kpci.cpp:440 kpci.cpp:633 kpci.cpp:641
+#, kde-format
+msgid "Address"
+msgstr "adres"
+
+#: kpci.cpp:294 kpci.cpp:310 kpci.cpp:436
+#, kde-format
+msgctxt "unassigned address"
+msgid "Unassigned"
+msgstr ""
+
+#: kpci.cpp:295 kpci.cpp:311 kpci.cpp:437
+#, kde-format
+msgctxt "unassigned size"
+msgid "Unassigned"
+msgstr ""
+
+#: kpci.cpp:326 kpci.cpp:333
+#, kde-format
+msgid "Bus"
+msgstr "Bus"
+
+#: kpci.cpp:327 kpci.cpp:334
+#, kde-format
+msgid "Primary bus number"
+msgstr "Primêre busnûmer"
+
+#: kpci.cpp:328
+#, kde-format
+msgid "Secondary bus number"
+msgstr "Sekundêre busnûmer"
+
+#: kpci.cpp:329 kpci.cpp:336
+#, kde-format
+msgid "Subordinate bus number"
+msgstr "Undergeskikt busnûmer"
+
+#: kpci.cpp:330
+#, fuzzy, kde-format
+msgid "Secondary latency timer"
+msgstr "Sekundêre programeabere skakelaar"
+
+#: kpci.cpp:335
+#, kde-format
+msgid "CardBus number"
+msgstr "CardBus nûmer"
+
+#: kpci.cpp:337
+#, kde-format
+msgid "CardBus latency timer"
+msgstr ""
+
+#: kpci.cpp:346 kpci.cpp:361
+#, kde-format
+msgid "Secondary status"
+msgstr "Sekundêre tastân"
+
+#: kpci.cpp:382
+#, fuzzy, kde-format
+msgid "I/O behind bridge"
+msgstr "Bridge-tastân"
+
+#: kpci.cpp:383 kpci.cpp:464
+#, kde-format
+msgid "32-bit"
+msgstr "32-bit"
+
+#: kpci.cpp:385 kpci.cpp:389 kpci.cpp:393 kpci.cpp:398 kpci.cpp:402
+#: kpci.cpp:458 kpci.cpp:466 kpci.cpp:470
+#, kde-format
+msgid "Base"
+msgstr "Basis"
+
+#: kpci.cpp:386 kpci.cpp:390 kpci.cpp:394 kpci.cpp:399 kpci.cpp:403
+#: kpci.cpp:459 kpci.cpp:467 kpci.cpp:471
+#, kde-format
+msgid "Limit"
+msgstr "Undergrins"
+
+#: kpci.cpp:392
+#, fuzzy, kde-format
+msgid "Memory behind bridge"
+msgstr "Efter &finster sjen litte"
+
+#: kpci.cpp:395
+#, kde-format
+msgid "Prefetchable memory behind bridge"
+msgstr ""
+
+#: kpci.cpp:396
+#, kde-format
+msgid "64-bit"
+msgstr "64-bit"
+
+#: kpci.cpp:413
+#, fuzzy, kde-format
+msgid "Bridge control"
+msgstr "Enerzjybehear"
+
+#: kpci.cpp:414 kpci.cpp:484
+#, fuzzy, kde-format
+msgid "Secondary parity checking"
+msgstr "Opsjes foar de staveringshifker"
+
+#: kpci.cpp:415 kpci.cpp:485
+#, fuzzy, kde-format
+msgid "Secondary system error"
+msgstr "Ynterne PowerDevil flater"
+
+#: kpci.cpp:416 kpci.cpp:486
+#, kde-format
+msgid "ISA ports forwarding"
+msgstr ""
+
+#: kpci.cpp:417 kpci.cpp:487
+#, kde-format
+msgid "VGA forwarding"
+msgstr ""
+
+#: kpci.cpp:418 kpci.cpp:488
+#, fuzzy, kde-format
+msgid "Master abort"
+msgstr "Haad Wachtwurd"
+
+#: kpci.cpp:419
+#, fuzzy, kde-format
+msgid "Secondary bus reset"
+msgstr "Sekundêre busnûmer"
+
+#: kpci.cpp:420
+#, fuzzy, kde-format
+msgid "Secondary back-to-back writes"
+msgstr "Werom nei de foarige side"
+
+#: kpci.cpp:421
+#, kde-format
+msgid "Primary discard timer counts"
+msgstr ""
+
+#: kpci.cpp:421 kpci.cpp:422
+#, kde-format
+msgid "2e10 PCI clocks"
+msgstr "2e10 PCI clocks"
+
+#: kpci.cpp:421 kpci.cpp:422
+#, kde-format
+msgid "2e15 PCI clocks"
+msgstr "2e15 PCI clocks"
+
+#: kpci.cpp:422
+#, kde-format
+msgid "Secondary discard timer counts"
+msgstr ""
+
+#: kpci.cpp:423
+#, fuzzy, kde-format
+msgid "Discard timer error"
+msgstr "Ynterne PowerDevil flater"
+
+#: kpci.cpp:424
+#, kde-format
+msgid "Discard timer system error"
+msgstr ""
+
+#: kpci.cpp:433
+#, fuzzy, kde-format
+msgid "Expansion ROM"
+msgstr "kompaktskiifstasjon ..."
+
+#: kpci.cpp:453
+#, kde-format
+msgid "Memory windows"
+msgstr "Unthâld finsters"
+
+#: kpci.cpp:456 kpci.cpp:463
+#, kde-format
+msgid "Window %1"
+msgstr "Finster %1"
+
+#: kpci.cpp:461
+#, kde-format
+msgid "I/O windows"
+msgstr "I/O finsters"
+
+#: kpci.cpp:464
+#, kde-format
+msgid "16-bit"
+msgstr "16-bit"
+
+#: kpci.cpp:474
+#, kde-format
+msgid "16-bit legacy interface ports"
+msgstr ""
+
+#: kpci.cpp:483
+#, fuzzy, kde-format
+msgid "CardBus control"
+msgstr "Enerzjybehear"
+
+#: kpci.cpp:489
+#, kde-format
+msgid "Interrupts for 16-bit cards"
+msgstr ""
+
+#: kpci.cpp:490
+#, fuzzy, kde-format
+msgid "Window 0 prefetchable memory"
+msgstr "Statistyken firtuele ûnthâld"
+
+#: kpci.cpp:491
+#, fuzzy, kde-format
+msgid "Window 1 prefetchable memory"
+msgstr "Statistyken firtuele ûnthâld"
+
+#: kpci.cpp:492
+#, fuzzy, kde-format
+msgid "Post writes"
+msgstr "Fluch skriuwe"
+
+#: kpci.cpp:500
+#, kde-format
+msgid "Raw PCI config space"
+msgstr ""
+
+#: kpci.cpp:522 kpci.cpp:684 kpci.cpp:715
+#, fuzzy, kde-format
+msgid "Capabilities"
+msgstr "Systeem mooglikheden"
+
+#: kpci.cpp:523
+#, kde-format
+msgid "Version"
+msgstr "Ferzje"
+
+#: kpci.cpp:524
+#, kde-format
+msgid "Clock required for PME generation"
+msgstr ""
+
+#: kpci.cpp:525
+#, kde-format
+msgid "Device-specific initialization required"
+msgstr ""
+
+#: kpci.cpp:526
+#, kde-format
+msgid "Maximum auxiliary current required in D3 cold"
+msgstr ""
+
+#: kpci.cpp:527
+#, kde-format
+msgid "D1 support"
+msgstr "D1 stipe"
+
+#: kpci.cpp:528
+#, kde-format
+msgid "D2 support"
+msgstr "D2 stipe"
+
+#: kpci.cpp:529
+#, kde-format
+msgid "Power management events"
+msgstr "Fermogensbehear barren"
+
+#: kpci.cpp:530 kpci_private.h:763
+#, kde-format
+msgid "D0"
+msgstr "D0"
+
+#: kpci.cpp:531 kpci_private.h:764
+#, kde-format
+msgid "D1"
+msgstr "D1"
+
+#: kpci.cpp:532 kpci_private.h:765
+#, kde-format
+msgid "D2"
+msgstr "D2"
+
+#: kpci.cpp:533 kpci_private.h:766
+#, kde-format
+msgid "D3 hot"
+msgstr "D3 hyt"
+
+#: kpci.cpp:534
+#, kde-format
+msgid "D3 cold"
+msgstr "D3 kâld"
+
+#: kpci.cpp:537
+#, kde-format
+msgid "Power state"
+msgstr "Fermogenstastân"
+
+#: kpci.cpp:538 kpci_private.h:680
+#, kde-format
+msgid "Power management"
+msgstr "Fermogensbehear"
+
+#: kpci.cpp:539
+#, kde-format
+msgid "Data select"
+msgstr "Gegevens seleksje"
+
+#: kpci.cpp:540
+#, kde-format
+msgid "Data scale"
+msgstr "Gegevens skaal"
+
+#: kpci.cpp:541
+#, kde-format
+msgid "Power management status"
+msgstr "Fermogensbehear tastân"
+
+#: kpci.cpp:544
+#, kde-format
+msgid "Bridge status"
+msgstr "Bridge-tastân"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "Secondary bus state in D3 hot"
+msgstr ""
+
+#: kpci.cpp:545
+#, kde-format
+msgid "B2"
+msgstr "B2"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "B3"
+msgstr "B3"
+
+#: kpci.cpp:546
+#, kde-format
+msgid "Secondary bus power & clock control"
+msgstr ""
+
+#: kpci.cpp:549 kpci.cpp:611 kpci.cpp:634 kpci.cpp:642 kpci.cpp:658
+#: kpci.cpp:670
+#, kde-format
+msgid "Data"
+msgstr "Gegevens"
+
+#. i18n("Revision"),value.sprintf("%i.%i",infoAgp.revMaior,infoAgp.revMinor));
+#: kpci.cpp:561 kpci.cpp:763
+#, kde-format
+msgid "Revision"
+msgstr "Revysje"
+
+#: kpci.cpp:563 kpci.cpp:584
+#, kde-format
+msgid "Rate"
+msgstr "Fluggens"
+
+#: kpci.cpp:564
+#, kde-format
+msgid "AGP 3.0 mode"
+msgstr "AGP 3.0 modus"
+
+#: kpci.cpp:565 kpci.cpp:585
+#, kde-format
+msgid "Fast Writes"
+msgstr "Fluch skriuwe"
+
+#: kpci.cpp:566 kpci.cpp:587
+#, kde-format
+msgid "Address over 4 GiB"
+msgstr "Adres boppe 4 GiB"
+
+#: kpci.cpp:568
+#, kde-format
+msgid "Translation of host processor access"
+msgstr ""
+
+#: kpci.cpp:569 kpci.cpp:588
+#, kde-format
+msgid "64-bit GART"
+msgstr "64-bit GART"
+
+#: kpci.cpp:570
+#, fuzzy, kde-format
+msgid "Cache Coherency"
+msgstr "Lyts skiif ûnthâld:"
+
+#: kpci.cpp:572 kpci.cpp:591
+#, kde-format
+msgid "Side-band addressing"
+msgstr "Sydbân adresearring"
+
+#: kpci.cpp:574 kpci.cpp:593
+#, fuzzy, kde-format
+msgid "Calibrating cycle"
+msgstr "Troch ljeppers rinne"
+
+#: kpci.cpp:578 kpci.cpp:597
+#, kde-format
+msgid "Optimum asynchronous request size"
+msgstr ""
+
+#: kpci.cpp:579
+#, kde-format
+msgid "Isochronous transactions"
+msgstr ""
+
+#: kpci.cpp:581 kpci.cpp:599
+#, kde-format
+msgid "Maximum number of AGP command"
+msgstr "Maksimum oantal fan AGP kommando's"
+
+#: kpci.cpp:583
+#, kde-format
+msgid "Configuration"
+msgstr "Konfiguraasje"
+
+#: kpci.cpp:590 kpci_private.h:681
+#, kde-format
+msgid "AGP"
+msgstr "AGP"
+
+#: kpci.cpp:609
+#, kde-format
+msgid "Data address"
+msgstr "Gegevens adres"
+
+#: kpci.cpp:610
+#, kde-format
+msgid "Transfer completed"
+msgstr "Oerdracht foltôge"
+
+#: kpci.cpp:623
+#, kde-format
+msgid "Message control"
+msgstr "Berjochtbehear"
+
+#: kpci.cpp:624 kpci_private.h:684
+#, kde-format
+msgid "Message signaled interrupts"
+msgstr "Berjocht sinjalearre ynterrupts"
+
+#: kpci.cpp:625
+#, kde-format
+msgid "Multiple message capable"
+msgstr "Mearfâldich geskikte berjochten"
+
+#: kpci.cpp:626
+#, kde-format
+msgid "Multiple message enable"
+msgstr "Mearfâldige berjochten ynskeakele"
+
+#: kpci.cpp:627
+#, kde-format
+msgid "64-bit address"
+msgstr "64-bit adres"
+
+#: kpci.cpp:628
+#, kde-format
+msgid "Per vector masking"
+msgstr "De fektor maskearje"
+
+#: kpci.cpp:636 kpci.cpp:644
+#, kde-format
+msgid "Mask"
+msgstr "Masker"
+
+#: kpci.cpp:637 kpci.cpp:645
+#, kde-format
+msgid "Pending"
+msgstr "Yn behanneling"
+
+#: kpci.cpp:655
+#, kde-format
+msgid "Length"
+msgstr "Lingte"
+
+#: kpci.cpp:658
+#, kde-format
+msgctxt "no data"
+msgid "None"
+msgstr "Gjint"
+
+#: kpci.cpp:688
+#, kde-format
+msgid "Next"
+msgstr "Folgjende"
+
+#: kpci.cpp:688 kpci.cpp:715
+#, kde-format
+msgid "0x00 (None)"
+msgstr "0x00 (Gjint)"
+
+#: kpci.cpp:711
+#, kde-format
+msgid "Root only"
+msgstr "Allinne root"
+
+#: kpci.cpp:724
+#, kde-format
+msgid "Information"
+msgstr "Ynformaasje"
+
+#: kpci.cpp:724
+#, kde-format
+msgid "Value"
+msgstr "Wearde"
+
+#: kpci.cpp:772
+#, fuzzy, kde-format
+msgid "Cache line size"
+msgstr "Lyts ûnthâld grutte fan`e eftergrûn"
+
+#: kpci_private.h:27
+#, fuzzy, kde-format
+#| msgid "Enabled"
+msgctxt "state of PCI item"
+msgid "Enabled"
+msgstr "Ynskeakele"
+
+#: kpci_private.h:28
+#, fuzzy, kde-format
+#| msgid "Disabled"
+msgctxt "state of PCI item"
+msgid "Disabled"
+msgstr "Utskeakele"
+
+#: kpci_private.h:29
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Yes"
+msgstr "Jawis"
+
+#: kpci_private.h:30
+#, kde-format
+msgctxt "state of PCI item"
+msgid "No"
+msgstr "Nee"
+
+#: kpci_private.h:31
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Unknown"
+msgstr "Unbekend"
+
+#: kpci_private.h:439
+#, fuzzy, kde-format
+msgid "Unclassified device"
+msgstr "Kamera..."
+
+#: kpci_private.h:440 kpci_private.h:474
+#, fuzzy, kde-format
+msgid "Mass storage controller"
+msgstr "Nepomuk Gegevens opslach"
+
+#: kpci_private.h:441 kpci_private.h:484
+#, fuzzy, kde-format
+msgid "Network controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:442 kpci_private.h:490
+#, fuzzy, kde-format
+msgid "Display controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:443 kpci_private.h:496
+#, kde-format
+msgid "Multimedia controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:444 kpci_private.h:501
+#, kde-format
+msgid "Memory controller"
+msgstr "Unthâld kontrôler"
+
+#: kpci_private.h:445 kpci_private.h:515 kpci_private.h:718
+#, kde-format
+msgid "Bridge"
+msgstr "Bridge"
+
+#: kpci_private.h:446 kpci_private.h:524
+#, fuzzy, kde-format
+msgid "Communication controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:447
+#, fuzzy, kde-format
+msgid "Generic system peripheral"
+msgstr "SAM systeembehear"
+
+#: kpci_private.h:448 kpci_private.h:540
+#, fuzzy, kde-format
+msgid "Input device controller"
+msgstr "kompaktskiifstasjon ..."
+
+#: kpci_private.h:449 kpci_private.h:544
+#, fuzzy, kde-format
+msgid "Docking station"
+msgstr "Mistbank by stasjon"
+
+#: kpci_private.h:450
+#, kde-format
+msgid "Processor"
+msgstr "Ferwurkingsienheid"
+
+#: kpci_private.h:451
+#, fuzzy, kde-format
+msgid "Serial bus controller"
+msgstr "Primêre busnûmer"
+
+#: kpci_private.h:452 kpci_private.h:575
+#, fuzzy, kde-format
+msgid "Wireless controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:453
+#, fuzzy, kde-format
+msgid "Intelligent controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:454
+#, fuzzy, kde-format
+msgid "Satellite communications controller"
+msgstr "eDonkey2000 GTK+ Core Controller"
+
+#: kpci_private.h:455 kpci_private.h:589
+#, fuzzy, kde-format
+msgid "Encryption controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:456 kpci_private.h:596
+#, fuzzy, kde-format
+msgid "Signal processing controller"
+msgstr "eDonkey2000 GTK+ Core Controller"
+
+#: kpci_private.h:457
+#, fuzzy, kde-format
+msgid "Unknown device class"
+msgstr "<tr><td><i>Klasse</i></td>%1</tr>"
+
+#: kpci_private.h:463
+#, kde-format
+msgid "Non-VGA unclassified device"
+msgstr ""
+
+#: kpci_private.h:464
+#, fuzzy, kde-format
+msgid "VGA unclassified device"
+msgstr "kompaktskiifstasjon ..."
+
+#: kpci_private.h:465
+#, fuzzy, kde-format
+msgid "Unknown unclassified device"
+msgstr "kompaktskiifstasjon ..."
+
+#: kpci_private.h:467
+#, fuzzy, kde-format
+msgid "SCSI storage controller"
+msgstr "Nepomuk Gegevens opslach"
+
+#: kpci_private.h:468
+#, kde-format
+msgid "IDE controller"
+msgstr "IDE kontrôler"
+
+#: kpci_private.h:469
+#, fuzzy, kde-format
+msgid "Floppy disk controller"
+msgstr "Lltstûnthâldgrutte op skiif:"
+
+#: kpci_private.h:470
+#, fuzzy, kde-format
+msgid "IPI bus controller"
+msgstr "Primêre busnûmer"
+
+#: kpci_private.h:471
+#, fuzzy, kde-format
+msgid "RAID bus controller"
+msgstr "Primêre busnûmer"
+
+#: kpci_private.h:472
+#, kde-format
+msgid "ATA controller"
+msgstr "ATA kontrôler"
+
+#: kpci_private.h:473
+#, kde-format
+msgid "Serial ATA direct port access"
+msgstr ""
+
+#: kpci_private.h:475
+#, fuzzy, kde-format
+msgid "Unknown storage controller"
+msgstr "Nepomuk Gegevens opslach"
+
+#: kpci_private.h:477
+#, fuzzy, kde-format
+msgid "Ethernet controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:478
+#, kde-format
+msgid "Token ring network controller"
+msgstr ""
+
+#: kpci_private.h:479
+#, fuzzy, kde-format
+msgid "FDDI network controller"
+msgstr "Netwurkynterface-ynformaasje"
+
+#: kpci_private.h:480
+#, fuzzy, kde-format
+msgid "ATM network controller"
+msgstr "Netwurkynterface-ynformaasje"
+
+#: kpci_private.h:481
+#, kde-format
+msgid "ISDN controller"
+msgstr "ISDN kontrôler"
+
+#: kpci_private.h:482
+#, kde-format
+msgid "WorldFip controller"
+msgstr "WorldFip kontrôler"
+
+#: kpci_private.h:483
+#, kde-format
+msgid "PICMG 2.14 multi computing"
+msgstr ""
+
+#: kpci_private.h:485
+#, fuzzy, kde-format
+msgid "Unknown network controller"
+msgstr "Netwurkynterface-ynformaasje"
+
+#: kpci_private.h:487
+#, fuzzy, kde-format
+msgid "VGA compatible controller"
+msgstr "eDonkey2000 GTK+ Core Controller"
+
+#: kpci_private.h:488
+#, fuzzy, kde-format
+msgid "XGA compatible controller"
+msgstr "eDonkey2000 GTK+ Core Controller"
+
+#: kpci_private.h:489
+#, kde-format
+msgid "3D controller"
+msgstr "3D kontrôler"
+
+#: kpci_private.h:491
+#, fuzzy, kde-format
+msgid "Unknown display controller"
+msgstr "Data-display-debugger"
+
+#: kpci_private.h:493
+#, fuzzy, kde-format
+msgid "Multimedia video controller"
+msgstr "AVI-fideospiler"
+
+#: kpci_private.h:494
+#, fuzzy, kde-format
+msgid "Multimedia audio controller"
+msgstr "Multyspoor Audio Studio"
+
+#: kpci_private.h:495
+#, fuzzy, kde-format
+msgid "Computer telephony device"
+msgstr "kompaktskiifstasjon ..."
+
+#: kpci_private.h:497
+#, fuzzy, kde-format
+msgid "Unknown multimedia controller"
+msgstr "KDE Multymedia efterein"
+
+#: kpci_private.h:499
+#, fuzzy, kde-format
+msgid "RAM memory"
+msgstr "Unthâld ynformaasje"
+
+#: kpci_private.h:500
+#, fuzzy, kde-format
+msgid "FLASH memory"
+msgstr "Unthâld ynformaasje"
+
+#: kpci_private.h:502
+#, fuzzy, kde-format
+msgid "Unknown memory controller"
+msgstr "Statistyken firtuele ûnthâld"
+
+#: kpci_private.h:504
+#, fuzzy, kde-format
+msgid "Host bridge"
+msgstr "Bridge-tastân"
+
+#: kpci_private.h:505
+#, kde-format
+msgid "ISA bridge"
+msgstr "ISA bridge"
+
+#: kpci_private.h:506
+#, kde-format
+msgid "EISA bridge"
+msgstr "EISA bridge"
+
+#: kpci_private.h:507
+#, kde-format
+msgid "MicroChannel bridge"
+msgstr "MicroChannel bridge"
+
+#: kpci_private.h:508
+#, fuzzy, kde-format
+msgid "PCI bridge"
+msgstr "Bridge-tastân"
+
+#: kpci_private.h:509
+#, kde-format
+msgid "PCMCIA bridge"
+msgstr "PCMCIA bridge"
+
+#: kpci_private.h:510
+#, kde-format
+msgid "NuBus bridge"
+msgstr "NuBus bridge"
+
+#: kpci_private.h:511
+#, kde-format
+msgid "CardBus bridge"
+msgstr "CardBus bridge"
+
+#: kpci_private.h:512
+#, kde-format
+msgid "RACEway bridge"
+msgstr "RACEway bridge"
+
+#: kpci_private.h:513
+#, kde-format
+msgid "Semi-transparent PCI-to-PCI bridge"
+msgstr "Semi-transparent PCI-nei-PCI bridge"
+
+#: kpci_private.h:514
+#, kde-format
+msgid "InfiniBand to PCI host bridge"
+msgstr "InfiniBand nei PCI host bridge"
+
+#: kpci_private.h:516
+#, fuzzy, kde-format
+msgid "Unknown bridge"
+msgstr "Bridge-tastân"
+
+#: kpci_private.h:518
+#, fuzzy, kde-format
+msgid "Serial controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:519
+#, fuzzy, kde-format
+msgid "Parallel controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:520
+#, fuzzy, kde-format
+msgid "Multiport serial controller"
+msgstr "Searje nûmer"
+
+#: kpci_private.h:521
+#, kde-format
+msgid "Modem"
+msgstr "Modem"
+
+#: kpci_private.h:522
+#, kde-format
+msgid "GPIB (IEEE 488.1/2) controller"
+msgstr ""
+
+#: kpci_private.h:523
+#, fuzzy, kde-format
+msgid "Smart card"
+msgstr "Smart Card apparaten"
+
+#: kpci_private.h:525
+#, fuzzy, kde-format
+msgid "Unknown communication controller"
+msgstr "D-Bus-kommunikaasjeflater"
+
+#: kpci_private.h:527
+#, kde-format
+msgid "PIC"
+msgstr "PIC"
+
+#: kpci_private.h:528
+#, fuzzy, kde-format
+msgid "DMA controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:529
+#, fuzzy, kde-format
+msgid "Timer"
+msgstr "Timerynstellings"
+
+#: kpci_private.h:530
+#, kde-format
+msgid "RTC"
+msgstr "RTC"
+
+#: kpci_private.h:531
+#, kde-format
+msgid "PCI Hot-plug controller"
+msgstr ""
+
+#: kpci_private.h:532
+#, fuzzy, kde-format
+msgid "System peripheral"
+msgstr "Systeemmonitor"
+
+#: kpci_private.h:533
+#, fuzzy, kde-format
+msgid "Unknown system peripheral"
+msgstr "SAM systeembehear"
+
+#: kpci_private.h:535
+#, fuzzy, kde-format
+msgid "Keyboard controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:536
+#, kde-format
+msgid "Digitizer Pen"
+msgstr ""
+
+#: kpci_private.h:537
+#, fuzzy, kde-format
+msgid "Mouse controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:538
+#, fuzzy, kde-format
+msgid "Scanner controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:539
+#, fuzzy, kde-format
+msgid "Gameport controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:541
+#, fuzzy, kde-format
+msgid "Unknown input device controller"
+msgstr "Net by steat it i/o apparaat te inisjalisearjen"
+
+#: kpci_private.h:543
+#, fuzzy, kde-format
+msgid "Generic docking station"
+msgstr "Gewoane mbox triem:"
+
+#: kpci_private.h:545
+#, fuzzy, kde-format
+msgid "Unknown docking station"
+msgstr "Prosessor %1: %2, ûnbekende fluggens"
+
+#: kpci_private.h:547
+#, kde-format
+msgid "386"
+msgstr "386"
+
+#: kpci_private.h:548
+#, kde-format
+msgid "486"
+msgstr "486"
+
+#: kpci_private.h:549
+#, kde-format
+msgid "Pentium"
+msgstr "Pentium"
+
+#: kpci_private.h:550
+#, kde-format
+msgid "Alpha"
+msgstr "Alpha"
+
+#: kpci_private.h:551
+#, kde-format
+msgid "Power PC"
+msgstr "Power PC"
+
+#: kpci_private.h:552
+#, kde-format
+msgid "MIPS"
+msgstr "MIPS"
+
+#: kpci_private.h:553
+#, fuzzy, kde-format
+msgid "Co-processor"
+msgstr "lûdsstudio"
+
+#: kpci_private.h:554
+#, fuzzy, kde-format
+msgid "Unknown processor"
+msgstr "lûdsstudio"
+
+#: kpci_private.h:556
+#, kde-format
+msgid "FireWire (IEEE 1394)"
+msgstr "FireWire (IEEE 1394)"
+
+#: kpci_private.h:557
+#, fuzzy, kde-format
+msgid "ACCESS bus"
+msgstr "Unbekende bus"
+
+#: kpci_private.h:558
+#, kde-format
+msgid "SSA"
+msgstr "SSA"
+
+#: kpci_private.h:559
+#, fuzzy, kde-format
+msgid "USB controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:560
+#, fuzzy, kde-format
+msgid "Fibre channel"
+msgstr "DMA-kanaal"
+
+#: kpci_private.h:561
+#, kde-format
+msgid "SMBus"
+msgstr "SMBus"
+
+#: kpci_private.h:562
+#, kde-format
+msgid "InfiniBand"
+msgstr "InfiniBand"
+
+#: kpci_private.h:563
+#, fuzzy, kde-format
+msgid "IPMI interface"
+msgstr "Ynterface-ûntwerper"
+
+#: kpci_private.h:564
+#, fuzzy, kde-format
+msgid "SERCOS interface"
+msgstr "Ynterface-ûntwerper"
+
+#: kpci_private.h:565
+#, kde-format
+msgid "CANbus"
+msgstr "CANbus"
+
+#: kpci_private.h:566
+#, kde-format
+msgid "Unknown serial bus controller"
+msgstr ""
+
+#: kpci_private.h:568
+#, fuzzy, kde-format
+msgid "IRDA controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:569
+#, fuzzy, kde-format
+msgid "Consumer IR controller"
+msgstr "eDonkey2000 GTK+ Core Controller"
+
+#: kpci_private.h:570
+#, fuzzy, kde-format
+msgid "RF controller"
+msgstr "Multymedia kontrôler"
+
+#: kpci_private.h:571
+#, kde-format
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: kpci_private.h:572
+#, kde-format
+msgid "Broadband"
+msgstr ""
+
+#: kpci_private.h:573
+#, kde-format
+msgid "Ethernet (802.11a - 5 GHz)"
+msgstr "Ethernet (802.11a - 5 GHz)"
+
+#: kpci_private.h:574
+#, kde-format
+msgid "Ethernet (802.11b - 2.4 GHz)"
+msgstr "Ethernet (802.11b - 2.4 GHz)"
+
+#: kpci_private.h:576
+#, fuzzy, kde-format
+msgid "Unknown wireless controller"
+msgstr "Palm/Wireless emulator"
+
+#: kpci_private.h:578
+#, kde-format
+msgid "I2O"
+msgstr "I2O"
+
+#: kpci_private.h:579
+#, fuzzy, kde-format
+msgid "Unknown intelligent controller"
+msgstr "Prosessor %1: %2, ûnbekende fluggens"
+
+#: kpci_private.h:581
+#, fuzzy, kde-format
+msgid "Satellite TV controller"
+msgstr "eDonkey2000 GTK+ Core Controller"
+
+#: kpci_private.h:582
+#, kde-format
+msgid "Satellite audio communication controller"
+msgstr ""
+
+#: kpci_private.h:583
+#, kde-format
+msgid "Satellite voice communication controller"
+msgstr ""
+
+#: kpci_private.h:584
+#, kde-format
+msgid "Satellite data communication controller"
+msgstr ""
+
+#: kpci_private.h:585
+#, kde-format
+msgid "Unknown satellite communications controller"
+msgstr ""
+
+#: kpci_private.h:587
+#, kde-format
+msgid "Network and computing encryption device"
+msgstr ""
+
+#: kpci_private.h:588
+#, fuzzy, kde-format
+msgid "Entertainment encryption device"
+msgstr "kompaktskiifstasjon ..."
+
+#: kpci_private.h:590
+#, fuzzy, kde-format
+msgid "Unknown encryption controller"
+msgstr "Unbekend fersifer skema."
+
+#: kpci_private.h:592
+#, fuzzy, kde-format
+msgid "DPIO module"
+msgstr "Kernelmodule"
+
+#: kpci_private.h:593
+#, fuzzy, kde-format
+msgid "Performance counters"
+msgstr "KDE-prestaasjes"
+
+#: kpci_private.h:594
+#, fuzzy, kde-format
+msgid "Communication synchronizer"
+msgstr "Kommunikaasjeflater"
+
+#: kpci_private.h:595
+#, fuzzy, kde-format
+msgid "Management card"
+msgstr "Kaartspul"
+
+#: kpci_private.h:597
+#, kde-format
+msgid "Unknown signal processing controller"
+msgstr ""
+
+#: kpci_private.h:599
+#, fuzzy, kde-format
+msgid "Unknown subdevice class"
+msgstr "<tr><td><i>Klasse</i></td>%1</tr>"
+
+#: kpci_private.h:606
+#, kde-format
+msgid "single DMA"
+msgstr "Inkele DMA"
+
+#: kpci_private.h:607
+#, fuzzy, kde-format
+msgid "chained DMA"
+msgstr "DMA-kanalen"
+
+#: kpci_private.h:609
+#, fuzzy, kde-format
+msgid "VGA compatible"
+msgstr "Kompatibel nammen:"
+
+#: kpci_private.h:610
+#, fuzzy, kde-format
+msgid "8514 compatible"
+msgstr "Kompatibel nammen:"
+
+#: kpci_private.h:612
+#, fuzzy, kde-format
+msgid "Normal decode"
+msgstr "Gewoane eftergrûn"
+
+#: kpci_private.h:613
+#, kde-format
+msgid "Subtractive decode"
+msgstr ""
+
+#: kpci_private.h:615
+#, fuzzy, kde-format
+msgid "Transparent mode"
+msgstr "Werjeftemodus"
+
+#: kpci_private.h:616
+#, fuzzy, kde-format
+msgid "Endpoint mode"
+msgstr "Werjeftemodus"
+
+#: kpci_private.h:618
+#, kde-format
+msgid "Primary bus towards host CPU"
+msgstr ""
+
+#: kpci_private.h:619
+#, kde-format
+msgid "Secondary bus towards host CPU"
+msgstr ""
+
+#: kpci_private.h:621
+#, kde-format
+msgid "8250"
+msgstr "8250"
+
+#: kpci_private.h:622
+#, kde-format
+msgid "16450"
+msgstr "16450"
+
+#: kpci_private.h:623
+#, kde-format
+msgid "16550"
+msgstr "16550"
+
+#: kpci_private.h:624
+#, kde-format
+msgid "16650"
+msgstr "16650"
+
+#: kpci_private.h:625
+#, kde-format
+msgid "16750"
+msgstr "16750"
+
+#: kpci_private.h:626
+#, kde-format
+msgid "16850"
+msgstr "16850"
+
+#: kpci_private.h:627
+#, kde-format
+msgid "16950"
+msgstr "16950"
+
+#: kpci_private.h:629
+#, kde-format
+msgid "SPP"
+msgstr "SPP"
+
+#: kpci_private.h:630
+#, kde-format
+msgid "BiDir"
+msgstr "BiDir"
+
+#: kpci_private.h:631
+#, kde-format
+msgid "ECP"
+msgstr "ECP"
+
+#: kpci_private.h:632
+#, kde-format
+msgid "IEEE1284"
+msgstr "IEEE1284"
+
+#: kpci_private.h:633
+#, kde-format
+msgid "IEEE1284 Target"
+msgstr "IEEE1284 Target"
+
+#: kpci_private.h:635 kpci_private.h:655 kpci_private.h:658 kpci_private.h:661
+#, kde-format
+msgid "Generic"
+msgstr "Algemien"
+
+#: kpci_private.h:636
+#, kde-format
+msgid "Hayes/16450"
+msgstr "Hayes/16450"
+
+#: kpci_private.h:637
+#, kde-format
+msgid "Hayes/16550"
+msgstr "Hayes/16550"
+
+#: kpci_private.h:638
+#, kde-format
+msgid "Hayes/16650"
+msgstr "Hayes/16650"
+
+#: kpci_private.h:639
+#, kde-format
+msgid "Hayes/16750"
+msgstr "Hayes/16750"
+
+#: kpci_private.h:641
+#, kde-format
+msgid "8259"
+msgstr "8259"
+
+#: kpci_private.h:642
+#, kde-format
+msgid "ISA PIC"
+msgstr "ISA PIC"
+
+#: kpci_private.h:643
+#, kde-format
+msgid "EISA PIC"
+msgstr "EISA PIC"
+
+#: kpci_private.h:644
+#, kde-format
+msgid "IO-APIC"
+msgstr "IO-APIC"
+
+#: kpci_private.h:645
+#, kde-format
+msgid "IO(X)-APIC"
+msgstr "IO(X)-APIC"
+
+#: kpci_private.h:647
+#, kde-format
+msgid "8237"
+msgstr "8237"
+
+#: kpci_private.h:648
+#, kde-format
+msgid "ISA DMA"
+msgstr "ISA DMA"
+
+#: kpci_private.h:649
+#, kde-format
+msgid "EISA DMA"
+msgstr "EISA DMA"
+
+#: kpci_private.h:651
+#, kde-format
+msgid "8254"
+msgstr "8254"
+
+#: kpci_private.h:652
+#, fuzzy, kde-format
+msgid "ISA timer"
+msgstr "Timerynstellings"
+
+#: kpci_private.h:653
+#, fuzzy, kde-format
+msgid "EISA timers"
+msgstr "EISA bridge"
+
+#: kpci_private.h:656
+#, kde-format
+msgid "ISA RTC"
+msgstr "ISA RTC"
+
+#: kpci_private.h:659
+#, fuzzy, kde-format
+msgid "Extended"
+msgstr "Utwreid"
+
+#: kpci_private.h:662 kpci_private.h:665
+#, kde-format
+msgid "OHCI"
+msgstr "OHCI"
+
+#: kpci_private.h:664
+#, kde-format
+msgid "UHCI"
+msgstr "UHCI"
+
+#: kpci_private.h:666
+#, kde-format
+msgid "EHCI"
+msgstr "EHCI"
+
+#: kpci_private.h:667
+#, kde-format
+msgid "Unspecified"
+msgstr "Net spesifisearre"
+
+#: kpci_private.h:668
+#, fuzzy, kde-format
+msgid "USB Device"
+msgstr "Kamera..."
+
+#: kpci_private.h:670
+#, kde-format
+msgid "SMIC"
+msgstr "SMIC"
+
+#: kpci_private.h:671
+#, fuzzy, kde-format
+msgid "Keyboard controller style"
+msgstr "Klassyke KDE styl"
+
+#: kpci_private.h:672
+#, fuzzy, kde-format
+msgid "Block transfer"
+msgstr "Oerdracht foltôge"
+
+#: kpci_private.h:682
+#, fuzzy, kde-format
+msgid "Vital product data"
+msgstr "Data-display-debugger"
+
+#: kpci_private.h:683
+#, fuzzy, kde-format
+msgid "Slot identification"
+msgstr "Blêder identifikaasje"
+
+#: kpci_private.h:685
+#, fuzzy, kde-format
+msgid "CompactPCI hot swap"
+msgstr "Totaal oan wikselûnthâld:"
+
+#: kpci_private.h:686
+#, kde-format
+msgid "PCI-X"
+msgstr "PCI-X"
+
+#: kpci_private.h:687
+#, kde-format
+msgid "HyperTransport"
+msgstr "HyperTransport"
+
+#: kpci_private.h:688
+#, fuzzy, kde-format
+msgid "Vendor specific"
+msgstr "Distributeur spesifyk"
+
+#: kpci_private.h:689
+#, fuzzy, kde-format
+msgid "Debug port"
+msgstr "Poarteskenner"
+
+#: kpci_private.h:690
+#, kde-format
+msgid "CompactPCI central resource control"
+msgstr ""
+
+#: kpci_private.h:691
+#, fuzzy, kde-format
+msgid "PCI hot-plug"
+msgstr "Plug-ins"
+
+#: kpci_private.h:692
+#, kde-format
+msgid "AGP x8"
+msgstr "AGP x8"
+
+#: kpci_private.h:693
+#, fuzzy, kde-format
+msgid "Secure device"
+msgstr "Kamera..."
+
+#: kpci_private.h:694
+#, kde-format
+msgid "PCI express"
+msgstr "PCI express"
+
+#: kpci_private.h:695
+#, kde-format
+msgid "MSI-X"
+msgstr "MSI-X"
+
+#: kpci_private.h:701
+#, kde-format
+msgid "Fast"
+msgstr "Fluch"
+
+#: kpci_private.h:702
+#, kde-format
+msgid "Medium"
+msgstr "Middelt"
+
+#: kpci_private.h:703
+#, kde-format
+msgid "Slow"
+msgstr "Traach"
+
+#: kpci_private.h:709
+#, kde-format
+msgid "32 bit"
+msgstr "32 bit"
+
+#: kpci_private.h:710
+#, kde-format
+msgid "Below 1M"
+msgstr "Under 1M"
+
+#: kpci_private.h:711
+#, kde-format
+msgid "64 bit"
+msgstr "64 bit"
+
+#: kpci_private.h:717
+#, kde-format
+msgid "Standard"
+msgstr "Standert"
+
+#: kpci_private.h:719
+#, fuzzy, kde-format
+msgid "CardBus"
+msgstr "CardBus nûmer"
+
+#: kpci_private.h:725
+#, kde-format
+msgid "1X"
+msgstr "1X"
+
+#: kpci_private.h:726
+#, kde-format
+msgid "2X"
+msgstr "2X"
+
+#: kpci_private.h:727
+#, kde-format
+msgid "1X & 2X"
+msgstr "1X & 2X"
+
+#: kpci_private.h:728 kpci_private.h:732
+#, kde-format
+msgid "4X"
+msgstr "4X"
+
+#: kpci_private.h:729
+#, kde-format
+msgid "1X & 4X"
+msgstr "1X & 4X"
+
+#: kpci_private.h:730
+#, kde-format
+msgid "2X & 4X"
+msgstr "2X & 4X"
+
+#: kpci_private.h:731
+#, kde-format
+msgid "1X & 2X & 4X"
+msgstr "1X & 2X & 4X"
+
+#: kpci_private.h:733
+#, kde-format
+msgid "8X"
+msgstr "8X"
+
+#: kpci_private.h:734
+#, kde-format
+msgid "4X & 8X"
+msgstr "4X & 8X"
+
+#: kpci_private.h:740
+#, kde-format
+msgid "4 ms"
+msgstr "4 ms"
+
+#: kpci_private.h:741
+#, kde-format
+msgid "16 ms"
+msgstr "16 ms"
+
+#: kpci_private.h:742
+#, kde-format
+msgid "64 ms"
+msgstr "64 ms"
+
+#: kpci_private.h:743
+#, kde-format
+msgid "256 ms"
+msgstr "256 ms"
+
+#: kpci_private.h:744
+#, kde-format
+msgid "Not needed"
+msgstr "Net nedich"
+
+#: kpci_private.h:750
+#, kde-format
+msgid "0 (self powered)"
+msgstr "0 (sels oantrune)"
+
+#: kpci_private.h:751
+#, kde-format
+msgid "55 mA"
+msgstr "55 mA"
+
+#: kpci_private.h:752
+#, kde-format
+msgid "100 mA"
+msgstr "100 mA"
+
+#: kpci_private.h:753
+#, kde-format
+msgid "160 mA"
+msgstr "160 mA"
+
+#: kpci_private.h:754
+#, kde-format
+msgid "220 mA"
+msgstr "220 mA"
+
+#: kpci_private.h:755
+#, kde-format
+msgid "270 mA"
+msgstr "270 mA"
+
+#: kpci_private.h:756
+#, kde-format
+msgid "320 mA"
+msgstr "320 mA"
+
+#: kpci_private.h:757
+#, kde-format
+msgid "375 mA"
+msgstr "375 mA"
+
+#: kpci_private.h:772
+#, kde-format
+msgid "1 vector"
+msgstr "1 fektor"
+
+#: kpci_private.h:773
+#, kde-format
+msgid "2 vectors"
+msgstr "2 fektors"
+
+#: kpci_private.h:774
+#, kde-format
+msgid "4 vectors"
+msgstr "4 fektors"
+
+#: kpci_private.h:775
+#, kde-format
+msgid "8 vectors"
+msgstr "8 fektors"
+
+#: kpci_private.h:776
+#, kde-format
+msgid "16 vectors"
+msgstr "16 fektors"
+
+#: kpci_private.h:777
+#, kde-format
+msgid "32 vectors"
+msgstr "32 fektors"

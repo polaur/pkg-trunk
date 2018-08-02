@@ -1,0 +1,225 @@
+# Irish translation of kcm_memory
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcm_memory package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebase/kcm_memory.po\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-09-16 03:33+0200\n"
+"PO-Revision-Date: 2008-04-15 10:38-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#: chartWidget.cpp:56 chartWidget.cpp:57 memory.cpp:270
+#, kde-format
+msgid "Not available."
+msgstr "Níl ar Fáil."
+
+#: chartWidget.cpp:106
+#, kde-format
+msgid "%1 free"
+msgstr "%1 saor"
+
+#: memory.cpp:64
+#, kde-format
+msgid "kcm_memory"
+msgstr "kcm_memory"
+
+#: memory.cpp:65
+#, kde-format
+msgid "KDE Panel Memory Information Control Module"
+msgstr "Modúl Rialaithe Eolais Cuimhne le haghaidh an Phainéil KDE"
+
+#: memory.cpp:67
+#, kde-format
+msgid "(c) 1998 - 2002 Helge Deller"
+msgstr "© 1998 - 2002 Helge Deller"
+
+#: memory.cpp:69
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: memory.cpp:101
+#, kde-format
+msgid ""
+"This display shows you the current memory usage of your system. The values "
+"are updated on a regular basis and give you an overview of the physical and "
+"virtual memory being used."
+msgstr ""
+"Taispeánann sé seo úsáid chuimhne ar do chóras faoi láthair. Nuashonraítear "
+"na luachanna ar bhonn rialta agus is féidir foramharc a fháil ar an gcuimhne "
+"ábhartha agus fhíorúil atá in úsáid."
+
+#: memory.cpp:107
+#, kde-format
+msgid "Memory"
+msgstr "Cuimhne"
+
+#: memory.cpp:125
+#, kde-format
+msgid "Total physical memory:"
+msgstr "Cuimhne ábhartha iomlán:"
+
+#: memory.cpp:128
+#, kde-format
+msgid "Free physical memory:"
+msgstr "Cuimhne ábhartha saor:"
+
+#: memory.cpp:133
+#, kde-format
+msgid "Shared memory:"
+msgstr "Comhchuimhne:"
+
+#: memory.cpp:136
+#, kde-format
+msgid "Disk buffers:"
+msgstr "Maoláin diosca:"
+
+#: memory.cpp:140
+#, kde-format
+msgid "Active memory:"
+msgstr "Cuimhne ghníomhach:"
+
+#: memory.cpp:143
+#, kde-format
+msgid "Inactive memory:"
+msgstr "Cuimhne neamhghníomhach:"
+
+#: memory.cpp:148
+#, kde-format
+msgid "Disk cache:"
+msgstr "Dioscthaisce:"
+
+#: memory.cpp:152
+#, kde-format
+msgid "Total swap memory:"
+msgstr "Cuimhne bhabhtála iomlán:"
+
+#: memory.cpp:155
+#, kde-format
+msgid "Free swap memory:"
+msgstr "Cuimhne bhabhtála saor:"
+
+#: memory.cpp:196
+#, kde-format
+msgid "Charts"
+msgstr "Cairteacha"
+
+#: memory.cpp:206
+#, kde-format
+msgid "Total Memory"
+msgstr "Cuimhne Iomlán"
+
+#: memory.cpp:207
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>total sum of physical and virtual "
+"memory</b> in your system."
+msgstr ""
+"Tugann an graf seo duit foramharc ar an <b>gcuimhne ábhartha agus fhíorúil "
+"go hiomlán</b> ar do chóras."
+
+#: memory.cpp:216
+#, kde-format
+msgid "Physical Memory"
+msgstr "Cuimhne Ábhartha"
+
+#: memory.cpp:217
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>usage of physical memory</b> in "
+"your system.<p>Most operating systems (including Linux) will use as much of "
+"the available physical memory as possible as disk cache, to speed up the "
+"system performance.</p><p>This means that if you have a small amount of "
+"<b>Free Physical Memory</b> and a large amount of <b>Disk Cache Memory</b>, "
+"your system is well configured.</p>"
+msgstr ""
+"Foramharc ar <b>úsáid chuimhne ábhartha</b> ar do chóras atá sa ghraf seo."
+"<p>Úsáideann formhór na gcóras oibriúcháin (Linux san áireamh) oiread den "
+"chuimhne ábhartha agus is féidir mar thaisce, chun luas an chórais a "
+"fheabhsú.</p><p>Ciallaíonn sé seo gur chóir go leor <b>Cuimhne Thaisce "
+"Dhiosca</b> agus beagán <b>Cuimhne Shaor Ábhartha</b> a bheith agat.</p>"
+
+#: memory.cpp:232
+#, kde-format
+msgid "Swap Space"
+msgstr "Spás Babhtála"
+
+#: memory.cpp:233
+#, kde-format
+msgid ""
+"<p>The swap space is the <b>virtual memory</b> available to the system.</p> "
+"<p>It will be used on demand and is provided through one or more swap "
+"partitions and/or swap files.</p>"
+msgstr ""
+"<p>Is éard atá sa spás babhtála ná an <b>chuimhne fhíorúil</b> atá ar fáil "
+"ar an chóras.</p> <p>Úsáidfear é ar éileamh agus soláthraítear é trí "
+"dheighilt(í) babhtála agus/nó comha(i)d babhtála.</p>"
+
+#: memory.cpp:264
+#, kde-format
+msgid "1 byte ="
+msgid_plural "%1 bytes ="
+msgstr[0] "1 bheart ="
+msgstr[1] "%1 bheart ="
+msgstr[2] "%1 bheart ="
+msgstr[3] "%1 mbeart ="
+msgstr[4] "%1 beart ="
+
+#: physicalMemoryChart.cpp:50
+#, kde-format
+msgid "Free Physical Memory"
+msgstr "Cuimhne Ábhartha Saor"
+
+#: physicalMemoryChart.cpp:52
+#, kde-format
+msgid "Disk Cache"
+msgstr "Dioscthaisce"
+
+#: physicalMemoryChart.cpp:54
+#, kde-format
+msgid "Disk Buffers"
+msgstr "Maoláin Diosca"
+
+#: physicalMemoryChart.cpp:56
+#, kde-format
+msgid "Application Data"
+msgstr "Sonraí Feidhmchlár"
+
+#: swapMemoryChart.cpp:47
+#, kde-format
+msgid "Free Swap"
+msgstr "Cuimhne Bhabhtála Saor"
+
+#: swapMemoryChart.cpp:49 totalMemoryChart.cpp:43
+#, kde-format
+msgid "Used Swap"
+msgstr "Cuimhne Bhabhtála in Úsáid"
+
+#: totalMemoryChart.cpp:41
+#, kde-format
+msgid "Total Free Memory"
+msgstr "Cuimhne Shaor Iomlán"
+
+#: totalMemoryChart.cpp:45
+#, kde-format
+msgid "Used Physical Memory"
+msgstr "Cuimhne Ábhartha in Úsáid"

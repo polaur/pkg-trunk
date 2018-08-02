@@ -1,0 +1,130 @@
+# Translation of kcm-about-distro.po to Ukrainian
+# Copyright (C) 2013-2016 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2013, 2014, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm-about-distro\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-23 03:11+0200\n"
+"PO-Revision-Date: 2016-06-07 18:25+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Юрій Чорноіван"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yurchor@ukr.net"
+
+#: Module.cpp:76
+#, kde-format
+msgctxt "@title"
+msgid "About Distribution"
+msgstr "Про дистрибутив"
+
+#: Module.cpp:80
+#, kde-format
+msgctxt "@info:credit"
+msgid "Copyright 2012-2014 Harald Sitter"
+msgstr "© Harald Sitter, 2012–2014"
+
+#: Module.cpp:82
+#, kde-format
+msgctxt "@info:credit"
+msgid "Harald Sitter"
+msgstr "Harald Sitter"
+
+#: Module.cpp:83
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Автор"
+
+#: Module.cpp:197
+#, kde-format
+msgctxt "@label %1 is the CPU bit width (e.g. 32 or 64)"
+msgid "%1-bit"
+msgstr "%1-бітова"
+
+#: Module.cpp:200
+#, kde-format
+msgid "Processor:"
+msgid_plural "Processors:"
+msgstr[0] "Процесори:"
+msgstr[1] "Процесори:"
+msgstr[2] "Процесори:"
+msgstr[3] "Процесор:"
+
+#: Module.cpp:233
+#, kde-format
+msgctxt "@label %1 is the formatted amount of system memory (e.g. 7,7 GiB)"
+msgid "%1 of RAM"
+msgstr "%1 оперативної пам’яті"
+
+#: Module.cpp:234
+#, kde-format
+msgctxt "Unknown amount of RAM"
+msgid "Unknown"
+msgstr "Невідомий"
+
+#. i18n: ectx: property (text), widget (QLabel, plasma)
+#: Module.ui:77
+#, kde-format
+msgid "KDE Plasma Version:"
+msgstr "Версія Плазми KDE:"
+
+#. i18n: ectx: property (text), widget (QLabel, memory)
+#: Module.ui:146
+#, kde-format
+msgid "Memory:"
+msgstr "Пам’ять:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: Module.ui:185
+#, kde-format
+msgid "Software"
+msgstr "Програмне забезпечення"
+
+#. i18n: ectx: property (text), widget (QLabel, qt)
+#: Module.ui:238
+#, kde-format
+msgid "Qt Version:"
+msgstr "Версія Qt:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: Module.ui:261
+#, kde-format
+msgid "Hardware"
+msgstr "Обладнання"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: Module.ui:271
+#, kde-format
+msgid "OS Type:"
+msgstr "Тип ОС:"
+
+#. i18n: ectx: property (text), widget (QLabel, kernel)
+#: Module.ui:297
+#, kde-format
+msgid "Kernel Version:"
+msgstr "Версія ядра:"
+
+#. i18n: ectx: property (text), widget (QLabel, frameworksLabelKey)
+#: Module.ui:330
+#, kde-format
+msgid "KDE Frameworks Version:"
+msgstr "Версія Frameworks KDE:"

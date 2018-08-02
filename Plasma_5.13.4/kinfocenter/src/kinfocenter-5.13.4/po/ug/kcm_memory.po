@@ -1,0 +1,208 @@
+# Uyghur translation for kcm_memory.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Sahran <sahran.ug@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_memory\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-09-16 03:33+0200\n"
+"PO-Revision-Date: 2013-09-08 07:05+0900\n"
+"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ئابدۇقادىر ئابلىز, غەيرەت كەنجى"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sahran.ug@gmail.com,  gheyret@gmail.com"
+
+#: chartWidget.cpp:56 chartWidget.cpp:57 memory.cpp:270
+#, kde-format
+msgid "Not available."
+msgstr "ئىشلەتكىلى بولمايدۇ."
+
+#: chartWidget.cpp:106
+#, kde-format
+msgid "%1 free"
+msgstr "%1 بوش"
+
+#: memory.cpp:64
+#, kde-format
+msgid "kcm_memory"
+msgstr "kcm_memory"
+
+#: memory.cpp:65
+#, kde-format
+msgid "KDE Panel Memory Information Control Module"
+msgstr ""
+
+#: memory.cpp:67
+#, kde-format
+msgid "(c) 1998 - 2002 Helge Deller"
+msgstr "(c) 1998 - 2002 Helge Deller"
+
+#: memory.cpp:69
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: memory.cpp:101
+#, kde-format
+msgid ""
+"This display shows you the current memory usage of your system. The values "
+"are updated on a regular basis and give you an overview of the physical and "
+"virtual memory being used."
+msgstr ""
+
+#: memory.cpp:107
+#, kde-format
+msgid "Memory"
+msgstr "ئەسلەك"
+
+#: memory.cpp:125
+#, kde-format
+msgid "Total physical memory:"
+msgstr "جەمئىي فىزىكىلىق ئەسلەك:"
+
+#: memory.cpp:128
+#, kde-format
+msgid "Free physical memory:"
+msgstr ""
+
+#: memory.cpp:133
+#, kde-format
+msgid "Shared memory:"
+msgstr "ھەمبەھىرلەنگەن ئەسلەك:"
+
+#: memory.cpp:136
+#, kde-format
+msgid "Disk buffers:"
+msgstr "دىسكا يىغلەكى"
+
+#: memory.cpp:140
+#, kde-format
+msgid "Active memory:"
+msgstr "ئاكتىپ ئەسلەك:"
+
+#: memory.cpp:143
+#, kde-format
+msgid "Inactive memory:"
+msgstr "پاسسىپ  ئەسلەك"
+
+#: memory.cpp:148
+#, kde-format
+msgid "Disk cache:"
+msgstr "دىسكا غەملىكى"
+
+#: memory.cpp:152
+#, kde-format
+msgid "Total swap memory:"
+msgstr "جەمئىي swap ئەسلەك:"
+
+#: memory.cpp:155
+#, kde-format
+msgid "Free swap memory:"
+msgstr ""
+
+#: memory.cpp:196
+#, kde-format
+msgid "Charts"
+msgstr "دىئاگرامما"
+
+#: memory.cpp:206
+#, kde-format
+msgid "Total Memory"
+msgstr "جەمئىي ئەسلەك"
+
+#: memory.cpp:207
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>total sum of physical and virtual "
+"memory</b> in your system."
+msgstr ""
+
+#: memory.cpp:216
+#, kde-format
+msgid "Physical Memory"
+msgstr "فىزىكىلىق ئەسلەك"
+
+#: memory.cpp:217
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>usage of physical memory</b> in "
+"your system.<p>Most operating systems (including Linux) will use as much of "
+"the available physical memory as possible as disk cache, to speed up the "
+"system performance.</p><p>This means that if you have a small amount of "
+"<b>Free Physical Memory</b> and a large amount of <b>Disk Cache Memory</b>, "
+"your system is well configured.</p>"
+msgstr ""
+
+#: memory.cpp:232
+#, kde-format
+msgid "Swap Space"
+msgstr "ئالماشتۇرۇش بوشلۇقى"
+
+#: memory.cpp:233
+#, kde-format
+msgid ""
+"<p>The swap space is the <b>virtual memory</b> available to the system.</p> "
+"<p>It will be used on demand and is provided through one or more swap "
+"partitions and/or swap files.</p>"
+msgstr ""
+
+#: memory.cpp:264
+#, kde-format
+msgid "1 byte ="
+msgid_plural "%1 bytes ="
+msgstr[0] "%1 بايت ="
+
+#: physicalMemoryChart.cpp:50
+#, kde-format
+msgid "Free Physical Memory"
+msgstr ""
+
+#: physicalMemoryChart.cpp:52
+#, kde-format
+msgid "Disk Cache"
+msgstr "دىسكا غەملىكى"
+
+#: physicalMemoryChart.cpp:54
+#, kde-format
+msgid "Disk Buffers"
+msgstr "دىسكا يىغلەكى"
+
+#: physicalMemoryChart.cpp:56
+#, kde-format
+msgid "Application Data"
+msgstr "پروگرامما سانلىق-مەلۇماتى"
+
+#: swapMemoryChart.cpp:47
+#, kde-format
+msgid "Free Swap"
+msgstr ""
+
+#: swapMemoryChart.cpp:49 totalMemoryChart.cpp:43
+#, kde-format
+msgid "Used Swap"
+msgstr "ئىشلىتىلگەن Swap"
+
+#: totalMemoryChart.cpp:41
+#, kde-format
+msgid "Total Free Memory"
+msgstr "جەمئىي بىكار ئەسلەك"
+
+#: totalMemoryChart.cpp:45
+#, kde-format
+msgid "Used Physical Memory"
+msgstr "ئىشلىتىلگەن فىزىكىلىق ئەسلەك"

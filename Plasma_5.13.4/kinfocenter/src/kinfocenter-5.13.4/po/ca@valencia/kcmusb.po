@@ -1,0 +1,419 @@
+# Translation of kcmusb.po to Catalan (Valencian)
+# Copyright (C) 2002-2017 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Sebastià Pla i Sanz <sps@sastia.com>, 2002, 2005.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2003, 2015.
+# Albert Astals Cid <aacid@kde.org>, 2005.
+# Josep Ma. Ferrer <txemaq@gmail.com>, 2007, 2008, 2009, 2010, 2015, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmusb\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:20+0100\n"
+"PO-Revision-Date: 2017-09-06 20:42+0100\n"
+"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca@valencia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sebastià Pla i Sanz,Antoni Bella"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sps@sastia.com,antonibella5@yahoo.com"
+
+#: classes.i18n:1
+#, kde-format
+msgid "AT-commands"
+msgstr "Ordres AT"
+
+#: classes.i18n:2
+#, kde-format
+msgid "ATM Networking"
+msgstr "Xarxa ATM"
+
+#: classes.i18n:3
+#, kde-format
+msgid "Abstract (modem)"
+msgstr "Resum (mòdem)"
+
+#: classes.i18n:4
+#, kde-format
+msgid "Audio"
+msgstr "So"
+
+#: classes.i18n:5
+#, kde-format
+msgid "Bidirectional"
+msgstr "Bidireccional"
+
+#: classes.i18n:6
+#, kde-format
+msgid "Boot Interface Subclass"
+msgstr "Subclasse de la interfície d'arrencada"
+
+#: classes.i18n:7
+#, kde-format
+msgid "Bulk (Zip)"
+msgstr "Massa (Zip)"
+
+#: classes.i18n:8
+#, kde-format
+msgid "CAPI 2.0"
+msgstr "CAPI 2.0"
+
+#: classes.i18n:9
+#, kde-format
+msgid "CAPI Control"
+msgstr "Control CAPI"
+
+#: classes.i18n:10
+#, kde-format
+msgid "CDC PUF"
+msgstr "PUF CDC"
+
+#: classes.i18n:11
+#, kde-format
+msgid "Communications"
+msgstr "Comunicacions"
+
+#: classes.i18n:12
+#, kde-format
+msgid "Control Device"
+msgstr "Dispositiu de control"
+
+#: classes.i18n:13
+#, kde-format
+msgid "Control/Bulk"
+msgstr "Control/Massa"
+
+#: classes.i18n:14
+#, kde-format
+msgid "Control/Bulk/Interrupt"
+msgstr "Control/Massa/Interrupció"
+
+#: classes.i18n:15
+#, kde-format
+msgid "Data"
+msgstr "Dades"
+
+#: classes.i18n:16
+#, kde-format
+msgid "Direct Line"
+msgstr "Línia directa"
+
+#: classes.i18n:17
+#, kde-format
+msgid "Ethernet Networking"
+msgstr "Xarxa Ethernet"
+
+#: classes.i18n:18
+#, kde-format
+msgid "Floppy"
+msgstr "Disquetera"
+
+#: classes.i18n:19
+#, kde-format
+msgid "HDLC"
+msgstr "HDLC"
+
+#: classes.i18n:20
+#, kde-format
+msgid "Host Based Driver"
+msgstr "Controlador basat en la màquina"
+
+#: classes.i18n:21
+#, kde-format
+msgid "Hub"
+msgstr "Hub -concentrador-"
+
+#: classes.i18n:22
+#, kde-format
+msgid "Human Interface Devices"
+msgstr "Dispositius d'interfície humana"
+
+#: classes.i18n:23
+#, kde-format
+msgid "I.430 ISDN BRI"
+msgstr "BRI XDSI I.430"
+
+#: classes.i18n:24
+#, kde-format
+msgid "Interface"
+msgstr "Interfície"
+
+#: classes.i18n:25
+#, kde-format
+msgid "Keyboard"
+msgstr "Teclat"
+
+#: classes.i18n:26
+#, kde-format
+msgid "Mass Storage"
+msgstr "Emmagatzematge massiu"
+
+#: classes.i18n:27
+#, kde-format
+msgid "Mouse"
+msgstr "Ratolí"
+
+#: classes.i18n:28
+#, kde-format
+msgid "Multi-Channel"
+msgstr "Multicanal"
+
+#: classes.i18n:29
+#, kde-format
+msgid "No Subclass"
+msgstr "Sense subclasse"
+
+#: classes.i18n:30
+#, kde-format
+msgid "Non Streaming"
+msgstr "Sense flux de dades"
+
+#: classes.i18n:31
+#, kde-format
+msgid "None"
+msgstr "Cap"
+
+#: classes.i18n:32
+#, kde-format
+msgid "Printer"
+msgstr "Impressora"
+
+#: classes.i18n:33
+#, kde-format
+msgid "Q.921"
+msgstr "Q.921"
+
+#: classes.i18n:34
+#, kde-format
+msgid "Q.921M"
+msgstr "Q.921M"
+
+#: classes.i18n:35
+#, kde-format
+msgid "Q.921TM"
+msgstr "Q.921TM"
+
+#: classes.i18n:36
+#, kde-format
+msgid "Q.932 EuroISDN"
+msgstr "Q.932 EuroISDN"
+
+#: classes.i18n:37
+#, kde-format
+msgid "SCSI"
+msgstr "SCSI"
+
+#: classes.i18n:38
+#, kde-format
+msgid "Streaming"
+msgstr "Flux de dades"
+
+#: classes.i18n:39
+#, kde-format
+msgid "Telephone"
+msgstr "Telèfon"
+
+#: classes.i18n:40
+#, kde-format
+msgid "Transparent"
+msgstr "Transparent"
+
+#: classes.i18n:41
+#, kde-format
+msgid "Unidirectional"
+msgstr "Unidireccional"
+
+#: classes.i18n:42
+#, kde-format
+msgid "V.120 V.24 rate ISDN"
+msgstr "Velocitat XDSI V.120 V.24"
+
+#: classes.i18n:43
+#, kde-format
+msgid "V.42bis"
+msgstr "V.42bis"
+
+#: classes.i18n:44
+#, kde-format
+msgid "Vendor Specific"
+msgstr "Específic del venedor"
+
+#: classes.i18n:45
+#, kde-format
+msgid "Vendor Specific Class"
+msgstr "Classe específica del venedor"
+
+#: classes.i18n:46
+#, kde-format
+msgid "Vendor Specific Protocol"
+msgstr "Protocol específic del venedor"
+
+#: classes.i18n:47
+#, kde-format
+msgid "Vendor Specific Subclass"
+msgstr "Subclasse específica del venedor"
+
+#: classes.i18n:48
+#, kde-format
+msgid "Vendor specific"
+msgstr "Específic del venedor"
+
+#: kcmusb.cpp:35
+#, kde-format
+msgid "This module allows you to see the devices attached to your USB bus(es)."
+msgstr ""
+"Aquest mòdul vos permet veure els dispositius connectats al(s) bus(os) USB."
+
+#: kcmusb.cpp:49
+#, kde-format
+msgid "Device"
+msgstr "Dispositiu"
+
+#: kcmusb.cpp:69
+#, kde-format
+msgid "kcmusb"
+msgstr "kcmusb"
+
+#: kcmusb.cpp:69
+#, kde-format
+msgid "USB Devices"
+msgstr "Dispositius USB"
+
+#: kcmusb.cpp:71
+#, kde-format
+msgid "(c) 2001 Matthias Hoelzer-Kluepfel"
+msgstr "(c) 2001 Matthias Hoelzer-Kluepfel"
+
+#: kcmusb.cpp:73
+#, kde-format
+msgid "Matthias Hoelzer-Kluepfel"
+msgstr "Matthias Hoelzer-Kluepfel"
+
+#: kcmusb.cpp:74
+#, kde-format
+msgid "Leo Savernik"
+msgstr "Leo Savernik"
+
+#: kcmusb.cpp:74
+#, kde-format
+msgid "Live Monitoring of USB Bus"
+msgstr "Control instantani del bus USB"
+
+#: usbdevices.cpp:148
+#, kde-format
+msgid "Unknown"
+msgstr "Desconegut"
+
+#: usbdevices.cpp:157
+#, kde-format
+msgid "<b>Manufacturer:</b> "
+msgstr "<b>Fabricant:</b> "
+
+#: usbdevices.cpp:159
+#, kde-format
+msgid "<b>Serial #:</b> "
+msgstr "<b>Núm. de sèrie:</b> "
+
+#: usbdevices.cpp:167
+#, kde-format
+msgid "<tr><td><i>Class</i></td>%1</tr>"
+msgstr "<tr><td><i>Classe</i></td>%1</tr>"
+
+#: usbdevices.cpp:172
+#, kde-format
+msgid "<tr><td><i>Subclass</i></td>%1</tr>"
+msgstr "<tr><td><i>Subclasse</i></td>%1</tr>"
+
+#: usbdevices.cpp:177
+#, kde-format
+msgid "<tr><td><i>Protocol</i></td>%1</tr>"
+msgstr "<tr><td><i>Protocol</i></td>%1</tr>"
+
+#: usbdevices.cpp:179
+#, kde-format
+msgid "<tr><td><i>USB Version</i></td><td>%1.%2</td></tr>"
+msgstr "<tr><td><i>Versió USB</i></td><td>%1.%2</td></tr>"
+
+#: usbdevices.cpp:189
+#, kde-format
+msgid "<tr><td><i>Vendor ID</i></td><td>0x%1</td></tr>"
+msgstr "<tr><td><i>ID del venedor</i></td><td>0x%1</td></tr>"
+
+#: usbdevices.cpp:194
+#, kde-format
+msgid "<tr><td><i>Product ID</i></td><td>0x%1</td></tr>"
+msgstr "<tr><td><i>ID del producte</i></td><td>0x%1</td></tr>"
+
+#: usbdevices.cpp:195
+#, kde-format
+msgid "<tr><td><i>Revision</i></td><td>%1.%2</td></tr>"
+msgstr "<tr><td><i>Revisió</i></td><td>%1.%2</td></tr>"
+
+#: usbdevices.cpp:200
+#, kde-format
+msgid "<tr><td><i>Speed</i></td><td>%1 Mbit/s</td></tr>"
+msgstr "<tr><td><i>Velocitat</i></td><td>%1 Mbit/s</td></tr>"
+
+#: usbdevices.cpp:201
+#, kde-format
+msgid "<tr><td><i>Channels</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>Canals</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:204
+#, kde-format
+msgid "<tr><td><i>Power Consumption</i></td><td>%1 mA</td></tr>"
+msgstr "<tr><td><i>Consum de corrent</i></td><td>%1 mA</td></tr>"
+
+#: usbdevices.cpp:206
+#, kde-format
+msgid "<tr><td><i>Power Consumption</i></td><td>self powered</td></tr>"
+msgstr "<tr><td><i>Consum de corrent</i></td><td>auto alimentat</td></tr>"
+
+#: usbdevices.cpp:207
+#, kde-format
+msgid "<tr><td><i>Attached Devicenodes</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>Nodes de dispositius assignats</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:215
+#, kde-format
+msgid "<tr><td><i>Max. Packet Size</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>Mida màx. del paquet</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:220
+#, kde-format
+msgid "<tr><td><i>Bandwidth</i></td><td>%1 of %2 (%3%)</td></tr>"
+msgstr "<tr><td><i>Amplada de banda</i></td><td>%1 de %2 (%3%)</td></tr>"
+
+#: usbdevices.cpp:221
+#, kde-format
+msgid "<tr><td><i>Intr. requests</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>Peticions d'interrupció</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:222
+#, kde-format
+msgid "<tr><td><i>Isochr. requests</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>Peticions isocr.</i></td><td>%1</td></tr>"
+
+#: usbdevices.cpp:428
+#, kde-format
+msgid ""
+"Could not open one or more USB controller. Make sure, you have read access "
+"to all USB controllers that should be listed here."
+msgstr ""
+"No s'ha pogut obrir un o diversos controladors USB. Assegureu-vos de tindre "
+"accés de lectura a tots els controladors USB que s'haurien de llistar ací."

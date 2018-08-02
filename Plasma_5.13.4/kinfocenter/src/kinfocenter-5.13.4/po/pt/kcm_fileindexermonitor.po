@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_fileindexermonitor\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:20+0100\n"
+"PO-Revision-Date: 2015-09-23 10:22+0100\n"
+"Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
+"Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POFile-SpellExtra: Pinak Ahuja\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "José Nuno Pires"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zepires@gmail.com"
+
+#: kcm.cpp:44
+#, kde-format
+msgid "File Indexer Monitor"
+msgstr "Monitor de Indexação de Ficheiros"
+
+#: kcm.cpp:46
+#, kde-format
+msgid "Pinak Ahuja"
+msgstr "Pinak Ahuja"
+
+#: package/contents/ui/main.qml:47
+#, kde-format
+msgid "Indexer State: %1"
+msgstr "Estado da Indexação: %1"
+
+#: package/contents/ui/main.qml:61
+#, kde-format
+msgid "Indexing: %1 "
+msgstr "A indexar: %1 "
+
+#: package/contents/ui/main.qml:63
+#, kde-format
+msgid "Done"
+msgstr "Concluído"
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgid "Resume"
+msgstr "Continuar"
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgid "Suspend"
+msgstr "Suspender"
+
+#: package/contents/ui/main.qml:92
+#, kde-format
+msgid "Remaining Time: %1"
+msgstr "Tempo Restante: %1"
+
+#: package/contents/ui/main.qml:106
+#, kde-format
+msgid "File Indexer not running"
+msgstr "A Indexação de Ficheiros não está em execução"
+
+#: package/contents/ui/main.qml:112
+#, kde-format
+msgid "Start File Indexer"
+msgstr "Iniciar a Indexação de Ficheiros"

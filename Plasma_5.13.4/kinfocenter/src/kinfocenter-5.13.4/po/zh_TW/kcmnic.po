@@ -1,0 +1,158 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2010.
+# Franklin Weng <franklin@mail.everfocus.com.tw>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-23 03:11+0200\n"
+"PO-Revision-Date: 2010-11-23 08:37+0800\n"
+"Last-Translator: Franklin Weng <franklin@mail.everfocus.com.tw>\n"
+"Language-Team: Chinese Traditional <zh-l10n@linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Frank Weng (a.k.a. Franklin)"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "franklin@goodhorse.idv.tw"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Name"
+msgstr "名稱"
+
+#: nic.cpp:94
+#, kde-format
+msgid "IP Address"
+msgstr "IP 位址"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Network Mask"
+msgstr "網路遮罩"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Type"
+msgstr "類型"
+
+#: nic.cpp:94
+#, kde-format
+msgid "State"
+msgstr "狀態"
+
+#: nic.cpp:94
+#, kde-format
+msgid "HWAddr"
+msgstr "硬體位址"
+
+#: nic.cpp:98
+#, kde-format
+msgid "&Update"
+msgstr "更新(&U)"
+
+#: nic.cpp:106
+#, kde-format
+msgid "kcminfo"
+msgstr "kcminfo"
+
+#: nic.cpp:107
+#, kde-format
+msgid "System Information Control Module"
+msgstr "系統資訊控制模組"
+
+#: nic.cpp:109
+#, kde-format
+msgid "(c) 2001 - 2002 Alexander Neundorf"
+msgstr "(c) 2001 - 2002 Alexander Neundorf"
+
+#: nic.cpp:111
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"
+
+#: nic.cpp:147
+#, kde-format
+msgctxt "State of network card is connected"
+msgid "Up"
+msgstr "上"
+
+#: nic.cpp:148
+#, kde-format
+msgctxt "State of network card is disconnected"
+msgid "Down"
+msgstr "下"
+
+#: nic.cpp:191
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Broadcast"
+msgstr "廣播"
+
+#: nic.cpp:193
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Point to Point"
+msgstr "點對點"
+
+#: nic.cpp:196
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Multicast"
+msgstr "多點廣播"
+
+#: nic.cpp:199
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Loopback"
+msgstr "Loopback"
+
+#: nic.cpp:201
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Unknown"
+msgstr "未知"
+
+#: nic.cpp:211
+#, kde-format
+msgctxt "Unknown network mask"
+msgid "Unknown"
+msgstr "未知"
+
+#: nic.cpp:230
+#, kde-format
+msgctxt "Unknown HWaddr"
+msgid "Unknown"
+msgstr "未知"
+
+#: nic.cpp:287
+#, kde-format
+msgid "Point to Point"
+msgstr "點對點"
+
+#: nic.cpp:294
+#, kde-format
+msgid "Broadcast"
+msgstr "廣播"
+
+#: nic.cpp:301
+#, kde-format
+msgid "Multicast"
+msgstr "多點廣播"
+
+#: nic.cpp:308
+#, kde-format
+msgid "Loopback"
+msgstr "Loopback"

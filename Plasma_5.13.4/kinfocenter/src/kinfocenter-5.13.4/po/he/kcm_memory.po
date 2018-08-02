@@ -1,0 +1,220 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Diego Iastrubni <elcuco@kde.org>, 2008, 2009, 2012.
+# Elkana Bardugo <ttv200@gmail.com>, 2017. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_memory\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-09-16 03:33+0200\n"
+"PO-Revision-Date: 2017-05-16 06:52-0400\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Hebrew <kde-i18n-doc@kde.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Zanata 3.9.6\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "צוות התרגום של KDE ישראל"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-l10n-he@kde.org"
+
+#: chartWidget.cpp:56 chartWidget.cpp:57 memory.cpp:270
+#, kde-format
+msgid "Not available."
+msgstr "לא זמין."
+
+#: chartWidget.cpp:106
+#, kde-format
+msgid "%1 free"
+msgstr "%1 זמין"
+
+#: memory.cpp:64
+#, kde-format
+msgid "kcm_memory"
+msgstr "kcm_memory"
+
+#: memory.cpp:65
+#, kde-format
+msgid "KDE Panel Memory Information Control Module"
+msgstr "פנל מידע אודות הזכרון של מרכז הבקרה של KDE"
+
+#: memory.cpp:67
+#, kde-format
+msgid "(c) 1998 - 2002 Helge Deller"
+msgstr "(c) 1998 - 2002 Helge Deller"
+
+#: memory.cpp:69
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: memory.cpp:101
+#, kde-format
+msgid ""
+"This display shows you the current memory usage of your system. The values "
+"are updated on a regular basis and give you an overview of the physical and "
+"virtual memory being used."
+msgstr ""
+"תצוגה זו מראה את כמות הזכרון בשימוש במערכת שלך. הערכים הללו מתעדכנים באופן "
+"תדיר, ומראים לך תמונת מצב של הזכרון הפיזי והוירטואלי בשימוש."
+
+#: memory.cpp:107
+#, kde-format
+msgid "Memory"
+msgstr "זכרון"
+
+#: memory.cpp:125
+#, kde-format
+msgid "Total physical memory:"
+msgstr "סך הזיכרון הפיזי:"
+
+#: memory.cpp:128
+#, kde-format
+msgid "Free physical memory:"
+msgstr "זיכרון פיזי זמין:"
+
+#: memory.cpp:133
+#, kde-format
+msgid "Shared memory:"
+msgstr "זכרון משותף:"
+
+#: memory.cpp:136
+#, kde-format
+msgid "Disk buffers:"
+msgstr "חוצצי דיסק:"
+
+#: memory.cpp:140
+#, kde-format
+msgid "Active memory:"
+msgstr "זכרון פעיל:"
+
+#: memory.cpp:143
+#, kde-format
+msgid "Inactive memory:"
+msgstr "זכרון לא פעיל:"
+
+#: memory.cpp:148
+#, kde-format
+msgid "Disk cache:"
+msgstr "מטמון הדיסק:"
+
+#: memory.cpp:152
+#, kde-format
+msgid "Total swap memory:"
+msgstr "סך זכרון ההחלפה:"
+
+#: memory.cpp:155
+#, kde-format
+msgid "Free swap memory:"
+msgstr "זכרון החפלה זמין:"
+
+#: memory.cpp:196
+#, kde-format
+msgid "Charts"
+msgstr "גרפים"
+
+#: memory.cpp:206
+#, kde-format
+msgid "Total Memory"
+msgstr "סך הזכרון"
+
+#: memory.cpp:207
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>total sum of physical and virtual "
+"memory</b> in your system."
+msgstr ""
+"גרף זה נותן לך תצוגת מצב של <b>סך הזכרון הפיזי והוירטואלי</b> במערכת שלך."
+
+#: memory.cpp:216
+#, kde-format
+msgid "Physical Memory"
+msgstr "זכרון פיזי"
+
+#: memory.cpp:217
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>usage of physical memory</b> in "
+"your system.<p>Most operating systems (including Linux) will use as much of "
+"the available physical memory as possible as disk cache, to speed up the "
+"system performance.</p><p>This means that if you have a small amount of "
+"<b>Free Physical Memory</b> and a large amount of <b>Disk Cache Memory</b>, "
+"your system is well configured.</p>"
+msgstr ""
+"הגרף הזה מספק לך תצוגה רחבה אודות <b>השימוש בזכרון פיזי</b> במערכת שלך. <p> "
+"רב מערכות ההפעלה (כולל Linux) ישתמשו ברב הזכרון הפיזי הזמין למטרת מטמון של "
+"דיסק, להאצת ביצועי המערכת. </p><p> זה אומר שאם יש לך כמות קטנה של <b>זכרון "
+"פיזי זמין</b> וכמות גדולה של <b>זכרון מטמון של דיסק</b> המערכת שלך מוגדרת "
+"כהלכה. </p>"
+
+#: memory.cpp:232
+#, kde-format
+msgid "Swap Space"
+msgstr "זכרון החלפה"
+
+#: memory.cpp:233
+#, kde-format
+msgid ""
+"<p>The swap space is the <b>virtual memory</b> available to the system.</p> "
+"<p>It will be used on demand and is provided through one or more swap "
+"partitions and/or swap files.</p>"
+msgstr ""
+"<p> זכרון ההחלפה הוא ה<b>זכרון הוירטואלי</b> הזמין למערכת. </p> <p> הזכרון "
+"בשימוש לפי דרישה ומסופק על ידי מחיצות swap או קבצי swap.</p> "
+
+#: memory.cpp:264
+#, kde-format
+msgid "1 byte ="
+msgid_plural "%1 bytes ="
+msgstr[0] "בית אחד = "
+msgstr[1] "%1 בתים = "
+
+#: physicalMemoryChart.cpp:50
+#, kde-format
+msgid "Free Physical Memory"
+msgstr "זכרון פיזי זמין"
+
+#: physicalMemoryChart.cpp:52
+#, kde-format
+msgid "Disk Cache"
+msgstr "מטמון של דיסק"
+
+#: physicalMemoryChart.cpp:54
+#, kde-format
+msgid "Disk Buffers"
+msgstr "חוצצים של דיסק"
+
+#: physicalMemoryChart.cpp:56
+#, kde-format
+msgid "Application Data"
+msgstr "מידע אודות היישום"
+
+#: swapMemoryChart.cpp:47
+#, kde-format
+msgid "Free Swap"
+msgstr "זכרון החלפה זמין"
+
+#: swapMemoryChart.cpp:49 totalMemoryChart.cpp:43
+#, kde-format
+msgid "Used Swap"
+msgstr "זכרון החפלה בשימוש"
+
+#: totalMemoryChart.cpp:41
+#, kde-format
+msgid "Total Free Memory"
+msgstr "סך הזכרון הזמין"
+
+#: totalMemoryChart.cpp:45
+#, kde-format
+msgid "Used Physical Memory"
+msgstr "זכרון פיזי בשימוש"

@@ -1,0 +1,427 @@
+# translation of kcmsamba.po to Icelandic
+# Copyright (C) 1998-2000, 2004, 2005, 2008, 2011 Free Software Foundation, Inc.
+#
+# Logi Ragnarsson <logir@logi.org>, 1998-2000.
+# Svanur Palsson <svanur@tern.is>, 2004.
+# Arnar Leósson <leosson@frisurf.no>, 2005.
+# Sveinn í Felli <sveinki@nett.is>, 2008, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmsamba\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-03-31 02:49+0200\n"
+"PO-Revision-Date: 2011-05-30 22:55+0000\n"
+"Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
+"Language-Team: Icelandic <kde-isl@molar.is>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"\n"
+"\n"
+"\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Svanur Pálsson"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "svanurpalsson@hotmail.com"
+
+#: kcmsambaimports.cpp:39 ksmbstatus.cpp:49
+#, kde-format
+msgid "Type"
+msgstr "Tegund"
+
+#: kcmsambaimports.cpp:39
+#, kde-format
+msgid "Resource"
+msgstr "Gæði"
+
+#: kcmsambaimports.cpp:39
+#, kde-format
+msgid "Mounted Under"
+msgstr "Tengt undir"
+
+#: kcmsambaimports.cpp:41
+#, kde-format
+msgid ""
+"This list shows the Samba and NFS shared resources mounted on your system "
+"from other hosts. The \"Type\" column tells you whether the mounted resource "
+"is a Samba or an NFS type of resource. The \"Resource\" column shows the "
+"descriptive name of the shared resource. Finally, the third column, which is "
+"labeled \"Mounted under\" shows the location on your system where the shared "
+"resource is mounted."
+msgstr ""
+"Þessi listi sýnir samnýtt Samba og NFS tæki annarsstaðar frá sem eru tengd "
+"kerfinu þínu. \"Tegund\" dálkurinn segir hvort tækið er tengt með Samba eða "
+"NFS. Næsti dálkur sýnir nafn tækisins. Loks sýnir þriðju dálkurinn hvar "
+"tækið er tengt við kerfið þitt."
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Samba log file: "
+msgstr "Samba annálar: "
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Show opened connections"
+msgstr "Sýna opnaðar tengingar"
+
+#: kcmsambalog.cpp:40
+#, kde-format
+msgid "Show closed connections"
+msgstr "Sýna lokaðar tengingar"
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "Show opened files"
+msgstr "Sýna opnaðar skrár"
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "Show closed files"
+msgstr "Sýna lokaðar skrár"
+
+#: kcmsambalog.cpp:41
+#, kde-format
+msgid "&Update"
+msgstr "&Uppfæra"
+
+#: kcmsambalog.cpp:58
+#, kde-format
+msgid ""
+"This page presents the contents of your samba log file in a friendly layout. "
+"Check that the correct log file for your computer is listed here. If you "
+"need to, correct the name or location of the log file, and then click the "
+"\"Update\" button."
+msgstr ""
+"Þessi síða sýnir innihald samba annála á læsilegan hátt. Athugaðu hvort rétt "
+"annálaskrá er gefinn upp fyrir tölvuna þína. Ef þörf er á, leiðréttu nafn og "
+"staðsetningu annálsins og smelltu svo áhnappin merktan \"Uppfæra\""
+
+#: kcmsambalog.cpp:63
+#, kde-format
+msgid ""
+"Check this option if you want to view the details for connections opened to "
+"your computer."
+msgstr ""
+"Merktu við þennan valkost ef þú vilt sjá smáatriði vegna tenginga við þína "
+"tölvu."
+
+#: kcmsambalog.cpp:66
+#, kde-format
+msgid ""
+"Check this option if you want to view the events when connections to your "
+"computer were closed."
+msgstr ""
+"Merktu við þennan valkost ef þú vilt sjá hvað gerist þegar tengingum við "
+"þína tölvu er lokað."
+
+#: kcmsambalog.cpp:69
+#, kde-format
+msgid ""
+"Check this option if you want to see the files which were opened on your "
+"computer by remote users. Note that file open/close events are not logged "
+"unless the samba log level is set to at least 2 (you cannot set the log "
+"level using this module)."
+msgstr ""
+"Hakaðu við hér ef þú vilt sjá hvaða skrár voru opnaðar á þinni tölvu "
+"annarsstaðar frá.  Athugaðu að skráaropnun/lokun er ekki skráð nema "
+"annálaritun sé stillt á 2. stig eða meira (þúgeturð ekki stillt stig "
+"annálaritunnar með þessari einingu)."
+
+#: kcmsambalog.cpp:75
+#, kde-format
+msgid ""
+"Check this option if you want to see the events when files opened by remote "
+"users were closed. Note that file open/close events are not logged unless "
+"the samba log level is set to at least 2 (you cannot set the log level using "
+"this module)."
+msgstr ""
+"Merktu við þennan valkost ef þú vilt sjá atburði yfir það þegar skrámopnuðum "
+"annarsstaðar frá er lokað.  Athugaðu að skráaropnun/lokun er ekki skráð nema "
+"annálaritun sé stillt á 2. stig eða meira (þú geturð ekki stillt stig "
+"annálaritunnar með þessari einingu)."
+
+#: kcmsambalog.cpp:81
+#, kde-format
+msgid ""
+"Click here to refresh the information on this page. The log file (shown "
+"above) will be read to obtain the events logged by samba."
+msgstr ""
+"Smelltu hér til að uppfæra upplýsingar á þessari síðu. Annálaskráin (sýnd "
+"fyrir ofan) verður lesin til að fá upplýsingar skráðar af Samba. "
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:90
+#, kde-format
+msgid "Date & Time"
+msgstr "Dagur og tími"
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:90 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Event"
+msgstr "Atburður"
+
+#: kcmsambalog.cpp:89 kcmsambalog.cpp:91 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Service/File"
+msgstr "Þjónusta/Skrá"
+
+#: kcmsambalog.cpp:90 kcmsambalog.cpp:91 kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Host/User"
+msgstr "Vél/Notandi"
+
+#: kcmsambalog.cpp:94
+#, kde-format
+msgid ""
+"<p>This list shows details of the events logged by samba. Note that events "
+"at the file level are not logged unless you have configured the log level "
+"for samba to 2 or greater.</p><p> As with many other lists in KDE, you can "
+"click on a column heading to sort on that column. Click again to change the "
+"sorting direction from ascending to descending or vice versa.</p><p> If the "
+"list is empty, try clicking the \"Update\" button. The samba log file will "
+"be read and the list refreshed.</p>"
+msgstr ""
+"<p>Þessi listi sýnir í smátriðum þá atburði sem skráðir eru af samba. "
+"Athugið að tilvik varðandi einstakar skrár eru ekki skráðar nema annálaritun "
+"sé stillt á 2. stig eða meira. </p><p>Eins og með marga aðra lista í KDE er "
+"hægt að raða þessum eftir dálkum með því að smella á viðkomandi dálk. "
+"Smelltu aftur til að raða eftir minnkandi röðun og öfugt. </p><p> Ef listinn "
+"er tómur reyndu að smella á \"Uppfæra\" hnappinn. Samba annálaskráin verður "
+"þá lesin aftur og listinn uppfærist</p>"
+
+#: kcmsambalog.cpp:205 kcmsambastatistics.cpp:149 kcmsambastatistics.cpp:214
+#, kde-format
+msgid "CONNECTION OPENED"
+msgstr "TENGINGU KOMIÐ Á"
+
+#: kcmsambalog.cpp:209
+#, kde-format
+msgid "CONNECTION CLOSED"
+msgstr "TENGING ROFIN"
+
+#: kcmsambalog.cpp:214
+#, kde-format
+msgid "            FILE OPENED"
+msgstr "            SKRÁ OPNUÐ"
+
+#: kcmsambalog.cpp:220
+#, kde-format
+msgid "            FILE CLOSED"
+msgstr "            SKRÁ LOKUÐ"
+
+#: kcmsambalog.cpp:228
+#, kde-format
+msgid "Could not open file %1"
+msgstr "Gat ekki opnað skrá %1"
+
+#: kcmsambastatistics.cpp:43
+#, kde-format
+msgid "Connections: 0"
+msgstr "Tengingar: 0"
+
+#: kcmsambastatistics.cpp:45
+#, kde-format
+msgid "File accesses: 0"
+msgstr "Notanir á skrám: 0"
+
+#: kcmsambastatistics.cpp:48
+#, kde-format
+msgid "Event: "
+msgstr "Atburður: "
+
+#: kcmsambastatistics.cpp:52
+#, kde-format
+msgid "Service/File:"
+msgstr "Þjónusta/Skrá:"
+
+#: kcmsambastatistics.cpp:56
+#, kde-format
+msgid "Host/User:"
+msgstr "Vél/Notandi:"
+
+#: kcmsambastatistics.cpp:59
+#, kde-format
+msgid "&Search"
+msgstr "&Leita"
+
+#: kcmsambastatistics.cpp:60
+#, kde-format
+msgid "Clear Results"
+msgstr "Tæma niðurstöðuglugga"
+
+#: kcmsambastatistics.cpp:61
+#, kde-format
+msgid "Show expanded service info"
+msgstr "Sýna miklar upplýsingar um þjónustur"
+
+#: kcmsambastatistics.cpp:62
+#, kde-format
+msgid "Show expanded host info"
+msgstr "Sýna miklar upplýsingar um vélar"
+
+#: kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Nr"
+msgstr "Nr"
+
+#: kcmsambastatistics.cpp:68
+#, kde-format
+msgid "Hits"
+msgstr "Notkun"
+
+#: kcmsambastatistics.cpp:72 kcmsambastatistics.cpp:137
+#, kde-format
+msgid "Connection"
+msgstr "Tenging"
+
+#: kcmsambastatistics.cpp:73
+#, kde-format
+msgid "File Access"
+msgstr "Skráarnotkun"
+
+#: kcmsambastatistics.cpp:127
+#, kde-format
+msgid "Connections: %1"
+msgstr "Tengingar: %1"
+
+#: kcmsambastatistics.cpp:128
+#, kde-format
+msgid "File accesses: %1"
+msgstr "Skráarnotkunir: %1"
+
+#: kcmsambastatistics.cpp:162 kcmsambastatistics.cpp:217
+#, kde-format
+msgid "FILE OPENED"
+msgstr "SKRÁ OPNUÐ"
+
+#: ksmbstatus.cpp:49
+#, kde-format
+msgid "Service"
+msgstr "Þjónusta"
+
+#: ksmbstatus.cpp:49
+#, kde-format
+msgid "Accessed From"
+msgstr "Sótt frá"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "UID"
+msgstr "UID"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "GID"
+msgstr "GID"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "PID"
+msgstr "PID"
+
+#: ksmbstatus.cpp:50
+#, kde-format
+msgid "Open Files"
+msgstr "Opnar skrár"
+
+#: ksmbstatus.cpp:169
+#, fuzzy, kde-format
+#| msgid "Error: Unable to run smbstatus"
+msgid "Error run smbstatus: %1"
+msgstr "Villa: Ekki tókst að ræsa smbstatus"
+
+#: ksmbstatus.cpp:172
+#, kde-format
+msgid "Error: Unable to open configuration file \"smb.conf\""
+msgstr "Villa: Ekki tókst að opna stilliskrána \"smb.conf\""
+
+#: main.cpp:58
+#, kde-format
+msgid "&Exports"
+msgstr "Flutt ú&t"
+
+#: main.cpp:59
+#, kde-format
+msgid "&Imports"
+msgstr "Flutt &inn"
+
+#: main.cpp:60
+#, kde-format
+msgid "&Log"
+msgstr "&Annálar"
+
+#: main.cpp:61
+#, kde-format
+msgid "&Statistics"
+msgstr "&Tölfræði"
+
+#: main.cpp:65
+#, kde-format
+msgid ""
+"<p>The Samba and NFS Status Monitor is a front end to the programs "
+"<em>smbstatus</em> and <em>showmount</em>. Smbstatus reports on current "
+"Samba connections, and is part of the suite of Samba tools, which implements "
+"the SMB (Session Message Block) protocol, also called the NetBIOS or "
+"LanManager protocol. This protocol can be used to provide printer sharing or "
+"drive sharing services on a network including machines running the various "
+"flavors of Microsoft Windows.</p>"
+msgstr ""
+"<p>Samba og NFS stöðusjáin eru viðmót forritanna <em>smbstatus</em> og "
+"<em>showmount</em>. Smbstatus sýnir virkar Samba tengingar, og er hluti "
+"forritavönduls af Samba verkfærum, sem nýta sér SMB (Session Message Block) "
+"samskiptamátann, einnig kallað NetBIOS eða LanManager samskipti. Þessi "
+"samskiptamáti getur samnýtt prentara eða diskapláss á neti, þar meðtalið "
+"vélum sem keyra ýmsar útgáfur af Microsoft Windows.</p>"
+
+#: main.cpp:73
+#, kde-format
+msgid "kcmsamba"
+msgstr "kcmsamba"
+
+#: main.cpp:74
+#, kde-format
+msgid "System Information Control Module"
+msgstr "Stjórneining kerfisupplýsinga"
+
+#: main.cpp:76
+#, kde-format
+msgid "(c) 2002 KDE Information Control Module Samba Team"
+msgstr "(c) 2002 KDE Samba teymið fyrir upplýsingastjórneiningu"
+
+#: main.cpp:77
+#, kde-format
+msgid "Michael Glauche"
+msgstr "Michael Glauche"
+
+#: main.cpp:78
+#, kde-format
+msgid "Matthias Hoelzer"
+msgstr "Matthias Hoelzer"
+
+#: main.cpp:79
+#, kde-format
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:80
+#, kde-format
+msgid "Harald Koschinski"
+msgstr "Harald Koschinski"
+
+#: main.cpp:81
+#, kde-format
+msgid "Wilco Greven"
+msgstr "Wilco Greven"
+
+#: main.cpp:82
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"

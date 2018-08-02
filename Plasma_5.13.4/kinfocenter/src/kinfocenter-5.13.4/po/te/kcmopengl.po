@@ -1,0 +1,424 @@
+# translation of kcmopengl.po to Telugu
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmopengl\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-05-07 03:40+0200\n"
+"PO-Revision-Date: 2009-01-16 22:16+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "కృష్ణబాబు కె , విజయ్ కిరణ్ కముజు"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "k.meetme@gmail.com,infyquest@gmail.com"
+
+#: opengl.cpp:92
+#, kde-format
+msgid "kcmopengl"
+msgstr "kcmopengl"
+
+#: opengl.cpp:93
+#, kde-format
+msgid "KCM OpenGL Information"
+msgstr "KCM OpenGL సమాచారము"
+
+#: opengl.cpp:95
+#, kde-format
+msgid ""
+"(c) 2008 Ivo Anjo\n"
+"(c) 2004 Ilya Korniyko\n"
+"(c) 1999-2002 Brian Paul"
+msgstr ""
+"(c) 2008 ఇవో అన్జో\n"
+"(c) 2004 ఇల్యా కోర్ణికో\n"
+"(c) 1999-2002 బ్రియాన్ పాల్"
+
+#: opengl.cpp:97
+#, kde-format
+msgid "Ivo Anjo"
+msgstr "ఇవో అన్జో"
+
+#: opengl.cpp:98
+#, kde-format
+msgid "Ilya Korniyko"
+msgstr "ఇలియా కోర్ణకో"
+
+#: opengl.cpp:99
+#, kde-format
+msgid "Helge Deller"
+msgstr "హెల్గె డెల్లర్"
+
+#: opengl.cpp:99
+#, kde-format
+msgid "Original Maintainer"
+msgstr "వాస్తవ నిర్వాహకుడు"
+
+#: opengl.cpp:100
+#, kde-format
+msgid "Brian Paul"
+msgstr "బ్రియాన్ పాల్"
+
+#: opengl.cpp:100
+#, kde-format
+msgid "Author of glxinfo Mesa demos (http://www.mesa3d.org)"
+msgstr "glxinfo Mesa demos మూలకర్త (http://www.mesa3d.org)"
+
+#: opengl.cpp:397
+#, kde-format
+msgid "Max. number of light sources"
+msgstr "లైట్ మూలాల గరిష్ట సంఖ్య"
+
+#: opengl.cpp:398
+#, kde-format
+msgid "Max. number of clipping planes"
+msgstr "క్లిప్పింగ్ ప్లేన్స్ యొక్క గరిష్ట సంఖ్య"
+
+#: opengl.cpp:399
+#, kde-format
+msgid "Max. pixel map table size"
+msgstr "గరిష్ట పిగ్జల్ మాప్ పట్టిక పరిమాణము"
+
+#: opengl.cpp:400
+#, kde-format
+msgid "Max. display list nesting level"
+msgstr "గరిష్ట. ప్రదర్శన జాబితా నెస్టింగ్ లెవల్"
+
+#: opengl.cpp:401
+#, kde-format
+msgid "Max. evaluator order"
+msgstr "గరిష్ట ఎవాల్యుయేటర్ ఆర్డర్"
+
+#: opengl.cpp:402
+#, kde-format
+msgid "Max. recommended vertex count"
+msgstr "గరిష్టంగా సిఫార్సుచేసిన వెర్టెక్స్ లెక్క"
+
+#: opengl.cpp:403
+#, kde-format
+msgid "Max. recommended index count"
+msgstr "గరిష్టంగా సిఫార్సు చేసిన విషయసూచిక లెక్క"
+
+#: opengl.cpp:405
+#, kde-format
+msgid "Occlusion query counter bits"
+msgstr "అక్లూజన్ క్వరీ కౌంటర్ బిట్స్"
+
+#: opengl.cpp:408
+#, kde-format
+msgid "Max. vertex blend matrices"
+msgstr "గరిష్ట వెర్టెక్స్ బ్లెండ్ మాట్రిసెస్"
+
+#: opengl.cpp:411
+#, kde-format
+msgid "Max. vertex blend matrix palette size"
+msgstr "గరిష్ట వెర్టెక్స్ బ్లెండ్ మాట్రిక్స్ పాలెట్ పరిమాణము"
+
+#: opengl.cpp:417
+#, kde-format
+msgid "Max. texture size"
+msgstr "గరిష్ట టెక్స్‌చర్ పరిమాణము"
+
+#: opengl.cpp:418
+#, kde-format
+msgid "No. of texture units"
+msgstr "టెక్స్‌చర్ యానిట్ల సంఖ్య"
+
+#: opengl.cpp:419
+#, kde-format
+msgid "Max. 3D texture size"
+msgstr "గరిష్ట 3D టెక్స్‌చర్ పరిమాణము"
+
+#: opengl.cpp:420
+#, kde-format
+msgid "Max. cube map texture size"
+msgstr "గరిష్ట క్యూబ్ మాప్ టెక్స్‌చర్ పరిమాణము"
+
+#: opengl.cpp:422
+#, kde-format
+msgid "Max. rectangular texture size"
+msgstr "గరిష్ట రెగ్యులర్ టెక్స్‌చర్ పరిమాణము"
+
+#: opengl.cpp:424
+#, kde-format
+msgid "Max. texture LOD bias"
+msgstr "గరిష్ట టెక్స్‌చర్ LOD బైస్"
+
+#: opengl.cpp:425
+#, kde-format
+msgid "Max. anisotropy filtering level"
+msgstr "గరిష్ట ఎనిసోట్రొపి ఫిల్టరింగ్ స్థాయి"
+
+#: opengl.cpp:426
+#, kde-format
+msgid "No. of compressed texture formats"
+msgstr "కంప్రెస్ చేసిన టెక్స్‌చర్ ఫార్మాట్ల సంఖ్య"
+
+#: opengl.cpp:524
+#, kde-format
+msgid "Max. viewport dimensions"
+msgstr "గరిష్ట వ్యూపోర్టు కొలతలు"
+
+#: opengl.cpp:525
+#, kde-format
+msgid "Subpixel bits"
+msgstr "వుపపిగ్జెల్ బిట్స్"
+
+#: opengl.cpp:526
+#, kde-format
+msgid "Aux. buffers"
+msgstr "ఆక్స్ బఫర్స్"
+
+#: opengl.cpp:532
+#, kde-format
+msgid "Frame buffer properties"
+msgstr "ఫ్రెమ్ బఫర్ గుణములు"
+
+#: opengl.cpp:533
+#, kde-format
+msgid "Texturing"
+msgstr "టెక్స్చరింగ్"
+
+#: opengl.cpp:534
+#, kde-format
+msgid "Various limits"
+msgstr "వివిద పరిమితులు"
+
+#: opengl.cpp:535
+#, kde-format
+msgid "Points and lines"
+msgstr "బిందువులు మరియు గీతలు"
+
+#: opengl.cpp:536
+#, kde-format
+msgid "Stack depth limits"
+msgstr "స్టాక్ డెప్తు పరిమితులు"
+
+#: opengl.cpp:610 opengl.cpp:617
+#, kde-format
+msgid "3D Accelerator"
+msgstr "3D త్వరుణి"
+
+#: opengl.cpp:612 opengl.cpp:629
+#, kde-format
+msgid "Vendor"
+msgstr "అమ్మకందారి (వెండార్)"
+
+#: opengl.cpp:613
+#, kde-format
+msgid "Device"
+msgstr "పరికరం"
+
+#: opengl.cpp:614
+#, kde-format
+msgid "Subvendor"
+msgstr "ఉప అమ్మకందారి(సబ్‌వెండార్)"
+
+#: opengl.cpp:615
+#, kde-format
+msgid "Revision"
+msgstr "రివిజన్"
+
+#: opengl.cpp:617 opengl.cpp:638
+#, kde-format
+msgid "unknown"
+msgstr "తెలియని"
+
+#: opengl.cpp:622 opengl.cpp:624
+#, kde-format
+msgid "Driver"
+msgstr "డ్రైవర్"
+
+#: opengl.cpp:630
+#, kde-format
+msgid "Renderer"
+msgstr "రెండరర్"
+
+#: opengl.cpp:632
+#, fuzzy, kde-format
+#| msgid "OpenGL version"
+msgid "OpenGL ES version"
+msgstr "OpenGL వర్షన్"
+
+#: opengl.cpp:634
+#, fuzzy, kde-format
+#| msgid "OpenGL version"
+msgid "OpenGL version"
+msgstr "OpenGL వర్షన్"
+
+#: opengl.cpp:639
+#, kde-format
+msgid "Kernel module"
+msgstr "కెర్నల్ మాడ్యూల్"
+
+#: opengl.cpp:643
+#, fuzzy, kde-format
+#| msgid "OpenGL extensions"
+msgid "OpenGL ES extensions"
+msgstr "OpenGL పొడిగింపులు"
+
+#: opengl.cpp:645
+#, fuzzy, kde-format
+#| msgid "OpenGL extensions"
+msgid "OpenGL extensions"
+msgstr "OpenGL పొడిగింపులు"
+
+#: opengl.cpp:651
+#, kde-format
+msgid "Implementation specific"
+msgstr "పురోభివృద్ది ప్రత్యేకమైన"
+
+#: opengl.cpp:664
+#, kde-format
+msgid "GLX"
+msgstr "GLX"
+
+#: opengl.cpp:665
+#, kde-format
+msgid "server GLX vendor"
+msgstr "సెర్వర్ GLX అమ్మకందారి"
+
+#: opengl.cpp:666
+#, kde-format
+msgid "server GLX version"
+msgstr "సెర్వర్ GLX వర్షన్"
+
+#: opengl.cpp:667
+#, kde-format
+msgid "server GLX extensions"
+msgstr "సెర్వర్ GLX పొడిగింపులు"
+
+#: opengl.cpp:670
+#, kde-format
+msgid "client GLX vendor"
+msgstr "క్లైంట్ GLX అమ్మకందారి"
+
+#: opengl.cpp:671
+#, kde-format
+msgid "client GLX version"
+msgstr "క్లైంట్ GLX వర్షన్"
+
+#: opengl.cpp:672
+#, kde-format
+msgid "client GLX extensions"
+msgstr "క్లైంట్ GLX పొడిగింపులు"
+
+#: opengl.cpp:674
+#, kde-format
+msgid "GLX extensions"
+msgstr "GLX పొడిగింపులు"
+
+#: opengl.cpp:677
+#, kde-format
+msgid "GLU"
+msgstr "GLU"
+
+#: opengl.cpp:678
+#, kde-format
+msgid "GLU version"
+msgstr "GLU వర్షన్"
+
+#: opengl.cpp:679
+#, kde-format
+msgid "GLU extensions"
+msgstr "GLU పొడిగింపులు"
+
+#: opengl.cpp:690
+#, fuzzy, kde-format
+#| msgid "GLX"
+msgid "EGL"
+msgstr "GLX"
+
+#: opengl.cpp:691
+#, fuzzy, kde-format
+#| msgid "Vendor"
+msgid "EGL Vendor"
+msgstr "అమ్మకందారి (వెండార్)"
+
+#: opengl.cpp:692
+#, fuzzy, kde-format
+#| msgid "GLU version"
+msgid "EGL Version"
+msgstr "GLU వర్షన్"
+
+#: opengl.cpp:693
+#, fuzzy, kde-format
+#| msgid "GLX extensions"
+msgid "EGL Extensions"
+msgstr "GLX పొడిగింపులు"
+
+#: opengl.cpp:770
+#, fuzzy, kde-format
+#| msgid "Direct Rendering"
+msgid "Direct Rendering (GLX)"
+msgstr "డైరెక్టు రెండరింగు"
+
+#: opengl.cpp:770
+#, fuzzy, kde-format
+#| msgid "Indirect Rendering"
+msgid "Indirect Rendering (GLX)"
+msgstr "ఇన్‌డైరెక్టు రెండరింగు"
+
+#: opengl.cpp:887
+#, fuzzy, kde-format
+#| msgid "Direct Rendering"
+msgid "Direct Rendering (EGL)"
+msgstr "డైరెక్టు రెండరింగు"
+
+#: opengl.cpp:950
+#, kde-format
+msgid "Information"
+msgstr "సమాచారం"
+
+#: opengl.cpp:951
+#, kde-format
+msgid "Value"
+msgstr "విలువ"
+
+#: opengl.cpp:968 opengl.cpp:1006
+#, kde-format
+msgid "Name of the Display"
+msgstr "ప్రదర్శన యొక్క పేరు"
+
+#: opengl.cpp:999
+#, fuzzy, kde-format
+#| msgid "Could not initialize OpenGL"
+msgid "Could not initialize OpenGL/GLX"
+msgstr "OpenGLను సిద్దము చేయలేక పోయింది"
+
+#: opengl.cpp:1011
+#, kde-format
+msgid "OpenGL"
+msgstr ""
+
+#: opengl.cpp:1014
+#, kde-format
+msgid "Core Profile"
+msgstr ""
+
+#: opengl.cpp:1017
+#, kde-format
+msgid "Compatibility Profile"
+msgstr ""
+
+#: opengl.cpp:1027
+#, fuzzy, kde-format
+#| msgid "Could not initialize OpenGL"
+msgid "Could not initialize OpenGL (ES)/EGL "
+msgstr "OpenGLను సిద్దము చేయలేక పోయింది"

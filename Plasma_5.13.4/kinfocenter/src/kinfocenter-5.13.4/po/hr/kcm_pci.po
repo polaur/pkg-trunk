@@ -1,0 +1,2018 @@
+# Translation of kcm_pci to Croatian
+#
+# Andrej Dundovic <adundovi@gmail.com>, 2009, 2010.
+# DoDo <DoDoEntertainment@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_pci\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:20+0100\n"
+"PO-Revision-Date: 2010-01-06 01:58+0100\n"
+"Last-Translator: Andrej Dundovic <adundovi@gmail.com>\n"
+"Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Žarko Pintar, Andrej Dundović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zarko.pintar@gmail.com, adundovi@gmail.com"
+
+#: kcm_pci.cpp:42
+#, kde-format
+msgid "kcm_pci"
+msgstr "kcm_pci"
+
+#: kcm_pci.cpp:43
+#, fuzzy, kde-format
+#| msgid "Device"
+msgid "PCI Devices"
+msgstr "Uređaj"
+
+#: kcm_pci.cpp:45
+#, kde-format
+msgid "(c) 2008 Nicolas Ternisien(c) 1998 - 2002 Helge Deller"
+msgstr "© 2008 Nicolas Ternisien (c) 1998 – 2002 Helge Deller"
+
+#: kcm_pci.cpp:48
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
+
+#: kcm_pci.cpp:49
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: kcm_pci.cpp:62
+#, kde-format
+msgid "This list displays PCI information."
+msgstr "Ovo lista prikazuje PCI informacije."
+
+#: kcm_pci.cpp:82
+#, kde-format
+msgid ""
+"This display shows information about your computer's PCI slots and the "
+"related connected devices."
+msgstr ""
+"Ovaj ekran pokazuje informacije o PCI utorima vašeg računala i vezanim "
+"priključenim uređajima."
+
+#: kpci.cpp:64
+#, kde-format
+msgid "Device Class"
+msgstr "Klasa uređaja"
+
+#: kpci.cpp:65
+#, kde-format
+msgid "Device Subclass"
+msgstr "Podklasa uređaja"
+
+#: kpci.cpp:66
+#, kde-format
+msgid "Device Programming Interface"
+msgstr "Sučelje za programiranje uređaja"
+
+#: kpci.cpp:68
+#, kde-format
+msgid "Master IDE Device"
+msgstr "Master IDE uređaj"
+
+#: kpci.cpp:69
+#, kde-format
+msgid "Secondary programmable indicator"
+msgstr "Sekundarni programabilan indikator"
+
+#: kpci.cpp:70
+#, kde-format
+msgid "Secondary operating mode"
+msgstr "Sekunardni operativni način"
+
+#: kpci.cpp:71
+#, kde-format
+msgid "Primary programmable indicator"
+msgstr "Primarni programabilan indikator"
+
+#: kpci.cpp:72
+#, kde-format
+msgid "Primary operating mode"
+msgstr "Primarni operativni način"
+
+#: kpci.cpp:100 kpci.cpp:124
+#, kde-format
+msgid "Vendor"
+msgstr "Proizvođač"
+
+#: kpci.cpp:107 kpci.cpp:126
+#, kde-format
+msgid "Device"
+msgstr "Uređaj"
+
+#: kpci.cpp:116 kpci.cpp:135 kpci.cpp:138 kpci.cpp:142
+#, kde-format
+msgid "Subsystem"
+msgstr "Podsustav"
+
+#: kpci.cpp:135
+#, kde-format
+msgid " - device:"
+msgstr "- uređaj:"
+
+#: kpci.cpp:153 kpci.cpp:174
+#, kde-format
+msgid "Interrupt"
+msgstr "Prekid"
+
+#: kpci.cpp:154
+#, kde-format
+msgid "IRQ"
+msgstr "IRQ"
+
+#: kpci.cpp:155
+#, kde-format
+msgid "Pin"
+msgstr "Pin"
+
+#: kpci.cpp:163
+#, kde-format
+msgid "Control"
+msgstr "Upravljanje"
+
+#: kpci.cpp:164
+#, kde-format
+msgid "Response in I/O space"
+msgstr "Odgovor u I/O prostoru"
+
+#: kpci.cpp:165
+#, kde-format
+msgid "Response in memory space"
+msgstr "Odgovor u memorijskom prostoru"
+
+#: kpci.cpp:166
+#, kde-format
+msgid "Bus mastering"
+msgstr "Upravljanje sabirnicom"
+
+#: kpci.cpp:167
+#, kde-format
+msgid "Response to special cycles"
+msgstr "Odgovor prema posebnim ciklusima"
+
+#: kpci.cpp:168
+#, kde-format
+msgid "Memory write and invalidate"
+msgstr "Memorijsko pisanje i poništavanje (Memory write and invalidate)"
+
+#: kpci.cpp:169
+#, kde-format
+msgid "Palette snooping"
+msgstr "Palette snooping"
+
+#: kpci.cpp:170
+#, kde-format
+msgid "Parity checking"
+msgstr "Provjera pariteta"
+
+#: kpci.cpp:171
+#, kde-format
+msgid "Address/data stepping"
+msgstr "Address/data stepping"
+
+#: kpci.cpp:172
+#, kde-format
+msgid "System error"
+msgstr "Greška sustava"
+
+#: kpci.cpp:173
+#, kde-format
+msgid "Back-to-back writes"
+msgstr "Back-to-back writes"
+
+#: kpci.cpp:181 kpci.cpp:434 kpci.cpp:536 kpci.cpp:562
+#, kde-format
+msgid "Status"
+msgstr "Status"
+
+#: kpci.cpp:182 kpci.cpp:347 kpci.cpp:362
+#, kde-format
+msgid "Interrupt status"
+msgstr "Status prekida"
+
+#: kpci.cpp:183 kpci.cpp:348 kpci.cpp:363
+#, kde-format
+msgid "Capability list"
+msgstr "Lista kompatibilnosti"
+
+#: kpci.cpp:184 kpci.cpp:349 kpci.cpp:364
+#, kde-format
+msgid "66 MHz PCI 2.1 bus"
+msgstr "66 MHz PCI 2.1 sabirnica"
+
+#: kpci.cpp:185 kpci.cpp:350 kpci.cpp:365
+#, kde-format
+msgid "User-definable features"
+msgstr "Mogućnosti koje korisnik može definirati"
+
+#: kpci.cpp:186 kpci.cpp:351 kpci.cpp:366
+#, kde-format
+msgid "Accept fast back-to-back"
+msgstr "Prihvati \"fast back-to-back\""
+
+#: kpci.cpp:187 kpci.cpp:352 kpci.cpp:367
+#, kde-format
+msgid "Data parity error"
+msgstr "Greška podatkovnog pariteta"
+
+#: kpci.cpp:188 kpci.cpp:353 kpci.cpp:368
+#, kde-format
+msgid "Device selection timing"
+msgstr "Odabrano mjerenje vremena uređaja"
+
+#: kpci.cpp:189 kpci.cpp:354 kpci.cpp:369
+#, kde-format
+msgid "Signaled target abort"
+msgstr "Javljen ciljani prekid"
+
+#: kpci.cpp:190 kpci.cpp:355 kpci.cpp:370
+#, kde-format
+msgid "Received target abort"
+msgstr "Primljen ciljani prekid"
+
+#: kpci.cpp:191 kpci.cpp:356 kpci.cpp:371
+#, kde-format
+msgid "Received master abort"
+msgstr "Primljen glavni prekid"
+
+#: kpci.cpp:192 kpci.cpp:357 kpci.cpp:372
+#, kde-format
+msgid "Signaled system error"
+msgstr "Javljena pogreška sustava"
+
+#: kpci.cpp:193 kpci.cpp:358 kpci.cpp:373
+#, kde-format
+msgid "Parity error"
+msgstr "Greška pariteta"
+
+#: kpci.cpp:200
+#, kde-format
+msgid "Latency"
+msgstr "Latencija"
+
+#: kpci.cpp:203 kpci.cpp:206
+#, kde-format
+msgid "MIN_GNT"
+msgstr "MIN_GNT"
+
+#: kpci.cpp:203 kpci.cpp:209
+#, kde-format
+msgid "No major requirements (0x00)"
+msgstr "Nema glavnih zahtjeva (0x00)"
+
+#: kpci.cpp:209 kpci.cpp:212
+#, kde-format
+msgid "MAX_LAT"
+msgstr "MAX_LAT"
+
+#: kpci.cpp:221
+#, kde-format
+msgid "Header"
+msgstr "Zaglavlje"
+
+#: kpci.cpp:222 kpci.cpp:287 kpci.cpp:464
+#, kde-format
+msgid "Type"
+msgstr "Tip"
+
+#: kpci.cpp:223
+#, kde-format
+msgid "Multifunctional"
+msgstr "Višefunkcionalno"
+
+#: kpci.cpp:230
+#, kde-format
+msgid "Build-in self test"
+msgstr "Ugrađeni vlastiti test"
+
+#: kpci.cpp:231
+#, kde-format
+msgid "BIST Capable"
+msgstr "BIST sposoban"
+
+#: kpci.cpp:233
+#, kde-format
+msgid "BIST Start"
+msgstr "BIST početak"
+
+#: kpci.cpp:234
+#, kde-format
+msgid "Completion code"
+msgstr "Završeni kod"
+
+#: kpci.cpp:241 kpci.cpp:244 kpci.cpp:247 kpci.cpp:253 kpci.cpp:256
+#: kpci.cpp:259 kpci.cpp:264 kpci.cpp:295 kpci.cpp:311 kpci.cpp:437
+#, kde-format
+msgid "Size"
+msgstr "Veličina"
+
+#: kpci.cpp:276
+#, kde-format
+msgid "Address mappings"
+msgstr "Pridruživanje adrese"
+
+#: kpci.cpp:284
+#, kde-format
+msgid "Mapping %1"
+msgstr "Pridruživanje %1"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "Space"
+msgstr "Razmak"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "I/O"
+msgstr "I/O"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "Memory"
+msgstr "Memorija"
+
+#: kpci.cpp:288 kpci.cpp:457
+#, kde-format
+msgid "Prefetchable"
+msgstr "Dohvativo"
+
+#: kpci.cpp:294 kpci.cpp:298 kpci.cpp:303 kpci.cpp:310 kpci.cpp:314
+#: kpci.cpp:436 kpci.cpp:440 kpci.cpp:633 kpci.cpp:641
+#, kde-format
+msgid "Address"
+msgstr "Adresa"
+
+#: kpci.cpp:294 kpci.cpp:310 kpci.cpp:436
+#, fuzzy, kde-format
+#| msgid "Unassigned"
+msgctxt "unassigned address"
+msgid "Unassigned"
+msgstr "Nepotpisan"
+
+#: kpci.cpp:295 kpci.cpp:311 kpci.cpp:437
+#, fuzzy, kde-format
+#| msgid "Unassigned"
+msgctxt "unassigned size"
+msgid "Unassigned"
+msgstr "Nepotpisan"
+
+#: kpci.cpp:326 kpci.cpp:333
+#, kde-format
+msgid "Bus"
+msgstr "Sabirnica"
+
+#: kpci.cpp:327 kpci.cpp:334
+#, kde-format
+msgid "Primary bus number"
+msgstr "Primarni broj sabirnice"
+
+#: kpci.cpp:328
+#, kde-format
+msgid "Secondary bus number"
+msgstr "Sekundarni broj sabirnice"
+
+#: kpci.cpp:329 kpci.cpp:336
+#, kde-format
+msgid "Subordinate bus number"
+msgstr "Podređen broj sabirnice"
+
+#: kpci.cpp:330
+#, kde-format
+msgid "Secondary latency timer"
+msgstr "Sekundarni mjerač latencije"
+
+#: kpci.cpp:335
+#, kde-format
+msgid "CardBus number"
+msgstr "CardBus broj"
+
+#: kpci.cpp:337
+#, kde-format
+msgid "CardBus latency timer"
+msgstr "CardBus mjerač latencije"
+
+#: kpci.cpp:346 kpci.cpp:361
+#, kde-format
+msgid "Secondary status"
+msgstr "Sekundarni status"
+
+#: kpci.cpp:382
+#, kde-format
+msgid "I/O behind bridge"
+msgstr "I/O iza mosta"
+
+#: kpci.cpp:383 kpci.cpp:464
+#, kde-format
+msgid "32-bit"
+msgstr "32-bitni"
+
+#: kpci.cpp:385 kpci.cpp:389 kpci.cpp:393 kpci.cpp:398 kpci.cpp:402
+#: kpci.cpp:458 kpci.cpp:466 kpci.cpp:470
+#, kde-format
+msgid "Base"
+msgstr "Baza"
+
+#: kpci.cpp:386 kpci.cpp:390 kpci.cpp:394 kpci.cpp:399 kpci.cpp:403
+#: kpci.cpp:459 kpci.cpp:467 kpci.cpp:471
+#, kde-format
+msgid "Limit"
+msgstr "Ograničenje"
+
+#: kpci.cpp:392
+#, kde-format
+msgid "Memory behind bridge"
+msgstr "Memorija iza mosta"
+
+#: kpci.cpp:395
+#, kde-format
+msgid "Prefetchable memory behind bridge"
+msgstr "Dohvatljiva memorija iza mosta"
+
+#: kpci.cpp:396
+#, kde-format
+msgid "64-bit"
+msgstr "64-bitni"
+
+#: kpci.cpp:413
+#, kde-format
+msgid "Bridge control"
+msgstr "Upravljanje mostom"
+
+#: kpci.cpp:414 kpci.cpp:484
+#, kde-format
+msgid "Secondary parity checking"
+msgstr "Sekundarna provjera pariteta"
+
+#: kpci.cpp:415 kpci.cpp:485
+#, kde-format
+msgid "Secondary system error"
+msgstr "Sekundarna greška sustava"
+
+#: kpci.cpp:416 kpci.cpp:486
+#, kde-format
+msgid "ISA ports forwarding"
+msgstr "Prosljeđivanje ISA portova"
+
+#: kpci.cpp:417 kpci.cpp:487
+#, kde-format
+msgid "VGA forwarding"
+msgstr "VGA prosljeđivanje"
+
+#: kpci.cpp:418 kpci.cpp:488
+#, kde-format
+msgid "Master abort"
+msgstr "Glavni prekid"
+
+#: kpci.cpp:419
+#, kde-format
+msgid "Secondary bus reset"
+msgstr "Sekundarno poništavanje sabirnice"
+
+#: kpci.cpp:420
+#, kde-format
+msgid "Secondary back-to-back writes"
+msgstr "Sekundarni \"back-to-back writes\""
+
+#: kpci.cpp:421
+#, kde-format
+msgid "Primary discard timer counts"
+msgstr "Broj primarnih odbačenih otkucaja sata"
+
+#: kpci.cpp:421 kpci.cpp:422
+#, kde-format
+msgid "2e10 PCI clocks"
+msgstr "2e10 PCI taktovi"
+
+#: kpci.cpp:421 kpci.cpp:422
+#, kde-format
+msgid "2e15 PCI clocks"
+msgstr "2e15 PCI taktovi"
+
+#: kpci.cpp:422
+#, kde-format
+msgid "Secondary discard timer counts"
+msgstr "Broj sekundarnih odbačenih otkucaja sata"
+
+#: kpci.cpp:423
+#, kde-format
+msgid "Discard timer error"
+msgstr "Odbaci mjeračku pogrešku"
+
+#: kpci.cpp:424
+#, kde-format
+msgid "Discard timer system error"
+msgstr "Odbaci mjeračku pogrešku sustava"
+
+#: kpci.cpp:433
+#, kde-format
+msgid "Expansion ROM"
+msgstr "Proširujući ROM"
+
+#: kpci.cpp:453
+#, kde-format
+msgid "Memory windows"
+msgstr "Memorijski prozori"
+
+#: kpci.cpp:456 kpci.cpp:463
+#, kde-format
+msgid "Window %1"
+msgstr "Prozor %1"
+
+#: kpci.cpp:461
+#, kde-format
+msgid "I/O windows"
+msgstr "I/O prozori"
+
+#: kpci.cpp:464
+#, kde-format
+msgid "16-bit"
+msgstr "16-bitni"
+
+#: kpci.cpp:474
+#, kde-format
+msgid "16-bit legacy interface ports"
+msgstr "16-bitni stari sučeljski portovi"
+
+#: kpci.cpp:483
+#, kde-format
+msgid "CardBus control"
+msgstr "Upravljanje CardBusom"
+
+#: kpci.cpp:489
+#, kde-format
+msgid "Interrupts for 16-bit cards"
+msgstr "Prekidi za 16-bitne kartice"
+
+#: kpci.cpp:490
+#, kde-format
+msgid "Window 0 prefetchable memory"
+msgstr "Preddohvatna memorija prozora 0"
+
+#: kpci.cpp:491
+#, kde-format
+msgid "Window 1 prefetchable memory"
+msgstr "Preddohvatna memorija prozora 1"
+
+#: kpci.cpp:492
+#, kde-format
+msgid "Post writes"
+msgstr "Naknadno pisanje"
+
+#: kpci.cpp:500
+#, kde-format
+msgid "Raw PCI config space"
+msgstr "Sirov PCI konfiguracijski prostor"
+
+#: kpci.cpp:522 kpci.cpp:684 kpci.cpp:715
+#, kde-format
+msgid "Capabilities"
+msgstr "Mogućnosti"
+
+#: kpci.cpp:523
+#, kde-format
+msgid "Version"
+msgstr "Inačica"
+
+#: kpci.cpp:524
+#, kde-format
+msgid "Clock required for PME generation"
+msgstr "Takt potreban za generaciju PME-ova"
+
+#: kpci.cpp:525
+#, kde-format
+msgid "Device-specific initialization required"
+msgstr "Potrebna inicijalizacija određena uređajem"
+
+#: kpci.cpp:526
+#, kde-format
+msgid "Maximum auxiliary current required in D3 cold"
+msgstr "Maksimalna pomoćna struja potreba u hladnom D3"
+
+#: kpci.cpp:527
+#, kde-format
+msgid "D1 support"
+msgstr "D1 podrška"
+
+#: kpci.cpp:528
+#, kde-format
+msgid "D2 support"
+msgstr "D2 podrška"
+
+#: kpci.cpp:529
+#, kde-format
+msgid "Power management events"
+msgstr "Događaji kod upravljanja napajanjem"
+
+#: kpci.cpp:530 kpci_private.h:763
+#, kde-format
+msgid "D0"
+msgstr "D0"
+
+#: kpci.cpp:531 kpci_private.h:764
+#, kde-format
+msgid "D1"
+msgstr "D1"
+
+#: kpci.cpp:532 kpci_private.h:765
+#, kde-format
+msgid "D2"
+msgstr "D2"
+
+#: kpci.cpp:533 kpci_private.h:766
+#, kde-format
+msgid "D3 hot"
+msgstr "D3 toplo"
+
+#: kpci.cpp:534
+#, kde-format
+msgid "D3 cold"
+msgstr "D3 hladno"
+
+#: kpci.cpp:537
+#, kde-format
+msgid "Power state"
+msgstr "Stanje napajanja"
+
+#: kpci.cpp:538 kpci_private.h:680
+#, kde-format
+msgid "Power management"
+msgstr "Upravljanje napajanjem"
+
+#: kpci.cpp:539
+#, kde-format
+msgid "Data select"
+msgstr "Odabiranje podataka"
+
+#: kpci.cpp:540
+#, kde-format
+msgid "Data scale"
+msgstr "Skaliranje podataka"
+
+#: kpci.cpp:541
+#, kde-format
+msgid "Power management status"
+msgstr "Stanje upravljanja napajanjem"
+
+#: kpci.cpp:544
+#, kde-format
+msgid "Bridge status"
+msgstr "Stanje mosta"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "Secondary bus state in D3 hot"
+msgstr "Stanje sekundarne sabirnice u vrućem D3"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "B2"
+msgstr "B2"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "B3"
+msgstr "B3"
+
+#: kpci.cpp:546
+#, kde-format
+msgid "Secondary bus power & clock control"
+msgstr "Sekundardno napajanje sabirnice & kontrola takta"
+
+#: kpci.cpp:549 kpci.cpp:611 kpci.cpp:634 kpci.cpp:642 kpci.cpp:658
+#: kpci.cpp:670
+#, kde-format
+msgid "Data"
+msgstr "Podaci"
+
+#. i18n("Revision"),value.sprintf("%i.%i",infoAgp.revMaior,infoAgp.revMinor));
+#: kpci.cpp:561 kpci.cpp:763
+#, kde-format
+msgid "Revision"
+msgstr "Revizija"
+
+#: kpci.cpp:563 kpci.cpp:584
+#, kde-format
+msgid "Rate"
+msgstr "Stopa"
+
+#: kpci.cpp:564
+#, kde-format
+msgid "AGP 3.0 mode"
+msgstr "AGP 3.0 način"
+
+#: kpci.cpp:565 kpci.cpp:585
+#, kde-format
+msgid "Fast Writes"
+msgstr "Brzo pisanje"
+
+#: kpci.cpp:566 kpci.cpp:587
+#, kde-format
+msgid "Address over 4 GiB"
+msgstr "Adresa preko 4 GiB"
+
+#: kpci.cpp:568
+#, kde-format
+msgid "Translation of host processor access"
+msgstr "Pristup prijevodu glavnog procesora"
+
+#: kpci.cpp:569 kpci.cpp:588
+#, kde-format
+msgid "64-bit GART"
+msgstr "64-bitni GART"
+
+#: kpci.cpp:570
+#, kde-format
+msgid "Cache Coherency"
+msgstr "Koherentnost predmemorije"
+
+#: kpci.cpp:572 kpci.cpp:591
+#, kde-format
+msgid "Side-band addressing"
+msgstr "Bočno-pojasno adresiranje"
+
+#: kpci.cpp:574 kpci.cpp:593
+#, kde-format
+msgid "Calibrating cycle"
+msgstr "Kalibracijski ciklus"
+
+#: kpci.cpp:578 kpci.cpp:597
+#, kde-format
+msgid "Optimum asynchronous request size"
+msgstr "Optimalni asinkroni zahtjev veličine"
+
+#: kpci.cpp:579
+#, kde-format
+msgid "Isochronous transactions"
+msgstr "Istovremen prijenos"
+
+#: kpci.cpp:581 kpci.cpp:599
+#, kde-format
+msgid "Maximum number of AGP command"
+msgstr "Maksimalan broj AGP naredbi"
+
+#: kpci.cpp:583
+#, kde-format
+msgid "Configuration"
+msgstr "Konfiguracija"
+
+#: kpci.cpp:590 kpci_private.h:681
+#, kde-format
+msgid "AGP"
+msgstr "AGP"
+
+#: kpci.cpp:609
+#, kde-format
+msgid "Data address"
+msgstr "Podatkovna adresa"
+
+#: kpci.cpp:610
+#, kde-format
+msgid "Transfer completed"
+msgstr "Prijenos je dovršen"
+
+#: kpci.cpp:623
+#, kde-format
+msgid "Message control"
+msgstr "Upravljanje porukama"
+
+#: kpci.cpp:624 kpci_private.h:684
+#, kde-format
+msgid "Message signaled interrupts"
+msgstr "Porukom javljen prekid"
+
+#: kpci.cpp:625
+#, kde-format
+msgid "Multiple message capable"
+msgstr "Sposoban za višestruke poruke"
+
+#: kpci.cpp:626
+#, kde-format
+msgid "Multiple message enable"
+msgstr "Uključene višestruke poruke"
+
+#: kpci.cpp:627
+#, kde-format
+msgid "64-bit address"
+msgstr "64-bitna adresa"
+
+#: kpci.cpp:628
+#, kde-format
+msgid "Per vector masking"
+msgstr "Maskiranje po vektoru"
+
+#: kpci.cpp:636 kpci.cpp:644
+#, kde-format
+msgid "Mask"
+msgstr "Maska"
+
+#: kpci.cpp:637 kpci.cpp:645
+#, kde-format
+msgid "Pending"
+msgstr "U toku"
+
+#: kpci.cpp:655
+#, kde-format
+msgid "Length"
+msgstr "Duljina"
+
+#: kpci.cpp:658
+#, kde-format
+msgctxt "no data"
+msgid "None"
+msgstr "Ništa"
+
+#: kpci.cpp:688
+#, kde-format
+msgid "Next"
+msgstr "Sljedeći"
+
+#: kpci.cpp:688 kpci.cpp:715
+#, kde-format
+msgid "0x00 (None)"
+msgstr "0x00 (Ništa)"
+
+#: kpci.cpp:711
+#, kde-format
+msgid "Root only"
+msgstr "Samo root"
+
+#: kpci.cpp:724
+#, kde-format
+msgid "Information"
+msgstr "Informacije"
+
+#: kpci.cpp:724
+#, kde-format
+msgid "Value"
+msgstr "Vrijednost"
+
+#: kpci.cpp:772
+#, kde-format
+msgid "Cache line size"
+msgstr "Privremeno spremi veličinu linije"
+
+#: kpci_private.h:27
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Enabled"
+msgstr "Omogućeno"
+
+#: kpci_private.h:28
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Disabled"
+msgstr "Onemogućeno"
+
+#: kpci_private.h:29
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Yes"
+msgstr "Da"
+
+#: kpci_private.h:30
+#, kde-format
+msgctxt "state of PCI item"
+msgid "No"
+msgstr "Ne"
+
+#: kpci_private.h:31
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: kpci_private.h:439
+#, kde-format
+msgid "Unclassified device"
+msgstr "Neklasificiran uređaj"
+
+#: kpci_private.h:440 kpci_private.h:474
+#, kde-format
+msgid "Mass storage controller"
+msgstr "Upravljač masovne pohrane"
+
+#: kpci_private.h:441 kpci_private.h:484
+#, kde-format
+msgid "Network controller"
+msgstr "Mrežni upravljač"
+
+#: kpci_private.h:442 kpci_private.h:490
+#, kde-format
+msgid "Display controller"
+msgstr "Upravljač zaslona"
+
+#: kpci_private.h:443 kpci_private.h:496
+#, kde-format
+msgid "Multimedia controller"
+msgstr "Multimedijalni upravljač"
+
+#: kpci_private.h:444 kpci_private.h:501
+#, kde-format
+msgid "Memory controller"
+msgstr "Memorijski upravljač"
+
+#: kpci_private.h:445 kpci_private.h:515 kpci_private.h:718
+#, kde-format
+msgid "Bridge"
+msgstr "Most"
+
+#: kpci_private.h:446 kpci_private.h:524
+#, kde-format
+msgid "Communication controller"
+msgstr "Komunikacijski upravljač"
+
+#: kpci_private.h:447
+#, kde-format
+msgid "Generic system peripheral"
+msgstr "Općenite vanjske jedinice sustava"
+
+#: kpci_private.h:448 kpci_private.h:540
+#, kde-format
+msgid "Input device controller"
+msgstr "Upravljač ulaznih uređaja"
+
+#: kpci_private.h:449 kpci_private.h:544
+#, kde-format
+msgid "Docking station"
+msgstr "Priključna stanica"
+
+#: kpci_private.h:450
+#, kde-format
+msgid "Processor"
+msgstr "Procesor"
+
+#: kpci_private.h:451
+#, kde-format
+msgid "Serial bus controller"
+msgstr "Upravljač serijske sabirnice"
+
+#: kpci_private.h:452 kpci_private.h:575
+#, kde-format
+msgid "Wireless controller"
+msgstr "Bežični upravljač"
+
+#: kpci_private.h:453
+#, kde-format
+msgid "Intelligent controller"
+msgstr "Pametan upravljač"
+
+#: kpci_private.h:454
+#, kde-format
+msgid "Satellite communications controller"
+msgstr "Satelitski komunikacijski upravljač"
+
+#: kpci_private.h:455 kpci_private.h:589
+#, kde-format
+msgid "Encryption controller"
+msgstr "Upravljač enkripcije"
+
+#: kpci_private.h:456 kpci_private.h:596
+#, kde-format
+msgid "Signal processing controller"
+msgstr "Upravljač obrađivača signala"
+
+#: kpci_private.h:457
+#, kde-format
+msgid "Unknown device class"
+msgstr "Nepoznata klasa uređaja"
+
+#: kpci_private.h:463
+#, kde-format
+msgid "Non-VGA unclassified device"
+msgstr "Neklasificiran ne-VGA uređaj"
+
+#: kpci_private.h:464
+#, kde-format
+msgid "VGA unclassified device"
+msgstr "Neklasificiran VGA uređaj"
+
+#: kpci_private.h:465
+#, kde-format
+msgid "Unknown unclassified device"
+msgstr "Nepoznat neklasificiran uređaj"
+
+#: kpci_private.h:467
+#, kde-format
+msgid "SCSI storage controller"
+msgstr "SCSI upravljač pohrane"
+
+#: kpci_private.h:468
+#, kde-format
+msgid "IDE controller"
+msgstr "IDE upravljač"
+
+#: kpci_private.h:469
+#, kde-format
+msgid "Floppy disk controller"
+msgstr "Upravljač floppy diskom"
+
+#: kpci_private.h:470
+#, kde-format
+msgid "IPI bus controller"
+msgstr "Upravljač IPI sabirnice"
+
+#: kpci_private.h:471
+#, kde-format
+msgid "RAID bus controller"
+msgstr "Upravljač RAID sabirnice"
+
+#: kpci_private.h:472
+#, kde-format
+msgid "ATA controller"
+msgstr "ATA upravljač"
+
+#: kpci_private.h:473
+#, kde-format
+msgid "Serial ATA direct port access"
+msgstr "Serial ATA izravan pristupni port"
+
+#: kpci_private.h:475
+#, kde-format
+msgid "Unknown storage controller"
+msgstr "Nepoznati upravljač pohrane"
+
+#: kpci_private.h:477
+#, kde-format
+msgid "Ethernet controller"
+msgstr "Ethernet uređaj"
+
+#: kpci_private.h:478
+#, kde-format
+msgid "Token ring network controller"
+msgstr "Upravljač prstenate mreže s značkom"
+
+#: kpci_private.h:479
+#, kde-format
+msgid "FDDI network controller"
+msgstr "FDDI mrežni upravljač"
+
+#: kpci_private.h:480
+#, kde-format
+msgid "ATM network controller"
+msgstr "ATM mrežni upravljač"
+
+#: kpci_private.h:481
+#, kde-format
+msgid "ISDN controller"
+msgstr "ISDN upravljač"
+
+#: kpci_private.h:482
+#, kde-format
+msgid "WorldFip controller"
+msgstr "WorldFip upravljač"
+
+#: kpci_private.h:483
+#, kde-format
+msgid "PICMG 2.14 multi computing"
+msgstr "PICMG 2.14 multi computing"
+
+#: kpci_private.h:485
+#, kde-format
+msgid "Unknown network controller"
+msgstr "Nepoznati mrežni upravljač"
+
+#: kpci_private.h:487
+#, kde-format
+msgid "VGA compatible controller"
+msgstr "VGA kompatibilni upravljač"
+
+#: kpci_private.h:488
+#, kde-format
+msgid "XGA compatible controller"
+msgstr "XGA kompatibilni upravljač"
+
+#: kpci_private.h:489
+#, kde-format
+msgid "3D controller"
+msgstr "3D upravljač"
+
+#: kpci_private.h:491
+#, kde-format
+msgid "Unknown display controller"
+msgstr "Nepoznati upravljač zaslona"
+
+#: kpci_private.h:493
+#, kde-format
+msgid "Multimedia video controller"
+msgstr "Nepoznati video upravljač"
+
+#: kpci_private.h:494
+#, kde-format
+msgid "Multimedia audio controller"
+msgstr "Multimedijalni tonski upravljač"
+
+#: kpci_private.h:495
+#, kde-format
+msgid "Computer telephony device"
+msgstr "Uređaj računalne telefonije"
+
+#: kpci_private.h:497
+#, kde-format
+msgid "Unknown multimedia controller"
+msgstr "Nepoznati multimedijalni upravljač"
+
+#: kpci_private.h:499
+#, kde-format
+msgid "RAM memory"
+msgstr "RAM memorija"
+
+#: kpci_private.h:500
+#, kde-format
+msgid "FLASH memory"
+msgstr "FLASH memorija"
+
+#: kpci_private.h:502
+#, kde-format
+msgid "Unknown memory controller"
+msgstr "Nepoznati memorijski upravljač"
+
+#: kpci_private.h:504
+#, kde-format
+msgid "Host bridge"
+msgstr "Host most"
+
+#: kpci_private.h:505
+#, kde-format
+msgid "ISA bridge"
+msgstr "ISA most"
+
+#: kpci_private.h:506
+#, kde-format
+msgid "EISA bridge"
+msgstr "EISA most"
+
+#: kpci_private.h:507
+#, kde-format
+msgid "MicroChannel bridge"
+msgstr "MicroChannel most"
+
+#: kpci_private.h:508
+#, kde-format
+msgid "PCI bridge"
+msgstr "PCI most"
+
+#: kpci_private.h:509
+#, kde-format
+msgid "PCMCIA bridge"
+msgstr "PCMCIA most"
+
+#: kpci_private.h:510
+#, kde-format
+msgid "NuBus bridge"
+msgstr "NuBus most"
+
+#: kpci_private.h:511
+#, kde-format
+msgid "CardBus bridge"
+msgstr "CardBus most"
+
+#: kpci_private.h:512
+#, kde-format
+msgid "RACEway bridge"
+msgstr "RACEway most"
+
+#: kpci_private.h:513
+#, kde-format
+msgid "Semi-transparent PCI-to-PCI bridge"
+msgstr "Polutransparentan most s PCI na PCI"
+
+#: kpci_private.h:514
+#, kde-format
+msgid "InfiniBand to PCI host bridge"
+msgstr "Most od InfiniBand do PCI hosta"
+
+#: kpci_private.h:516
+#, kde-format
+msgid "Unknown bridge"
+msgstr "Nepoznati most"
+
+#: kpci_private.h:518
+#, kde-format
+msgid "Serial controller"
+msgstr "Serijski upravljač"
+
+#: kpci_private.h:519
+#, kde-format
+msgid "Parallel controller"
+msgstr "Paralelni upravljač"
+
+#: kpci_private.h:520
+#, kde-format
+msgid "Multiport serial controller"
+msgstr "Višeportni serijski upravljač"
+
+#: kpci_private.h:521
+#, kde-format
+msgid "Modem"
+msgstr "Modem"
+
+#: kpci_private.h:522
+#, kde-format
+msgid "GPIB (IEEE 488.1/2) controller"
+msgstr "GPIB (IEEE 488.1/2) upravljač"
+
+#: kpci_private.h:523
+#, kde-format
+msgid "Smart card"
+msgstr "Pametna kartica"
+
+#: kpci_private.h:525
+#, kde-format
+msgid "Unknown communication controller"
+msgstr "Nepoznati komunikacijski upravljač"
+
+#: kpci_private.h:527
+#, kde-format
+msgid "PIC"
+msgstr "PIC"
+
+#: kpci_private.h:528
+#, kde-format
+msgid "DMA controller"
+msgstr "DMA upravljač"
+
+#: kpci_private.h:529
+#, kde-format
+msgid "Timer"
+msgstr "Mjerač vremena"
+
+#: kpci_private.h:530
+#, kde-format
+msgid "RTC"
+msgstr "RTC"
+
+#: kpci_private.h:531
+#, kde-format
+msgid "PCI Hot-plug controller"
+msgstr "PCI Hot-plug upravljač"
+
+#: kpci_private.h:532
+#, kde-format
+msgid "System peripheral"
+msgstr "Vanjske jedinice sustava"
+
+#: kpci_private.h:533
+#, kde-format
+msgid "Unknown system peripheral"
+msgstr "Nepoznate vanjske jedinice sustava"
+
+#: kpci_private.h:535
+#, kde-format
+msgid "Keyboard controller"
+msgstr "Upravljač tipkovnice"
+
+#: kpci_private.h:536
+#, kde-format
+msgid "Digitizer Pen"
+msgstr "Digitalna olovka"
+
+#: kpci_private.h:537
+#, kde-format
+msgid "Mouse controller"
+msgstr "Upravljač miša"
+
+#: kpci_private.h:538
+#, kde-format
+msgid "Scanner controller"
+msgstr "Upravljač skenera"
+
+#: kpci_private.h:539
+#, kde-format
+msgid "Gameport controller"
+msgstr "Upravljač igračim portovima"
+
+#: kpci_private.h:541
+#, kde-format
+msgid "Unknown input device controller"
+msgstr "Nepoznati upravljač ulaznih uređaja"
+
+#: kpci_private.h:543
+#, kde-format
+msgid "Generic docking station"
+msgstr "Generička priključna stanica"
+
+#: kpci_private.h:545
+#, kde-format
+msgid "Unknown docking station"
+msgstr "Nepoznata priključna stanica"
+
+#: kpci_private.h:547
+#, kde-format
+msgid "386"
+msgstr "386"
+
+#: kpci_private.h:548
+#, kde-format
+msgid "486"
+msgstr "486"
+
+#: kpci_private.h:549
+#, kde-format
+msgid "Pentium"
+msgstr "Pentium"
+
+#: kpci_private.h:550
+#, kde-format
+msgid "Alpha"
+msgstr "Alpha"
+
+#: kpci_private.h:551
+#, kde-format
+msgid "Power PC"
+msgstr "Power PC"
+
+#: kpci_private.h:552
+#, kde-format
+msgid "MIPS"
+msgstr "MIPS"
+
+#: kpci_private.h:553
+#, kde-format
+msgid "Co-processor"
+msgstr "Koprocesor"
+
+#: kpci_private.h:554
+#, kde-format
+msgid "Unknown processor"
+msgstr "Nepoznati procesor"
+
+#: kpci_private.h:556
+#, kde-format
+msgid "FireWire (IEEE 1394)"
+msgstr "FireWire (IEEE 1394)"
+
+#: kpci_private.h:557
+#, kde-format
+msgid "ACCESS bus"
+msgstr "ACCESS sabirnica"
+
+#: kpci_private.h:558
+#, kde-format
+msgid "SSA"
+msgstr "SSA"
+
+#: kpci_private.h:559
+#, kde-format
+msgid "USB controller"
+msgstr "USB upravljač"
+
+#: kpci_private.h:560
+#, kde-format
+msgid "Fibre channel"
+msgstr "Vlaknasti kanal"
+
+#: kpci_private.h:561
+#, kde-format
+msgid "SMBus"
+msgstr "SMBus"
+
+#: kpci_private.h:562
+#, kde-format
+msgid "InfiniBand"
+msgstr "InfiniBand"
+
+#: kpci_private.h:563
+#, kde-format
+msgid "IPMI interface"
+msgstr "IPMI sučelje"
+
+#: kpci_private.h:564
+#, kde-format
+msgid "SERCOS interface"
+msgstr "SERCOS sučelje"
+
+#: kpci_private.h:565
+#, kde-format
+msgid "CANbus"
+msgstr "CANbus"
+
+#: kpci_private.h:566
+#, kde-format
+msgid "Unknown serial bus controller"
+msgstr "Nepoznat upravljač serijske sabirnice"
+
+#: kpci_private.h:568
+#, kde-format
+msgid "IRDA controller"
+msgstr "IRDA upravljač"
+
+#: kpci_private.h:569
+#, kde-format
+msgid "Consumer IR controller"
+msgstr "Korisnički IR uređaj"
+
+#: kpci_private.h:570
+#, kde-format
+msgid "RF controller"
+msgstr "RF upravljač"
+
+#: kpci_private.h:571
+#, kde-format
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: kpci_private.h:572
+#, kde-format
+msgid "Broadband"
+msgstr "Širokopojasni"
+
+#: kpci_private.h:573
+#, kde-format
+msgid "Ethernet (802.11a - 5 GHz)"
+msgstr "Ethernet (802.11a – 5 GHz)"
+
+#: kpci_private.h:574
+#, kde-format
+msgid "Ethernet (802.11b - 2.4 GHz)"
+msgstr "Ethernet (802.11b – 2.4 GHz)"
+
+#: kpci_private.h:576
+#, kde-format
+msgid "Unknown wireless controller"
+msgstr "Nepoznati bežični upravljač"
+
+#: kpci_private.h:578
+#, kde-format
+msgid "I2O"
+msgstr "I2O"
+
+#: kpci_private.h:579
+#, kde-format
+msgid "Unknown intelligent controller"
+msgstr "Nepoznati pametni upravljač"
+
+#: kpci_private.h:581
+#, kde-format
+msgid "Satellite TV controller"
+msgstr "Satelitski TV upravljač"
+
+#: kpci_private.h:582
+#, kde-format
+msgid "Satellite audio communication controller"
+msgstr "Satelitski, audio komunikacijski upravljač"
+
+#: kpci_private.h:583
+#, kde-format
+msgid "Satellite voice communication controller"
+msgstr "Satelitski, glasovni komunikacijski upravljač"
+
+#: kpci_private.h:584
+#, kde-format
+msgid "Satellite data communication controller"
+msgstr "Satelitski, podatkovni komunikacijski upravljač"
+
+#: kpci_private.h:585
+#, kde-format
+msgid "Unknown satellite communications controller"
+msgstr "Nepoznati, satelitski komunikacijski upravljač"
+
+#: kpci_private.h:587
+#, kde-format
+msgid "Network and computing encryption device"
+msgstr "Mrežni i računski enkripcijski uređaj"
+
+#: kpci_private.h:588
+#, kde-format
+msgid "Entertainment encryption device"
+msgstr "Zabavni enkripcijski uređaj"
+
+#: kpci_private.h:590
+#, kde-format
+msgid "Unknown encryption controller"
+msgstr "Nepoznati enkripcijski upravljač"
+
+#: kpci_private.h:592
+#, kde-format
+msgid "DPIO module"
+msgstr "DPIO modul"
+
+#: kpci_private.h:593
+#, kde-format
+msgid "Performance counters"
+msgstr "Brojač performansi"
+
+#: kpci_private.h:594
+#, kde-format
+msgid "Communication synchronizer"
+msgstr "Komunikacijski sinkronizator"
+
+#: kpci_private.h:595
+#, kde-format
+msgid "Management card"
+msgstr "Upravljačka kartica"
+
+#: kpci_private.h:597
+#, kde-format
+msgid "Unknown signal processing controller"
+msgstr "Nepoznati upravljač obrađivača signala"
+
+#: kpci_private.h:599
+#, kde-format
+msgid "Unknown subdevice class"
+msgstr "Nepoznata klasa poduređaja"
+
+#: kpci_private.h:606
+#, kde-format
+msgid "single DMA"
+msgstr "jednostruka DMA"
+
+#: kpci_private.h:607
+#, kde-format
+msgid "chained DMA"
+msgstr "ulančana DMA"
+
+#: kpci_private.h:609
+#, kde-format
+msgid "VGA compatible"
+msgstr "VGA kompatibilan"
+
+#: kpci_private.h:610
+#, kde-format
+msgid "8514 compatible"
+msgstr "8514 kompatibilan"
+
+#: kpci_private.h:612
+#, kde-format
+msgid "Normal decode"
+msgstr "Normalno dekodiranje"
+
+#: kpci_private.h:613
+#, kde-format
+msgid "Subtractive decode"
+msgstr "Odbijeno dekodiranje"
+
+#: kpci_private.h:615
+#, kde-format
+msgid "Transparent mode"
+msgstr "Transparentan način"
+
+#: kpci_private.h:616
+#, kde-format
+msgid "Endpoint mode"
+msgstr "\"Krajnja točka\" način"
+
+#: kpci_private.h:618
+#, kde-format
+msgid "Primary bus towards host CPU"
+msgstr "Primarna sabirnica prema CPU-u domaćina"
+
+#: kpci_private.h:619
+#, kde-format
+msgid "Secondary bus towards host CPU"
+msgstr "Sekundarna sabirnica prema CPU-u domaćina"
+
+#: kpci_private.h:621
+#, kde-format
+msgid "8250"
+msgstr "8250"
+
+#: kpci_private.h:622
+#, kde-format
+msgid "16450"
+msgstr "16450"
+
+#: kpci_private.h:623
+#, kde-format
+msgid "16550"
+msgstr "16550"
+
+#: kpci_private.h:624
+#, kde-format
+msgid "16650"
+msgstr "16650"
+
+#: kpci_private.h:625
+#, kde-format
+msgid "16750"
+msgstr "16750"
+
+#: kpci_private.h:626
+#, kde-format
+msgid "16850"
+msgstr "16850"
+
+#: kpci_private.h:627
+#, kde-format
+msgid "16950"
+msgstr "16950"
+
+#: kpci_private.h:629
+#, kde-format
+msgid "SPP"
+msgstr "SPP"
+
+#: kpci_private.h:630
+#, kde-format
+msgid "BiDir"
+msgstr "BiDir"
+
+#: kpci_private.h:631
+#, kde-format
+msgid "ECP"
+msgstr "ECP"
+
+#: kpci_private.h:632
+#, kde-format
+msgid "IEEE1284"
+msgstr "IEEE1284"
+
+#: kpci_private.h:633
+#, kde-format
+msgid "IEEE1284 Target"
+msgstr "IEEE1284 Target"
+
+#: kpci_private.h:635 kpci_private.h:655 kpci_private.h:658 kpci_private.h:661
+#, kde-format
+msgid "Generic"
+msgstr "Opći"
+
+#: kpci_private.h:636
+#, kde-format
+msgid "Hayes/16450"
+msgstr "Hayes/16450"
+
+#: kpci_private.h:637
+#, kde-format
+msgid "Hayes/16550"
+msgstr "Hayes/16550"
+
+#: kpci_private.h:638
+#, kde-format
+msgid "Hayes/16650"
+msgstr "Hayes/16650"
+
+#: kpci_private.h:639
+#, kde-format
+msgid "Hayes/16750"
+msgstr "Hayes/16750"
+
+#: kpci_private.h:641
+#, kde-format
+msgid "8259"
+msgstr "8259"
+
+#: kpci_private.h:642
+#, kde-format
+msgid "ISA PIC"
+msgstr "ISA PIC"
+
+#: kpci_private.h:643
+#, kde-format
+msgid "EISA PIC"
+msgstr "EISA PIC"
+
+#: kpci_private.h:644
+#, kde-format
+msgid "IO-APIC"
+msgstr "IO-APIC"
+
+#: kpci_private.h:645
+#, kde-format
+msgid "IO(X)-APIC"
+msgstr "IO(X)-APIC"
+
+#: kpci_private.h:647
+#, kde-format
+msgid "8237"
+msgstr "8237"
+
+#: kpci_private.h:648
+#, kde-format
+msgid "ISA DMA"
+msgstr "ISA DMA"
+
+#: kpci_private.h:649
+#, kde-format
+msgid "EISA DMA"
+msgstr "EISA DMA"
+
+#: kpci_private.h:651
+#, kde-format
+msgid "8254"
+msgstr "8254"
+
+#: kpci_private.h:652
+#, kde-format
+msgid "ISA timer"
+msgstr "ISA mjerač vremena"
+
+#: kpci_private.h:653
+#, kde-format
+msgid "EISA timers"
+msgstr "EISA mjerač vremena"
+
+#: kpci_private.h:656
+#, kde-format
+msgid "ISA RTC"
+msgstr "ISA RTC"
+
+#: kpci_private.h:659
+#, kde-format
+msgid "Extended"
+msgstr "Prošireno"
+
+#: kpci_private.h:662 kpci_private.h:665
+#, kde-format
+msgid "OHCI"
+msgstr "OHCI"
+
+#: kpci_private.h:664
+#, kde-format
+msgid "UHCI"
+msgstr "UHCI"
+
+#: kpci_private.h:666
+#, kde-format
+msgid "EHCI"
+msgstr "EHCI"
+
+#: kpci_private.h:667
+#, kde-format
+msgid "Unspecified"
+msgstr "Neodređeno"
+
+#: kpci_private.h:668
+#, kde-format
+msgid "USB Device"
+msgstr "USB uređaj"
+
+#: kpci_private.h:670
+#, kde-format
+msgid "SMIC"
+msgstr "SMIC"
+
+#: kpci_private.h:671
+#, kde-format
+msgid "Keyboard controller style"
+msgstr "Stil upravljača tipkovnicom"
+
+#: kpci_private.h:672
+#, kde-format
+msgid "Block transfer"
+msgstr "Blokiraj prijenos"
+
+#: kpci_private.h:682
+#, kde-format
+msgid "Vital product data"
+msgstr "Važni podaci proizvoda"
+
+#: kpci_private.h:683
+#, kde-format
+msgid "Slot identification"
+msgstr "Identifikacija utora"
+
+#: kpci_private.h:685
+#, kde-format
+msgid "CompactPCI hot swap"
+msgstr "CompactPCI hot swap"
+
+#: kpci_private.h:686
+#, kde-format
+msgid "PCI-X"
+msgstr "PCI-X"
+
+#: kpci_private.h:687
+#, kde-format
+msgid "HyperTransport"
+msgstr "HyperTransport"
+
+#: kpci_private.h:688
+#, kde-format
+msgid "Vendor specific"
+msgstr "Svojstveno proizvođaču"
+
+#: kpci_private.h:689
+#, kde-format
+msgid "Debug port"
+msgstr "Debug port"
+
+#: kpci_private.h:690
+#, kde-format
+msgid "CompactPCI central resource control"
+msgstr "Upravljanje središnjim resursom CompactPCI-a"
+
+#: kpci_private.h:691
+#, kde-format
+msgid "PCI hot-plug"
+msgstr "PCI hot-plug"
+
+#: kpci_private.h:692
+#, kde-format
+msgid "AGP x8"
+msgstr "AGP x8"
+
+#: kpci_private.h:693
+#, kde-format
+msgid "Secure device"
+msgstr "Sigurnosni uređaj"
+
+#: kpci_private.h:694
+#, kde-format
+msgid "PCI express"
+msgstr "PCI express"
+
+#: kpci_private.h:695
+#, kde-format
+msgid "MSI-X"
+msgstr "MSI-X"
+
+#: kpci_private.h:701
+#, kde-format
+msgid "Fast"
+msgstr "Brzo"
+
+#: kpci_private.h:702
+#, kde-format
+msgid "Medium"
+msgstr "Srednje"
+
+#: kpci_private.h:703
+#, kde-format
+msgid "Slow"
+msgstr "Sporo"
+
+#: kpci_private.h:709
+#, kde-format
+msgid "32 bit"
+msgstr "32 bita"
+
+#: kpci_private.h:710
+#, kde-format
+msgid "Below 1M"
+msgstr "Ispod 1M"
+
+#: kpci_private.h:711
+#, kde-format
+msgid "64 bit"
+msgstr "64 bita"
+
+#: kpci_private.h:717
+#, kde-format
+msgid "Standard"
+msgstr "Standardno"
+
+#: kpci_private.h:719
+#, kde-format
+msgid "CardBus"
+msgstr "Sabirnica kartice"
+
+#: kpci_private.h:725
+#, kde-format
+msgid "1X"
+msgstr "1X"
+
+#: kpci_private.h:726
+#, kde-format
+msgid "2X"
+msgstr "2X"
+
+#: kpci_private.h:727
+#, kde-format
+msgid "1X & 2X"
+msgstr "1X & 2X"
+
+#: kpci_private.h:728 kpci_private.h:732
+#, kde-format
+msgid "4X"
+msgstr "4X"
+
+#: kpci_private.h:729
+#, kde-format
+msgid "1X & 4X"
+msgstr "1X & 4X"
+
+#: kpci_private.h:730
+#, kde-format
+msgid "2X & 4X"
+msgstr "2X & 4X"
+
+#: kpci_private.h:731
+#, kde-format
+msgid "1X & 2X & 4X"
+msgstr "1X & 2X & 4X"
+
+#: kpci_private.h:733
+#, kde-format
+msgid "8X"
+msgstr "8X"
+
+#: kpci_private.h:734
+#, kde-format
+msgid "4X & 8X"
+msgstr "4X & 8X"
+
+#: kpci_private.h:740
+#, kde-format
+msgid "4 ms"
+msgstr "4 ms"
+
+#: kpci_private.h:741
+#, kde-format
+msgid "16 ms"
+msgstr "16 ms"
+
+#: kpci_private.h:742
+#, kde-format
+msgid "64 ms"
+msgstr "64 ms"
+
+#: kpci_private.h:743
+#, kde-format
+msgid "256 ms"
+msgstr "256 ms"
+
+#: kpci_private.h:744
+#, kde-format
+msgid "Not needed"
+msgstr "Nije potreban"
+
+#: kpci_private.h:750
+#, kde-format
+msgid "0 (self powered)"
+msgstr "0 (samostalno napajan)"
+
+#: kpci_private.h:751
+#, kde-format
+msgid "55 mA"
+msgstr "55 mA"
+
+#: kpci_private.h:752
+#, kde-format
+msgid "100 mA"
+msgstr "100 mA"
+
+#: kpci_private.h:753
+#, kde-format
+msgid "160 mA"
+msgstr "160 mA"
+
+#: kpci_private.h:754
+#, kde-format
+msgid "220 mA"
+msgstr "220 mA"
+
+#: kpci_private.h:755
+#, kde-format
+msgid "270 mA"
+msgstr "270 mA"
+
+#: kpci_private.h:756
+#, kde-format
+msgid "320 mA"
+msgstr "320 mA"
+
+#: kpci_private.h:757
+#, kde-format
+msgid "375 mA"
+msgstr "375 mA"
+
+#: kpci_private.h:772
+#, kde-format
+msgid "1 vector"
+msgstr "1 vektor"
+
+#: kpci_private.h:773
+#, kde-format
+msgid "2 vectors"
+msgstr "2 vektora"
+
+#: kpci_private.h:774
+#, kde-format
+msgid "4 vectors"
+msgstr "4 vektora"
+
+#: kpci_private.h:775
+#, kde-format
+msgid "8 vectors"
+msgstr "8 vektora"
+
+#: kpci_private.h:776
+#, kde-format
+msgid "16 vectors"
+msgstr "16 vektora"
+
+#: kpci_private.h:777
+#, kde-format
+msgid "32 vectors"
+msgstr "32 vektora"

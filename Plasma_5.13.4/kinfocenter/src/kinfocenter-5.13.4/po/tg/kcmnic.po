@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tajik KDE Software Localization\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-23 03:11+0200\n"
+"PO-Revision-Date: 2010-08-29 14:33+0500\n"
+"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+"Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Tajik\n"
+"X-Poedit-Country: TAJIKISTAN\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Victor Ibragimov"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "victor.ibragimov@gmail.com"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Name"
+msgstr "Ном"
+
+#: nic.cpp:94
+#, kde-format
+msgid "IP Address"
+msgstr "Суроғаи IP"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Network Mask"
+msgstr "Маскаи шабака"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Type"
+msgstr "Намуд"
+
+#: nic.cpp:94
+#, kde-format
+msgid "State"
+msgstr "Ҳолат"
+
+#: nic.cpp:94
+#, kde-format
+msgid "HWAddr"
+msgstr "HWAddr"
+
+#: nic.cpp:98
+#, kde-format
+msgid "&Update"
+msgstr "&Навсозӣ"
+
+#: nic.cpp:106
+#, kde-format
+msgid "kcminfo"
+msgstr "kcminfo"
+
+#: nic.cpp:107
+#, fuzzy, kde-format
+#| msgid "KDE Panel System Information Control Module"
+msgid "System Information Control Module"
+msgstr "Модули идоракунии системаи иттилоотии KDE"
+
+#: nic.cpp:109
+#, kde-format
+msgid "(c) 2001 - 2002 Alexander Neundorf"
+msgstr "(c) 2001 - 2002 Alexander Neundorf"
+
+#: nic.cpp:111
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"
+
+#: nic.cpp:147
+#, kde-format
+msgctxt "State of network card is connected"
+msgid "Up"
+msgstr "Боло"
+
+#: nic.cpp:148
+#, kde-format
+msgctxt "State of network card is disconnected"
+msgid "Down"
+msgstr "Поён"
+
+#: nic.cpp:191
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Broadcast"
+msgstr "Пахш"
+
+#: nic.cpp:193
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Point to Point"
+msgstr "Нуқта ба нуқта"
+
+#: nic.cpp:196
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Multicast"
+msgstr "Мултикаст"
+
+#: nic.cpp:199
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Loopback"
+msgstr "Баргашт"
+
+#: nic.cpp:201
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Unknown"
+msgstr "Номуайян"
+
+#: nic.cpp:211
+#, kde-format
+msgctxt "Unknown network mask"
+msgid "Unknown"
+msgstr "Номуайян"
+
+#: nic.cpp:230
+#, kde-format
+msgctxt "Unknown HWaddr"
+msgid "Unknown"
+msgstr "Номуайян"
+
+#: nic.cpp:287
+#, kde-format
+msgid "Point to Point"
+msgstr "Нуқта ба нуқта"
+
+#: nic.cpp:294
+#, kde-format
+msgid "Broadcast"
+msgstr "Пахш"
+
+#: nic.cpp:301
+#, kde-format
+msgid "Multicast"
+msgstr "Мултикаст"
+
+#: nic.cpp:308
+#, kde-format
+msgid "Loopback"
+msgstr "Баргашт"

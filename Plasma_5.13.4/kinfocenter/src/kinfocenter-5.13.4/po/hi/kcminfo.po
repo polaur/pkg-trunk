@@ -1,0 +1,630 @@
+# translation of kcminfo.po to Hindi
+# Copyright (C) 2004, 2010 Free Software Foundation, Inc.
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2004.
+# Ravishankar Shrivastava <raviratlami@gmail.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcminfo\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-02-09 03:35+0100\n"
+"PO-Revision-Date: 2010-12-29 03:08+0530\n"
+"Last-Translator: G Karunakar\n"
+"Language-Team: Hindi <en@li.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"X-Poedit-Language: Hindi\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "रविशंकर श्रीवास्तव, जी. करूणाकर"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "raviratlami@aol.in,"
+
+#: ../base/info_aix.cpp:68 ../base/info_wayland.cpp:88
+#, kde-format
+msgid "Name"
+msgstr "नाम"
+
+#: ../base/info_aix.cpp:69
+#, kde-format
+msgid "Status"
+msgstr "स्थिति"
+
+#: ../base/info_aix.cpp:70
+#, kde-format
+msgid "Location"
+msgstr "स्थान"
+
+#: ../base/info_aix.cpp:71
+#, kde-format
+msgid "Description"
+msgstr "विवरण"
+
+#: ../base/info_fbsd.cpp:89
+#, fuzzy, kde-format
+#| msgid "Information"
+msgctxt "@title:column Column name for PCI information"
+msgid "Information"
+msgstr "जानकारी"
+
+#: ../base/info_fbsd.cpp:94
+#, kde-format
+msgid ""
+"Could not find any programs with which to query your system's PCI information"
+msgstr "नहीं ढूंढें के साथ को से. पीसीआई"
+
+#: ../base/info_fbsd.cpp:105
+#, kde-format
+msgid "PCI subsystem could not be queried: %1 could not be executed"
+msgstr "पीसीआई उपतंत्र से पूछताछ नहीं हो सकी.: %1 चलाया नहीं जा सका"
+
+#: ../base/info_fbsd.cpp:124
+#, kde-format
+msgid "The PCI subsystem could not be queried, this may need root privileges."
+msgstr "पीसीआई उपतंत्र से पूछताछ नहीं हो सकी, इसे रूट का विशेषाधिकार चाहिए."
+
+#: ../base/info_hpux.cpp:128
+#, fuzzy, kde-format
+#| msgid "Processor(s)"
+msgid "PA-RISC Processor"
+msgstr "प्रोसेसर"
+
+#: ../base/info_hpux.cpp:130
+#, kde-format
+msgid "PA-RISC Revision"
+msgstr "PA-RISC संशोधन"
+
+#: ../base/info_linux.cpp:103 main.cpp:51
+#, kde-format
+msgid "DMA-Channel"
+msgstr "डीएमए-चैनल"
+
+#: ../base/info_linux.cpp:103 ../base/info_linux.cpp:154
+#, kde-format
+msgid "Used By"
+msgstr "द्वारा उपयोग में"
+
+#: ../base/info_linux.cpp:154
+#, kde-format
+msgid "I/O-Range"
+msgstr "आई/ओ-रेंज"
+
+#: ../base/info_netbsd.cpp:120 ../base/info_openbsd.cpp:131
+#, kde-format
+msgid "IRQ"
+msgstr "आईआरक्यू"
+
+#: ../base/info_netbsd.cpp:120 ../base/info_openbsd.cpp:131
+#, fuzzy, kde-format
+#| msgid "Devices"
+msgid "Device"
+msgstr "औज़ार"
+
+#: ../base/info_netbsd.cpp:138 ../base/info_openbsd.cpp:144
+#, kde-format
+msgid "No PCI devices found."
+msgstr "कोई पीसीआई औज़ार नहीं मिला."
+
+#: ../base/info_netbsd.cpp:147 ../base/info_openbsd.cpp:153
+#, kde-format
+msgid "No I/O port devices found."
+msgstr "कोई आई/ओ पोर्ट औज़ार नहीं मिला."
+
+#: ../base/info_wayland.cpp:57 ../base/os_base.h:228
+#, kde-format
+msgid "Information"
+msgstr "जानकारी"
+
+#: ../base/info_wayland.cpp:57 ../base/os_base.h:228
+#, kde-format
+msgid "Value"
+msgstr "मान"
+
+#: ../base/info_wayland.cpp:60
+#, fuzzy, kde-format
+#| msgid "Information"
+msgid "Compositor Information"
+msgstr "जानकारी"
+
+#: ../base/info_wayland.cpp:64 ../base/os_base.h:239
+#, kde-format
+msgid "Name of the Display"
+msgstr "प्रदर्शक का नाम"
+
+#: ../base/info_wayland.cpp:66
+#, kde-format
+msgid "Interfaces"
+msgstr ""
+
+#: ../base/info_wayland.cpp:66
+#, kde-format
+msgid "Interface Version"
+msgstr ""
+
+#: ../base/info_wayland.cpp:83
+#, kde-format
+msgid "Seat"
+msgstr ""
+
+#: ../base/info_wayland.cpp:94
+#, kde-format
+msgid "Pointer"
+msgstr ""
+
+#: ../base/info_wayland.cpp:101
+#, kde-format
+msgid "Keyboard"
+msgstr ""
+
+#: ../base/info_wayland.cpp:103
+#, kde-format
+msgid "Repeat enabled"
+msgstr ""
+
+#: ../base/info_wayland.cpp:104
+#, kde-format
+msgid "Repeat rate (characters per second)"
+msgstr ""
+
+#: ../base/info_wayland.cpp:105
+#, kde-format
+msgid "Repeat delay (msec)"
+msgstr ""
+
+#: ../base/info_wayland.cpp:109 ../base/os_base.h:175
+#, kde-format
+msgid "Yes"
+msgstr "हाँ"
+
+#: ../base/info_wayland.cpp:109 ../base/os_base.h:176
+#, kde-format
+msgid "No"
+msgstr "नहीं"
+
+#: ../base/info_wayland.cpp:120
+#, kde-format
+msgid "Touch"
+msgstr ""
+
+#: ../base/info_wayland.cpp:126
+#, fuzzy, kde-format
+#| msgid "Output Channels"
+msgid "Outputs"
+msgstr "आउटपुट चैनल्स"
+
+#: ../base/info_wayland.cpp:140
+#, kde-format
+msgid "Manufacturer"
+msgstr "उत्पादक"
+
+#: ../base/info_wayland.cpp:141
+#, kde-format
+msgid "Model"
+msgstr "मॉडल"
+
+#: ../base/info_wayland.cpp:142
+#, fuzzy, kde-format
+#| msgid "Physical Path:"
+msgid "Physical Size"
+msgstr "फिज़ीकल पथः"
+
+#: ../base/info_wayland.cpp:143
+#, kde-format
+msgid "Global Position"
+msgstr ""
+
+#: ../base/info_wayland.cpp:148
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: ../base/info_wayland.cpp:151
+#, kde-format
+msgid "Horizontal RGB"
+msgstr ""
+
+#: ../base/info_wayland.cpp:154
+#, kde-format
+msgid "Horizontal BGR"
+msgstr ""
+
+#: ../base/info_wayland.cpp:157
+#, kde-format
+msgid "Vertical RGB"
+msgstr ""
+
+#: ../base/info_wayland.cpp:160
+#, kde-format
+msgid "Vertical BGR"
+msgstr ""
+
+#: ../base/info_wayland.cpp:164
+#, fuzzy, kde-format
+#| msgid "(unknown)"
+msgid "Unknown"
+msgstr "(अज्ञात)"
+
+#: ../base/info_wayland.cpp:167
+#, kde-format
+msgid "Subpixel"
+msgstr ""
+
+#: ../base/info_wayland.cpp:181
+#, kde-format
+msgid "Flipped"
+msgstr ""
+
+#: ../base/info_wayland.cpp:184
+#, kde-format
+msgid "Flipped 90"
+msgstr ""
+
+#: ../base/info_wayland.cpp:187
+#, kde-format
+msgid "Flipped 180"
+msgstr ""
+
+#: ../base/info_wayland.cpp:190
+#, kde-format
+msgid "Flipped 270"
+msgstr ""
+
+#: ../base/info_wayland.cpp:194
+#, kde-format
+msgid "Normal"
+msgstr ""
+
+#: ../base/info_wayland.cpp:197
+#, kde-format
+msgid "Transform"
+msgstr ""
+
+#: ../base/info_wayland.cpp:198
+#, kde-format
+msgctxt "The scale factor of the output"
+msgid "Scale"
+msgstr ""
+
+#: ../base/info_wayland.cpp:201
+#, fuzzy, kde-format
+#| msgid "Model"
+msgid "Modes"
+msgstr "मॉडल"
+
+#: ../base/info_wayland.cpp:206
+#, fuzzy, kde-format
+#| msgid "Free Size"
+msgid "Size"
+msgstr "मुक्त आकार"
+
+#: ../base/info_wayland.cpp:208
+#, kde-format
+msgid "Refresh Rate"
+msgstr ""
+
+#: ../base/info_wayland.cpp:210
+#, kde-format
+msgid "Preferred"
+msgstr ""
+
+#: ../base/info_wayland.cpp:211 ../base/info_wayland.cpp:213
+#, fuzzy, kde-format
+#| msgid "Yes"
+msgid "yes"
+msgstr "हाँ"
+
+#: ../base/info_wayland.cpp:211 ../base/info_wayland.cpp:213
+#, kde-format
+msgid "no"
+msgstr ""
+
+#: ../base/info_wayland.cpp:212
+#, kde-format
+msgid "Current"
+msgstr ""
+
+#: ../base/os_base.h:60
+#, kde-format
+msgid "LSBFirst"
+msgstr "LSBFirst"
+
+#: ../base/os_base.h:62
+#, kde-format
+msgid "MSBFirst"
+msgstr "MSBFirst"
+
+#: ../base/os_base.h:64
+#, kde-format
+msgid "Unknown Order %1"
+msgstr "अज्ञात अनुक्रम %1"
+
+#: ../base/os_base.h:69
+#, kde-format
+msgid "1 Bit"
+msgid_plural "%1 Bits"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../base/os_base.h:73
+#, kde-format
+msgid "1 Byte"
+msgid_plural "%1 Bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../base/os_base.h:114
+#, kde-format
+msgid "Screen # %1"
+msgstr "स्क्रीन # %1"
+
+#: ../base/os_base.h:116
+#, kde-format
+msgid "(Default Screen)"
+msgstr "(डिफ़ॉल्ट स्क्रीन)"
+
+#: ../base/os_base.h:125
+#, kde-format
+msgid "Dimensions"
+msgstr "आयाम"
+
+#: ../base/os_base.h:125
+#, kde-format
+msgid "%1 x %2 Pixels (%3 x %4 mm)"
+msgstr "%1 x %2 पिक्सेल (%3 x %4 mm)"
+
+#: ../base/os_base.h:129
+#, kde-format
+msgid "Resolution"
+msgstr "रिसॉल्यूशन"
+
+#: ../base/os_base.h:129
+#, kde-format
+msgid "%1 x %2 dpi"
+msgstr "%1 x %2 डीपीआई"
+
+#: ../base/os_base.h:146
+#, kde-format
+msgid "Depths (%1)"
+msgstr "गहराई (%1)"
+
+#: ../base/os_base.h:152
+#, kde-format
+msgid "Root Window ID"
+msgstr "रूट विंडो आईडी"
+
+#: ../base/os_base.h:156
+#, kde-format
+msgid "Depth of Root Window"
+msgstr "का रूट विंडो"
+
+#: ../base/os_base.h:156
+#, kde-format
+msgid "%1 plane"
+msgid_plural "%1 planes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../base/os_base.h:160
+#, kde-format
+msgid "Number of Colormaps"
+msgstr "कलरमेप्स की संख्या"
+
+#: ../base/os_base.h:160
+#, kde-format
+msgid "minimum %1, maximum %2"
+msgstr "न्यूनतम %1, अधिकतम %2"
+
+#: ../base/os_base.h:164
+#, kde-format
+msgid "Default Colormap"
+msgstr "डिफ़ॉल्ट"
+
+#: ../base/os_base.h:168
+#, kde-format
+msgid "Default Number of Colormap Cells"
+msgstr "डिफ़ॉल्ट संख्या का"
+
+#: ../base/os_base.h:172
+#, kde-format
+msgid "Preallocated Pixels"
+msgstr "Preallocated Pixelss"
+
+#: ../base/os_base.h:172
+#, kde-format
+msgid "Black %1, White %2"
+msgstr "काला %1, सफेद %2"
+
+#: ../base/os_base.h:179
+#, kde-format
+msgid "Options"
+msgstr "विकल्प"
+
+#: ../base/os_base.h:179
+#, kde-format
+msgid "When mapped"
+msgstr "जब मैप्ड हो"
+
+#: ../base/os_base.h:179
+#, kde-format
+msgid "backing-store: %1, save-unders: %2"
+msgstr "बेकिंग-स्टोर: %1, सेव-अंडर्स: %2"
+
+#: ../base/os_base.h:185
+#, kde-format
+msgid "Largest Cursor"
+msgstr "सबसे बड़ा संकेतक"
+
+#: ../base/os_base.h:187
+#, kde-format
+msgid "unlimited"
+msgstr "असीमित"
+
+#: ../base/os_base.h:193
+#, kde-format
+msgid "Current Input Event Mask"
+msgstr "मौज़ूदा इनपुट इवेंट मास्क"
+
+#: ../base/os_base.h:199
+#, kde-format
+msgid "Event = %1"
+msgstr "घटना = %1"
+
+#: ../base/os_base.h:233
+#, kde-format
+msgid "Server Information"
+msgstr "सर्वर जानकारी"
+
+#: ../base/os_base.h:243
+#, kde-format
+msgid "Vendor String"
+msgstr "विक्रेता स्ट्रिंग"
+
+#: ../base/os_base.h:247
+#, kde-format
+msgid "Vendor Release Number"
+msgstr "विक्रेता जारी क्रमांक"
+
+#: ../base/os_base.h:251
+#, kde-format
+msgid "Version Number"
+msgstr "संस्करण क्रमांक"
+
+#: ../base/os_base.h:255
+#, kde-format
+msgid "Available Screens"
+msgstr "उपलब्द स्क्रीन"
+
+#: ../base/os_base.h:265
+#, kde-format
+msgid "Supported Extensions"
+msgstr "समर्थित एक्सटेंशन्स"
+
+#: ../base/os_base.h:280
+#, kde-format
+msgid "Supported Pixmap Formats"
+msgstr "समर्थित पिक्समेप फार्मेट्स"
+
+#: ../base/os_base.h:287
+#, kde-format
+msgid "Pixmap Format #%1"
+msgstr "पिक्समेप फार्मेट #%1"
+
+#: ../base/os_base.h:287
+#, kde-format
+msgid "%1 BPP, Depth: %2, Scanline padding: %3"
+msgstr "%1 BPP, गहराई: %2, स्कैनलाइन पैडिंग: %3"
+
+#: ../base/os_base.h:299
+#, kde-format
+msgid "Maximum Request Size"
+msgstr "अधिकतम निवेदित आकार"
+
+#: ../base/os_base.h:303
+#, kde-format
+msgid "Motion Buffer Size"
+msgstr "गति बफर आकार"
+
+#: ../base/os_base.h:307
+#, kde-format
+msgid "Bitmap"
+msgstr "बिटमैप"
+
+#: ../base/os_base.h:311
+#, kde-format
+msgid "Unit"
+msgstr "इकाई"
+
+#: ../base/os_base.h:315
+#, kde-format
+msgid "Order"
+msgstr "अनुक्रम"
+
+#: ../base/os_base.h:319
+#, kde-format
+msgid "Padding"
+msgstr "पैडिंग"
+
+#: ../base/os_base.h:323
+#, kde-format
+msgid "Image Byte Order"
+msgstr "छवि बाइट अनुक्रम"
+
+#: ../base/os_current.h:57 ../base/os_current.h:66 ../base/os_current.h:86
+#: ../base/os_current.h:95 ../base/os_current.h:104 ../base/os_current.h:114
+#: ../base/os_current.h:123 ../base/os_current.h:132
+#, kde-format
+msgid "This system may not be completely supported yet."
+msgstr "नहीं."
+
+#: info.cpp:36
+#, kde-format
+msgid "System Information Control Module"
+msgstr "तंत्र जानकारी नियंत्रण मॉड्यूल"
+
+#: info.cpp:38
+#, kde-format
+msgid ""
+"(c) 2008 Nicolas Ternisien\n"
+"(c) 1998 - 2002 Helge Deller"
+msgstr ""
+"(c) 2008 निकोलस टर्निसेन\n"
+"(c) 1998 - 2002 हेल्ग डेलर"
+
+#: info.cpp:41
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr "निकोलस टर्निसेन"
+
+#: info.cpp:42
+#, kde-format
+msgid "Helge Deller"
+msgstr "हेल्ग डेलर"
+
+#: info.cpp:62
+#, kde-format
+msgid "This list displays system information on the selected category."
+msgstr "यह सूची चुने गए वर्गों में तंत्र जानकारी प्रदर्शित करती है."
+
+#: info.cpp:78
+#, kde-format
+msgctxt "%1 is one of the modules of the kinfocenter, cpu info, os info, etc"
+msgid "No information available about %1."
+msgstr "%1 के बारे में कोई जानकारी उपलब्ध नहीं."
+
+#: info.cpp:109
+#, kde-format
+msgid ""
+"All the information modules return information about a certain aspect of "
+"your computer hardware or your operating system."
+msgstr ""
+"ये सभी जानकारी मॉड्यूल - आपके कम्प्यूटर हार्डवेयर या आपके ऑपरेटिंग सिस्टम के बारे में किसी न "
+"किसी पहलू के बारे में जानकारियाँ बताते हैं."
+
+#: main.cpp:45
+#, kde-format
+msgid "Interrupt"
+msgstr "इंटरप्ट"
+
+#: main.cpp:48
+#, kde-format
+msgid "I/O-Port"
+msgstr "आई/ओ पोर्ट"
+
+#: main.cpp:54
+#, kde-format
+msgid "X-Server"
+msgstr "X-सर्वर"
+
+#: main.cpp:57
+#, kde-format
+msgid "Wayland"
+msgstr ""

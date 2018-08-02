@@ -1,0 +1,221 @@
+# translation of kcm_memory.po to marathi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
+# Chetan Khona <chetan@kompkin.com>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_memory\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-09-16 03:33+0200\n"
+"PO-Revision-Date: 2013-02-23 17:39+0530\n"
+"Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
+"Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"संदिप शेडमाके, \n"
+"चेतन खोना"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"sandeep.shedmake@gmail.com, \n"
+"chetan@kompkin.com"
+
+#: chartWidget.cpp:56 chartWidget.cpp:57 memory.cpp:270
+#, kde-format
+msgid "Not available."
+msgstr "उपलब्ध नाही."
+
+#: chartWidget.cpp:106
+#, kde-format
+msgid "%1 free"
+msgstr "%1 मोकळे"
+
+#: memory.cpp:64
+#, kde-format
+msgid "kcm_memory"
+msgstr "kcm_memory"
+
+#: memory.cpp:65
+#, kde-format
+msgid "KDE Panel Memory Information Control Module"
+msgstr "केडीई पटल स्मृती माहिती नियंत्रण विभाग"
+
+#: memory.cpp:67
+#, kde-format
+msgid "(c) 1998 - 2002 Helge Deller"
+msgstr "(c) 1998 - 2002 Helge Deller"
+
+#: memory.cpp:69
+#, kde-format
+msgid "Helge Deller"
+msgstr "हेल्ग डेलर"
+
+#: memory.cpp:101
+#, kde-format
+msgid ""
+"This display shows you the current memory usage of your system. The values "
+"are updated on a regular basis and give you an overview of the physical and "
+"virtual memory being used."
+msgstr ""
+"हे प्रदर्शन तुम्हाला प्रणाली वरील वर्तमान स्मृतीचा वापर दर्शविते. मूल्य वेळोवेळी अद्ययावत "
+"होतात व तुम्हाला वापरण्याजोगी वास्तविक व आभासी स्मृती वापरचा पूर्वावलोकन पुरविते."
+
+#: memory.cpp:107
+#, kde-format
+msgid "Memory"
+msgstr "स्मृती"
+
+#: memory.cpp:125
+#, kde-format
+msgid "Total physical memory:"
+msgstr "एकूण वास्तविक स्मृती:"
+
+#: memory.cpp:128
+#, kde-format
+msgid "Free physical memory:"
+msgstr "मोकळी वास्तविक स्मृती:"
+
+#: memory.cpp:133
+#, kde-format
+msgid "Shared memory:"
+msgstr "सहभागीय स्मृती:"
+
+#: memory.cpp:136
+#, kde-format
+msgid "Disk buffers:"
+msgstr "डिस्क बफर:"
+
+#: memory.cpp:140
+#, kde-format
+msgid "Active memory:"
+msgstr "सक्रिय स्मृती:"
+
+#: memory.cpp:143
+#, kde-format
+msgid "Inactive memory:"
+msgstr "निष्क्रिय स्मृती:"
+
+#: memory.cpp:148
+#, kde-format
+msgid "Disk cache:"
+msgstr "डिस्क कॅशे:"
+
+#: memory.cpp:152
+#, kde-format
+msgid "Total swap memory:"
+msgstr "एकूण स्वॅप स्मृती:"
+
+#: memory.cpp:155
+#, kde-format
+msgid "Free swap memory:"
+msgstr "मोकळी स्वॅप स्मृती:"
+
+#: memory.cpp:196
+#, kde-format
+msgid "Charts"
+msgstr "चार्ट"
+
+#: memory.cpp:206
+#, kde-format
+msgid "Total Memory"
+msgstr "एकूण स्मृती"
+
+#: memory.cpp:207
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>total sum of physical and virtual "
+"memory</b> in your system."
+msgstr ""
+"या ग्राफ तुम्हाला प्रणालीवरील <b>वास्तविक व आभासी स्मृती</b> याची एकूण बेरीज पुरविते."
+
+#: memory.cpp:216
+#, kde-format
+msgid "Physical Memory"
+msgstr "वास्तविक स्मृती"
+
+#: memory.cpp:217
+#, kde-format
+msgid ""
+"This graph gives you an overview of the <b>usage of physical memory</b> in "
+"your system.<p>Most operating systems (including Linux) will use as much of "
+"the available physical memory as possible as disk cache, to speed up the "
+"system performance.</p><p>This means that if you have a small amount of "
+"<b>Free Physical Memory</b> and a large amount of <b>Disk Cache Memory</b>, "
+"your system is well configured.</p>"
+msgstr ""
+
+#: memory.cpp:232
+#, kde-format
+msgid "Swap Space"
+msgstr "स्वॅप जागा"
+
+#: memory.cpp:233
+#, kde-format
+msgid ""
+"<p>The swap space is the <b>virtual memory</b> available to the system.</p> "
+"<p>It will be used on demand and is provided through one or more swap "
+"partitions and/or swap files.</p>"
+msgstr ""
+"<p>स्वॅप जागा म्हणजे प्रणालीकरिता उपलब्ध <b>आभासी स्मृती</b> आहे.</p> <p>त्याचा वापर "
+"आवश्यकता नुरूप केला जातो व एक किंवा त्यापेक्षा जास्त स्वॅप विभाजन व/किंवा स्वॅप फाईल द्वारे "
+"केले जाते.</p>"
+
+#: memory.cpp:264
+#, kde-format
+msgid "1 byte ="
+msgid_plural "%1 bytes ="
+msgstr[0] "1 बाइट ="
+msgstr[1] "%1 बाइटस् ="
+
+#: physicalMemoryChart.cpp:50
+#, kde-format
+msgid "Free Physical Memory"
+msgstr "मोकळी वास्तविक स्मृती"
+
+#: physicalMemoryChart.cpp:52
+#, kde-format
+msgid "Disk Cache"
+msgstr "डिस्क कॅशे"
+
+#: physicalMemoryChart.cpp:54
+#, kde-format
+msgid "Disk Buffers"
+msgstr "डिस्क बफर"
+
+#: physicalMemoryChart.cpp:56
+#, kde-format
+msgid "Application Data"
+msgstr "अनुप्रयोगविषयी माहिती"
+
+#: swapMemoryChart.cpp:47
+#, kde-format
+msgid "Free Swap"
+msgstr "मोकळे स्वॅप"
+
+#: swapMemoryChart.cpp:49 totalMemoryChart.cpp:43
+#, kde-format
+msgid "Used Swap"
+msgstr "वापरलेले स्वॅप"
+
+#: totalMemoryChart.cpp:41
+#, kde-format
+msgid "Total Free Memory"
+msgstr "एकूण मोकळे स्मृती"
+
+#: totalMemoryChart.cpp:45
+#, kde-format
+msgid "Used Physical Memory"
+msgstr "वापरलेले वास्तविक स्मृती"

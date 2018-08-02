@@ -1,0 +1,162 @@
+# Translation of kcmnic to Croatian
+#
+# Andrej Dundović <adundovi@gmail.com>, 2009.
+# DoDo <DoDoEntertainment@gmail.com>, 2009.
+# Marko Dimjašević <marko@dimjasevic.net>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmnic 0\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-10-23 03:11+0200\n"
+"PO-Revision-Date: 2011-07-12 17:37+0200\n"
+"Last-Translator: Marko Dimjašević <marko@dimjasevic.net>\n"
+"Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Renato Pavičić, Andrej Dundović"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "renato@translator-shop.org, adundovi@gmail.com"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Name"
+msgstr "Naziv"
+
+#: nic.cpp:94
+#, kde-format
+msgid "IP Address"
+msgstr "IP adresa"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Network Mask"
+msgstr "Mrežna maska"
+
+#: nic.cpp:94
+#, kde-format
+msgid "Type"
+msgstr "Vrsta"
+
+#: nic.cpp:94
+#, kde-format
+msgid "State"
+msgstr "Stanje"
+
+#: nic.cpp:94
+#, kde-format
+msgid "HWAddr"
+msgstr "HWaddr"
+
+#: nic.cpp:98
+#, kde-format
+msgid "&Update"
+msgstr "&Ažuriraj"
+
+#: nic.cpp:106
+#, kde-format
+msgid "kcminfo"
+msgstr "kcminfo"
+
+#: nic.cpp:107
+#, kde-format
+msgid "System Information Control Module"
+msgstr "Upravljački modul za informacije o sustavu"
+
+#: nic.cpp:109
+#, kde-format
+msgid "(c) 2001 - 2002 Alexander Neundorf"
+msgstr "© 2001–2002 Alexander Neundorf"
+
+#: nic.cpp:111
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"
+
+#: nic.cpp:147
+#, kde-format
+msgctxt "State of network card is connected"
+msgid "Up"
+msgstr "Povezano"
+
+#: nic.cpp:148
+#, kde-format
+msgctxt "State of network card is disconnected"
+msgid "Down"
+msgstr "Nije povezano"
+
+#: nic.cpp:191
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Broadcast"
+msgstr "Opća objava"
+
+#: nic.cpp:193
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Point to Point"
+msgstr "Od točke do točke"
+
+#: nic.cpp:196
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Multicast"
+msgstr "Određena objava"
+
+#: nic.cpp:199
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Loopback"
+msgstr "Povratna petlja"
+
+#: nic.cpp:201
+#, kde-format
+msgctxt "@item:intext Mode of network card"
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: nic.cpp:211
+#, kde-format
+msgctxt "Unknown network mask"
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: nic.cpp:230
+#, kde-format
+msgctxt "Unknown HWaddr"
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: nic.cpp:287
+#, kde-format
+msgid "Point to Point"
+msgstr "Od točke do točke"
+
+#: nic.cpp:294
+#, kde-format
+msgid "Broadcast"
+msgstr "Opća objava"
+
+#: nic.cpp:301
+#, kde-format
+msgid "Multicast"
+msgstr "Određena objava"
+
+#: nic.cpp:308
+#, kde-format
+msgid "Loopback"
+msgstr "Povratna petlja"

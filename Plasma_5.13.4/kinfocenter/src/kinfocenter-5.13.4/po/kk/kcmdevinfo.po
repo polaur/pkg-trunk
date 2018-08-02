@@ -1,0 +1,522 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sairan Kikkarin <sairan@computer.org>, 2010.
+# Sairan Kikkarin <sairan(at)computer.org>, 2010, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2018-04-05 03:41+0200\n"
+"PO-Revision-Date: 2013-01-03 06:22+0600\n"
+"Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
+"Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Сайран Киккарин"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sairan@computer.org"
+
+#: devicelisting.cpp:47
+#, kde-format
+msgctxt "Device Listing Whats This"
+msgid "Shows all the devices that are currently listed."
+msgstr "Қазір тізімдегі барлық құрылғыларын көрсетеді."
+
+#: devicelisting.cpp:50
+#, kde-format
+msgid "Devices"
+msgstr "Құрылғылар"
+
+#: devicelisting.cpp:62
+#, kde-format
+msgid "Collapse All"
+msgstr "Барлығын бүктеу"
+
+#: devicelisting.cpp:65
+#, kde-format
+msgid "Expand All"
+msgstr "Барлығын тарқату"
+
+#: devicelisting.cpp:68
+#, kde-format
+msgid "Show All Devices"
+msgstr "Барлық құрылғыларын көрсету"
+
+#: devicelisting.cpp:71
+#, kde-format
+msgid "Show Relevant Devices"
+msgstr "Тиісті құрылғыларын көрсету"
+
+#: devicelisting.cpp:100
+#, kde-format
+msgctxt "unknown device type"
+msgid "Unknown"
+msgstr "Беймәлім"
+
+#: devicelisting.cpp:141 devinfo.cpp:87
+#, kde-format
+msgctxt "no device UDI"
+msgid "None"
+msgstr "Жоқ"
+
+#: devinfo.cpp:33
+#, kde-format
+msgid "kcmdevinfo"
+msgstr "kcmdevinfo"
+
+#: devinfo.cpp:33
+#, fuzzy, kde-format
+#| msgid "KDE Solid Based Device Viewer"
+msgid "Device Viewer"
+msgstr "KDE Solid негізді құрылғыларды қарау құралы"
+
+#: devinfo.cpp:35
+#, kde-format
+msgid "(c) 2010 David Hubner"
+msgstr "(c) 2010 David Hubner"
+
+#: devinfo.cpp:65
+#, kde-format
+msgid "UDI: "
+msgstr "UDI: "
+
+#: devinfo.cpp:74
+#, kde-format
+msgctxt "Udi Whats This"
+msgid "Shows the current device's UDI (Unique Device Identifier)"
+msgstr "Назардағы құрылғының UDI (Unique Device Identifier) көрсеткіші"
+
+#: infopanel.cpp:25
+#, kde-format
+msgid "Device Information"
+msgstr "Құрылғы мәліметі"
+
+#: infopanel.cpp:35
+#, kde-format
+msgctxt "Info Panel Whats This"
+msgid "Shows information about the currently selected device."
+msgstr "Назардағы құрылғы туралы мәлімет"
+
+#: infopanel.cpp:62
+#, kde-format
+msgid ""
+"\n"
+"Solid Based Device Viewer Module"
+msgstr ""
+"\n"
+"KDE Solid негізді құрылғыларды қарау құралының модулі"
+
+#: infopanel.cpp:125
+#, kde-format
+msgid "Product: "
+msgstr "Өнімі: "
+
+#: infopanel.cpp:125
+#, kde-format
+msgid "Vendor: "
+msgstr "Жабдықтаушысы: "
+
+#: infopanel.cpp:146
+#, kde-format
+msgid "Yes"
+msgstr "Иә"
+
+#: infopanel.cpp:148
+#, kde-format
+msgid "No"
+msgstr "Жоқ"
+
+#: infopanel.h:57
+#, kde-format
+msgctxt "name of something is not known"
+msgid "Unknown"
+msgstr "Беймәлім"
+
+#: soldevice.cpp:72
+#, kde-format
+msgctxt "unknown device"
+msgid "Unknown"
+msgstr "Беймәлім"
+
+#: soldevice.cpp:99
+#, kde-format
+msgctxt "Default device tooltip"
+msgid "A Device"
+msgstr "Құрылғы"
+
+#: soldevicetypes.cpp:44
+#, kde-format
+msgid "Processors"
+msgstr "Процессорлар"
+
+#: soldevicetypes.cpp:60
+#, kde-format
+msgid "Processor %1"
+msgstr "%1 процессоры"
+
+#: soldevicetypes.cpp:77
+#, kde-format
+msgid "Intel MMX"
+msgstr "Intel MMX"
+
+#: soldevicetypes.cpp:80
+#, kde-format
+msgid "Intel SSE"
+msgstr "Intel SSE"
+
+#: soldevicetypes.cpp:83
+#, kde-format
+msgid "Intel SSE2"
+msgstr "Intel SSE2"
+
+#: soldevicetypes.cpp:86
+#, kde-format
+msgid "Intel SSE3"
+msgstr "Intel SSE3"
+
+#: soldevicetypes.cpp:89
+#, kde-format
+msgid "Intel SSE4"
+msgstr "Intel SSE4"
+
+#: soldevicetypes.cpp:92
+#, kde-format
+msgid "AMD 3DNow"
+msgstr "AMD 3DNow"
+
+#: soldevicetypes.cpp:95
+#, kde-format
+msgid "ATI IVEC"
+msgstr "ATI IVEC"
+
+#: soldevicetypes.cpp:98
+#, kde-format
+msgctxt "no instruction set extensions"
+msgid "None"
+msgstr "Жоқ"
+
+#: soldevicetypes.cpp:101
+#, kde-format
+msgid "Processor Number: "
+msgstr "Процессорлар саны:"
+
+#: soldevicetypes.cpp:103
+#, kde-format
+msgid "Max Speed: "
+msgstr "Макс.жылдамдығы:"
+
+#: soldevicetypes.cpp:105
+#, kde-format
+msgid "Supported Instruction Sets: "
+msgstr "Қолданатын нұсқаулар жиыны:"
+
+#: soldevicetypes.cpp:133
+#, kde-format
+msgid "Storage Drives"
+msgstr "Жинақтауыш құрылғылары"
+
+#: soldevicetypes.cpp:152
+#, kde-format
+msgid "Hard Disk Drive"
+msgstr "Қатқыл диск жетегі"
+
+#: soldevicetypes.cpp:155
+#, kde-format
+msgid "Compact Flash Reader"
+msgstr "Флеш-картаны оқу құралы"
+
+#: soldevicetypes.cpp:158
+#, kde-format
+msgid "Smart Media Reader"
+msgstr "Смарт-тасушысын оқу құралы"
+
+#: soldevicetypes.cpp:161
+#, kde-format
+msgid "SD/MMC Reader"
+msgstr "SD/MMC оқу құралы"
+
+#: soldevicetypes.cpp:164
+#, kde-format
+msgid "Optical Drive"
+msgstr "Оптикалық диск жетегі"
+
+#: soldevicetypes.cpp:167
+#, kde-format
+msgid "Memory Stick Reader"
+msgstr "Флеш-жады картаны оқу құралы"
+
+#: soldevicetypes.cpp:170
+#, kde-format
+msgid "xD Reader"
+msgstr "xD оқу құралы"
+
+#: soldevicetypes.cpp:173
+#, kde-format
+msgid "Unknown Drive"
+msgstr "Беймәлім құрылғы"
+
+#: soldevicetypes.cpp:193
+#, kde-format
+msgid "IDE"
+msgstr "IDE"
+
+#: soldevicetypes.cpp:196
+#, kde-format
+msgid "USB"
+msgstr "USB"
+
+#: soldevicetypes.cpp:199
+#, kde-format
+msgid "IEEE1394"
+msgstr "IEEE1394"
+
+#: soldevicetypes.cpp:202
+#, kde-format
+msgid "SCSI"
+msgstr "SCSI"
+
+#: soldevicetypes.cpp:205
+#, kde-format
+msgid "SATA"
+msgstr "SATA"
+
+#: soldevicetypes.cpp:208
+#, kde-format
+msgctxt "platform storage bus"
+msgid "Platform"
+msgstr "Платформа"
+
+#: soldevicetypes.cpp:211
+#, kde-format
+msgctxt "unknown storage bus"
+msgid "Unknown"
+msgstr "Беймәлім"
+
+#: soldevicetypes.cpp:214
+#, kde-format
+msgid "Bus: "
+msgstr "Шинасы: "
+
+#: soldevicetypes.cpp:216
+#, kde-format
+msgid "Hotpluggable?"
+msgstr "Істеп тұрғанда қосылатын ба?"
+
+#: soldevicetypes.cpp:218
+#, kde-format
+msgid "Removable?"
+msgstr "Ауыстырмалы ма?"
+
+#: soldevicetypes.cpp:262
+#, kde-format
+msgid "Unused"
+msgstr "Пайдалануда емес"
+
+#: soldevicetypes.cpp:265
+#, kde-format
+msgid "File System"
+msgstr "Файлдық жүйесі"
+
+#: soldevicetypes.cpp:268
+#, kde-format
+msgid "Partition Table"
+msgstr "Бөлімдер кестесі"
+
+#: soldevicetypes.cpp:271
+#, kde-format
+msgid "Raid"
+msgstr "RAID"
+
+#: soldevicetypes.cpp:274
+#, kde-format
+msgid "Encrypted"
+msgstr "Шифрланған"
+
+#: soldevicetypes.cpp:277
+#, kde-format
+msgctxt "unknown volume usage"
+msgid "Unknown"
+msgstr "Беймәлім"
+
+#: soldevicetypes.cpp:280
+#, kde-format
+msgid "File System Type: "
+msgstr "Файлдық жүйесінің түрі: "
+
+#: soldevicetypes.cpp:282
+#, kde-format
+msgid "Label: "
+msgstr "Жарлығы: "
+
+#: soldevicetypes.cpp:283
+#, kde-format
+msgid "Not Set"
+msgstr "Орнатылмаған"
+
+#: soldevicetypes.cpp:284
+#, kde-format
+msgid "Volume Usage: "
+msgstr "Толуы: "
+
+#: soldevicetypes.cpp:286
+#, kde-format
+msgid "UUID: "
+msgstr "UUID: "
+
+#: soldevicetypes.cpp:291
+#, kde-format
+msgid "Mounted At: "
+msgstr "Тіркеген орны: "
+
+#: soldevicetypes.cpp:292
+#, kde-format
+msgid "Not Mounted"
+msgstr "Тіркемеген"
+
+#: soldevicetypes.cpp:298
+#, kde-format
+msgid "Volume Space:"
+msgstr "Көлемі: "
+
+#: soldevicetypes.cpp:306
+#, kde-format
+msgctxt "Available space out of total partition size (percent used)"
+msgid "%1 free of %2 (%3% used)"
+msgstr "Жалпы %2, %1 бос (%3% жұмсалған)"
+
+#: soldevicetypes.cpp:312
+#, kde-format
+msgid "No data available"
+msgstr ""
+
+#: soldevicetypes.cpp:339
+#, kde-format
+msgid "Multimedia Players"
+msgstr "Мультимедиа плейерлер"
+
+#: soldevicetypes.cpp:358 soldevicetypes.cpp:400
+#, kde-format
+msgid "Supported Drivers: "
+msgstr "Танитын драйверлері: "
+
+#: soldevicetypes.cpp:360 soldevicetypes.cpp:402
+#, kde-format
+msgid "Supported Protocols: "
+msgstr "Танитын протоколдары: "
+
+#: soldevicetypes.cpp:381
+#, kde-format
+msgid "Cameras"
+msgstr "Фотокамералар"
+
+#: soldevicetypes.cpp:423
+#, kde-format
+msgid "Batteries"
+msgstr "Батареялар"
+
+#: soldevicetypes.cpp:445
+#, kde-format
+msgid "PDA"
+msgstr "PDA"
+
+#: soldevicetypes.cpp:448
+#, kde-format
+msgid "UPS"
+msgstr "UPS"
+
+#: soldevicetypes.cpp:451
+#, kde-format
+msgid "Primary"
+msgstr "Негізгі"
+
+#: soldevicetypes.cpp:454
+#, kde-format
+msgid "Mouse"
+msgstr "Тышқан"
+
+#: soldevicetypes.cpp:457
+#, kde-format
+msgid "Keyboard"
+msgstr "Пернетақта"
+
+#: soldevicetypes.cpp:460
+#, kde-format
+msgid "Keyboard + Mouse"
+msgstr "Пернетақта + Тышқан"
+
+#: soldevicetypes.cpp:463
+#, kde-format
+msgid "Camera"
+msgstr "Фотокамера"
+
+#: soldevicetypes.cpp:466
+#, kde-format
+msgid "Phone"
+msgstr ""
+
+#: soldevicetypes.cpp:469
+#, kde-format
+msgctxt "Screen"
+msgid "Monitor"
+msgstr ""
+
+#: soldevicetypes.cpp:472
+#, kde-format
+msgctxt "Wireless game pad or joystick battery"
+msgid "Gaming Input"
+msgstr ""
+
+#: soldevicetypes.cpp:475
+#, kde-format
+msgctxt "unknown battery type"
+msgid "Unknown"
+msgstr "Беймәлім"
+
+#: soldevicetypes.cpp:481
+#, kde-format
+msgid "Charging"
+msgstr "Толтырылып жатыр"
+
+#: soldevicetypes.cpp:484
+#, kde-format
+msgid "Discharging"
+msgstr "Толуы бітті"
+
+#: soldevicetypes.cpp:487
+#, fuzzy, kde-format
+#| msgid "No Charge"
+msgid "Fully Charged"
+msgstr "Толтырылмаған"
+
+#: soldevicetypes.cpp:490
+#, kde-format
+msgid "No Charge"
+msgstr "Толтырылмаған"
+
+#: soldevicetypes.cpp:493
+#, kde-format
+msgid "Battery Type: "
+msgstr "Батареяның түрі: "
+
+#: soldevicetypes.cpp:495
+#, kde-format
+msgid "Charge Status: "
+msgstr "Толу күйі: "
+
+#: soldevicetypes.cpp:497
+#, fuzzy, kde-format
+#| msgid "Charge Status: "
+msgid "Charge Percent: "
+msgstr "Толу күйі: "

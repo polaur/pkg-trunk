@@ -1,0 +1,82 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Weng Xuetian <wengxt@gmail.com>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:20+0100\n"
+"PO-Revision-Date: 2018-07-24 08:45\n"
+"Last-Translator: guoyunhebrave <guoyunhebrave@gmail.com>\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-stable/messages/kde-workspace/kcm_fileindexermonitor."
+"pot\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: kcm.cpp:44
+#, kde-format
+msgid "File Indexer Monitor"
+msgstr "文件索引器监视器"
+
+#: kcm.cpp:46
+#, kde-format
+msgid "Pinak Ahuja"
+msgstr "Pinak Ahuja"
+
+#: package/contents/ui/main.qml:47
+#, kde-format
+msgid "Indexer State: %1"
+msgstr "索引器状态：%1"
+
+#: package/contents/ui/main.qml:61
+#, kde-format
+msgid "Indexing: %1 "
+msgstr "正在索引：%1 "
+
+#: package/contents/ui/main.qml:63
+#, kde-format
+msgid "Done"
+msgstr "完成"
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgid "Resume"
+msgstr "恢复"
+
+#: package/contents/ui/main.qml:84
+#, kde-format
+msgid "Suspend"
+msgstr "挂起"
+
+#: package/contents/ui/main.qml:92
+#, kde-format
+msgid "Remaining Time: %1"
+msgstr "剩余时间：%1"
+
+#: package/contents/ui/main.qml:106
+#, kde-format
+msgid "File Indexer not running"
+msgstr "文件索引器未运行。"
+
+#: package/contents/ui/main.qml:112
+#, kde-format
+msgid "Start File Indexer"
+msgstr "启动文件索引器"

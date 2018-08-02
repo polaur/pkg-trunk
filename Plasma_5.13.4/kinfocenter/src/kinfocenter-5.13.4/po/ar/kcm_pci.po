@@ -1,0 +1,2014 @@
+# translation of kcm_pci.po to Arabic
+# translation of kcm_pci.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# محمد ابراهيم الحرقان <malham1@hotmail.com>, 2008.
+# zayed <zayed.alsaidi@gmail.com>, 2008.
+# Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_pci\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:20+0100\n"
+"PO-Revision-Date: 2012-02-09 19:04+0200\n"
+"Last-Translator: Abdalrahim Fakhouri <abdilra7eem@yahoo.com>\n"
+"Language-Team: Arabic <linuxac-kde-arabic-team@googlegroups.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 1.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "زايد السعيدي"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zayed.alsaidi@gmail.com"
+
+#: kcm_pci.cpp:42
+#, kde-format
+msgid "kcm_pci"
+msgstr "kcm_pci"
+
+#: kcm_pci.cpp:43
+#, fuzzy, kde-format
+#| msgid "Device"
+msgid "PCI Devices"
+msgstr "الجهاز"
+
+#: kcm_pci.cpp:45
+#, kde-format
+msgid "(c) 2008 Nicolas Ternisien(c) 1998 - 2002 Helge Deller"
+msgstr "(c) 2008 Nicolas Ternisien(c) 1998 - 2002 Helge Deller"
+
+#: kcm_pci.cpp:48
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
+
+#: kcm_pci.cpp:49
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: kcm_pci.cpp:62
+#, kde-format
+msgid "This list displays PCI information."
+msgstr "تعرض هذه القائمة معلومات PCI "
+
+#: kcm_pci.cpp:82
+#, kde-format
+msgid ""
+"This display shows information about your computer's PCI slots and the "
+"related connected devices."
+msgstr "تعرض هذه الشاشة معلومات عن شقوق PCI في حاسوبك والأجهزة المتصلة بها"
+
+#: kpci.cpp:64
+#, kde-format
+msgid "Device Class"
+msgstr "صنف الجهاز"
+
+#: kpci.cpp:65
+#, kde-format
+msgid "Device Subclass"
+msgstr "أجهزة الفئة الفرعية"
+
+#: kpci.cpp:66
+#, kde-format
+msgid "Device Programming Interface"
+msgstr "واجهة الجهاز البرمجية"
+
+#: kpci.cpp:68
+#, kde-format
+msgid "Master IDE Device"
+msgstr "جهاز IDE الرئيسي"
+
+#: kpci.cpp:69
+#, kde-format
+msgid "Secondary programmable indicator"
+msgstr "المؤشر الثانوي القابل للبرمجة"
+
+#: kpci.cpp:70
+#, kde-format
+msgid "Secondary operating mode"
+msgstr "وضع التشغيل الثانوي"
+
+#: kpci.cpp:71
+#, kde-format
+msgid "Primary programmable indicator"
+msgstr "المؤشر الرئيسي القابل للبرمجة"
+
+#: kpci.cpp:72
+#, kde-format
+msgid "Primary operating mode"
+msgstr "وضع التشغيل الرئيسي"
+
+#: kpci.cpp:100 kpci.cpp:124
+#, kde-format
+msgid "Vendor"
+msgstr "البائع"
+
+#: kpci.cpp:107 kpci.cpp:126
+#, kde-format
+msgid "Device"
+msgstr "الجهاز"
+
+#: kpci.cpp:116 kpci.cpp:135 kpci.cpp:138 kpci.cpp:142
+#, kde-format
+msgid "Subsystem"
+msgstr "النظام الفرعي"
+
+#: kpci.cpp:135
+#, kde-format
+msgid " - device:"
+msgstr " - الأداة:"
+
+#: kpci.cpp:153 kpci.cpp:174
+#, kde-format
+msgid "Interrupt"
+msgstr "قاطع"
+
+#: kpci.cpp:154
+#, kde-format
+msgid "IRQ"
+msgstr "IRQ"
+
+#: kpci.cpp:155
+#, kde-format
+msgid "Pin"
+msgstr "إبرة"
+
+#: kpci.cpp:163
+#, kde-format
+msgid "Control"
+msgstr "التحكم"
+
+#: kpci.cpp:164
+#, kde-format
+msgid "Response in I/O space"
+msgstr "الاستجابة في فضاء الإدخال والإخراج"
+
+#: kpci.cpp:165
+#, kde-format
+msgid "Response in memory space"
+msgstr "الاستجابة في فضاء الذاكرة"
+
+#: kpci.cpp:166
+#, kde-format
+msgid "Bus mastering"
+msgstr "Busالمتقت "
+
+#: kpci.cpp:167
+#, kde-format
+msgid "Response to special cycles"
+msgstr "الاستجابة للدورات الخاصة"
+
+#: kpci.cpp:168
+#, kde-format
+msgid "Memory write and invalidate"
+msgstr "كتابة ومسح الذاكرة"
+
+#: kpci.cpp:169
+#, kde-format
+msgid "Palette snooping"
+msgstr "لوحة التطفل"
+
+#: kpci.cpp:170
+#, kde-format
+msgid "Parity checking"
+msgstr "فحص أخطاء التكافؤ"
+
+#: kpci.cpp:171
+#, kde-format
+msgid "Address/data stepping"
+msgstr "خطوة العنوان/البيانات"
+
+#: kpci.cpp:172
+#, kde-format
+msgid "System error"
+msgstr "خطأ نظام"
+
+#: kpci.cpp:173
+#, kde-format
+msgid "Back-to-back writes"
+msgstr "كتابة متتابعة"
+
+#: kpci.cpp:181 kpci.cpp:434 kpci.cpp:536 kpci.cpp:562
+#, kde-format
+msgid "Status"
+msgstr "الحالة"
+
+#: kpci.cpp:182 kpci.cpp:347 kpci.cpp:362
+#, kde-format
+msgid "Interrupt status"
+msgstr "حالة الانقطاع"
+
+#: kpci.cpp:183 kpci.cpp:348 kpci.cpp:363
+#, kde-format
+msgid "Capability list"
+msgstr "قائمة القدرات"
+
+#: kpci.cpp:184 kpci.cpp:349 kpci.cpp:364
+#, kde-format
+msgid "66 MHz PCI 2.1 bus"
+msgstr "66 MHz PCI 2.1 bus"
+
+#: kpci.cpp:185 kpci.cpp:350 kpci.cpp:365
+#, kde-format
+msgid "User-definable features"
+msgstr "ميزات يُمكن تعريفها من قبل المستخدم"
+
+#: kpci.cpp:186 kpci.cpp:351 kpci.cpp:366
+#, kde-format
+msgid "Accept fast back-to-back"
+msgstr "قبول التتابع السريع"
+
+#: kpci.cpp:187 kpci.cpp:352 kpci.cpp:367
+#, kde-format
+msgid "Data parity error"
+msgstr "خطأ بيانات التكافؤ"
+
+#: kpci.cpp:188 kpci.cpp:353 kpci.cpp:368
+#, kde-format
+msgid "Device selection timing"
+msgstr "توقيت انتقاء الأداة"
+
+#: kpci.cpp:189 kpci.cpp:354 kpci.cpp:369
+#, kde-format
+msgid "Signaled target abort"
+msgstr "يشير إلى إحباط الهدف"
+
+#: kpci.cpp:190 kpci.cpp:355 kpci.cpp:370
+#, kde-format
+msgid "Received target abort"
+msgstr " تلقي إحباط الهدف"
+
+#: kpci.cpp:191 kpci.cpp:356 kpci.cpp:371
+#, kde-format
+msgid "Received master abort"
+msgstr "إحباط الاستقبال الرئيسي"
+
+#: kpci.cpp:192 kpci.cpp:357 kpci.cpp:372
+#, kde-format
+msgid "Signaled system error"
+msgstr "يشير إلى خطأ في النظام"
+
+#: kpci.cpp:193 kpci.cpp:358 kpci.cpp:373
+#, kde-format
+msgid "Parity error"
+msgstr "خطأ الزوجية"
+
+#: kpci.cpp:200
+#, kde-format
+msgid "Latency"
+msgstr "زمن الوصول"
+
+#: kpci.cpp:203 kpci.cpp:206
+#, kde-format
+msgid "MIN_GNT"
+msgstr "MIN_GNT"
+
+#: kpci.cpp:203 kpci.cpp:209
+#, kde-format
+msgid "No major requirements (0x00)"
+msgstr "لا يوجد متطلبات رئيسية (0x00)"
+
+#: kpci.cpp:209 kpci.cpp:212
+#, kde-format
+msgid "MAX_LAT"
+msgstr "MAX_LAT"
+
+#: kpci.cpp:221
+#, kde-format
+msgid "Header"
+msgstr "ترويسة"
+
+#: kpci.cpp:222 kpci.cpp:287 kpci.cpp:464
+#, kde-format
+msgid "Type"
+msgstr "النوع"
+
+#: kpci.cpp:223
+#, kde-format
+msgid "Multifunctional"
+msgstr "متعدد الوظائف"
+
+#: kpci.cpp:230
+#, kde-format
+msgid "Build-in self test"
+msgstr "اختبار ذاتي مبني داخليا"
+
+#: kpci.cpp:231
+#, kde-format
+msgid "BIST Capable"
+msgstr "BIST قابلية"
+
+#: kpci.cpp:233
+#, kde-format
+msgid "BIST Start"
+msgstr "ابدأ BIST"
+
+#: kpci.cpp:234
+#, kde-format
+msgid "Completion code"
+msgstr "رمز الإكمال"
+
+#: kpci.cpp:241 kpci.cpp:244 kpci.cpp:247 kpci.cpp:253 kpci.cpp:256
+#: kpci.cpp:259 kpci.cpp:264 kpci.cpp:295 kpci.cpp:311 kpci.cpp:437
+#, kde-format
+msgid "Size"
+msgstr "الحجم"
+
+#: kpci.cpp:276
+#, kde-format
+msgid "Address mappings"
+msgstr "تخطيط العنوان"
+
+#: kpci.cpp:284
+#, kde-format
+msgid "Mapping %1"
+msgstr "تخطيط %1"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "Space"
+msgstr "المساحة"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "I/O"
+msgstr "I/O"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "Memory"
+msgstr "الذاكرة"
+
+#: kpci.cpp:288 kpci.cpp:457
+#, kde-format
+msgid "Prefetchable"
+msgstr "قابل للاستحضار المسبق"
+
+#: kpci.cpp:294 kpci.cpp:298 kpci.cpp:303 kpci.cpp:310 kpci.cpp:314
+#: kpci.cpp:436 kpci.cpp:440 kpci.cpp:633 kpci.cpp:641
+#, kde-format
+msgid "Address"
+msgstr "عنوان"
+
+#: kpci.cpp:294 kpci.cpp:310 kpci.cpp:436
+#, fuzzy, kde-format
+msgctxt "unassigned address"
+msgid "Unassigned"
+msgstr "غير مخصص"
+
+#: kpci.cpp:295 kpci.cpp:311 kpci.cpp:437
+#, fuzzy, kde-format
+msgctxt "unassigned size"
+msgid "Unassigned"
+msgstr "غير مخصص"
+
+#: kpci.cpp:326 kpci.cpp:333
+#, kde-format
+msgid "Bus"
+msgstr "الناقل"
+
+#: kpci.cpp:327 kpci.cpp:334
+#, kde-format
+msgid "Primary bus number"
+msgstr "رقم الناقل الرئيسي"
+
+#: kpci.cpp:328
+#, kde-format
+msgid "Secondary bus number"
+msgstr "رقم الناقل الثانوي"
+
+#: kpci.cpp:329 kpci.cpp:336
+#, kde-format
+msgid "Subordinate bus number"
+msgstr "رقم الناقل التابع"
+
+#: kpci.cpp:330
+#, kde-format
+msgid "Secondary latency timer"
+msgstr "موقت التأخير الثانوي"
+
+#: kpci.cpp:335
+#, kde-format
+msgid "CardBus number"
+msgstr "رقم CardBus"
+
+#: kpci.cpp:337
+#, kde-format
+msgid "CardBus latency timer"
+msgstr "موقت تأخر CardBus"
+
+#: kpci.cpp:346 kpci.cpp:361
+#, kde-format
+msgid "Secondary status"
+msgstr "حالة ثانوية"
+
+#: kpci.cpp:382
+#, kde-format
+msgid "I/O behind bridge"
+msgstr "إدخال وإخراج خلف الجسر"
+
+#: kpci.cpp:383 kpci.cpp:464
+#, kde-format
+msgid "32-bit"
+msgstr "32-بت"
+
+#: kpci.cpp:385 kpci.cpp:389 kpci.cpp:393 kpci.cpp:398 kpci.cpp:402
+#: kpci.cpp:458 kpci.cpp:466 kpci.cpp:470
+#, kde-format
+msgid "Base"
+msgstr "القاعدة"
+
+#: kpci.cpp:386 kpci.cpp:390 kpci.cpp:394 kpci.cpp:399 kpci.cpp:403
+#: kpci.cpp:459 kpci.cpp:467 kpci.cpp:471
+#, kde-format
+msgid "Limit"
+msgstr "حد"
+
+#: kpci.cpp:392
+#, kde-format
+msgid "Memory behind bridge"
+msgstr "ذاكرة الجسر الخلفي"
+
+#: kpci.cpp:395
+#, kde-format
+msgid "Prefetchable memory behind bridge"
+msgstr "الذاكر القابل للاستحضار المسبق خلف الجس"
+
+#: kpci.cpp:396
+#, kde-format
+msgid "64-bit"
+msgstr "-64بت"
+
+#: kpci.cpp:413
+#, kde-format
+msgid "Bridge control"
+msgstr "التحكم بالجسر"
+
+#: kpci.cpp:414 kpci.cpp:484
+#, kde-format
+msgid "Secondary parity checking"
+msgstr "فحص التكافؤ الثانوي"
+
+#: kpci.cpp:415 kpci.cpp:485
+#, kde-format
+msgid "Secondary system error"
+msgstr "خطأ نظام ثانوي"
+
+#: kpci.cpp:416 kpci.cpp:486
+#, kde-format
+msgid "ISA ports forwarding"
+msgstr "تحويل منافذ ISA"
+
+#: kpci.cpp:417 kpci.cpp:487
+#, kde-format
+msgid "VGA forwarding"
+msgstr "تحويل VGA"
+
+#: kpci.cpp:418 kpci.cpp:488
+#, kde-format
+msgid "Master abort"
+msgstr "إحباط رئيسي"
+
+#: kpci.cpp:419
+#, kde-format
+msgid "Secondary bus reset"
+msgstr "إعادة تنضيد الناقل الثانوي"
+
+#: kpci.cpp:420
+#, kde-format
+msgid "Secondary back-to-back writes"
+msgstr "كتابة تتابعية ثانوية"
+
+#: kpci.cpp:421
+#, kde-format
+msgid "Primary discard timer counts"
+msgstr "إحباط العد الرئيسي"
+
+#: kpci.cpp:421 kpci.cpp:422
+#, kde-format
+msgid "2e10 PCI clocks"
+msgstr "2e10 PCI دورة"
+
+#: kpci.cpp:421 kpci.cpp:422
+#, kde-format
+msgid "2e15 PCI clocks"
+msgstr "2e15 PCI دورة"
+
+#: kpci.cpp:422
+#, kde-format
+msgid "Secondary discard timer counts"
+msgstr "إحباط العد الثانوي"
+
+#: kpci.cpp:423
+#, kde-format
+msgid "Discard timer error"
+msgstr "خطأ مؤقت الرفض"
+
+#: kpci.cpp:424
+#, kde-format
+msgid "Discard timer system error"
+msgstr "خطأ نظام مؤقت الرفض"
+
+#: kpci.cpp:433
+#, kde-format
+msgid "Expansion ROM"
+msgstr "توسيع ذاكرة ROM"
+
+#: kpci.cpp:453
+#, kde-format
+msgid "Memory windows"
+msgstr "نوافذ الذاكرة"
+
+#: kpci.cpp:456 kpci.cpp:463
+#, kde-format
+msgid "Window %1"
+msgstr "نافذة %1"
+
+#: kpci.cpp:461
+#, kde-format
+msgid "I/O windows"
+msgstr "نوافذ الإدخال والإخراج"
+
+#: kpci.cpp:464
+#, kde-format
+msgid "16-bit"
+msgstr "16-بت"
+
+#: kpci.cpp:474
+#, kde-format
+msgid "16-bit legacy interface ports"
+msgstr "منافذ واجهة قديمة 16-بت "
+
+#: kpci.cpp:483
+#, kde-format
+msgid "CardBus control"
+msgstr "تحكم CardBus"
+
+#: kpci.cpp:489
+#, kde-format
+msgid "Interrupts for 16-bit cards"
+msgstr "مقاطعات لبطاقات 16-بت"
+
+#: kpci.cpp:490
+#, kde-format
+msgid "Window 0 prefetchable memory"
+msgstr "الذاكرة القابلة للاستحضار المسبق للنافذة 0"
+
+#: kpci.cpp:491
+#, kde-format
+msgid "Window 1 prefetchable memory"
+msgstr "الذاكرة القابلة للاستحضار المسبق للنافذة 1"
+
+#: kpci.cpp:492
+#, kde-format
+msgid "Post writes"
+msgstr "كتابة مؤجلة"
+
+#: kpci.cpp:500
+#, kde-format
+msgid "Raw PCI config space"
+msgstr "فضاء ضبط PCI الخام"
+
+#: kpci.cpp:522 kpci.cpp:684 kpci.cpp:715
+#, kde-format
+msgid "Capabilities"
+msgstr "قدرات"
+
+#: kpci.cpp:523
+#, kde-format
+msgid "Version"
+msgstr "الإصدارة"
+
+#: kpci.cpp:524
+#, kde-format
+msgid "Clock required for PME generation"
+msgstr "الساعة بحاجة إلى توليد PME"
+
+#: kpci.cpp:525
+#, kde-format
+msgid "Device-specific initialization required"
+msgstr "تمهيد خاص بالجهاز مطلوب"
+
+#: kpci.cpp:526
+#, kde-format
+msgid "Maximum auxiliary current required in D3 cold"
+msgstr "أقصى شدة تيار مساعد مطلوب في  D3 بارد"
+
+#: kpci.cpp:527
+#, kde-format
+msgid "D1 support"
+msgstr "D1 دعم"
+
+#: kpci.cpp:528
+#, kde-format
+msgid "D2 support"
+msgstr "D2 دعم"
+
+#: kpci.cpp:529
+#, kde-format
+msgid "Power management events"
+msgstr "أحداث إدارة الطاقة"
+
+#: kpci.cpp:530 kpci_private.h:763
+#, kde-format
+msgid "D0"
+msgstr "D0"
+
+#: kpci.cpp:531 kpci_private.h:764
+#, kde-format
+msgid "D1"
+msgstr "D1"
+
+#: kpci.cpp:532 kpci_private.h:765
+#, kde-format
+msgid "D2"
+msgstr "D2"
+
+#: kpci.cpp:533 kpci_private.h:766
+#, kde-format
+msgid "D3 hot"
+msgstr "D3 ساخن"
+
+#: kpci.cpp:534
+#, kde-format
+msgid "D3 cold"
+msgstr "D3 بارد"
+
+#: kpci.cpp:537
+#, kde-format
+msgid "Power state"
+msgstr "حالة الطاقة"
+
+#: kpci.cpp:538 kpci_private.h:680
+#, kde-format
+msgid "Power management"
+msgstr "إدارة الطاقة"
+
+#: kpci.cpp:539
+#, kde-format
+msgid "Data select"
+msgstr "اختيار البيانات"
+
+#: kpci.cpp:540
+#, kde-format
+msgid "Data scale"
+msgstr "مقياس البيانات"
+
+#: kpci.cpp:541
+#, kde-format
+msgid "Power management status"
+msgstr "حالة إدارة الطاقة"
+
+#: kpci.cpp:544
+#, kde-format
+msgid "Bridge status"
+msgstr "حالة الجسر"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "Secondary bus state in D3 hot"
+msgstr "الناقل الثانوي في حالة D3 ساخن"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "B2"
+msgstr "B2"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "B3"
+msgstr "B3"
+
+#: kpci.cpp:546
+#, kde-format
+msgid "Secondary bus power & clock control"
+msgstr "طاقة الناقل الثانوي و التحكم بالساعة"
+
+#: kpci.cpp:549 kpci.cpp:611 kpci.cpp:634 kpci.cpp:642 kpci.cpp:658
+#: kpci.cpp:670
+#, kde-format
+msgid "Data"
+msgstr "بيانات"
+
+#. i18n("Revision"),value.sprintf("%i.%i",infoAgp.revMaior,infoAgp.revMinor));
+#: kpci.cpp:561 kpci.cpp:763
+#, kde-format
+msgid "Revision"
+msgstr "مراجعة"
+
+#: kpci.cpp:563 kpci.cpp:584
+#, kde-format
+msgid "Rate"
+msgstr "المعدل"
+
+#: kpci.cpp:564
+#, kde-format
+msgid "AGP 3.0 mode"
+msgstr "وضع AGP 3.0"
+
+#: kpci.cpp:565 kpci.cpp:585
+#, kde-format
+msgid "Fast Writes"
+msgstr "كتابة سريعة"
+
+#: kpci.cpp:566 kpci.cpp:587
+#, kde-format
+msgid "Address over 4 GiB"
+msgstr "العنوان فوق 4 ج.ب"
+
+#: kpci.cpp:568
+#, kde-format
+msgid "Translation of host processor access"
+msgstr "وصول ترجمة معالج الاضافة"
+
+#: kpci.cpp:569 kpci.cpp:588
+#, kde-format
+msgid "64-bit GART"
+msgstr "64-بت GART"
+
+#: kpci.cpp:570
+#, kde-format
+msgid "Cache Coherency"
+msgstr "ترابط المخبأ الموقت"
+
+#: kpci.cpp:572 kpci.cpp:591
+#, kde-format
+msgid "Side-band addressing"
+msgstr "العنونة الجانبية"
+
+#: kpci.cpp:574 kpci.cpp:593
+#, kde-format
+msgid "Calibrating cycle"
+msgstr "الدورة المعايرة"
+
+#: kpci.cpp:578 kpci.cpp:597
+#, kde-format
+msgid "Optimum asynchronous request size"
+msgstr "حجم الطلب الغير متزامن الأمثل"
+
+#: kpci.cpp:579
+#, kde-format
+msgid "Isochronous transactions"
+msgstr "التداول المتزامن"
+
+#: kpci.cpp:581 kpci.cpp:599
+#, kde-format
+msgid "Maximum number of AGP command"
+msgstr "العدد الأقصى لأوامر AGP"
+
+#: kpci.cpp:583
+#, kde-format
+msgid "Configuration"
+msgstr "الاعداد"
+
+#: kpci.cpp:590 kpci_private.h:681
+#, kde-format
+msgid "AGP"
+msgstr "AGP"
+
+#: kpci.cpp:609
+#, kde-format
+msgid "Data address"
+msgstr "عنوان البيانات"
+
+#: kpci.cpp:610
+#, kde-format
+msgid "Transfer completed"
+msgstr "اكتمل النقل"
+
+#: kpci.cpp:623
+#, kde-format
+msgid "Message control"
+msgstr "التحكم بالرسائل"
+
+#: kpci.cpp:624 kpci_private.h:684
+#, kde-format
+msgid "Message signaled interrupts"
+msgstr "الرسالة تشير إلى مقاطعات"
+
+#: kpci.cpp:625
+#, kde-format
+msgid "Multiple message capable"
+msgstr "قابلية تعدد الرسائل"
+
+#: kpci.cpp:626
+#, kde-format
+msgid "Multiple message enable"
+msgstr "تفعيل تعدد الرسائل"
+
+#: kpci.cpp:627
+#, kde-format
+msgid "64-bit address"
+msgstr "عنوان 64بت"
+
+#: kpci.cpp:628
+#, kde-format
+msgid "Per vector masking"
+msgstr "تقنيع بكل متجه "
+
+#: kpci.cpp:636 kpci.cpp:644
+#, kde-format
+msgid "Mask"
+msgstr "قناع"
+
+#: kpci.cpp:637 kpci.cpp:645
+#, kde-format
+msgid "Pending"
+msgstr "تعليق"
+
+#: kpci.cpp:655
+#, kde-format
+msgid "Length"
+msgstr "طول"
+
+#: kpci.cpp:658
+#, kde-format
+msgctxt "no data"
+msgid "None"
+msgstr "لا شيء"
+
+#: kpci.cpp:688
+#, kde-format
+msgid "Next"
+msgstr "التالي"
+
+#: kpci.cpp:688 kpci.cpp:715
+#, kde-format
+msgid "0x00 (None)"
+msgstr "0x00 (بدون)"
+
+#: kpci.cpp:711
+#, kde-format
+msgid "Root only"
+msgstr "الجذر فقط"
+
+#: kpci.cpp:724
+#, kde-format
+msgid "Information"
+msgstr "معلومات"
+
+#: kpci.cpp:724
+#, kde-format
+msgid "Value"
+msgstr "القيمة"
+
+#: kpci.cpp:772
+#, kde-format
+msgid "Cache line size"
+msgstr "حجم سطر المخزن المؤقت"
+
+#: kpci_private.h:27
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Enabled"
+msgstr "ممكّن"
+
+#: kpci_private.h:28
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Disabled"
+msgstr "معطّل"
+
+#: kpci_private.h:29
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Yes"
+msgstr "نعم"
+
+#: kpci_private.h:30
+#, kde-format
+msgctxt "state of PCI item"
+msgid "No"
+msgstr "لا"
+
+#: kpci_private.h:31
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Unknown"
+msgstr "مجهول"
+
+#: kpci_private.h:439
+#, kde-format
+msgid "Unclassified device"
+msgstr "جهاز غير مصنف"
+
+#: kpci_private.h:440 kpci_private.h:474
+#, kde-format
+msgid "Mass storage controller"
+msgstr "متحكم التخزين الضخم"
+
+#: kpci_private.h:441 kpci_private.h:484
+#, kde-format
+msgid "Network controller"
+msgstr "متحكم شبكة"
+
+#: kpci_private.h:442 kpci_private.h:490
+#, kde-format
+msgid "Display controller"
+msgstr "متحكم عرض"
+
+#: kpci_private.h:443 kpci_private.h:496
+#, kde-format
+msgid "Multimedia controller"
+msgstr "متحكم وسائط"
+
+#: kpci_private.h:444 kpci_private.h:501
+#, kde-format
+msgid "Memory controller"
+msgstr "متحكم ذاكرة"
+
+#: kpci_private.h:445 kpci_private.h:515 kpci_private.h:718
+#, kde-format
+msgid "Bridge"
+msgstr "جسر"
+
+#: kpci_private.h:446 kpci_private.h:524
+#, kde-format
+msgid "Communication controller"
+msgstr "متحكم اتصالات"
+
+#: kpci_private.h:447
+#, kde-format
+msgid "Generic system peripheral"
+msgstr "ملحق نظام عام"
+
+#: kpci_private.h:448 kpci_private.h:540
+#, kde-format
+msgid "Input device controller"
+msgstr "متحكم أداة ادخال"
+
+#: kpci_private.h:449 kpci_private.h:544
+#, kde-format
+msgid "Docking station"
+msgstr "محطة ارساء"
+
+#: kpci_private.h:450
+#, kde-format
+msgid "Processor"
+msgstr "معالج"
+
+#: kpci_private.h:451
+#, kde-format
+msgid "Serial bus controller"
+msgstr "متحكم ناقل متسلسل"
+
+#: kpci_private.h:452 kpci_private.h:575
+#, kde-format
+msgid "Wireless controller"
+msgstr "متحكم شبكة لاسلكية"
+
+#: kpci_private.h:453
+#, kde-format
+msgid "Intelligent controller"
+msgstr "متحكم ذكي"
+
+#: kpci_private.h:454
+#, kde-format
+msgid "Satellite communications controller"
+msgstr "متحكم اتصالات أقمار"
+
+#: kpci_private.h:455 kpci_private.h:589
+#, kde-format
+msgid "Encryption controller"
+msgstr "متحكم تشفير"
+
+#: kpci_private.h:456 kpci_private.h:596
+#, kde-format
+msgid "Signal processing controller"
+msgstr "متحكم معالجة الإشارة"
+
+#: kpci_private.h:457
+#, kde-format
+msgid "Unknown device class"
+msgstr "نوع أجهزة مجهول"
+
+#: kpci_private.h:463
+#, kde-format
+msgid "Non-VGA unclassified device"
+msgstr "جهاز Non-VGA  غير مصنف"
+
+#: kpci_private.h:464
+#, kde-format
+msgid "VGA unclassified device"
+msgstr "جهاز VGA غير مصنف"
+
+#: kpci_private.h:465
+#, kde-format
+msgid "Unknown unclassified device"
+msgstr "جهاز  غير مصنف مجهول"
+
+#: kpci_private.h:467
+#, kde-format
+msgid "SCSI storage controller"
+msgstr "متحكم تخزين SCSI"
+
+#: kpci_private.h:468
+#, kde-format
+msgid "IDE controller"
+msgstr "متحكم IDE"
+
+#: kpci_private.h:469
+#, kde-format
+msgid "Floppy disk controller"
+msgstr "متحكم قرص مرن"
+
+#: kpci_private.h:470
+#, kde-format
+msgid "IPI bus controller"
+msgstr "متحكم ناقل IPI"
+
+#: kpci_private.h:471
+#, kde-format
+msgid "RAID bus controller"
+msgstr "متحكم ناقل RAID"
+
+#: kpci_private.h:472
+#, kde-format
+msgid "ATA controller"
+msgstr "متحكم ATA"
+
+#: kpci_private.h:473
+#, kde-format
+msgid "Serial ATA direct port access"
+msgstr "وصول للمنفذ المباشر ATA التسلسلي"
+
+#: kpci_private.h:475
+#, kde-format
+msgid "Unknown storage controller"
+msgstr "متحكم تخزين مجهول"
+
+#: kpci_private.h:477
+#, kde-format
+msgid "Ethernet controller"
+msgstr "متحكم اثرنت"
+
+#: kpci_private.h:478
+#, kde-format
+msgid "Token ring network controller"
+msgstr "متحكم شبكة Token ring"
+
+#: kpci_private.h:479
+#, kde-format
+msgid "FDDI network controller"
+msgstr "متحكم شبكة FDDI"
+
+#: kpci_private.h:480
+#, kde-format
+msgid "ATM network controller"
+msgstr "متحكم شبكة ATM"
+
+#: kpci_private.h:481
+#, kde-format
+msgid "ISDN controller"
+msgstr "متحكم ISDN"
+
+#: kpci_private.h:482
+#, kde-format
+msgid "WorldFip controller"
+msgstr "متحكم WorldFip"
+
+#: kpci_private.h:483
+#, kde-format
+msgid "PICMG 2.14 multi computing"
+msgstr "متعدد حساب PICMG 2.14"
+
+#: kpci_private.h:485
+#, kde-format
+msgid "Unknown network controller"
+msgstr "متحكم شبكة مجهول"
+
+#: kpci_private.h:487
+#, kde-format
+msgid "VGA compatible controller"
+msgstr "متحكم متوافق مع VGA"
+
+#: kpci_private.h:488
+#, kde-format
+msgid "XGA compatible controller"
+msgstr "متحكم متوافق مع XGA"
+
+#: kpci_private.h:489
+#, kde-format
+msgid "3D controller"
+msgstr "متحكم ثلاثي الأبعاد"
+
+#: kpci_private.h:491
+#, kde-format
+msgid "Unknown display controller"
+msgstr "متحكم عرض مجهول"
+
+#: kpci_private.h:493
+#, kde-format
+msgid "Multimedia video controller"
+msgstr "متحكم فديو وسائط"
+
+#: kpci_private.h:494
+#, kde-format
+msgid "Multimedia audio controller"
+msgstr "متحكم صوت وسائط"
+
+#: kpci_private.h:495
+#, kde-format
+msgid "Computer telephony device"
+msgstr "جهاز هاتف حاسوبي"
+
+#: kpci_private.h:497
+#, kde-format
+msgid "Unknown multimedia controller"
+msgstr "متحكم وسائط مجهول"
+
+#: kpci_private.h:499
+#, kde-format
+msgid "RAM memory"
+msgstr "متحكم ذاكرة عشوائية"
+
+#: kpci_private.h:500
+#, kde-format
+msgid "FLASH memory"
+msgstr "ذاكرة فلاش"
+
+#: kpci_private.h:502
+#, kde-format
+msgid "Unknown memory controller"
+msgstr "متحكم ذاكرة مجهول"
+
+#: kpci_private.h:504
+#, kde-format
+msgid "Host bridge"
+msgstr "جسر المضيف"
+
+#: kpci_private.h:505
+#, kde-format
+msgid "ISA bridge"
+msgstr "جسر ISA"
+
+#: kpci_private.h:506
+#, kde-format
+msgid "EISA bridge"
+msgstr "جسر EISA"
+
+#: kpci_private.h:507
+#, kde-format
+msgid "MicroChannel bridge"
+msgstr "جسر MicroChannel"
+
+#: kpci_private.h:508
+#, kde-format
+msgid "PCI bridge"
+msgstr "جسر PCI"
+
+#: kpci_private.h:509
+#, kde-format
+msgid "PCMCIA bridge"
+msgstr "جسر PCMCIA"
+
+#: kpci_private.h:510
+#, kde-format
+msgid "NuBus bridge"
+msgstr "جسر NuBus"
+
+#: kpci_private.h:511
+#, kde-format
+msgid "CardBus bridge"
+msgstr "جسر CardBus"
+
+#: kpci_private.h:512
+#, kde-format
+msgid "RACEway bridge"
+msgstr "جسر RACEway"
+
+#: kpci_private.h:513
+#, kde-format
+msgid "Semi-transparent PCI-to-PCI bridge"
+msgstr "جسر  PCI-to-PCI شبه شفاف"
+
+#: kpci_private.h:514
+#, kde-format
+msgid "InfiniBand to PCI host bridge"
+msgstr "جسر InfiniBand إلى مضيف PCI"
+
+#: kpci_private.h:516
+#, kde-format
+msgid "Unknown bridge"
+msgstr "جسر مجهول"
+
+#: kpci_private.h:518
+#, kde-format
+msgid "Serial controller"
+msgstr "جسر تسلسلي"
+
+#: kpci_private.h:519
+#, kde-format
+msgid "Parallel controller"
+msgstr "جسر متوازي"
+
+#: kpci_private.h:520
+#, kde-format
+msgid "Multiport serial controller"
+msgstr "متحكم متعدد المنافذ تسلسلي"
+
+#: kpci_private.h:521
+#, kde-format
+msgid "Modem"
+msgstr "مودم"
+
+#: kpci_private.h:522
+#, kde-format
+msgid "GPIB (IEEE 488.1/2) controller"
+msgstr "متحكم GPIB (IEEE 488.1/2)"
+
+#: kpci_private.h:523
+#, kde-format
+msgid "Smart card"
+msgstr "بطاقة ذكية"
+
+#: kpci_private.h:525
+#, kde-format
+msgid "Unknown communication controller"
+msgstr "متحكم اتصالات مجهول"
+
+#: kpci_private.h:527
+#, kde-format
+msgid "PIC"
+msgstr "PIC"
+
+#: kpci_private.h:528
+#, kde-format
+msgid "DMA controller"
+msgstr "متحكم DMA"
+
+#: kpci_private.h:529
+#, kde-format
+msgid "Timer"
+msgstr "مؤقت"
+
+#: kpci_private.h:530
+#, kde-format
+msgid "RTC"
+msgstr "RTC"
+
+#: kpci_private.h:531
+#, kde-format
+msgid "PCI Hot-plug controller"
+msgstr "متحكم PCI Hot-plug"
+
+#: kpci_private.h:532
+#, kde-format
+msgid "System peripheral"
+msgstr "ملحقة للنظام"
+
+#: kpci_private.h:533
+#, kde-format
+msgid "Unknown system peripheral"
+msgstr "ملحقة للنظام مجهولة"
+
+#: kpci_private.h:535
+#, kde-format
+msgid "Keyboard controller"
+msgstr "متحكم لوحة مفاتيح"
+
+#: kpci_private.h:536
+#, kde-format
+msgid "Digitizer Pen"
+msgstr "قلم رقمي"
+
+#: kpci_private.h:537
+#, kde-format
+msgid "Mouse controller"
+msgstr "متحكم فأرة"
+
+#: kpci_private.h:538
+#, kde-format
+msgid "Scanner controller"
+msgstr "متحكم ماسحة"
+
+#: kpci_private.h:539
+#, kde-format
+msgid "Gameport controller"
+msgstr "متحكم Gameport"
+
+#: kpci_private.h:541
+#, kde-format
+msgid "Unknown input device controller"
+msgstr "متحكم جهاز ادخال مجهول"
+
+#: kpci_private.h:543
+#, kde-format
+msgid "Generic docking station"
+msgstr "محطة ارساء عامة"
+
+#: kpci_private.h:545
+#, kde-format
+msgid "Unknown docking station"
+msgstr "محطة ارساء مجهولة"
+
+#: kpci_private.h:547
+#, kde-format
+msgid "386"
+msgstr "386"
+
+#: kpci_private.h:548
+#, kde-format
+msgid "486"
+msgstr "486"
+
+#: kpci_private.h:549
+#, kde-format
+msgid "Pentium"
+msgstr "بانتيوم"
+
+#: kpci_private.h:550
+#, kde-format
+msgid "Alpha"
+msgstr "ألفا"
+
+#: kpci_private.h:551
+#, kde-format
+msgid "Power PC"
+msgstr "بور بي سي"
+
+#: kpci_private.h:552
+#, kde-format
+msgid "MIPS"
+msgstr "MIPS"
+
+#: kpci_private.h:553
+#, kde-format
+msgid "Co-processor"
+msgstr "معالج مساعد"
+
+#: kpci_private.h:554
+#, kde-format
+msgid "Unknown processor"
+msgstr "معالج مجهول"
+
+#: kpci_private.h:556
+#, kde-format
+msgid "FireWire (IEEE 1394)"
+msgstr "FireWire (IEEE 1394)"
+
+#: kpci_private.h:557
+#, kde-format
+msgid "ACCESS bus"
+msgstr "ناقل ACCESS"
+
+#: kpci_private.h:558
+#, kde-format
+msgid "SSA"
+msgstr "SSA"
+
+#: kpci_private.h:559
+#, kde-format
+msgid "USB controller"
+msgstr "متحكم USB"
+
+#: kpci_private.h:560
+#, kde-format
+msgid "Fibre channel"
+msgstr "قناة ألياف"
+
+#: kpci_private.h:561
+#, kde-format
+msgid "SMBus"
+msgstr "SMBus"
+
+#: kpci_private.h:562
+#, kde-format
+msgid "InfiniBand"
+msgstr "InfiniBand"
+
+#: kpci_private.h:563
+#, kde-format
+msgid "IPMI interface"
+msgstr "واجهة IPMI"
+
+#: kpci_private.h:564
+#, kde-format
+msgid "SERCOS interface"
+msgstr "واجهة SERCOS"
+
+#: kpci_private.h:565
+#, kde-format
+msgid "CANbus"
+msgstr "CANbus"
+
+#: kpci_private.h:566
+#, kde-format
+msgid "Unknown serial bus controller"
+msgstr "متحكم ناقل تسلسلي مجهول"
+
+#: kpci_private.h:568
+#, kde-format
+msgid "IRDA controller"
+msgstr "متحكم IRDA"
+
+#: kpci_private.h:569
+#, kde-format
+msgid "Consumer IR controller"
+msgstr "متحكم Consumer IR"
+
+#: kpci_private.h:570
+#, kde-format
+msgid "RF controller"
+msgstr "متحكم RF"
+
+#: kpci_private.h:571
+#, kde-format
+msgid "Bluetooth"
+msgstr "بلوتوث"
+
+#: kpci_private.h:572
+#, kde-format
+msgid "Broadband"
+msgstr "نطاق عريض"
+
+#: kpci_private.h:573
+#, kde-format
+msgid "Ethernet (802.11a - 5 GHz)"
+msgstr "اثرنت (802.11a - 5 GHz)"
+
+#: kpci_private.h:574
+#, kde-format
+msgid "Ethernet (802.11b - 2.4 GHz)"
+msgstr "اثرنت (802.11b - 2.4 GHz)"
+
+#: kpci_private.h:576
+#, kde-format
+msgid "Unknown wireless controller"
+msgstr "متحكم لاسلكي مجهول"
+
+#: kpci_private.h:578
+#, kde-format
+msgid "I2O"
+msgstr "I2O"
+
+#: kpci_private.h:579
+#, kde-format
+msgid "Unknown intelligent controller"
+msgstr "متحكم ذكي مجهول"
+
+#: kpci_private.h:581
+#, kde-format
+msgid "Satellite TV controller"
+msgstr "متحكم تلفاز بالأقمار"
+
+#: kpci_private.h:582
+#, kde-format
+msgid "Satellite audio communication controller"
+msgstr "متحكمم  اتصالات صوتية بالأقمار"
+
+#: kpci_private.h:583
+#, kde-format
+msgid "Satellite voice communication controller"
+msgstr "متحكم اتصالات صوت بالأقمار"
+
+#: kpci_private.h:584
+#, kde-format
+msgid "Satellite data communication controller"
+msgstr "متحكم اتصالات بيانات بالأقمار"
+
+#: kpci_private.h:585
+#, kde-format
+msgid "Unknown satellite communications controller"
+msgstr "متحكم اتصالات بالأقمار مجهول"
+
+#: kpci_private.h:587
+#, kde-format
+msgid "Network and computing encryption device"
+msgstr "جهاز تشفير حاسوبي و انترنت"
+
+#: kpci_private.h:588
+#, kde-format
+msgid "Entertainment encryption device"
+msgstr "جهاز تشفير الترفيه"
+
+#: kpci_private.h:590
+#, kde-format
+msgid "Unknown encryption controller"
+msgstr "متحكم تشفير مجهول"
+
+#: kpci_private.h:592
+#, kde-format
+msgid "DPIO module"
+msgstr "وحدة DPIO"
+
+#: kpci_private.h:593
+#, kde-format
+msgid "Performance counters"
+msgstr "عدادات الأداء"
+
+#: kpci_private.h:594
+#, kde-format
+msgid "Communication synchronizer"
+msgstr "مزامن الاتصالات"
+
+#: kpci_private.h:595
+#, kde-format
+msgid "Management card"
+msgstr "بطاقة الإدارة"
+
+#: kpci_private.h:597
+#, kde-format
+msgid "Unknown signal processing controller"
+msgstr "متحكم معالجة الإشارة مجهول"
+
+#: kpci_private.h:599
+#, kde-format
+msgid "Unknown subdevice class"
+msgstr "صف أجهزة فرعية مجهولة"
+
+#: kpci_private.h:606
+#, kde-format
+msgid "single DMA"
+msgstr "إشارة DMA"
+
+#: kpci_private.h:607
+#, kde-format
+msgid "chained DMA"
+msgstr "DMA مسلسلة"
+
+#: kpci_private.h:609
+#, kde-format
+msgid "VGA compatible"
+msgstr "متوافق مع VGA"
+
+#: kpci_private.h:610
+#, kde-format
+msgid "8514 compatible"
+msgstr "متوافق مع 8514"
+
+#: kpci_private.h:612
+#, kde-format
+msgid "Normal decode"
+msgstr "فك تشفير عادي"
+
+#: kpci_private.h:613
+#, kde-format
+msgid "Subtractive decode"
+msgstr "فك تشفير Subtractive"
+
+#: kpci_private.h:615
+#, kde-format
+msgid "Transparent mode"
+msgstr "نمط النقل"
+
+#: kpci_private.h:616
+#, kde-format
+msgid "Endpoint mode"
+msgstr "نمط نقطة النهاية"
+
+#: kpci_private.h:618
+#, kde-format
+msgid "Primary bus towards host CPU"
+msgstr "يتجه الناقل الرئسي نحو وحدة المعالجة مستضيف"
+
+#: kpci_private.h:619
+#, kde-format
+msgid "Secondary bus towards host CPU"
+msgstr "يتجه الناقل الثانوي نحو وحدة المعالجة مستضيف"
+
+#: kpci_private.h:621
+#, kde-format
+msgid "8250"
+msgstr "8250"
+
+#: kpci_private.h:622
+#, kde-format
+msgid "16450"
+msgstr "16450"
+
+#: kpci_private.h:623
+#, kde-format
+msgid "16550"
+msgstr "16550"
+
+#: kpci_private.h:624
+#, kde-format
+msgid "16650"
+msgstr "16650"
+
+#: kpci_private.h:625
+#, kde-format
+msgid "16750"
+msgstr "16750"
+
+#: kpci_private.h:626
+#, kde-format
+msgid "16850"
+msgstr "16850"
+
+#: kpci_private.h:627
+#, kde-format
+msgid "16950"
+msgstr "16950"
+
+#: kpci_private.h:629
+#, kde-format
+msgid "SPP"
+msgstr "SPP"
+
+#: kpci_private.h:630
+#, kde-format
+msgid "BiDir"
+msgstr "BiDir"
+
+#: kpci_private.h:631
+#, kde-format
+msgid "ECP"
+msgstr "ECP"
+
+#: kpci_private.h:632
+#, kde-format
+msgid "IEEE1284"
+msgstr "IEEE1284"
+
+#: kpci_private.h:633
+#, kde-format
+msgid "IEEE1284 Target"
+msgstr "هدف IEEE1284"
+
+#: kpci_private.h:635 kpci_private.h:655 kpci_private.h:658 kpci_private.h:661
+#, kde-format
+msgid "Generic"
+msgstr "عام"
+
+#: kpci_private.h:636
+#, kde-format
+msgid "Hayes/16450"
+msgstr "Hayes/16450"
+
+#: kpci_private.h:637
+#, kde-format
+msgid "Hayes/16550"
+msgstr "Hayes/16550"
+
+#: kpci_private.h:638
+#, kde-format
+msgid "Hayes/16650"
+msgstr "Hayes/16650"
+
+#: kpci_private.h:639
+#, kde-format
+msgid "Hayes/16750"
+msgstr "Hayes/16750"
+
+#: kpci_private.h:641
+#, kde-format
+msgid "8259"
+msgstr "8259"
+
+#: kpci_private.h:642
+#, kde-format
+msgid "ISA PIC"
+msgstr "ISA PIC"
+
+#: kpci_private.h:643
+#, kde-format
+msgid "EISA PIC"
+msgstr "EISA PIC"
+
+#: kpci_private.h:644
+#, kde-format
+msgid "IO-APIC"
+msgstr "IO-APIC"
+
+#: kpci_private.h:645
+#, kde-format
+msgid "IO(X)-APIC"
+msgstr "IO(X)-APIC"
+
+#: kpci_private.h:647
+#, kde-format
+msgid "8237"
+msgstr "8237"
+
+#: kpci_private.h:648
+#, kde-format
+msgid "ISA DMA"
+msgstr "ISA DMA"
+
+#: kpci_private.h:649
+#, kde-format
+msgid "EISA DMA"
+msgstr "EISA DMA"
+
+#: kpci_private.h:651
+#, kde-format
+msgid "8254"
+msgstr "8254"
+
+#: kpci_private.h:652
+#, kde-format
+msgid "ISA timer"
+msgstr "مؤقت ISA"
+
+#: kpci_private.h:653
+#, kde-format
+msgid "EISA timers"
+msgstr "موقت EISA"
+
+#: kpci_private.h:656
+#, kde-format
+msgid "ISA RTC"
+msgstr "ISA RTC"
+
+#: kpci_private.h:659
+#, kde-format
+msgid "Extended"
+msgstr "ممدد"
+
+#: kpci_private.h:662 kpci_private.h:665
+#, kde-format
+msgid "OHCI"
+msgstr "OHCI"
+
+#: kpci_private.h:664
+#, kde-format
+msgid "UHCI"
+msgstr "UHCI"
+
+#: kpci_private.h:666
+#, kde-format
+msgid "EHCI"
+msgstr "EHCI"
+
+#: kpci_private.h:667
+#, kde-format
+msgid "Unspecified"
+msgstr "غير محدد"
+
+#: kpci_private.h:668
+#, kde-format
+msgid "USB Device"
+msgstr "جهاز USB"
+
+#: kpci_private.h:670
+#, kde-format
+msgid "SMIC"
+msgstr "SMIC"
+
+#: kpci_private.h:671
+#, kde-format
+msgid "Keyboard controller style"
+msgstr "أسلوب متحكم لوحة المفاتيح"
+
+#: kpci_private.h:672
+#, kde-format
+msgid "Block transfer"
+msgstr "نقل المنطقة"
+
+#: kpci_private.h:682
+#, kde-format
+msgid "Vital product data"
+msgstr "بيانات المنتج المهمة"
+
+#: kpci_private.h:683
+#, kde-format
+msgid "Slot identification"
+msgstr "معرف الشق"
+
+#: kpci_private.h:685
+#, kde-format
+msgid "CompactPCI hot swap"
+msgstr "CompactPCI hot swap"
+
+#: kpci_private.h:686
+#, kde-format
+msgid "PCI-X"
+msgstr "PCI-X"
+
+#: kpci_private.h:687
+#, kde-format
+msgid "HyperTransport"
+msgstr "ناقل فائق"
+
+#: kpci_private.h:688
+#, kde-format
+msgid "Vendor specific"
+msgstr "مواصفات المصنع"
+
+#: kpci_private.h:689
+#, kde-format
+msgid "Debug port"
+msgstr "منفذ التنقيح"
+
+#: kpci_private.h:690
+#, kde-format
+msgid "CompactPCI central resource control"
+msgstr "تحكم موارد  CompactPCI المركزي"
+
+#: kpci_private.h:691
+#, kde-format
+msgid "PCI hot-plug"
+msgstr "PCI hot-plug"
+
+#: kpci_private.h:692
+#, kde-format
+msgid "AGP x8"
+msgstr "AGP x8"
+
+#: kpci_private.h:693
+#, kde-format
+msgid "Secure device"
+msgstr "جهاز آمن"
+
+#: kpci_private.h:694
+#, kde-format
+msgid "PCI express"
+msgstr "PCI express"
+
+#: kpci_private.h:695
+#, kde-format
+msgid "MSI-X"
+msgstr "MSI-X"
+
+#: kpci_private.h:701
+#, kde-format
+msgid "Fast"
+msgstr "سريع"
+
+#: kpci_private.h:702
+#, kde-format
+msgid "Medium"
+msgstr "متوسط"
+
+#: kpci_private.h:703
+#, kde-format
+msgid "Slow"
+msgstr "بطيء"
+
+#: kpci_private.h:709
+#, kde-format
+msgid "32 bit"
+msgstr "32 بت"
+
+#: kpci_private.h:710
+#, kde-format
+msgid "Below 1M"
+msgstr "أقل من 1 ميجا"
+
+#: kpci_private.h:711
+#, kde-format
+msgid "64 bit"
+msgstr "64 بت"
+
+#: kpci_private.h:717
+#, kde-format
+msgid "Standard"
+msgstr "قياسي"
+
+#: kpci_private.h:719
+#, kde-format
+msgid "CardBus"
+msgstr "CardBus"
+
+#: kpci_private.h:725
+#, kde-format
+msgid "1X"
+msgstr "1X"
+
+#: kpci_private.h:726
+#, kde-format
+msgid "2X"
+msgstr "2X"
+
+#: kpci_private.h:727
+#, kde-format
+msgid "1X & 2X"
+msgstr "1X و 2X"
+
+#: kpci_private.h:728 kpci_private.h:732
+#, kde-format
+msgid "4X"
+msgstr "4X"
+
+#: kpci_private.h:729
+#, kde-format
+msgid "1X & 4X"
+msgstr "1X و 4X"
+
+#: kpci_private.h:730
+#, kde-format
+msgid "2X & 4X"
+msgstr "2X و 4X"
+
+#: kpci_private.h:731
+#, kde-format
+msgid "1X & 2X & 4X"
+msgstr "1X و 2X و 4X"
+
+#: kpci_private.h:733
+#, kde-format
+msgid "8X"
+msgstr "8X"
+
+#: kpci_private.h:734
+#, kde-format
+msgid "4X & 8X"
+msgstr "4X و 8X"
+
+#: kpci_private.h:740
+#, kde-format
+msgid "4 ms"
+msgstr "4 م.ث"
+
+#: kpci_private.h:741
+#, kde-format
+msgid "16 ms"
+msgstr "16 م.ث"
+
+#: kpci_private.h:742
+#, kde-format
+msgid "64 ms"
+msgstr "64 م.ث"
+
+#: kpci_private.h:743
+#, kde-format
+msgid "256 ms"
+msgstr "256 م.ث"
+
+#: kpci_private.h:744
+#, kde-format
+msgid "Not needed"
+msgstr "لا يحتاج"
+
+#: kpci_private.h:750
+#, kde-format
+msgid "0 (self powered)"
+msgstr "0 (يشغل نفسه)"
+
+#: kpci_private.h:751
+#, kde-format
+msgid "55 mA"
+msgstr "55 م.أ"
+
+#: kpci_private.h:752
+#, kde-format
+msgid "100 mA"
+msgstr "100 م.أ"
+
+#: kpci_private.h:753
+#, kde-format
+msgid "160 mA"
+msgstr "160 م.أ"
+
+#: kpci_private.h:754
+#, kde-format
+msgid "220 mA"
+msgstr "220 م.أ"
+
+#: kpci_private.h:755
+#, kde-format
+msgid "270 mA"
+msgstr "270 م.أ"
+
+#: kpci_private.h:756
+#, kde-format
+msgid "320 mA"
+msgstr "320 م.أ"
+
+#: kpci_private.h:757
+#, kde-format
+msgid "375 mA"
+msgstr "375 م.أ"
+
+#: kpci_private.h:772
+#, kde-format
+msgid "1 vector"
+msgstr "متجه واحد"
+
+#: kpci_private.h:773
+#, kde-format
+msgid "2 vectors"
+msgstr "متجهان"
+
+#: kpci_private.h:774
+#, kde-format
+msgid "4 vectors"
+msgstr "4 متجهات"
+
+#: kpci_private.h:775
+#, kde-format
+msgid "8 vectors"
+msgstr "8 متجهات"
+
+#: kpci_private.h:776
+#, kde-format
+msgid "16 vectors"
+msgstr "15 متجه"
+
+#: kpci_private.h:777
+#, kde-format
+msgid "32 vectors"
+msgstr "32 متجه"

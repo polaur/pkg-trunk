@@ -1,0 +1,141 @@
+# Copyright (C) 2010 Free Software Foundation, Inc.
+#
+# Tamas Szanto <tszanto@interware.hu>, 2003.
+# Kristóf Kiszel <ulysses@kubuntu.org>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: KDE 4.2\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2017-03-31 02:49+0200\n"
+"PO-Revision-Date: 2010-11-14 08:43+0100\n"
+"Last-Translator: Kristóf Kiszel <ulysses@kubuntu.org>\n"
+"Language-Team: Magyar <kde-l10n-hu@kde.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: view1394.cpp:61
+#, kde-format
+msgid ""
+"<qt>Here you can see some information about your IEEE 1394 configuration. "
+"The meaning of the columns:<ul><li><b>Name</b>: port or node name, the "
+"number can change with each bus reset</li><li><b>GUID</b>: the 64 bit GUID "
+"of the node</li><li><b>Local</b>: checked if the node is an IEEE 1394 port "
+"of your computer</li><li><b>IRM</b>: checked if the node is isochronous "
+"resource manager capable</li><li><b>CRM</b>: checked if the node is cycle "
+"master capable</li><li><b>ISO</b>: checked if the node supports isochronous "
+"transfers</li><li><b>BM</b>: checked if the node is bus manager capable</"
+"li><li><b>PM</b>: checked if the node is power management capable</"
+"li><li><b>Acc</b>: the cycle clock accuracy of the node, valid from 0 to "
+"100</li><li><b>Speed</b>: the speed of the node</li><li><b>Vendor</b>: the "
+"vendor of the device</li></ul></qt>"
+msgstr ""
+"<qt>A jobb oldalon láthatók az IEEE 1394-eszközök fontosabb jellemzői. Az "
+"egyes oszlopok jelentése:<ul><li><b>Név</b>: a port vagy a csomópont neve, a "
+"szám a busz alapállapotba hozásakor megváltozhat</li><li><b>GUID</b>: a "
+"csomópont 64 bites azonosítója</li><li><b>Helyi</b>: akkor van bejelölve, ha "
+"a csomópont a helyi géphez tartozik</li><li><b>IRM</b>: akkor van bejelölve, "
+"ha a csomópont képes izokronikus erőforrás-kezelésre</li><li><b>CRM</b>: "
+"akkor van bejelölve, ha az eszköz képes ciklusvezérlésre</li><li><b>ISO</b>: "
+"akkor van bejelölve, ha a csomópont képes izokronikus adatátvitelre</"
+"li><li><b>BM</b>: akkor van bejelölve, ha a csomópont képes buszvezérlésre</"
+"li><li><b>PM</b>: akkor van bejelölve, ha a csomópont képes "
+"energiatakarékossági funkciók végrehajtására</li><li><b>Pontosság</b>: a "
+"csomópont ciklusórajelének pontossága, 0 és 100 között lehet</"
+"li><li><b>Sebesség</b>: a csomópont sebessége</li><li><b>Gyártó</b>: az "
+"eszköz gyártója</li></ul></qt>"
+
+#: view1394.cpp:194
+#, kde-format
+msgid "Port %1:\"%2\""
+msgstr "Port %1:„%2”"
+
+#: view1394.cpp:208
+#, kde-format
+msgid "Node %1"
+msgstr "%1. csomópont"
+
+#: view1394.cpp:211
+#, kde-format
+msgid "Not ready"
+msgstr "Nem áll készen"
+
+#: view1394.cpp:306
+#, kde-format
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:20
+#, kde-format
+msgid "Name"
+msgstr "Név"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:31
+#, kde-format
+msgid "GUID"
+msgstr "GUID"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:42
+#, kde-format
+msgid "Local"
+msgstr "Helyi"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:53
+#, kde-format
+msgid "IRM"
+msgstr "IRM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:64
+#, kde-format
+msgid "CRM"
+msgstr "CRM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:75
+#, kde-format
+msgid "ISO"
+msgstr "ISO"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:86
+#, kde-format
+msgid "BM"
+msgstr "BM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:97
+#, kde-format
+msgid "PM"
+msgstr "PM"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:108
+#, kde-format
+msgid "Acc"
+msgstr "Pontosság"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:119
+#, kde-format
+msgid "Speed"
+msgstr "Sebesség"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listview)
+#: view1394widget.ui:130
+#, kde-format
+msgid "Vendor"
+msgstr "Gyártó"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_busResetPb)
+#: view1394widget.ui:165
+#, kde-format
+msgid "Generate 1394 Bus Reset"
+msgstr "Az 1394 busz alapállapotba hozása"

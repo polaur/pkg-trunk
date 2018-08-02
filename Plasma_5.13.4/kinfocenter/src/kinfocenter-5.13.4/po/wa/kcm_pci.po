@@ -1,0 +1,2015 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jean Cayron <jean.cayron@gmail.com>, 2008, 2010.
+# Jean Cayron <jean.cayron@base.be>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_pci\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2016-11-19 20:20+0100\n"
+"PO-Revision-Date: 2011-07-12 17:52+0200\n"
+"Last-Translator: Jean Cayron <jean.cayron@base.be>\n"
+"Language-Team: Walloon <linux@walon.org>\n"
+"Language: wa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Djan Cayron"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "jean.cayron@gmail.com"
+
+#: kcm_pci.cpp:42
+#, kde-format
+msgid "kcm_pci"
+msgstr "kcm_pci"
+
+#: kcm_pci.cpp:43
+#, fuzzy, kde-format
+#| msgid "Device"
+msgid "PCI Devices"
+msgstr "Éndjin"
+
+#: kcm_pci.cpp:45
+#, kde-format
+msgid "(c) 2008 Nicolas Ternisien(c) 1998 - 2002 Helge Deller"
+msgstr "© 2008 Nicolas Ternisien - © 1998 - 2002 Helge Deller"
+
+#: kcm_pci.cpp:48
+#, kde-format
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
+
+#: kcm_pci.cpp:49
+#, kde-format
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: kcm_pci.cpp:62
+#, kde-format
+msgid "This list displays PCI information."
+msgstr "Çouci fwait l' djivêye des informåcions sol PCI"
+
+#: kcm_pci.cpp:82
+#, kde-format
+msgid ""
+"This display shows information about your computer's PCI slots and the "
+"related connected devices."
+msgstr ""
+"Ci håynaedje cial mostere les informåcions so les royons PCI dal copiutrece "
+"eyet les éndjins k' î sont raloyîs."
+
+#: kpci.cpp:64
+#, kde-format
+msgid "Device Class"
+msgstr "Classe d' éndjin"
+
+#: kpci.cpp:65
+#, kde-format
+msgid "Device Subclass"
+msgstr "Sorclasse d' éndjin"
+
+#: kpci.cpp:66
+#, kde-format
+msgid "Device Programming Interface"
+msgstr "Eterface di programaedje d' éndjin"
+
+#: kpci.cpp:68
+#, kde-format
+msgid "Master IDE Device"
+msgstr "Mwaisse éndjin d' evironmint di programaedje (IDE)"
+
+#: kpci.cpp:69
+#, kde-format
+msgid "Secondary programmable indicator"
+msgstr "Deujhinme corwaitoe polant esse programé"
+
+#: kpci.cpp:70
+#, kde-format
+msgid "Secondary operating mode"
+msgstr "Deujhinme môde d' operance"
+
+#: kpci.cpp:71
+#, kde-format
+msgid "Primary programmable indicator"
+msgstr "Prumî corwaitoe polant esse programé"
+
+#: kpci.cpp:72
+#, kde-format
+msgid "Primary operating mode"
+msgstr "Prumî môde d' operance"
+
+#: kpci.cpp:100 kpci.cpp:124
+#, kde-format
+msgid "Vendor"
+msgstr "Vindeu"
+
+#: kpci.cpp:107 kpci.cpp:126
+#, kde-format
+msgid "Device"
+msgstr "Éndjin"
+
+#: kpci.cpp:116 kpci.cpp:135 kpci.cpp:138 kpci.cpp:142
+#, kde-format
+msgid "Subsystem"
+msgstr "Sorsistinme"
+
+#: kpci.cpp:135
+#, kde-format
+msgid " - device:"
+msgstr " - éndjin:"
+
+#: kpci.cpp:153 kpci.cpp:174
+#, kde-format
+msgid "Interrupt"
+msgstr "Interrupt"
+
+#: kpci.cpp:154
+#, kde-format
+msgid "IRQ"
+msgstr "IRQ"
+
+#: kpci.cpp:155
+#, kde-format
+msgid "Pin"
+msgstr "Pin"
+
+#: kpci.cpp:163
+#, kde-format
+msgid "Control"
+msgstr "Controle"
+
+#: kpci.cpp:164
+#, kde-format
+msgid "Response in I/O space"
+msgstr "Responce en espåce I/R"
+
+#: kpci.cpp:165
+#, kde-format
+msgid "Response in memory space"
+msgstr "Responce en espåce di memwere"
+
+#: kpci.cpp:166
+#, kde-format
+msgid "Bus mastering"
+msgstr "Mwaistraedje des bus"
+
+#: kpci.cpp:167
+#, kde-format
+msgid "Response to special cycles"
+msgstr "Response a des speciås aneas"
+
+#: kpci.cpp:168
+#, kde-format
+msgid "Memory write and invalidate"
+msgstr "Sicrire eyet rinde nén valide li memwere"
+
+#: kpci.cpp:169
+#, kde-format
+msgid "Palette snooping"
+msgstr "Båcaedje del palete"
+
+#: kpci.cpp:170
+#, kde-format
+msgid "Parity checking"
+msgstr "Verifiaedje del parité"
+
+#: kpci.cpp:171
+#, kde-format
+msgid "Address/data stepping"
+msgstr ""
+
+#: kpci.cpp:172
+#, kde-format
+msgid "System error"
+msgstr "Aroke sistinme"
+
+#: kpci.cpp:173
+#, kde-format
+msgid "Back-to-back writes"
+msgstr "Sicrijhaedjes erî viè erî"
+
+#: kpci.cpp:181 kpci.cpp:434 kpci.cpp:536 kpci.cpp:562
+#, kde-format
+msgid "Status"
+msgstr "Estat"
+
+#: kpci.cpp:182 kpci.cpp:347 kpci.cpp:362
+#, kde-format
+msgid "Interrupt status"
+msgstr "Estat do côpaedje"
+
+#: kpci.cpp:183 kpci.cpp:348 kpci.cpp:363
+#, kde-format
+msgid "Capability list"
+msgstr "Djivêye d' ahessaedje"
+
+#: kpci.cpp:184 kpci.cpp:349 kpci.cpp:364
+#, kde-format
+msgid "66 MHz PCI 2.1 bus"
+msgstr "Bus 66 MHz PCI 2.1"
+
+#: kpci.cpp:185 kpci.cpp:350 kpci.cpp:365
+#, kde-format
+msgid "User-definable features"
+msgstr "Fonccionålités definixhåves pa l' uzeu"
+
+#: kpci.cpp:186 kpci.cpp:351 kpci.cpp:366
+#, kde-format
+msgid "Accept fast back-to-back"
+msgstr "Accepter abeye erî viè erî"
+
+#: kpci.cpp:187 kpci.cpp:352 kpci.cpp:367
+#, kde-format
+msgid "Data parity error"
+msgstr "Aroke di parité des dnêyes"
+
+#: kpci.cpp:188 kpci.cpp:353 kpci.cpp:368
+#, kde-format
+msgid "Device selection timing"
+msgstr "Tins po tchoezi l' éndjin"
+
+#: kpci.cpp:189 kpci.cpp:354 kpci.cpp:369
+#, kde-format
+msgid "Signaled target abort"
+msgstr "On m' dit k' i gn a en abandon del såme"
+
+#: kpci.cpp:190 kpci.cpp:355 kpci.cpp:370
+#, kde-format
+msgid "Received target abort"
+msgstr "Abandon do rçuvaedje del såme"
+
+#: kpci.cpp:191 kpci.cpp:356 kpci.cpp:371
+#, kde-format
+msgid "Received master abort"
+msgstr "Abandon do rçuvaedje do mwaisse"
+
+#: kpci.cpp:192 kpci.cpp:357 kpci.cpp:372
+#, kde-format
+msgid "Signaled system error"
+msgstr "On m' dit k' i gn a ene aroke sistinme"
+
+#: kpci.cpp:193 kpci.cpp:358 kpci.cpp:373
+#, kde-format
+msgid "Parity error"
+msgstr "Aroke di parité"
+
+#: kpci.cpp:200
+#, kde-format
+msgid "Latency"
+msgstr "Latince"
+
+#: kpci.cpp:203 kpci.cpp:206
+#, kde-format
+msgid "MIN_GNT"
+msgstr "MIN_GNT"
+
+#: kpci.cpp:203 kpci.cpp:209
+#, kde-format
+msgid "No major requirements (0x00)"
+msgstr "Pont d' mezåjhe impôrtant (0x00)"
+
+#: kpci.cpp:209 kpci.cpp:212
+#, kde-format
+msgid "MAX_LAT"
+msgstr "MAX_LAT"
+
+#: kpci.cpp:221
+#, kde-format
+msgid "Header"
+msgstr "Tiestire"
+
+#: kpci.cpp:222 kpci.cpp:287 kpci.cpp:464
+#, kde-format
+msgid "Type"
+msgstr "Sôre"
+
+#: kpci.cpp:223
+#, kde-format
+msgid "Multifunctional"
+msgstr "Multifonccionel"
+
+#: kpci.cpp:230
+#, kde-format
+msgid "Build-in self test"
+msgstr "Oto-asprouvaedje di bastixhaedje-divins (OABD)"
+
+#: kpci.cpp:231
+#, kde-format
+msgid "BIST Capable"
+msgstr "Sait fé èn OABD"
+
+#: kpci.cpp:233
+#, kde-format
+msgid "BIST Start"
+msgstr "Enondaedje di l' OABD"
+
+#: kpci.cpp:234
+#, kde-format
+msgid "Completion code"
+msgstr "Côde di completaedje"
+
+#: kpci.cpp:241 kpci.cpp:244 kpci.cpp:247 kpci.cpp:253 kpci.cpp:256
+#: kpci.cpp:259 kpci.cpp:264 kpci.cpp:295 kpci.cpp:311 kpci.cpp:437
+#, kde-format
+msgid "Size"
+msgstr "Grandeu"
+
+#: kpci.cpp:276
+#, kde-format
+msgid "Address mappings"
+msgstr "Mapaedjes di l' adresse"
+
+#: kpci.cpp:284
+#, kde-format
+msgid "Mapping %1"
+msgstr "Mapaedje di %1"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "Space"
+msgstr "Espåce"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "I/O"
+msgstr "I/R"
+
+#: kpci.cpp:285
+#, kde-format
+msgid "Memory"
+msgstr "Memwere"
+
+#: kpci.cpp:288 kpci.cpp:457
+#, kde-format
+msgid "Prefetchable"
+msgstr "A mete e prumî"
+
+#: kpci.cpp:294 kpci.cpp:298 kpci.cpp:303 kpci.cpp:310 kpci.cpp:314
+#: kpci.cpp:436 kpci.cpp:440 kpci.cpp:633 kpci.cpp:641
+#, kde-format
+msgid "Address"
+msgstr "Adresse"
+
+#: kpci.cpp:294 kpci.cpp:310 kpci.cpp:436
+#, fuzzy, kde-format
+#| msgid "Unassigned"
+msgctxt "unassigned address"
+msgid "Unassigned"
+msgstr "Nén aroyî"
+
+#: kpci.cpp:295 kpci.cpp:311 kpci.cpp:437
+#, fuzzy, kde-format
+#| msgid "Unassigned"
+msgctxt "unassigned size"
+msgid "Unassigned"
+msgstr "Nén aroyî"
+
+#: kpci.cpp:326 kpci.cpp:333
+#, kde-format
+msgid "Bus"
+msgstr "Bus"
+
+#: kpci.cpp:327 kpci.cpp:334
+#, kde-format
+msgid "Primary bus number"
+msgstr "Limero do bus di prumî livea"
+
+#: kpci.cpp:328
+#, kde-format
+msgid "Secondary bus number"
+msgstr "Limero do bus di deujhinme livea"
+
+#: kpci.cpp:329 kpci.cpp:336
+#, fuzzy, kde-format
+msgid "Subordinate bus number"
+msgstr "Limero do bus"
+
+#: kpci.cpp:330
+#, kde-format
+msgid "Secondary latency timer"
+msgstr "Munutreye del latince di deujhinme livea"
+
+#: kpci.cpp:335
+#, kde-format
+msgid "CardBus number"
+msgstr "Limero d' cwåte bus"
+
+#: kpci.cpp:337
+#, kde-format
+msgid "CardBus latency timer"
+msgstr "Munutreye del latince del cwåte bus"
+
+#: kpci.cpp:346 kpci.cpp:361
+#, kde-format
+msgid "Secondary status"
+msgstr "Statut d' deujhinme livea"
+
+#: kpci.cpp:382
+#, kde-format
+msgid "I/O behind bridge"
+msgstr "Pont pa drî d' I/R"
+
+#: kpci.cpp:383 kpci.cpp:464
+#, kde-format
+msgid "32-bit"
+msgstr "32-bites"
+
+#: kpci.cpp:385 kpci.cpp:389 kpci.cpp:393 kpci.cpp:398 kpci.cpp:402
+#: kpci.cpp:458 kpci.cpp:466 kpci.cpp:470
+#, kde-format
+msgid "Base"
+msgstr "Båze"
+
+#: kpci.cpp:386 kpci.cpp:390 kpci.cpp:394 kpci.cpp:399 kpci.cpp:403
+#: kpci.cpp:459 kpci.cpp:467 kpci.cpp:471
+#, kde-format
+msgid "Limit"
+msgstr "Limite"
+
+#: kpci.cpp:392
+#, kde-format
+msgid "Memory behind bridge"
+msgstr "Memwere pa drî l' pont"
+
+#: kpci.cpp:395
+#, kde-format
+msgid "Prefetchable memory behind bridge"
+msgstr "Memwere pa drî l' pont a mete e prumî"
+
+#: kpci.cpp:396
+#, kde-format
+msgid "64-bit"
+msgstr "64-bites"
+
+#: kpci.cpp:413
+#, kde-format
+msgid "Bridge control"
+msgstr "Controle do pont"
+
+#: kpci.cpp:414 kpci.cpp:484
+#, kde-format
+msgid "Secondary parity checking"
+msgstr "Verifiaedje del parité di deujhinme livea"
+
+#: kpci.cpp:415 kpci.cpp:485
+#, kde-format
+msgid "Secondary system error"
+msgstr "Aroke sistinme di deujhinme livea"
+
+#: kpci.cpp:416 kpci.cpp:486
+#, kde-format
+msgid "ISA ports forwarding"
+msgstr "Redjiblaedje di pôrts ISA"
+
+#: kpci.cpp:417 kpci.cpp:487
+#, kde-format
+msgid "VGA forwarding"
+msgstr "Redjiblaedje VGA"
+
+#: kpci.cpp:418 kpci.cpp:488
+#, kde-format
+msgid "Master abort"
+msgstr "Abandon do mwaisse"
+
+#: kpci.cpp:419
+#, kde-format
+msgid "Secondary bus reset"
+msgstr "Rimetaedje a zero do bus di deujhinme livea"
+
+#: kpci.cpp:420
+#, kde-format
+msgid "Secondary back-to-back writes"
+msgstr "Sicrijhaedjes erî viè erî di deujhinme livea"
+
+#: kpci.cpp:421
+#, kde-format
+msgid "Primary discard timer counts"
+msgstr "Contaedjes del munutreye d' abandon di prumî livea"
+
+#: kpci.cpp:421 kpci.cpp:422
+#, kde-format
+msgid "2e10 PCI clocks"
+msgstr "Ôrlodjes 2e10 PCI"
+
+#: kpci.cpp:421 kpci.cpp:422
+#, kde-format
+msgid "2e15 PCI clocks"
+msgstr "Ôrlodjes 2e15 PCI"
+
+#: kpci.cpp:422
+#, kde-format
+msgid "Secondary discard timer counts"
+msgstr "Contaedjes del munutreye d' abandon di deujhinme livea"
+
+#: kpci.cpp:423
+#, kde-format
+msgid "Discard timer error"
+msgstr "Aroke del munutreye d' abandon"
+
+#: kpci.cpp:424
+#, kde-format
+msgid "Discard timer system error"
+msgstr "Aroke sistinme del munutreye d' abandon"
+
+#: kpci.cpp:433
+#, kde-format
+msgid "Expansion ROM"
+msgstr "ROM di spårdaedje"
+
+#: kpci.cpp:453
+#, kde-format
+msgid "Memory windows"
+msgstr "Purneas d' memwere"
+
+#: kpci.cpp:456 kpci.cpp:463
+#, kde-format
+msgid "Window %1"
+msgstr "Purnea %1"
+
+#: kpci.cpp:461
+#, kde-format
+msgid "I/O windows"
+msgstr "Purneas I/R"
+
+#: kpci.cpp:464
+#, kde-format
+msgid "16-bit"
+msgstr "16-bites"
+
+#: kpci.cpp:474
+#, kde-format
+msgid "16-bit legacy interface ports"
+msgstr "Pôrts d' eterface di copatiblité avou l' môde 16 bites"
+
+#: kpci.cpp:483
+#, kde-format
+msgid "CardBus control"
+msgstr "Controle des cwåtes bus"
+
+#: kpci.cpp:489
+#, kde-format
+msgid "Interrupts for 16-bit cards"
+msgstr "Interupcions po les cwådes 16-bites"
+
+#: kpci.cpp:490
+#, kde-format
+msgid "Window 0 prefetchable memory"
+msgstr "Memwere a mete e prumî do purnea 0"
+
+#: kpci.cpp:491
+#, kde-format
+msgid "Window 1 prefetchable memory"
+msgstr "Memwere a mete e prumî do purnea 1"
+
+#: kpci.cpp:492
+#, kde-format
+msgid "Post writes"
+msgstr "Sicrijhaedjes d' après"
+
+#: kpci.cpp:500
+#, kde-format
+msgid "Raw PCI config space"
+msgstr "Plaece d' apontiaedje do PCI brut"
+
+#: kpci.cpp:522 kpci.cpp:684 kpci.cpp:715
+#, kde-format
+msgid "Capabilities"
+msgstr "Ahessaedjes"
+
+#: kpci.cpp:523
+#, kde-format
+msgid "Version"
+msgstr "Modêyes"
+
+#: kpci.cpp:524
+#, kde-format
+msgid "Clock required for PME generation"
+msgstr "Ôrlodje dimandêye po ahiver PME"
+
+#: kpci.cpp:525
+#, kde-format
+msgid "Device-specific initialization required"
+msgstr "Inicialijhaedje sipecifike a l' éndjin dimandé"
+
+#: kpci.cpp:526
+#, kde-format
+msgid "Maximum auxiliary current required in D3 cold"
+msgstr "Ogziliaire do moumint macsimom k' i fåt e froed D3"
+
+#: kpci.cpp:527
+#, kde-format
+msgid "D1 support"
+msgstr "Sopoirt D1"
+
+#: kpci.cpp:528
+#, kde-format
+msgid "D2 support"
+msgstr "Sopoirt D2"
+
+#: kpci.cpp:529
+#, kde-format
+msgid "Power management events"
+msgstr "Evenmints do manaedjmint di l' enerdjeye"
+
+#: kpci.cpp:530 kpci_private.h:763
+#, kde-format
+msgid "D0"
+msgstr "D0"
+
+#: kpci.cpp:531 kpci_private.h:764
+#, kde-format
+msgid "D1"
+msgstr "D1"
+
+#: kpci.cpp:532 kpci_private.h:765
+#, kde-format
+msgid "D2"
+msgstr "D2"
+
+#: kpci.cpp:533 kpci_private.h:766
+#, kde-format
+msgid "D3 hot"
+msgstr "D3 tchôd"
+
+#: kpci.cpp:534
+#, kde-format
+msgid "D3 cold"
+msgstr "D3 froed"
+
+#: kpci.cpp:537
+#, kde-format
+msgid "Power state"
+msgstr "Estat di l' enerdjeye"
+
+#: kpci.cpp:538 kpci_private.h:680
+#, kde-format
+msgid "Power management"
+msgstr "Manaedjmint di l' enerdjeye"
+
+#: kpci.cpp:539
+#, kde-format
+msgid "Data select"
+msgstr "Tchoes des dnêyes"
+
+#: kpci.cpp:540
+#, kde-format
+msgid "Data scale"
+msgstr "Schåle des dnêyes"
+
+#: kpci.cpp:541
+#, kde-format
+msgid "Power management status"
+msgstr "Estat do manaedjmint di l' enerdjeye"
+
+#: kpci.cpp:544
+#, kde-format
+msgid "Bridge status"
+msgstr "Statut do pont"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "Secondary bus state in D3 hot"
+msgstr "Estat do bus di deujhinme livea e tchôd D3"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "B2"
+msgstr "B2"
+
+#: kpci.cpp:545
+#, kde-format
+msgid "B3"
+msgstr "B3"
+
+#: kpci.cpp:546
+#, kde-format
+msgid "Secondary bus power & clock control"
+msgstr "Enerdjeye do bus di deujhinme livea eyet controle di l' ôrlodje"
+
+#: kpci.cpp:549 kpci.cpp:611 kpci.cpp:634 kpci.cpp:642 kpci.cpp:658
+#: kpci.cpp:670
+#, kde-format
+msgid "Data"
+msgstr "Dinêyes"
+
+#. i18n("Revision"),value.sprintf("%i.%i",infoAgp.revMaior,infoAgp.revMinor));
+#: kpci.cpp:561 kpci.cpp:763
+#, kde-format
+msgid "Revision"
+msgstr "Rivizion"
+
+#: kpci.cpp:563 kpci.cpp:584
+#, kde-format
+msgid "Rate"
+msgstr "Roedeur"
+
+#: kpci.cpp:564
+#, kde-format
+msgid "AGP 3.0 mode"
+msgstr "Môde AGP 3.0"
+
+#: kpci.cpp:565 kpci.cpp:585
+#, kde-format
+msgid "Fast Writes"
+msgstr "Roed scrijhaedjes"
+
+#: kpci.cpp:566 kpci.cpp:587
+#, kde-format
+msgid "Address over 4 GiB"
+msgstr "Adresse di pus d' 4 GiB"
+
+#: kpci.cpp:568
+#, kde-format
+msgid "Translation of host processor access"
+msgstr "Accès å ratournaedje do processeu do lodjoe"
+
+#: kpci.cpp:569 kpci.cpp:588
+#, kde-format
+msgid "64-bit GART"
+msgstr "GART 64-bites"
+
+#: kpci.cpp:570
+#, kde-format
+msgid "Cache Coherency"
+msgstr "Cowerince del muchete"
+
+#: kpci.cpp:572 kpci.cpp:591
+#, kde-format
+msgid "Side-band addressing"
+msgstr "Adressaedje del binde di costé"
+
+#: kpci.cpp:574 kpci.cpp:593
+#, kde-format
+msgid "Calibrating cycle"
+msgstr "Calibraedje des bloukes"
+
+#: kpci.cpp:578 kpci.cpp:597
+#, kde-format
+msgid "Optimum asynchronous request size"
+msgstr "Grandeu optimåle del dimande assincrône"
+
+#: kpci.cpp:579
+#, kde-format
+msgid "Isochronous transactions"
+msgstr "Tranzaccions izocrônes"
+
+#: kpci.cpp:581 kpci.cpp:599
+#, kde-format
+msgid "Maximum number of AGP command"
+msgstr "Nombe macsimom di comandes AGP"
+
+#: kpci.cpp:583
+#, kde-format
+msgid "Configuration"
+msgstr "Apontiaedje"
+
+#: kpci.cpp:590 kpci_private.h:681
+#, kde-format
+msgid "AGP"
+msgstr "AGP"
+
+#: kpci.cpp:609
+#, kde-format
+msgid "Data address"
+msgstr "Addresse des dnêyes"
+
+#: kpci.cpp:610
+#, kde-format
+msgid "Transfer completed"
+msgstr "Berwetaedje fini"
+
+#: kpci.cpp:623
+#, kde-format
+msgid "Message control"
+msgstr "Controle do messaedje"
+
+#: kpci.cpp:624 kpci_private.h:684
+#, kde-format
+msgid "Message signaled interrupts"
+msgstr "Boutoes dits pa des messaedjes"
+
+#: kpci.cpp:625
+#, kde-format
+msgid "Multiple message capable"
+msgstr "Sait fé sacwants messaedjes"
+
+#: kpci.cpp:626
+#, kde-format
+msgid "Multiple message enable"
+msgstr "Mete en alaedje sacwants messaedjes"
+
+#: kpci.cpp:627
+#, kde-format
+msgid "64-bit address"
+msgstr "Adresse 64-bites"
+
+#: kpci.cpp:628
+#, kde-format
+msgid "Per vector masking"
+msgstr "Mascaedje pa roye"
+
+#: kpci.cpp:636 kpci.cpp:644
+#, kde-format
+msgid "Mask"
+msgstr "Masse"
+
+#: kpci.cpp:637 kpci.cpp:645
+#, kde-format
+msgid "Pending"
+msgstr "Ki s' va fé"
+
+#: kpci.cpp:655
+#, kde-format
+msgid "Length"
+msgstr "Longueu"
+
+#: kpci.cpp:658
+#, kde-format
+msgctxt "no data"
+msgid "None"
+msgstr "Nole"
+
+#: kpci.cpp:688
+#, kde-format
+msgid "Next"
+msgstr "Shuvant"
+
+#: kpci.cpp:688 kpci.cpp:715
+#, kde-format
+msgid "0x00 (None)"
+msgstr "0x00 (Nole)"
+
+#: kpci.cpp:711
+#, kde-format
+msgid "Root only"
+msgstr "Root seulmint"
+
+#: kpci.cpp:724
+#, kde-format
+msgid "Information"
+msgstr "Informåcions"
+
+#: kpci.cpp:724
+#, kde-format
+msgid "Value"
+msgstr "Valixhance"
+
+#: kpci.cpp:772
+#, kde-format
+msgid "Cache line size"
+msgstr "Grandeu del roye del muchete"
+
+#: kpci_private.h:27
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Enabled"
+msgstr "En alaedje"
+
+#: kpci_private.h:28
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Disabled"
+msgstr "Essocté"
+
+#: kpci_private.h:29
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Yes"
+msgstr "Oyi"
+
+#: kpci_private.h:30
+#, kde-format
+msgctxt "state of PCI item"
+msgid "No"
+msgstr "Neni"
+
+#: kpci_private.h:31
+#, kde-format
+msgctxt "state of PCI item"
+msgid "Unknown"
+msgstr "Nén cnoxhou"
+
+#: kpci_private.h:439
+#, kde-format
+msgid "Unclassified device"
+msgstr "Éndjin nén classifyî"
+
+#: kpci_private.h:440 kpci_private.h:474
+#, kde-format
+msgid "Mass storage controller"
+msgstr "Controleur di stocaedje di dnêyes"
+
+#: kpci_private.h:441 kpci_private.h:484
+#, kde-format
+msgid "Network controller"
+msgstr "Controleur del rantoele"
+
+#: kpci_private.h:442 kpci_private.h:490
+#, kde-format
+msgid "Display controller"
+msgstr "Controleur do håynaedje"
+
+#: kpci_private.h:443 kpci_private.h:496
+#, kde-format
+msgid "Multimedia controller"
+msgstr "Controleur multimedia"
+
+#: kpci_private.h:444 kpci_private.h:501
+#, kde-format
+msgid "Memory controller"
+msgstr "Controleur del memwere"
+
+#: kpci_private.h:445 kpci_private.h:515 kpci_private.h:718
+#, kde-format
+msgid "Bridge"
+msgstr "Pont"
+
+#: kpci_private.h:446 kpci_private.h:524
+#, kde-format
+msgid "Communication controller"
+msgstr "Controleur del comunicåcion"
+
+#: kpci_private.h:447
+#, kde-format
+msgid "Generic system peripheral"
+msgstr "Periferike sistinme djenerike"
+
+#: kpci_private.h:448 kpci_private.h:540
+#, kde-format
+msgid "Input device controller"
+msgstr "Controleur d' éndjin intrant"
+
+#: kpci_private.h:449 kpci_private.h:544
+#, kde-format
+msgid "Docking station"
+msgstr "Ståcion dvantrinne"
+
+#: kpci_private.h:450
+#, kde-format
+msgid "Processor"
+msgstr "Processeu"
+
+#: kpci_private.h:451
+#, kde-format
+msgid "Serial bus controller"
+msgstr "Controleur di bus e séreye"
+
+#: kpci_private.h:452 kpci_private.h:575
+#, kde-format
+msgid "Wireless controller"
+msgstr "Controleur sins fyi"
+
+#: kpci_private.h:453
+#, kde-format
+msgid "Intelligent controller"
+msgstr "Malén controleur"
+
+#: kpci_private.h:454
+#, kde-format
+msgid "Satellite communications controller"
+msgstr "Controleur di cominucåcion pa satelites"
+
+#: kpci_private.h:455 kpci_private.h:589
+#, kde-format
+msgid "Encryption controller"
+msgstr "Controleur d' ecriptaedje"
+
+#: kpci_private.h:456 kpci_private.h:596
+#, kde-format
+msgid "Signal processing controller"
+msgstr "Controleur del façon d' ovrer avou l' signå"
+
+#: kpci_private.h:457
+#, kde-format
+msgid "Unknown device class"
+msgstr "Classe d' éndjin nén cnoxhou"
+
+#: kpci_private.h:463
+#, kde-format
+msgid "Non-VGA unclassified device"
+msgstr "Éndjin nén VGA nén classifyî"
+
+#: kpci_private.h:464
+#, kde-format
+msgid "VGA unclassified device"
+msgstr "Éndjin VGA nén classé"
+
+#: kpci_private.h:465
+#, kde-format
+msgid "Unknown unclassified device"
+msgstr "Éndjin nén cnoxhou nén classé"
+
+#: kpci_private.h:467
+#, kde-format
+msgid "SCSI storage controller"
+msgstr "Controleur di stocaedje SCSI"
+
+#: kpci_private.h:468
+#, kde-format
+msgid "IDE controller"
+msgstr "Controleur IDE"
+
+#: kpci_private.h:469
+#, kde-format
+msgid "Floppy disk controller"
+msgstr "Controleur di diskete"
+
+#: kpci_private.h:470
+#, kde-format
+msgid "IPI bus controller"
+msgstr "Controleur di bus IPI"
+
+#: kpci_private.h:471
+#, kde-format
+msgid "RAID bus controller"
+msgstr "Controleur di bus RAID"
+
+#: kpci_private.h:472
+#, kde-format
+msgid "ATA controller"
+msgstr "Controleur ATA"
+
+#: kpci_private.h:473
+#, kde-format
+msgid "Serial ATA direct port access"
+msgstr "Accès direk å pôrt séreye ATA"
+
+#: kpci_private.h:475
+#, kde-format
+msgid "Unknown storage controller"
+msgstr "Controleur di stocaedje nén cnoxhou"
+
+#: kpci_private.h:477
+#, kde-format
+msgid "Ethernet controller"
+msgstr "Controleur eternet"
+
+#: kpci_private.h:478
+#, kde-format
+msgid "Token ring network controller"
+msgstr "Controleur di rantoele token ring"
+
+#: kpci_private.h:479
+#, kde-format
+msgid "FDDI network controller"
+msgstr "Controleur di rantoele FDDI"
+
+#: kpci_private.h:480
+#, kde-format
+msgid "ATM network controller"
+msgstr "Controleur di rantoele ATM"
+
+#: kpci_private.h:481
+#, kde-format
+msgid "ISDN controller"
+msgstr "Controleur RDIS"
+
+#: kpci_private.h:482
+#, kde-format
+msgid "WorldFip controller"
+msgstr "Controleur WorldFip"
+
+#: kpci_private.h:483
+#, kde-format
+msgid "PICMG 2.14 multi computing"
+msgstr "PICMG 2.14 multi copiutaedje"
+
+#: kpci_private.h:485
+#, kde-format
+msgid "Unknown network controller"
+msgstr "Controleur del rantoele nén cnoxhou"
+
+#: kpci_private.h:487
+#, kde-format
+msgid "VGA compatible controller"
+msgstr "Controleur copatibe avou VGA"
+
+#: kpci_private.h:488
+#, kde-format
+msgid "XGA compatible controller"
+msgstr "Controleur copatibe avou XGA"
+
+#: kpci_private.h:489
+#, kde-format
+msgid "3D controller"
+msgstr "Controleur 3D"
+
+#: kpci_private.h:491
+#, kde-format
+msgid "Unknown display controller"
+msgstr "Controleur do håynaedje nén cnoxhou"
+
+#: kpci_private.h:493
+#, kde-format
+msgid "Multimedia video controller"
+msgstr "Controleur videyo multimedia"
+
+#: kpci_private.h:494
+#, kde-format
+msgid "Multimedia audio controller"
+msgstr "Controleur di son multimedia"
+
+#: kpci_private.h:495
+#, kde-format
+msgid "Computer telephony device"
+msgstr "Éndjin d' telefoneye pa copiutrece"
+
+#: kpci_private.h:497
+#, kde-format
+msgid "Unknown multimedia controller"
+msgstr "Controleur multimedia nén cnoxhou"
+
+#: kpci_private.h:499
+#, kde-format
+msgid "RAM memory"
+msgstr "Memwere RAM"
+
+#: kpci_private.h:500
+#, kde-format
+msgid "FLASH memory"
+msgstr "Memwere FLASH"
+
+#: kpci_private.h:502
+#, kde-format
+msgid "Unknown memory controller"
+msgstr "Controleur di memwere nén cnoxhou"
+
+#: kpci_private.h:504
+#, kde-format
+msgid "Host bridge"
+msgstr "Pont do lodjoe"
+
+#: kpci_private.h:505
+#, kde-format
+msgid "ISA bridge"
+msgstr "Pont ISA"
+
+#: kpci_private.h:506
+#, kde-format
+msgid "EISA bridge"
+msgstr "Pont EISA"
+
+#: kpci_private.h:507
+#, kde-format
+msgid "MicroChannel bridge"
+msgstr "Pont MicroChannel"
+
+#: kpci_private.h:508
+#, kde-format
+msgid "PCI bridge"
+msgstr "Pont PCI"
+
+#: kpci_private.h:509
+#, kde-format
+msgid "PCMCIA bridge"
+msgstr "Pont PCMCIA"
+
+#: kpci_private.h:510
+#, kde-format
+msgid "NuBus bridge"
+msgstr "Pont NuBus"
+
+#: kpci_private.h:511
+#, kde-format
+msgid "CardBus bridge"
+msgstr "Pont CardBus"
+
+#: kpci_private.h:512
+#, kde-format
+msgid "RACEway bridge"
+msgstr "Pont RACEway"
+
+#: kpci_private.h:513
+#, kde-format
+msgid "Semi-transparent PCI-to-PCI bridge"
+msgstr "Pont PCI a PCI transparint a mitan"
+
+#: kpci_private.h:514
+#, kde-format
+msgid "InfiniBand to PCI host bridge"
+msgstr "Pont d' lodjoe Infiniband a PCI"
+
+#: kpci_private.h:516
+#, kde-format
+msgid "Unknown bridge"
+msgstr "Pont nén cnoxhou"
+
+#: kpci_private.h:518
+#, kde-format
+msgid "Serial controller"
+msgstr "Controleur e séreye"
+
+#: kpci_private.h:519
+#, kde-format
+msgid "Parallel controller"
+msgstr "Controleur paralele"
+
+#: kpci_private.h:520
+#, kde-format
+msgid "Multiport serial controller"
+msgstr "Controleur multi-poirt e xhilete"
+
+#: kpci_private.h:521
+#, kde-format
+msgid "Modem"
+msgstr "Houcrece"
+
+#: kpci_private.h:522
+#, kde-format
+msgid "GPIB (IEEE 488.1/2) controller"
+msgstr "Controleur GPIB (IEEE 488.1/2)"
+
+#: kpci_private.h:523
+#, kde-format
+msgid "Smart card"
+msgstr "Cwåte Smart"
+
+#: kpci_private.h:525
+#, kde-format
+msgid "Unknown communication controller"
+msgstr "Controleur del comunicåcion nén cnoxhou"
+
+#: kpci_private.h:527
+#, kde-format
+msgid "PIC"
+msgstr "PIC"
+
+#: kpci_private.h:528
+#, kde-format
+msgid "DMA controller"
+msgstr "Controleur DMA"
+
+#: kpci_private.h:529
+#, kde-format
+msgid "Timer"
+msgstr "Rawårdeu d' tins"
+
+#: kpci_private.h:530
+#, kde-format
+msgid "RTC"
+msgstr "RTC"
+
+#: kpci_private.h:531
+#, kde-format
+msgid "PCI Hot-plug controller"
+msgstr "Controleur PCI Hot-plug"
+
+#: kpci_private.h:532
+#, kde-format
+msgid "System peripheral"
+msgstr "Periferike sistinme"
+
+#: kpci_private.h:533
+#, kde-format
+msgid "Unknown system peripheral"
+msgstr "Periferike sistinme nén cnoxhou"
+
+#: kpci_private.h:535
+#, kde-format
+msgid "Keyboard controller"
+msgstr "Controleur del taprece"
+
+#: kpci_private.h:536
+#, kde-format
+msgid "Digitizer Pen"
+msgstr "Pene a limerizer"
+
+#: kpci_private.h:537
+#, kde-format
+msgid "Mouse controller"
+msgstr "Controleur di soris"
+
+#: kpci_private.h:538
+#, kde-format
+msgid "Scanner controller"
+msgstr "Controleur di scanrece"
+
+#: kpci_private.h:539
+#, kde-format
+msgid "Gameport controller"
+msgstr "Controleur Gameport"
+
+#: kpci_private.h:541
+#, kde-format
+msgid "Unknown input device controller"
+msgstr "Controleur d' éndjin intrant nén cnoxhou"
+
+#: kpci_private.h:543
+#, kde-format
+msgid "Generic docking station"
+msgstr "Ståcion dvantrinne djenerike"
+
+#: kpci_private.h:545
+#, kde-format
+msgid "Unknown docking station"
+msgstr "Ståcion dvantrinne nén cnoxhowe"
+
+#: kpci_private.h:547
+#, kde-format
+msgid "386"
+msgstr "386"
+
+#: kpci_private.h:548
+#, kde-format
+msgid "486"
+msgstr "486"
+
+#: kpci_private.h:549
+#, kde-format
+msgid "Pentium"
+msgstr "Pentium"
+
+#: kpci_private.h:550
+#, kde-format
+msgid "Alpha"
+msgstr "Alpha"
+
+#: kpci_private.h:551
+#, kde-format
+msgid "Power PC"
+msgstr "Power PC"
+
+#: kpci_private.h:552
+#, kde-format
+msgid "MIPS"
+msgstr "MIPS"
+
+#: kpci_private.h:553
+#, kde-format
+msgid "Co-processor"
+msgstr "Co-processeu"
+
+#: kpci_private.h:554
+#, kde-format
+msgid "Unknown processor"
+msgstr "Processeu nén cnoxhou"
+
+#: kpci_private.h:556
+#, kde-format
+msgid "FireWire (IEEE 1394)"
+msgstr "FireWire (IEEE 1394)"
+
+#: kpci_private.h:557
+#, kde-format
+msgid "ACCESS bus"
+msgstr "Bus ACCESS"
+
+#: kpci_private.h:558
+#, kde-format
+msgid "SSA"
+msgstr "SSA"
+
+#: kpci_private.h:559
+#, kde-format
+msgid "USB controller"
+msgstr "Controleur USB"
+
+#: kpci_private.h:560
+#, kde-format
+msgid "Fibre channel"
+msgstr "Canå d' fiyaesse"
+
+#: kpci_private.h:561
+#, kde-format
+msgid "SMBus"
+msgstr "SMBus"
+
+#: kpci_private.h:562
+#, kde-format
+msgid "InfiniBand"
+msgstr "InfiniBand"
+
+#: kpci_private.h:563
+#, kde-format
+msgid "IPMI interface"
+msgstr "Eterface IPMI"
+
+#: kpci_private.h:564
+#, kde-format
+msgid "SERCOS interface"
+msgstr "Eterface SERCOS"
+
+#: kpci_private.h:565
+#, kde-format
+msgid "CANbus"
+msgstr "CANbus"
+
+#: kpci_private.h:566
+#, kde-format
+msgid "Unknown serial bus controller"
+msgstr "Controleur di bus e séreye nén cnoxhou"
+
+#: kpci_private.h:568
+#, kde-format
+msgid "IRDA controller"
+msgstr "Controleur IRDA"
+
+#: kpci_private.h:569
+#, kde-format
+msgid "Consumer IR controller"
+msgstr "Controleur Consumer IR"
+
+#: kpci_private.h:570
+#, kde-format
+msgid "RF controller"
+msgstr "Controleur RF"
+
+#: kpci_private.h:571
+#, kde-format
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: kpci_private.h:572
+#, kde-format
+msgid "Broadband"
+msgstr "Lådje binde"
+
+#: kpci_private.h:573
+#, kde-format
+msgid "Ethernet (802.11a - 5 GHz)"
+msgstr "Eternet (802.11a - 5 GHz)"
+
+#: kpci_private.h:574
+#, kde-format
+msgid "Ethernet (802.11b - 2.4 GHz)"
+msgstr "Eternet (802.11b - 2.4 GHz)"
+
+#: kpci_private.h:576
+#, kde-format
+msgid "Unknown wireless controller"
+msgstr "Controleur sins fyi nén cnoxhou"
+
+#: kpci_private.h:578
+#, kde-format
+msgid "I2O"
+msgstr "I2O"
+
+#: kpci_private.h:579
+#, kde-format
+msgid "Unknown intelligent controller"
+msgstr "Malén controleur nén cnoxhou"
+
+#: kpci_private.h:581
+#, kde-format
+msgid "Satellite TV controller"
+msgstr "Controleur TV satelite"
+
+#: kpci_private.h:582
+#, kde-format
+msgid "Satellite audio communication controller"
+msgstr "Controleur di comunicåcion pa son satelite"
+
+#: kpci_private.h:583
+#, kde-format
+msgid "Satellite voice communication controller"
+msgstr "Controleur di comunicåcion pa vwè satelite"
+
+#: kpci_private.h:584
+#, kde-format
+msgid "Satellite data communication controller"
+msgstr "Controleur di comunicåcion di dnêyes satelites"
+
+#: kpci_private.h:585
+#, kde-format
+msgid "Unknown satellite communications controller"
+msgstr "Controleur di cominucåcion pa satelites nén cnoxhou"
+
+#: kpci_private.h:587
+#, kde-format
+msgid "Network and computing encryption device"
+msgstr "Éndjin d' ecriptaedje rantoele et éndjolisse"
+
+#: kpci_private.h:588
+#, kde-format
+msgid "Entertainment encryption device"
+msgstr "Éndjin d' ecriptaedje po tins libe"
+
+#: kpci_private.h:590
+#, kde-format
+msgid "Unknown encryption controller"
+msgstr "Controleur d' ecriptaedje nén cnoxhou"
+
+#: kpci_private.h:592
+#, kde-format
+msgid "DPIO module"
+msgstr "Module DPIO"
+
+#: kpci_private.h:593
+#, kde-format
+msgid "Performance counters"
+msgstr "Conteu d' performance"
+
+#: kpci_private.h:594
+#, kde-format
+msgid "Communication synchronizer"
+msgstr "Sincronijheu d' comunicåcion"
+
+#: kpci_private.h:595
+#, kde-format
+msgid "Management card"
+msgstr "Cwåte di manaedjmint"
+
+#: kpci_private.h:597
+#, kde-format
+msgid "Unknown signal processing controller"
+msgstr "Controleur del façon d' ovrer avou l' signå nén cnoxhou"
+
+#: kpci_private.h:599
+#, kde-format
+msgid "Unknown subdevice class"
+msgstr "Classe d' éndjin efant nén cnoxhou"
+
+#: kpci_private.h:606
+#, kde-format
+msgid "single DMA"
+msgstr "simpe DMA"
+
+#: kpci_private.h:607
+#, kde-format
+msgid "chained DMA"
+msgstr "DMA e tchinne"
+
+#: kpci_private.h:609
+#, kde-format
+msgid "VGA compatible"
+msgstr "Copatibe avou VGA"
+
+#: kpci_private.h:610
+#, kde-format
+msgid "8514 compatible"
+msgstr "Copatibe avou 8414"
+
+#: kpci_private.h:612
+#, kde-format
+msgid "Normal decode"
+msgstr "Discôder normålmint"
+
+#: kpci_private.h:613
+#, kde-format
+msgid "Subtractive decode"
+msgstr "Discôder sostractivmint"
+
+#: kpci_private.h:615
+#, kde-format
+msgid "Transparent mode"
+msgstr "Môde transparint"
+
+#: kpci_private.h:616
+#, kde-format
+msgid "Endpoint mode"
+msgstr "Môde pont d' fén"
+
+#: kpci_private.h:618
+#, kde-format
+msgid "Primary bus towards host CPU"
+msgstr "Bus prumaire åd triviè del CPU do lodjoe"
+
+#: kpci_private.h:619
+#, kde-format
+msgid "Secondary bus towards host CPU"
+msgstr "Bus segondaire åd triviè del CPU do lodjoe"
+
+#: kpci_private.h:621
+#, kde-format
+msgid "8250"
+msgstr "8250"
+
+#: kpci_private.h:622
+#, kde-format
+msgid "16450"
+msgstr "16450"
+
+#: kpci_private.h:623
+#, kde-format
+msgid "16550"
+msgstr "16550"
+
+#: kpci_private.h:624
+#, kde-format
+msgid "16650"
+msgstr "16650"
+
+#: kpci_private.h:625
+#, kde-format
+msgid "16750"
+msgstr "16750"
+
+#: kpci_private.h:626
+#, kde-format
+msgid "16850"
+msgstr "16850"
+
+#: kpci_private.h:627
+#, kde-format
+msgid "16950"
+msgstr "16950"
+
+#: kpci_private.h:629
+#, kde-format
+msgid "SPP"
+msgstr "SPP"
+
+#: kpci_private.h:630
+#, kde-format
+msgid "BiDir"
+msgstr "BiDir"
+
+#: kpci_private.h:631
+#, kde-format
+msgid "ECP"
+msgstr "ECP"
+
+#: kpci_private.h:632
+#, kde-format
+msgid "IEEE1284"
+msgstr "IEEE1284"
+
+#: kpci_private.h:633
+#, kde-format
+msgid "IEEE1284 Target"
+msgstr "Såme IEEE1284"
+
+#: kpci_private.h:635 kpci_private.h:655 kpci_private.h:658 kpci_private.h:661
+#, kde-format
+msgid "Generic"
+msgstr "Djenerike"
+
+#: kpci_private.h:636
+#, kde-format
+msgid "Hayes/16450"
+msgstr "Hayes/16450"
+
+#: kpci_private.h:637
+#, kde-format
+msgid "Hayes/16550"
+msgstr "Hayes/16550"
+
+#: kpci_private.h:638
+#, kde-format
+msgid "Hayes/16650"
+msgstr "Hayes/16650"
+
+#: kpci_private.h:639
+#, kde-format
+msgid "Hayes/16750"
+msgstr "Hayes/16750"
+
+#: kpci_private.h:641
+#, kde-format
+msgid "8259"
+msgstr "8259"
+
+#: kpci_private.h:642
+#, kde-format
+msgid "ISA PIC"
+msgstr "ISA PIC"
+
+#: kpci_private.h:643
+#, kde-format
+msgid "EISA PIC"
+msgstr "EISA PIC"
+
+#: kpci_private.h:644
+#, kde-format
+msgid "IO-APIC"
+msgstr "IO-APIC"
+
+#: kpci_private.h:645
+#, kde-format
+msgid "IO(X)-APIC"
+msgstr "IO(X)-APIC"
+
+#: kpci_private.h:647
+#, kde-format
+msgid "8237"
+msgstr "8237"
+
+#: kpci_private.h:648
+#, kde-format
+msgid "ISA DMA"
+msgstr "ISA DMA"
+
+#: kpci_private.h:649
+#, kde-format
+msgid "EISA DMA"
+msgstr "EISA DMA"
+
+#: kpci_private.h:651
+#, kde-format
+msgid "8254"
+msgstr "8254"
+
+#: kpci_private.h:652
+#, kde-format
+msgid "ISA timer"
+msgstr "Munutreye ISA"
+
+#: kpci_private.h:653
+#, kde-format
+msgid "EISA timers"
+msgstr "Munutreyes EISA"
+
+#: kpci_private.h:656
+#, kde-format
+msgid "ISA RTC"
+msgstr "ISA RTC"
+
+#: kpci_private.h:659
+#, kde-format
+msgid "Extended"
+msgstr "Sitindou"
+
+#: kpci_private.h:662 kpci_private.h:665
+#, kde-format
+msgid "OHCI"
+msgstr "OHCI"
+
+#: kpci_private.h:664
+#, kde-format
+msgid "UHCI"
+msgstr "UHCI"
+
+#: kpci_private.h:666
+#, kde-format
+msgid "EHCI"
+msgstr "EHCI"
+
+#: kpci_private.h:667
+#, kde-format
+msgid "Unspecified"
+msgstr "Nén specifyî"
+
+#: kpci_private.h:668
+#, kde-format
+msgid "USB Device"
+msgstr "Éndjin USB"
+
+#: kpci_private.h:670
+#, kde-format
+msgid "SMIC"
+msgstr "SMIC"
+
+#: kpci_private.h:671
+#, kde-format
+msgid "Keyboard controller style"
+msgstr "Stîle di controleur di taprece"
+
+#: kpci_private.h:672
+#, kde-format
+msgid "Block transfer"
+msgstr "Berwetaedje di bloc"
+
+#: kpci_private.h:682
+#, kde-format
+msgid "Vital product data"
+msgstr "Dinêyes kel prodût a mezåjhe po viker"
+
+#: kpci_private.h:683
+#, kde-format
+msgid "Slot identification"
+msgstr "Idintifiaedje do royon"
+
+#: kpci_private.h:685
+#, kde-format
+msgid "CompactPCI hot swap"
+msgstr "Tchôd swap CompactPCI"
+
+#: kpci_private.h:686
+#, kde-format
+msgid "PCI-X"
+msgstr "PCI-X"
+
+#: kpci_private.h:687
+#, kde-format
+msgid "HyperTransport"
+msgstr "HyperTransport"
+
+#: kpci_private.h:688
+#, kde-format
+msgid "Vendor specific"
+msgstr "Sipecifike å vindeu"
+
+#: kpci_private.h:689
+#, kde-format
+msgid "Debug port"
+msgstr "Pôrt di disbugaedje"
+
+#: kpci_private.h:690
+#, kde-format
+msgid "CompactPCI central resource control"
+msgstr "Controle del rissource cintråle CompactPCI"
+
+#: kpci_private.h:691
+#, kde-format
+msgid "PCI hot-plug"
+msgstr "PCI hot-plug"
+
+#: kpci_private.h:692
+#, kde-format
+msgid "AGP x8"
+msgstr "AGP x8"
+
+#: kpci_private.h:693
+#, kde-format
+msgid "Secure device"
+msgstr "Éndjin såve"
+
+#: kpci_private.h:694
+#, kde-format
+msgid "PCI express"
+msgstr "PCI express"
+
+#: kpci_private.h:695
+#, kde-format
+msgid "MSI-X"
+msgstr "MSI-X"
+
+#: kpci_private.h:701
+#, kde-format
+msgid "Fast"
+msgstr "Rade"
+
+#: kpci_private.h:702
+#, kde-format
+msgid "Medium"
+msgstr "Moyén"
+
+#: kpci_private.h:703
+#, kde-format
+msgid "Slow"
+msgstr "Londjin"
+
+#: kpci_private.h:709
+#, kde-format
+msgid "32 bit"
+msgstr "32-bites"
+
+#: kpci_private.h:710
+#, kde-format
+msgid "Below 1M"
+msgstr "Å dzo d' 1M"
+
+#: kpci_private.h:711
+#, kde-format
+msgid "64 bit"
+msgstr "64-bites"
+
+#: kpci_private.h:717
+#, kde-format
+msgid "Standard"
+msgstr "Standård"
+
+#: kpci_private.h:719
+#, kde-format
+msgid "CardBus"
+msgstr "Cwåte bus"
+
+#: kpci_private.h:725
+#, kde-format
+msgid "1X"
+msgstr "1X"
+
+#: kpci_private.h:726
+#, kde-format
+msgid "2X"
+msgstr "2X"
+
+#: kpci_private.h:727
+#, kde-format
+msgid "1X & 2X"
+msgstr "1X et 2X"
+
+#: kpci_private.h:728 kpci_private.h:732
+#, kde-format
+msgid "4X"
+msgstr "4X"
+
+#: kpci_private.h:729
+#, kde-format
+msgid "1X & 4X"
+msgstr "1X et 4X"
+
+#: kpci_private.h:730
+#, kde-format
+msgid "2X & 4X"
+msgstr "2X et 4X"
+
+#: kpci_private.h:731
+#, kde-format
+msgid "1X & 2X & 4X"
+msgstr "1X et 2X et 4X"
+
+#: kpci_private.h:733
+#, kde-format
+msgid "8X"
+msgstr "8X"
+
+#: kpci_private.h:734
+#, kde-format
+msgid "4X & 8X"
+msgstr "4X et 8X"
+
+#: kpci_private.h:740
+#, kde-format
+msgid "4 ms"
+msgstr "4 ms"
+
+#: kpci_private.h:741
+#, kde-format
+msgid "16 ms"
+msgstr "16 ms"
+
+#: kpci_private.h:742
+#, kde-format
+msgid "64 ms"
+msgstr "64 ms"
+
+#: kpci_private.h:743
+#, kde-format
+msgid "256 ms"
+msgstr "256 ms"
+
+#: kpci_private.h:744
+#, kde-format
+msgid "Not needed"
+msgstr "Nén mezåjhe"
+
+#: kpci_private.h:750
+#, kde-format
+msgid "0 (self powered)"
+msgstr "0 (aliminté lu-minme)"
+
+#: kpci_private.h:751
+#, kde-format
+msgid "55 mA"
+msgstr "55 mA"
+
+#: kpci_private.h:752
+#, kde-format
+msgid "100 mA"
+msgstr "100 mA"
+
+#: kpci_private.h:753
+#, kde-format
+msgid "160 mA"
+msgstr "160 mA"
+
+#: kpci_private.h:754
+#, kde-format
+msgid "220 mA"
+msgstr "220 mA"
+
+#: kpci_private.h:755
+#, kde-format
+msgid "270 mA"
+msgstr "270 mA"
+
+#: kpci_private.h:756
+#, kde-format
+msgid "320 mA"
+msgstr "320 mA"
+
+#: kpci_private.h:757
+#, kde-format
+msgid "375 mA"
+msgstr "375 mA"
+
+#: kpci_private.h:772
+#, kde-format
+msgid "1 vector"
+msgstr "1 roye"
+
+#: kpci_private.h:773
+#, kde-format
+msgid "2 vectors"
+msgstr "2 royes"
+
+#: kpci_private.h:774
+#, kde-format
+msgid "4 vectors"
+msgstr "4 royes"
+
+#: kpci_private.h:775
+#, kde-format
+msgid "8 vectors"
+msgstr "8 royes"
+
+#: kpci_private.h:776
+#, kde-format
+msgid "16 vectors"
+msgstr "16 royes"
+
+#: kpci_private.h:777
+#, kde-format
+msgid "32 vectors"
+msgstr "32 royes"
