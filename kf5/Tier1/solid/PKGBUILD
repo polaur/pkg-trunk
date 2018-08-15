@@ -1,0 +1,45 @@
+# $Id$
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=solid
+pkgver=5.49.0
+pkgrel=0.1
+pkgdesc='Hardware integration and detection'
+arch=(x86_64)
+url='https://community.kde.org/Frameworks'
+license=(LGPL)
+depends=(qt5-base media-player-info upower udisks2)
+makedepends=(extra-cmake-modules qt5-tools doxygen qt5-declarative)
+optdepends=('qt5-declarative: QML bindings')
+groups=(kf5)
+source=("https://download.kde.org/stable/frameworks/${pkgver%.*}/$pkgname-$pkgver.tar.xz"{,.sig}
+kdebug-394348.patch::"https://cgit.kde.org/solid.git/patch/?id=8e9fc89918c4a8817b624a61e0d2d32d349722cc")
+sha256sums=('f70dc2006d84f1eb342ec9d5827977d2fb1f19edfcdc7f5807a220275c6df9dc'
+            'SKIP'
+            '2bb750c7c8ceb54ac58a73cb6d2658674c90baafaca4607c5c550d56a4d1a0e8')
+validpgpkeys=(53E6B47B45CEA3E0D5B7457758D0EE648A48B3BB) # David Faure <faure@kde.org>
+
+prepare() {
+  mkdir -p build
+ 
+  cd $pkgname-$pkgver
+  msg "Add KDEBUG 394348"
+  patch -p1 -i ../kdebug-394348.patch
+}
+
+build() {
+  cd build
+  cmake ../$pkgname-$pkgver \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_INSTALL_LIBDIR=lib \
+    -DBUILD_TESTING=OFF \
+    -DBUILD_QCH=ON
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}

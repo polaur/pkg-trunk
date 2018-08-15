@@ -1,0 +1,44 @@
+From f6df95e595ee3a5322fb70c7dd5860630f82ffdd Mon Sep 17 00:00:00 2001
+From: Kai Uwe Broulik <kde@privat.broulik.de>
+Date: Thu, 9 Aug 2018 09:46:33 +0200
+Subject: Ignore NTFS hidden flag for root volume
+
+Those are always hidden as far as NTFS is concerned but leads to unwanted side-effects of NTFS volumes becoming
+inaccessible in the UI
+
+BUG: 392913
+
+Differential Revision: https://phabricator.kde.org/D13782
+---
+ src/ioslaves/file/file_unix.cpp | 15 ++++++++++++++-
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+
+diff --git a/src/ioslaves/file/file_unix.cpp b/src/ioslaves/file/file_unix.cpp
+index d074f7c..cf46782 100644
+--- a/src/ioslaves/file/file_unix.cpp
++++ b/src/ioslaves/file/file_unix.cpp
+@@ -560,7 +560,20 @@ void FileProtocol::listDir(const QUrl &url)
+             if (createUDSEntry(filename, QByteArray(ep->d_name), entry, details)) {
+ #if HAVE_SYS_XATTR_H
+                 if (isNtfsHidden(filename)) {
+-                    entry.fastInsert(KIO::UDSEntry::UDS_HIDDEN, 1);
++                    bool ntfsHidden = true;
++
++                    // Bug 392913: NTFS root volume is always "hidden", ignore this
++                    if (ep->d_type == DT_DIR || ep->d_type == DT_UNKNOWN) {
++                        const QString fullFilePath = QDir::cleanPath(QDir().absoluteFilePath(filename));
++                        auto mountPoint = KMountPoint::currentMountPoints().findByPath(fullFilePath);
++                        if (mountPoint && mountPoint->mountPoint() == fullFilePath) {
++                            ntfsHidden = false;
++                        }
++                    }
++
++                    if (ntfsHidden) {
++                        entry.fastInsert(KIO::UDSEntry::UDS_HIDDEN, 1);
++                    }
+                 }
+ #endif
+                 listEntry(entry);
+-- 
+cgit v0.11.2
+

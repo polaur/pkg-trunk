@@ -1,0 +1,49 @@
+# $Id$
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=kcoreaddons
+pkgver=5.49.0
+pkgrel=0.1
+pkgdesc='Addons to QtCore'
+arch=(x86_64)
+url='https://community.kde.org/Frameworks'
+license=(LGPL)
+depends=(qt5-base gamin)
+makedepends=(extra-cmake-modules qt5-tools clang doxygen)
+#optdepends=('python-pyqt5: for the Python bindings')
+groups=(kf5)
+source=("https://download.kde.org/stable/frameworks/${pkgver%.*}/$pkgname-$pkgver.tar.xz"{,.sig}
+sip_fix_1.patch sip_fix_2.patch)
+sha256sums=('12afb12f79505614f6d5624d6c39b90b5fc39e4b1b5ddb2203622bbeb6144203'
+            'SKIP'
+            '3652141957ff912f731776125648d04fcfab0cfa7a9c5cb878df1304f3edff48'
+            '41ea0fef744ed28dfe54a3699f0a9f04226b2cd630904d25f5115ba164be03e3')
+validpgpkeys=(53E6B47B45CEA3E0D5B7457758D0EE648A48B3BB) # David Faure <faure@kde.org>
+
+prepare() {
+  mkdir -p build
+  
+  cd $pkgname-$pkgver
+  msg "Add 1"
+  patch -p1 -i ../sip_fix_1.patch 
+  msg "Add 2"
+  patch -p1 -i ../sip_fix_2.patch
+  }
+
+build() {
+  cd build
+  cmake ../$pkgname-$pkgver \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_INSTALL_LIBDIR=lib \
+    -D_KDE4_DEFAULT_HOME_POSTFIX=4 \
+    -DBUILD_TESTING=OFF \
+	-DGENERATE_PYTHON_MODULES=OFF 
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}

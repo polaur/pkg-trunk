@@ -1,0 +1,13 @@
+diff --git a/src/core/kfileitem.cpp b/src/core/kfileitem.cpp
+--- a/src/core/kfileitem.cpp
++++ b/src/core/kfileitem.cpp
+@@ -813,7 +813,7 @@
+     }
+ 
+     // Support for .directory file in directories
+-    if (isLocalUrl && isDir() && isDirectoryMounted(url)) {
++    if (isLocalUrl && isDir() && !d->isSlow() && isDirectoryMounted(url)) {
+         QUrl u(url);
+         u.setPath(concatPaths(u.path(), QLatin1String(".directory")));
+         const KDesktopFile cfg(u.toLocalFile());
+
