@@ -8,7 +8,7 @@
 pkgname=kio
 pkgver=5.50rc
 _tagver=v5.50.0-rc1
-pkgrel=1
+pkgrel=2
 pkgdesc='Resource and network access abstraction'
 arch=(x86_64)
 url='https://community.kde.org/Frameworks'
@@ -18,11 +18,17 @@ makedepends=(extra-cmake-modules kdoctools python doxygen qt5-tools git)
 optdepends=('kio-extras: extra protocols support (sftp, fish and more)' 'kdoctools: for the help kioslave'
             'knetattach: to add new kio-remote entries')
 groups=(kf5)
-source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
-sha256sums=('SKIP')
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver"
+kdebug-258514.patch::https://cgit.kde.org/kio.git/patch/?id=418dc73262ea41cf12eec2b078ddf8bf1068ba45)
+sha256sums=('SKIP'
+            'abd76273faf87f485366ad461c8c539273d919ca012e4538549f0394f6b47482')
 
 prepare() {
   mkdir -p build
+
+  cd $pkgname-${_tagver}
+  msg "Add KDEBUG 258514"
+  patch -p1 -i ../kdebug-258514.patch
   }
 
 build() {
