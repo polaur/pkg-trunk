@@ -5,8 +5,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=baloo
-pkgver=5.50rc
-_tagver=v5.50.0-rc1
+pkgver=5.52rc
+_tagver=v5.52.0-rc2
 pkgrel=1
 pkgdesc="A framework for searching and managing metadata"
 arch=('x86_64')
@@ -30,7 +30,7 @@ build() {
     -DCMAKE_INSTALL_LIBDIR=lib \
     -DBUILD_TESTING=OFF \
     -DBUILD_QCH=ON
-  make -j5
+  make 
 }
 
 package() {

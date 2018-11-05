@@ -6,20 +6,26 @@
 # Contributor: Antonio Rojas
 
 pkgname=breeze-icons
-pkgver=5.50rc.0
-_tagver=v5.50.0-rc1
-pkgrel=1
+pkgver=5.52rc.0
+_tagver=v5.52.0-rc1
+pkgrel=2
 pkgdesc='Breeze icon themes'
 arch=('any')
 url='https://community.kde.org/Frameworks'
 license=('LGPL')
 groups=('kf5')
 makedepends=('extra-cmake-modules' 'qt5-base' 'git')
-source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
-sha256sums=('SKIP')
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver"
+kdebug-399307.patch::"https://cgit.kde.org/breeze-icons.git/patch/?id=67312861ffa3af63d44d9256a2e259cbc4a5162f")
+sha256sums=('SKIP'
+            '968e9c87c87becbd902bd93aaadf935338e04066298330f8b0c89c2767d01a60')
 
 prepare() {
   mkdir -p build
+
+  cd $pkgname-$_tagver
+  msg "Add kdebug 399307 patch" # Fix in 5.53
+  patch -p1 -i ../kdebug-399307.patch
 }
 
 build() {

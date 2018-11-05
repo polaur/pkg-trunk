@@ -5,9 +5,9 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kfilemetadata
-pkgver=5.50rc
-_tagver=v5.50.0-rc1
-pkgrel=1
+pkgver=5.52rc
+_tagver=v5.52.0-rc1
+pkgrel=2
 pkgdesc="A library for extracting file metadata"
 arch=('x86_64')
 url='https://community.kde.org/Frameworks'
@@ -16,11 +16,17 @@ depends=('ki18n' 'karchive' 'exiv2' 'poppler-qt5' 'taglib' 'ffmpeg' 'ebook-tools
 optdepends=('catdoc: Extract text from office 98 files')
 makedepends=('extra-cmake-modules' 'catdoc' 'python' 'doxygen' 'qt5-tools' 'git')
 groups=('kf5')
-source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
-sha1sums=('SKIP')
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver"
+D16591.patch::"https://cgit.kde.org/kfilemetadata.git/patch/?id=3129ba1798fdf000343c8c0a001951c70187e69f")
+sha1sums=('SKIP'
+          'a197338276bd865854a203f8cba91268269a762e')
 
 prepare() {
   mkdir build
+
+  cd $pkgname-$_tagver
+  msg "Add D16591 patch"
+  patch -p1 -i ../D16591.patch
 }
 
 build() {

@@ -5,8 +5,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kdewebkit
-pkgver=5.50rc
-_tagver=v5.50.0-rc1
+pkgver=5.52rc
+_tagver=v5.52.0-rc1
 pkgrel=1
 pkgdesc='KDE Integration for QtWebKit'
 arch=('x86_64')
@@ -25,10 +25,10 @@ prepare() {
 build() {
   cd build
   cmake ../${pkgname}-${_tagver} \
-    -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DKDE_INSTALL_LIBDIR=lib \
 	-DKDE_INSTALL_PLUGINDIR=/usr/lib/qt/plugins \
+	-DKDE_MKSPECS_INSTALL_DIR=/usr/lib/qt/mkspecs/modules \
     -DBUILD_TESTING=OFF
   make -j5
 }
