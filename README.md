@@ -3,6 +3,14 @@
 # You install it at your own risk.
 # You've been warned.
 
+# General:
+
+Repository for upcomming packages like RC version or for version of packages
+in Arch's testing or kde/gnome-unstable repository with fixes.
+Pkgrel schema is:
+"original, Arch's pkgrel"."our pkgrel" so new pkgrel of this packages in Arch repository
+will upgrade our packages. Then if it will be still neccessary, we upgrade our packages.
+
 # Download:
 
 ```
