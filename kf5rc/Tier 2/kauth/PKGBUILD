@@ -5,8 +5,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kauth
-pkgver=5.52rc
-_tagver=v5.52.0-rc1
+pkgver=5.53rc
+_tagver=v5.53.0-rc1
 pkgrel=1
 pkgdesc='Abstraction to system policy and authentication features'
 arch=('x86_64')

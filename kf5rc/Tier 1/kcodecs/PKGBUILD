@@ -5,8 +5,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kcodecs
-pkgver=5.52rc
-_tagver=v5.52.0-rc1
+pkgver=5.53rc
+_tagver=v5.53.0-rc1
 pkgrel=1
 pkgdesc='Provide a collection of methods to manipulate strings using various encodings'
 arch=('x86_64')

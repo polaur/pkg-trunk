@@ -6,8 +6,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kactivities-stats
-pkgver=5.52rc
-_tagver=v5.52.0-rc1
+pkgver=5.53rc
+_tagver=v5.53.0-rc1
 pkgrel=1
 arch=('x86_64')
 pkgdesc="A library for accessing the usage data collected by the activities system"

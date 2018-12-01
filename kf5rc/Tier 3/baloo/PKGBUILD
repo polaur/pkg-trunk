@@ -5,7 +5,7 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=baloo
-pkgver=5.52rc
+pkgver=5.53rc
 _tagver=v5.52.0-rc2
 pkgrel=1
 pkgdesc="A framework for searching and managing metadata"
