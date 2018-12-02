@@ -1,0 +1,150 @@
+diff --git a/src/core/connection.cpp b/src/core/connection.cpp
+--- a/src/core/connection.cpp
++++ b/src/core/connection.cpp
+@@ -50,16 +50,18 @@
+ void ConnectionPrivate::commandReceived(const Task &task)
+ {
+     //qDebug() << this << "Command " << task.cmd << " added to the queue";
+-    if (!suspended && incomingTasks.isEmpty()) {
++    if (!suspended && incomingTasks.isEmpty() && readMode == Connection::ReadMode::EventDriven) {
+         QMetaObject::invokeMethod(q, "dequeue", Qt::QueuedConnection);
+     }
+     incomingTasks.append(task);
+ }
+ 
+ void ConnectionPrivate::disconnected()
+ {
+     q->close();
+-    QMetaObject::invokeMethod(q, "readyRead", Qt::QueuedConnection);
++    if (readMode == Connection::ReadMode::EventDriven) {
++        QMetaObject::invokeMethod(q, "readyRead", Qt::QueuedConnection);
++    }
+ }
+ 
+ void ConnectionPrivate::setBackend(ConnectionBackend *b)
+@@ -97,7 +99,9 @@
+ void Connection::resume()
+ {
+     // send any outgoing or incoming commands that may be in queue
+-    QMetaObject::invokeMethod(this, "dequeue", Qt::QueuedConnection);
++    if (d->readMode == Connection::ReadMode::EventDriven) {
++        QMetaObject::invokeMethod(this, "dequeue", Qt::QueuedConnection);
++    }
+ 
+     //qDebug() << this << "Resumed";
+     d->suspended = false;
+@@ -222,11 +226,16 @@
+     d->incomingTasks.removeFirst();
+ 
+     // if we didn't empty our reading queue, emit again
+-    if (!d->suspended && !d->incomingTasks.isEmpty()) {
++    if (!d->suspended && !d->incomingTasks.isEmpty() && d->readMode == Connection::ReadMode::EventDriven) {
+         QMetaObject::invokeMethod(this, "dequeue", Qt::QueuedConnection);
+     }
+ 
+     return data.size();
+ }
+ 
++void Connection::setReadMode(ReadMode readMode)
++{
++    d->readMode = readMode;
++}
++
+ #include "moc_connection_p.cpp"
+diff --git a/src/core/connection_p.h b/src/core/connection_p.h
+--- a/src/core/connection_p.h
++++ b/src/core/connection_p.h
+@@ -30,30 +30,8 @@
+ namespace KIO
+ {
+ 
+-class Connection;
+-
+-// Separated from Connection only for historical reasons - they are both private now
+-class ConnectionPrivate
+-{
+-public:
+-    inline ConnectionPrivate()
+-        : backend(nullptr), q(nullptr), suspended(false)
+-    { }
+-
+-    void dequeue();
+-    void commandReceived(const Task &task);
+-    void disconnected();
+-    void setBackend(ConnectionBackend *b);
+-
+-    QVector<Task> outgoingTasks;
+-    QVector<Task> incomingTasks;
+-    ConnectionBackend *backend;
+-    Connection *q;
+-    bool suspended;
+-};
+-
+ class ConnectionServer;
+-
++class ConnectionPrivate;
+ /**
+  * @private
+  *
+@@ -65,7 +43,12 @@
+ class Connection : public QObject
+ {
+     Q_OBJECT
++
+ public:
++    enum class ReadMode {
++        Polled,  ///Any new tasks will be polled
++        EventDriven ///We need to emit signals when we have pending events. Requires a working QEventLoop
++    };
+     /**
+      * Creates a new connection.
+      * @see connectToRemote, listenForRemote
+@@ -151,6 +134,8 @@
+            */
+     bool suspended() const;
+ 
++    void setReadMode(ReadMode mode);
++
+ Q_SIGNALS:
+     void readyRead();
+ 
+@@ -163,6 +148,27 @@
+     class ConnectionPrivate *const d;
+ };
+ 
++// Separated from Connection only for historical reasons - they are both private now
++class ConnectionPrivate
++{
++public:
++    inline ConnectionPrivate()
++        : backend(nullptr), q(nullptr), suspended(false), readMode(Connection::ReadMode::EventDriven)
++    { }
++
++    void dequeue();
++    void commandReceived(const Task &task);
++    void disconnected();
++    void setBackend(ConnectionBackend *b);
++
++    QVector<Task> outgoingTasks;
++    QVector<Task> incomingTasks;
++    ConnectionBackend *backend;
++    Connection *q;
++    bool suspended;
++    Connection::ReadMode readMode;
++};
++
+ class ConnectionServerPrivate;
+ }
+ 
+diff --git a/src/core/slavebase.cpp b/src/core/slavebase.cpp
+--- a/src/core/slavebase.cpp
++++ b/src/core/slavebase.cpp
+@@ -92,6 +92,7 @@
+             QStandardPaths::setTestModeEnabled(true);
+         }
+         pendingListEntries.reserve(KIO_MAX_ENTRIES_PER_BATCH);
++        appConnection.setReadMode(Connection::ReadMode::Polled);
+     }
+     ~SlaveBasePrivate()
+     {
+
