@@ -17,16 +17,16 @@ optdepends=('catdoc: Extract text from office 98 files')
 makedepends=('extra-cmake-modules' 'catdoc' 'python' 'doxygen' 'qt5-tools' 'git')
 groups=('kf5')
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver"
-D16591.patch::"https://cgit.kde.org/kfilemetadata.git/patch/?id=3129ba1798fdf000343c8c0a001951c70187e69f")
+add-missing-wav-mimetype.patch::"https://cgit.kde.org/kfilemetadata.git/patch/?id=9af53a0b33f45894d753cf5203515e7be1556865")
 sha1sums=('SKIP'
-          'a197338276bd865854a203f8cba91268269a762e')
+          'fe407a1800c86e7451a7cae7da935661e0fe85d0')
 
 prepare() {
   mkdir build
 
-  cd $pkgname-$_tagver
-  msg "Add D16591 patch"
-  patch -p1 -i ../D16591.patch
+  cd $pkgname-${_tagver}
+  msg "Add missing wav mimetype"
+  patch -p1 -i ../add-missing-wav-mimetype.patch
 }
 
 build() {
@@ -37,7 +37,7 @@ build() {
     -DKDE_INSTALL_LIBDIR=lib \
     -DBUILD_TESTING=OFF \
     -DBUILD_QCH=ON
-  make -j5
+  make
 }
 
 package() {
