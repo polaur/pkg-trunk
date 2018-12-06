@@ -8,7 +8,7 @@
 pkgname=breeze-icons
 pkgver=5.53rc.0
 _tagver=v5.53.0-rc1
-pkgrel=1.1
+pkgrel=3
 pkgdesc='Breeze icon themes'
 arch=('any')
 url='https://community.kde.org/Frameworks'
@@ -16,9 +16,11 @@ license=('LGPL')
 groups=('kf5')
 makedepends=('extra-cmake-modules' 'qt5-base' 'git')
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver"
-kdebug-398975.patch::"https://cgit.kde.org/breeze-icons.git/patch/?id=b8d080c4e6a1aa8572e300240edaad807516c2f0")
+kdebug-398975.patch::"https://cgit.kde.org/breeze-icons.git/patch/?id=b8d080c4e6a1aa8572e300240edaad807516c2f0"
+kdebug-400879.patch::"https://cgit.kde.org/breeze-icons.git/patch/?id=852abccbb09ad84315e40ffa7f8d92ca0f602c54")
 sha256sums=('SKIP'
-            '70d93ff23cec2e77b25904ca5f181641c9518b280b13e9f64aa55ecdbd9c492a')
+            '70d93ff23cec2e77b25904ca5f181641c9518b280b13e9f64aa55ecdbd9c492a'
+            'e80cc4912fb7798a2c69858b17633219b52a820b72ee524374edff5e33fe6614')
 
 prepare() {
   mkdir -p build
@@ -26,6 +28,8 @@ prepare() {
   cd $pkgname-$_tagver
   msg "Add kdebug 398975 patch; fix in 5.54"
   patch -p1 -i ../kdebug-398975.patch
+  msg "Add kdebug 400879 patch; fix in 5.54"
+  patch -p1 -i ../kdebug-400879.patch
 }
 
 build() {
@@ -35,7 +39,7 @@ build() {
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DBINARY_ICONS_RESOURCE=ON \
     -DBUILD_TESTING=OFF
-  make -j5
+  make 
 }
 
 package() {
