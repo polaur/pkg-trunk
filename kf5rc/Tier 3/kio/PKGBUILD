@@ -6,9 +6,9 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kio
-pkgver=5.53rc
-_tagver=v5.53.0-rc1
-pkgrel=2
+pkgver=5.54rc
+_tagver=v5.54.0-rc1
+pkgrel=1
 pkgdesc='Resource and network access abstraction'
 arch=(x86_64)
 url='https://community.kde.org/Frameworks'
@@ -18,29 +18,11 @@ makedepends=(extra-cmake-modules kdoctools python doxygen qt5-tools git)
 optdepends=('kio-extras: extra protocols support (sftp, fish and more)' 'kdoctools: for the help kioslave'
             'knetattach: to add new kio-remote entries')
 groups=(kf5)
-source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver"
-D17195.patch::"https://cgit.kde.org/kio.git/patch/?id=5297704106e8056e3a8b62b4efcc8f904ba5b62e"
-D17256.patch::"https://cgit.kde.org/kio.git/patch/?id=84ff71997b302aa3c957f3b023cbbc68f0d47b77"
-D16949.patch::"https://cgit.kde.org/kio.git/patch/?id=d48a506d83e1527171d580d548d86a613da1f46a"
-kdebug-198772.patch::"https://cgit.kde.org/kio.git/patch/?id=518a7496c5c561464c588cb2527a8f82a0234671")
-sha256sums=('SKIP'
-            'c94b2c7c58edd1ac5a5bd57159d3d8885636fd7dca9bcb35b58f7f1679fb806d'
-            'fb03d4c5bf3216bd14ae5f67a2f91b8af12ca2d7303f8fff4158bee6967228b8'
-            'dbe350fd8db3734548f3591545b9d89f148b03892e07e0ed05a22e1f1619a9f0'
-            '41084badc8d9b32614c0216a48dd8930f6564ff52add1f6f2b5499e10a377422')
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
+sha256sums=('SKIP')
 
 prepare() {
   mkdir -p build
-  
-  cd $pkgname-$_tagver
-  msg "Add D17195 patch; fix in 5.54"
-  patch -p1 -i ../D17195.patch
-  msg "Add D17256 patch"
-  patch -p1 -i ../D17256.patch
-  msg "Add D16949 patch"
-  patch -p1 -i ../D16949.patch
-  msg "Add kdebug-198772.patch"
-  patch -p1 -i ../kdebug-198772.patch
   }
 
 build() {

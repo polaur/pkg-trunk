@@ -5,8 +5,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kjs
-pkgver=5.53rc
-_tagver=v5.53.0-rc1
+pkgver=5.54rc
+_tagver=v5.54.0-rc1
 pkgrel=1
 pkgdesc='Support for JS scripting in applications'
 arch=('x86_64')

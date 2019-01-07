@@ -5,8 +5,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kfilemetadata
-pkgver=5.53rc
-_tagver=v5.53.0-rc1
+pkgver=5.54rc
+_tagver=v5.54.0-rc1
 pkgrel=2
 pkgdesc="A library for extracting file metadata"
 arch=('x86_64')
@@ -16,17 +16,11 @@ depends=('ki18n' 'karchive' 'exiv2' 'poppler-qt5' 'taglib' 'ffmpeg' 'ebook-tools
 optdepends=('catdoc: Extract text from office 98 files')
 makedepends=('extra-cmake-modules' 'catdoc' 'python' 'doxygen' 'qt5-tools' 'git')
 groups=('kf5')
-source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver"
-add-missing-wav-mimetype.patch::"https://cgit.kde.org/kfilemetadata.git/patch/?id=9af53a0b33f45894d753cf5203515e7be1556865")
-sha1sums=('SKIP'
-          'fe407a1800c86e7451a7cae7da935661e0fe85d0')
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
+sha1sums=('SKIP')
 
 prepare() {
   mkdir build
-
-  cd $pkgname-${_tagver}
-  msg "Add missing wav mimetype"
-  patch -p1 -i ../add-missing-wav-mimetype.patch
 }
 
 build() {

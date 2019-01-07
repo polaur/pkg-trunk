@@ -5,8 +5,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kguiaddons
-pkgver=5.53rc
-_tagver=v5.53.0-rc1
+pkgver=5.54rc
+_tagver=v5.54.0-rc1
 pkgrel=1
 pkgdesc='Addons to QtGui'
 arch=('x86_64')
@@ -14,7 +14,7 @@ url='https://community.kde.org/Frameworks'
 license=('LGPL')
 depends=('qt5-x11extras' 'python' 'python2')
 makedepends=('extra-cmake-modules' 'mesa' 'clang' 'python-pyqt5' 'python2-pyqt5' 'doxygen' 'qt5-tools' 'git')
-optdepends=('python-pykf5: to use the Python 3 bindings' 'python2-pykf5: to use the Python 2 bindings')
+optdepends=('python-pyqt5: to use the Python 3 bindings')
 groups=('kf5')
 source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
 sha256sums=('SKIP')

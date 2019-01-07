@@ -1,0 +1,34 @@
+From 9af53a0b33f45894d753cf5203515e7be1556865 Mon Sep 17 00:00:00 2001
+From: Alexander Stippich <a.stippich@gmx.net>
+Date: Tue, 4 Dec 2018 20:48:31 +0100
+Subject: add missing wav mimetype
+
+---
+ src/extractors/taglibextractor.cpp | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/src/extractors/taglibextractor.cpp b/src/extractors/taglibextractor.cpp
+index 6a8907b..d234f14 100644
+--- a/src/extractors/taglibextractor.cpp
++++ b/src/extractors/taglibextractor.cpp
+@@ -72,6 +72,7 @@ const QStringList supportedMimeTypes = {
+     QStringLiteral("audio/x-opus+ogg"),
+     QStringLiteral("audio/x-speex"),
+     QStringLiteral("audio/x-vorbis+ogg"),
++    QStringLiteral("audio/x-wav"),
+     QStringLiteral("audio/x-wavpack"),
+ };
+ 
+@@ -792,7 +793,8 @@ void TagLibExtractor::extract(ExtractionResult* result)
+         if (mpegFile.hasID3v2Tag()) {
+             extractId3Tags(mpegFile.ID3v2Tag(), data);
+         }
+-    } else if ((mimeType == QLatin1String("audio/x-aiff")) || (mimeType == QLatin1String("audio/wav"))) {
++    } else if ((mimeType == QLatin1String("audio/x-aiff")) || (mimeType == QLatin1String("audio/wav"))
++               || (mimeType == QLatin1String("audio/x-wav"))) {
+         /* For some reason, TagLib::RIFF::AIFF::File and TagLib::RIFF::WAV::File tag() return
+          * only an invalid pointer. Use the dynamic_cast instead. */
+         TagLib::ID3v2::Tag* ID3v2Tag = dynamic_cast<TagLib::ID3v2::Tag*>(tags);
+-- 
+cgit v1.1
+

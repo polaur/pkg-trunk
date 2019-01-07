@@ -4,9 +4,9 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=qqc2-desktop-style
-pkgver=5.53rc
-_tagver=v5.53.0-rc1
-pkgrel=3
+pkgver=5.54rc
+_tagver=v5.54.0-rc1
+pkgrel=1
 pkgdesc='A style for Qt Quick Controls 2 to make it follow your desktop theme'
 arch=(x86_64)
 url='https://community.kde.org/Frameworks'
@@ -14,17 +14,11 @@ license=(LGPL)
 groups=(kf5)
 depends=(kirigami2 kiconthemes)
 makedepends=(extra-cmake-modules git)
-source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver"
-kdebug-400517.patch::"https://cgit.kde.org/qqc2-desktop-style.git/patch/?id=8fa114df0ad1d53362c13e9446b43143a6dd450b")
-sha256sums=('SKIP'
-            '53df2421b87fe95cc91cca7cc5917e85099536da88ad58fe246a307aede6c533')
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
+sha256sums=('SKIP')
 
 prepare() {
   mkdir -p build
-
-  cd $pkgname-$_tagver
-  msg "Add CCBUG 400517 patch"
-  patch -p1 -i ../kdebug-400517.patch
 }
 
 build() {
