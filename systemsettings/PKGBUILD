@@ -1,0 +1,52 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# for version patched with bugfixes from upcomming editions
+# made upon original works of:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=systemsettings
+pkgver=5.14.90
+pkgrel=1.1
+pkgdesc='KDE system manager for hardware, software, and workspaces'
+arch=(x86_64)
+url='https://www.kde.org/workspaces/plasmadesktop/'
+license=(LGPL)
+depends=(kactivities-stats plasma-workspace)
+makedepends=(extra-cmake-modules kdoctools khtml)
+optdepends=('khtml: for the tree view')
+groups=(plasma)
+source=("https://download.kde.org/unstable/plasma/$pkgver/$pkgname-$pkgver.tar.xz"{,.sig}
+kdebug-403258.patch::"https://cgit.kde.org/systemsettings.git/patch/?id=0f1f43c9897f531a7e9c6131946794b4c6131782"
+)
+sha256sums=('9411d19aa91fc237d9d493bd6e37653717f1b6855012d23acaa29d80afaa1117'
+            'SKIP'
+            '85bd6ca41fff7547d0d6902b89ebacc344a51d5a262dcd022f1e3d9f62b3a0ff')
+validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr@jriddell.org>
+              '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
+              'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson <davidedmundson@kde.org>
+              '1FA881591C26B276D7A5518EEAAF29B42A678C20') # Marco Martin <notmart@gmail.com>
+
+prepare() {
+  mkdir -p build
+  
+  cd $pkgname-$pkgver
+  msg "Apply KDEBUG 403258 patch; fix in 5.16"
+  patch -p1 -i ../kdebug-403258.patch
+}
+
+build() {
+  cd build
+  cmake ../$pkgname-$pkgver \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_INSTALL_LIBDIR=lib \
+	-DKDE_INSTALL_PLUGINDIR=/usr/lib/qt/plugins \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+    -DBUILD_TESTING=OFF
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}
