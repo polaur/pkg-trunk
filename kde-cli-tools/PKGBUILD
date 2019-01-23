@@ -1,0 +1,55 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# for version patched with bugfixes from upcomming editions
+# made upon original works of:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=kde-cli-tools
+pkgver=5.14.90
+pkgrel=1.1
+pkgdesc="Tools based on KDE Frameworks 5 to better interact with the system"
+arch=(x86_64)
+url='https://www.kde.org/workspaces/plasmadesktop/'
+license=(LGPL)
+depends=(kdesu kcmutils kinit kactivities)
+makedepends=(extra-cmake-modules kdoctools plasma-workspace)
+optdepends=('plasma-workspace: for kcmshell5')
+groups=(plasma)
+source=("https://download.kde.org/unstable/plasma/$pkgver/$pkgname-$pkgver.tar.xz"{,.sig}
+kdebug-403314.patch::"https://cgit.kde.org/kde-cli-tools.git/patch/?id=e8fe68581741f375c1b1d73e10c42bf41e4c2f9a")
+sha256sums=('0a8302d3fdabbb07a13312f24545024d246dcea2cb858344ced1fb2aad0df37c'
+            'SKIP'
+            '62adc0e45e3461f1ed85e5ae102a8123566de522ac826d7ea6a1a3805b2444e6')
+validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr@jriddell.org>
+              '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
+              'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson <davidedmundson@kde.org>
+              '1FA881591C26B276D7A5518EEAAF29B42A678C20') # Marco Martin <notmart@gmail.com>
+
+prepare() {
+  mkdir -p build
+
+  cd $pkgname-$pkgver
+  msg "Apply KDEBUG 403314 patch; fix in 5.15.0"
+  patch -p1 -i ../kdebug-403314.patch
+}
+
+build() {
+  cd build
+  cmake ../$pkgname-$pkgver \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_INSTALL_LIBDIR=lib \
+    -DCMAKE_INSTALL_LIBEXECDIR=lib \
+    -DKDE_INSTALL_LIBEXECDIR=lib \
+    -DKDE_INSTALL_PLUGINDIR=/usr/lib/qt/plugins \
+    -DKDE_INSTALL_USE_QT_SYS_PATHS=ON \
+    -DBUILD_TESTING=OFF
+  make 
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+
+  ln -s /usr/lib/kf5/kdesu "$pkgdir"/usr/bin/
+}
