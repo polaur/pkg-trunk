@@ -7,7 +7,7 @@
 pkgname=kded
 pkgver=5.57rc
 _tagver=v5.57.0-rc1
-pkgrel=1
+pkgrel=2
 pkgdesc='Extensible deamon for providing system level services'
 arch=('x86_64')
 url='https://community.kde.org/Frameworks'
@@ -15,11 +15,17 @@ license=('LGPL')
 depends=('kinit')
 makedepends=('extra-cmake-modules' 'kdoctools' 'git')
 groups=('kf5')
-source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
-sha256sums=('SKIP')
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver"
+kdebug-387556.patch::"https://cgit.kde.org/kded.git/patch/?id=496b785f2218c240326c7c98d47bede4b140f3bf")
+sha256sums=('SKIP'
+            '8f3241c152b0e1fc89dc1051a448850c935fd7613e63717f11077750b8c45683')
 
 prepare() {
   mkdir -p build
+  
+  cd $pkgname-${_tagver}
+  msg "Apply KDEBUG 387556 patch"
+  patch -p1 -i ../kdebug-387556.patch
 }
 
 build() {
