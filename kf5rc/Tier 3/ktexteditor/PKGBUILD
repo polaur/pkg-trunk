@@ -8,7 +8,7 @@
 pkgname=ktexteditor
 pkgver=5.57rc
 _tagver=v5.57.0-rc1
-pkgrel=1
+pkgrel=2
 pkgdesc='Advanced embeddable text editor'
 arch=('x86_64')
 url='https://community.kde.org/Frameworks'
@@ -16,11 +16,17 @@ license=('LGPL')
 depends=('kparts' 'syntax-highlighting' 'libgit2' 'editorconfig-core-c')
 makedepends=('extra-cmake-modules' 'python' 'doxygen' 'qt5-tools' 'git')
 groups=('kf5')
-source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
-sha256sums=('SKIP')
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver"
+kdebug-382213.patch::"https://cgit.kde.org/ktexteditor.git/patch/?id=ad4cd4a7250801573a68b00e7767cbf374d049f0")
+sha256sums=('SKIP'
+            '9d43e57ca694f0feb27ccb90078da34a463228df4f8b690eae081df394e14a40')
 
 prepare() {
   mkdir -p build
+  
+  cd $pkgname-${_tagver}
+  msg "Apply KDEBUG 382213 patch; fix in 5.58"
+  patch -p1 -i ../kdebug-382213.patch
 }
 
 build() {
