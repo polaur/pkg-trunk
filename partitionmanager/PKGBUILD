@@ -1,4 +1,5 @@
-# $Id$
+# # Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# for upcomming version build upon original work by:
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 # Contributor: Tobias Powalowski <tpowa@archlinux.org>
 # Contributor: Nick B <Shirakawasuna at gmail _dot_com>
@@ -10,7 +11,7 @@ pkgdesc="A KDE utility that allows you to manage disks, partitions, and file sys
 arch=(x86_64)
 url="http://kde.org/applications/system/kdepartitionmanager/"
 license=(GPL2)
-depends=(kpmcore hicolor-icon-theme kio)
+depends=('kpmcore>=3.80.0' 'hicolor-icon-theme' 'kio')
 makedepends=(extra-cmake-modules kdoctools python)
 source=("http://download.kde.org/unstable/$pkgname/$pkgver/src/$pkgname-$pkgver.tar.xz"{,.sig})
 sha256sums=('883f32b8d7bb6421ac49df3f06a34c571001fd98a9f80334123229f7fc281508'
