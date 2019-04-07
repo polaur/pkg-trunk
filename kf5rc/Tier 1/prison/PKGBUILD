@@ -6,8 +6,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=prison
-pkgver=5.54rc
-_tagver=v5.54.0-rc1
+pkgver=5.57rc
+_tagver=v5.57.0-rc1
 pkgrel=1
 pkgdesc="A barcode API to produce QRCode barcodes and DataMatrix barcodes"
 arch=(x86_64)

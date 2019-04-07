@@ -5,8 +5,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kcmutils
-pkgver=5.54rc
-_tagver=v5.54.0-rc1
+pkgver=5.57rc
+_tagver=v5.57.0-rc1
 pkgrel=1
 pkgdesc='Utilities for interacting with KCModules'
 arch=('x86_64')

@@ -6,8 +6,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kio
-pkgver=5.54rc
-_tagver=v5.54.0-rc1
+pkgver=5.57rc
+_tagver=v5.57.0-rc1
 pkgrel=1
 pkgdesc='Resource and network access abstraction'
 arch=(x86_64)
@@ -34,7 +34,7 @@ build() {
     -DCMAKE_INSTALL_LIBEXECDIR=lib \
     -DBUILD_TESTING=OFF \
     -DBUILD_QCH=ON
-  make 
+  make -j5
 }
 
 package() {

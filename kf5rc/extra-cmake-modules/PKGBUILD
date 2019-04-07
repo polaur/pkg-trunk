@@ -5,8 +5,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=extra-cmake-modules
-pkgver=5.54rc
-_tagver=v5.54.0-rc1
+pkgver=5.57rc
+_tagver=v5.57.0-rc1
 pkgrel=1
 pkgdesc='Extra modules and scripts for CMake'
 arch=('any')
@@ -15,10 +15,8 @@ license=('LGPL')
 depends=('cmake' 'python2')
 makedepends=('python-sphinx' 'python-requests' 'qt5-tools' 'git')
 source=("extra-cmake-modules-${_tagver}::git://anongit.kde.org/$pkgname.git#tag=${_tagver}"
-        ECM-Qt5.12.patch::https://phabricator.kde.org/D17015?download=true
         ECM-no-init.py.patch)
 sha256sums=('SKIP'
-            '9f1b595c2f6a857ddbd86a4f187b57f914c8ae20ecf7652a87e255c2e38e99f1'
             '5695e45c7621a00c0bca28f058c13b5d524f963a00b53337c8cefcdaf22c4b52')
 
 prepare() {
@@ -28,8 +26,6 @@ prepare() {
   sed -e 's|/usr/bin/env python|/usr/bin/env python2|' -i find-modules/*.py
 # Don't create __init__.py, depend on python-pykf5 instead
   patch -p1 -i ../ECM-no-init.py.patch
-# Fix Qt doc build with Qt 5.12
-  patch -p1 -i ../ECM-Qt5.12.patch
 }
 
 build() {

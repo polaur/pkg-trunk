@@ -5,9 +5,9 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kcrash
-pkgver=5.54rc
-_tagver=v5.54.0-rc1
-pkgrel=2
+pkgver=5.57rc
+_tagver=v5.57.0-rc1
+pkgrel=1
 pkgdesc='Support for application crash analysis and bug report from apps'
 arch=('x86_64')
 url='https://community.kde.org/Frameworks'

@@ -6,8 +6,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kwayland
-pkgver=5.54rc
-_tagver=v5.52.0-rc2
+pkgver=5.57rc
+_tagver=v5.57.0-rc1
 pkgrel=1
 pkgdesc='Qt-style Client and Server library wrapper for the Wayland libraries'
 arch=('x86_64')
