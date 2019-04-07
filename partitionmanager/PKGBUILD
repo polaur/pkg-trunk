@@ -1,0 +1,37 @@
+# $Id$
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Tobias Powalowski <tpowa@archlinux.org>
+# Contributor: Nick B <Shirakawasuna at gmail _dot_com>
+
+pkgname=partitionmanager
+pkgver=3.80.0
+pkgrel=1
+pkgdesc="A KDE utility that allows you to manage disks, partitions, and file systems"
+arch=(x86_64)
+url="http://kde.org/applications/system/kdepartitionmanager/"
+license=(GPL2)
+depends=(kpmcore hicolor-icon-theme kio)
+makedepends=(extra-cmake-modules kdoctools python)
+source=("http://download.kde.org/unstable/$pkgname/$pkgver/src/$pkgname-$pkgver.tar.xz"{,.sig})
+sha256sums=('883f32b8d7bb6421ac49df3f06a34c571001fd98a9f80334123229f7fc281508'
+            'SKIP')
+validpgpkeys=(1EE5A3205904BAA2B88C0A9D24FD31940095C0E1) # Andrius Štikonas <andrius@stikonas.eu>
+
+prepare() {
+  mkdir -p build
+}
+
+build() {
+  cd build
+  cmake ../$pkgname-$pkgver \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_LIBDIR=lib \
+    -DBUILD_TESTING=OFF
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}
