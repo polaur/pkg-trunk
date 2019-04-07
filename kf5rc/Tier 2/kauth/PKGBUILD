@@ -7,7 +7,7 @@
 pkgname=kauth
 pkgver=5.57rc
 _tagver=v5.57.0-rc1
-pkgrel=1
+pkgrel=2
 pkgdesc='Abstraction to system policy and authentication features'
 arch=('x86_64')
 url='https://community.kde.org/Frameworks'
@@ -16,11 +16,17 @@ depends=('kcoreaddons' 'polkit-qt5' 'python' 'python2')
 makedepends=('extra-cmake-modules' 'qt5-tools' 'clang' 'python-pyqt5' 'python2-pyqt5' 'doxygen' 'git')
 optdepends=('python-pyqt5: to use the Python 3 bindings')
 groups=('kf5')
-source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver")
-sha256sums=('SKIP')
+source=("$pkgname-$_tagver::git://anongit.kde.org/$pkgname.git#tag=$_tagver"
+kdebug-384294.patch::"https://cgit.kde.org/kauth.git/patch/?id=0c7e12ec9cd83cc4739eda7450c073d56d4e84c2")
+sha256sums=('SKIP'
+            'cd09169382d07dc4fac011f58160574cc3410ee59c2b84751f77e52fff7cdd6c')
 
 prepare() {
   mkdir -p build
+  
+  cd $pkgname-${_tagver}
+  msg "Apply KDEBUG 384294 patch; fix in 5.58"
+  patch -p1 -i ../kdebug-384294.patch
 }
 
 build() {
