@@ -6,7 +6,7 @@
 
 pkgname=kbibtex
 epoch=1
-pkgver=0.8.90
+pkgver=0.8.91
 pkgrel=1
 pkgdesc="A BibTeX editor for KDE"
 arch=(x86_64)
@@ -16,7 +16,7 @@ depends=(poppler-qt5 qt5-webengine qt5-xmlpatterns qoauth ktexteditor)
 optdepends=('okular: Document preview')
 makedepends=(extra-cmake-modules kdoctools qca-qt5)
 source=("https://download.kde.org/unstable/KBibTeX/$pkgname-$pkgver.tar.xz"{,.asc})
-sha256sums=('134c2bac1233276dc1cfd8586d6049d4605c7b67ba7628ac845c1e476d439ca8'
+sha256sums=('bfcc06e4f4aa0178725a11568ec9c59394f91ca4141dc28cb71909acb4fbb602'
             'SKIP')
 validpgpkeys=('1808CB466328F4380685A3B1A264FD738D861F41') # Thomas Fischer <fischer@unix-ag.uni-kl.de>
 
