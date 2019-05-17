@@ -1,25 +1,24 @@
-# Maintainer; pavbaranov <pavbaranov at gmail dot com>
-# for krita 4.2.0-alpha 
-# made upon a original work of:
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# for development version of krita 4.2
+# made upon an original PKBUILD by:
 # Maintainer: Antonio Rojas <arojas@archlinux,org>
 
 pkgname=krita
-pkgver=4.2.0.alpha
+pkgver=4.2.0.beta2
 pkgrel=1
 pkgdesc="Edit and paint images"
 arch=(x86_64)
 url="https://krita.org"
 license=(GPL3)
 depends=(kitemviews kitemmodels ki18n kcompletion karchive kguiaddons kcrash qt5-svg qt5-multimedia
-         gsl libraw exiv2 openexr fftw curl boost-libs giflib hicolor-icon-theme desktop-file-utils)
+         gsl libraw exiv2 openexr fftw curl boost-libs giflib hicolor-icon-theme desktop-file-utils quazip)
 makedepends=(extra-cmake-modules kdoctools boost eigen vc poppler-qt5 opencolorio python-pyqt5 libheif sip python-sip)
 optdepends=('poppler-qt5: PDF filter' 'ffmpeg: to save animations' 'opencolorio: for the LUT docker'
             "krita-plugin-gmic: G'MIC plugin" 'python-pyqt5: for the Python plugins' 'libheif: HEIF filter')
 conflicts=(calligra-krita krita-l10n)
 replaces=(calligra-krita krita-l10n)
-source=("https://download.kde.org/unstable/krita/${pkgver%.*}-alpha/$pkgname-${pkgver%.*}-alpha.tar.gz"{,.sig})
-#        krita-qtabletevent.patch)
-sha256sums=('7d2adade31455b95104ca63003ad417b86939030de86950e960657a343458056'
+source=("https://download.kde.org/unstable/krita/${pkgver%.*}-beta2/$pkgname-${pkgver%.*}-beta2.tar.xz"{,.sig})
+sha256sums=('d3b423703b11f1bbfb73b8207d402f394d8cbac4ee2a3c7422b56a1e98bba5a7'
             'SKIP')
 validpgpkeys=('05D00A8B73A686789E0A156858B9596C722EA3BD') # Boudewijn Rempt <foundation@krita.org>
 
@@ -32,11 +31,11 @@ prepare() {
 
 build() {
   cd build
-  cmake ../$pkgname-${pkgver%.*}-alpha \
+  cmake ../$pkgname-${pkgver%.*}-beta2 \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DCMAKE_INSTALL_LIBDIR=lib \
     -DBUILD_TESTING=OFF
-  make 
+  make -j4
 }
 
 package() {
