@@ -1,0 +1,221 @@
+.
+├── clang-git
+│   ├── 0001-Fix-Driver-modules.cpp-test-to-work-when-build-direc.patch
+│   ├── enable-SSP-and-PIE-by-default.patch
+│   └── PKGBUILD
+├── compiler-rt-git
+│   └── PKGBUILD
+├── Files
+├── kbibtex
+│   └── PKGBUILD
+├── kf5rc
+│   ├── extra-cmake-modules
+│   │   ├── ECM-no-init.py.patch
+│   │   ├── ECM-Qt5.12.patch
+│   │   ├── fix-python-bindings-generation.patch
+│   │   └── PKGBUILD
+│   ├── how2build.txt
+│   ├── podbijanie_wersji_rc.sh
+│   ├── Porting Aids
+│   │   ├── kdelibs4support
+│   │   │   └── PKGBUILD
+│   │   ├── khtml
+│   │   │   ├── khtml-5.57rc-1-x86_64.pkg.tar
+│   │   │   ├── khtml-v5.57.0-rc1
+│   │   │   │   ├── config
+│   │   │   │   ├── description
+│   │   │   │   ├── HEAD
+│   │   │   │   ├── hooks
+│   │   │   │   │   ├── applypatch-msg.sample
+│   │   │   │   │   ├── commit-msg.sample
+│   │   │   │   │   ├── fsmonitor-watchman.sample
+│   │   │   │   │   ├── post-update.sample
+│   │   │   │   │   ├── pre-applypatch.sample
+│   │   │   │   │   ├── pre-commit.sample
+│   │   │   │   │   ├── prepare-commit-msg.sample
+│   │   │   │   │   ├── pre-push.sample
+│   │   │   │   │   ├── pre-rebase.sample
+│   │   │   │   │   ├── pre-receive.sample
+│   │   │   │   │   └── update.sample
+│   │   │   │   ├── info
+│   │   │   │   │   └── exclude
+│   │   │   │   ├── objects
+│   │   │   │   │   └── pack
+│   │   │   │   │       ├── pack-1417654b33c902a4727b9f50308c9e2d46f4f23b.idx
+│   │   │   │   │       └── pack-1417654b33c902a4727b9f50308c9e2d46f4f23b.pack
+│   │   │   │   └── packed-refs
+│   │   │   └── PKGBUILD
+│   │   ├── kjs
+│   │   │   └── PKGBUILD
+│   │   ├── kjsembed
+│   │   │   └── PKGBUILD
+│   │   ├── kmediaplayer
+│   │   │   └── PKGBUILD
+│   │   ├── kross
+│   │   │   └── PKGBUILD
+│   │   └── portingaids.txt
+│   ├── Tier 1
+│   │   ├── attica
+│   │   │   └── PKGBUILD
+│   │   ├── bluez-qt
+│   │   │   └── PKGBUILD
+│   │   ├── breeze-icons
+│   │   │   └── PKGBUILD
+│   │   ├── kapidox
+│   │   │   └── PKGBUILD
+│   │   ├── karchive
+│   │   │   └── PKGBUILD
+│   │   ├── kcodecs
+│   │   │   └── PKGBUILD
+│   │   ├── kconfig
+│   │   │   └── PKGBUILD
+│   │   ├── kcoreaddons
+│   │   │   └── PKGBUILD
+│   │   ├── kdbusaddons
+│   │   │   └── PKGBUILD
+│   │   ├── kdnssd
+│   │   │   └── PKGBUILD
+│   │   ├── kguiaddons
+│   │   │   └── PKGBUILD
+│   │   ├── kholidays
+│   │   │   └── PKGBUILD
+│   │   ├── ki18n
+│   │   │   └── PKGBUILD
+│   │   ├── kidletime
+│   │   │   └── PKGBUILD
+│   │   ├── kirigami2
+│   │   │   └── PKGBUILD
+│   │   ├── kitemmodels
+│   │   │   └── PKGBUILD
+│   │   ├── kitemviews
+│   │   │   └── PKGBUILD
+│   │   ├── kplotting
+│   │   │   └── PKGBUILD
+│   │   ├── kwayland
+│   │   │   └── PKGBUILD
+│   │   ├── kwidgetsaddons
+│   │   │   └── PKGBUILD
+│   │   ├── kwindowsystem
+│   │   │   └── PKGBUILD
+│   │   ├── modemmanager-qt
+│   │   │   └── PKGBUILD
+│   │   ├── networkmanager-qt
+│   │   │   └── PKGBUILD
+│   │   ├── oxygen-icons
+│   │   │   └── PKGBUILD
+│   │   ├── prison
+│   │   │   └── PKGBUILD
+│   │   ├── solid
+│   │   │   └── PKGBUILD
+│   │   ├── sonnet
+│   │   │   └── PKGBUILD
+│   │   ├── syntax-highlighting
+│   │   │   └── PKGBUILD
+│   │   └── threadweaver
+│   │       └── PKGBUILD
+│   ├── Tier 2
+│   │   ├── kactivities
+│   │   │   └── PKGBUILD
+│   │   ├── kauth
+│   │   │   └── PKGBUILD
+│   │   ├── kcompletion
+│   │   │   └── PKGBUILD
+│   │   ├── kcrash
+│   │   │   └── PKGBUILD
+│   │   ├── kdoctools
+│   │   │   └── PKGBUILD
+│   │   ├── kfilemetadata
+│   │   │   ├── add-missing-wav-mimetype.patch
+│   │   │   └── PKGBUILD
+│   │   ├── kimageformats
+│   │   │   └── PKGBUILD
+│   │   ├── kjobwidgets
+│   │   │   └── PKGBUILD
+│   │   ├── knotifications
+│   │   │   └── PKGBUILD
+│   │   ├── kpackage
+│   │   │   └── PKGBUILD
+│   │   ├── kpty
+│   │   │   └── PKGBUILD
+│   │   └── kunitconversion
+│   │       └── PKGBUILD
+│   ├── Tier 3
+│   │   ├── baloo
+│   │   │   └── PKGBUILD
+│   │   ├── kactivities-stats
+│   │   │   └── PKGBUILD
+│   │   ├── kbookmarks
+│   │   │   └── PKGBUILD
+│   │   ├── kcmutils
+│   │   │   └── PKGBUILD
+│   │   ├── kconfigwidgets
+│   │   │   └── PKGBUILD
+│   │   ├── kdeclarative
+│   │   │   └── PKGBUILD
+│   │   ├── kded
+│   │   │   └── PKGBUILD
+│   │   ├── kdesignerplugin
+│   │   │   └── PKGBUILD
+│   │   ├── kdesu
+│   │   │   └── PKGBUILD
+│   │   ├── kdewebkit
+│   │   │   └── PKGBUILD
+│   │   ├── kemoticons
+│   │   │   └── PKGBUILD
+│   │   ├── kglobalaccel
+│   │   │   └── PKGBUILD
+│   │   ├── kiconthemes
+│   │   │   └── PKGBUILD
+│   │   ├── kinit
+│   │   │   └── PKGBUILD
+│   │   ├── kio
+│   │   │   └── PKGBUILD
+│   │   ├── knewstuff
+│   │   │   └── PKGBUILD
+│   │   ├── knotifyconfig
+│   │   │   └── PKGBUILD
+│   │   ├── kparts
+│   │   │   └── PKGBUILD
+│   │   ├── kpeople
+│   │   │   └── PKGBUILD
+│   │   ├── krunner
+│   │   │   └── PKGBUILD
+│   │   ├── kservice
+│   │   │   └── PKGBUILD
+│   │   ├── ktexteditor
+│   │   │   └── PKGBUILD
+│   │   ├── ktextwidgets
+│   │   │   └── PKGBUILD
+│   │   ├── kwallet
+│   │   │   └── PKGBUILD
+│   │   ├── kxmlgui
+│   │   │   └── PKGBUILD
+│   │   ├── kxmlrpcclient
+│   │   │   └── PKGBUILD
+│   │   ├── plasma-framework
+│   │   │   └── PKGBUILD
+│   │   └── purpose
+│   │       └── PKGBUILD
+│   └── Tier 4
+│       ├── frameworkintegration
+│       │   └── PKGBUILD
+│       └── qqc2-desktop-style
+│           └── PKGBUILD
+├── kproperty
+│   └── PKGBUILD
+├── kreport
+│   └── PKGBUILD
+├── lldb-git
+│   └── PKGBUILD
+├── lld-git
+│   └── PKGBUILD
+├── llvm-git
+│   ├── llvm-config.h
+│   └── PKGBUILD
+├── openmp-git
+│   └── PKGBUILD
+├── plasma-desktop-legacy
+│   └── PKGBUILD
+└── README.md
+
+99 directories, 119 files
