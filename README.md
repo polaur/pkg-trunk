@@ -18,6 +18,13 @@ git clone https://github.com/polaur/pkg-trunk.git
 
 ```
 
+or
+
+```
+git clone https://gitlab.com/polaur/pkg-trunk.git
+
+```
+
 # Install:
 
 
