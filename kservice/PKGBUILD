@@ -1,0 +1,35 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# based on PKGBUILD wrote by:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=kservice
+pkgver=5.68.0.$_rcver
+_rcver=rc1
+pkgdesc='Advanced plugin and service introspection'
+arch=(x86_64)
+url='https://community.kde.org/Frameworks'
+license=(LGPL)
+depends=(ki18n kconfig kcrash kdbusaddons)
+makedepends=(git extra-cmake-modules kdoctools doxygen qt5-tools qt5-doc)
+groups=(kf5)
+source=("git+https://anongit.kde.org/$pkgname.git#tag=v${pkgver%.*}-$_rcver")
+sha256sums=('SKIP')
+
+prepare() {
+  mkdir -p build
+}
+
+build() {
+  cd build
+  cmake ../$pkgname \
+    -DBUILD_TESTING=OFF \
+    -DBUILD_QCH=ON
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}

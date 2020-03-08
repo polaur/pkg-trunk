@@ -1,18 +1,19 @@
 # Maintainer: pavbaranov <pavbaranov at gmail dot com>
 # based on PKGBUILD wrote by:
-# Maintainer:Antonio Rojas <arojas@archlinux.org>
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
 
-pkgname=purpose
+pkgname=frameworkintegration
 pkgver=5.68.0.$_rcver
 _rcver=rc1
-pkgdesc="Framework for providing abstractions to get the developer's purposes fulfilled"
+pkgdesc='Framework providing components to allow applications to integrate with a KDE Workspace'
 arch=(x86_64)
 url='https://community.kde.org/Frameworks'
 license=(LGPL)
-depends=(kaccounts-integration kirigami2 accounts-qml-module hicolor-icon-theme)
-makedepends=(git extra-cmake-modules intltool)
-optdepends=('kdeconnect: sharing to smartphone via KDE Connect' 'telegram-desktop: sharing via Telegram'
-            'bluedevil: sharing via Bluetooth')
+depends=(kpackage knewstuff)
+makedepends=(git extra-cmake-modules appstream-qt packagekit-qt5)
+optdepends=('appstream-qt: dependency resolving via AppStream' 'packagekit-qt5: dependency resolving via AppStream')
 groups=(kf5)
 source=("git+https://anongit.kde.org/$pkgname.git#tag=v${pkgver%.*}-$_rcver")
 sha256sums=('SKIP')

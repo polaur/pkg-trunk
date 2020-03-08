@@ -1,0 +1,34 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# based on PKGBUILD wrote by:
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+
+pkgname=kirigami2
+pkgver=5.68.0.$_rcver
+_rcver=rc1
+pkgdesc='A QtQuick based components set'
+arch=(x86_64)
+url='https://community.kde.org/Frameworks'
+license=(LGPL)
+groups=(kf5)
+depends=(qt5-quickcontrols qt5-quickcontrols2 qt5-graphicaleffects)
+makedepends=(git extra-cmake-modules qt5-tools qt5-doc qt5-svg kpackage doxygen)
+source=("git+https://anongit.kde.org/kirigami.git#tag=v${pkgver%.*}-$_rcver")
+sha256sums=('SKIP')
+
+prepare() {
+  mkdir -p build
+}
+
+build() {
+  cd build
+  cmake ../kirigami \
+    -DBUILD_TESTING=OFF \
+    -DBUILD_QCH=ON
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}
+

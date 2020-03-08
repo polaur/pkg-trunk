@@ -1,18 +1,18 @@
 # Maintainer: pavbaranov <pavbaranov at gmail dot com>
 # based on PKGBUILD wrote by:
-# Maintainer:Antonio Rojas <arojas@archlinux.org>
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
 
-pkgname=purpose
+pkgname=kxmlgui
 pkgver=5.68.0.$_rcver
 _rcver=rc1
-pkgdesc="Framework for providing abstractions to get the developer's purposes fulfilled"
+pkgdesc='User configurable main windows'
 arch=(x86_64)
 url='https://community.kde.org/Frameworks'
 license=(LGPL)
-depends=(kaccounts-integration kirigami2 accounts-qml-module hicolor-icon-theme)
-makedepends=(git extra-cmake-modules intltool)
-optdepends=('kdeconnect: sharing to smartphone via KDE Connect' 'telegram-desktop: sharing via Telegram'
-            'bluedevil: sharing via Bluetooth')
+depends=(kglobalaccel kiconthemes attica)
+makedepends=(git extra-cmake-modules doxygen qt5-tools qt5-doc)
 groups=(kf5)
 source=("git+https://anongit.kde.org/$pkgname.git#tag=v${pkgver%.*}-$_rcver")
 sha256sums=('SKIP')
@@ -25,7 +25,8 @@ build() {
   cd build
   cmake ../$pkgname \
     -DCMAKE_INSTALL_LIBEXECDIR=lib \
-    -DBUILD_TESTING=OFF
+    -DBUILD_TESTING=OFF \
+    -DBUILD_QCH=ON
   make
 }
 

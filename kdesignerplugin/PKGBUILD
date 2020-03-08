@@ -1,0 +1,33 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# based on PKGBUILD wrote by:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=kdesignerplugin
+pkgver=5.68.0.$_rcver
+_rcver=rc1
+pkgdesc='Integration of Frameworks widgets in Qt Designer/Creator'
+arch=(x86_64)
+url='https://community.kde.org/Frameworks'
+license=(LGPL)
+depends=(kconfig kcoreaddons)
+makedepends=(git extra-cmake-modules qt5-tools kdoctools)
+groups=(kf5-aids)
+source=("git+https://anongit.kde.org/$pkgname.git#tag=v${pkgver%.*}-$_rcver")
+sha256sums=('SKIP')
+
+prepare() {
+  mkdir -p build
+}
+
+build() {
+  cd build
+  cmake ../$pkgname \
+    -DBUILD_TESTING=OFF
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}

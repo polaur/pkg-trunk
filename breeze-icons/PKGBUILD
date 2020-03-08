@@ -1,0 +1,35 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# based on PKGBUILD wrote by:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=breeze-icons
+pkgver=5.68.0.$_rcver
+_rcver=rc1
+pkgrel=1
+pkgdesc='Breeze icon themes'
+arch=(any)
+url='https://community.kde.org/Frameworks'
+license=(LGPL)
+groups=(kf5)
+makedepends=(git extra-cmake-modules qt5-base)
+source=("git+https://anongit.kde.org/$pkgname.git#tag=v${pkgver%.*}-$_rcver")
+sha256sums=('SKIP')
+
+prepare() {
+  mkdir -p build
+}
+
+build() {
+  cd build
+  cmake ../$pkgname \
+    -DBINARY_ICONS_RESOURCE=ON \
+    -DBUILD_TESTING=OFF
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}
