@@ -5,6 +5,7 @@
 pkgname=kholidays
 pkgver=5.68.0.$_rcver
 _rcver=rc1
+pkgrel=1
 epoch=1
 pkgdesc="KDE library for regional holiday information"
 arch=(x86_64)

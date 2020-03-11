@@ -5,6 +5,7 @@
 pkgname=kwayland
 pkgver=5.68.0.$_rcver
 _rcver=rc1
+pkgrel=1
 pkgdesc='Qt-style Client and Server library wrapper for the Wayland libraries'
 arch=(x86_64)
 url='https://www.kde.org'

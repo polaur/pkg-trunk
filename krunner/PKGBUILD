@@ -7,6 +7,7 @@
 pkgname=krunner
 pkgver=5.68.0.$_rcver
 _rcver=rc1
+pkgrel=1
 pkgdesc='Framework for providing different actions given a string query'
 arch=(x86_64)
 url='https://community.kde.org/Frameworks'

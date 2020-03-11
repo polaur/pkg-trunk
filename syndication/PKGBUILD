@@ -5,6 +5,7 @@
 pkgname=syndication
 pkgver=5.68.0.$_rcver
 _rcver=rc1
+pkgrel=1
 pkgdesc="RSS/Atom parser library"
 arch=(x86_64)
 url="https://community.kde.org/Frameworks"

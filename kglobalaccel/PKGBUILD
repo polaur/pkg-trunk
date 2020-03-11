@@ -7,6 +7,7 @@
 pkgname=kglobalaccel
 pkgver=5.68.0.$_rcver
 _rcver=rc1
+pkgrel=1
 pkgdesc='Add support for global workspace shortcuts'
 arch=(x86_64)
 url='https://community.kde.org/Frameworks'
