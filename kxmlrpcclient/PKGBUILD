@@ -4,8 +4,8 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=kxmlrpcclient
-pkgver=5.68.0.$_rcver
 _rcver=rc1
+pkgver=5.68.0.$_rcver
 pkgrel=1
 pkgdesc="XML-RPC client library for KDE"
 arch=(x86_64)

@@ -5,7 +5,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kjsembed
-pkgver=5.68.0.rc1
+_rcver=1
+pkgver=5.68.0.$_rcver
 pkgrel=1
 pkgdesc='Embedded JS'
 arch=(x86_64)

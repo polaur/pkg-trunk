@@ -5,8 +5,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=frameworkintegration
-pkgver=5.68.0.$_rcver
 _rcver=rc1
+pkgver=5.68.0.$_rcver
 pkgrel=1
 pkgdesc='Framework providing components to allow applications to integrate with a KDE Workspace'
 arch=(x86_64)

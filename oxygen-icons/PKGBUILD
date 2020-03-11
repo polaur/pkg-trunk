@@ -7,8 +7,8 @@
 
 pkgbase=oxygen-icons
 pkgname=(oxygen-icons oxygen-icons-svg)
-pkgver=5.68.0.$_rcver
 _rcver=rc1
+pkgver=5.68.0.$_rcver
 epoch=1
 pkgrel=1
 pkgdesc="The Oxygen Icon Theme"

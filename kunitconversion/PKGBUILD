@@ -5,8 +5,8 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kunitconversion
-pkgver=5.68.0.$_rcver
 _rcver=rc1
+pkgver=5.68.0.$_rcver
 pkgrel=1
 pkgdesc='Support for unit conversion'
 arch=(x86_64)

@@ -4,8 +4,8 @@
 
 pkgname=kcontacts
 epoch=1
-pkgver=5.68.0.$_rcver
 _rcver=rc1
+pkgver=5.68.0.$_rcver
 pkgrel=1
 pkgdesc="Address book API for KDE"
 arch=(x86_64)
