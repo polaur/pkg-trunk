@@ -7,7 +7,7 @@
 pkgname=kdoctools
 _rcver=rc1
 pkgver=5.68.0.$_rcver
-pkgrel=1
+pkgrel=2
 pkgdesc='Documentation generation from docbook'
 arch=(x86_64)
 url='https://community.kde.org/Frameworks'
@@ -16,16 +16,17 @@ depends=(karchive docbook-xsl)
 makedepends=(git extra-cmake-modules perl-uri ki18n doxygen qt5-tools qt5-doc)
 groups=(kf5)
 source=("git+https://anongit.kde.org/$pkgname.git#tag=v${pkgver%.*}-$_rcver"
-#kdebug-418696.patch::"https://cgit.kde.org/kdoctools.git/patch/?id=70832b7774f06348a82f8ad63461a3d964717b61"
+kdebug-418696.patch::"https://cgit.kde.org/kdoctools.git/patch/?id=70832b7774f06348a82f8ad63461a3d964717b61"
 )
-sha256sums=('SKIP')
+sha256sums=('SKIP'
+            'c9654c886d393adeabd34854ea5344717ced622443d1979f58922fbea7b0f8f0')
 
 prepare() {
   mkdir -p build
   
-#  cd $pkgname
-#  msg "Add kdebug 418696 patch"
-#  patch -p1 -i ../kdebug-418696.patch
+  cd $pkgname
+  msg "Add kdebug 418696 patch"
+  patch -p1 -i ../kdebug-418696.patch
 }
 
 build() {
