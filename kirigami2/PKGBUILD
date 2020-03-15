@@ -5,7 +5,7 @@
 pkgname=kirigami2
 _rcver=rc1
 pkgver=5.68.0.$_rcver
-pkgrel=1
+pkgrel=2
 pkgdesc='A QtQuick based components set'
 arch=(x86_64)
 url='https://community.kde.org/Frameworks'
@@ -13,11 +13,17 @@ license=(LGPL)
 groups=(kf5)
 depends=(qt5-quickcontrols qt5-quickcontrols2 qt5-graphicaleffects)
 makedepends=(git extra-cmake-modules qt5-tools qt5-doc qt5-svg kpackage doxygen)
-source=("git+https://anongit.kde.org/kirigami.git#tag=v${pkgver%.*}-$_rcver")
-sha256sums=('SKIP')
+source=("git+https://anongit.kde.org/kirigami.git#tag=v${pkgver%.*}-$_rcver"
+kdebug-417956.patch::"https://cgit.kde.org/kirigami.git/patch/?id=4d84d3f1d93fe7cc7db7530d13094a48745ef59c"
+)
+sha256sums=('SKIP'
+            'f20a374eca54079aabd109e5638fe2ca2211e0049061f5a42663c54cd12ead9b')
 
 prepare() {
   mkdir -p build
+  
+  cd kirigami
+  patch -p1 -i ../kdebug-417956.patch
 }
 
 build() {
