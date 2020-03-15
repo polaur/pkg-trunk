@@ -1,0 +1,32 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# Contributor: Damian N. <nycko123 at gmail>
+
+pkgname=tweeeditor
+_realname=TweeEditor
+pkgver=1.0.4pre
+pkgrel=1
+pkgdesc="Simple text editor"
+arch=('x86_64')
+url="https://github.com/TweeChalice/TweeEditor"
+license=('MPL')
+depends=(qt5-base)
+makedepends=(qt5-tools)
+source=("https://github.com/TweeChalice/TweeEditor/archive/v$pkgver.tar.gz")
+sha256sums=('3235aa808e53bd2751c6972355da46497e79cae4d3762479193e9bc717bfe119')
+
+prepare() {
+    mkdir -p build
+    }
+    
+build() {
+    cd build 
+    cmake ../TweeEditor-$pkgver \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DCMAKE_BUILD_TYPE=Release
+    make
+}
+
+package() {
+    install -Dm755 "$srcdir/build/TweeEdit" "$pkgdir/usr/bin/tweeeditor"
+    install -Dm644 "$srcdir/TweeEditor-$pkgver/TweeSimpleEdit_pl_PL.qm" "$pkgdir/usr/share/tweeeditor/TweeSimpleEdit_pl_PL.qm"
+}
