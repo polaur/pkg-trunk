@@ -1,0 +1,36 @@
+pkgbase = kdepim-runtime
+	pkgdesc = Extends the functionality of kdepim
+	pkgver = 20.03.80
+	pkgrel = 1.1
+	url = https://kontact.kde.org
+	arch = x86_64
+	license = GPL
+	license = LGPL
+	license = FDL
+	makedepends = extra-cmake-modules
+	makedepends = kdoctools
+	makedepends = boost
+	depends = libkolabxml
+	depends = kdav
+	depends = akonadi-calendar
+	depends = knotifyconfig
+	depends = kalarmcal
+	depends = kmbox
+	depends = pimcommon
+	depends = akonadi-notes
+	depends = akonadi
+	depends = qca
+	depends = qt5-networkauth
+	source = https://download.kde.org/unstable/release-service/20.03.80/src/kdepim-runtime-20.03.80.tar.xz
+	source = https://download.kde.org/unstable/release-service/20.03.80/src/kdepim-runtime-20.03.80.tar.xz.sig
+	source = kdebug-413078.patch::https://cgit.kde.org/kdepim-runtime.git/patch/?id=4484df3d6f0c449ec2cfd4956175eab507f4cc55
+	source = kdepim-runtime-qt5.15.patch::https://cgit.kde.org/kdepim-runtime.git/patch?id=d547b86f
+	validpgpkeys = CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7
+	validpgpkeys = F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87
+	sha256sums = 76bcd8204b9b3c58842169b7bc3f95e141f91a500a13591955663746f04e5b94
+	sha256sums = SKIP
+	sha256sums = 899a7d146324992b08b9cee684586a4cc2625095ce934f4dbe03d15c6cd47764
+	sha256sums = 32e89ed4325bfb02d192a38b2aacf4ca947f6b7ddd72f4d49e46564667ff82d5
+
+pkgname = kdepim-runtime
+
