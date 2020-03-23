@@ -1,0 +1,32 @@
+pkgbase = konsole
+	pkgdesc = KDE's terminal emulator
+	pkgver = 20.03.80
+	pkgrel = 1.1
+	url = https://kde.org/applications/system/konsole/
+	arch = x86_64
+	groups = kde-applications
+	groups = kdebase
+	license = GPL
+	license = LGPL
+	license = FDL
+	makedepends = extra-cmake-modules
+	makedepends = kdoctools
+	depends = knotifyconfig
+	depends = kpty
+	depends = kparts
+	depends = kinit
+	depends = knewstuff
+	optdepends = keditbookmarks: to manage bookmarks
+	source = https://download.kde.org/unstable/release-service/20.03.80/src/konsole-20.03.80.tar.xz
+	source = https://download.kde.org/unstable/release-service/20.03.80/src/konsole-20.03.80.tar.xz.sig
+	source = konsole-qt5.15.patch::https://cgit.kde.org/konsole.git/patch/?id=5ab73956
+	source = kdebug-416376.patch::https://cgit.kde.org/konsole.git/patch/?id=26f4a2218f52f790d4de087216098619a753164e
+	validpgpkeys = CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7
+	validpgpkeys = F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87
+	sha256sums = 0158b3b816abe7201a92d92563fe74130490aa5959ce242bf5f618f63aed4859
+	sha256sums = SKIP
+	sha256sums = ecd91740432f3d0caff87bc1dbbb9e7ca855d97dcd2267558012d4583ad826a6
+	sha256sums = 4fb50295cf48cc7ad4178f5e092e286949eef532a90eb26c3e0738ba0fa4a9bf
+
+pkgname = konsole
+
