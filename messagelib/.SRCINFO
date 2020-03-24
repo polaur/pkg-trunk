@@ -1,0 +1,26 @@
+pkgbase = messagelib
+	pkgdesc = KDE PIM messaging library
+	pkgver = 20.03.80
+	pkgrel = 1.1
+	url = https://kontact.kde.org
+	arch = x86_64
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = boost
+	depends = kdepim-apps-libs
+	depends = kmailtransport
+	depends = libgravatar
+	depends = kidentitymanagement
+	depends = kmbox
+	depends = qca
+	source = https://download.kde.org/unstable/release-service/20.03.80/src/messagelib-20.03.80.tar.xz
+	source = https://download.kde.org/unstable/release-service/20.03.80/src/messagelib-20.03.80.tar.xz.sig
+	source = kdebug-416306.patch::https://cgit.kde.org/messagelib.git/patch/?id=1c74cf3f81572c98ca599173e5170f4fda0dcf33
+	validpgpkeys = CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7
+	validpgpkeys = F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87
+	sha256sums = f9307fa33e587a8b75bc269dfb71837bea09ae27de2182112803fff4ebc08f7f
+	sha256sums = SKIP
+	sha256sums = b46d49b7a7dab34a2c1349e223a27ff79849d1fda97f21b6bc611c609a817595
+
+pkgname = messagelib
+
