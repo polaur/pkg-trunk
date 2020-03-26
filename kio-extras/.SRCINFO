@@ -1,0 +1,46 @@
+pkgbase = kio-extras
+	pkgdesc = Additional components to increase the functionality of KIO
+	pkgver = 20.03.80
+	pkgrel = 2.1
+	url = https://www.kde.org/applications/internet/
+	arch = x86_64
+	groups = kde-applications
+	groups = kdenetwork
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = kdoctools
+	makedepends = gperf
+	makedepends = taglib
+	makedepends = libappimage
+	depends = kio
+	depends = kdnssd
+	depends = libssh
+	depends = smbclient
+	depends = exiv2
+	depends = openexr
+	depends = libmtp
+	depends = kpty
+	depends = kactivities-stats
+	depends = phonon-qt5
+	depends = syntax-highlighting
+	depends = kdsoap-ws-discovery-client
+	depends = libxcursor
+	optdepends = qt5-imageformats: thumbnails for additional image formats
+	optdepends = perl: info kioslave
+	optdepends = kimageformats: thumbnails for additional image formats
+	optdepends = taglib: audio file thumbnails
+	optdepends = phonon-qt5: audio file previews
+	optdepends = libappimage: AppImage thumbnails
+	source = https://download.kde.org/unstable/release-service/20.03.80/src/kio-extras-20.03.80.tar.xz
+	source = https://download.kde.org/unstable/release-service/20.03.80/src/kio-extras-20.03.80.tar.xz.sig
+	source = kio-extras-kdsoap.patch
+	source = kdebug-375305.patch::https://cgit.kde.org/kio-extras.git/patch/?id=b13449a13b00a882a93230b8180200d4709c3e8b
+	validpgpkeys = CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7
+	validpgpkeys = F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87
+	sha256sums = f041f2a7c13eaaf3e486a4ea39208b0e2c2e9f422e234cc392e7ad4396d36ce7
+	sha256sums = SKIP
+	sha256sums = 4e3504556cdd01cf638d2957e55a7c09a304a64eee59a542165204181bb04492
+	sha256sums = a3e1d2dea4bdc1a153b34f82b39270feb277f70da901004f9a3d934769e97505
+
+pkgname = kio-extras
+
