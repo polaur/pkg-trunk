@@ -1,23 +1,26 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# only for version with bugfixes from upcomming releases
+# based on the original works by:
 # Maintainer: Felix Yan <felixonmars@archlinux.org>
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
+# Contributor: Pierre Schmitz <pierre@archlinux.de>
 
-pkgname=konsole
+pkgname=kdepim-runtime
 pkgver=20.03.90
 pkgrel=1.1
+pkgdesc='Extends the functionality of kdepim'
 arch=(x86_64)
-url='https://kde.org/applications/system/konsole/'
-pkgdesc="KDE's terminal emulator"
+url='https://kontact.kde.org'
 license=(GPL LGPL FDL)
-groups=(kde-applications kdebase)
-depends=(knotifyconfig kpty kparts kinit knewstuff)
-makedepends=(extra-cmake-modules kdoctools)
-optdepends=('keditbookmarks: to manage bookmarks')
+depends=(libkolabxml kdav akonadi-calendar knotifyconfig kalarmcal kmbox pimcommon akonadi-notes akonadi qca qt5-networkauth)
+makedepends=(extra-cmake-modules kdoctools boost)
 source=("https://download.kde.org/unstable/release-service/$pkgver/src/$pkgname-$pkgver.tar.xz"{,.sig}
-         kdebug-416376.patch::"https://cgit.kde.org/konsole.git/patch/?id=26f4a2218f52f790d4de087216098619a753164e")
-sha256sums=('7c2d105e0eb97d704afba53d5396fd659daef4ef7f20f23fc6907b974d039eae'
+kdebug-413078.patch::"https://cgit.kde.org/kdepim-runtime.git/patch/?id=4484df3d6f0c449ec2cfd4956175eab507f4cc55"
+)
+sha256sums=('781dd80d653ff5d7837cd1ba8f9e5089874842f3310cea6cb650d6f6c42d4346'
             'SKIP'
-            '4fb50295cf48cc7ad4178f5e092e286949eef532a90eb26c3e0738ba0fa4a9bf')
+            '899a7d146324992b08b9cee684586a4cc2625095ce934f4dbe03d15c6cd47764')
 validpgpkeys=(CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7  # Albert Astals Cid <aacid@kde.org>
               F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87) # Christoph Feck <cfeck@kde.org>
 
@@ -25,8 +28,8 @@ prepare() {
   mkdir -p build
 
   cd $pkgname-$pkgver
-  msg "Applying kdebug 416376 patch"
-  patch -p1 -i ../kdebug-416376.patch
+  msg "Apply kdebug 413078 and 416663 patch"
+  patch -p1 -i ../kdebug-413078.patch
 }
 
 build() {
