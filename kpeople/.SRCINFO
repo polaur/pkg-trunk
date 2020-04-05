@@ -1,0 +1,24 @@
+pkgbase = kpeople
+	pkgdesc = A library that provides access to all contacts and the people who hold them
+	pkgver = 5.69.0
+	pkgrel = 0
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf5
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules
+	makedepends = doxygen
+	makedepends = qt5-tools
+	makedepends = qt5-doc
+	makedepends = qt5-declarative
+	depends = kcoreaddons
+	depends = ki18n
+	depends = kwidgetsaddons
+	depends = kitemviews
+	optdepends = qt5-declarative: QML bindings
+	source = git+https://anongit.kde.org/kpeople.git#tag=v5.69.0-rc1
+	sha256sums = SKIP
+
+pkgname = kpeople
+

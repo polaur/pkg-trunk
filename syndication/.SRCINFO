@@ -1,0 +1,22 @@
+pkgbase = syndication
+	pkgdesc = RSS/Atom parser library
+	pkgver = 5.69.0
+	pkgrel = 0
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf5
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules
+	makedepends = doxygen
+	makedepends = qt5-tools
+	makedepends = qt5-doc
+	depends = kcodecs
+	provides = kde-syndication
+	conflicts = kde-syndication
+	replaces = kde-syndication
+	source = git+https://anongit.kde.org/syndication.git#tag=v5.69.0-rc1
+	sha256sums = SKIP
+
+pkgname = syndication
+

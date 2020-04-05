@@ -1,0 +1,17 @@
+pkgbase = qqc2-desktop-style
+	pkgdesc = A style for Qt Quick Controls 2 to make it follow your desktop theme
+	pkgver = 5.69.0
+	pkgrel = 0
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf5
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules
+	depends = kirigami2
+	depends = kiconthemes
+	source = git+https://anongit.kde.org/qqc2-desktop-style.git#tag=v5.69.0-rc1
+	sha256sums = SKIP
+
+pkgname = qqc2-desktop-style
+

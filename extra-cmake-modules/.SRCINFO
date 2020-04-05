@@ -1,0 +1,19 @@
+pkgbase = extra-cmake-modules
+	pkgdesc = Extra modules and scripts for CMake
+	pkgver = 5.69.0
+	pkgrel = 0
+	url = https://community.kde.org/Frameworks
+	arch = any
+	groups = kf5
+	license = LGPL
+	makedepends = python-sphinx
+	makedepends = python-requests
+	makedepends = qt5-tools
+	depends = cmake
+	source = git+https://anongit.kde.org/extra-cmake-modules.git#tag=v5.69.0-rc1
+	source = ECM-no-init.py.patch
+	sha256sums = SKIP
+	sha256sums = 5695e45c7621a00c0bca28f058c13b5d524f963a00b53337c8cefcdaf22c4b52
+
+pkgname = extra-cmake-modules
+

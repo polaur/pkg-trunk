@@ -1,0 +1,19 @@
+pkgbase = kwindowsystem
+	pkgdesc = Access to the windowing system
+	pkgver = 5.69.0
+	pkgrel = 0
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf5
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = qt5-tools
+	makedepends = qt5-doc
+	makedepends = doxygen
+	makedepends = git
+	depends = qt5-x11extras
+	source = git+https://anongit.kde.org/kwindowsystem.git#tag=v5.69.0-rc1
+	sha256sums = SKIP
+
+pkgname = kwindowsystem
+

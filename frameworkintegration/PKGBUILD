@@ -1,0 +1,37 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# based on PKGBUILD wrote by:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=frameworkintegration
+_rcver=rc1
+pkgver=5.69.0
+pkgrel=0
+pkgdesc='Framework providing components to allow applications to integrate with a KDE Workspace'
+arch=(x86_64)
+url='https://community.kde.org/Frameworks'
+license=(LGPL)
+depends=(kpackage knewstuff)
+makedepends=(git extra-cmake-modules appstream-qt packagekit-qt5)
+optdepends=('appstream-qt: dependency resolving via AppStream' 'packagekit-qt5: dependency resolving via AppStream')
+groups=(kf5)
+source=("git+https://anongit.kde.org/$pkgname.git#tag=v${pkgver}-$_rcver")
+sha256sums=('SKIP')
+
+prepare() {
+  mkdir -p build
+}
+
+build() {
+  cd build
+  cmake ../$pkgname \
+    -DCMAKE_INSTALL_LIBEXECDIR=lib \
+    -DBUILD_TESTING=OFF
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}

@@ -1,0 +1,23 @@
+pkgbase = purpose
+	pkgdesc = Framework for providing abstractions to get the developer's purposes fulfilled
+	pkgver = 5.69.0
+	pkgrel = 0
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf5
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules
+	makedepends = intltool
+	depends = kaccounts-integration
+	depends = kirigami2
+	depends = accounts-qml-module
+	depends = hicolor-icon-theme
+	optdepends = kdeconnect: sharing to smartphone via KDE Connect
+	optdepends = telegram-desktop: sharing via Telegram
+	optdepends = bluedevil: sharing via Bluetooth
+	source = git+https://anongit.kde.org/purpose.git#tag=v5.69.0-rc1
+	sha256sums = SKIP
+
+pkgname = purpose
+
