@@ -7,7 +7,7 @@
 pkgname=ktexteditor
 _rcver=rc1
 pkgver=5.69.0
-pkgrel=1
+pkgrel=2 # libgit2 1.0.0 rebuild
 pkgdesc='Advanced embeddable text editor'
 arch=(x86_64)
 url='https://community.kde.org/Frameworks'
