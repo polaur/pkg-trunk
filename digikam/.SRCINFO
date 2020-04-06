@@ -1,7 +1,7 @@
 pkgbase = digikam
 	pkgdesc = An advanced digital photo management application
 	pkgver = 7.0.0_beta2
-	pkgrel = 4
+	pkgrel = 5
 	url = https://www.digikam.org/
 	arch = x86_64
 	license = GPL
