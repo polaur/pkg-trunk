@@ -5,7 +5,7 @@
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kio
-_rcver=rc1
+_rcver=rc2
 pkgver=5.69.0
 pkgrel=0
 pkgdesc='Resource and network access abstraction'
