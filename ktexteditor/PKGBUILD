@@ -7,7 +7,7 @@
 pkgname=ktexteditor
 _rcver=rc1
 pkgver=5.69.0
-pkgrel=2 # libgit2 1.0.0 rebuild
+pkgrel=3 # Qt5.15b3 rebuild
 pkgdesc='Advanced embeddable text editor'
 arch=(x86_64)
 url='https://community.kde.org/Frameworks'
@@ -16,12 +16,14 @@ depends=(kparts syntax-highlighting libgit2 editorconfig-core-c)
 makedepends=(git extra-cmake-modules doxygen qt5-tools qt5-doc)
 groups=(kf5)
 source=("git+https://anongit.kde.org/$pkgname.git#tag=v${pkgver}-$_rcver"
-kdebug-417890.patch::"https://cgit.kde.org/ktexteditor.git/patch/?id=1527af3b5435c4592f8b8daf9ffc7304ec69b77b")
+revert-premature-port-to-unreleased-qt-5.15.patch::"https://cgit.kde.org/ktexteditor.git/patch/?id=b70654b6bddd0b15dfa490b28284eec0dc7dba9d")
 sha256sums=('SKIP'
-            '6237b970de5edd0ad64979f6b11393c770a9fe7af65348d0140a2d1d62c2d438')
+            'b657360b6f1cdcc6e31ce25ae46f8c621e2268b0078b78b96920bbf1466b4ed0')
 
 prepare() {
   mkdir -p build
+  cd $pkgname
+  patch -p1 -i ../revert-premature-port-to-unreleased-qt-5.15.patch # make it compile against Qt 5.15beta3
 }
 
 build() {

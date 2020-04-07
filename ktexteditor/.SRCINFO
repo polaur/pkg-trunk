@@ -1,7 +1,7 @@
 pkgbase = ktexteditor
 	pkgdesc = Advanced embeddable text editor
 	pkgver = 5.69.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://community.kde.org/Frameworks
 	arch = x86_64
 	groups = kf5
@@ -16,9 +16,9 @@ pkgbase = ktexteditor
 	depends = libgit2
 	depends = editorconfig-core-c
 	source = git+https://anongit.kde.org/ktexteditor.git#tag=v5.69.0-rc1
-	source = kdebug-417890.patch::https://cgit.kde.org/ktexteditor.git/patch/?id=1527af3b5435c4592f8b8daf9ffc7304ec69b77b
+	source = revert-premature-port-to-unreleased-qt-5.15.patch::https://cgit.kde.org/ktexteditor.git/patch/?id=b70654b6bddd0b15dfa490b28284eec0dc7dba9d
 	sha256sums = SKIP
-	sha256sums = 6237b970de5edd0ad64979f6b11393c770a9fe7af65348d0140a2d1d62c2d438
+	sha256sums = b657360b6f1cdcc6e31ce25ae46f8c621e2268b0078b78b96920bbf1466b4ed0
 
 pkgname = ktexteditor
 
