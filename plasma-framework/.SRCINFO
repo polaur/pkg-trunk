@@ -1,7 +1,7 @@
 pkgbase = plasma-framework
 	pkgdesc = Plasma library and runtime components based upon KF5 and Qt5
 	pkgver = 5.69.0
-	pkgrel = 0
+	pkgrel = 0.1
 	url = https://community.kde.org/Frameworks
 	arch = x86_64
 	groups = kf5
@@ -17,7 +17,9 @@ pkgbase = plasma-framework
 	depends = kwayland
 	depends = kirigami2
 	source = git+https://anongit.kde.org/plasma-framework.git#tag=v5.69.0-rc1
+	source = fix-qt-5.15-crash.patch::https://cgit.kde.org/plasma-framework.git/patch/?id=0417bf61d53a61879702aa6e5bc64d1da557db27
 	sha256sums = SKIP
+	sha256sums = 3471b553dda8e69473de70fda31ad9982f394e8c1ac710fa9286873eb42c1ef2
 
 pkgname = plasma-framework
 
