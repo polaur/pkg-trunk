@@ -7,7 +7,7 @@
 pkgname=ktexteditor
 _rcver=rc1
 pkgver=5.69.0
-pkgrel=3 # Qt5.15b3 rebuild
+pkgrel=0.3 # Qt5.15b3 rebuild
 pkgdesc='Advanced embeddable text editor'
 arch=(x86_64)
 url='https://community.kde.org/Frameworks'
