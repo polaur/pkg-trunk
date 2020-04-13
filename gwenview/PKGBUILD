@@ -4,7 +4,7 @@
 
 pkgname=gwenview
 pkgver=20.03.90
-pkgrel=1.1 # qt5.15b3 rebuild
+pkgrel=1.2 
 pkgdesc="A fast and easy to use image viewer"
 url='https://kde.org/applications/graphics/gwenview/'
 arch=(x86_64)
@@ -17,10 +17,14 @@ optdepends=('qt5-imageformats: support for tiff, webp, and more image formats'
             'kamera: import pictures from gphoto2 cameras')
 makedepends=(extra-cmake-modules kdoctools)
 source=("https://download.kde.org/unstable/release-service/$pkgver/src/$pkgname-$pkgver.tar.xz"{,.sig}
-revert-port_deprecated_signal.patch::"https://cgit.kde.org/gwenview.git/patch/?id=1dda9f4892843c8407cd117a6727b4e0960a90a8")
+revert-port_deprecated_signal.patch::"https://cgit.kde.org/gwenview.git/patch/?id=1dda9f4892843c8407cd117a6727b4e0960a90a8"
+D28374.diff
+D28373.diff)
 sha256sums=('082453562dd9952a6fd3cf4f606418b5162629d709707fb2a0274c54f798f28c'
             'SKIP'
-            '56292caf02c79c2236c27978bbe5d4cc4e9795f8c028322e03d1f4322b407c60')
+            '56292caf02c79c2236c27978bbe5d4cc4e9795f8c028322e03d1f4322b407c60'
+            '1825dedf3948bb20dca117f49735463909622534b579867bee5d0beb72e2ec76'
+            '595c77e39b54f9ef3e1fb930ddf04b67d23d7a3babfe8bd23be510b5f8ec1e87')
 validpgpkeys=(CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7  # Albert Astals Cid <aacid@kde.org>
               F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87) # Christoph Feck <cfeck@kde.org>
 
@@ -28,6 +32,9 @@ prepare() {
   mkdir -p build
 
   patch -d $pkgname-$pkgver -p1 -i $srcdir/revert-port_deprecated_signal.patch
+  cd $pkgname-$pkgver
+  patch -p1 -i ../D28373.diff
+  patch -p1 -i ../D28374.diff
 }
 
 build() {
