@@ -1,0 +1,44 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# only for version with bugfixes from upcomming releases
+# based on the original works by:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=print-manager
+pkgver=20.03.90
+pkgrel=1.1
+pkgdesc="A tool for managing print jobs and printers"
+arch=(x86_64)
+url='https://www.kde.org/applications/utilities/'
+license=(GPL LGPL FDL)
+depends=(kcmutils)
+makedepends=(extra-cmake-modules kdoctools plasma-framework)
+optdepends=('system-config-printer: auto-detect the printer driver')
+groups=(kde-applications kdeutils)
+source=("https://download.kde.org/unstable/release-service/$pkgver/src/$pkgname-$pkgver.tar.xz"{,.sig}
+kdebug-415444.patch::"https://cgit.kde.org/print-manager.git/patch/?id=43da9240bba85bf2719839d35f0a67a59df721e0")
+sha256sums=('76d6178db401f0cd5a6aada8bbb1a02c7a7767776415621346f1b091779f44d7'
+            'SKIP'
+            'd986e48b9cd1846f2593899cf31895a9322205f9ecbf69247ac402358ac52422')
+validpgpkeys=(CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7  # Albert Astals Cid <aacid@kde.org>
+              F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87) # Christoph Feck <cfeck@kde.org>
+
+prepare() {
+  mkdir -p build
+  
+  msg "Applying kdebug 415444 patch; fix in 20.04.0"
+  patch -d $pkgname-$pkgver -p1 -i $srcdir/kdebug-415444.patch
+}
+
+build() {
+  cd build
+  cmake ../$pkgname-$pkgver \
+    -DBUILD_TESTING=OFF
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}
