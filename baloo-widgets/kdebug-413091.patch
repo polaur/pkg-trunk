@@ -1,0 +1,73 @@
+From 50fdd3e154ffac3b4b42cc03735255aca8272ae8 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?M=C3=A9ven=20Car?= <meven29@gmail.com>
+Date: Sat, 11 Apr 2020 08:24:23 +0200
+Subject: Use KFileItem::recursiveSize to Display recursize size as total size
+
+Summary:
+This allows to display the trash:/ occupied space
+
+CCBUG: 413091
+
+Test Plan: {F8231067}
+
+Reviewers: #dolphin, ngraham, elvisangelaccio, dfaure
+
+Reviewed By: #dolphin, ngraham, elvisangelaccio, dfaure
+
+Subscribers: #baloo
+
+Tags: #baloo
+
+Differential Revision: https://phabricator.kde.org/D28738
+---
+ CMakeLists.txt               | 2 +-
+ src/filemetadataprovider.cpp | 7 +++++--
+ 2 files changed, 6 insertions(+), 3 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index e2e959c..675a61d 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -8,7 +8,7 @@ set (RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE
+ project(baloo-widgets VERSION ${RELEASE_SERVICE_VERSION})
+ 
+ set(QT_MIN_VERSION "5.11.0")
+-set(KF5_MIN_VERSION "5.60.0")
++set(KF5_MIN_VERSION "5.69.0")
+ 
+ find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
+ set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules" ${ECM_MODULE_PATH})
+diff --git a/src/filemetadataprovider.cpp b/src/filemetadataprovider.cpp
+index 6484023..2498e01 100644
+--- a/src/filemetadataprovider.cpp
++++ b/src/filemetadataprovider.cpp
+@@ -152,6 +152,7 @@ void FileMetaDataProvider::insertSingleFileBasicData()
+     if (m_fileItems.count() == 1) {
+       const KFileItem& item = m_fileItems.first();
+ 
++      KFormat format;
+       if (item.isDir()) {
+           bool isSizeUnknown = !item.isLocalFile();
+           if (!isSizeUnknown) {
+@@ -172,14 +173,16 @@ void FileMetaDataProvider::insertSingleFileBasicData()
+           }
+           else if (item.entry().contains(KIO::UDSEntry::UDS_SIZE)) {
+               isSizeUnknown = false;
+-              KFormat format;
+               m_data.insert(QStringLiteral("kfileitem#size"), format.formatByteSize(item.size()));
+           }
++          if (item.entry().contains(KIO::UDSEntry::UDS_RECURSIVE_SIZE)) {
++              isSizeUnknown = false;
++              m_data.insert(QStringLiteral("kfileitem#totalSize"), format.formatByteSize(item.recursiveSize()));
++          }
+           if (isSizeUnknown) {
+               m_data.insert(QStringLiteral("kfileitem#size"), i18nc("unknown file size", "Unknown"));
+           }
+       } else {
+-          KFormat format;
+           m_data.insert(QStringLiteral("kfileitem#size"), format.formatByteSize(item.size()));
+       }
+ 
+-- 
+cgit v1.1
+
