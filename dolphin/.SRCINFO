@@ -1,0 +1,42 @@
+pkgbase = dolphin
+	pkgdesc = KDE File Manager
+	pkgver = 20.03.90
+	pkgrel = 2.1
+	url = https://kde.org/applications/system/dolphin/
+	arch = x86_64
+	groups = kde-applications
+	groups = kdebase
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = kdoctools
+	depends = baloo-widgets
+	depends = knewstuff
+	depends = kio-extras
+	depends = kcmutils
+	depends = kparts
+	depends = kinit
+	depends = phonon-qt5
+	optdepends = kde-cli-tools: for editing file type options
+	optdepends = ffmpegthumbs: video thumbnails
+	optdepends = kdegraphics-thumbnailers: PDF and PS thumbnails
+	optdepends = konsole: terminal panel
+	optdepends = purpose: share context menu
+	source = https://download.kde.org/unstable/release-service/20.03.90/src/dolphin-20.03.90.tar.xz
+	source = https://download.kde.org/unstable/release-service/20.03.90/src/dolphin-20.03.90.tar.xz.sig
+	source = dolphin-revert-qt5.15-port.patch::https://cgit.kde.org/dolphin.git/patch/?id=d868568d
+	source = kdebug-419938.patch::https://cgit.kde.org/dolphin.git/patch/?id=a995a80302a91595e5ce9b6798e3859da3cf6dc2
+	source = kdebug-406624.patch::https://cgit.kde.org/dolphin.git/patch/?id=8de24d5802f8b1806ac26ad270e81cff1cae2111
+	source = kdebug-419585.patch::https://cgit.kde.org/dolphin.git/patch/?id=35b4c6d4df1281afd621374e686f19e654ad7bae
+	source = kdebug-419070.patch::https://cgit.kde.org/dolphin.git/patch/?id=9b82b08fb18724662c69ed288b1a36a215548539
+	validpgpkeys = CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7
+	validpgpkeys = F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87
+	sha256sums = 444afb9d1164ea1314cf56dc6b7b65704316cefb5afcff073e9dde60edd3a3dc
+	sha256sums = SKIP
+	sha256sums = 538682e8c2d4786680e26f593fbc2108d60d3d1e41f7360ddbec64bce79791ab
+	sha256sums = 6801d54d93a749b449858272778bd1e4ca63ca1b969dd140600ce6670d5ab24e
+	sha256sums = 996001bfae43d848480d31b01d87011e3db4fcc37b8725469cbdd2368475b596
+	sha256sums = da74a881d092c67a7c6cf63f06facac8037640f139b1520efd5bea97f49b8d65
+	sha256sums = 63efec41a1d9c44af2dec7dfe89b15971cbb70b7d20acb31a4169cf72e07c646
+
+pkgname = dolphin
+
