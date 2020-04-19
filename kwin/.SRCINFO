@@ -1,7 +1,7 @@
 pkgbase = kwin
 	pkgdesc = An easy to use, but flexible, composited Window Manager
 	pkgver = 5.18.4.1
-	pkgrel = 5.1
+	pkgrel = 5.2
 	url = https://www.kde.org/workspaces/plasmadesktop/
 	install = kwin.install
 	arch = x86_64
@@ -30,6 +30,7 @@ pkgbase = kwin
 	source = fix-build.patch::https://cgit.kde.org/kwin.git/patch/?id=9f183642ca8ab48d8481899bb56e5c5082896451
 	source = fix-compilation-error.patch::https://cgit.kde.org/kwin.git/patch/?id=6dc938907f70e6000994a9ced8387da52ee551a6
 	source = kdebug-403843.patch::https://cgit.kde.org/kwin.git/patch/?id=564c739371c8076728c264154847316c64e4c1ec
+	source = kdebug-420077.patch::https://cgit.kde.org/kwin.git/patch/?id=e8a1f8ecccb548af2f80b2619669da9dc135f175
 	validpgpkeys = 2D1D5B0588357787DE9EE225EC94D18F7F05997E
 	validpgpkeys = 0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D
 	validpgpkeys = D07BD8662C56CB291B316EB2F5675605C74E02CF
@@ -45,6 +46,7 @@ pkgbase = kwin
 	sha256sums = 6a961b93b377eb1e1184684403df855e4ad017a2d1187c87495cc22f7d2cdde2
 	sha256sums = 0519ee1bf3b0f41e266c6e73dd36c25c3b9bf7147d1fcbe3185d586d8cb4e6c5
 	sha256sums = 9b02ff12601c6606973bfe878155d346f5426039fd9ca0a134d18711df1fe95b
+	sha256sums = 7485f6b08223a2f9bef89ee05fc2925c41ca8b08f59786e6e4065b8066674f0a
 
 pkgname = kwin
 
