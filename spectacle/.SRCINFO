@@ -1,0 +1,29 @@
+pkgbase = spectacle
+	pkgdesc = KDE screenshot capture utility
+	pkgver = 20.03.90
+	pkgrel = 1.1
+	url = https://kde.org/applications/utilities/org.kde.spectacle
+	arch = x86_64
+	groups = kde-applications
+	groups = kdegraphics
+	license = GPL
+	makedepends = extra-cmake-modules
+	makedepends = kdoctools
+	depends = xcb-util-cursor
+	depends = libkipi
+	depends = purpose
+	depends = knewstuff
+	depends = kwayland
+	depends = qt5-tools
+	optdepends = kipi-plugins: export to various online services
+	source = https://download.kde.org/unstable/release-service/20.03.90/src/spectacle-20.03.90.tar.xz
+	source = https://download.kde.org/unstable/release-service/20.03.90/src/spectacle-20.03.90.tar.xz.sig
+	source = kdebug-417722.patch::https://cgit.kde.org/spectacle.git/patch/?id=464dde9677f4270c5d2ecfddf45c192a33493efe
+	validpgpkeys = CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7
+	validpgpkeys = F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87
+	sha256sums = 7177275eff054dc754f4e1a07863fb59bf08d0fcc31311f403702ee8460cfb54
+	sha256sums = SKIP
+	sha256sums = 35170580e3713de21716256b8dfe153441d2ea690814f21338f72430a09b421e
+
+pkgname = spectacle
+

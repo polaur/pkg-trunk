@@ -1,0 +1,43 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# only for version with bugfixes from upcomming releases
+# based on the original work by:
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+
+pkgname=spectacle
+pkgver=20.03.90
+pkgrel=1.1
+pkgdesc="KDE screenshot capture utility"
+arch=(x86_64)
+url='https://kde.org/applications/utilities/org.kde.spectacle'
+license=(GPL)
+depends=(xcb-util-cursor libkipi purpose knewstuff kwayland qt5-tools)
+makedepends=(extra-cmake-modules kdoctools)
+optdepends=('kipi-plugins: export to various online services')
+groups=(kde-applications kdegraphics)
+source=("https://download.kde.org/unstable/release-service/$pkgver/src/$pkgname-$pkgver.tar.xz"{,.sig}
+kdebug-417722.patch::"https://cgit.kde.org/spectacle.git/patch/?id=464dde9677f4270c5d2ecfddf45c192a33493efe")
+sha256sums=('7177275eff054dc754f4e1a07863fb59bf08d0fcc31311f403702ee8460cfb54'
+            'SKIP'
+            '35170580e3713de21716256b8dfe153441d2ea690814f21338f72430a09b421e')
+validpgpkeys=(CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7  # Albert Astals Cid <aacid@kde.org>
+              F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87) # Christoph Feck <cfeck@kde.org>
+
+prepare() {
+  mkdir -p build
+  
+  msg "Add kdebug 417722 patch; fix in 20.04.0"
+  patch -d $pkgname-$pkgver -p1 -i $srcdir/kdebug-417722.patch
+}
+
+build() {
+  cd build
+  cmake ../$pkgname-$pkgver \
+   -DBUILD_TESTING=OFF
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}
+
