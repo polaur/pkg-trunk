@@ -1,6 +1,6 @@
 pkgbase = digikam
 	pkgdesc = An advanced digital photo management application
-	pkgver = 7.0.0_beta2
+	pkgver = 7.0.0_beta3
 	pkgrel = 5
 	url = https://www.digikam.org/
 	arch = x86_64
@@ -12,6 +12,7 @@ pkgbase = digikam
 	makedepends = kdoctools
 	makedepends = libkvkontakte
 	makedepends = xorgproto
+	makedepends = graphviz
 	depends = lensfun
 	depends = opencv
 	depends = akonadi-contacts
@@ -30,11 +31,13 @@ pkgbase = digikam
 	optdepends = libkvkontakte: VKontakte plugin
 	optdepends = rawtherapee: RAW import
 	optdepends = darktable: RAW import
-	source = https://download.kde.org/unstable/digikam/digikam-7.0.0-beta2.tar.xz
-	source = https://download.kde.org/unstable/digikam/digikam-7.0.0-beta2.tar.xz.sig
+	source = https://download.kde.org/unstable/digikam/digikam-7.0.0-beta3.tar.xz
+	source = https://download.kde.org/unstable/digikam/digikam-7.0.0-beta3.tar.xz.sig
+	source = digikam-opencv-4.2.patch
 	validpgpkeys = D1CF2444A7858C5F2FB095B74A77747BC2386E50
-	sha256sums = 62420d3ef7cd5af0075c8f69f2d078927952c2e279b0aa642025389d13aeb59d
+	sha256sums = 97b2f768674afaaca6feb6e661d5c8fc6b88b08f4d4bbab8a6bcc94c19914893
 	sha256sums = SKIP
+	sha256sums = fcd9a18dee3b4d009ec7256207d1b6645d2e2aa918b5cf9f9dc9b44db41f6a7b
 
 pkgname = digikam
 
