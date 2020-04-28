@@ -1,0 +1,77 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# only for 7.0.0 beta version with additional patches 
+# made upon a original works by:
+# Maintainer: Ronald van Haren <ronald@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+# Contributor: Tobias Powalowski <tpowa@archlinux.org>
+
+pkgname=digikam
+_pkgver=7.0.0-beta3
+pkgver=${_pkgver//-/_} # for beta versions
+pkgrel=2
+pkgdesc="An advanced digital photo management application"
+arch=(x86_64)
+license=(GPL)
+url="https://www.digikam.org/"
+depends=(lensfun opencv akonadi-contacts knotifyconfig libksane kfilemetadata qtav marble-common threadweaver kcalendarcore
+         qt5-xmlpatterns imagemagick glu)
+makedepends=(extra-cmake-modules doxygen eigen boost kdoctools libkvkontakte xorgproto graphviz)
+optdepends=('hugin: panorama tool' 'qt5-imageformats: support for additional image formats (WEBP, TIFF)'
+            'libkvkontakte: VKontakte plugin'
+            'rawtherapee: RAW import' 'darktable: RAW import')
+source=("https://download.kde.org/unstable/$pkgname/$pkgname-$_pkgver.tar.xz"{,.sig}
+#digikam-opencv-4.2.patch
+
+kdebug-417737.patch::"https://cgit.kde.org/digikam.git/patch/?id=977fee83cf0da275c708908f3ebef5a7cd848f5f"
+kdebug-420430.patch::"https://cgit.kde.org/digikam.git/patch/?id=73e05f19829382f9f7e7252590a1ae3b006802d7"
+#kdebug-420400.patch::"https://cgit.kde.org/digikam.git/patch/?id=2c19b6daffbeaa7dc35eaa989d50410474b3b60e"
+kdebug-420634.patch::"https://cgit.kde.org/digikam.git/patch/?id=4af4a6e6ec07a8c1de8747f9f84bec88d72f77a7"
+
+"https://raw.githubusercontent.com/OpenMandrivaAssociation/digikam/master/digikam-7.0.0-qt-5.15.patch"
+
+#"https://raw.githubusercontent.com/OpenMandrivaAssociation/digikam/master/digikam-5.7.0-glibc_powf64.patch"
+)
+
+sha256sums=('97b2f768674afaaca6feb6e661d5c8fc6b88b08f4d4bbab8a6bcc94c19914893'
+            'SKIP'
+            '56a144ee15924dc515f75d95a77f0794f8d7f684c9f772d66933d63118a746da'
+            'a25de1ffa7b2bf1136161788a7f7ca20cdf3f408f74e4b9ed6cd71f078d2584a'
+            '23e8de2ab65f00042a366f96b5e1bf5d30be616e6460fc00f7902ea836061561'
+            '40b7592463c2f6aa9472e1150818fd05874cbd6fafc836c944c5c26ccdde610c')
+validpgpkeys=(D1CF2444A7858C5F2FB095B74A77747BC2386E50) # digiKam.org (digiKam project) <digikamdeveloper@gmail.com>
+
+prepare() {
+  mkdir -p build
+
+  msg "1"
+  patch -d $pkgname-$_pkgver -p1 -i $srcdir/digikam-7.0.0-qt-5.15.patch
+    msg "5"
+#    patch -d $pkgname-$_pkgver -p1 -i $srcdir/kdebug-417737.patch
+    msg "6"
+#    patch -d $pkgname-$_pkgver -p1 -i $srcdir/kdebug-420430.patch
+#    msg "7"
+#    patch -d $pkgname-$_pkgver -p1 -i $srcdir/kdebug-420400.patch
+    msg "8"
+#    patch -d $pkgname-$_pkgver -p1 -i $srcdir/kdebug-420634.patch
+  }
+
+build() {
+  cd build
+
+  cmake ../$pkgname-$_pkgver \
+    -DBUILD_TESTING=OFF \
+    -DENABLE_KFILEMETADATASUPPORT=ON \
+    -DENABLE_MEDIAPLAYER=ON \
+    -DENABLE_AKONADICONTACTSUPPORT=ON \
+    -DENABLE_MYSQLSUPPORT=ON \
+    -DENABLE_APPSTYLES=ON \
+    -DENABLE_QWEBENGINE=ON \
+    -DOpenGL_GL_PREFERENCE=GLVND
+  make 
+  }
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}

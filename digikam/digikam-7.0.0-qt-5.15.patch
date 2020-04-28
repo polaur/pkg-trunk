@@ -1,0 +1,33 @@
+diff -up digikam-7.0.0-beta2/core/dplugins/generic/view/presentation/opengl/presentationgl.cpp.omv~ digikam-7.0.0-beta2/core/dplugins/generic/view/presentation/opengl/presentationgl.cpp
+--- digikam-7.0.0-beta2/core/dplugins/generic/view/presentation/opengl/presentationgl.cpp.omv~	2020-03-27 10:06:55.808105240 +0100
++++ digikam-7.0.0-beta2/core/dplugins/generic/view/presentation/opengl/presentationgl.cpp	2020-03-27 10:07:03.408137077 +0100
+@@ -44,6 +44,7 @@
+ #include <QMatrix>
+ #include <QMouseEvent>
+ #include <QPainter>
++#include <QPainterPath>
+ #include <QPixmap>
+ #include <QTimer>
+ #include <QWheelEvent>
+diff -up digikam-7.0.0-beta2/core/libs/dimg/filters/curves/curveswidget.cpp.omv~ digikam-7.0.0-beta2/core/libs/dimg/filters/curves/curveswidget.cpp
+--- digikam-7.0.0-beta2/core/libs/dimg/filters/curves/curveswidget.cpp.omv~	2020-03-27 09:26:56.320508444 +0100
++++ digikam-7.0.0-beta2/core/libs/dimg/filters/curves/curveswidget.cpp	2020-03-27 09:27:03.405561761 +0100
+@@ -32,6 +32,7 @@
+ 
+ #include <QPixmap>
+ #include <QPainter>
++#include <QPainterPath>
+ #include <QPoint>
+ #include <QPen>
+ #include <QEvent>
+diff -up digikam-7.0.0-beta2/core/libs/dimg/filters/levels/histogrampainter.cpp.omv~ digikam-7.0.0-beta2/core/libs/dimg/filters/levels/histogrampainter.cpp
+--- digikam-7.0.0-beta2/core/libs/dimg/filters/levels/histogrampainter.cpp.omv~	2020-03-27 08:56:13.022293611 +0100
++++ digikam-7.0.0-beta2/core/libs/dimg/filters/levels/histogrampainter.cpp	2020-03-27 08:56:17.778321391 +0100
+@@ -30,6 +30,7 @@
+ // Qt includes
+ 
+ #include <QPainter>
++#include <QPainterPath>
+ 
+ // KDE includes
+ 

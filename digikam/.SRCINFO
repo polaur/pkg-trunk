@@ -1,0 +1,49 @@
+pkgbase = digikam
+	pkgdesc = An advanced digital photo management application
+	pkgver = 7.0.0_beta3
+	pkgrel = 2
+	url = https://www.digikam.org/
+	arch = x86_64
+	license = GPL
+	makedepends = extra-cmake-modules
+	makedepends = doxygen
+	makedepends = eigen
+	makedepends = boost
+	makedepends = kdoctools
+	makedepends = libkvkontakte
+	makedepends = xorgproto
+	makedepends = graphviz
+	depends = lensfun
+	depends = opencv
+	depends = akonadi-contacts
+	depends = knotifyconfig
+	depends = libksane
+	depends = kfilemetadata
+	depends = qtav
+	depends = marble-common
+	depends = threadweaver
+	depends = kcalendarcore
+	depends = qt5-xmlpatterns
+	depends = imagemagick
+	depends = glu
+	optdepends = hugin: panorama tool
+	optdepends = qt5-imageformats: support for additional image formats (WEBP, TIFF)
+	optdepends = libkvkontakte: VKontakte plugin
+	optdepends = rawtherapee: RAW import
+	optdepends = darktable: RAW import
+	source = https://download.kde.org/unstable/digikam/digikam-7.0.0-beta3.tar.xz
+	source = https://download.kde.org/unstable/digikam/digikam-7.0.0-beta3.tar.xz.sig
+	source = kdebug-417737.patch::https://cgit.kde.org/digikam.git/patch/?id=977fee83cf0da275c708908f3ebef5a7cd848f5f
+	source = kdebug-420430.patch::https://cgit.kde.org/digikam.git/patch/?id=73e05f19829382f9f7e7252590a1ae3b006802d7
+	source = kdebug-420634.patch::https://cgit.kde.org/digikam.git/patch/?id=4af4a6e6ec07a8c1de8747f9f84bec88d72f77a7
+	source = https://raw.githubusercontent.com/OpenMandrivaAssociation/digikam/master/digikam-7.0.0-qt-5.15.patch
+	validpgpkeys = D1CF2444A7858C5F2FB095B74A77747BC2386E50
+	sha256sums = 97b2f768674afaaca6feb6e661d5c8fc6b88b08f4d4bbab8a6bcc94c19914893
+	sha256sums = SKIP
+	sha256sums = 56a144ee15924dc515f75d95a77f0794f8d7f684c9f772d66933d63118a746da
+	sha256sums = a25de1ffa7b2bf1136161788a7f7ca20cdf3f408f74e4b9ed6cd71f078d2584a
+	sha256sums = 23e8de2ab65f00042a366f96b5e1bf5d30be616e6460fc00f7902ea836061561
+	sha256sums = 40b7592463c2f6aa9472e1150818fd05874cbd6fafc836c944c5c26ccdde610c
+
+pkgname = digikam
+
