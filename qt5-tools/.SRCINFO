@@ -1,0 +1,36 @@
+pkgbase = qt5-tools
+	pkgdesc = A cross-platform application and UI framework (Development Tools, QtHelp)
+	pkgver = 5.15.0beta4
+	pkgrel = 1.1
+	url = https://www.qt.io
+	arch = x86_64
+	groups = qt
+	groups = qt5
+	license = GPL3
+	license = LGPL3
+	license = FDL
+	license = custom
+	makedepends = qt5-declarative
+	makedepends = vulkan-headers
+	makedepends = clang
+	makedepends = qt5-webkit
+	depends = qt5-base
+	depends = hicolor-icon-theme
+	optdepends = clang: for qdoc
+	optdepends = qt5-webkit: for Qt Assistant
+	conflicts = qtchooser
+	source = https://download.qt.io/development_releases/qt/5.15/5.15.0-beta4/submodules/qttools-everywhere-src-5.15.0-beta4.tar.xz
+	source = assistant.desktop
+	source = designer.desktop
+	source = linguist.desktop
+	source = qdbusviewer.desktop
+	source = qtbug-83913.patch::https://codereview.qt-project.org/gitweb?p=qt/qttools.git;a=patch;h=dc5fed5555d1c904753e83fd90aeecae547146ce
+	sha256sums = e9c8b166b82b153d6777b866016a6deeee50d5b34791e98e1e2d37146a6dda46
+	sha256sums = 8092d6d846e39632107b14726fa112862d800e929ef10f05f2a284dbda9b53c4
+	sha256sums = 92f3e5dc8bc416e02893c38a05287238853e0c20732df1e62d6a672744a34e7c
+	sha256sums = 15781519115e36d2c67c12ee6bc636425cd445072f43cb8bdd1364cfacbe4c45
+	sha256sums = cd94367e35f99ab85277aa95985bbde292a9cc82db2c04c4efdaed5799aa16db
+	sha256sums = c713710af5e6c2a46db5ef139672179ae47c9cbe5f3c512b97a2448fe930cd53
+
+pkgname = qt5-tools
+

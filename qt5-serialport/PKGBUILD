@@ -1,0 +1,45 @@
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=qt5-serialport
+_qtver=5.15.0-beta4
+pkgver=${_qtver/-/}
+pkgrel=1.1
+arch=('x86_64')
+url='https://www.qt.io'
+license=('GPL3' 'LGPL3' 'FDL' 'custom')
+pkgdesc='Provides access to hardware and virtual serial ports'
+depends=('qt5-base')
+makedepends=()
+groups=('qt' 'qt5')
+_pkgfqn="${pkgname/5-/}-everywhere-src-${_qtver}"
+source=("https://download.qt.io/development_releases/qt/${pkgver%.*}/${_qtver}/submodules/${_pkgfqn}.tar.xz"
+qtbug-80930.patch::"https://codereview.qt-project.org/gitweb?p=qt/qtserialport.git;a=patch;h=c24fd46221b98eb2e9248765ae32c0fccbebcd35")
+sha256sums=('fb517f865f87df63fbfd658cc88defa559bb26c33ef91fd9562f47f4d6c56e76'
+            'fbd3f084ee7c47e64a845be2261c69759fcb8bab6ddf2eaf38d88db0044c9327')
+
+prepare() {
+  mkdir -p build
+  
+  cd $_pkgfqn
+  patch -p1 -i ../qtbug-80930.patch
+}
+
+build() {
+  cd build
+
+  qmake ../${_pkgfqn}
+  make
+}
+
+package() {
+  cd build
+  make INSTALL_ROOT="$pkgdir" install
+
+  # Drop QMAKE_PRL_BUILD_DIR because reference the build dir
+  find "$pkgdir/usr/lib" -type f -name '*.prl' \
+    -exec sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' {} \;
+
+  install -d "$pkgdir"/usr/share/licenses
+  ln -s /usr/share/licenses/qt5-base "$pkgdir"/usr/share/licenses/${pkgname}
+}

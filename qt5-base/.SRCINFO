@@ -1,0 +1,90 @@
+pkgbase = qt5-base
+	pkgdesc = A cross-platform application and UI framework
+	pkgver = 5.15.0beta4
+	pkgrel = 2.1
+	url = https://www.qt.io
+	arch = x86_64
+	groups = qt
+	groups = qt5
+	license = GPL3
+	license = LGPL3
+	license = FDL
+	license = custom
+	makedepends = libfbclient
+	makedepends = mariadb-libs
+	makedepends = sqlite
+	makedepends = unixodbc
+	makedepends = postgresql-libs
+	makedepends = alsa-lib
+	makedepends = gst-plugins-base-libs
+	makedepends = gtk3
+	makedepends = libpulse
+	makedepends = cups
+	makedepends = freetds
+	makedepends = vulkan-headers
+	depends = libjpeg-turbo
+	depends = xcb-util-keysyms
+	depends = xcb-util-renderutil
+	depends = libgl
+	depends = fontconfig
+	depends = xdg-utils
+	depends = shared-mime-info
+	depends = xcb-util-wm
+	depends = libxrender
+	depends = libxi
+	depends = sqlite
+	depends = xcb-util-image
+	depends = mesa
+	depends = tslib
+	depends = libinput
+	depends = libxkbcommon-x11
+	depends = libproxy
+	depends = libcups
+	depends = double-conversion
+	depends = md4c
+	optdepends = qt5-svg: to use SVG icon themes
+	optdepends = qt5-wayland: to run Qt applications in a Wayland session
+	optdepends = qt5-translations: for some native UI translations
+	optdepends = postgresql-libs: PostgreSQL driver
+	optdepends = mariadb-libs: MariaDB driver
+	optdepends = unixodbc: ODBC driver
+	optdepends = libfbclient: Firebird/iBase driver
+	optdepends = freetds: MS SQL driver
+	optdepends = gtk3: GTK platform plugin
+	optdepends = perl: for fixqt4headers and syncqt
+	conflicts = qtchooser
+	source = https://download.qt.io/development_releases/qt/5.15/5.15.0-beta4/submodules/qtbase-everywhere-src-5.15.0-beta4.tar.xz
+	source = qt5-base-cflags.patch
+	source = qtbug-83205.patch::https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=90012f12b0fd7a6f9d2554fb2027e5f8c08d95ee
+	source = qtbug-79926.patch::https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=f0ea852d4dd6b3139869a952ee92e74cd367866d
+	source = qtbug-83695.patch::https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=9e83d268d6e0bd492fafad823a47cef57b7916c5
+	source = qtbug-83777.patch::https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=41387bb330bb694f7e423f180bdbf88c7200985b
+	source = qtbug-83659.patch::https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=6c45b1817f1f56207dae8aa028b9cbb922dc8008
+	source = qtbug-83652.patch::https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=7d95572211fdf0a88c01bbddd1987b6dd9c7a26a
+	source = qtbug-83293.patch::https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=c034089fa697e6dc22f04b3209768a9dc1abcb9c
+	source = qtbug-83075.patch::https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=76054516047d8efb8529443830bb4d9ddf01010f
+	source = qtbug-82871.patch::https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=c81a339866acfd084068e166b53850e8adfb125c
+	source = qtbug-80603.patch::https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=0fcd782bd3690867f19420270bcc329325f04424
+	sha256sums = 77c59eb2de03f63ae98c0394db8f4574c97e53c50033b004e78971e3c0a891ee
+	sha256sums = cf707cd970650f8b60f8897692b36708ded9ba116723ec8fcd885576783fe85c
+	sha256sums = f85e72e6dc746ce08000d958533f178a59c63dd41887bf45878241622133bbc2
+	sha256sums = a52edd3257fade6feae97f1660fa9e89836635d4380e3a4d1f4022422aa6b4d4
+	sha256sums = 441d8acdc0a5e09bf76e0a207679110f8e8d8b68de42833da7e3a9dc2c2a55b5
+	sha256sums = c5bfbd2ab471bd4d5c6c293255f9ff6f1dfdccdb0df0449a4c56d1dc653c106f
+	sha256sums = 652e1557e8b798bbd540048d9c1d99bffb847d7eb01a368781b33b08c49ab383
+	sha256sums = 6c476b82c05657b656989e8657e062588689aea79e9f16d4ae69665ce21d78da
+	sha256sums = 7976395c1a090e3ddc0bb0ef44d029385d58a4b81871651e4bce815a59bbebd9
+	sha256sums = 8ecb5fb81befd4863e7e0903493df54e0e86b8c528336a25d802c78b2fb41fe7
+	sha256sums = 418d80c48951b67b9098a079cae1d59425fdffb7c2e1468bc283bd1f0ccecde1
+	sha256sums = 8ac609501eb75a6964507bc3fe166083e64cfcb16e0b2fd05c7ee7b266c07b53
+
+pkgname = qt5-base
+	pkgdesc = A cross-platform application and UI framework
+
+pkgname = qt5-xcb-private-headers
+	pkgdesc = Private headers for Qt5 Xcb
+	groups = 
+	depends = qt5-base=5.15.0beta4
+	optdepends = 
+	conflicts = 
+

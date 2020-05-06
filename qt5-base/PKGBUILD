@@ -1,0 +1,131 @@
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgbase=qt5-base
+pkgname=(qt5-base qt5-xcb-private-headers)
+_qtver=5.15.0-beta4
+pkgver=${_qtver/-/}
+pkgrel=2.1
+arch=('x86_64')
+url='https://www.qt.io'
+license=('GPL3' 'LGPL3' 'FDL' 'custom')
+pkgdesc='A cross-platform application and UI framework'
+depends=('libjpeg-turbo' 'xcb-util-keysyms' 'xcb-util-renderutil' 'libgl' 'fontconfig' 'xdg-utils'
+         'shared-mime-info' 'xcb-util-wm' 'libxrender' 'libxi' 'sqlite' 'xcb-util-image' 'mesa'
+         'tslib' 'libinput' 'libxkbcommon-x11' 'libproxy' 'libcups' 'double-conversion' 'md4c')
+makedepends=('libfbclient' 'mariadb-libs' 'sqlite' 'unixodbc' 'postgresql-libs' 'alsa-lib' 'gst-plugins-base-libs'
+             'gtk3' 'libpulse' 'cups' 'freetds' 'vulkan-headers')
+optdepends=('qt5-svg: to use SVG icon themes'
+            'qt5-wayland: to run Qt applications in a Wayland session'
+            'qt5-translations: for some native UI translations'
+            'postgresql-libs: PostgreSQL driver'
+            'mariadb-libs: MariaDB driver'
+            'unixodbc: ODBC driver'
+            'libfbclient: Firebird/iBase driver'
+            'freetds: MS SQL driver'
+            'gtk3: GTK platform plugin'
+            'perl: for fixqt4headers and syncqt')
+conflicts=('qtchooser')
+groups=('qt' 'qt5')
+_pkgfqn="${pkgbase/5-/}-everywhere-src-${_qtver}"
+source=("https://download.qt.io/development_releases/qt/${pkgver%.*}/${_qtver}/submodules/${_pkgfqn}.tar.xz"
+         qt5-base-cflags.patch
+         qtbug-83205.patch::"https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=90012f12b0fd7a6f9d2554fb2027e5f8c08d95ee"
+         qtbug-79926.patch::"https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=f0ea852d4dd6b3139869a952ee92e74cd367866d"
+         qtbug-83695.patch::"https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=9e83d268d6e0bd492fafad823a47cef57b7916c5"
+         qtbug-83777.patch::"https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=41387bb330bb694f7e423f180bdbf88c7200985b"
+         qtbug-83659.patch::"https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=6c45b1817f1f56207dae8aa028b9cbb922dc8008"
+         qtbug-83652.patch::"https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=7d95572211fdf0a88c01bbddd1987b6dd9c7a26a"
+         qtbug-83293.patch::"https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=c034089fa697e6dc22f04b3209768a9dc1abcb9c"
+         qtbug-83075.patch::"https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=76054516047d8efb8529443830bb4d9ddf01010f"
+         qtbug-82871.patch::"https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=c81a339866acfd084068e166b53850e8adfb125c"
+         qtbug-80603.patch::"https://codereview.qt-project.org/gitweb?p=qt/qtbase.git;a=patch;h=0fcd782bd3690867f19420270bcc329325f04424")
+sha256sums=('77c59eb2de03f63ae98c0394db8f4574c97e53c50033b004e78971e3c0a891ee'
+            'cf707cd970650f8b60f8897692b36708ded9ba116723ec8fcd885576783fe85c'
+            'f85e72e6dc746ce08000d958533f178a59c63dd41887bf45878241622133bbc2'
+            'a52edd3257fade6feae97f1660fa9e89836635d4380e3a4d1f4022422aa6b4d4'
+            '441d8acdc0a5e09bf76e0a207679110f8e8d8b68de42833da7e3a9dc2c2a55b5'
+            'c5bfbd2ab471bd4d5c6c293255f9ff6f1dfdccdb0df0449a4c56d1dc653c106f'
+            '652e1557e8b798bbd540048d9c1d99bffb847d7eb01a368781b33b08c49ab383'
+            '6c476b82c05657b656989e8657e062588689aea79e9f16d4ae69665ce21d78da'
+            '7976395c1a090e3ddc0bb0ef44d029385d58a4b81871651e4bce815a59bbebd9'
+            '8ecb5fb81befd4863e7e0903493df54e0e86b8c528336a25d802c78b2fb41fe7'
+            '418d80c48951b67b9098a079cae1d59425fdffb7c2e1468bc283bd1f0ccecde1'
+            '8ac609501eb75a6964507bc3fe166083e64cfcb16e0b2fd05c7ee7b266c07b53')
+
+prepare() {
+  cd ${_pkgfqn}
+
+  patch -p1 -i ../qt5-base-cflags.patch # Use system CFLAGS
+  
+  patch -p1 -i ../qtbug-83205.patch
+  patch -p1 -i ../qtbug-79926.patch
+  patch -p1 -i ../qtbug-83695.patch
+  patch -p1 -i ../qtbug-83777.patch
+  patch -p1 -i ../qtbug-83659.patch
+  patch -p1 -i ../qtbug-83652.patch
+  # patch -p1 -i ../qtbug-83293.patch
+  patch -p1 -i ../qtbug-83075.patch
+#  patch -p1 -i ../qtbug-82871.patch
+  patch -p1 -i ../qtbug-80603.patch
+}
+
+build() {
+  cd ${_pkgfqn}
+
+  ./configure -confirm-license -opensource -v \
+    -prefix /usr \
+    -docdir /usr/share/doc/qt \
+    -headerdir /usr/include/qt \
+    -archdatadir /usr/lib/qt \
+    -datadir /usr/share/qt \
+    -sysconfdir /etc/xdg \
+    -examplesdir /usr/share/doc/qt/examples \
+    -plugin-sql-{psql,mysql,sqlite,odbc,ibase} \
+    -system-sqlite \
+    -openssl-linked \
+    -nomake examples \
+    -no-rpath \
+    -dbus-linked \
+    -system-harfbuzz \
+    -journald \
+    -no-mimetype-database \
+    -no-use-gold-linker \
+    -reduce-relocations
+  make
+}
+
+package_qt5-base() {
+  pkgdesc='A cross-platform application and UI framework'
+
+  cd ${_pkgfqn}
+  make INSTALL_ROOT="${pkgdir}" install
+
+  install -Dm644 LICENSE* -t "$pkgdir"/usr/share/licenses/$pkgbase
+
+  # Drop QMAKE_PRL_BUILD_DIR because reference the build dir
+  find "${pkgdir}/usr/lib" -type f -name '*.prl' \
+    -exec sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' {} \;
+
+  # Fix wrong qmake path in pri file
+  sed -i "s|${srcdir}/${_pkgfqn}|/usr|" \
+    "${pkgdir}"/usr/lib/qt/mkspecs/modules/qt_lib_bootstrap_private.pri
+
+  # Symlinks for backwards compatibility
+  for b in "${pkgdir}"/usr/bin/*; do
+    ln -s $(basename $b) "${pkgdir}"/usr/bin/$(basename $b)-qt5
+  done
+}
+
+package_qt5-xcb-private-headers() {
+  pkgdesc='Private headers for Qt5 Xcb'
+
+  depends=("qt5-base=$pkgver")
+  optdepends=()
+  groups=()
+  conflicts=()
+
+  cd ${_pkgfqn}
+  install -d -m755 "$pkgdir"/usr/include/qtxcb-private
+  cp -r src/plugins/platforms/xcb/*.h "$pkgdir"/usr/include/qtxcb-private/
+}

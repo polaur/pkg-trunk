@@ -1,0 +1,56 @@
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=qt5-quick3d
+_qtver=5.15.0-beta4
+pkgver=${_qtver/-/}
+pkgrel=1.1
+arch=('x86_64')
+url='https://www.qt.io'
+license=('GPL3' 'LGPL3' 'FDL' 'custom')
+pkgdesc='Qt module and API for defining 3D content in Qt Quick'
+depends=('qt5-declarative')
+makedepends=('assimp')
+optdepends=('assimp: Import from assimp')
+groups=('qt' 'qt5')
+_pkgfqn="${pkgname/5-/}-everywhere-src-${_qtver}"
+source=("https://download.qt.io/development_releases/qt/${pkgver%.*}/${_qtver}/submodules/${_pkgfqn}.tar.xz"
+qtbug-82465.patch::"https://codereview.qt-project.org/gitweb?p=qt/qtquick3d.git;a=patch;h=2c425cf308188a0b3fc3f288ee71934a4ed4da40"
+qtbug-82152.patch::"https://codereview.qt-project.org/gitweb?p=qt/qt3d.git;a=patch;h=b769deaf57645f533cccb352722ea7b79475a2ea"
+qtbug-83247.patch::"https://codereview.qt-project.org/gitweb?p=qt/qtquick3d.git;a=patch;h=ba9d56b6d89fc70ea4eb331a8e6b1fde242fd68a"
+qtbug-83620.patch::"https://codereview.qt-project.org/gitweb?p=qt/qtquick3d.git;a=patch;h=c6c16c0ba599e7d23410c505b9d97abeb0946c57"
+)
+sha256sums=('99d7775cae8e3ffff1ad3f068403936b68f88eebdee342ab2e5480baa628f79f'
+            '00369ab7a1d218238ba404189c1eb27dfea957fafe84f7a0c086abb21eaf208f'
+            '46b2bf119117d624bfa7068df48137986018c697e989814d0c5eb26a5843e3c9'
+            '04806dc94188d1645d08370baf713451845f205660bcb77d0e65064cbbeb85fe'
+            '45fc998d7b85b8bf0aaee7d32c0e94d1b39b6c59bbc08a68af8eb65d35bed211')
+
+prepare() {
+  mkdir -p build
+  
+  cd $_pkgfqn
+  patch -p1 -i ../qtbug-82465.patch
+#  patch -p1 -i ../qtbug-82152.patch
+  patch -p1 -i ../qtbug-83247.patch
+  patch -p1 -i ../qtbug-83620.patch
+}
+
+build() {
+  cd build
+
+  qmake ../${_pkgfqn}
+  make
+}
+
+package() {
+  cd build
+  make INSTALL_ROOT="$pkgdir" install
+
+  # Drop QMAKE_PRL_BUILD_DIR because reference the build dir
+  find "$pkgdir/usr/lib" -type f -name '*.prl' \
+    -exec sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' {} \;
+
+  install -d "$pkgdir"/usr/share/licenses
+  ln -s /usr/share/licenses/qt5-base "$pkgdir"/usr/share/licenses/${pkgname}
+}
