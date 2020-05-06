@@ -1,0 +1,20 @@
+pkgbase = oxygen-icons
+	pkgdesc = The Oxygen Icon Theme
+	pkgver = 5.70.0
+	pkgrel = 0
+	epoch = 1
+	url = https://community.kde.org/Frameworks
+	arch = any
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = qt5-base
+	makedepends = git
+	source = git+https://anongit.kde.org/oxygen-icons5.git#tag=v5.70.0-rc1
+	sha256sums = SKIP
+
+pkgname = oxygen-icons
+	groups = kf5
+
+pkgname = oxygen-icons-svg
+	pkgdesc = The Oxygen Icon Theme (Scalable Vector Graphics)
+

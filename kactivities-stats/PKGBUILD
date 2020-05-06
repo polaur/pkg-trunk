@@ -1,0 +1,36 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# based on PKGBUILD wrote by:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=kactivities-stats
+_rcver=rc1
+pkgver=5.70.0
+pkgrel=0
+arch=(x86_64)
+pkgdesc="A library for accessing the usage data collected by the activities system"
+url='https://community.kde.org/Frameworks'
+license=(LGPL)
+depends=(kactivities)
+makedepends=(git extra-cmake-modules boost doxygen qt5-tools qt5-doc)
+groups=(kf5)
+source=("git+https://anongit.kde.org/$pkgname.git#tag=v${pkgver}-$_rcver")
+sha256sums=('SKIP')
+
+prepare() {
+  mkdir -p build
+}
+
+build() {
+  cd build
+  cmake ../$pkgname \
+    -DBUILD_TESTING=OFF \
+    -DBUILD_QCH=ON
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}

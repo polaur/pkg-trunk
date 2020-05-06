@@ -1,0 +1,40 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# based on PKGBUILD wrote by:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=solid
+_rcver=rc1
+pkgver=5.70.0
+pkgrel=0
+pkgdesc='Hardware integration and detection'
+arch=(x86_64)
+url='https://community.kde.org/Frameworks'
+license=(LGPL)
+depends=(qt5-base media-player-info upower udisks2)
+makedepends=(git extra-cmake-modules qt5-tools qt5-doc doxygen qt5-declarative)
+optdepends=('qt5-declarative: QML bindings')
+groups=(kf5)
+source=("git+https://anongit.kde.org/$pkgname.git#tag=v${pkgver}-$_rcver")
+sha256sums=('SKIP')
+
+prepare() {
+  mkdir -p build
+}
+
+build() {
+  cd build
+  cmake ../$pkgname \
+    -DBUILD_TESTING=OFF \
+    -DBUILD_QCH=ON \
+    -DWITH_NEW_POWER_ASYNC_API=ON \
+    -DWITH_NEW_POWER_ASYNC_FREEDESKTOP=ON \
+    -DWITH_NEW_SOLID_JOB=ON # https://bugs.archlinux.org/task/64093
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}

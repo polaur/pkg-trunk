@@ -1,0 +1,22 @@
+pkgbase = ktextwidgets
+	pkgdesc = Advanced text editing widgets
+	pkgver = 5.70.0
+	pkgrel = 0
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf5
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules
+	makedepends = doxygen
+	makedepends = qt5-tools
+	makedepends = qt5-doc
+	depends = kcompletion
+	depends = kconfigwidgets
+	depends = sonnet
+	depends = qt5-speech
+	source = git+https://anongit.kde.org/ktextwidgets.git#tag=v5.70.0-rc1
+	sha256sums = SKIP
+
+pkgname = ktextwidgets
+

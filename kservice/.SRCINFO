@@ -1,0 +1,23 @@
+pkgbase = kservice
+	pkgdesc = Advanced plugin and service introspection
+	pkgver = 5.70.0
+	pkgrel = 0
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf5
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules
+	makedepends = kdoctools
+	makedepends = doxygen
+	makedepends = qt5-tools
+	makedepends = qt5-doc
+	depends = ki18n
+	depends = kconfig
+	depends = kcrash
+	depends = kdbusaddons
+	source = git+https://anongit.kde.org/kservice.git#tag=v5.70.0-rc1
+	sha256sums = SKIP
+
+pkgname = kservice
+

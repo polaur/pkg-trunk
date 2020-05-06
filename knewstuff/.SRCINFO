@@ -1,0 +1,25 @@
+pkgbase = knewstuff
+	pkgdesc = Support for downloading application assets from the network
+	pkgver = 5.70.0
+	pkgrel = 0.2
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf5
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules
+	makedepends = doxygen
+	makedepends = qt5-tools
+	makedepends = qt5-doc
+	makedepends = qt5-declarative
+	depends = kio
+	optdepends = kirigami2: QML components
+	source = git+https://anongit.kde.org/knewstuff.git#tag=v5.70.0-rc1
+	source = kdebug-419959.patch::https://cgit.kde.org/knewstuff.git/patch/?id=12642a1c0174bb4f0cd3163fee9f8e66f5959c32
+	source = kdebug-416762.patch::https://cgit.kde.org/knewstuff.git/patch/?id=25d391c6f36b16a9c4f685de1e6e8d1a5d9d71b4
+	sha256sums = SKIP
+	sha256sums = a60b414fce2494f3da6bf34f9f5a051386ce84dba582ae3799a970f3228944b6
+	sha256sums = ca70d72003bf003d8cca5d1869dbb40478c7c44b18fc0e87994d46e64ec0f7d3
+
+pkgname = knewstuff
+

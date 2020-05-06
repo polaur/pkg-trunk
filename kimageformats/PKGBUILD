@@ -1,0 +1,36 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# based on PKGBUILD wrote by:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=kimageformats
+_rcver=rc1
+pkgver=5.70.0
+pkgrel=0
+pkgdesc='Image format plugins for Qt5'
+arch=(x86_64)
+url='https://community.kde.org/Frameworks'
+license=(LGPL)
+depends=(qt5-base openexr)
+makedepends=(extra-cmake-modules karchive git)
+optdepends=('karchive: plugin for Krita and OpenRaster images')
+groups=(kf5)
+source=("git+https://anongit.kde.org/$pkgname.git#tag=v${pkgver}-$_rcver")
+sha256sums=('SKIP')
+
+prepare() {
+  mkdir -p build
+}
+
+build() {
+  cd build
+  cmake ../$pkgname \
+    -DBUILD_TESTING=OFF
+  make
+}
+
+package() {
+  cd build
+  make DESTDIR="$pkgdir" install
+}

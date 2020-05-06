@@ -1,0 +1,20 @@
+pkgbase = khtml
+	pkgdesc = KHTML APIs
+	pkgver = 5.70.0
+	pkgrel = 0
+	url = https://community.kde.org/Frameworks
+	arch = x86_64
+	groups = kf5-aids
+	license = LGPL
+	makedepends = git
+	makedepends = extra-cmake-modules
+	makedepends = gperf
+	depends = giflib
+	depends = kparts
+	depends = kjs
+	depends = phonon-qt5
+	source = git+https://anongit.kde.org/khtml.git#tag=v5.70.0-rc1
+	sha256sums = SKIP
+
+pkgname = khtml
+
