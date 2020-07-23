@@ -1,0 +1,35 @@
+pkgbase = dolphin
+	pkgdesc = KDE File Manager
+	pkgver = 20.07.80
+	pkgrel = 1.1
+	url = https://kde.org/applications/system/dolphin/
+	arch = x86_64
+	groups = kde-applications
+	groups = kde-system
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = kdoctools
+	makedepends = packagekit-qt5
+	depends = baloo-widgets
+	depends = knewstuff
+	depends = kio-extras
+	depends = kcmutils
+	depends = kparts
+	depends = kinit
+	optdepends = kde-cli-tools: for editing file type options
+	optdepends = ffmpegthumbs: video thumbnails
+	optdepends = kdegraphics-thumbnailers: PDF and PS thumbnails
+	optdepends = konsole: terminal panel
+	optdepends = purpose: share context menu
+	optdepends = packagekit-qt5: service menu installer
+	source = https://download.kde.org/unstable/release-service/20.07.80/src/dolphin-20.07.80.tar.xz
+	source = https://download.kde.org/unstable/release-service/20.07.80/src/dolphin-20.07.80.tar.xz.sig
+	source = kdebug-422300.patch::https://invent.kde.org/system/dolphin/commit/ce981c3e4af725646afe6e1916c508233188091e.patch
+	validpgpkeys = CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7
+	validpgpkeys = F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87
+	sha256sums = 8ce58b42dd61fecd9f8f88440e6864ab937ec0c3dc1c0a4c6bcde0c682fd4ad7
+	sha256sums = SKIP
+	sha256sums = 86e59ca4b7d38af020ee6d2b9d9482757acf65e50ada3d3f2978560526f707a4
+
+pkgname = dolphin
+
