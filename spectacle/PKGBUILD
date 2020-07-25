@@ -2,7 +2,7 @@
 
 pkgname=spectacle
 pkgver=20.07.80
-pkgrel=1.1
+pkgrel=1.2
 pkgdesc="KDE screenshot capture utility"
 arch=(x86_64)
 url='https://kde.org/applications/utilities/org.kde.spectacle'
@@ -13,11 +13,13 @@ optdepends=('kipi-plugins: export to various online services')
 groups=(kde-applications kde-graphics)
 source=("https://download.kde.org/unstable/release-service/$pkgver/src/$pkgname-$pkgver.tar.xz"{,.sig}
 kdebug-424380.patch::"https://invent.kde.org/graphics/spectacle/commit/7f88fcb4bb4085f39b7330212efacb19c2b5bcad.patch"
-kdebug-422052.patch::"https://invent.kde.org/graphics/spectacle/-/commit/526b1e907372a04c147846aa509aa378d9f84218.patch")
+kdebug-422052.patch::"https://invent.kde.org/graphics/spectacle/-/commit/526b1e907372a04c147846aa509aa378d9f84218.patch"
+kdebug-397121.patch::"https://invent.kde.org/graphics/spectacle/commit/b9b78767a58a39b15521709dc7b95d5dd7a43bb2.patch")
 sha256sums=('4fae360914ba019f28b0616011c6854533ff5ea819de2a3ce36eb323f6151980'
             'SKIP'
             '81c3f39c5c70acf7289e4bba739444c57096e06f1a691c7db7a56483e436e601'
-            '1581f40db86f696950669b7c6aecd1d484edbdab207eb13685c81865ab4b1574')
+            '1581f40db86f696950669b7c6aecd1d484edbdab207eb13685c81865ab4b1574'
+            '78e62f23575e46bd2ced6bc5049188d653bb8c986be2217dbf01b09eb9b55bd3')
 validpgpkeys=(CA262C6C83DE4D2FB28A332A3A6A4DB839EAA6D7  # Albert Astals Cid <aacid@kde.org>
               F23275E4BF10AFC1DF6914A6DBD2CE893E2D1C87) # Christoph Feck <cfeck@kde.org>
 
@@ -26,6 +28,8 @@ prepare() {
     patch -d $pkgname-$pkgver -p1 -i ../kdebug-424380.patch
     msg "Add kdebug 422052 patch; fix in 20.12.0"
     patch -d $pkgname-$pkgver -p1 -i ../kdebug-422052.patch
+    msg "Add kdebug-397121 patch; fix in 20.08.0"
+    patch -d $pkgname-$pkgver -p1 -i ../kdebug-397121.patch
 }
     
 build() {
