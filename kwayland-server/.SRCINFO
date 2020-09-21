@@ -1,0 +1,28 @@
+pkgbase = kwayland-server
+	pkgdesc = Wayland server components built on KDE Frameworks
+	pkgver = 5.19.90
+	pkgrel = 1.1
+	url = https://kde.org/plasma-desktop
+	arch = x86_64
+	groups = plasma
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = plasma-wayland-protocols
+	makedepends = wayland-protocols
+	makedepends = kwayland
+	makedepends = doxygen
+	makedepends = qt5-tools
+	depends = qt5-base
+	source = https://download.kde.org/unstable/plasma/5.19.90/kwayland-server-5.19.90.tar.xz
+	source = https://download.kde.org/unstable/plasma/5.19.90/kwayland-server-5.19.90.tar.xz.sig
+	source = kdebug-396308.patch::https://invent.kde.org/plasma/kwayland-server/commit/49a5c156f7795f59e2c17ae635d1cf3a9b6a59a9.patch
+	validpgpkeys = 2D1D5B0588357787DE9EE225EC94D18F7F05997E
+	validpgpkeys = 0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D
+	validpgpkeys = D07BD8662C56CB291B316EB2F5675605C74E02CF
+	validpgpkeys = 1FA881591C26B276D7A5518EEAAF29B42A678C20
+	sha256sums = 5b43afa4a44e6fd2166ab070d26876bbd4979e60df08b72e0303d898a252a6aa
+	sha256sums = SKIP
+	sha256sums = fdaa6d300b7ba383fb700fe33eee4975ac43672ffdf0d98baf1d137c07eba068
+
+pkgname = kwayland-server
+
