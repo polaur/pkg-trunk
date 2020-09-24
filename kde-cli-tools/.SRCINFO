@@ -1,0 +1,28 @@
+pkgbase = kde-cli-tools
+	pkgdesc = Tools based on KDE Frameworks 5 to better interact with the system
+	pkgver = 5.19.90
+	pkgrel = 1.1
+	url = https://www.kde.org/workspaces/plasmadesktop/
+	arch = x86_64
+	groups = plasma
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = kdoctools
+	makedepends = plasma-workspace
+	depends = kdesu
+	depends = kcmutils
+	depends = kactivities
+	optdepends = plasma-workspace: for kcmshell5
+	source = https://download.kde.org/unstable/plasma/5.19.90/kde-cli-tools-5.19.90.tar.xz
+	source = https://download.kde.org/unstable/plasma/5.19.90/kde-cli-tools-5.19.90.tar.xz.sig
+	source = kdebug-426896.patch::https://invent.kde.org/plasma/kde-cli-tools/commit/b51a070911a2b93117c7333bb6a89c5d2e6ab426.patch
+	validpgpkeys = 2D1D5B0588357787DE9EE225EC94D18F7F05997E
+	validpgpkeys = 0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D
+	validpgpkeys = D07BD8662C56CB291B316EB2F5675605C74E02CF
+	validpgpkeys = 1FA881591C26B276D7A5518EEAAF29B42A678C20
+	sha256sums = 75d879b805349c7206498d43192e37db4e47c15221fc07f3c5fedd95e76a9f3a
+	sha256sums = SKIP
+	sha256sums = 1d3039ec0d85cd54de5c2eb61ac6d44b8b056b219778c646d83beb0797d9132d
+
+pkgname = kde-cli-tools
+

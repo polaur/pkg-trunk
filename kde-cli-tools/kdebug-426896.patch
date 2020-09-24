@@ -1,0 +1,33 @@
+From b51a070911a2b93117c7333bb6a89c5d2e6ab426 Mon Sep 17 00:00:00 2001
+From: David Edmundson <kde@davidedmundson.co.uk>
+Date: Wed, 23 Sep 2020 13:42:18 +0000
+Subject: [PATCH] Ignore options after positional arguments
+
+i.e `kde-inhibit ls --help`
+
+should run "ls --help" not provide the help for kdeinhibit.
+
+BUG: 426896
+
+
+(cherry picked from commit cbab4f081fdd55ed7eabedcfe5d28fb5c7296ce1)
+---
+ kdeinhibit/main.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/kdeinhibit/main.cpp b/kdeinhibit/main.cpp
+index 07ba15f..44cf8cf 100644
+--- a/kdeinhibit/main.cpp
++++ b/kdeinhibit/main.cpp
+@@ -32,7 +32,7 @@ int main(int argc, char **argv)
+     QCoreApplication app(argc, argv);
+     QCoreApplication::setApplicationName(QStringLiteral("kdeinhibit"));
+     QCommandLineParser parser;
+-
++    parser.setOptionsAfterPositionalArgumentsMode(QCommandLineParser::ParseAsPositionalArguments);
+     parser.setApplicationDescription(i18n("Inhibit various desktop functions whilst a command runs"));
+ 
+     QCommandLineOption powerOption(QStringLiteral("power"), i18n("Inhibit power management"));
+-- 
+GitLab
+
