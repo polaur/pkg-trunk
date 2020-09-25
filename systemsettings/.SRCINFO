@@ -1,0 +1,26 @@
+pkgbase = systemsettings
+	pkgdesc = KDE system manager for hardware, software, and workspaces
+	pkgver = 5.19.90
+	pkgrel = 1.1
+	url = https://www.kde.org/workspaces/plasmadesktop/
+	arch = x86_64
+	groups = plasma
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = kdoctools
+	depends = plasma-workspace
+	source = https://download.kde.org/unstable/plasma/5.19.90/systemsettings-5.19.90.tar.xz
+	source = https://download.kde.org/unstable/plasma/5.19.90/systemsettings-5.19.90.tar.xz.sig
+	source = kdebug-426731.patch::https://invent.kde.org/plasma/systemsettings/commit/9eb9aa4490680ab3ef5df998ae8eeeca8e39fd3d.patch
+	source = kdebug-426747.patch::https://invent.kde.org/plasma/systemsettings/commit/5b4df5156370feed1563e7b937d405f06d4e98ec.patch
+	validpgpkeys = 2D1D5B0588357787DE9EE225EC94D18F7F05997E
+	validpgpkeys = 0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D
+	validpgpkeys = D07BD8662C56CB291B316EB2F5675605C74E02CF
+	validpgpkeys = 1FA881591C26B276D7A5518EEAAF29B42A678C20
+	sha256sums = 2d36c805137f6308b5ae0771ba08a92b77709981152de621be43ab08b38a63ca
+	sha256sums = SKIP
+	sha256sums = a643e44ec4fecf5e1879ba5e026ab9794ecc31042add26115f0de174c8676ea0
+	sha256sums = fea51172d31b8f077e1ff914730c89b53b35418009e0a424a05164cd75706811
+
+pkgname = systemsettings
+
