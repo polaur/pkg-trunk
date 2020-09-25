@@ -8,7 +8,7 @@
 pkgbase=plasma-desktop
 pkgname=(plasma-desktop knetattach)
 pkgver=5.19.90
-pkgrel=3.2
+pkgrel=3.3
 pkgdesc='KDE Plasma Desktop'
 arch=(x86_64)
 url='https://www.kde.org/workspaces/plasmadesktop/'
@@ -16,6 +16,8 @@ license=(LGPL)
 source=("https://download.kde.org/unstable/plasma/$pkgver/$pkgname-$pkgver.tar.xz"{,.sig}
 kdebug-426737.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/90a5e9317b6073fc85c3a7a2395694114847b3bd.patch"
 commit-41c47566.patch::"https://invent.kde.org/plasma/plasma-desktop/-/commit/41c47566f736fefe1e7589efd9d21bd3d05cbe33.patch"
+kdebug-374575.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/33fd305870d2be3996fa79a2480db1a7521bca3c.patch"
+kdebug-419517.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/5e74109b6ebbf785c0c27f485182de38fa21913c.patch"
 )
 depends=(polkit-kde-agent libxkbfile kmenuedit systemsettings ksysguard baloo libibus accountsservice)
 makedepends=(extra-cmake-modules kdoctools xf86-input-evdev xf86-input-synaptics xf86-input-libinput xorg-server-devel scim kdesignerplugin kaccounts-integration intltool)
@@ -23,7 +25,9 @@ groups=(plasma)
 sha256sums=('b5b78212257b8d352b0c86a321dedba65fd05d85d5395ebec4e357331ade491e'
             'SKIP'
             'cae33655f4e0c41567fbb2855ea96891f66249a4ae2d002a30de8c2ac69102da'
-            'cd163ecceebcc7a5e7a95b526708c610ac5cf3dd47289537d2a797d144d8addc')
+            'cd163ecceebcc7a5e7a95b526708c610ac5cf3dd47289537d2a797d144d8addc'
+            'c080a27d32257ccff324c79aef49973077a312f99562e7a4c6a96dc3cb3ed6b1'
+            '746b29070bcc127aaf0f1ff5286cdb780826a0a93818de2575ff4f4d60ae0c1b')
 validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr@jriddell.org>
               '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
               'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson <davidedmundson@kde.org>
@@ -34,6 +38,10 @@ prepare() {
     patch -d $pkgname-$pkgver -p1 -i ../kdebug-426737.patch
     msg "Add Highlight changed settings; fix in 5.21"
     patch -d $pkgname-$pkgver -p1 -i ../commit-41c47566.patch
+    msg "Add kdebug 374575 patch"
+    patch -d $pkgname-$pkgver -p1 -i ../kdebug-374575.patch
+    msg "Add kdebug 419517 patch"
+    patch -d $pkgname-$pkgver -p1 -i ../kdebug-419517.patch
 }
 
 build() {
