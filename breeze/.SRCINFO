@@ -1,7 +1,7 @@
 pkgbase = breeze
 	pkgdesc = Artwork, styles and assets for the Breeze visual style for the Plasma Desktop
 	pkgver = 5.19.90
-	pkgrel = 1.1
+	pkgrel = 1.2
 	url = https://www.kde.org/workspaces/plasmadesktop/
 	arch = x86_64
 	groups = plasma
@@ -18,6 +18,7 @@ pkgbase = breeze
 	source = https://download.kde.org/unstable/plasma/5.19.90/breeze-5.19.90.tar.xz
 	source = https://download.kde.org/unstable/plasma/5.19.90/breeze-5.19.90.tar.xz.sig
 	source = kdebug-393238.patch::https://invent.kde.org/plasma/breeze/-/commit/059ac0b719a885402182206aae9e7189b241cfd9.patch
+	source = kdebug-426651.patch::https://invent.kde.org/plasma/breeze/commit/dd3b18930e08638e27eeff7e382a3854036140b6.patch
 	validpgpkeys = 2D1D5B0588357787DE9EE225EC94D18F7F05997E
 	validpgpkeys = 0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D
 	validpgpkeys = D07BD8662C56CB291B316EB2F5675605C74E02CF
@@ -25,6 +26,7 @@ pkgbase = breeze
 	sha256sums = 4103aa1301459cfbca28b65dc24446b170642d048f8a5e2bfef3c322f7373a49
 	sha256sums = SKIP
 	sha256sums = 4060c4629c2df4ca50da76d86e457b0583c915c5a526afcfcc2f72a3d5307064
+	sha256sums = 9691f1223466ebe7febabcff98e8b513fc7cb660e1b50ffd9ffd2931e6521bf0
 
 pkgname = breeze
 
