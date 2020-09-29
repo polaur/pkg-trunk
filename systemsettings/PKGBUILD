@@ -7,7 +7,7 @@
 
 pkgname=systemsettings
 pkgver=5.19.90
-pkgrel=1.2
+pkgrel=1.3
 pkgdesc='KDE system manager for hardware, software, and workspaces'
 arch=(x86_64)
 url='https://www.kde.org/workspaces/plasmadesktop/'
@@ -18,12 +18,14 @@ groups=(plasma)
 source=("https://download.kde.org/unstable/plasma/$pkgver/$pkgname-$pkgver.tar.xz"{,.sig}
 kdebug-426731.patch::"https://invent.kde.org/plasma/systemsettings/commit/9eb9aa4490680ab3ef5df998ae8eeeca8e39fd3d.patch"
 kdebug-426747.patch::"https://invent.kde.org/plasma/systemsettings/commit/5b4df5156370feed1563e7b937d405f06d4e98ec.patch"
-kdebug-426742.patch::"https://invent.kde.org/plasma/systemsettings/commit/4f28476ddae53c745dcaf1f66cd2dc68e75727dc.patch")
+kdebug-426742.patch::"https://invent.kde.org/plasma/systemsettings/commit/4f28476ddae53c745dcaf1f66cd2dc68e75727dc.patch"
+kdebug-420196.patch::"https://invent.kde.org/plasma/systemsettings/commit/d923aeec835d6a9c195846a00e16566de0af901c.patch")
 sha256sums=('2d36c805137f6308b5ae0771ba08a92b77709981152de621be43ab08b38a63ca'
             'SKIP'
             'a643e44ec4fecf5e1879ba5e026ab9794ecc31042add26115f0de174c8676ea0'
             'fea51172d31b8f077e1ff914730c89b53b35418009e0a424a05164cd75706811'
-            '19c4bb99f02c40ad007513285ccc274d43e3f29fbd47f39608078c29f7b7b008')
+            '19c4bb99f02c40ad007513285ccc274d43e3f29fbd47f39608078c29f7b7b008'
+            '77f5e2e22ac027f5a14c87e7e951f3d6ab84d6e8e31b1384c65501d553c10d7d')
 validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr@jriddell.org>
               '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
               'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson <davidedmundson@kde.org>
@@ -36,6 +38,8 @@ prepare() {
     patch -d $pkgname-$pkgver -p1 -i ../kdebug-426747.patch
     msg "Add kdebug 426742 patch"
     patch -d $pkgname-$pkgver -p1 -i ../kdebug-426742.patch
+    msg "Add kdebug 420196 patch"
+    patch -d $pkgname-$pkgver -p1 -i ../kdebug-420196.patch
 }
 
 build() {
