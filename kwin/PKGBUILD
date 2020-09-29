@@ -1,10 +1,13 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# only for version with bugfixes from upcomming releases
+# based on the original works by:
 # Maintainer: Felix Yan <felixonmars@archlinux.org>
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
 pkgname=kwin
 pkgver=5.19.90
-pkgrel=2.3
+pkgrel=2.4
 pkgdesc='An easy to use, but flexible, composited Window Manager'
 arch=(x86_64)
 url='https://www.kde.org/workspaces/plasmadesktop/'
@@ -18,7 +21,8 @@ kdebug-425472.patch::"https://invent.kde.org/plasma/kwin/commit/a3b50500.patch"
 kdebug-426686.patch::"https://invent.kde.org/plasma/kwin/commit/23b85e2b852573c5dc3d794e45c1a1a46e56d837.patch"
 kdebug-425869.patch::"https://invent.kde.org/plasma/kwin/commit/5b46e01c45fd650aef81d250e2850697af0db223.patch"
 commit-75cad57c.patch::"https://invent.kde.org/plasma/kwin/-/commit/75cad57cd9369b184d4906618bdd52b70cda9666.patch"
-commit-375691c6.patch::"https://invent.kde.org/plasma/kwin/-/commit/375691c6c21162ddcf49f072e648ee5ebc701c0e.patch")
+commit-375691c6.patch::"https://invent.kde.org/plasma/kwin/-/commit/375691c6c21162ddcf49f072e648ee5ebc701c0e.patch"
+kdebug-423319.patch::"https://invent.kde.org/plasma/kwin/commit/381b685b518f5dcffb93c18cdd89b558acde987b.patch")
 install=$pkgname.install
 sha256sums=('a63c60f0be5f32e05b18337b5957e708560613d8ddc59dfe0baaef70e7d726dd'
             'SKIP'
@@ -26,7 +30,8 @@ sha256sums=('a63c60f0be5f32e05b18337b5957e708560613d8ddc59dfe0baaef70e7d726dd'
             'db831c54c20376ee30a3dbcb36db597cf32c639e1f702691ef8ed249758ba9eb'
             '8fc59b27549d4e06dcbcba94918c007c1702b77e437913e03cd5069e5fc8312a'
             '32df21f3e5202f7ad6036c6543e84723fe23fc24ee597a5e7ec9bccb9963bed8'
-            '7c636d76175c4e4224deebe1b5ba05f0a8fac362ba5287bd36c4c347783bbd15')
+            '7c636d76175c4e4224deebe1b5ba05f0a8fac362ba5287bd36c4c347783bbd15'
+            '57049ef95d6394d47f0f8eb3033499c33443ce1607ae3dabae435a047d3ba1bd')
 validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr@jriddell.org>
               '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
               'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson <davidedmundson@kde.org>
@@ -42,6 +47,8 @@ prepare() {
   patch -d $pkgname-$pkgver -p1 -i ../commit-75cad57c.patch
   msg "Add improve opacity detection patch; fix in 5.21"
   patch -d $pkgname-$pkgver -p1 -i ../commit-375691c6.patch
+  msg "Add kdebug 423319 patch"
+  patch -d $pkgname-$pkgver -p1 -i ../kdebug-423319.patch
 }
 
 build() {
