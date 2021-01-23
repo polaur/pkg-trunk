@@ -1,0 +1,65 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# only for version with bugfixes from upcomming releases
+# based on the original works by:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgbase=plasma-desktop
+pkgname=(plasma-desktop knetattach)
+pkgver=5.20.90
+pkgrel=1.1
+pkgdesc='KDE Plasma Desktop'
+arch=(x86_64)
+url='https://www.kde.org/workspaces/plasmadesktop/'
+license=(LGPL)
+source=("https://download.kde.org/unstable/plasma/$pkgver/$pkgname-$pkgver.tar.xz"{,.sig}
+kdebug-392731.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/a911982efce3efeb510899abb526230b0de12f7f.patch"
+kdebug-431894.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/82d2e94e48cc5ef1e4cb855cc6d559a96336e683.patch"
+)
+depends=(polkit-kde-agent libxkbfile kmenuedit systemsettings ksysguard baloo libibus accountsservice)
+makedepends=(extra-cmake-modules kdoctools xf86-input-evdev xf86-input-synaptics xf86-input-libinput xorg-server-devel scim kdesignerplugin kaccounts-integration intltool)
+groups=(plasma)
+sha256sums=('613c56e9ade683144552a12c1de6b2f78b019bcba80a8b8ccd9f903283f8a3a8'
+            'SKIP'
+            '96e9e231b724431ebf844625eb30e547986ea5092f59a80935724950363b612d'
+            '05d59e465773df050491decf97fa3c357c7d5099dc1eb526722776c9c194da8b')
+validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr@jriddell.org>
+              '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
+              'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson <davidedmundson@kde.org>
+              '1FA881591C26B276D7A5518EEAAF29B42A678C20') # Marco Martin <notmart@gmail.com>
+
+prepare() {
+    msg "Add kdebug 392731 patch; fix in 5.21"
+    patch -d $pkgname-$pkgver -p1 -i ../kdebug-392731.patch
+    msg "Add kdebug 431894 patch; fix in 5.21"
+    patch -d $pkgname-$pkgver -p1 -i ../kdebug-431894.patch
+}
+
+build() {
+  cmake -B build -S $pkgname-$pkgver \
+    -DCMAKE_INSTALL_LIBEXECDIR=lib \
+    -DBUILD_TESTING=OFF
+  cmake --build build
+}
+
+package_plasma-desktop() {
+  depends+=(knetattach)
+  optdepends=('plasma-nm: Network manager applet'
+              'powerdevil: power management, suspend and hibernate support'
+              'kscreen: screen management'
+              'ibus: kimpanel IBUS support'
+              'scim: kimpanel SCIM support')
+
+  DESTDIR="$pkgdir" cmake --install build
+
+# Split knetattach
+  rm "$pkgdir"/usr/{bin/knetattach,share/applications/org.kde.knetattach.desktop}
+}
+
+package_knetattach() {
+  pkgdesc='Wizard which makes it easier to integrate network resources with the Plasma Desktop'
+  depends=(kdelibs4support)
+
+  DESTDIR="$pkgdir" cmake --install build/knetattach
+}
