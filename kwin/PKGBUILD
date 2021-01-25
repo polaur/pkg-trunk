@@ -10,27 +10,27 @@ pkgver=5.20.90
 pkgrel=1.1
 pkgdesc='An easy to use, but flexible, composited Window Manager'
 arch=(x86_64)
-url='https://www.kde.org/workspaces/plasmadesktop/'
+url='https://kde.org/plasma-desktop/'
 license=(LGPL)
-depends=(kscreenlocker xcb-util-cursor plasma-framework kcmutils kwayland-server breeze qt5-sensors qt5-script)
-makedepends=(extra-cmake-modules qt5-tools kdoctools)
+depends=(kscreenlocker xcb-util-cursor plasma-framework kcmutils kwayland-server breeze
+         qt5-script pipewire libqaccessibilityclient lcms2)
+makedepends=(extra-cmake-modules qt5-tools kdoctools krunner)
 optdepends=('qt5-virtualkeyboard: virtual keyboard support for kwin-wayland')
 groups=(plasma)
 source=("https://download.kde.org/unstable/plasma/$pkgver/$pkgname-$pkgver.tar.xz"{,.sig}
-kdebug-428781.patch::"https://invent.kde.org/plasma/kwin/commit/231d96c5c6b1127c46702237d47a41a66f60f131.patch"
-)
+kdebug-431824.patch::"https://invent.kde.org/plasma/kwin/commit/20766d91b6718386cbc4a888cca24d0873ced54f.patch")
 install=$pkgname.install
 sha256sums=('6ada880a3dddab83878c2ce4b3e244929a203bd2930ec77844f85a24c3efc05f'
             'SKIP'
-            '39b76c7a80c5a9a43dbf83d542be17d0d3f9bfe51f64098bb41a490e6e3ba479')
+            'b395a405e6540b8158252da9ad0560796a9948acd1d2655e58da46adc19c0676')
 validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr@jriddell.org>
               '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
               'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson <davidedmundson@kde.org>
               '1FA881591C26B276D7A5518EEAAF29B42A678C20') # Marco Martin <notmart@gmail.com>
 
 prepare() {
-  msg "Add kdebug 428781 patch; fix in 5.21"
-  patch -d $pkgname-$pkgver -p1 -i ../kdebug-428781.patch
+    msg "Add kdebug 431824 patch; fix in 5.21"
+    patch -d $pkgname-$pkgver -p1 -i ../kdebug-431824.patch
 }
 
 build() {
