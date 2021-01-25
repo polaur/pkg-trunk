@@ -1,0 +1,24 @@
+pkgbase = plasma-browser-integration
+	pkgdesc = Components necessary to integrate browsers into the Plasma Desktop
+	pkgver = 5.20.90
+	pkgrel = 1.1
+	url = https://www.kde.org/plasma-desktop
+	arch = x86_64
+	groups = plasma
+	license = GPL
+	makedepends = extra-cmake-modules
+	depends = purpose
+	depends = kfilemetadata
+	depends = plasma-workspace
+	source = https://download.kde.org/unstable/plasma/5.20.90/plasma-browser-integration-5.20.90.tar.xz
+	source = https://download.kde.org/unstable/plasma/5.20.90/plasma-browser-integration-5.20.90.tar.xz.sig
+	source = kdebug-432043.patch::https://invent.kde.org/plasma/plasma-browser-integration/commit/04db6cf8ce0c175c79c64cbcde0a6e7884b318b0.patch
+	validpgpkeys = 2D1D5B0588357787DE9EE225EC94D18F7F05997E
+	validpgpkeys = 0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D
+	validpgpkeys = D07BD8662C56CB291B316EB2F5675605C74E02CF
+	validpgpkeys = 1FA881591C26B276D7A5518EEAAF29B42A678C20
+	sha256sums = a1fd28c92b813c5b7b9ba4c5572d053b11138e359c029d2f44690db40c800d51
+	sha256sums = SKIP
+	sha256sums = c1ced1d5fdd46192bb0ac9f739445242efb91f1b6a5ca3707a4111433bdccdde
+
+pkgname = plasma-browser-integration
