@@ -1,0 +1,25 @@
+pkgbase = kinfocenter
+	pkgdesc = A utility that provides information about a computer system
+	pkgver = 5.20.90
+	pkgrel = 1.1
+	url = https://www.kde.org/applications/system/kinfocenter/
+	arch = x86_64
+	groups = plasma
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = plasma-framework
+	makedepends = kdoctools
+	depends = systemsettings
+	depends = glu
+	source = https://download.kde.org/unstable/plasma/5.20.90/kinfocenter-5.20.90.tar.xz
+	source = https://download.kde.org/unstable/plasma/5.20.90/kinfocenter-5.20.90.tar.xz.sig
+	source = kdebug-428382.patch::https://invent.kde.org/plasma/kinfocenter/commit/6a5b71128bce2cc0132725ab0e06f4e07a1f8a46.patch
+	validpgpkeys = 2D1D5B0588357787DE9EE225EC94D18F7F05997E
+	validpgpkeys = 0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D
+	validpgpkeys = D07BD8662C56CB291B316EB2F5675605C74E02CF
+	validpgpkeys = 1FA881591C26B276D7A5518EEAAF29B42A678C20
+	sha256sums = 252cf13c3924231b2bbb344c6fdb8afb614b734f0c2422e2ace501a3a24299cc
+	sha256sums = SKIP
+	sha256sums = d0b5f4df8db313567cfd899277a6f2d2a400f88cd93cc4f003a4b22878fef434
+
+pkgname = kinfocenter
