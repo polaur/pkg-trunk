@@ -5,20 +5,27 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 # Contributor: Andrea Scarpino <andrea@archlinux.org>
 
-pkgbase=plasma-desktop
-pkgname=(plasma-desktop knetattach)
+pkgname=plasma-desktop
 pkgver=5.20.90
-pkgrel=1.1
+pkgrel=1.2
 pkgdesc='KDE Plasma Desktop'
 arch=(x86_64)
-url='https://www.kde.org/workspaces/plasmadesktop/'
+url='https://kde.org/plasma-desktop/'
 license=(LGPL)
 source=("https://download.kde.org/unstable/plasma/$pkgver/$pkgname-$pkgver.tar.xz"{,.sig}
 kdebug-392731.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/a911982efce3efeb510899abb526230b0de12f7f.patch"
-kdebug-431894.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/82d2e94e48cc5ef1e4cb855cc6d559a96336e683.patch"
-)
-depends=(polkit-kde-agent libxkbfile kmenuedit systemsettings ksysguard baloo libibus accountsservice)
-makedepends=(extra-cmake-modules kdoctools xf86-input-evdev xf86-input-synaptics xf86-input-libinput xorg-server-devel scim kdesignerplugin kaccounts-integration intltool)
+kdebug-431894.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/82d2e94e48cc5ef1e4cb855cc6d559a96336e683.patch")
+depends=(polkit-kde-agent libxkbfile kmenuedit systemsettings ksysguard baloo accountsservice)
+optdepends=('plasma-nm: Network manager applet'
+            'powerdevil: power management, suspend and hibernate support'
+            'kscreen: screen management'
+            'ibus: kimpanel IBUS support'
+            'scim: kimpanel SCIM support'
+            'kaccounts-integration: OpenDesktop integration plugin'
+            'packagekit-qt5: to install new krunner plugins')
+replaces=(user-manager knetattach)
+makedepends=(extra-cmake-modules kdoctools xf86-input-evdev xf86-input-synaptics xf86-input-libinput xorg-server-devel
+             scim kdesignerplugin kaccounts-integration intltool packagekit-qt5)
 groups=(plasma)
 sha256sums=('613c56e9ade683144552a12c1de6b2f78b019bcba80a8b8ccd9f903283f8a3a8'
             'SKIP'
@@ -34,8 +41,7 @@ prepare() {
     patch -d $pkgname-$pkgver -p1 -i ../kdebug-392731.patch
     msg "Add kdebug 431894 patch; fix in 5.21"
     patch -d $pkgname-$pkgver -p1 -i ../kdebug-431894.patch
-}
-
+}    
 build() {
   cmake -B build -S $pkgname-$pkgver \
     -DCMAKE_INSTALL_LIBEXECDIR=lib \
@@ -43,23 +49,6 @@ build() {
   cmake --build build
 }
 
-package_plasma-desktop() {
-  depends+=(knetattach)
-  optdepends=('plasma-nm: Network manager applet'
-              'powerdevil: power management, suspend and hibernate support'
-              'kscreen: screen management'
-              'ibus: kimpanel IBUS support'
-              'scim: kimpanel SCIM support')
-
+package() {
   DESTDIR="$pkgdir" cmake --install build
-
-# Split knetattach
-  rm "$pkgdir"/usr/{bin/knetattach,share/applications/org.kde.knetattach.desktop}
-}
-
-package_knetattach() {
-  pkgdesc='Wizard which makes it easier to integrate network resources with the Plasma Desktop'
-  depends=(kdelibs4support)
-
-  DESTDIR="$pkgdir" cmake --install build/knetattach
 }
