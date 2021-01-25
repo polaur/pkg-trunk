@@ -1,0 +1,41 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# only for version with bugfixes from upcomming releases
+# based on the original works by:
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=libksysguard
+pkgver=5.20.90
+pkgrel=1.1
+pkgdesc='Library to retrieve information on the current status of computer hardware'
+arch=(x86_64)
+url='https://kde.org/plasma-desktop/'
+license=(LGPL)
+depends=(libxres qt5-webengine kdeclarative knewstuff)
+makedepends=(extra-cmake-modules kdoctools qt5-tools)
+groups=(plasma)
+source=("https://download.kde.org/unstable/plasma/$pkgver/$pkgname-$pkgver.tar.xz"{,.sig}
+kdebug-428970.patch::"https://invent.kde.org/plasma/libksysguard/commit/bf2d0ece6979e5bf67445981f27c456c5e85d0b4.patch")
+sha256sums=('d43424d2c28f1902f01055a60a0c2e3d2aaae4349ad197b58af44a8946c8ab36'
+            'SKIP'
+            '8b46a099117e095e9761aef1b8919b73ee983097d110c4ad5e9d25be9322c4a1')
+validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr@jriddell.org>
+              '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
+              'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson <davidedmundson@kde.org>
+              '1FA881591C26B276D7A5518EEAAF29B42A678C20') # Marco Martin <notmart@gmail.com>
+
+prepare() {
+    msg "Add kdebug 428970 patch"
+    patch -d $pkgname-$pkgver -p1 -i ../kdebug-428970.patch
+}
+
+build() {
+  cmake -B build -S $pkgname-$pkgver \
+    -DBUILD_TESTING=OFF
+  cmake --build build
+}
+
+package() {
+  DESTDIR="$pkgdir" cmake --install build
+}
