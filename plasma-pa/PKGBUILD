@@ -1,8 +1,11 @@
+# Maintainer: pavbaranov <pavbaranov at gmail dot com>
+# only for version with bugfixes from upcomming releases
+# based on the original work by:
 # Maintainer:Antonio Rojas <arojas@archlinux.org>
 
 pkgname=plasma-pa
 pkgver=5.20.90
-pkgrel=1.1
+pkgrel=1.2
 pkgdesc='Plasma applet for audio volume management using PulseAudio'
 arch=(x86_64)
 url='https://www.kde.org/workspaces/plasmadesktop/'
@@ -12,10 +15,12 @@ makedepends=(extra-cmake-modules kdoctools)
 groups=(plasma)
 source=("https://download.kde.org/unstable/plasma/$pkgver/$pkgname-$pkgver.tar.xz"{,.sig}
 kdebug-432008.patch::"https://invent.kde.org/plasma/plasma-pa/-/commit/c6c721092cd172aac18d5241c8cdefb2e0a0f312.patch"
+kdebug-407648.patch::"https://invent.kde.org/plasma/plasma-pa/commit/912beaaa7157ef25478f2b0bf4fb20f6b1a15eb5.patch"
 )
 sha256sums=('54fdcb82b1a82bc2bae8651f40fc7b2b647ea3b24f26a78614cb2753a0d6ec12'
             'SKIP'
-            '546ea9bb4318061517cc4b5d0f28e6ec28dd53bb62521fa4fd9031604ee4dac8')
+            '546ea9bb4318061517cc4b5d0f28e6ec28dd53bb62521fa4fd9031604ee4dac8'
+            '24057066079df6d7bbfff6e725b3f134e2ec563f4683c605138b502731d36f47')
 validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr@jriddell.org>
               '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
               'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson <davidedmundson@kde.org>
@@ -24,6 +29,8 @@ validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr
 prepare() {
     msg "Add kdebug 432008 patch"
     patch -d $pkgname-$pkgver -p1 -i ../kdebug-432008.patch
+    msg "Add kdebug 407648 patch; fix in 5.22"
+    patch -d $pkgname-$pkgver -p1 -i ../kdebug-407648.patch
 }
 
 build() {
