@@ -1,7 +1,7 @@
 pkgbase = kwin
 	pkgdesc = An easy to use, but flexible, composited Window Manager
 	pkgver = 5.20.90
-	pkgrel = 1.1
+	pkgrel = 1.2
 	url = https://kde.org/plasma-desktop/
 	install = kwin.install
 	arch = x86_64
@@ -25,6 +25,7 @@ pkgbase = kwin
 	source = https://download.kde.org/unstable/plasma/5.20.90/kwin-5.20.90.tar.xz
 	source = https://download.kde.org/unstable/plasma/5.20.90/kwin-5.20.90.tar.xz.sig
 	source = kdebug-431824.patch::https://invent.kde.org/plasma/kwin/commit/20766d91b6718386cbc4a888cca24d0873ced54f.patch
+	source = kdebug-432181.patch::https://invent.kde.org/plasma/kwin/-/commit/33cf87f0ab3159d81c1f8269efe2c370cee26076.patch
 	validpgpkeys = 2D1D5B0588357787DE9EE225EC94D18F7F05997E
 	validpgpkeys = 0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D
 	validpgpkeys = D07BD8662C56CB291B316EB2F5675605C74E02CF
@@ -32,5 +33,6 @@ pkgbase = kwin
 	sha256sums = 6ada880a3dddab83878c2ce4b3e244929a203bd2930ec77844f85a24c3efc05f
 	sha256sums = SKIP
 	sha256sums = b395a405e6540b8158252da9ad0560796a9948acd1d2655e58da46adc19c0676
+	sha256sums = dd1d83dbf2bc25e9e775fb48cd1b71bc6b0168f2778e8ac8e034982adca79c60
 
 pkgname = kwin

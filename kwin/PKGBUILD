@@ -7,7 +7,7 @@
 
 pkgname=kwin
 pkgver=5.20.90
-pkgrel=1.1
+pkgrel=1.2
 pkgdesc='An easy to use, but flexible, composited Window Manager'
 arch=(x86_64)
 url='https://kde.org/plasma-desktop/'
@@ -18,11 +18,13 @@ makedepends=(extra-cmake-modules qt5-tools kdoctools krunner)
 optdepends=('qt5-virtualkeyboard: virtual keyboard support for kwin-wayland')
 groups=(plasma)
 source=("https://download.kde.org/unstable/plasma/$pkgver/$pkgname-$pkgver.tar.xz"{,.sig}
-kdebug-431824.patch::"https://invent.kde.org/plasma/kwin/commit/20766d91b6718386cbc4a888cca24d0873ced54f.patch")
+kdebug-431824.patch::"https://invent.kde.org/plasma/kwin/commit/20766d91b6718386cbc4a888cca24d0873ced54f.patch"
+kdebug-432181.patch::"https://invent.kde.org/plasma/kwin/-/commit/33cf87f0ab3159d81c1f8269efe2c370cee26076.patch")
 install=$pkgname.install
 sha256sums=('6ada880a3dddab83878c2ce4b3e244929a203bd2930ec77844f85a24c3efc05f'
             'SKIP'
-            'b395a405e6540b8158252da9ad0560796a9948acd1d2655e58da46adc19c0676')
+            'b395a405e6540b8158252da9ad0560796a9948acd1d2655e58da46adc19c0676'
+            'dd1d83dbf2bc25e9e775fb48cd1b71bc6b0168f2778e8ac8e034982adca79c60')
 validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr@jriddell.org>
               '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
               'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson <davidedmundson@kde.org>
@@ -31,6 +33,8 @@ validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr
 prepare() {
     msg "Add kdebug 431824 patch; fix in 5.21"
     patch -d $pkgname-$pkgver -p1 -i ../kdebug-431824.patch
+    msg "Add kdebug 432181 patch"
+    patch -d $pkgname-$pkgver -p1 -i ../kdebug-432181.patch
 }
 
 build() {
