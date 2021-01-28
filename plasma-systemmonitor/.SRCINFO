@@ -1,0 +1,24 @@
+pkgbase = plasma-systemmonitor
+	pkgdesc = An interface for monitoring system sensors, process information and other system resources
+	pkgver = 5.20.90
+	pkgrel = 1.1
+	url = https://kde.org/plasma-desktop/
+	arch = x86_64
+	groups = plasma
+	license = GPL
+	license = LGPL
+	makedepends = extra-cmake-modules
+	depends = ksysguard
+	depends = kirigami2
+	source = https://download.kde.org/unstable/plasma/5.20.90/plasma-systemmonitor-5.20.90.tar.xz
+	source = https://download.kde.org/unstable/plasma/5.20.90/plasma-systemmonitor-5.20.90.tar.xz.sig
+	source = kdebug-432147.patch::https://invent.kde.org/plasma/plasma-systemmonitor/commit/e70a993ef0c3b134833c859177b0472d5eb8ff59.patch
+	validpgpkeys = 2D1D5B0588357787DE9EE225EC94D18F7F05997E
+	validpgpkeys = 0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D
+	validpgpkeys = D07BD8662C56CB291B316EB2F5675605C74E02CF
+	validpgpkeys = 1FA881591C26B276D7A5518EEAAF29B42A678C20
+	sha256sums = c34a5a64108cdb237d5e32e57608c83f364525740d2cdb1edba1f375a7aa7483
+	sha256sums = SKIP
+	sha256sums = 4431e4e7492d2a58b1f31fbe1ddc3467bfc6369c78ad97a322f3293e870b7bc0
+
+pkgname = plasma-systemmonitor
