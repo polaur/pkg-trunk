@@ -7,7 +7,7 @@
 
 pkgname=plasma-desktop
 pkgver=5.20.90
-pkgrel=1.3
+pkgrel=1.4
 pkgdesc='KDE Plasma Desktop'
 arch=(x86_64)
 url='https://kde.org/plasma-desktop/'
@@ -15,7 +15,8 @@ license=(LGPL)
 source=("https://download.kde.org/unstable/plasma/$pkgver/$pkgname-$pkgver.tar.xz"{,.sig}
 kdebug-392731.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/a911982efce3efeb510899abb526230b0de12f7f.patch"
 kdebug-431894.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/82d2e94e48cc5ef1e4cb855cc6d559a96336e683.patch"
-kdebug-432035.patch::"https://invent.kde.org/plasma/plasma-desktop/-/commit/2646dccc7abedf3a2ef57b0364261fa3a92bc001.patch")
+kdebug-432035.patch::"https://invent.kde.org/plasma/plasma-desktop/-/commit/2646dccc7abedf3a2ef57b0364261fa3a92bc001.patch"
+kdebug-429063.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/40be77a06cac85ffd496ea77e3b19e093b872eaf.patch")
 depends=(polkit-kde-agent libxkbfile kmenuedit systemsettings ksysguard baloo accountsservice)
 optdepends=('plasma-nm: Network manager applet'
             'powerdevil: power management, suspend and hibernate support'
@@ -32,7 +33,8 @@ sha256sums=('613c56e9ade683144552a12c1de6b2f78b019bcba80a8b8ccd9f903283f8a3a8'
             'SKIP'
             '96e9e231b724431ebf844625eb30e547986ea5092f59a80935724950363b612d'
             '05d59e465773df050491decf97fa3c357c7d5099dc1eb526722776c9c194da8b'
-            '89a7562e779c904200b1edabb4c3fc788fa76e12acf6fc16b644338ed3eeec4c')
+            '89a7562e779c904200b1edabb4c3fc788fa76e12acf6fc16b644338ed3eeec4c'
+            'aed7791ecc8778287e3bb21ce18d53b1778800bbf5f8ebffacdf7c1faa74e5ec')
 validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr@jriddell.org>
               '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
               'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson <davidedmundson@kde.org>
@@ -45,6 +47,8 @@ prepare() {
     patch -d $pkgname-$pkgver -p1 -i ../kdebug-431894.patch
     msg "Add kdebug 432035 patch; fix in 5.22"
     patch -d $pkgname-$pkgver -p1 -i ../kdebug-432035.patch
+    msg "Add kdebug 429063 patch; fix in 5.21"
+    patch -d $pkgname-$pkgver -p1 -i ../kdebug-429063.patch
 }    
 build() {
   cmake -B build -S $pkgname-$pkgver \
