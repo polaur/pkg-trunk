@@ -1,0 +1,24 @@
+pkgbase = breeze-gtk
+	pkgdesc = Breeze widget theme for GTK 2 and 3
+	pkgver = 5.20.90
+	pkgrel = 1.1
+	url = https://quickgit.kde.org/?p=breeze-gtk.git
+	arch = any
+	groups = plasma
+	license = LGPL
+	makedepends = extra-cmake-modules
+	makedepends = sassc
+	makedepends = python-cairo
+	makedepends = breeze
+	source = https://download.kde.org/unstable/plasma/5.20.90/breeze-gtk-5.20.90.tar.xz
+	source = https://download.kde.org/unstable/plasma/5.20.90/breeze-gtk-5.20.90.tar.xz.sig
+	source = kdebug-431930.patch::https://invent.kde.org/plasma/breeze-gtk/commit/15bc5576f5e1a9ee01d1a79396984b539eb8ae87.patch
+	validpgpkeys = 2D1D5B0588357787DE9EE225EC94D18F7F05997E
+	validpgpkeys = 0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D
+	validpgpkeys = D07BD8662C56CB291B316EB2F5675605C74E02CF
+	validpgpkeys = 1FA881591C26B276D7A5518EEAAF29B42A678C20
+	sha256sums = c330344cda1806906c47d51c558bf5ffcb34acb9f5f61b68f024c8731f7e7092
+	sha256sums = SKIP
+	sha256sums = 90015c49384eb78a5840fea964234d084752c2e736e0e68a9240154a65571e12
+
+pkgname = breeze-gtk
