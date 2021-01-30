@@ -7,7 +7,7 @@
 
 pkgname=plasma-desktop
 pkgver=5.20.90
-pkgrel=1.4
+pkgrel=1.5
 pkgdesc='KDE Plasma Desktop'
 arch=(x86_64)
 url='https://kde.org/plasma-desktop/'
@@ -16,7 +16,11 @@ source=("https://download.kde.org/unstable/plasma/$pkgver/$pkgname-$pkgver.tar.x
 kdebug-392731.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/a911982efce3efeb510899abb526230b0de12f7f.patch"
 kdebug-431894.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/82d2e94e48cc5ef1e4cb855cc6d559a96336e683.patch"
 kdebug-432035.patch::"https://invent.kde.org/plasma/plasma-desktop/-/commit/2646dccc7abedf3a2ef57b0364261fa3a92bc001.patch"
-kdebug-429063.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/40be77a06cac85ffd496ea77e3b19e093b872eaf.patch")
+kdebug-429063.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/40be77a06cac85ffd496ea77e3b19e093b872eaf.patch"
+kdebug-432148.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/b7361e154cf445d96e87fcf591c74fb599e73075.patch"
+kdebug-430418.patch::"https://invent.kde.org/plasma/plasma-desktop/commit/beea5e694d35438be39f619999ea2a45f58f53f2.patch"
+kdebug-431901.patch::"https://invent.kde.org/plasma/plasma-desktop/-/commit/e8d466eba8ffb12db62cf11c537f8f14991a7418.patch"
+commit-2c83bfb9.patch::"https://invent.kde.org/plasma/plasma-desktop/-/commit/2c8ebfb90d431d0d25ab85f3b841607a30d88d8f.patch")
 depends=(polkit-kde-agent libxkbfile kmenuedit systemsettings ksysguard baloo accountsservice)
 optdepends=('plasma-nm: Network manager applet'
             'powerdevil: power management, suspend and hibernate support'
@@ -34,7 +38,11 @@ sha256sums=('613c56e9ade683144552a12c1de6b2f78b019bcba80a8b8ccd9f903283f8a3a8'
             '96e9e231b724431ebf844625eb30e547986ea5092f59a80935724950363b612d'
             '05d59e465773df050491decf97fa3c357c7d5099dc1eb526722776c9c194da8b'
             '89a7562e779c904200b1edabb4c3fc788fa76e12acf6fc16b644338ed3eeec4c'
-            'aed7791ecc8778287e3bb21ce18d53b1778800bbf5f8ebffacdf7c1faa74e5ec')
+            'aed7791ecc8778287e3bb21ce18d53b1778800bbf5f8ebffacdf7c1faa74e5ec'
+            '5dfcb5589d02372ce03ee496c361aff06e7f135e0db8843d8006abd48be415bd'
+            'c47290c8dbe59f38364154feb539efd220906bfad8218184a25b1bf336306618'
+            'dcd8639f9bd893604d31975ce704f3ef074faf27bd16b284fc14d4b13e7315e2'
+            '30ca248e6bd18d9f8ec2fc01cb2346ac88d6e160cf86b08735fa8dc2a7a0de01')
 validpgpkeys=('2D1D5B0588357787DE9EE225EC94D18F7F05997E'  # Jonathan Riddell <jr@jriddell.org>
               '0AAC775BB6437A8D9AF7A3ACFE0784117FBCE11D'  # Bhushan Shah <bshah@kde.org>
               'D07BD8662C56CB291B316EB2F5675605C74E02CF'  # David Edmundson <davidedmundson@kde.org>
@@ -49,6 +57,12 @@ prepare() {
     patch -d $pkgname-$pkgver -p1 -i ../kdebug-432035.patch
     msg "Add kdebug 429063 patch; fix in 5.21"
     patch -d $pkgname-$pkgver -p1 -i ../kdebug-429063.patch
+    msg "Add kdebug 432148 patch; fix in 5.21"
+    patch -d $pkgname-$pkgver -p1 -i ../kdebug-432148.patch
+    msg "Add kdebug 430418 patch; fix in 5.21"
+    patch -d $pkgname-$pkgver -p1 -i ../kdebug-430418.patch
+    msg "Add commit 2c83bfb9 patch; fix in 5.21"
+    patch -d $pkgname-$pkgver -p1 -i ../commit-2c83bfb9.patch
 }    
 build() {
   cmake -B build -S $pkgname-$pkgver \
