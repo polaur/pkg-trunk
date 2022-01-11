@@ -31,7 +31,7 @@ pkgbase = tomahawk-player
 	conflicts = tomahawk
 	conflicts = tomahawk-qt5
 	conflicts = tomahawk-git
-	source = tomahawk-player::git://github.com/tomahawk-player/tomahawk.git
+	source = tomahawk-player::git+https://github.com/tomahawk-player/tomahawk.git
 	sha256sums = SKIP
 
 pkgname = tomahawk-player
