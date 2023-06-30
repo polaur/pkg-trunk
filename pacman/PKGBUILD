@@ -1,0 +1,98 @@
+# vim: set ts=2 sw=2 et:
+### Arch Linux PKGBUILD maintainer:
+# Maintainer: Morten Linderud <foxboron@archlinux.org>
+### CachyOS PKGBUILD maintainers:
+# Maintainer: Vladislav Nepogodin (vnepogodin) <nepogodin.vlad@gmail.com>
+# Maintainer: Piotr Gorski <piotrgorski@cachyos.org>
+# Maintainer: Peter Jung ptr1337 <admin@ptr1337.dev>
+
+_staging=true
+pkgname=pacman
+pkgver=6.0.2
+_pkgver=6.0.2
+pkgrel=11.2
+pkgdesc="A library-based package manager with dependency support. CachyOS fork."
+arch=('x86_64')
+url="https://www.archlinux.org/pacman/"
+license=('GPL')
+depends=('bash' 'glibc' 'libarchive' 'curl' 'gpgme' 'pacman-mirrorlist'
+         'gettext' 'gawk' 'coreutils' 'gnupg' 'grep' 'debugedit')
+makedepends=('meson' 'asciidoc' 'doxygen' 'git')
+checkdepends=('python' 'fakechroot')
+optdepends=('perl-locale-gettext: translation support in makepkg-template')
+provides=('libalpm.so')
+backup=(etc/pacman.conf
+        etc/makepkg.conf)
+options=('strip')
+_commit="c2eb74418cdeafc13ee9febb1378cee7aa9c2867"
+if $_staging; then
+    _commit="9fe3bf54a1224bfcffcf0757b7edfe800618b01d"
+    makedepends+=('cmake' 'rust' 'clang')
+fi
+source=("git+https://github.com/CachyOS/pacman.git#commit=${_commit}"
+        "pacman.conf"
+        "makepkg.conf")
+sha256sums=('SKIP'
+            '47f4ba578b1a6a3291cb65a6f60ab8c4871ae45bbe93da308a595a447ed9ad9d'
+            '90f77e16fb4425cf62969203447aa2803f5eb550d6c4fe2dda2035656e25615d')
+
+prepare() {
+  cd "${pkgname}"
+  # we backport way too often in pacman
+  # lets at least make it more convenient
+  local src
+  for src in "${source[@]}"; do
+    src="${src%%::*}"
+    src="${src##*/}"
+    [[ $src = *.patch ]] || continue
+    msg2 "Applying patch $src..."
+    patch -Np1 < "../$src"
+  done
+}
+build() {
+  cd "${pkgname}"
+
+  _cpuCount=$(grep -c -w ^processor /proc/cpuinfo)
+
+  export CFLAGS+=" -fno-semantic-interposition -flto=thin"
+  export CXXLAGS+=" -fno-semantic-interposition -flto=thin"
+  export RUSTFLAGS+=" -Cembed-bitcode -Clinker-plugin-lto -Clinker=clang -C link-arg=-flto=thin"
+  export CC=clang
+  export CXX=clang++
+  meson --prefix=/usr \
+        --buildtype=plain \
+        -Ddoc=enabled \
+        -Ddoxygen=enabled \
+        -Dscriptlet-shell=/usr/bin/bash \
+        -Dldconfig=/usr/bin/ldconfig \
+        build
+
+  meson compile -C build --jobs $_cpuCount
+}
+
+check() {
+  cd "${pkgname}"
+
+  export CFLAGS+=" -fno-semantic-interposition -flto=thin"
+  export CXXLAGS+=" -fno-semantic-interposition -flto=thin"
+  export RUSTFLAGS+=" -Cembed-bitcode -Clinker-plugin-lto -Clinker=clang -C link-arg=-flto=thin"
+  export CC=clang
+  export CXX=clang++
+  meson test -C build
+}
+
+package() {
+  cd "${pkgname}"
+
+  export CFLAGS+=" -fno-semantic-interposition -flto=thin"
+  export CXXLAGS+=" -fno-semantic-interposition -flto=thin"
+  export RUSTFLAGS+=" -Cembed-bitcode -Clinker-plugin-lto -Clinker=clang -C link-arg=-flto=thin"
+  export CC=clang
+  export CXX=clang++
+  DESTDIR="$pkgdir" meson install -C build
+
+  # install Arch specific stuff
+  install -dm755 "$pkgdir/etc"
+  install -m644 "$srcdir/pacman.conf" "$pkgdir/etc"
+  install -m644 "$srcdir/makepkg.conf" "$pkgdir/etc"
+}
