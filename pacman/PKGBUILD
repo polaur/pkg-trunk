@@ -10,7 +10,7 @@ _staging=true
 pkgname=pacman
 pkgver=6.0.2
 _pkgver=6.0.2
-pkgrel=7.3
+pkgrel=7.4
 pkgdesc="A library-based package manager with dependency support. CachyOS fork."
 arch=('x86_64')
 url="https://www.archlinux.org/pacman/"
@@ -32,9 +32,15 @@ fi
 source=("git+https://github.com/CachyOS/pacman.git#commit=${_commit}"
         "pacman.conf"
         "makepkg.conf")
+
+if $_staging; then
+    source+=(78cd453.patch)
 sha256sums=('SKIP'
             '47f4ba578b1a6a3291cb65a6f60ab8c4871ae45bbe93da308a595a447ed9ad9d'
-            '90f77e16fb4425cf62969203447aa2803f5eb550d6c4fe2dda2035656e25615d')
+            '90f77e16fb4425cf62969203447aa2803f5eb550d6c4fe2dda2035656e25615d'
+            '476d22a607103ff47f68ac74de9d90185c050445463279a6b51a70586a4ccbce')
+fi
+
 
 prepare() {
   cd "${pkgname}"
