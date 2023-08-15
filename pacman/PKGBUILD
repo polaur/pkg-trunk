@@ -10,7 +10,7 @@ _staging=true
 pkgname=pacman
 pkgver=6.0.2
 _pkgver=6.0.2
-pkgrel=7.8
+pkgrel=7.9
 pkgdesc="A library-based package manager with dependency support. CachyOS fork."
 arch=('x86_64')
 url="https://www.archlinux.org/pacman/"
@@ -24,9 +24,9 @@ provides=('libalpm.so')
 backup=(etc/pacman.conf
         etc/makepkg.conf)
 options=('strip')
-_commit="a01db4bd6102bf6647064a84f90498f39079cf78"
+_commit="27fe2e4d0ba9542a4595159c39ababe4e4e7ae6d"
 if $_staging; then
-    _commit="17c6884384335dfe254a25a2a7100dbc1d2f4632"
+    _commit="f6e944b722dd45faaccde14afe955f3ec854efa5"
     makedepends+=('cmake' 'rust' 'clang')
     depends+=('sqlite')
 fi
