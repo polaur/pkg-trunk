@@ -6,17 +6,17 @@
 # Maintainer: Piotr Gorski <piotrgorski@cachyos.org>
 # Maintainer: Peter Jung ptr1337 <admin@ptr1337.dev>
 
-_staging=false
+_staging=true
 pkgname=pacman
-pkgver=6.0.2
-_pkgver=6.0.2
+pkgver=6.1.0
+_pkgver=6.1.0
 _sqlitever=$(curl -s 'https://archlinux.org/packages/search/json/?name=sqlite' | grep -oP '"pkgver":\s*"\K[^"]+' | head -n 1 | awk -F. '{
     printf "%d%02d%02d", $1, $2, $3;
     if (NF == 4) { printf "%02d", $4 }
     else { printf "00" }
 }')
 
-pkgrel=7.31
+pkgrel=0.1
 pkgdesc="A library-based package manager with dependency support. CachyOS fork."
 arch=('x86_64')
 url="https://www.archlinux.org/pacman/"
@@ -35,7 +35,7 @@ options=('strip') #'!lto' -- should we put no lto here??
 #              'B8151B117037781095514CA7BBDFFC92306B1121') # Andrew Gregory (pacman) <andrew@archlinux.org>
 _commit="c95951992afdc717eb4f4aa51c3082ff576e7003"
 if $_staging; then
-    _commit="7634047eaeb7a37ce0200f2b605836ffec503d49"
+    _commit="f2db61a3f96ac583ccfb853c93cb5deaf682cd9e"
 fi
 source=(
 #       https://sources.archlinux.org/other/pacman/$pkgname-$_pkgver.tar.xz{,.sig}
@@ -58,12 +58,14 @@ sha256sums=('SKIP'
             'd421fa2a923d36549f046ad922131e5327ea1a6ab05d7ef9a4caf9355f5bf5a7'
             'bdd8fb13c1cd8606f41347bc1897e261031ac80b33c772d310f417064332f646'
             '7f7b14a68edbcd4a57df3a8c4dbd56d2d3546a6e7cdd50de40ceb03af33d34ba'
-            '11e0078c5ac7cdafa625957a9da982989efe19719e4973cd77f28dc5780dccd9')
+            '11e0078c5ac7cdafa625957a9da982989efe19719e4973cd77f28dc5780dccd9'
+            'c87a4dd373f255381780f8860026481dd2a28036f1377af5b26e16486ed70621'
+            '843ad07d4a996ad165f20544c5df5b6deec4496ec30daa38b874bf3fa28afa54')
 
 if $_staging; then
     source+=(0001-use-snprintf-instead-of-sprintf.patch)
     source+=(78cd453.patch)
-    source+=(https://raw.githubusercontent.com/vnepogodin/my-patches/develop/pacman/0001-libalpm-parallel-signature-check.patch)
+    #source+=(https://raw.githubusercontent.com/vnepogodin/my-patches/develop/pacman/0001-libalpm-parallel-signature-check.patch)
 fi
 
 prepare() {
