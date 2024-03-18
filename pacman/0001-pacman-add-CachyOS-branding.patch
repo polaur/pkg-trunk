@@ -1,6 +1,6 @@
-From 5fcc677dea08cf66fd72d6cefd3b68e6f0125e8f Mon Sep 17 00:00:00 2001
+From ef06de62981da2e102eac95c664647c376862e7e Mon Sep 17 00:00:00 2001
 From: Piotr Gorski <lucjan.lucjanov@gmail.com>
-Date: Sat, 16 Mar 2024 15:11:12 +0100
+Date: Mon, 18 Mar 2024 09:18:22 +0100
 Subject: [PATCH] pacman: add CachyOS branding
 
 Signed-off-by: Piotr Gorski <lucjan.lucjanov@gmail.com>
@@ -26,10 +26,14 @@ Signed-off-by: Piotr Gorski <lucjan.lucjanov@gmail.com>
  src/pacman/conf.c                             |  20 +-
  src/pacman/meson.build                        |   1 +
  src/pacman/package.c                          |   6 +
+ src/pacman/po/de.po                           |   5 +
+ src/pacman/po/pacman.pot                      |   5 +
+ src/pacman/po/pl.po                           |   5 +
+ src/pacman/po/ru.po                           |   5 +
  src/pacman/sync.c                             |   6 +
  src/pacman/update-notice.c                    | 264 ++++++++++
  src/pacman/update-notice.h                    |  26 +
- 24 files changed, 1058 insertions(+), 10 deletions(-)
+ 28 files changed, 1078 insertions(+), 10 deletions(-)
  create mode 100644 lib/libalpm/cpu_capabilities.c
  create mode 100644 src/common/jsmn.h
  create mode 100644 src/pacman/update-notice.c
@@ -1146,6 +1150,70 @@ index b832663..dd12262 100644
  	string_display(titles[T_NAME], alpm_pkg_get_name(pkg), cols);
  	string_display(titles[T_VERSION], alpm_pkg_get_version(pkg), cols);
  	string_display(titles[T_DESCRIPTION], alpm_pkg_get_desc(pkg), cols);
+diff --git a/src/pacman/po/de.po b/src/pacman/po/de.po
+index 6106fc5..971c7d8 100644
+--- a/src/pacman/po/de.po
++++ b/src/pacman/po/de.po
+@@ -735,6 +735,11 @@ msgstr "Repositorium"
+ msgid "Required By"
+ msgstr "Benötigt von"
+ 
++#: src/pacman/package.c:122
++#, c-format
++msgid "Installed From"
++msgstr "Installiert von"
++
+ #: src/pacman/package.c:122 src/pacman/package.c:242
+ #, c-format
+ msgid "SHA-256 Sum"
+diff --git a/src/pacman/po/pacman.pot b/src/pacman/po/pacman.pot
+index a5116a5..373852a 100644
+--- a/src/pacman/po/pacman.pot
++++ b/src/pacman/po/pacman.pot
+@@ -673,6 +673,11 @@ msgstr ""
+ msgid "Required By"
+ msgstr ""
+ 
++#: src/pacman/package.c:122
++#, c-format
++msgid "Installed From"
++msgstr ""
++
+ #: src/pacman/package.c:122 src/pacman/package.c:242
+ #, c-format
+ msgid "SHA-256 Sum"
+diff --git a/src/pacman/po/pl.po b/src/pacman/po/pl.po
+index 044e66d..dc4c70d 100644
+--- a/src/pacman/po/pl.po
++++ b/src/pacman/po/pl.po
+@@ -729,6 +729,11 @@ msgstr "Repozytorium"
+ msgid "Required By"
+ msgstr "Wymagany przez"
+ 
++#: src/pacman/package.c:122
++#, c-format
++msgid "Installed From"
++msgstr "Zainstalowano z"
++
+ #: src/pacman/package.c:122 src/pacman/package.c:242
+ #, c-format
+ msgid "SHA-256 Sum"
+diff --git a/src/pacman/po/ru.po b/src/pacman/po/ru.po
+index e085dc2..87cf347 100644
+--- a/src/pacman/po/ru.po
++++ b/src/pacman/po/ru.po
+@@ -717,6 +717,11 @@ msgstr "Репозиторий"
+ msgid "Required By"
+ msgstr "Требуется"
+ 
++#: src/pacman/package.c:122
++#, c-format
++msgid "Installed From"
++msgstr "Установлен из"
++
+ #: src/pacman/package.c:122 src/pacman/package.c:242
+ #, c-format
+ msgid "SHA-256 Sum"
 diff --git a/src/pacman/sync.c b/src/pacman/sync.c
 index 95340db..af97e80 100644
 --- a/src/pacman/sync.c
