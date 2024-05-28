@@ -5,7 +5,7 @@
 pkgname=devtools
 epoch=1
 pkgver=1.2.0
-pkgrel=1.1
+pkgrel=1.2
 pkgdesc='Tools for Arch Linux package maintainers'
 arch=('any')
 license=('GPL-3.0-or-later')
@@ -57,11 +57,11 @@ validpgpkeys=(
 sha256sums=('5407d412f0a29229c8eeebea6b95811ceb24749910ac4189e3a74798c13c6822'
             'SKIP'
             'd1fca1843a10d076f00a92b4e15aa0c9ac8762489fb9a5f061b78109ecbf52a7'
-            '485fe50aeb635034625402e4592d2156869e746ff0ffd166c6272969f3577309')
+            '9b6100b13aed6f5731cdcb8f4fb56fa44be3b16eff7a31e33451985c2a793fa9')
 b2sums=('86c1d470bc5b4db8ee757da05a7af72ab80844a12f4d2f338deb4fe1aa2bc9d66d3018d05e5d7898687fb3caa4d9299c746434742ec089739801731b50002c17'
         'SKIP'
         '1ada7cb8ded047720a40bde50a7f82275371c2fba54be77234579fdcdc17c4cff3f345106f5da01fa41e6ece6935fde88da95d18a4cf22cbfcfbdfd0fa8e2596'
-        '8d37227b88db3764ba4d56eabd88a08bef344ea413adf7fcfc6a4f61d9ca7472243ebb352e7734ac13ccaf1c7babf32c7e8291ac4ea2dfbe76bd427a07b3dacd')
+        '05d9297e53c243daecdc6c0726e7912c7f3ae49ad534d364afb54e5de8a46229cbdf5d413f212c69ea31a5d340c7e2ac9e6cec66077cf0ac3792d55c1fe8b67d')
 
 prepare() {
   cd ${pkgname}-${pkgver}
