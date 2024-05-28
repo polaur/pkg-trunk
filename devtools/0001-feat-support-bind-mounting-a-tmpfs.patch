@@ -1,0 +1,170 @@
+From 5f198534144f09d09f9e4c0541d8da15f8c1aed3 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?=E4=BE=9D=E4=BA=91?= <lilydjwg@gmail.com>
+Date: Sat, 14 Jan 2023 00:44:55 +0800
+Subject: [PATCH] feat: support bind mounting a tmpfs
+
+A .cache can be bind mounted into the container to save the caches for
+reuse, but sometimes we want to exclude specific caches (because they
+don't work well, e.g. bazel's).
+
+Component: makechrootpkg
+---
+ contrib/completion/bash/devtools.in |  2 ++
+ contrib/completion/zsh/_devtools.in |  1 +
+ doc/man/makechrootpkg.1.asciidoc    |  7 +++++
+ src/makechrootpkg.in                | 44 ++++++++++++++++-------------
+ 4 files changed, 34 insertions(+), 20 deletions(-)
+
+diff --git a/contrib/completion/bash/devtools.in b/contrib/completion/bash/devtools.in
+index 4073efe..9025b46 100644
+--- a/contrib/completion/bash/devtools.in
++++ b/contrib/completion/bash/devtools.in
+@@ -27,6 +27,7 @@ _makechrootpkg_args=(
+ 	-I
+ 	-l
+ 	-n
++	-t
+ 	-T
+ 	-U
+ 	-x
+@@ -36,6 +37,7 @@ _makechrootpkg_args_D_opts() { _filedir -d; }
+ _makechrootpkg_args_r_opts() { _filedir -d; }
+ _makechrootpkg_args_I_opts() { _filedir '*.pkg.tar.*'; }
+ _makechrootpkg_args_l_opts() { _filedir -d; }
++_makechrootpkg_args_t_opts() { _filedir -d; }
+ _makechrootpkg_args_U_opts() { :; }
+ _makechrootpkg_args_x_opts() { _devtools_completions_inspect; }
+ _makechrootpkg() { __devtools_complete _makechrootpkg; }
+diff --git a/contrib/completion/zsh/_devtools.in b/contrib/completion/zsh/_devtools.in
+index d38733f..5c1b264 100644
+--- a/contrib/completion/zsh/_devtools.in
++++ b/contrib/completion/zsh/_devtools.in
+@@ -222,6 +222,7 @@ _makechrootpkg_args=(
+ 	'-c[Clean the chroot before building]'
+ 	'*-d[Bind directory into build chroot as read-write]:bind_dir_rw:_files -/'
+ 	'*-D[Bind directory into build chroot as read-only]:bind_dir_ro:_files -/'
++	'*-t[Mount a tmpfs at directory]:tmpfs_dir:_files -/'
+ 	'-u[Update the working copy of the chroot before building]'
+ 	'-r[The chroot dir to use]:chroot_dir:_files -/'
+ 	'*-I[Install a package into the working copy]:target:_files -g "*.pkg.tar.*(.)"'
+diff --git a/doc/man/makechrootpkg.1.asciidoc b/doc/man/makechrootpkg.1.asciidoc
+index 3aa1be5..34ba199 100644
+--- a/doc/man/makechrootpkg.1.asciidoc
++++ b/doc/man/makechrootpkg.1.asciidoc
+@@ -45,6 +45,9 @@ Options
+ *-D* <dir>::
+ 	Bind directory into build chroot as read-only
+ 
++*-t* <dir>[:opts]::
++	Mount a tmpfs at 'dir'. See the '--tmpfs' argument in systemd-nspawn(1) for more details.
++
+ *-u*::
+ 	Update the working copy of the chroot before building
+ 	This is useful for rebuilds without dirtying the pristine
+@@ -76,5 +79,9 @@ Options
+ *-x* <when>::
+ 	Inspect chroot after build, possible modes are 'never' (default), 'always' or 'failure'
+ 
++See Also
++--------
++
++systemd-nspawn(1)
+ 
+ include::include/footer.asciidoc[]
+diff --git a/src/makechrootpkg.in b/src/makechrootpkg.in
+index 459f7ce..9df14e8 100644
+--- a/src/makechrootpkg.in
++++ b/src/makechrootpkg.in
+@@ -38,6 +38,7 @@ inspect=never
+ 
+ bindmounts_ro=()
+ bindmounts_rw=()
++bindmounts_tmpfs=()
+ 
+ copy=$USER
+ [[ -n ${SUDO_USER:-} ]] && copy=$SUDO_USER
+@@ -65,23 +66,24 @@ usage() {
+ 	echo "Default makepkg args: ${default_makepkg_args[*]}"
+ 	echo ''
+ 	echo 'Flags:'
+-	echo '-h         This help'
+-	echo '-c         Clean the chroot before building'
+-	echo '-d <dir>   Bind directory into build chroot as read-write'
+-	echo '-D <dir>   Bind directory into build chroot as read-only'
+-	echo '-u         Update the working copy of the chroot before building'
+-	echo '           This is useful for rebuilds without dirtying the pristine'
+-	echo '           chroot'
+-	echo '-r <dir>   The chroot dir to use'
+-	echo '-I <pkg>   Install a package into the working copy of the chroot'
+-	echo '-l <copy>  The directory to use as the working copy of the chroot'
+-	echo '           Useful for maintaining multiple copies'
+-	echo "           Default: $copy"
+-	echo '-n         Run namcap on the package'
+-	echo '-C         Run checkpkg on the package'
+-	echo '-T         Build in a temporary directory'
+-	echo '-U         Run makepkg as a specified user'
+-	echo '-x <when>  Inspect chroot after build (never, always, failure)'
++	echo '-h                This help'
++	echo '-c                Clean the chroot before building'
++	echo '-d <dir>          Bind directory into build chroot as read-write'
++	echo '-D <dir>          Bind directory into build chroot as read-only'
++	echo '-t <dir[:opts]>   Mount a tmpfs at directory'
++	echo '-u                Update the working copy of the chroot before building'
++	echo '                  This is useful for rebuilds without dirtying the pristine'
++	echo '                  chroot'
++	echo '-r <dir>          The chroot dir to use'
++	echo '-I <pkg>          Install a package into the working copy of the chroot'
++	echo '-l <copy>         The directory to use as the working copy of the chroot'
++	echo '                  Useful for maintaining multiple copies'
++	echo "                  Default: $copy"
++	echo '-n                Run namcap on the package'
++	echo '-C                Run checkpkg on the package'
++	echo '-T                Build in a temporary directory'
++	echo '-U                Run makepkg as a specified user'
++	echo '-x <when>         Inspect chroot after build (never, always, failure)'
+ 	exit 1
+ }
+ 
+@@ -148,7 +150,7 @@ install_packages() {
+ 	pkgnames=("${install_pkgs[@]##*/}")
+ 
+ 	cp -- "${install_pkgs[@]}" "$copydir/root/"
+-	arch-nspawn "$copydir" "${bindmounts_ro[@]}" "${bindmounts_rw[@]}" \
++	arch-nspawn "$copydir" "${bindmounts_ro[@]}" "${bindmounts_rw[@]}" "${bindmounts_tmpfs[@]}" \
+ 		pacman -U --noconfirm --ask=4 -- "${pkgnames[@]/#//root/}"
+ 	ret=$?
+ 	rm -- "${pkgnames[@]/#/$copydir/root/}"
+@@ -291,11 +293,12 @@ move_products() {
+ }
+ # }}}
+ 
+-while getopts 'hcur:I:l:nCTD:d:U:x:' arg; do
++while getopts 'hcur:I:l:nCTD:d:U:x:t:' arg; do
+ 	case "$arg" in
+ 		c) clean_first=1 ;;
+ 		D) bindmounts_ro+=("--bind-ro=$OPTARG") ;;
+ 		d) bindmounts_rw+=("--bind=$OPTARG") ;;
++		t) bindmounts_tmpfs+=("--tmpfs=$OPTARG") ;;
+ 		u) update_first=1 ;;
+ 		r) passeddir="$OPTARG" ;;
+ 		I) install_pkgs+=("$OPTARG") ;;
+@@ -365,7 +368,7 @@ if [[ ! -d $copydir ]] || (( clean_first )); then
+ fi
+ 
+ (( update_first )) && arch-nspawn "$copydir" \
+-		"${bindmounts_ro[@]}" "${bindmounts_rw[@]}" \
++		"${bindmounts_ro[@]}" "${bindmounts_rw[@]}" "${bindmounts_tmpfs[@]}" \
+ 		pacman -Syuu --noconfirm
+ 
+ if [[ -n ${install_pkgs[*]:-} ]]; then
+@@ -390,6 +393,7 @@ nspawn_build_args=(
+ 	--tmpfs="/tmp:${tmp_opts}"
+ 	"${bindmounts_ro[@]}"
+ 	"${bindmounts_rw[@]}"
++	"${bindmounts_tmpfs[@]}"
+ )
+ 
+ if arch-nspawn "$copydir" \
+-- 
+2.45.1.145.g83f1add914
+
