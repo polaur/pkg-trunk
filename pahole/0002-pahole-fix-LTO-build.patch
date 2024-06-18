@@ -1,0 +1,25 @@
+From 8280e3f3b68a374698188535d118f55f595066d7 Mon Sep 17 00:00:00 2001
+From: Piotr Gorski <lucjan.lucjanov@gmail.com>
+Date: Mon, 17 Jun 2024 23:01:43 +0200
+Subject: [PATCH] pahole: fix LTO build
+
+Signed-off-by: Piotr Gorski <lucjan.lucjanov@gmail.com>
+---
+ dwarves.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/dwarves.c b/dwarves.c
+index 1ec259f..823a015 100644
+--- a/dwarves.c
++++ b/dwarves.c
+@@ -739,6 +739,7 @@ struct cu *cu__new(const char *name, uint8_t addr_size,
+ 		cu->dfops	= NULL;
+ 		INIT_LIST_HEAD(&cu->tags);
+ 		INIT_LIST_HEAD(&cu->tool_list);
++		INIT_LIST_HEAD(&cu->node);
+ 
+ 		cu->addr_size = addr_size;
+ 		cu->extra_dbg_info = 0;
+-- 
+2.45.1.145.g83f1add914
+
