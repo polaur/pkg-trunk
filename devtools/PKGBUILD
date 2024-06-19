@@ -4,8 +4,8 @@
 
 pkgname=devtools
 epoch=1
-pkgver=1.2.0
-pkgrel=1.2
+pkgver=1.2.1
+pkgrel=1.1
 pkgdesc='Tools for Arch Linux package maintainers'
 arch=('any')
 license=('GPL-3.0-or-later')
@@ -48,19 +48,16 @@ optdepends=(
 )
 replaces=(devtools-git-poc)
 source=(https://gitlab.archlinux.org/archlinux/devtools/-/releases/v${pkgver}/downloads/devtools-${pkgver}.tar.gz{,.sig}
-       0001-feat-support-bind-mounting-a-tmpfs.patch
-       0002-makechrootpkg-add-paccache-flag.patch)
+       0001-makechrootpkg-add-paccache-flag.patch)
 validpgpkeys=(
   'E240B57E2C4630BA768E2F26FC1B547C8D8172C8' # Levente Polyak <anthraxx@archlinux.org>
   'F00B96D15228013FFC9C9D0393B11DAA4C197E3D' # Christian Heusel (gromit packager key) <gromit@archlinux.org>
 )
-sha256sums=('5407d412f0a29229c8eeebea6b95811ceb24749910ac4189e3a74798c13c6822'
+sha256sums=('a484d13823c8eb5246ad97325f60c9fcddaacb698d685793c018272eeb440f25'
             'SKIP'
-            'd1fca1843a10d076f00a92b4e15aa0c9ac8762489fb9a5f061b78109ecbf52a7'
             '9b6100b13aed6f5731cdcb8f4fb56fa44be3b16eff7a31e33451985c2a793fa9')
-b2sums=('86c1d470bc5b4db8ee757da05a7af72ab80844a12f4d2f338deb4fe1aa2bc9d66d3018d05e5d7898687fb3caa4d9299c746434742ec089739801731b50002c17'
+b2sums=('8a864388619c40b8093b1af184aa157c1fc12ae1788f7d2b38f7b9f36d2fabbe0f2afdf1e300ca4d760fe4c8e9de5305d9bde4b5d3825f19c3845b13ef5f6f63'
         'SKIP'
-        '1ada7cb8ded047720a40bde50a7f82275371c2fba54be77234579fdcdc17c4cff3f345106f5da01fa41e6ece6935fde88da95d18a4cf22cbfcfbdfd0fa8e2596'
         '05d9297e53c243daecdc6c0726e7912c7f3ae49ad534d364afb54e5de8a46229cbdf5d413f212c69ea31a5d340c7e2ac9e6cec66077cf0ac3792d55c1fe8b67d')
 
 prepare() {
