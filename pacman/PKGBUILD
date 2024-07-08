@@ -16,7 +16,7 @@ _sqlitever=$(curl -s 'https://archlinux.org/packages/search/json/?name=sqlite' |
     else { printf "00" }
 }')
 
-pkgrel=3.9
+pkgrel=3.10
 pkgdesc="A library-based package manager with dependency support. CachyOS fork."
 arch=('x86_64')
 url="https://www.archlinux.org/pacman/"
@@ -35,7 +35,7 @@ options=('strip') #'!lto' -- should we put no lto here??
 #              'B8151B117037781095514CA7BBDFFC92306B1121') # Andrew Gregory (pacman) <andrew@archlinux.org>
 _commit="2f3dda35d764e4a5cbbc66cb558e47221313e0c0"
 if $_staging; then
-    _commit="362b7635a01432fd175e1f864ca173d3ebd2e265"
+    _commit="1d910d41c9b598185e061369c977d8abd4a6e7e3"
 fi
 source=(
 #       https://sources.archlinux.org/other/pacman/$pkgname-$_pkgver.tar.xz{,.sig}
@@ -46,7 +46,7 @@ source=(
         "https://www.sqlite.org/2024/sqlite-src-${_sqlitever}.zip"
         disable-always-stale.patch
         )
-sha256sums=('aeee526d6f5a4296c8159f93cc6ef90b99d42b242b9f24e96af69c85ab0e70af'
+sha256sums=('b725ff854866af99f3edb1c1ee070ba3a59b0e3575a933810a44c64f6d59489f'
             '47f4ba578b1a6a3291cb65a6f60ab8c4871ae45bbe93da308a595a447ed9ad9d'
             'adf56ce97b0e0639804ee32123eedefb2de6f65ac9a9cc1f7566ed768f4c16c1'
             'bdd8fb13c1cd8606f41347bc1897e261031ac80b33c772d310f417064332f646'
