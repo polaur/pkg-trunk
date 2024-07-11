@@ -33,13 +33,13 @@ backup=(etc/pacman.conf
 options=('strip') #'!lto' -- should we put no lto here??
 #validpgpkeys=('6645B0A8C7005E78DB1D7864F99FFE0FEAE999BD'  # Allan McRae <allan@archlinux.org>
 #              'B8151B117037781095514CA7BBDFFC92306B1121') # Andrew Gregory (pacman) <andrew@archlinux.org>
-_commit="2f3dda35d764e4a5cbbc66cb558e47221313e0c0"
+_commit="bac6d9f0ac1c3d22cf471599b7fd8ef6ede48952"
 if $_staging; then
     _commit="1d910d41c9b598185e061369c977d8abd4a6e7e3"
 fi
 source=(
 #       https://sources.archlinux.org/other/pacman/$pkgname-$_pkgver.tar.xz{,.sig}
-        git+https://github.com/CachyOS/pacman.git#commit=${_commit}
+        git+https://github.com/CachyOS/pacman.git#commit=${_commit}?signed
         "pacman.conf"
         "makepkg.conf"
         static_sqlite.patch
@@ -52,6 +52,9 @@ sha256sums=('b725ff854866af99f3edb1c1ee070ba3a59b0e3575a933810a44c64f6d59489f'
             'bdd8fb13c1cd8606f41347bc1897e261031ac80b33c772d310f417064332f646'
             '070362109beb6899f65797571b98b8824c8f437f5b2926f88ee068d98ef368ec'
             '11e0078c5ac7cdafa625957a9da982989efe19719e4973cd77f28dc5780dccd9')
+validpgpkeys=(
+  'B1B70BB1CD56047DEF31DE2EB62C3D10C54D5DA9'  # Vladislav Nepogodin <nepogodin.vlad@gmail.com>
+)
 
 #if $_staging; then
     #source+=(https://raw.githubusercontent.com/vnepogodin/my-patches/develop/pacman/0001-libalpm-parallel-signature-check.patch)
