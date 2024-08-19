@@ -5,62 +5,87 @@
 # Maintainer: Vladislav Nepogodin (vnepogodin) <nepogodin.vlad@gmail.com>
 # Maintainer: Piotr Gorski <piotrgorski@cachyos.org>
 # Maintainer: Peter Jung ptr1337 <admin@ptr1337.dev>
+# Maintainer: SoulHarsh007 <admin@soulharsh007.dev>
 
-_staging=true
+_staging=false
 pkgname=pacman
-pkgver=6.1.0
-_pkgver=6.1.0
+pkgver=7.0.0.r2.g6393505
 _sqlitever=$(curl -s 'https://archlinux.org/packages/search/json/?name=sqlite' | grep -oP '"pkgver":\s*"\K[^"]+' | head -n 1 | awk -F. '{
     printf "%d%02d%02d", $1, $2, $3;
     if (NF == 4) { printf "%02d", $4 }
     else { printf "00" }
 }')
-
-pkgrel=3.12
+pkgrel=1.1
 pkgdesc="A library-based package manager with dependency support. CachyOS fork."
-arch=('x86_64')
+arch=('x86_64' 'aarch64')
 url="https://www.archlinux.org/pacman/"
 license=('GPL-2.0-or-later')
-depends=('bash' 'glibc' 'libarchive' 'curl' 'gpgme' 'pacman-mirrorlist'
-         'gettext' 'gawk' 'coreutils' 'gnupg' 'grep' 'debugedit')
-makedepends=('meson' 'asciidoc' 'doxygen' 'git' 'curl' 'unzip'
-             'cmake' 'rust' 'clang' 'llvm' 'tcl')
-checkdepends=('python' 'fakechroot')
-optdepends=('perl-locale-gettext: translation support in makepkg-template')
+depends=(
+  bash
+  coreutils
+  curl
+  gawk
+  gettext
+  glibc
+  gnupg
+  gpgme
+  grep
+  libarchive
+  pacman-mirrorlist
+  systemd
+)
+makedepends=(
+  asciidoc
+  doxygen
+  git
+  meson
+
+  # our specific depends, due to building with llvm stack and static sqlite
+  tcl
+  cmake
+  cargo
+  clang
+  llvm
+)
+checkdepends=(
+  fakechroot
+  python
+)
+optdepends=(
+  'perl-locale-gettext: translation support in makepkg-template'
+)
 provides=('libalpm.so')
 backup=(etc/pacman.conf
         etc/makepkg.conf)
-options=('strip') #'!lto' -- should we put no lto here??
+#options=('!lto') -- should we put no lto here??
 #validpgpkeys=('6645B0A8C7005E78DB1D7864F99FFE0FEAE999BD'  # Allan McRae <allan@archlinux.org>
 #              'B8151B117037781095514CA7BBDFFC92306B1121') # Andrew Gregory (pacman) <andrew@archlinux.org>
-_commit="bac6d9f0ac1c3d22cf471599b7fd8ef6ede48952"
-if $_staging; then
-    _commit="b3959a8f52cf89886fe38ca91c2776949d824608"
-fi
-source=(
-#       https://sources.archlinux.org/other/pacman/$pkgname-$_pkgver.tar.xz{,.sig}
-        git+https://github.com/CachyOS/pacman.git#commit=${_commit}?signed
-        "pacman.conf"
-        "makepkg.conf"
+_commit="639350593fdc006e38756b4590935d1dbd17bc73"
+source=("git+https://github.com/CachyOS/pacman.git#commit=${_commit}?signed"
+        pacman.conf
+        makepkg.conf
+        alpm.sysusers
         static_sqlite.patch
         "https://www.sqlite.org/2024/sqlite-src-${_sqlitever}.zip"
-        0001-Revert-_alpm_archive_fgets-bail-early-if-reached-end.patch
         disable-always-stale.patch
         )
-sha256sums=('dba563738c6a6607a9b28a6f8355acbc7407ad504fcdd2ca6a68628fce01d225'
-            '47f4ba578b1a6a3291cb65a6f60ab8c4871ae45bbe93da308a595a447ed9ad9d'
+source_aarch64=(fix-alpm-crate-for-aarch64.patch)
+sha256sums=('0fda98d94d2e26211870c102711d4be50256144720937d188e291e8dbb1fd310'
+            'bc80e9d0439caddd29b99a69b5060b5589cad2398c23abc5b2b8b990fae6ad8c'
             'adf56ce97b0e0639804ee32123eedefb2de6f65ac9a9cc1f7566ed768f4c16c1'
+            'c8760d7ebb6c9817d508c691c67084be251cd9c8811ee1ccf92c1278bad74c1c'
             'bdd8fb13c1cd8606f41347bc1897e261031ac80b33c772d310f417064332f646'
-            '070362109beb6899f65797571b98b8824c8f437f5b2926f88ee068d98ef368ec'
-            'd9077997d9fab1026aeeacde5e019b49331b04e66504c5111fdccac5810d7bc3'
+            'def3fc292eb9ecc444f6c1950e5c79d8462ed5e7b3d605fd6152d145e1d5abb4'
             '11e0078c5ac7cdafa625957a9da982989efe19719e4973cd77f28dc5780dccd9')
+sha256sums_aarch64=('98af0b680561b4430c0290d461d28a03b7178cce6b62880c7d0803473bfa543c')
 validpgpkeys=(
   'B1B70BB1CD56047DEF31DE2EB62C3D10C54D5DA9'  # Vladislav Nepogodin <nepogodin.vlad@gmail.com>
 )
 
-#if $_staging; then
-    #source+=(https://raw.githubusercontent.com/vnepogodin/my-patches/develop/pacman/0001-libalpm-parallel-signature-check.patch)
-#fi
+pkgver() {
+  cd "$pkgname"
+  git describe --abbrev=7 --tags --match 'v*' | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
+}
 
 prepare() {
   cd "${pkgname}"
@@ -82,12 +107,6 @@ build() {
   export CXX=clang++
   export NM=llvm-nm
   export RANLIB=llvm-ranlib
-
-  #if ! rustc --version | grep stable >/dev/null 2>&1; then
-  #  echo "Installing stable compiler…"
-  #  rustup toolchain install stable
-  #  rustup default stable
-  #fi
 
   local _saved_cflags="${CFLAGS}"
   local _saved_cppflags="${CPPFLAGS}"
@@ -187,6 +206,7 @@ package() {
   install -dm755 "$pkgdir/etc"
   install -m644 "$srcdir/pacman.conf" "$pkgdir/etc"
   install -m644 "$srcdir/makepkg.conf" "$pkgdir/etc"
+  install -D -m644 "$srcdir/alpm.sysusers" "${pkgdir}"/usr/lib/sysusers.d/alpm.conf
 
   local wantsdir="$pkgdir/usr/lib/systemd/system/sockets.target.wants"
   install -dm755 "$wantsdir"
