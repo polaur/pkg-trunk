@@ -15,7 +15,7 @@ _sqlitever=$(curl -s 'https://archlinux.org/packages/search/json/?name=sqlite' |
     if (NF == 4) { printf "%02d", $4 }
     else { printf "00" }
 }')
-pkgrel=1.2
+pkgrel=2
 pkgdesc="A library-based package manager with dependency support. CachyOS fork."
 arch=('x86_64' 'aarch64')
 url="https://www.archlinux.org/pacman/"
@@ -52,11 +52,13 @@ checkdepends=(
   python
 )
 optdepends=(
+  'base-devel: required to use makepkg'
   'perl-locale-gettext: translation support in makepkg-template'
 )
 provides=('libalpm.so')
 backup=(etc/pacman.conf
-        etc/makepkg.conf)
+        etc/makepkg.conf
+        etc/makepkg.conf.d/rust.conf)
 #options=('!lto') -- should we put no lto here??
 #validpgpkeys=('6645B0A8C7005E78DB1D7864F99FFE0FEAE999BD'  # Allan McRae <allan@archlinux.org>
 #              'B8151B117037781095514CA7BBDFFC92306B1121') # Andrew Gregory (pacman) <andrew@archlinux.org>
@@ -65,24 +67,29 @@ source=("git+https://github.com/CachyOS/pacman.git#commit=${_commit}?signed"
         pacman.conf
         makepkg.conf
         alpm.sysusers
+        rust.conf
         static_sqlite.patch
         "https://www.sqlite.org/2024/sqlite-src-${_sqlitever}.zip"
         disable-always-stale.patch
-        fix-alpm-crate-version.patch
         )
 source_aarch64=(fix-alpm-crate-for-aarch64.patch)
 sha256sums=('0fda98d94d2e26211870c102711d4be50256144720937d188e291e8dbb1fd310'
             'bc80e9d0439caddd29b99a69b5060b5589cad2398c23abc5b2b8b990fae6ad8c'
-            'adf56ce97b0e0639804ee32123eedefb2de6f65ac9a9cc1f7566ed768f4c16c1'
+            'ce794bf0d8a9b1cb2637188516ce39e3559b2b027c47e94ea388991d33461d89'
             'c8760d7ebb6c9817d508c691c67084be251cd9c8811ee1ccf92c1278bad74c1c'
+            'b31dc7a2789d7fb99a56cc5a9d915c3d57e01233bf258731392afe44b1bf8e40'
             'bdd8fb13c1cd8606f41347bc1897e261031ac80b33c772d310f417064332f646'
             'def3fc292eb9ecc444f6c1950e5c79d8462ed5e7b3d605fd6152d145e1d5abb4'
-            '11e0078c5ac7cdafa625957a9da982989efe19719e4973cd77f28dc5780dccd9'
-            'e425694b10c91e2055e01cc2f5d945ca10ae8284b44eb8cc974f2b9e3aa4d1c7')
+            '11e0078c5ac7cdafa625957a9da982989efe19719e4973cd77f28dc5780dccd9')
 sha256sums_aarch64=('98af0b680561b4430c0290d461d28a03b7178cce6b62880c7d0803473bfa543c')
 validpgpkeys=(
   'B1B70BB1CD56047DEF31DE2EB62C3D10C54D5DA9'  # Vladislav Nepogodin <nepogodin.vlad@gmail.com>
 )
+
+if $_staging; then
+    source+=(78cd453.patch)
+    #source+=(https://raw.githubusercontent.com/vnepogodin/my-patches/develop/pacman/0001-libalpm-parallel-signature-check.patch)
+fi
 
 pkgver() {
   cd "$pkgname"
@@ -209,6 +216,7 @@ package() {
   install -m644 "$srcdir/pacman.conf" "$pkgdir/etc"
   install -m644 "$srcdir/makepkg.conf" "$pkgdir/etc"
   install -D -m644 "$srcdir/alpm.sysusers" "${pkgdir}"/usr/lib/sysusers.d/alpm.conf
+  install -m644 "$srcdir/rust.conf" "$pkgdir/etc/makepkg.conf.d"
 
   local wantsdir="$pkgdir/usr/lib/systemd/system/sockets.target.wants"
   install -dm755 "$wantsdir"
