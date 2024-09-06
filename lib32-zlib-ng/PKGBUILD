@@ -9,7 +9,7 @@ pkgname=(
   $pkgbase-compat
 )
 pkgver=2.2.1
-pkgrel=1.1
+pkgrel=1.2
 pkgdesc='zlib replacement with optimizations for next generation systems - 32-bit'
 url='https://github.com/zlib-ng/zlib-ng'
 arch=('x86_64')
@@ -84,7 +84,7 @@ package_lib32-zlib-ng() {
 package_lib32-zlib-ng-compat() {
   pkgdesc+=" (zlib compat)"
   provides=('lib32-zlib' 'libz.so')
-  conflicts=(lib32-zlib)
+  replaces=('lib32-zlib')
 
   cd "zlib-ng-${pkgver}"
   DESTDIR="${pkgdir}" cmake --install build-compat
@@ -93,3 +93,5 @@ package_lib32-zlib-ng-compat() {
 
   rm -rf "$pkgdir"/usr/include
 }
+
+# vim: ts=2 sw=2 et:
