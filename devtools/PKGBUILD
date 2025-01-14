@@ -4,8 +4,8 @@
 
 pkgname=devtools
 epoch=1
-pkgver=1.2.1
-pkgrel=1.1
+pkgver=1.3.0
+pkgrel=1.3
 pkgdesc='Tools for Arch Linux package maintainers'
 arch=('any')
 license=('GPL-3.0-or-later')
@@ -21,7 +21,9 @@ depends=(
   expac
   fakeroot
   findutils
+  glow
   grep
+  gum
   jq
   openssh
   parallel
@@ -48,30 +50,23 @@ optdepends=(
 )
 replaces=(devtools-git-poc)
 source=(https://gitlab.archlinux.org/archlinux/devtools/-/releases/v${pkgver}/downloads/devtools-${pkgver}.tar.gz{,.sig}
-       0001-makechrootpkg-add-paccache-flag.patch)
+        0001-makechrootpkg-add-paccache-flag.patch)
 validpgpkeys=(
   'E240B57E2C4630BA768E2F26FC1B547C8D8172C8' # Levente Polyak <anthraxx@archlinux.org>
   'F00B96D15228013FFC9C9D0393B11DAA4C197E3D' # Christian Heusel (gromit packager key) <gromit@archlinux.org>
 )
-sha256sums=('a484d13823c8eb5246ad97325f60c9fcddaacb698d685793c018272eeb440f25'
+sha256sums=('537c2b7d362e6d0cb919358305a83e65dbf2dc8b5cedcf4b927702ad67411794'
             'SKIP'
-            '9b6100b13aed6f5731cdcb8f4fb56fa44be3b16eff7a31e33451985c2a793fa9')
-b2sums=('8a864388619c40b8093b1af184aa157c1fc12ae1788f7d2b38f7b9f36d2fabbe0f2afdf1e300ca4d760fe4c8e9de5305d9bde4b5d3825f19c3845b13ef5f6f63'
+            '67c5d64910de52550f3fc3edd4c1b61effefed30b21c6e738be49274f2c782b3')
+b2sums=('40c2f8fb81a939a027b772f215b31c73d7f8003415335e5c2667589f0e5ddd786e627f4812687fbceff26c1a0f212e20b48402ba2d9d7561502ab16fc8ae0a07'
         'SKIP'
-        '05d9297e53c243daecdc6c0726e7912c7f3ae49ad534d364afb54e5de8a46229cbdf5d413f212c69ea31a5d340c7e2ac9e6cec66077cf0ac3792d55c1fe8b67d')
+        '890b835f27995fd3eff512d035140b01efa5d14475dd2dfee2f9c0046e42ecf462a30a5fd2d0c79d4c6aa50144a186f018037d0ebd049deca88c8abe40ee0d8d')
 
 prepare() {
   cd ${pkgname}-${pkgver}
-  # we backport way too often in pacman
-  # lets at least make it more convenient
-  local src
-  for src in "${source[@]}"; do
-    src="${src%%::*}"
-    src="${src##*/}"
-    [[ $src = *.patch ]] || continue
-    msg2 "Applying patch $src..."
-    patch -Np1 < "../$src"
-  done
+
+  # makechrootpkg: add paccache flag
+  patch -Np1 -i ../0001-makechrootpkg-add-paccache-flag.patch
 }
 
 build() {
