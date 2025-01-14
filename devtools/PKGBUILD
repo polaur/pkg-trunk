@@ -4,8 +4,8 @@
 
 pkgname=devtools
 epoch=1
-pkgver=1.3.0
-pkgrel=1.3
+pkgver=1.3.1
+pkgrel=1.1
 pkgdesc='Tools for Arch Linux package maintainers'
 arch=('any')
 license=('GPL-3.0-or-later')
@@ -55,10 +55,10 @@ validpgpkeys=(
   'E240B57E2C4630BA768E2F26FC1B547C8D8172C8' # Levente Polyak <anthraxx@archlinux.org>
   'F00B96D15228013FFC9C9D0393B11DAA4C197E3D' # Christian Heusel (gromit packager key) <gromit@archlinux.org>
 )
-sha256sums=('537c2b7d362e6d0cb919358305a83e65dbf2dc8b5cedcf4b927702ad67411794'
+sha256sums=('26fbea00ec92ab232b54a5e4ff0ddf64dda54bcaab32a4820e313a534df63ac1'
             'SKIP'
             '67c5d64910de52550f3fc3edd4c1b61effefed30b21c6e738be49274f2c782b3')
-b2sums=('40c2f8fb81a939a027b772f215b31c73d7f8003415335e5c2667589f0e5ddd786e627f4812687fbceff26c1a0f212e20b48402ba2d9d7561502ab16fc8ae0a07'
+b2sums=('861397ca10463bcfed75c50b978a2fc83af930c0f37f90a981d97b31c9f57593bf4e7a45cbccefcf03f0476f8ca8525ecdc92331a51a0138d11932704145be7d'
         'SKIP'
         '890b835f27995fd3eff512d035140b01efa5d14475dd2dfee2f9c0046e42ecf462a30a5fd2d0c79d4c6aa50144a186f018037d0ebd049deca88c8abe40ee0d8d')
 
