@@ -1,0 +1,67 @@
+# Maintainer: Tejun Heo <tj@kernel.org>
+# Maintainer: Peter Jung ptr1337 <admin@ptr1337.dev>
+# Maintainer: Piotr Górski <lucjan.lucjanov@gmail.com>
+
+pkgname=scx-scheds
+_gitname=scx
+pkgver=1.0.11
+pkgrel=1.6
+pkgdesc='sched_ext schedulers and tools'
+url='https://github.com/sched-ext/scx'
+arch=('x86_64')
+license=('GPL-2.0-only')
+depends=('libelf' 'zlib' 'jq')
+makedepends=('git' 'python' 'meson' 'clang' 'llvm' 'llvm-libs' 'rust')
+backup=('etc/default/scx')
+options=(!lto)
+provides=("scxctl")
+conflicts=("scxctl")
+source=("git+https://github.com/sched-ext/scx?signed#tag=v$pkgver")
+sha256sums=('3111fe5c616cfd72d4eeeceec3dd1e3ce985b22d7ea780224f5ee448b9ae6322')
+validpgpkeys=(
+  697C63013E65270255EBC2608744DC1EB26B5A9A  # Tejun Heo <tj@kernel.org>
+  F5504C7B7B8107B40EF9E97AA1148BB3207BCC33  # David Vernet
+)
+
+_backports=(
+f74e646ed30ae6a4030c38d588554ce86843396d # rust: set lto to thin
+)
+
+_reverts=(
+)
+
+prepare() {
+ cd $_gitname
+
+ local _c _l
+  for _c in "${_backports[@]}"; do
+    if [[ "${_c}" == *..* ]]; then _l='--reverse'; else _l='--max-count=1'; fi
+    git log --oneline "${_l}" "${_c}"
+    git cherry-pick --mainline 1 --no-commit "${_c}"
+  done
+  for _c in "${_reverts[@]}"; do
+    if [[ "${_c}" == *..* ]]; then _l='--reverse'; else _l='--max-count=1'; fi
+    git log --oneline "${_l}" "${_c}"
+    git revert --mainline 1 --no-commit "${_c}"
+  done
+
+  local src
+  for src in "${source[@]}"; do
+    src="${src%%::*}"
+    src="${src##*/}"
+    [[ $src = *.patch ]] || continue
+    echo "Applying patch $src..."
+    patch -Np1 < "../$src"
+  done
+}
+
+build() {
+  cd $_gitname
+  arch-meson . build -D openrc=disabled -D cargo_home="$srcdir"/scx
+  meson compile -C build
+}
+
+package() {
+  cd $_gitname
+  meson install -C build --destdir "${pkgdir}"
+}
